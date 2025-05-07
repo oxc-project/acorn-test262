@@ -4,8 +4,8 @@
  * Port of Rust implementation from oxc/tasks/coverage/src/typescript/meta.rs
  */
 
-const path = require("path");
-const fs = require("fs");
+const path = require('path');
+const fs = require('fs');
 
 // Regex patterns equivalent to the Rust version
 const META_OPTIONS_REGEX = /^\/\/\s*@(\w+)\s*:\s*([^\r\n]*)/gm;
@@ -17,8 +17,8 @@ const META_OPTIONS_REGEX = /^\/\/\s*@(\w+)\s*:\s*([^\r\n]*)/gm;
  * @returns {boolean}
  */
 function valueToBoolean(value, defaultValue) {
-  if (value === "true") return true;
-  if (value === "false") return false;
+  if (value === 'true') return true;
+  if (value === 'false') return false;
   return defaultValue;
 }
 
@@ -29,7 +29,7 @@ function valueToBoolean(value, defaultValue) {
  */
 function splitValueOptions(value) {
   if (!value) return [];
-  return value.split(",").map(s => s.trim().toLowerCase());
+  return value.split(',').map(s => s.trim().toLowerCase());
 }
 
 /**
@@ -39,29 +39,29 @@ function splitValueOptions(value) {
  */
 function createCompilerSettings(options) {
   return {
-    modules: splitValueOptions(options.get("module")),
-    targets: splitValueOptions(options.get("target")),
-    strict: valueToBoolean(options.get("strict"), false),
-    jsx: splitValueOptions(options.get("jsx")),
-    declaration: valueToBoolean(options.get("declaration"), false),
-    emitDeclarationOnly: valueToBoolean(options.get("emitdeclarationonly"), false),
-    alwaysStrict: valueToBoolean(options.get("alwaysstrict"), false),
-    allowUnreachableCode: valueToBoolean(options.get("allowunreachablecode"), true),
-    allowUnusedLabels: valueToBoolean(options.get("allowunusedlabels"), true),
-    noFallthroughCasesInSwitch: valueToBoolean(options.get("nofallthroughcasesinswitch"), false),
+    modules: splitValueOptions(options.get('module')),
+    targets: splitValueOptions(options.get('target')),
+    strict: valueToBoolean(options.get('strict'), false),
+    jsx: splitValueOptions(options.get('jsx')),
+    declaration: valueToBoolean(options.get('declaration'), false),
+    emitDeclarationOnly: valueToBoolean(options.get('emitdeclarationonly'), false),
+    alwaysStrict: valueToBoolean(options.get('alwaysstrict'), false),
+    allowUnreachableCode: valueToBoolean(options.get('allowunreachablecode'), true),
+    allowUnusedLabels: valueToBoolean(options.get('allowunusedlabels'), true),
+    noFallthroughCasesInSwitch: valueToBoolean(options.get('nofallthroughcasesinswitch'), false),
   };
 }
 
 // Mapping from file extension to source type
 const EXTENSIONS = {
-  ".js": { typescript: false, jsx: false, module: true },
-  ".mjs": { typescript: false, jsx: false, module: true },
-  ".cjs": { typescript: false, jsx: false, module: false },
-  ".jsx": { typescript: false, jsx: true, module: true },
-  ".ts": { typescript: true, jsx: false, module: true },
-  ".mts": { typescript: true, jsx: false, module: true },
-  ".cts": { typescript: true, jsx: false, module: false },
-  ".tsx": { typescript: true, jsx: true, module: true },
+  '.js': { typescript: false, jsx: false, module: true },
+  '.mjs': { typescript: false, jsx: false, module: true },
+  '.cjs': { typescript: false, jsx: false, module: false },
+  '.jsx': { typescript: false, jsx: true, module: true },
+  '.ts': { typescript: true, jsx: false, module: true },
+  '.mts': { typescript: true, jsx: false, module: true },
+  '.cts': { typescript: true, jsx: false, module: false },
+  '.tsx': { typescript: true, jsx: true, module: true },
 };
 
 /**
@@ -93,10 +93,10 @@ function getSourceType(filePath, options) {
  */
 function getErrorFiles(filePath, options) {
   const fileName = path.basename(filePath, path.extname(filePath));
-  const root = path.join(process.cwd(), "typescript/tests/baselines/reference");
+  const root = path.join(process.cwd(), 'typescript/tests/baselines/reference');
 
   const suffixes = [
-    "",
+    '',
     ...options.modules.map(module => `(module=${module})`),
     ...options.targets.map(target => `(target=${target})`),
     ...options.jsx.map(jsx => `(jsx=${jsx})`),
@@ -108,7 +108,7 @@ function getErrorFiles(filePath, options) {
     const errorPath = path.join(root, `${fileName}${suffix}.errors.txt`);
     try {
       if (fs.existsSync(errorPath)) {
-        const errorFile = fs.readFileSync(errorPath, "utf8");
+        const errorFile = fs.readFileSync(errorPath, 'utf8');
         errorFiles.push(errorFile);
       }
     } catch (e) {
@@ -129,11 +129,11 @@ function makeUnitsFromTest(filePath, code) {
   const currentFileOptions = new Map();
   let currentFileName = null;
   const testUnitData = [];
-  let currentFileContent = "";
+  let currentFileContent = '';
 
   // Process the file line by line
   const lines = code.split(/\r?\n/);
-  if (lines[lines.length - 1] === "") lines.length--;
+  if (lines[lines.length - 1] === '') lines.length--;
 
   for (const line of lines) {
     // Reset regex state
@@ -144,14 +144,14 @@ function makeUnitsFromTest(filePath, code) {
       const metaName = match[1].toLowerCase();
       const metaValue = match[2].trim();
 
-      if (metaName === "filename") {
+      if (metaName === 'filename') {
         if (currentFileName !== null) {
           testUnitData.push({
             name: currentFileName,
             content: currentFileContent,
             sourceType: null, // Will be set later
           });
-          currentFileContent = "";
+          currentFileContent = '';
         }
         currentFileName = metaValue;
       } else {
@@ -159,7 +159,7 @@ function makeUnitsFromTest(filePath, code) {
       }
     } else {
       if (currentFileContent.length > 0) {
-        currentFileContent += "\n";
+        currentFileContent += '\n';
       }
       currentFileContent += line;
     }
