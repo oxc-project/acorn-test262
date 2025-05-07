@@ -1,11 +1,11 @@
-import * as acorn from "acorn";
-import fs from "node:fs";
-import path from "node:path";
-import acornJsx from "./acorn-jsx/index.js";
+import * as acorn from 'acorn';
+import fs from 'node:fs';
+import path from 'node:path';
+import acornJsx from './acorn-jsx/index.js';
 
 function collectTests() {
   // evaluate tester and collect tests
-  const testCode = fs.readFileSync("./acorn-jsx/test/tests-jsx.js", "utf-8");
+  const testCode = fs.readFileSync('./acorn-jsx/test/tests-jsx.js', 'utf-8');
   const testCodeFn = `
 var __tests = [];
 var test = (...args) => __tests.push(args);
@@ -23,7 +23,7 @@ async function main() {
   const tests = collectTests();
 
   // cleanup
-  const baseDir = "test-acorn-jsx";
+  const baseDir = 'test-acorn-jsx';
   fs.rmSync(baseDir, { recursive: true, force: true });
   fs.mkdirSync(baseDir, { recursive: true });
 
@@ -35,8 +35,8 @@ async function main() {
     let result;
     try {
       const ast = Parser.parse(code, {
-        ecmaVersion: "latest",
-        sourceType: "module",
+        ecmaVersion: 'latest',
+        sourceType: 'module',
         preserveParens: true,
         allowHashBang: true,
         allowReturnOutsideFunction: true,
@@ -47,11 +47,11 @@ async function main() {
       result = { ok: false, value: JSON.stringify(e.message) };
     }
 
-    const name = String(i).padStart(3, "0");
-    const dir = path.join(baseDir, result.ok ? "pass" : "fail");
+    const name = String(i).padStart(3, '0');
+    const dir = path.join(baseDir, result.ok ? 'pass' : 'fail');
     fs.mkdirSync(dir, { recursive: true, force: true });
-    fs.writeFileSync(path.join(dir, name + ".jsx"), code);
-    fs.writeFileSync(path.join(dir, name + ".json"), result.value);
+    fs.writeFileSync(path.join(dir, name + '.jsx'), code);
+    fs.writeFileSync(path.join(dir, name + '.json'), result.value);
   }
 }
 
