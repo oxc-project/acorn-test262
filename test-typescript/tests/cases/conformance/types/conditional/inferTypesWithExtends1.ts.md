@@ -6557,7 +6557,7 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           },
           "nameType": null,
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSLiteralType",
@@ -6715,7 +6715,7 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           },
           "nameType": null,
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSLiteralType",
@@ -6917,7 +6917,7 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSLiteralType",
@@ -7089,7 +7089,7 @@ __ESTREE_TEST__:PASS:
               "out": false
             }
           },
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSLiteralType",

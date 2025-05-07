@@ -352,7 +352,7 @@ __ESTREE_TEST__:PASS:
                 "end": 203
               }
             },
-            "optional": null,
+            "optional": false,
             "readonly": null,
             "typeAnnotation": {
               "type": "TSIndexedAccessType",
