@@ -112,7 +112,7 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               },
-              "optional": null,
+              "optional": false,
               "readonly": null,
               "typeAnnotation": {
                 "type": "TSFunctionType",
@@ -612,7 +612,7 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               },
-              "optional": null,
+              "optional": false,
               "readonly": null,
               "typeAnnotation": {
                 "type": "TSFunctionType",

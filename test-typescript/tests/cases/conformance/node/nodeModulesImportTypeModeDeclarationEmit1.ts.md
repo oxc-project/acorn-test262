@@ -148,7 +148,7 @@ __ESTREE_TEST__:PASS:
                       "start": 51,
                       "end": 57,
                       "decorators": [],
-                      "name": "with",
+                      "name": "assert",
                       "optional": false,
                       "typeAnnotation": null
                     },
@@ -232,7 +232,7 @@ __ESTREE_TEST__:PASS:
                       "start": 132,
                       "end": 138,
                       "decorators": [],
-                      "name": "with",
+                      "name": "assert",
                       "optional": false,
                       "typeAnnotation": null
                     },
@@ -369,7 +369,7 @@ __ESTREE_TEST__:PASS:
                         "start": 240,
                         "end": 246,
                         "decorators": [],
-                        "name": "with",
+                        "name": "assert",
                         "optional": false,
                         "typeAnnotation": null
                       },
@@ -508,7 +508,7 @@ __ESTREE_TEST__:PASS:
                         "start": 350,
                         "end": 356,
                         "decorators": [],
-                        "name": "with",
+                        "name": "assert",
                         "optional": false,
                         "typeAnnotation": null
                       },

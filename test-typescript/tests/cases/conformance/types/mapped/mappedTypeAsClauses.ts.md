@@ -130,7 +130,7 @@ __ESTREE_TEST__:PASS:
             }
           ]
         },
-        "optional": null,
+        "optional": false,
         "readonly": null,
         "typeAnnotation": {
           "type": "TSFunctionType",
@@ -598,7 +598,7 @@ __ESTREE_TEST__:PASS:
             }
           }
         },
-        "optional": null,
+        "optional": false,
         "readonly": null,
         "typeAnnotation": {
           "type": "TSIndexedAccessType",
@@ -1180,7 +1180,7 @@ __ESTREE_TEST__:PASS:
             }
           }
         },
-        "optional": null,
+        "optional": false,
         "readonly": null,
         "typeAnnotation": {
           "type": "TSIndexedAccessType",
@@ -1568,7 +1568,7 @@ __ESTREE_TEST__:PASS:
             }
           ]
         },
-        "optional": null,
+        "optional": false,
         "readonly": null,
         "typeAnnotation": {
           "type": "TSIndexedAccessType",
@@ -2082,7 +2082,7 @@ __ESTREE_TEST__:PASS:
             }
           ]
         },
-        "optional": null,
+        "optional": false,
         "readonly": null,
         "typeAnnotation": {
           "type": "TSFunctionType",
@@ -2526,7 +2526,7 @@ __ESTREE_TEST__:PASS:
             }
           }
         },
-        "optional": null,
+        "optional": false,
         "readonly": null,
         "typeAnnotation": {
           "type": "TSIndexedAccessType",
@@ -3346,7 +3346,7 @@ __ESTREE_TEST__:PASS:
             }
           }
         },
-        "optional": null,
+        "optional": false,
         "readonly": null,
         "typeAnnotation": {
           "type": "TSIndexedAccessType",
@@ -4282,7 +4282,7 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSAnyKeyword",
@@ -4502,7 +4502,7 @@ __ESTREE_TEST__:PASS:
               "typeAnnotation": null
             }
           },
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSAnyKeyword",
@@ -4717,7 +4717,7 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         },
-        "optional": null,
+        "optional": false,
         "readonly": null,
         "typeAnnotation": {
           "type": "TSAnyKeyword",
@@ -5421,7 +5421,7 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSIndexedAccessType",
@@ -5941,7 +5941,7 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSStringKeyword",
@@ -6109,7 +6109,7 @@ __ESTREE_TEST__:PASS:
               "typeAnnotation": null
             }
           },
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSStringKeyword",
@@ -6263,7 +6263,7 @@ __ESTREE_TEST__:PASS:
               }
             ]
           },
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSStringKeyword",
@@ -6431,7 +6431,7 @@ __ESTREE_TEST__:PASS:
               "typeAnnotation": null
             }
           },
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSStringKeyword",
@@ -6583,7 +6583,7 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSStringKeyword",
@@ -6735,7 +6735,7 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSStringKeyword",
@@ -6901,7 +6901,7 @@ __ESTREE_TEST__:PASS:
               }
             ]
           },
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSStringKeyword",
@@ -7093,7 +7093,7 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSStringKeyword",
@@ -7247,7 +7247,7 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSStringKeyword",
@@ -7392,7 +7392,7 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSStringKeyword",
@@ -7595,7 +7595,7 @@ __ESTREE_TEST__:PASS:
               "typeAnnotation": null
             }
           },
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSStringKeyword",
@@ -7819,7 +7819,7 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSStringKeyword",
@@ -8035,7 +8035,7 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               },
-              "optional": null,
+              "optional": false,
               "readonly": null,
               "typeAnnotation": {
                 "type": "TSLiteralType",
@@ -8051,7 +8051,7 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSStringKeyword",
@@ -8511,7 +8511,7 @@ __ESTREE_TEST__:PASS:
             }
           ]
         },
-        "optional": null,
+        "optional": false,
         "readonly": null,
         "typeAnnotation": {
           "type": "TSUnknownKeyword",
@@ -8784,7 +8784,7 @@ __ESTREE_TEST__:PASS:
               }
             ]
           },
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSUnknownKeyword",

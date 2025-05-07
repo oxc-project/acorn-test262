@@ -509,7 +509,7 @@ __ESTREE_TEST__:PASS:
                         "typeAnnotation": null
                       },
                       "nameType": null,
-                      "optional": null,
+                      "optional": false,
                       "readonly": null,
                       "typeAnnotation": {
                         "type": "TSMappedType",
@@ -540,7 +540,7 @@ __ESTREE_TEST__:PASS:
                           "typeAnnotation": null
                         },
                         "nameType": null,
-                        "optional": null,
+                        "optional": false,
                         "readonly": null,
                         "typeAnnotation": {
                           "type": "TSTemplateLiteralType",

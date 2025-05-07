@@ -177,7 +177,7 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           },
           "nameType": null,
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSTypeLiteral",
@@ -1541,7 +1541,7 @@ __ESTREE_TEST__:PASS:
           "typeAnnotation": null
         },
         "nameType": null,
-        "optional": null,
+        "optional": false,
         "readonly": null,
         "typeAnnotation": {
           "type": "TSTypeReference",
@@ -2198,7 +2198,7 @@ __ESTREE_TEST__:PASS:
           "typeAnnotation": null
         },
         "nameType": null,
-        "optional": null,
+        "optional": false,
         "readonly": null,
         "typeAnnotation": {
           "type": "TSFunctionType",
@@ -2529,7 +2529,7 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           },
           "nameType": null,
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSTypeLiteral",
@@ -3516,7 +3516,7 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           },
           "nameType": null,
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSTypeLiteral",
@@ -4546,7 +4546,7 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           },
           "nameType": null,
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSTypeLiteral",
@@ -6391,7 +6391,7 @@ __ESTREE_TEST__:PASS:
                         "typeAnnotation": null
                       },
                       "nameType": null,
-                      "optional": null,
+                      "optional": false,
                       "readonly": null,
                       "typeAnnotation": {
                         "type": "TSFunctionType",
@@ -7303,7 +7303,7 @@ __ESTREE_TEST__:PASS:
           "typeAnnotation": null
         },
         "nameType": null,
-        "optional": null,
+        "optional": false,
         "readonly": null,
         "typeAnnotation": {
           "type": "TSTypeReference",
@@ -9603,7 +9603,7 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSTypeReference",
@@ -9978,7 +9978,7 @@ __ESTREE_TEST__:PASS:
           "typeAnnotation": null
         },
         "nameType": null,
-        "optional": null,
+        "optional": false,
         "readonly": null,
         "typeAnnotation": {
           "type": "TSIndexedAccessType",
@@ -10419,7 +10419,7 @@ __ESTREE_TEST__:PASS:
           "typeAnnotation": null
         },
         "nameType": null,
-        "optional": null,
+        "optional": false,
         "readonly": null,
         "typeAnnotation": {
           "type": "TSMappedType",
@@ -10476,7 +10476,7 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           },
           "nameType": null,
-          "optional": null,
+          "optional": false,
           "readonly": null,
           "typeAnnotation": {
             "type": "TSNumberKeyword",

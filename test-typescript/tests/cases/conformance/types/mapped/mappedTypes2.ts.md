@@ -303,7 +303,7 @@ __ESTREE_TEST__:PASS:
                         "typeAnnotation": null
                       },
                       "nameType": null,
-                      "optional": null,
+                      "optional": false,
                       "readonly": true,
                       "typeAnnotation": {
                         "type": "TSIndexedAccessType",
@@ -479,7 +479,7 @@ __ESTREE_TEST__:PASS:
                         "typeAnnotation": null
                       },
                       "nameType": null,
-                      "optional": null,
+                      "optional": false,
                       "readonly": null,
                       "typeAnnotation": {
                         "type": "TSIndexedAccessType",
@@ -655,7 +655,7 @@ __ESTREE_TEST__:PASS:
                         "typeAnnotation": null
                       },
                       "nameType": null,
-                      "optional": null,
+                      "optional": false,
                       "readonly": null,
                       "typeAnnotation": {
                         "type": "TSTypeReference",
@@ -982,7 +982,7 @@ __ESTREE_TEST__:PASS:
           "typeAnnotation": null
         },
         "nameType": null,
-        "optional": null,
+        "optional": false,
         "readonly": null,
         "typeAnnotation": {
           "type": "TSTypeReference",
@@ -1117,7 +1117,7 @@ __ESTREE_TEST__:PASS:
           "typeAnnotation": null
         },
         "nameType": null,
-        "optional": null,
+        "optional": false,
         "readonly": true,
         "typeAnnotation": {
           "type": "TSTypeReference",

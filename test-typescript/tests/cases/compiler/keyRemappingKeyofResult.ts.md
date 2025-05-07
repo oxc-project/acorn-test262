@@ -356,7 +356,7 @@ __ESTREE_TEST__:PASS:
             "end": 234
           }
         },
-        "optional": null,
+        "optional": false,
         "readonly": null,
         "typeAnnotation": {
           "type": "TSAnyKeyword",
@@ -969,7 +969,7 @@ __ESTREE_TEST__:PASS:
                   "end": 892
                 }
               },
-              "optional": null,
+              "optional": false,
               "readonly": null,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
@@ -1811,7 +1811,7 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               },
-              "optional": null,
+              "optional": false,
               "readonly": null,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
