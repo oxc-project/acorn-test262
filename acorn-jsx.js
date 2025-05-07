@@ -2,6 +2,7 @@ import * as acorn from 'acorn';
 import fs from 'node:fs';
 import path from 'node:path';
 import acornJsx from './acorn-jsx/index.js';
+import { jsonStringifyAcorn } from './utils/json.js';
 
 function collectTests() {
   // evaluate tester and collect tests
@@ -41,8 +42,7 @@ async function main() {
         allowHashBang: true,
         allowReturnOutsideFunction: true,
       });
-      ast.hashbang = null;
-      result = { ok: true, value: JSON.stringify(ast, null, 2) };
+      result = { ok: true, value: jsonStringifyAcorn(ast) };
     } catch (e) {
       result = { ok: false, value: JSON.stringify(e.message) };
     }
