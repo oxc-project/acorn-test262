@@ -23,7 +23,8 @@
           "start": 1369,
           "end": 1371,
           "properties": []
-        }
+        },
+        "phase": null
       },
       "body": {
         "type": "BlockStatement",

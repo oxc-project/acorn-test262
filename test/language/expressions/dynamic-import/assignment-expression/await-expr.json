@@ -108,7 +108,8 @@
                         "name": "a"
                       }
                     },
-                    "options": null
+                    "options": null,
+                    "phase": null
                   }
                 }
               }
@@ -265,7 +266,8 @@
                         "name": "b"
                       }
                     },
-                    "options": null
+                    "options": null,
+                    "phase": null
                   }
                 }
               }

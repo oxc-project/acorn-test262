@@ -122,7 +122,8 @@
                       "value": "./imported-self-update.js",
                       "raw": "'./imported-self-update.js'"
                     },
-                    "options": null
+                    "options": null,
+                    "phase": null
                   }
                 }
               }

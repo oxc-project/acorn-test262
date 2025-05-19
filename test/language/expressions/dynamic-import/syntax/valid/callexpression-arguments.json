@@ -70,7 +70,8 @@
                         "value": "./empty_FIXTURE.js",
                         "raw": "'./empty_FIXTURE.js'"
                       },
-                      "options": null
+                      "options": null,
+                      "phase": null
                     },
                     "arguments": [],
                     "optional": false
@@ -157,7 +158,8 @@
                         "value": "./empty_FIXTURE.js",
                         "raw": "'./empty_FIXTURE.js'"
                       },
-                      "options": null
+                      "options": null,
+                      "phase": null
                     },
                     "arguments": [
                       {
@@ -252,7 +254,8 @@
                         "value": "./empty_FIXTURE.js",
                         "raw": "'./empty_FIXTURE.js'"
                       },
-                      "options": null
+                      "options": null,
+                      "phase": null
                     },
                     "arguments": [
                       {
@@ -354,7 +357,8 @@
                         "value": "./empty_FIXTURE.js",
                         "raw": "'./empty_FIXTURE.js'"
                       },
-                      "options": null
+                      "options": null,
+                      "phase": null
                     },
                     "arguments": [
                       {

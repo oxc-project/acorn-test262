@@ -108,7 +108,8 @@
                     }
                   ]
                 },
-                "options": null
+                "options": null,
+                "phase": null
               },
               "property": {
                 "type": "Identifier",

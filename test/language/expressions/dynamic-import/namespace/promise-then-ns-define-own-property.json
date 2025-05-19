@@ -129,7 +129,8 @@
                       "value": "./define-own-property_FIXTURE.js",
                       "raw": "'./define-own-property_FIXTURE.js'"
                     },
-                    "options": null
+                    "options": null,
+                    "phase": null
                   },
                   "property": {
                     "type": "Identifier",

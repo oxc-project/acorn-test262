@@ -52,7 +52,8 @@
                       "value": "./own-keys-sort_FIXTURE.js",
                       "raw": "'./own-keys-sort_FIXTURE.js'"
                     },
-                    "options": null
+                    "options": null,
+                    "phase": null
                   }
                 }
               }

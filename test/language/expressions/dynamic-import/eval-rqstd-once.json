@@ -95,7 +95,8 @@
                           "value": "./eval-rqstd-once_FIXTURE.js",
                           "raw": "'./eval-rqstd-once_FIXTURE.js'"
                         },
-                        "options": null
+                        "options": null,
+                        "phase": null
                       },
                       {
                         "type": "ImportExpression",
@@ -108,7 +109,8 @@
                           "value": "./eval-rqstd-once_FIXTURE.js",
                           "raw": "'./eval-rqstd-once_FIXTURE.js'"
                         },
-                        "options": null
+                        "options": null,
+                        "phase": null
                       }
                     ]
                   }
@@ -158,7 +160,8 @@
                             "value": "./eval-rqstd-once_FIXTURE.js",
                             "raw": "'./eval-rqstd-once_FIXTURE.js'"
                           },
-                          "options": null
+                          "options": null,
+                          "phase": null
                         }
                       }
                     },
@@ -181,7 +184,8 @@
                             "value": "./eval-rqstd-once_FIXTURE.js",
                             "raw": "'./eval-rqstd-once_FIXTURE.js'"
                           },
-                          "options": null
+                          "options": null,
+                          "phase": null
                         }
                       }
                     },

@@ -79,7 +79,8 @@
                   "value": "./await-import-evaluation_FIXTURE.js",
                   "raw": "'./await-import-evaluation_FIXTURE.js'"
                 },
-                "options": null
+                "options": null,
+                "phase": null
               },
               "property": {
                 "type": "Identifier",

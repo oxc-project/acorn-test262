@@ -37,7 +37,8 @@
             "value": "./module-graphs-grandparent-tla_FIXTURE.js",
             "raw": "\"./module-graphs-grandparent-tla_FIXTURE.js\""
           },
-          "options": null
+          "options": null,
+          "phase": null
         }
       }
     },

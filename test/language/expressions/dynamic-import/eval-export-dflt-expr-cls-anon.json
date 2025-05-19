@@ -109,7 +109,8 @@
                       "value": "./eval-export-dflt-expr-cls-anon.js",
                       "raw": "'./eval-export-dflt-expr-cls-anon.js'"
                     },
-                    "options": null
+                    "options": null,
+                    "phase": null
                   },
                   "property": {
                     "type": "Identifier",

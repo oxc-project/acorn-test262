@@ -68,7 +68,8 @@
                           "start": 1250,
                           "end": 1252,
                           "properties": []
-                        }
+                        },
+                        "phase": null
                       },
                       {
                         "type": "ImportExpression",
@@ -108,7 +109,8 @@
                               "kind": "init"
                             }
                           ]
-                        }
+                        },
+                        "phase": null
                       }
                     ]
                   }

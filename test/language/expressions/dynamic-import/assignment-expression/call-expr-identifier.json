@@ -156,7 +156,8 @@
                       "computed": false,
                       "optional": false
                     },
-                    "options": null
+                    "options": null,
+                    "phase": null
                   }
                 }
               }
@@ -328,7 +329,8 @@
                       "computed": false,
                       "optional": false
                     },
-                    "options": null
+                    "options": null,
+                    "phase": null
                   }
                 }
               }

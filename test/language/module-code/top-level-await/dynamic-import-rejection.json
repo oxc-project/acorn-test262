@@ -34,7 +34,8 @@
                   "value": "./module-import-rejection_FIXTURE.js",
                   "raw": "'./module-import-rejection_FIXTURE.js'"
                 },
-                "options": null
+                "options": null,
+                "phase": null
               },
               "property": {
                 "type": "Identifier",

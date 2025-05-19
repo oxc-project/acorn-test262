@@ -79,7 +79,8 @@
                             "value": "./throws_FIXTURE.js",
                             "raw": "\"./throws_FIXTURE.js\""
                           },
-                          "options": null
+                          "options": null,
+                          "phase": null
                         },
                         "property": {
                           "type": "Identifier",
@@ -253,7 +254,8 @@
                             "value": "./import-defer-throws_FIXTURE.js",
                             "raw": "\"./import-defer-throws_FIXTURE.js\""
                           },
-                          "options": null
+                          "options": null,
+                          "phase": null
                         }
                       }
                     }

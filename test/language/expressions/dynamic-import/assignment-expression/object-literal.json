@@ -147,7 +147,8 @@
                         }
                       ]
                     },
-                    "options": null
+                    "options": null,
+                    "phase": null
                   }
                 }
               }
@@ -358,7 +359,8 @@
                       "end": 1192,
                       "properties": []
                     },
-                    "options": null
+                    "options": null,
+                    "phase": null
                   }
                 }
               }

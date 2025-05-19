@@ -95,7 +95,8 @@
                   "raw": "42"
                 }
               },
-              "options": null
+              "options": null,
+              "phase": null
             }
           }
         ]

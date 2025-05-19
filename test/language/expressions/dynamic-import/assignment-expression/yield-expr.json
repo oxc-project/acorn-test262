@@ -89,7 +89,8 @@
                 "delegate": false,
                 "argument": null
               },
-              "options": null
+              "options": null,
+              "phase": null
             }
           }
         ]

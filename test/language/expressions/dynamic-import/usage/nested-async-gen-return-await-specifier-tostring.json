@@ -110,7 +110,8 @@
                   "end": 1887,
                   "name": "obj"
                 },
-                "options": null
+                "options": null,
+                "phase": null
               }
             }
           }

@@ -22,7 +22,8 @@
             "value": "./module-import-rejection-body_FIXTURE.js",
             "raw": "'./module-import-rejection-body_FIXTURE.js'"
           },
-          "options": null
+          "options": null,
+          "phase": null
         }
       }
     },

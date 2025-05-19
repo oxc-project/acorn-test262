@@ -52,7 +52,8 @@
                       "value": "./custom-tostring_FIXTURE.js",
                       "raw": "'./custom-tostring_FIXTURE.js'"
                     },
-                    "options": null
+                    "options": null,
+                    "phase": null
                   }
                 }
               }
@@ -89,7 +90,8 @@
                       "value": "./custom-valueof_FIXTURE.js",
                       "raw": "'./custom-valueof_FIXTURE.js'"
                     },
-                    "options": null
+                    "options": null,
+                    "phase": null
                   }
                 }
               }

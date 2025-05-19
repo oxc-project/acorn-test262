@@ -130,7 +130,8 @@
                       "arguments": [],
                       "optional": false
                     },
-                    "options": null
+                    "options": null,
+                    "phase": null
                   }
                 }
               }
@@ -289,7 +290,8 @@
                       "arguments": [],
                       "optional": false
                     },
-                    "options": null
+                    "options": null,
+                    "phase": null
                   }
                 }
               }

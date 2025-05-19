@@ -53,7 +53,8 @@
                         "value": "./THIS_FILE_DOES_NOT_EXIST.js",
                         "raw": "'./THIS_FILE_DOES_NOT_EXIST.js'"
                       },
-                      "options": null
+                      "options": null,
+                      "phase": null
                     },
                     "property": {
                       "type": "Identifier",

@@ -84,7 +84,8 @@
                 "value": "./empty_FIXTURE.js",
                 "raw": "'./empty_FIXTURE.js'"
               },
-              "options": null
+              "options": null,
+              "phase": null
             }
           }
         ]

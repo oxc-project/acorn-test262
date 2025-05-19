@@ -42,7 +42,8 @@
                       "value": "./get-nested-namespace-dflt-skip-named_FIXTURE.js",
                       "raw": "'./get-nested-namespace-dflt-skip-named_FIXTURE.js'"
                     },
-                    "options": null
+                    "options": null,
+                    "phase": null
                   },
                   "property": {
                     "type": "Identifier",

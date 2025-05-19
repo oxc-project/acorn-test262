@@ -63,7 +63,8 @@
                     "value": "./for-await-resolution-and-error-a_FIXTURE.js",
                     "raw": "'./for-await-resolution-and-error-a_FIXTURE.js'"
                   },
-                  "options": null
+                  "options": null,
+                  "phase": null
                 },
                 {
                   "type": "ImportExpression",
@@ -76,7 +77,8 @@
                     "value": "./for-await-resolution-and-error-b_FIXTURE.js",
                     "raw": "'./for-await-resolution-and-error-b_FIXTURE.js'"
                   },
-                  "options": null
+                  "options": null,
+                  "phase": null
                 },
                 {
                   "type": "ImportExpression",
@@ -89,7 +91,8 @@
                     "value": "./for-await-resolution-and-error-poisoned_FIXTURE.js",
                     "raw": "'./for-await-resolution-and-error-poisoned_FIXTURE.js'"
                   },
-                  "options": null
+                  "options": null,
+                  "phase": null
                 }
               ]
             },

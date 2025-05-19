@@ -86,7 +86,8 @@
                       "value": "./eval-export-dflt-expr-gen-named.js",
                       "raw": "'./eval-export-dflt-expr-gen-named.js'"
                     },
-                    "options": null
+                    "options": null,
+                    "phase": null
                   },
                   "property": {
                     "type": "Identifier",

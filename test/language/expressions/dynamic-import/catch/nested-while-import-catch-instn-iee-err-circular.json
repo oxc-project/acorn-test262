@@ -100,7 +100,8 @@
                         "value": "./instn-iee-err-circular-1_FIXTURE.js",
                         "raw": "'./instn-iee-err-circular-1_FIXTURE.js'"
                       },
-                      "options": null
+                      "options": null,
+                      "phase": null
                     },
                     "property": {
                       "type": "Identifier",
