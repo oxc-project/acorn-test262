@@ -7,14 +7,14 @@ const INFINITY_REGEXP = new RegExp(`"${INFINITY_PLACEHOLDER}"`, 'g');
 // * Replace `Infinity` with `"__INFINITY__INFINITY__INFINITY__"` placeholder
 //   which will be replaced in JSON with `1e+400`.
 // * Sort RegExp `Literal`s' `regex.flags` property in alphabetical order, the way V8 does.
-// * Add `phase` field to `ImportDeclaration`.
+// * Add `phase` field to `ImportDeclaration` and `ImportExpression`.
 function transformerAcorn(_key, value) {
   if (typeof value === 'bigint') return null;
   if (value === Infinity) return INFINITY_PLACEHOLDER;
 
   if (typeof value !== 'object' || value === null || !Object.hasOwn(value, 'type')) return value;
 
-  if (value.type === 'ImportDeclaration') {
+  if (value.type === 'ImportDeclaration' || value.type === 'ImportExpression') {
     value.phase = null;
   } else if (value.type === 'Literal' && Object.hasOwn(value, 'regex')) {
     value.regex.flags = [...value.regex.flags].sort().join('');
@@ -26,7 +26,9 @@ function transformerAcorn(_key, value) {
 
 // Transformer for TS-ESLint AST.
 //
-// Makes the same changes as `acornTransformer`, and also converts location fields.
+// Makes the same changes as `acornTransformer`, but:
+// * Also converts location fields.
+// * Does not add `phase` field to `ImportExpression`.
 function transformerTs(_key, value) {
   if (typeof value === 'bigint') return null;
   if (value === Infinity) return INFINITY_PLACEHOLDER;
