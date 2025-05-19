@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 873,
+  "end": 890,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -120,7 +120,7 @@
     {
       "type": "TryStatement",
       "start": 355,
-      "end": 774,
+      "end": 791,
       "block": {
         "type": "BlockStatement",
         "start": 359,
@@ -192,7 +192,7 @@
       "handler": {
         "type": "CatchClause",
         "start": 417,
-        "end": 774,
+        "end": 791,
         "param": {
           "type": "Identifier",
           "start": 423,
@@ -202,7 +202,7 @@
         "body": {
           "type": "BlockStatement",
           "start": 428,
-          "end": 774,
+          "end": 791,
           "body": [
             {
               "type": "ExpressionStatement",
@@ -351,11 +351,11 @@
             {
               "type": "IfStatement",
               "start": 611,
-              "end": 772,
+              "end": 789,
               "test": {
                 "type": "BinaryExpression",
                 "start": 615,
-                "end": 687,
+                "end": 704,
                 "left": {
                   "type": "MemberExpression",
                   "start": 615,
@@ -379,35 +379,35 @@
                 "right": {
                   "type": "Literal",
                   "start": 631,
-                  "end": 687,
-                  "value": "descriptor value should be 2; object value should be 2",
-                  "raw": "'descriptor value should be 2; object value should be 2'"
+                  "end": 704,
+                  "value": "obj['prop'] descriptor value should be 2; obj['prop'] value should be 2",
+                  "raw": "\"obj['prop'] descriptor value should be 2; obj['prop'] value should be 2\""
                 }
               },
               "consequent": {
                 "type": "BlockStatement",
-                "start": 689,
-                "end": 772,
+                "start": 706,
+                "end": 789,
                 "body": [
                   {
                     "type": "ThrowStatement",
-                    "start": 695,
-                    "end": 768,
+                    "start": 712,
+                    "end": 785,
                     "argument": {
                       "type": "NewExpression",
-                      "start": 701,
-                      "end": 767,
+                      "start": 718,
+                      "end": 784,
                       "callee": {
                         "type": "Identifier",
-                        "start": 705,
-                        "end": 710,
+                        "start": 722,
+                        "end": 727,
                         "name": "Error"
                       },
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 711,
-                          "end": 766,
+                          "start": 728,
+                          "end": 783,
                           "value": "The error thrown did not define the specified message",
                           "raw": "'The error thrown did not define the specified message'"
                         }
@@ -425,51 +425,51 @@
     },
     {
       "type": "IfStatement",
-      "start": 776,
-      "end": 872,
+      "start": 793,
+      "end": 889,
       "test": {
         "type": "BinaryExpression",
-        "start": 780,
-        "end": 795,
+        "start": 797,
+        "end": 812,
         "left": {
           "type": "Identifier",
-          "start": 780,
-          "end": 785,
+          "start": 797,
+          "end": 802,
           "name": "threw"
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 790,
-          "end": 795,
+          "start": 807,
+          "end": 812,
           "value": false,
           "raw": "false"
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 797,
-        "end": 872,
+        "start": 814,
+        "end": 889,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 801,
-            "end": 870,
+            "start": 818,
+            "end": 887,
             "argument": {
               "type": "NewExpression",
-              "start": 807,
-              "end": 869,
+              "start": 824,
+              "end": 886,
               "callee": {
                 "type": "Identifier",
-                "start": 811,
-                "end": 816,
+                "start": 828,
+                "end": 833,
                 "name": "Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 817,
-                  "end": 868,
+                  "start": 834,
+                  "end": 885,
                   "value": "Expected a Test262Error, but no error was thrown.",
                   "raw": "'Expected a Test262Error, but no error was thrown.'"
                 }

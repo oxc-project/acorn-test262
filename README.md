@@ -41,11 +41,11 @@ pnpm run start
 git commit -m "update snapshots"
 
 # For acorn-jsx test suites
-pnpm run init-acorn-jsx
+pnpm run clone-acorn-jsx
 node acorn-jsx.js
 
 # For typescript-eslint test suites
-pnpm run init-typescript
+pnpm run clone-typescript
 node typescript-eslint.js
 ```
 

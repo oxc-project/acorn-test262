@@ -1,46 +1,46 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 978,
+  "end": 1191,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 722,
-      "end": 775,
+      "start": 896,
+      "end": 949,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 728,
-          "end": 774,
+          "start": 902,
+          "end": 948,
           "id": {
             "type": "Identifier",
-            "start": 728,
-            "end": 742,
+            "start": 902,
+            "end": 916,
             "name": "utcIdentifiers"
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 745,
-            "end": 774,
+            "start": 919,
+            "end": 948,
             "elements": [
               {
                 "type": "Literal",
-                "start": 746,
-                "end": 755,
+                "start": 920,
+                "end": 929,
                 "value": "Etc/GMT",
                 "raw": "\"Etc/GMT\""
               },
               {
                 "type": "Literal",
-                "start": 757,
-                "end": 766,
+                "start": 931,
+                "end": 940,
                 "value": "Etc/UTC",
                 "raw": "\"Etc/UTC\""
               },
               {
                 "type": "Literal",
-                "start": 768,
-                "end": 773,
+                "start": 942,
+                "end": 947,
                 "value": "GMT",
                 "raw": "\"GMT\""
               }
@@ -52,22 +52,22 @@
     },
     {
       "type": "ForOfStatement",
-      "start": 777,
-      "end": 977,
+      "start": 951,
+      "end": 1190,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 782,
-        "end": 796,
+        "start": 956,
+        "end": 970,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 788,
-            "end": 796,
+            "start": 962,
+            "end": 970,
             "id": {
               "type": "Identifier",
-              "start": 788,
-              "end": 796,
+              "start": 962,
+              "end": 970,
               "name": "timeZone"
             },
             "init": null
@@ -77,37 +77,37 @@
       },
       "right": {
         "type": "Identifier",
-        "start": 800,
-        "end": 814,
+        "start": 974,
+        "end": 988,
         "name": "utcIdentifiers"
       },
       "body": {
         "type": "BlockStatement",
-        "start": 816,
-        "end": 977,
+        "start": 990,
+        "end": 1190,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 820,
-            "end": 975,
+            "start": 994,
+            "end": 1188,
             "expression": {
               "type": "CallExpression",
-              "start": 820,
-              "end": 974,
+              "start": 994,
+              "end": 1187,
               "callee": {
                 "type": "MemberExpression",
-                "start": 820,
-                "end": 836,
+                "start": 994,
+                "end": 1010,
                 "object": {
                   "type": "Identifier",
-                  "start": 820,
-                  "end": 826,
+                  "start": 994,
+                  "end": 1000,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 827,
-                  "end": 836,
+                  "start": 1001,
+                  "end": 1010,
                   "name": "sameValue"
                 },
                 "computed": false,
@@ -116,34 +116,34 @@
               "arguments": [
                 {
                   "type": "MemberExpression",
-                  "start": 837,
-                  "end": 903,
+                  "start": 1016,
+                  "end": 1082,
                   "object": {
                     "type": "CallExpression",
-                    "start": 837,
-                    "end": 894,
+                    "start": 1016,
+                    "end": 1073,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 837,
-                      "end": 892,
+                      "start": 1016,
+                      "end": 1071,
                       "object": {
                         "type": "NewExpression",
-                        "start": 837,
-                        "end": 876,
+                        "start": 1016,
+                        "end": 1055,
                         "callee": {
                           "type": "MemberExpression",
-                          "start": 841,
-                          "end": 860,
+                          "start": 1020,
+                          "end": 1039,
                           "object": {
                             "type": "Identifier",
-                            "start": 841,
-                            "end": 845,
+                            "start": 1020,
+                            "end": 1024,
                             "name": "Intl"
                           },
                           "property": {
                             "type": "Identifier",
-                            "start": 846,
-                            "end": 860,
+                            "start": 1025,
+                            "end": 1039,
                             "name": "DateTimeFormat"
                           },
                           "computed": false,
@@ -152,32 +152,32 @@
                         "arguments": [
                           {
                             "type": "ArrayExpression",
-                            "start": 861,
-                            "end": 863,
+                            "start": 1040,
+                            "end": 1042,
                             "elements": []
                           },
                           {
                             "type": "ObjectExpression",
-                            "start": 865,
-                            "end": 875,
+                            "start": 1044,
+                            "end": 1054,
                             "properties": [
                               {
                                 "type": "Property",
-                                "start": 866,
-                                "end": 874,
+                                "start": 1045,
+                                "end": 1053,
                                 "method": false,
                                 "shorthand": true,
                                 "computed": false,
                                 "key": {
                                   "type": "Identifier",
-                                  "start": 866,
-                                  "end": 874,
+                                  "start": 1045,
+                                  "end": 1053,
                                   "name": "timeZone"
                                 },
                                 "value": {
                                   "type": "Identifier",
-                                  "start": 866,
-                                  "end": 874,
+                                  "start": 1045,
+                                  "end": 1053,
                                   "name": "timeZone"
                                 },
                                 "kind": "init"
@@ -188,8 +188,8 @@
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 877,
-                        "end": 892,
+                        "start": 1056,
+                        "end": 1071,
                         "name": "resolvedOptions"
                       },
                       "computed": false,
@@ -200,50 +200,49 @@
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 895,
-                    "end": 903,
+                    "start": 1074,
+                    "end": 1082,
                     "name": "timeZone"
                   },
                   "computed": false,
                   "optional": false
                 },
                 {
-                  "type": "Literal",
-                  "start": 905,
-                  "end": 910,
-                  "value": "UTC",
-                  "raw": "\"UTC\""
+                  "type": "Identifier",
+                  "start": 1088,
+                  "end": 1096,
+                  "name": "timeZone"
                 },
                 {
                   "type": "BinaryExpression",
-                  "start": 912,
-                  "end": 973,
+                  "start": 1102,
+                  "end": 1186,
                   "left": {
                     "type": "BinaryExpression",
-                    "start": 912,
-                    "end": 940,
+                    "start": 1102,
+                    "end": 1130,
                     "left": {
                       "type": "Literal",
-                      "start": 912,
-                      "end": 929,
+                      "start": 1102,
+                      "end": 1119,
                       "value": "Time zone name ",
                       "raw": "\"Time zone name \""
                     },
                     "operator": "+",
                     "right": {
                       "type": "Identifier",
-                      "start": 932,
-                      "end": 940,
+                      "start": 1122,
+                      "end": 1130,
                       "name": "timeZone"
                     }
                   },
                   "operator": "+",
                   "right": {
                     "type": "Literal",
-                    "start": 943,
-                    "end": 973,
-                    "value": " not canonicalized to 'UTC'.",
-                    "raw": "\" not canonicalized to 'UTC'.\""
+                    "start": 1133,
+                    "end": 1186,
+                    "value": " should be preserved and not canonicalized to 'UTC'",
+                    "raw": "\" should be preserved and not canonicalized to 'UTC'\""
                   }
                 }
               ],

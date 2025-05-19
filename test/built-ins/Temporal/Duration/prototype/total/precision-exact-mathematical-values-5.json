@@ -833,8 +833,8 @@
                 "type": "Literal",
                 "start": 1398,
                 "end": 1502,
-                "value": "BalanceTimeDuration should implement floating-point calculation correctly for largestUnit milliseconds",
-                "raw": "\"BalanceTimeDuration should implement floating-point calculation correctly for largestUnit milliseconds\""
+                "value": "BalanceTimeDuration should implement floating-point calculation correctly for largestUnit microseconds",
+                "raw": "\"BalanceTimeDuration should implement floating-point calculation correctly for largestUnit microseconds\""
               }
             ],
             "optional": false

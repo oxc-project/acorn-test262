@@ -1,0 +1,228 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 757,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 488,
+      "end": 756,
+      "expression": {
+        "type": "CallExpression",
+        "start": 488,
+        "end": 756,
+        "callee": {
+          "type": "Identifier",
+          "start": 488,
+          "end": 497,
+          "name": "asyncTest"
+        },
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 498,
+            "end": 755,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": true,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 510,
+              "end": 755,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 514,
+                  "end": 543,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 514,
+                    "end": 542,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 514,
+                      "end": 534,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 514,
+                        "end": 524,
+                        "name": "globalThis"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 525,
+                        "end": 534,
+                        "name": "evaluated"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 537,
+                      "end": 542,
+                      "value": false,
+                      "raw": "false"
+                    }
+                  }
+                },
+                {
+                  "type": "TryStatement",
+                  "start": 546,
+                  "end": 707,
+                  "block": {
+                    "type": "BlockStatement",
+                    "start": 550,
+                    "end": 594,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 556,
+                        "end": 590,
+                        "expression": {
+                          "type": "AwaitExpression",
+                          "start": 556,
+                          "end": 589,
+                          "argument": {
+                            "type": "ImportExpression",
+                            "start": 562,
+                            "end": 589,
+                            "source": {
+                              "type": "Literal",
+                              "start": 569,
+                              "end": 588,
+                              "value": "./main_FIXTURE.js",
+                              "raw": "\"./main_FIXTURE.js\""
+                            },
+                            "options": null,
+                            "phase": null
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "handler": {
+                    "type": "CatchClause",
+                    "start": 595,
+                    "end": 707,
+                    "param": null,
+                    "body": {
+                      "type": "BlockStatement",
+                      "start": 601,
+                      "end": 707,
+                      "body": [
+                        {
+                          "type": "ExpressionStatement",
+                          "start": 607,
+                          "end": 691,
+                          "expression": {
+                            "type": "CallExpression",
+                            "start": 607,
+                            "end": 690,
+                            "callee": {
+                              "type": "MemberExpression",
+                              "start": 607,
+                              "end": 623,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 607,
+                                "end": 613,
+                                "name": "assert"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 614,
+                                "end": 623,
+                                "name": "sameValue"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [
+                              {
+                                "type": "MemberExpression",
+                                "start": 624,
+                                "end": 644,
+                                "object": {
+                                  "type": "Identifier",
+                                  "start": 624,
+                                  "end": 634,
+                                  "name": "globalThis"
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "start": 635,
+                                  "end": 644,
+                                  "name": "evaluated"
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
+                              {
+                                "type": "Literal",
+                                "start": 646,
+                                "end": 651,
+                                "value": false,
+                                "raw": "false"
+                              },
+                              {
+                                "type": "Literal",
+                                "start": 653,
+                                "end": 689,
+                                "value": "The module should not be evaluated",
+                                "raw": "\"The module should not be evaluated\""
+                              }
+                            ],
+                            "optional": false
+                          }
+                        },
+                        {
+                          "type": "ReturnStatement",
+                          "start": 696,
+                          "end": 703,
+                          "argument": null
+                        }
+                      ]
+                    }
+                  },
+                  "finalizer": null
+                },
+                {
+                  "type": "ThrowStatement",
+                  "start": 710,
+                  "end": 753,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 716,
+                    "end": 752,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 720,
+                      "end": 725,
+                      "name": "Error"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 726,
+                        "end": 751,
+                        "value": "The module should throw",
+                        "raw": "\"The module should throw\""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}

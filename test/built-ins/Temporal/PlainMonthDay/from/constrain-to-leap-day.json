@@ -1,0 +1,213 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 436,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 267,
+      "end": 364,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 273,
+          "end": 363,
+          "id": {
+            "type": "Identifier",
+            "start": 273,
+            "end": 275,
+            "name": "md"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 278,
+            "end": 363,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 278,
+              "end": 305,
+              "object": {
+                "type": "MemberExpression",
+                "start": 278,
+                "end": 300,
+                "object": {
+                  "type": "Identifier",
+                  "start": 278,
+                  "end": 286,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 287,
+                  "end": 300,
+                  "name": "PlainMonthDay"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 301,
+                "end": 305,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 306,
+                "end": 335,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 308,
+                    "end": 324,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 308,
+                      "end": 317,
+                      "name": "monthCode"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 319,
+                      "end": 324,
+                      "value": "M02",
+                      "raw": "\"M02\""
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 326,
+                    "end": 333,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 326,
+                      "end": 329,
+                      "name": "day"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 331,
+                      "end": 333,
+                      "value": 30,
+                      "raw": "30"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 337,
+                "end": 362,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 339,
+                    "end": 360,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 339,
+                      "end": 347,
+                      "name": "overflow"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 349,
+                      "end": 360,
+                      "value": "constrain",
+                      "raw": "\"constrain\""
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 365,
+      "end": 435,
+      "expression": {
+        "type": "CallExpression",
+        "start": 365,
+        "end": 434,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 365,
+          "end": 381,
+          "object": {
+            "type": "Identifier",
+            "start": 365,
+            "end": 371,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 372,
+            "end": 381,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 382,
+            "end": 388,
+            "object": {
+              "type": "Identifier",
+              "start": 382,
+              "end": 384,
+              "name": "md"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 385,
+              "end": 388,
+              "name": "day"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 390,
+            "end": 392,
+            "value": 29,
+            "raw": "29"
+          },
+          {
+            "type": "Literal",
+            "start": 394,
+            "end": 433,
+            "value": "M02-30 should constrain to 29, not 28",
+            "raw": "\"M02-30 should constrain to 29, not 28\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null
+}

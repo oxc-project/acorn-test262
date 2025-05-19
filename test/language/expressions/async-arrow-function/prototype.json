@@ -1,30 +1,70 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 670,
+  "end": 744,
   "body": [
     {
+      "type": "VariableDeclaration",
+      "start": 594,
+      "end": 661,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 598,
+          "end": 660,
+          "id": {
+            "type": "Identifier",
+            "start": 598,
+            "end": 611,
+            "name": "AsyncFunction"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 614,
+            "end": 660,
+            "callee": {
+              "type": "Identifier",
+              "start": 614,
+              "end": 641,
+              "name": "getWellKnownIntrinsicObject"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 642,
+                "end": 659,
+                "value": "%AsyncFunction%",
+                "raw": "'%AsyncFunction%'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
       "type": "ExpressionStatement",
-      "start": 588,
-      "end": 669,
+      "start": 662,
+      "end": 743,
       "expression": {
         "type": "CallExpression",
-        "start": 588,
-        "end": 668,
+        "start": 662,
+        "end": 742,
         "callee": {
           "type": "MemberExpression",
-          "start": 588,
-          "end": 604,
+          "start": 662,
+          "end": 678,
           "object": {
             "type": "Identifier",
-            "start": 588,
-            "end": 594,
+            "start": 662,
+            "end": 668,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 595,
-            "end": 604,
+            "start": 669,
+            "end": 678,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +73,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 605,
-            "end": 642,
+            "start": 679,
+            "end": 716,
             "callee": {
               "type": "MemberExpression",
-              "start": 605,
-              "end": 626,
+              "start": 679,
+              "end": 700,
               "object": {
                 "type": "Identifier",
-                "start": 605,
-                "end": 611,
+                "start": 679,
+                "end": 685,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 612,
-                "end": 626,
+                "start": 686,
+                "end": 700,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -57,8 +97,8 @@
             "arguments": [
               {
                 "type": "ArrowFunctionExpression",
-                "start": 627,
-                "end": 641,
+                "start": 701,
+                "end": 715,
                 "id": null,
                 "expression": false,
                 "generator": false,
@@ -66,8 +106,8 @@
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
-                  "start": 639,
-                  "end": 641,
+                  "start": 713,
+                  "end": 715,
                   "body": []
                 }
               }
@@ -76,18 +116,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 644,
-            "end": 667,
+            "start": 718,
+            "end": 741,
             "object": {
               "type": "Identifier",
-              "start": 644,
-              "end": 657,
+              "start": 718,
+              "end": 731,
               "name": "AsyncFunction"
             },
             "property": {
               "type": "Identifier",
-              "start": 658,
-              "end": 667,
+              "start": 732,
+              "end": 741,
               "name": "prototype"
             },
             "computed": false,

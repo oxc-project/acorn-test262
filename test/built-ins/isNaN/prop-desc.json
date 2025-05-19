@@ -1,57 +1,71 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 348,
+  "end": 378,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 252,
-      "end": 347,
+      "end": 377,
       "expression": {
         "type": "CallExpression",
         "start": 252,
-        "end": 346,
+        "end": 376,
         "callee": {
           "type": "Identifier",
           "start": 252,
-          "end": 266,
-          "name": "verifyProperty"
+          "end": 284,
+          "name": "verifyPrimordialCallableProperty"
         },
         "arguments": [
           {
             "type": "ThisExpression",
-            "start": 267,
-            "end": 271
+            "start": 285,
+            "end": 289
           },
           {
             "type": "Literal",
-            "start": 273,
-            "end": 280,
+            "start": 291,
+            "end": 298,
             "value": "isNaN",
             "raw": "\"isNaN\""
           },
           {
+            "type": "Literal",
+            "start": 300,
+            "end": 307,
+            "value": "isNaN",
+            "raw": "\"isNaN\""
+          },
+          {
+            "type": "Literal",
+            "start": 309,
+            "end": 310,
+            "value": 1,
+            "raw": "1"
+          },
+          {
             "type": "ObjectExpression",
-            "start": 282,
-            "end": 345,
+            "start": 312,
+            "end": 375,
             "properties": [
               {
                 "type": "Property",
-                "start": 286,
-                "end": 300,
+                "start": 316,
+                "end": 330,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 286,
-                  "end": 294,
+                  "start": 316,
+                  "end": 324,
                   "name": "writable"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 296,
-                  "end": 300,
+                  "start": 326,
+                  "end": 330,
                   "value": true,
                   "raw": "true"
                 },
@@ -59,21 +73,21 @@
               },
               {
                 "type": "Property",
-                "start": 304,
-                "end": 321,
+                "start": 334,
+                "end": 351,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 304,
-                  "end": 314,
+                  "start": 334,
+                  "end": 344,
                   "name": "enumerable"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 316,
-                  "end": 321,
+                  "start": 346,
+                  "end": 351,
                   "value": false,
                   "raw": "false"
                 },
@@ -81,21 +95,21 @@
               },
               {
                 "type": "Property",
-                "start": 325,
-                "end": 343,
+                "start": 355,
+                "end": 373,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 325,
-                  "end": 337,
+                  "start": 355,
+                  "end": 367,
                   "name": "configurable"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 339,
-                  "end": 343,
+                  "start": 369,
+                  "end": 373,
                   "value": true,
                   "raw": "true"
                 },

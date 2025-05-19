@@ -1,0 +1,281 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 840,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 598,
+      "end": 716,
+      "expression": {
+        "type": "CallExpression",
+        "start": 598,
+        "end": 715,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 598,
+          "end": 614,
+          "object": {
+            "type": "Identifier",
+            "start": 598,
+            "end": 604,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 605,
+            "end": 614,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 615,
+            "end": 687,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 615,
+              "end": 673,
+              "object": {
+                "type": "NewExpression",
+                "start": 615,
+                "end": 666,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 619,
+                  "end": 635,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 619,
+                    "end": 623,
+                    "name": "Intl"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 624,
+                    "end": 635,
+                    "name": "PluralRules"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 636,
+                    "end": 640,
+                    "value": "sl",
+                    "raw": "'sl'"
+                  },
+                  {
+                    "type": "ObjectExpression",
+                    "start": 642,
+                    "end": 665,
+                    "properties": [
+                      {
+                        "type": "Property",
+                        "start": 644,
+                        "end": 663,
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false,
+                        "key": {
+                          "type": "Identifier",
+                          "start": 644,
+                          "end": 652,
+                          "name": "notation"
+                        },
+                        "value": {
+                          "type": "Literal",
+                          "start": 654,
+                          "end": 663,
+                          "value": "compact",
+                          "raw": "'compact'"
+                        },
+                        "kind": "init"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 667,
+                "end": 673,
+                "name": "select"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 674,
+                "end": 686,
+                "value": 1000000.2,
+                "raw": "1.00000020e6"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 689,
+            "end": 694,
+            "value": "one",
+            "raw": "'one'"
+          },
+          {
+            "type": "Literal",
+            "start": 696,
+            "end": 714,
+            "value": "compact notation",
+            "raw": "'compact notation'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 717,
+      "end": 839,
+      "expression": {
+        "type": "CallExpression",
+        "start": 717,
+        "end": 838,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 717,
+          "end": 733,
+          "object": {
+            "type": "Identifier",
+            "start": 717,
+            "end": 723,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 724,
+            "end": 733,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 734,
+            "end": 807,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 734,
+              "end": 793,
+              "object": {
+                "type": "NewExpression",
+                "start": 734,
+                "end": 786,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 738,
+                  "end": 754,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 738,
+                    "end": 742,
+                    "name": "Intl"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 743,
+                    "end": 754,
+                    "name": "PluralRules"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 755,
+                    "end": 759,
+                    "value": "sl",
+                    "raw": "'sl'"
+                  },
+                  {
+                    "type": "ObjectExpression",
+                    "start": 761,
+                    "end": 785,
+                    "properties": [
+                      {
+                        "type": "Property",
+                        "start": 763,
+                        "end": 783,
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false,
+                        "key": {
+                          "type": "Identifier",
+                          "start": 763,
+                          "end": 771,
+                          "name": "notation"
+                        },
+                        "value": {
+                          "type": "Literal",
+                          "start": 773,
+                          "end": 783,
+                          "value": "standard",
+                          "raw": "'standard'"
+                        },
+                        "kind": "init"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 787,
+                "end": 793,
+                "name": "select"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 794,
+                "end": 806,
+                "value": 1000000.2,
+                "raw": "1.00000020e6"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 809,
+            "end": 816,
+            "value": "other",
+            "raw": "'other'"
+          },
+          {
+            "type": "Literal",
+            "start": 818,
+            "end": 837,
+            "value": "standard notation",
+            "raw": "'standard notation'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null
+}

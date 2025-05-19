@@ -1,0 +1,448 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 5369,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 3592,
+      "end": 5090,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 3598,
+          "end": 5089,
+          "id": {
+            "type": "Identifier",
+            "start": 3598,
+            "end": 3607,
+            "name": "timeZones"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 3610,
+            "end": 5089,
+            "elements": [
+              {
+                "type": "ArrayExpression",
+                "start": 3653,
+                "end": 3687,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 3654,
+                    "end": 3669,
+                    "value": "Europe/Prague",
+                    "raw": "\"Europe/Prague\""
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3671,
+                    "end": 3686,
+                    "value": "Europe/Prague",
+                    "raw": "\"Europe/Prague\""
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 3907,
+                "end": 3949,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 3908,
+                    "end": 3927,
+                    "value": "Europe/Bratislava",
+                    "raw": "\"Europe/Bratislava\""
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3929,
+                    "end": 3948,
+                    "value": "Europe/Bratislava",
+                    "raw": "\"Europe/Bratislava\""
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 4129,
+                "end": 4171,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 4130,
+                    "end": 4150,
+                    "value": "Australia/Canberra",
+                    "raw": "\"Australia/Canberra\""
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 4152,
+                    "end": 4170,
+                    "value": "Australia/Sydney",
+                    "raw": "\"Australia/Sydney\""
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 4394,
+                "end": 4439,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 4395,
+                    "end": 4415,
+                    "value": "Atlantic/Jan_Mayen",
+                    "raw": "\"Atlantic/Jan_Mayen\""
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 4417,
+                    "end": 4438,
+                    "value": "Arctic/Longyearbyen",
+                    "raw": "\"Arctic/Longyearbyen\""
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 4799,
+                "end": 4832,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 4800,
+                    "end": 4814,
+                    "value": "Pacific/Truk",
+                    "raw": "\"Pacific/Truk\""
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 4816,
+                    "end": 4831,
+                    "value": "Pacific/Chuuk",
+                    "raw": "\"Pacific/Chuuk\""
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 4940,
+                "end": 4958,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 4941,
+                    "end": 4950,
+                    "value": "Etc/UCT",
+                    "raw": "\"Etc/UCT\""
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 4952,
+                    "end": 4957,
+                    "value": "UTC",
+                    "raw": "\"UTC\""
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 5068,
+                "end": 5087,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 5069,
+                    "end": 5079,
+                    "value": "Etc/GMT0",
+                    "raw": "\"Etc/GMT0\""
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 5081,
+                    "end": 5086,
+                    "value": "UTC",
+                    "raw": "\"UTC\""
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 5092,
+      "end": 5368,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 5097,
+        "end": 5125,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 5103,
+            "end": 5125,
+            "id": {
+              "type": "ArrayPattern",
+              "start": 5103,
+              "end": 5125,
+              "elements": [
+                {
+                  "type": "Identifier",
+                  "start": 5104,
+                  "end": 5112,
+                  "name": "timeZone"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 5114,
+                  "end": 5124,
+                  "name": "linkTarget"
+                }
+              ]
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 5129,
+        "end": 5138,
+        "name": "timeZones"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 5140,
+        "end": 5368,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 5144,
+            "end": 5196,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 5150,
+                "end": 5195,
+                "id": {
+                  "type": "Identifier",
+                  "start": 5150,
+                  "end": 5152,
+                  "name": "z1"
+                },
+                "init": {
+                  "type": "NewExpression",
+                  "start": 5155,
+                  "end": 5195,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 5159,
+                    "end": 5181,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 5159,
+                      "end": 5167,
+                      "name": "Temporal"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 5168,
+                      "end": 5181,
+                      "name": "ZonedDateTime"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 5182,
+                      "end": 5184,
+                      "value": null,
+                      "raw": "0n",
+                      "bigint": "0"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 5186,
+                      "end": 5194,
+                      "name": "timeZone"
+                    }
+                  ]
+                }
+              }
+            ],
+            "kind": "const"
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 5199,
+            "end": 5253,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 5205,
+                "end": 5252,
+                "id": {
+                  "type": "Identifier",
+                  "start": 5205,
+                  "end": 5207,
+                  "name": "z2"
+                },
+                "init": {
+                  "type": "NewExpression",
+                  "start": 5210,
+                  "end": 5252,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 5214,
+                    "end": 5236,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 5214,
+                      "end": 5222,
+                      "name": "Temporal"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 5223,
+                      "end": 5236,
+                      "name": "ZonedDateTime"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 5237,
+                      "end": 5239,
+                      "value": null,
+                      "raw": "0n",
+                      "bigint": "0"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 5241,
+                      "end": 5251,
+                      "name": "linkTarget"
+                    }
+                  ]
+                }
+              }
+            ],
+            "kind": "const"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 5256,
+            "end": 5366,
+            "expression": {
+              "type": "CallExpression",
+              "start": 5256,
+              "end": 5365,
+              "callee": {
+                "type": "Identifier",
+                "start": 5256,
+                "end": 5262,
+                "name": "assert"
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 5268,
+                  "end": 5281,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 5268,
+                    "end": 5277,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 5268,
+                      "end": 5270,
+                      "name": "z1"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 5271,
+                      "end": 5277,
+                      "name": "equals"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 5278,
+                      "end": 5280,
+                      "name": "z2"
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "BinaryExpression",
+                  "start": 5287,
+                  "end": 5361,
+                  "left": {
+                    "type": "BinaryExpression",
+                    "start": 5287,
+                    "end": 5348,
+                    "left": {
+                      "type": "BinaryExpression",
+                      "start": 5287,
+                      "end": 5315,
+                      "left": {
+                        "type": "Literal",
+                        "start": 5287,
+                        "end": 5304,
+                        "value": "Time zone name ",
+                        "raw": "\"Time zone name \""
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Identifier",
+                        "start": 5307,
+                        "end": 5315,
+                        "name": "timeZone"
+                      }
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Literal",
+                      "start": 5318,
+                      "end": 5348,
+                      "value": " should be canonicalized to ",
+                      "raw": "\" should be canonicalized to \""
+                    }
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 5351,
+                    "end": 5361,
+                    "name": "linkTarget"
+                  }
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null
+}

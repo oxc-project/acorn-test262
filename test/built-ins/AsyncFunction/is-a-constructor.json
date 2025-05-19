@@ -1,30 +1,70 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 868,
+  "end": 939,
   "body": [
     {
+      "type": "VariableDeclaration",
+      "start": 747,
+      "end": 814,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 751,
+          "end": 813,
+          "id": {
+            "type": "Identifier",
+            "start": 751,
+            "end": 764,
+            "name": "AsyncFunction"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 767,
+            "end": 813,
+            "callee": {
+              "type": "Identifier",
+              "start": 767,
+              "end": 794,
+              "name": "getWellKnownIntrinsicObject"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 795,
+                "end": 812,
+                "value": "%AsyncFunction%",
+                "raw": "'%AsyncFunction%'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
       "type": "ExpressionStatement",
-      "start": 741,
-      "end": 843,
+      "start": 815,
+      "end": 917,
       "expression": {
         "type": "CallExpression",
-        "start": 741,
-        "end": 842,
+        "start": 815,
+        "end": 916,
         "callee": {
           "type": "MemberExpression",
-          "start": 741,
-          "end": 757,
+          "start": 815,
+          "end": 831,
           "object": {
             "type": "Identifier",
-            "start": 741,
-            "end": 747,
+            "start": 815,
+            "end": 821,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 748,
-            "end": 757,
+            "start": 822,
+            "end": 831,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,19 +73,19 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 758,
-            "end": 786,
+            "start": 832,
+            "end": 860,
             "callee": {
               "type": "Identifier",
-              "start": 758,
-              "end": 771,
+              "start": 832,
+              "end": 845,
               "name": "isConstructor"
             },
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 772,
-                "end": 785,
+                "start": 846,
+                "end": 859,
                 "name": "AsyncFunction"
               }
             ],
@@ -53,15 +93,15 @@
           },
           {
             "type": "Literal",
-            "start": 788,
-            "end": 792,
+            "start": 862,
+            "end": 866,
             "value": true,
             "raw": "true"
           },
           {
             "type": "Literal",
-            "start": 794,
-            "end": 841,
+            "start": 868,
+            "end": 915,
             "value": "isConstructor(AsyncFunction) must return true",
             "raw": "'isConstructor(AsyncFunction) must return true'"
           }
@@ -71,16 +111,16 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 844,
-      "end": 864,
+      "start": 918,
+      "end": 938,
       "expression": {
         "type": "NewExpression",
-        "start": 844,
-        "end": 863,
+        "start": 918,
+        "end": 937,
         "callee": {
           "type": "Identifier",
-          "start": 848,
-          "end": 861,
+          "start": 922,
+          "end": 935,
           "name": "AsyncFunction"
         },
         "arguments": []

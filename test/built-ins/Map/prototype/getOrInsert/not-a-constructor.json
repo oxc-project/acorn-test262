@@ -1,0 +1,217 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 967,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 757,
+      "end": 885,
+      "expression": {
+        "type": "CallExpression",
+        "start": 757,
+        "end": 884,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 757,
+          "end": 773,
+          "object": {
+            "type": "Identifier",
+            "start": 757,
+            "end": 763,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 764,
+            "end": 773,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 774,
+            "end": 814,
+            "callee": {
+              "type": "Identifier",
+              "start": 774,
+              "end": 787,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 788,
+                "end": 813,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 788,
+                  "end": 801,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 788,
+                    "end": 791,
+                    "name": "Map"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 792,
+                    "end": 801,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 802,
+                  "end": 813,
+                  "name": "getOrInsert"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 816,
+            "end": 821,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 823,
+            "end": 883,
+            "value": "isConstructor(Map.prototype.getOrInsert) must return false",
+            "raw": "'isConstructor(Map.prototype.getOrInsert) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 887,
+      "end": 965,
+      "expression": {
+        "type": "CallExpression",
+        "start": 887,
+        "end": 964,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 887,
+          "end": 900,
+          "object": {
+            "type": "Identifier",
+            "start": 887,
+            "end": 893,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 894,
+            "end": 900,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 901,
+            "end": 910,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 912,
+            "end": 963,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 918,
+              "end": 963,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 922,
+                  "end": 940,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 926,
+                      "end": 939,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 926,
+                        "end": 927,
+                        "name": "m"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 930,
+                        "end": 939,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 934,
+                          "end": 937,
+                          "name": "Map"
+                        },
+                        "arguments": []
+                      }
+                    }
+                  ],
+                  "kind": "let"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 941,
+                  "end": 961,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 941,
+                    "end": 960,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 945,
+                      "end": 958,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 945,
+                        "end": 946,
+                        "name": "m"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 947,
+                        "end": 958,
+                        "name": "getOrInsert"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null
+}

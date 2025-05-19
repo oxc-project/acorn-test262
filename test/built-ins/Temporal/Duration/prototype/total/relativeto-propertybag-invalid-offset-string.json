@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 927,
+  "end": 928,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -188,11 +188,11 @@
     {
       "type": "ExpressionStatement",
       "start": 633,
-      "end": 926,
+      "end": 927,
       "expression": {
         "type": "CallExpression",
         "start": 633,
-        "end": 925,
+        "end": 926,
         "callee": {
           "type": "MemberExpression",
           "start": 633,
@@ -216,7 +216,7 @@
           {
             "type": "ArrowFunctionExpression",
             "start": 652,
-            "end": 924,
+            "end": 925,
             "id": null,
             "expression": false,
             "generator": false,
@@ -232,7 +232,7 @@
             "body": {
               "type": "BlockStatement",
               "start": 664,
-              "end": 924,
+              "end": 925,
               "body": [
                 {
                   "type": "VariableDeclaration",
@@ -371,11 +371,11 @@
                 {
                   "type": "ExpressionStatement",
                   "start": 743,
-                  "end": 922,
+                  "end": 923,
                   "expression": {
                     "type": "CallExpression",
                     "start": 743,
-                    "end": 921,
+                    "end": 922,
                     "callee": {
                       "type": "MemberExpression",
                       "start": 743,
@@ -534,7 +534,7 @@
                       {
                         "type": "TemplateLiteral",
                         "start": 876,
-                        "end": 917,
+                        "end": 918,
                         "expressions": [
                           {
                             "type": "Identifier",
@@ -557,10 +557,10 @@
                           {
                             "type": "TemplateElement",
                             "start": 887,
-                            "end": 916,
+                            "end": 917,
                             "value": {
-                              "raw": " is not a valid offset string",
-                              "cooked": " is not a valid offset string"
+                              "raw": "\" is not a valid offset string",
+                              "cooked": "\" is not a valid offset string"
                             },
                             "tail": true
                           }

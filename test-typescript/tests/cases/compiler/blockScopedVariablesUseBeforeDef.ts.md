@@ -3,7 +3,7 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 0,
-  "end": 2010,
+  "end": 2119,
   "body": [
     {
       "type": "FunctionDeclaration",
@@ -2753,6 +2753,170 @@ __ESTREE_TEST__:PASS:
         "end": 1921,
         "decorators": [],
         "name": "wrapI2",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 2012,
+      "end": 2119,
+      "async": false,
+      "body": {
+        "type": "BlockStatement",
+        "start": 2029,
+        "end": 2119,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 2035,
+            "end": 2062,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 2039,
+                "end": 2061,
+                "definite": false,
+                "id": {
+                  "type": "Identifier",
+                  "start": 2039,
+                  "end": 2040,
+                  "decorators": [],
+                  "name": "a",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 2043,
+                  "end": 2061,
+                  "arguments": [],
+                  "callee": {
+                    "type": "ArrowFunctionExpression",
+                    "start": 2044,
+                    "end": 2058,
+                    "async": false,
+                    "body": {
+                      "type": "MemberExpression",
+                      "start": 2050,
+                      "end": 2058,
+                      "computed": false,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2050,
+                        "end": 2054,
+                        "decorators": [],
+                        "name": "Enum",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "optional": false,
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2055,
+                        "end": 2058,
+                        "decorators": [],
+                        "name": "Yes",
+                        "optional": false,
+                        "typeAnnotation": null
+                      }
+                    },
+                    "expression": true,
+                    "generator": false,
+                    "id": null,
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
+                  },
+                  "optional": false,
+                  "typeArguments": null
+                }
+              }
+            ],
+            "declare": false,
+            "kind": "let"
+          },
+          {
+            "type": "TSEnumDeclaration",
+            "start": 2067,
+            "end": 2117,
+            "body": {
+              "type": "TSEnumBody",
+              "start": 2077,
+              "end": 2117,
+              "members": [
+                {
+                  "type": "TSEnumMember",
+                  "start": 2087,
+                  "end": 2093,
+                  "computed": false,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 2087,
+                    "end": 2089,
+                    "decorators": [],
+                    "name": "No",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "initializer": {
+                    "type": "Literal",
+                    "start": 2092,
+                    "end": 2093,
+                    "raw": "0",
+                    "value": 0
+                  }
+                },
+                {
+                  "type": "TSEnumMember",
+                  "start": 2103,
+                  "end": 2110,
+                  "computed": false,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 2103,
+                    "end": 2106,
+                    "decorators": [],
+                    "name": "Yes",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "initializer": {
+                    "type": "Literal",
+                    "start": 2109,
+                    "end": 2110,
+                    "raw": "1",
+                    "value": 1
+                  }
+                }
+              ]
+            },
+            "const": false,
+            "declare": false,
+            "id": {
+              "type": "Identifier",
+              "start": 2072,
+              "end": 2076,
+              "decorators": [],
+              "name": "Enum",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          }
+        ]
+      },
+      "declare": false,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "start": 2021,
+        "end": 2026,
+        "decorators": [],
+        "name": "foo18",
         "optional": false,
         "typeAnnotation": null
       },

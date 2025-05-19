@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 794,
+  "end": 783,
   "body": [
     {
       "type": "ThrowStatement",
@@ -18,39 +18,39 @@
     {
       "type": "ImportDeclaration",
       "start": 676,
-      "end": 730,
+      "end": 719,
       "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 683,
-        "end": 729,
-        "value": "../resources/ensure-linking-error_FIXTURE.js",
-        "raw": "\"../resources/ensure-linking-error_FIXTURE.js\""
+        "end": 718,
+        "value": "./ensure-linking-error_FIXTURE.js",
+        "raw": "\"./ensure-linking-error_FIXTURE.js\""
       },
       "attributes": [],
       "phase": null
     },
     {
       "type": "ImportDeclaration",
-      "start": 732,
-      "end": 793,
+      "start": 721,
+      "end": 782,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 739,
-          "end": 745,
+          "start": 728,
+          "end": 734,
           "local": {
             "type": "Identifier",
-            "start": 744,
-            "end": 745,
+            "start": 733,
+            "end": 734,
             "name": "x"
           }
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 751,
-        "end": 784,
+        "start": 740,
+        "end": 773,
         "value": "./import-attribute-1_FIXTURE.js",
         "raw": "'./import-attribute-1_FIXTURE.js'"
       },

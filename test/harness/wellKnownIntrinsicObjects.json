@@ -1,0 +1,269 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 722,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 294,
+      "end": 354,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 298,
+          "end": 353,
+          "id": {
+            "type": "Identifier",
+            "start": 298,
+            "end": 312,
+            "name": "intrinsicArray"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 315,
+            "end": 353,
+            "callee": {
+              "type": "Identifier",
+              "start": 315,
+              "end": 342,
+              "name": "getWellKnownIntrinsicObject"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 343,
+                "end": 352,
+                "value": "%Array%",
+                "raw": "'%Array%'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 355,
+      "end": 396,
+      "expression": {
+        "type": "CallExpression",
+        "start": 355,
+        "end": 395,
+        "callee": {
+          "type": "Identifier",
+          "start": 355,
+          "end": 361,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 362,
+            "end": 394,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 362,
+              "end": 371,
+              "object": {
+                "type": "Identifier",
+                "start": 362,
+                "end": 368,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 369,
+                "end": 371,
+                "name": "is"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 372,
+                "end": 377,
+                "name": "Array"
+              },
+              {
+                "type": "Identifier",
+                "start": 379,
+                "end": 393,
+                "name": "intrinsicArray"
+              }
+            ],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 398,
+      "end": 566,
+      "expression": {
+        "type": "CallExpression",
+        "start": 398,
+        "end": 565,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 398,
+          "end": 411,
+          "object": {
+            "type": "Identifier",
+            "start": 398,
+            "end": 404,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 405,
+            "end": 411,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 412,
+            "end": 424,
+            "name": "Test262Error"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 426,
+            "end": 564,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 438,
+              "end": 564,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 498,
+                  "end": 562,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 498,
+                    "end": 561,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 498,
+                      "end": 525,
+                      "name": "getWellKnownIntrinsicObject"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 526,
+                        "end": 560,
+                        "value": "%AsyncFromSyncIteratorPrototype%",
+                        "raw": "'%AsyncFromSyncIteratorPrototype%'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 568,
+      "end": 721,
+      "expression": {
+        "type": "CallExpression",
+        "start": 568,
+        "end": 720,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 568,
+          "end": 581,
+          "object": {
+            "type": "Identifier",
+            "start": 568,
+            "end": 574,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 575,
+            "end": 581,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 582,
+            "end": 594,
+            "name": "Test262Error"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 596,
+            "end": 719,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 608,
+              "end": 719,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 654,
+                  "end": 717,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 654,
+                    "end": 716,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 654,
+                      "end": 681,
+                      "name": "getWellKnownIntrinsicObject"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 682,
+                        "end": 715,
+                        "value": "%NotSoWellKnownIntrinsicObject%",
+                        "raw": "'%NotSoWellKnownIntrinsicObject%'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null
+}
