@@ -45,7 +45,8 @@
         "value": "./instn-named-err-not-found-empty_FIXTURE.js",
         "raw": "'./instn-named-err-not-found-empty_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     }
   ],
   "sourceType": "module",

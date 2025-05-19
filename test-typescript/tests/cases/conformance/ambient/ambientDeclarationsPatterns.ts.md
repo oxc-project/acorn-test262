@@ -303,7 +303,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 42,
       "end": 77,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -361,7 +360,9 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -400,7 +401,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 89,
       "end": 119,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -434,7 +434,9 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -473,7 +475,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 165,
       "end": 200,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -497,7 +498,9 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

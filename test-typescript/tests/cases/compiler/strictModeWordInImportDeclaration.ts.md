@@ -22,7 +22,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 13,
       "end": 43,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -46,13 +45,14 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 44,
       "end": 78,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -86,13 +86,14 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 79,
       "end": 103,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -116,7 +117,9 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     }
   ],
   "sourceType": "module",

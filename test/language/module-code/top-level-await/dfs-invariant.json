@@ -15,7 +15,8 @@
         "value": "./dfs-invariant-direct-1_FIXTURE.js",
         "raw": "'./dfs-invariant-direct-1_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -29,7 +30,8 @@
         "value": "./dfs-invariant-direct-2_FIXTURE.js",
         "raw": "'./dfs-invariant-direct-2_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -43,7 +45,8 @@
         "value": "./dfs-invariant-indirect_FIXTURE.js",
         "raw": "'./dfs-invariant-indirect_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

@@ -86,6 +86,31 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 46,
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 14,
+        "end": 19,
+        "raw": "\"./a\"",
+        "value": "./a"
+      },
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "start": 7,
+          "end": 8,
+          "local": {
+            "type": "Identifier",
+            "start": 7,
+            "end": 8,
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ],
+      "phase": null,
       "attributes": [
         {
           "type": "ImportAttribute",
@@ -125,30 +150,6 @@ __ESTREE_TEST__:PASS:
             "end": 43,
             "raw": "\"b\"",
             "value": "b"
-          }
-        }
-      ],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 14,
-        "end": 19,
-        "raw": "\"./a\"",
-        "value": "./a"
-      },
-      "specifiers": [
-        {
-          "type": "ImportDefaultSpecifier",
-          "start": 7,
-          "end": 8,
-          "local": {
-            "type": "Identifier",
-            "start": 7,
-            "end": 8,
-            "decorators": [],
-            "name": "a",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       ]

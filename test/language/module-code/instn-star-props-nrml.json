@@ -27,7 +27,8 @@
         "value": "./instn-star-props-nrml-1_FIXTURE.js",
         "raw": "'./instn-star-props-nrml-1_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

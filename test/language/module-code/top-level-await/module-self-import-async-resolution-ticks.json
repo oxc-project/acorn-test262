@@ -134,7 +134,8 @@
         "value": "./module-self-import-async-resolution-ticks.js",
         "raw": "'./module-self-import-async-resolution-ticks.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

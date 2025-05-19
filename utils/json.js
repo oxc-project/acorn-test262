@@ -3,19 +3,20 @@ const INFINITY_REGEXP = new RegExp(`"${INFINITY_PLACEHOLDER}"`, 'g');
 
 // Transformer for Acorn AST.
 //
-// Replace `RegExp`s and `BigInt`s with `null`.
-//
-// Replace `Infinity` with `"__INFINITY__INFINITY__INFINITY__"` placeholder
-// which will be replaced in JSON with `1e+400`.
-//
-// Sort RegExp `Literal`s' `regex.flags` property in alphabetical order, the way V8 does.
+// * Replace `RegExp`s and `BigInt`s with `null`.
+// * Replace `Infinity` with `"__INFINITY__INFINITY__INFINITY__"` placeholder
+//   which will be replaced in JSON with `1e+400`.
+// * Sort RegExp `Literal`s' `regex.flags` property in alphabetical order, the way V8 does.
+// * Add `phase` field to `ImportDeclaration`.
 function transformerAcorn(_key, value) {
   if (typeof value === 'bigint') return null;
   if (value === Infinity) return INFINITY_PLACEHOLDER;
 
   if (typeof value !== 'object' || value === null || !Object.hasOwn(value, 'type')) return value;
 
-  if (value.type === 'Literal' && Object.hasOwn(value, 'regex')) {
+  if (value.type === 'ImportDeclaration') {
+    value.phase = null;
+  } else if (value.type === 'Literal' && Object.hasOwn(value, 'regex')) {
     value.regex.flags = [...value.regex.flags].sort().join('');
     value.value = null;
   }
@@ -32,7 +33,17 @@ function transformerTs(_key, value) {
 
   if (typeof value !== 'object' || value === null || !Object.hasOwn(value, 'type')) return value;
 
-  if (value.type === 'Literal' && Object.hasOwn(value, 'regex')) {
+  if (value.type === 'ImportDeclaration') {
+    // Add `phase` field before `attributes` if `attributes` field exists (it should)
+    if (Object.hasOwn(value, 'attributes')) {
+      const {attributes} = value;
+      delete value.attributes;
+      value.phase = null;
+      value.attributes = attributes;
+    } else {
+      value.phase = null;
+    }
+  } else if (value.type === 'Literal' && Object.hasOwn(value, 'regex')) {
     value.regex.flags = [...value.regex.flags].sort().join('');
     value.value = null;
   }

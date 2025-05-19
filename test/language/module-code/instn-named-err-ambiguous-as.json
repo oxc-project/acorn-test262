@@ -51,7 +51,8 @@
         "value": "./instn-named-err-ambiguous_FIXTURE.js",
         "raw": "'./instn-named-err-ambiguous_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     }
   ],
   "sourceType": "module",

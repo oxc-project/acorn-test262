@@ -27,7 +27,8 @@
         "value": "./export-expname_FIXTURE.js",
         "raw": "\"./export-expname_FIXTURE.js\""
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

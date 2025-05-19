@@ -27,7 +27,8 @@
         "value": "./instn-star-props-dflt-keep-local-named_FIXTURE.js",
         "raw": "'./instn-star-props-dflt-keep-local-named_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -53,7 +54,8 @@
         "value": "./instn-star-props-dflt-keep-local-prod_FIXTURE.js",
         "raw": "'./instn-star-props-dflt-keep-local-prod_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

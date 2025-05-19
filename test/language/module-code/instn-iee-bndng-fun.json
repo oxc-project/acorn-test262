@@ -254,7 +254,8 @@
         "value": "./instn-iee-bndng-fun_FIXTURE.js",
         "raw": "'./instn-iee-bndng-fun_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportNamedDeclaration",

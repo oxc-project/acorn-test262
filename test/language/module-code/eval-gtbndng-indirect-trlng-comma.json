@@ -33,7 +33,8 @@
         "value": "./eval-gtbndng-indirect-trlng-comma_FIXTURE.js",
         "raw": "'./eval-gtbndng-indirect-trlng-comma_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

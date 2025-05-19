@@ -27,7 +27,8 @@
         "value": "./prevent-extensions.js",
         "raw": "'./prevent-extensions.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

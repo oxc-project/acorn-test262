@@ -27,7 +27,8 @@
         "value": "./enumerate-binding-uninit.js",
         "raw": "\"./enumerate-binding-uninit.js\""
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

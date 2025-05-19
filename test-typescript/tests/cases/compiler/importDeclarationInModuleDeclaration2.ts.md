@@ -19,7 +19,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 27,
             "end": 39,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -28,7 +27,9 @@ __ESTREE_TEST__:PASS:
               "raw": "\"fs\"",
               "value": "fs"
             },
-            "specifiers": []
+            "specifiers": [],
+            "phase": null,
+            "attributes": []
           }
         ]
       },

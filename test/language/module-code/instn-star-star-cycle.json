@@ -27,7 +27,8 @@
         "value": "./instn-star-star-cycle-2_FIXTURE.js",
         "raw": "'./instn-star-star-cycle-2_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

@@ -99,7 +99,8 @@
         "value": "./eval-export-dflt-expr-in.js",
         "raw": "'./eval-export-dflt-expr-in.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

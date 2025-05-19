@@ -27,7 +27,8 @@
         "value": "./delete-exported-uninit.js",
         "raw": "'./delete-exported-uninit.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

@@ -27,7 +27,8 @@
         "value": "./define-own-property.js",
         "raw": "'./define-own-property.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportNamedDeclaration",

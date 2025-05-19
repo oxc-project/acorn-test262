@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 197,
       "end": 223,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -18,7 +17,9 @@ __ESTREE_TEST__:PASS:
         "raw": "\"unaliasedModule1\"",
         "value": "unaliasedModule1"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -66,7 +67,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 269,
       "end": 311,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -148,7 +148,9 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -169,7 +171,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 317,
       "end": 348,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -193,7 +194,9 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -214,7 +217,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 353,
       "end": 390,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -238,7 +240,9 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -259,7 +263,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 396,
       "end": 422,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -268,7 +271,9 @@ __ESTREE_TEST__:PASS:
         "raw": "\"unaliasedModule2\"",
         "value": "unaliasedModule2"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     }
   ],
   "sourceType": "module",

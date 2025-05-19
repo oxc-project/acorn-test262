@@ -27,7 +27,8 @@
         "value": "./get-own-property-str-found-uninit.js",
         "raw": "'./get-own-property-str-found-uninit.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 24,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -18,13 +17,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"does-not-exist\"",
         "value": "does-not-exist"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 25,
       "end": 58,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -33,13 +33,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"./does-not-exist-either\"",
         "value": "./does-not-exist-either"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 59,
       "end": 95,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -48,7 +49,9 @@ __ESTREE_TEST__:PASS:
         "raw": "\"./does-not-exist-either.js\"",
         "value": "./does-not-exist-either.js"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     }
   ],
   "sourceType": "module",

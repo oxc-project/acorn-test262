@@ -27,7 +27,8 @@
         "value": "./get-own-property-str-found-init.js",
         "raw": "'./get-own-property-str-found-init.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportNamedDeclaration",

@@ -27,7 +27,8 @@
         "value": "./export-expname-from-string-binding.js",
         "raw": "\"./export-expname-from-string-binding.js\""
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportNamedDeclaration",

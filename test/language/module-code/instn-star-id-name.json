@@ -381,7 +381,8 @@
         "value": "./instn-star-id-name.js",
         "raw": "'./instn-star-id-name.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

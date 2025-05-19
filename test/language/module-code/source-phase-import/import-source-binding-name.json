@@ -33,7 +33,8 @@
         "value": "../resources/ensure-linking-error_FIXTURE.js",
         "raw": "\"../resources/ensure-linking-error_FIXTURE.js\""
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -59,7 +60,8 @@
         "value": "<do not resolve>",
         "raw": "'<do not resolve>'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -85,7 +87,8 @@
         "value": "<do not resolve>",
         "raw": "'<do not resolve>'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     }
   ],
   "sourceType": "module",

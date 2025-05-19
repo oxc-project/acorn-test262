@@ -27,7 +27,8 @@
         "value": "./module-import-rejection-tick_FIXTURE.js",
         "raw": "'./module-import-rejection-tick_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ThrowStatement",

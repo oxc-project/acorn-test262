@@ -248,7 +248,8 @@
         "value": "./instn-star-binding.js",
         "raw": "'./instn-star-binding.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     }
   ],
   "sourceType": "module",

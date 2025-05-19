@@ -27,7 +27,8 @@
         "value": "./eval-gtbndng-indirect-update-dflt_FIXTURE.js",
         "raw": "'./eval-gtbndng-indirect-update-dflt_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

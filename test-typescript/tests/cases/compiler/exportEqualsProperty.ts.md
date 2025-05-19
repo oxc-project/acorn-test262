@@ -536,7 +536,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 43,
       "end": 70,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -570,7 +569,9 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "TSImportEqualsDeclaration",

@@ -355,7 +355,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 48,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -413,7 +412,9 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -485,7 +486,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 35,
       "end": 68,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -543,7 +543,9 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -615,7 +617,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 35,
       "end": 64,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -649,7 +650,9 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -721,7 +724,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 37,
       "end": 64,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -755,13 +757,14 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 65,
       "end": 98,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -795,7 +798,9 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

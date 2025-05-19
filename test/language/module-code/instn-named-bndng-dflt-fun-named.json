@@ -151,7 +151,8 @@
         "value": "./instn-named-bndng-dflt-fun-named.js",
         "raw": "'./instn-named-bndng-dflt-fun-named.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportDefaultDeclaration",

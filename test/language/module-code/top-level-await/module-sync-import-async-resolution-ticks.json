@@ -134,7 +134,8 @@
         "value": "./module-import-resolution_FIXTURE.js",
         "raw": "'./module-import-resolution_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

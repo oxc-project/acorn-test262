@@ -27,7 +27,8 @@
         "value": "./object-keys-binding-uninit.js",
         "raw": "\"./object-keys-binding-uninit.js\""
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

@@ -27,7 +27,8 @@
         "value": "./export-expname-from-string-string.js",
         "raw": "\"./export-expname-from-string-string.js\""
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportNamedDeclaration",

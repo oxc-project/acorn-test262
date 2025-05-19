@@ -19,7 +19,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 32,
             "end": 70,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -53,13 +52,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 75,
             "end": 108,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -93,7 +93,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -839,7 +841,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 594,
             "end": 624,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -873,7 +874,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "TSTypeAliasDeclaration",
@@ -1427,7 +1430,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 946,
             "end": 989,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -1461,7 +1463,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -1579,7 +1583,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 1079,
             "end": 1115,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -1613,13 +1616,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 1120,
             "end": 1160,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -1653,13 +1657,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 1165,
             "end": 1195,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -1693,13 +1698,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 1200,
             "end": 1235,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -1733,7 +1739,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -2124,7 +2132,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 1457,
             "end": 1487,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -2158,13 +2165,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 1492,
             "end": 1534,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -2198,7 +2206,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "TSTypeAliasDeclaration",
@@ -3060,7 +3070,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 2064,
             "end": 2106,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -3094,7 +3103,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -3281,7 +3292,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 2224,
             "end": 2260,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -3315,13 +3325,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 2265,
             "end": 2299,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -3355,13 +3366,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 2304,
             "end": 2342,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -3395,7 +3407,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -3680,7 +3694,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 2536,
             "end": 2572,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -3714,7 +3727,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -3894,7 +3909,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 2698,
             "end": 2742,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -3928,7 +3942,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -4190,7 +4206,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 2972,
             "end": 3010,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -4224,7 +4239,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -4490,7 +4507,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 3221,
             "end": 3257,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -4524,13 +4540,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 3262,
             "end": 3292,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -4564,7 +4581,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -4729,7 +4748,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 3418,
             "end": 3454,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -4763,13 +4781,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 3459,
             "end": 3491,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -4803,13 +4822,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 3496,
             "end": 3527,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -4843,13 +4863,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 3532,
             "end": 3565,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -4883,7 +4904,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -5368,7 +5391,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 3874,
             "end": 3914,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -5402,13 +5424,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 3919,
             "end": 3952,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -5442,13 +5465,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 3957,
             "end": 4000,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -5482,7 +5506,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -5659,7 +5685,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 4120,
             "end": 4156,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -5693,13 +5718,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 4161,
             "end": 4192,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -5733,13 +5759,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 4197,
             "end": 4235,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -5773,13 +5800,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 4240,
             "end": 4281,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -5813,13 +5841,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 4286,
             "end": 4318,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -5853,7 +5882,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -6793,7 +6824,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 4837,
             "end": 4877,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -6827,13 +6857,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 4882,
             "end": 4918,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -6867,7 +6898,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -7012,7 +7045,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 5036,
             "end": 5088,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -7046,13 +7078,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 5093,
             "end": 5141,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -7086,13 +7119,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 5146,
             "end": 5178,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -7126,13 +7160,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 5183,
             "end": 5219,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -7166,13 +7201,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 5224,
             "end": 5262,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -7206,13 +7242,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 5267,
             "end": 5305,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -7246,13 +7283,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 5310,
             "end": 5350,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -7286,13 +7324,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 5355,
             "end": 5388,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -7326,13 +7365,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 5393,
             "end": 5431,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -7366,7 +7406,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "TSTypeAliasDeclaration",
@@ -8535,7 +8577,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 6043,
             "end": 6084,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -8569,13 +8610,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 6089,
             "end": 6153,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -8609,13 +8651,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 6158,
             "end": 6199,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -8649,13 +8692,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 6204,
             "end": 6239,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -8689,13 +8733,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 6244,
             "end": 6274,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -8729,13 +8774,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 6279,
             "end": 6323,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -8769,13 +8815,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 6328,
             "end": 6363,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -8809,7 +8856,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -10101,7 +10150,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 7178,
             "end": 7231,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -10135,13 +10183,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 7236,
             "end": 7278,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -10175,7 +10224,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -13262,7 +13313,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 9413,
             "end": 9446,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -13296,7 +13346,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -13593,7 +13645,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 9621,
             "end": 9666,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -13627,13 +13678,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 9671,
             "end": 9704,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -13667,7 +13719,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -13831,7 +13885,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 9808,
             "end": 9841,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -13865,7 +13918,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -14119,7 +14174,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 10011,
             "end": 10059,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -14153,13 +14207,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 10064,
             "end": 10110,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -14193,7 +14248,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -14453,7 +14510,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 10270,
             "end": 10318,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -14487,13 +14543,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 10323,
             "end": 10365,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -14527,7 +14584,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -14667,7 +14726,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 10463,
             "end": 10501,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -14701,13 +14759,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 10506,
             "end": 10539,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -14741,7 +14800,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -15112,7 +15173,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 10781,
             "end": 10820,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -15146,13 +15206,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 10825,
             "end": 10861,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -15186,13 +15247,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 10866,
             "end": 10904,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -15226,13 +15288,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 10909,
             "end": 10946,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -15266,13 +15329,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 10951,
             "end": 11003,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -15306,13 +15370,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 11008,
             "end": 11056,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -15346,13 +15411,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 11061,
             "end": 11093,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -15386,13 +15452,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 11098,
             "end": 11131,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -15426,13 +15493,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 11136,
             "end": 11175,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -15466,13 +15534,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 11180,
             "end": 11218,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -15506,7 +15575,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "TSTypeAliasDeclaration",
@@ -16487,7 +16558,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 11731,
             "end": 11771,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -16521,13 +16591,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 11776,
             "end": 11809,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -16561,7 +16632,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -16976,7 +17049,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 12059,
             "end": 12092,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -17010,13 +17082,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 12097,
             "end": 12129,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -17050,13 +17123,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 12134,
             "end": 12186,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -17090,13 +17164,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 12191,
             "end": 12239,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -17130,13 +17205,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 12244,
             "end": 12283,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -17170,13 +17246,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 12288,
             "end": 12330,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -17210,13 +17287,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 12335,
             "end": 12368,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -17250,13 +17328,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 12373,
             "end": 12409,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -17290,13 +17369,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 12414,
             "end": 12452,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -17330,13 +17410,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 12457,
             "end": 12496,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -17370,13 +17451,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 12501,
             "end": 12540,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -17410,13 +17492,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 12545,
             "end": 12583,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -17450,7 +17533,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "TSTypeAliasDeclaration",
@@ -19225,7 +19310,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 13452,
             "end": 13495,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -19259,13 +19343,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 13500,
             "end": 13546,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -19299,13 +19384,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 13551,
             "end": 13584,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -19339,7 +19425,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -19631,7 +19719,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 13770,
             "end": 13823,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -19665,13 +19752,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 13828,
             "end": 13876,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -19705,7 +19793,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -20013,7 +20103,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 14097,
             "end": 14142,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -20047,7 +20136,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -20243,7 +20334,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 14285,
             "end": 14330,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -20277,7 +20367,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -20478,7 +20570,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 14470,
             "end": 14523,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -20512,13 +20603,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 14528,
             "end": 14576,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -20552,7 +20644,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -20696,7 +20790,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 14683,
             "end": 14736,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -20730,13 +20823,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 14741,
             "end": 14777,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -20770,13 +20864,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 14782,
             "end": 14818,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -20810,13 +20905,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 14823,
             "end": 14866,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -20850,7 +20946,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -21566,7 +21664,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 15408,
             "end": 15447,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -21600,7 +21697,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -29427,7 +29526,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 19300,
             "end": 19353,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -29461,7 +29559,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -29616,7 +29716,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 19497,
             "end": 19545,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -29650,13 +29749,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 19550,
             "end": 19592,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -29690,7 +29790,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -29830,7 +29932,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 19695,
             "end": 19736,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -29864,13 +29965,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 19741,
             "end": 19806,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -29904,13 +30006,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 19811,
             "end": 19850,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -29944,13 +30047,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 19855,
             "end": 19887,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -29984,13 +30088,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 19892,
             "end": 19922,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -30024,13 +30129,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 19927,
             "end": 19968,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -30064,13 +30170,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 19973,
             "end": 20017,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -30104,13 +30211,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 20022,
             "end": 20055,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -30144,13 +30252,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 20060,
             "end": 20093,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -30184,13 +30293,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 20098,
             "end": 20139,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -30224,7 +30334,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -30987,7 +31099,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 20593,
             "end": 20625,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -31021,7 +31132,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -31225,7 +31338,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 20787,
             "end": 20820,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -31259,7 +31371,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -31664,7 +31778,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 21110,
             "end": 21146,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -31698,13 +31811,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 21151,
             "end": 21189,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -31738,13 +31852,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 21194,
             "end": 21232,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -31778,13 +31893,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 21237,
             "end": 21271,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -31818,13 +31934,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 21276,
             "end": 21313,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -31858,13 +31975,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 21318,
             "end": 21356,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -31898,13 +32016,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 21361,
             "end": 21393,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -31938,13 +32057,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 21398,
             "end": 21447,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -31978,13 +32098,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 21452,
             "end": 21493,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -32018,13 +32139,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 21498,
             "end": 21550,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -32058,13 +32180,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 21555,
             "end": 21603,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -32098,13 +32221,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 21608,
             "end": 21644,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -32138,13 +32262,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 21649,
             "end": 21696,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -32178,13 +32303,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 21701,
             "end": 21727,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -32218,13 +32344,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 21732,
             "end": 21765,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -32258,13 +32385,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 21770,
             "end": 21815,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -32298,13 +32426,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 21820,
             "end": 21858,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -32338,7 +32467,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "TSTypeAliasDeclaration",

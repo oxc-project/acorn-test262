@@ -33,7 +33,8 @@
         "value": "./instn-resolve-empty-import_FIXTURE.js",
         "raw": "'./instn-resolve-empty-import_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     }
   ],
   "sourceType": "module",

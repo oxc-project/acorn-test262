@@ -27,7 +27,8 @@
         "value": "./has-property-str-not-found.js",
         "raw": "'./has-property-str-not-found.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "VariableDeclaration",

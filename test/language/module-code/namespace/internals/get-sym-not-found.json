@@ -27,7 +27,8 @@
         "value": "./get-sym-not-found.js",
         "raw": "'./get-sym-not-found.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

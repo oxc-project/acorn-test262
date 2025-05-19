@@ -46,7 +46,8 @@
         "value": "./export-star-as-dflt.js",
         "raw": "'./export-star-as-dflt.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -78,7 +79,8 @@
         "value": "./export-star-as-dflt.js",
         "raw": "'./export-star-as-dflt.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -104,7 +106,8 @@
         "value": "./export-star-as-dflt.js",
         "raw": "'./export-star-as-dflt.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

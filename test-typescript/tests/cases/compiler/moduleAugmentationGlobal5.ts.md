@@ -213,7 +213,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 64,
       "end": 75,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -222,13 +221,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"A\"",
         "value": "A"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 76,
       "end": 87,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -237,7 +237,9 @@ __ESTREE_TEST__:PASS:
         "raw": "\"B\"",
         "value": "B"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     }
   ],
   "sourceType": "module",

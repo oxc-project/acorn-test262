@@ -46,7 +46,8 @@
             "raw": "'json'"
           }
         }
-      ]
+      ],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -97,7 +98,8 @@
             "raw": "'json'"
           }
         }
-      ]
+      ],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -111,7 +113,8 @@
         "value": "./json-idempotency-indirect_FIXTURE.js",
         "raw": "'./json-idempotency-indirect_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

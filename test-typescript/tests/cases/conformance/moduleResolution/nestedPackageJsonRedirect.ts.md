@@ -31,7 +31,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 46,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -40,7 +39,9 @@ __ESTREE_TEST__:PASS:
         "raw": "\"@restart/hooks/useMergedRefs\"",
         "value": "@restart/hooks/useMergedRefs"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     }
   ],
   "sourceType": "module",

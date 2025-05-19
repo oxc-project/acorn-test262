@@ -461,7 +461,6 @@ __ESTREE_TEST__:PASS:
                 "type": "ImportDeclaration",
                 "start": 512,
                 "end": 543,
-                "attributes": [],
                 "importKind": "value",
                 "source": {
                   "type": "Literal",
@@ -485,13 +484,14 @@ __ESTREE_TEST__:PASS:
                       "typeAnnotation": null
                     }
                   }
-                ]
+                ],
+                "phase": null,
+                "attributes": []
               },
               {
                 "type": "ImportDeclaration",
                 "start": 552,
                 "end": 578,
-                "attributes": [],
                 "importKind": "value",
                 "source": {
                   "type": "Literal",
@@ -515,13 +515,14 @@ __ESTREE_TEST__:PASS:
                       "typeAnnotation": null
                     }
                   }
-                ]
+                ],
+                "phase": null,
+                "attributes": []
               },
               {
                 "type": "ImportDeclaration",
                 "start": 587,
                 "end": 617,
-                "attributes": [],
                 "importKind": "value",
                 "source": {
                   "type": "Literal",
@@ -555,13 +556,14 @@ __ESTREE_TEST__:PASS:
                       "typeAnnotation": null
                     }
                   }
-                ]
+                ],
+                "phase": null,
+                "attributes": []
               },
               {
                 "type": "ImportDeclaration",
                 "start": 626,
                 "end": 643,
-                "attributes": [],
                 "importKind": "value",
                 "source": {
                   "type": "Literal",
@@ -570,7 +572,9 @@ __ESTREE_TEST__:PASS:
                   "raw": "\"ambient\"",
                   "value": "ambient"
                 },
-                "specifiers": []
+                "specifiers": [],
+                "phase": null,
+                "attributes": []
               }
             ]
           }

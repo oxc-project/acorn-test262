@@ -27,7 +27,8 @@
         "value": "./trap-is-undefined-target-is-proxy.js",
         "raw": "\"./trap-is-undefined-target-is-proxy.js\""
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "VariableDeclaration",

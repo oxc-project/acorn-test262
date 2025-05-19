@@ -130,7 +130,8 @@
         "value": "./instn-iee-bndng-let_FIXTURE.js",
         "raw": "'./instn-iee-bndng-let_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportNamedDeclaration",

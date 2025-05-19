@@ -280,7 +280,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 73,
       "end": 91,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -289,7 +288,9 @@ __ESTREE_TEST__:PASS:
         "raw": "\"./preact\"",
         "value": "./preact"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",

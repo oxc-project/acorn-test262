@@ -60,7 +60,8 @@
         "value": "./instn-iee-star-cycle.js",
         "raw": "'./instn-iee-star-cycle.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

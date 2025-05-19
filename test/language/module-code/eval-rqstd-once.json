@@ -15,7 +15,8 @@
         "value": "./eval-rqstd-once_FIXTURE.js",
         "raw": "'./eval-rqstd-once_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -29,7 +30,8 @@
         "value": "./eval-rqstd-once_FIXTURE.js",
         "raw": "'./eval-rqstd-once_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -55,7 +57,8 @@
         "value": "./eval-rqstd-once_FIXTURE.js",
         "raw": "'./eval-rqstd-once_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -81,7 +84,8 @@
         "value": "./eval-rqstd-once_FIXTURE.js",
         "raw": "'./eval-rqstd-once_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -122,7 +126,8 @@
         "value": "./eval-rqstd-once_FIXTURE.js",
         "raw": "'./eval-rqstd-once_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportAllDeclaration",
@@ -211,7 +216,8 @@
         "value": "./eval-rqstd-once_FIXTURE.js",
         "raw": "'./eval-rqstd-once_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportDefaultDeclaration",

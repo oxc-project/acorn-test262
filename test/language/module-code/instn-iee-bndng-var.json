@@ -238,7 +238,8 @@
         "value": "./instn-iee-bndng-var_FIXTURE.js",
         "raw": "'./instn-iee-bndng-var_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportNamedDeclaration",

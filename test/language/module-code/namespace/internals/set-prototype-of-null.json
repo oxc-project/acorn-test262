@@ -27,7 +27,8 @@
         "value": "./set-prototype-of-null.js",
         "raw": "'./set-prototype-of-null.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

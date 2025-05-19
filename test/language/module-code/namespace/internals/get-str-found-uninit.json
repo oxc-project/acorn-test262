@@ -27,7 +27,8 @@
         "value": "./get-str-found-uninit.js",
         "raw": "'./get-str-found-uninit.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

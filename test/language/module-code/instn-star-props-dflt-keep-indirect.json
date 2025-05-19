@@ -27,7 +27,8 @@
         "value": "./instn-star-props-dflt-keep-indirect-reexport_FIXTURE.js",
         "raw": "'./instn-star-props-dflt-keep-indirect-reexport_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

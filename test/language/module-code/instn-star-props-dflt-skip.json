@@ -27,7 +27,8 @@
         "value": "./instn-star-props-dflt-skip-star-named_FIXTURE.js",
         "raw": "'./instn-star-props-dflt-skip-star-named_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -53,7 +54,8 @@
         "value": "./instn-star-props-dflt-skip-star-prod_FIXTURE.js",
         "raw": "'./instn-star-props-dflt-skip-star-prod_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

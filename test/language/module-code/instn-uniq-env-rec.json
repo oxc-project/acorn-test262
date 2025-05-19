@@ -15,7 +15,8 @@
         "value": "./instn-uniq-env-rec-other_FIXTURE.js",
         "raw": "'./instn-uniq-env-rec-other_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "VariableDeclaration",

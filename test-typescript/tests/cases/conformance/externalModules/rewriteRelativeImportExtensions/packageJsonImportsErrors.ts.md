@@ -53,7 +53,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 25,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -62,13 +61,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"#foo.ts\"",
         "value": "#foo.ts"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 32,
       "end": 66,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -77,13 +77,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"#internal/foo.ts\"",
         "value": "#internal/foo.ts"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 76,
       "end": 104,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -92,7 +93,9 @@ __ESTREE_TEST__:PASS:
         "raw": "\"pkg/foo.ts\"",
         "value": "pkg/foo.ts"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     }
   ],
   "sourceType": "module",

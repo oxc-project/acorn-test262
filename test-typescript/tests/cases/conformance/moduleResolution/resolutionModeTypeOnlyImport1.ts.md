@@ -133,7 +133,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 40,
-      "attributes": [],
       "importKind": "type",
       "source": {
         "type": "Literal",
@@ -167,33 +166,14 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 41,
       "end": 119,
-      "attributes": [
-        {
-          "type": "ImportAttribute",
-          "start": 89,
-          "end": 116,
-          "key": {
-            "type": "Literal",
-            "start": 89,
-            "end": 106,
-            "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
-          },
-          "value": {
-            "type": "Literal",
-            "start": 108,
-            "end": 116,
-            "raw": "\"import\"",
-            "value": "import"
-          }
-        }
-      ],
       "importKind": "type",
       "source": {
         "type": "Literal",
@@ -227,33 +207,34 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
+      ],
+      "phase": null,
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "start": 89,
+          "end": 116,
+          "key": {
+            "type": "Literal",
+            "start": 89,
+            "end": 106,
+            "raw": "\"resolution-mode\"",
+            "value": "resolution-mode"
+          },
+          "value": {
+            "type": "Literal",
+            "start": 108,
+            "end": 116,
+            "raw": "\"import\"",
+            "value": "import"
+          }
+        }
       ]
     },
     {
       "type": "ImportDeclaration",
       "start": 120,
       "end": 200,
-      "attributes": [
-        {
-          "type": "ImportAttribute",
-          "start": 169,
-          "end": 197,
-          "key": {
-            "type": "Literal",
-            "start": 169,
-            "end": 186,
-            "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
-          },
-          "value": {
-            "type": "Literal",
-            "start": 188,
-            "end": 197,
-            "raw": "\"require\"",
-            "value": "require"
-          }
-        }
-      ],
       "importKind": "type",
       "source": {
         "type": "Literal",
@@ -285,6 +266,28 @@ __ESTREE_TEST__:PASS:
             "name": "Require",
             "optional": false,
             "typeAnnotation": null
+          }
+        }
+      ],
+      "phase": null,
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "start": 169,
+          "end": 197,
+          "key": {
+            "type": "Literal",
+            "start": 169,
+            "end": 186,
+            "raw": "\"resolution-mode\"",
+            "value": "resolution-mode"
+          },
+          "value": {
+            "type": "Literal",
+            "start": 188,
+            "end": 197,
+            "raw": "\"require\"",
+            "value": "require"
           }
         }
       ]
@@ -386,27 +389,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 382,
       "end": 472,
-      "attributes": [
-        {
-          "type": "ImportAttribute",
-          "start": 442,
-          "end": 469,
-          "key": {
-            "type": "Literal",
-            "start": 442,
-            "end": 459,
-            "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
-          },
-          "value": {
-            "type": "Literal",
-            "start": 461,
-            "end": 469,
-            "raw": "\"import\"",
-            "value": "import"
-          }
-        }
-      ],
       "importKind": "type",
       "source": {
         "type": "Literal",
@@ -440,33 +422,34 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
+      ],
+      "phase": null,
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "start": 442,
+          "end": 469,
+          "key": {
+            "type": "Literal",
+            "start": 442,
+            "end": 459,
+            "raw": "\"resolution-mode\"",
+            "value": "resolution-mode"
+          },
+          "value": {
+            "type": "Literal",
+            "start": 461,
+            "end": 469,
+            "raw": "\"import\"",
+            "value": "import"
+          }
+        }
       ]
     },
     {
       "type": "ImportDeclaration",
       "start": 473,
       "end": 565,
-      "attributes": [
-        {
-          "type": "ImportAttribute",
-          "start": 534,
-          "end": 562,
-          "key": {
-            "type": "Literal",
-            "start": 534,
-            "end": 551,
-            "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
-          },
-          "value": {
-            "type": "Literal",
-            "start": 553,
-            "end": 562,
-            "raw": "\"require\"",
-            "value": "require"
-          }
-        }
-      ],
       "importKind": "type",
       "source": {
         "type": "Literal",
@@ -498,6 +481,28 @@ __ESTREE_TEST__:PASS:
             "name": "RequireRelative",
             "optional": false,
             "typeAnnotation": null
+          }
+        }
+      ],
+      "phase": null,
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "start": 534,
+          "end": 562,
+          "key": {
+            "type": "Literal",
+            "start": 534,
+            "end": 551,
+            "raw": "\"resolution-mode\"",
+            "value": "resolution-mode"
+          },
+          "value": {
+            "type": "Literal",
+            "start": 553,
+            "end": 562,
+            "raw": "\"require\"",
+            "value": "require"
           }
         }
       ]

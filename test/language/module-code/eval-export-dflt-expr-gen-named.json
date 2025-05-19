@@ -71,7 +71,8 @@
         "value": "./eval-export-dflt-expr-gen-named.js",
         "raw": "'./eval-export-dflt-expr-gen-named.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

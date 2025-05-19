@@ -27,7 +27,8 @@
         "value": "./has-property-sym-found.js",
         "raw": "'./has-property-sym-found.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

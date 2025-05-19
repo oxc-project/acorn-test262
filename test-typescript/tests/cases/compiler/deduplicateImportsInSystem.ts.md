@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 21,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -43,13 +42,14 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 22,
       "end": 43,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -83,13 +83,14 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 44,
       "end": 65,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -123,13 +124,14 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 66,
       "end": 87,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -163,13 +165,14 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 88,
       "end": 109,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -203,13 +206,14 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 110,
       "end": 131,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -243,7 +247,9 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

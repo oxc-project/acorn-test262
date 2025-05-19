@@ -27,7 +27,8 @@
         "value": "./has-property-sym-not-found.js",
         "raw": "'./has-property-sym-not-found.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "VariableDeclaration",

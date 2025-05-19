@@ -64,7 +64,8 @@
             "raw": "'json'"
           }
         }
-      ]
+      ],
+      "phase": null
     }
   ],
   "sourceType": "module",

@@ -46,7 +46,8 @@
             "raw": "'json'"
           }
         }
-      ]
+      ],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

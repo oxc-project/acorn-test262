@@ -27,7 +27,8 @@
         "value": "./dep_FIXTURE.js",
         "raw": "\"./dep_FIXTURE.js\""
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

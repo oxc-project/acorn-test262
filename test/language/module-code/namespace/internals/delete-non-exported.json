@@ -27,7 +27,8 @@
         "value": "./delete-non-exported.js",
         "raw": "'./delete-non-exported.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "VariableDeclaration",

@@ -27,7 +27,8 @@
         "value": "./object-hasOwnProperty-binding-uninit.js",
         "raw": "\"./object-hasOwnProperty-binding-uninit.js\""
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

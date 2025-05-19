@@ -71,7 +71,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 11,
       "end": 37,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -80,13 +79,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"./foo.ts\"",
         "value": "./foo.ts"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 38,
       "end": 66,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -95,13 +95,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"../foo.mts\"",
         "value": "../foo.mts"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 67,
       "end": 98,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -110,13 +111,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"../../foo.cts\"",
         "value": "../../foo.cts"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 99,
       "end": 126,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -125,7 +127,9 @@ __ESTREE_TEST__:PASS:
         "raw": "\"./foo.tsx\"",
         "value": "./foo.tsx"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -158,7 +162,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 161,
       "end": 179,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -167,7 +170,9 @@ __ESTREE_TEST__:PASS:
         "raw": "\"./foo.ts\"",
         "value": "./foo.ts"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExportAllDeclaration",
@@ -473,7 +478,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 11,
       "end": 37,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -482,13 +486,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"./foo.ts\"",
         "value": "./foo.ts"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 38,
       "end": 66,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -497,13 +502,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"../foo.mts\"",
         "value": "../foo.mts"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 67,
       "end": 98,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -512,13 +518,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"../../foo.cts\"",
         "value": "../../foo.cts"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 99,
       "end": 126,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -527,13 +534,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"./foo.tsx\"",
         "value": "./foo.tsx"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 127,
       "end": 145,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -542,7 +550,9 @@ __ESTREE_TEST__:PASS:
         "raw": "\"./foo.ts\"",
         "value": "./foo.ts"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExportAllDeclaration",
@@ -781,7 +791,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 33,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -790,13 +799,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"./foo.ts/foo.js\"",
         "value": "./foo.ts/foo.js"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 34,
       "end": 58,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -805,13 +815,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"foo.ts\"",
         "value": "foo.ts"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 59,
       "end": 87,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -820,13 +831,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"pkg/foo.ts\"",
         "value": "pkg/foo.ts"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 88,
       "end": 113,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -835,13 +847,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\".foo.ts\"",
         "value": ".foo.ts"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 114,
       "end": 142,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -850,13 +863,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"./foo.d.ts\"",
         "value": "./foo.d.ts"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 143,
       "end": 172,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -865,13 +879,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"./foo.d.mts\"",
         "value": "./foo.d.mts"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 173,
       "end": 205,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -880,13 +895,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"./foo.d.css.ts\"",
         "value": "./foo.d.css.ts"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 206,
       "end": 240,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -895,13 +911,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"#internal/foo.ts\"",
         "value": "#internal/foo.ts"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 241,
       "end": 270,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -910,7 +927,9 @@ __ESTREE_TEST__:PASS:
         "raw": "\"node:foo.ts\"",
         "value": "node:foo.ts"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

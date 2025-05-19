@@ -15,7 +15,8 @@
         "value": "./instn-same-global-set_FIXTURE.js",
         "raw": "'./instn-same-global-set_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "VariableDeclaration",

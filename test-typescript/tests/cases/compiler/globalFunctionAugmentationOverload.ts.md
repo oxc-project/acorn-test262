@@ -144,7 +144,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 13,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -153,7 +152,9 @@ __ESTREE_TEST__:PASS:
         "raw": "\"mod\"",
         "value": "mod"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "TSModuleDeclaration",
