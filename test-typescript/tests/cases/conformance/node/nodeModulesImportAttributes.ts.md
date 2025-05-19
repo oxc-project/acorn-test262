@@ -9,29 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 56,
-      "attributes": [
-        {
-          "type": "ImportAttribute",
-          "start": 41,
-          "end": 53,
-          "key": {
-            "type": "Identifier",
-            "start": 41,
-            "end": 45,
-            "decorators": [],
-            "name": "type",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "value": {
-            "type": "Literal",
-            "start": 47,
-            "end": 53,
-            "raw": "\"json\"",
-            "value": "json"
-          }
-        }
-      ],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -53,6 +30,30 @@ __ESTREE_TEST__:PASS:
             "name": "json",
             "optional": false,
             "typeAnnotation": null
+          }
+        }
+      ],
+      "phase": null,
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "start": 41,
+          "end": 53,
+          "key": {
+            "type": "Identifier",
+            "start": 41,
+            "end": 45,
+            "decorators": [],
+            "name": "type",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "value": {
+            "type": "Literal",
+            "start": 47,
+            "end": 53,
+            "raw": "\"json\"",
+            "value": "json"
           }
         }
       ]
@@ -73,29 +74,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 56,
-      "attributes": [
-        {
-          "type": "ImportAttribute",
-          "start": 41,
-          "end": 53,
-          "key": {
-            "type": "Identifier",
-            "start": 41,
-            "end": 45,
-            "decorators": [],
-            "name": "type",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "value": {
-            "type": "Literal",
-            "start": 47,
-            "end": 53,
-            "raw": "\"json\"",
-            "value": "json"
-          }
-        }
-      ],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -117,6 +95,30 @@ __ESTREE_TEST__:PASS:
             "name": "json",
             "optional": false,
             "typeAnnotation": null
+          }
+        }
+      ],
+      "phase": null,
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "start": 41,
+          "end": 53,
+          "key": {
+            "type": "Identifier",
+            "start": 41,
+            "end": 45,
+            "decorators": [],
+            "name": "type",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "value": {
+            "type": "Literal",
+            "start": 47,
+            "end": 53,
+            "raw": "\"json\"",
+            "value": "json"
           }
         }
       ]

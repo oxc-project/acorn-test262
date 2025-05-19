@@ -237,7 +237,8 @@
         "value": "./instn-named-bndng-fun.js",
         "raw": "'./instn-named-bndng-fun.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportNamedDeclaration",

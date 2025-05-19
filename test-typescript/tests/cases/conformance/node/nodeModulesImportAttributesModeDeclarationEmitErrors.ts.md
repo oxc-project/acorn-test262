@@ -97,27 +97,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 18,
       "end": 99,
-      "attributes": [
-        {
-          "type": "ImportAttribute",
-          "start": 69,
-          "end": 96,
-          "key": {
-            "type": "Literal",
-            "start": 69,
-            "end": 86,
-            "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
-          },
-          "value": {
-            "type": "Literal",
-            "start": 88,
-            "end": 96,
-            "raw": "\"foobar\"",
-            "value": "foobar"
-          }
-        }
-      ],
       "importKind": "type",
       "source": {
         "type": "Literal",
@@ -151,33 +130,34 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
+      ],
+      "phase": null,
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "start": 69,
+          "end": 96,
+          "key": {
+            "type": "Literal",
+            "start": 69,
+            "end": 86,
+            "raw": "\"resolution-mode\"",
+            "value": "resolution-mode"
+          },
+          "value": {
+            "type": "Literal",
+            "start": 88,
+            "end": 96,
+            "raw": "\"foobar\"",
+            "value": "foobar"
+          }
+        }
       ]
     },
     {
       "type": "ImportDeclaration",
       "start": 117,
       "end": 192,
-      "attributes": [
-        {
-          "type": "ImportAttribute",
-          "start": 162,
-          "end": 189,
-          "key": {
-            "type": "Literal",
-            "start": 162,
-            "end": 179,
-            "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
-          },
-          "value": {
-            "type": "Literal",
-            "start": 181,
-            "end": 189,
-            "raw": "\"import\"",
-            "value": "import"
-          }
-        }
-      ],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -211,33 +191,34 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
+      ],
+      "phase": null,
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "start": 162,
+          "end": 189,
+          "key": {
+            "type": "Literal",
+            "start": 162,
+            "end": 179,
+            "raw": "\"resolution-mode\"",
+            "value": "resolution-mode"
+          },
+          "value": {
+            "type": "Literal",
+            "start": 181,
+            "end": 189,
+            "raw": "\"import\"",
+            "value": "import"
+          }
+        }
       ]
     },
     {
       "type": "ImportDeclaration",
       "start": 222,
       "end": 335,
-      "attributes": [
-        {
-          "type": "ImportAttribute",
-          "start": 304,
-          "end": 332,
-          "key": {
-            "type": "Literal",
-            "start": 304,
-            "end": 321,
-            "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
-          },
-          "value": {
-            "type": "Literal",
-            "start": 323,
-            "end": 332,
-            "raw": "\"require\"",
-            "value": "require"
-          }
-        }
-      ],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -293,6 +274,28 @@ __ESTREE_TEST__:PASS:
             "name": "Req2",
             "optional": false,
             "typeAnnotation": null
+          }
+        }
+      ],
+      "phase": null,
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "start": 304,
+          "end": 332,
+          "key": {
+            "type": "Literal",
+            "start": 304,
+            "end": 321,
+            "raw": "\"resolution-mode\"",
+            "value": "resolution-mode"
+          },
+          "value": {
+            "type": "Literal",
+            "start": 323,
+            "end": 332,
+            "raw": "\"require\"",
+            "value": "require"
           }
         }
       ]

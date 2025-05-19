@@ -31,6 +31,16 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 54,
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 15,
+        "end": 31,
+        "raw": "\"./example.json\"",
+        "value": "./example.json"
+      },
+      "specifiers": [],
+      "phase": null,
       "attributes": [
         {
           "type": "ImportAttribute",
@@ -53,22 +63,12 @@ __ESTREE_TEST__:PASS:
             "value": "json"
           }
         }
-      ],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 15,
-        "end": 31,
-        "raw": "\"./example.json\"",
-        "value": "./example.json"
-      },
-      "specifiers": []
+      ]
     },
     {
       "type": "ImportDeclaration",
       "start": 61,
       "end": 91,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -77,7 +77,9 @@ __ESTREE_TEST__:PASS:
         "raw": "\"./styles.css\"",
         "value": "./styles.css"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     }
   ],
   "sourceType": "module",

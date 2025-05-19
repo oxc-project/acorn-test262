@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 20,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -18,7 +17,9 @@ __ESTREE_TEST__:PASS:
         "raw": "'someModule'",
         "value": "someModule"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     }
   ],
   "sourceType": "module",

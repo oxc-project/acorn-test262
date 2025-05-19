@@ -33,7 +33,8 @@
         "value": "./eval-gtbndng-indirect-update_FIXTURE.js",
         "raw": "'./eval-gtbndng-indirect-update_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

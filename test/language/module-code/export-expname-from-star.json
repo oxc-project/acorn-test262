@@ -27,7 +27,8 @@
         "value": "./export-expname-from-star.js",
         "raw": "\"./export-expname-from-star.js\""
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportAllDeclaration",

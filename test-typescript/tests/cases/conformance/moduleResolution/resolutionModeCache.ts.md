@@ -144,27 +144,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 72,
-      "attributes": [
-        {
-          "type": "ImportAttribute",
-          "start": 41,
-          "end": 69,
-          "key": {
-            "type": "Literal",
-            "start": 41,
-            "end": 58,
-            "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
-          },
-          "value": {
-            "type": "Literal",
-            "start": 60,
-            "end": 69,
-            "raw": "\"require\"",
-            "value": "require"
-          }
-        }
-      ],
       "importKind": "type",
       "source": {
         "type": "Literal",
@@ -188,33 +167,34 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
+      ],
+      "phase": null,
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "start": 41,
+          "end": 69,
+          "key": {
+            "type": "Literal",
+            "start": 41,
+            "end": 58,
+            "raw": "\"resolution-mode\"",
+            "value": "resolution-mode"
+          },
+          "value": {
+            "type": "Literal",
+            "start": 60,
+            "end": 69,
+            "raw": "\"require\"",
+            "value": "require"
+          }
+        }
       ]
     },
     {
       "type": "ImportDeclaration",
       "start": 73,
       "end": 143,
-      "attributes": [
-        {
-          "type": "ImportAttribute",
-          "start": 113,
-          "end": 140,
-          "key": {
-            "type": "Literal",
-            "start": 113,
-            "end": 130,
-            "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
-          },
-          "value": {
-            "type": "Literal",
-            "start": 132,
-            "end": 140,
-            "raw": "\"import\"",
-            "value": "import"
-          }
-        }
-      ],
       "importKind": "type",
       "source": {
         "type": "Literal",
@@ -236,6 +216,28 @@ __ESTREE_TEST__:PASS:
             "name": "pkgImport",
             "optional": false,
             "typeAnnotation": null
+          }
+        }
+      ],
+      "phase": null,
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "start": 113,
+          "end": 140,
+          "key": {
+            "type": "Literal",
+            "start": 113,
+            "end": 130,
+            "raw": "\"resolution-mode\"",
+            "value": "resolution-mode"
+          },
+          "value": {
+            "type": "Literal",
+            "start": 132,
+            "end": 140,
+            "raw": "\"import\"",
+            "value": "import"
           }
         }
       ]

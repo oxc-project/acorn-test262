@@ -27,7 +27,8 @@
         "value": "./export-expname-binding-index_FIXTURE.js",
         "raw": "\"./export-expname-binding-index_FIXTURE.js\""
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

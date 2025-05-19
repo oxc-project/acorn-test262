@@ -113,7 +113,8 @@
         "value": "./instn-named-bndng-const.js",
         "raw": "'./instn-named-bndng-const.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportNamedDeclaration",

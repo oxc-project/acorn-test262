@@ -27,7 +27,8 @@
         "value": "./set.js",
         "raw": "'./set.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportNamedDeclaration",

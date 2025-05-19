@@ -239,7 +239,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 89,
       "end": 107,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -248,13 +247,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"indirect\"",
         "value": "indirect"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 108,
       "end": 121,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -263,13 +263,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"foo\"",
         "value": "foo"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 122,
       "end": 141,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -278,13 +279,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"indirect2\"",
         "value": "indirect2"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 142,
       "end": 156,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -293,7 +295,9 @@ __ESTREE_TEST__:PASS:
         "raw": "\"foo2\"",
         "value": "foo2"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     }
   ],
   "sourceType": "module",

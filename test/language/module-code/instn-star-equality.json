@@ -27,7 +27,8 @@
         "value": "./instn-star-equality.js",
         "raw": "'./instn-star-equality.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -53,7 +54,8 @@
         "value": "./instn-star-equality.js",
         "raw": "'./instn-star-equality.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -79,7 +81,8 @@
         "value": "./instn-star-equality-other_FIXTURE.js",
         "raw": "'./instn-star-equality-other_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -105,7 +108,8 @@
         "value": "./instn-star-equality.js",
         "raw": "'./instn-star-equality.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -131,7 +135,8 @@
         "value": "./instn-star-equality-other_FIXTURE.js",
         "raw": "'./instn-star-equality-other_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -163,7 +168,8 @@
         "value": "./instn-star-equality-other_FIXTURE.js",
         "raw": "'./instn-star-equality-other_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

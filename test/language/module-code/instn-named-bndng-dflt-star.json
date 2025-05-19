@@ -189,7 +189,8 @@
         "value": "./instn-named-bndng-dflt-star.js",
         "raw": "'./instn-named-bndng-dflt-star.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     }
   ],
   "sourceType": "module",

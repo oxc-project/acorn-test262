@@ -27,7 +27,8 @@
         "value": "./own-property-keys-binding-types.js",
         "raw": "'./own-property-keys-binding-types.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportNamedDeclaration",

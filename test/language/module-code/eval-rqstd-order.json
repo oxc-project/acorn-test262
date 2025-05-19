@@ -80,7 +80,8 @@
         "value": "./eval-rqstd-order-1_FIXTURE.js",
         "raw": "'./eval-rqstd-order-1_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -94,7 +95,8 @@
         "value": "./eval-rqstd-order-2_FIXTURE.js",
         "raw": "'./eval-rqstd-order-2_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -120,7 +122,8 @@
         "value": "./eval-rqstd-order-3_FIXTURE.js",
         "raw": "'./eval-rqstd-order-3_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -146,7 +149,8 @@
         "value": "./eval-rqstd-order-4_FIXTURE.js",
         "raw": "'./eval-rqstd-order-4_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -187,7 +191,8 @@
         "value": "./eval-rqstd-order-6_FIXTURE.js",
         "raw": "'./eval-rqstd-order-6_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportAllDeclaration",
@@ -238,7 +243,8 @@
         "value": "./eval-rqstd-order-8_FIXTURE.js",
         "raw": "'./eval-rqstd-order-8_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportAllDeclaration",

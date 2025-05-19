@@ -33,7 +33,8 @@
         "value": "./instn-named-iee-cycle-2_FIXTURE.js",
         "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportNamedDeclaration",

@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 45,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -33,13 +32,14 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 46,
       "end": 99,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -63,13 +63,14 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 100,
       "end": 151,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -93,13 +94,14 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 153,
       "end": 207,
-      "attributes": [],
       "importKind": "type",
       "source": {
         "type": "Literal",
@@ -123,13 +125,14 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 208,
       "end": 270,
-      "attributes": [],
       "importKind": "type",
       "source": {
         "type": "Literal",
@@ -153,13 +156,14 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 271,
       "end": 331,
-      "attributes": [],
       "importKind": "type",
       "source": {
         "type": "Literal",
@@ -183,7 +187,9 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     }
   ],
   "sourceType": "module",

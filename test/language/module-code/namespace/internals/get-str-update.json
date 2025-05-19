@@ -27,7 +27,8 @@
         "value": "./get-str-update.js",
         "raw": "'./get-str-update.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportNamedDeclaration",

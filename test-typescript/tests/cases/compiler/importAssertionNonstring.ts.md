@@ -9,29 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 54,
-      "attributes": [
-        {
-          "type": "ImportAttribute",
-          "start": 44,
-          "end": 52,
-          "key": {
-            "type": "Identifier",
-            "start": 44,
-            "end": 49,
-            "decorators": [],
-            "name": "field",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "value": {
-            "type": "Literal",
-            "start": 51,
-            "end": 52,
-            "raw": "0",
-            "value": 0
-          }
-        }
-      ],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -55,12 +32,61 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
+      ],
+      "phase": null,
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "start": 44,
+          "end": 52,
+          "key": {
+            "type": "Identifier",
+            "start": 44,
+            "end": 49,
+            "decorators": [],
+            "name": "field",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "value": {
+            "type": "Literal",
+            "start": 51,
+            "end": 52,
+            "raw": "0",
+            "value": 0
+          }
+        }
       ]
     },
     {
       "type": "ImportDeclaration",
       "start": 56,
       "end": 112,
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 80,
+        "end": 91,
+        "raw": "\"./mod.mjs\"",
+        "value": "./mod.mjs"
+      },
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "start": 63,
+          "end": 74,
+          "local": {
+            "type": "Identifier",
+            "start": 68,
+            "end": 74,
+            "decorators": [],
+            "name": "thing2",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ],
+      "phase": null,
       "attributes": [
         {
           "type": "ImportAttribute",
@@ -94,36 +120,37 @@ __ESTREE_TEST__:PASS:
             ]
           }
         }
-      ],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 80,
-        "end": 91,
-        "raw": "\"./mod.mjs\"",
-        "value": "./mod.mjs"
-      },
-      "specifiers": [
-        {
-          "type": "ImportNamespaceSpecifier",
-          "start": 63,
-          "end": 74,
-          "local": {
-            "type": "Identifier",
-            "start": 68,
-            "end": 74,
-            "decorators": [],
-            "name": "thing2",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        }
       ]
     },
     {
       "type": "ImportDeclaration",
       "start": 114,
       "end": 171,
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 138,
+        "end": 149,
+        "raw": "\"./mod.mjs\"",
+        "value": "./mod.mjs"
+      },
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "start": 121,
+          "end": 132,
+          "local": {
+            "type": "Identifier",
+            "start": 126,
+            "end": 132,
+            "decorators": [],
+            "name": "thing3",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ],
+      "phase": null,
       "attributes": [
         {
           "type": "ImportAttribute",
@@ -150,36 +177,37 @@ __ESTREE_TEST__:PASS:
             "value": null
           }
         }
-      ],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 138,
-        "end": 149,
-        "raw": "\"./mod.mjs\"",
-        "value": "./mod.mjs"
-      },
-      "specifiers": [
-        {
-          "type": "ImportNamespaceSpecifier",
-          "start": 121,
-          "end": 132,
-          "local": {
-            "type": "Identifier",
-            "start": 126,
-            "end": 132,
-            "decorators": [],
-            "name": "thing3",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        }
       ]
     },
     {
       "type": "ImportDeclaration",
       "start": 173,
       "end": 231,
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 197,
+        "end": 208,
+        "raw": "\"./mod.mjs\"",
+        "value": "./mod.mjs"
+      },
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "start": 180,
+          "end": 191,
+          "local": {
+            "type": "Identifier",
+            "start": 185,
+            "end": 191,
+            "decorators": [],
+            "name": "thing4",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ],
+      "phase": null,
       "attributes": [
         {
           "type": "ImportAttribute",
@@ -209,36 +237,37 @@ __ESTREE_TEST__:PASS:
             ]
           }
         }
-      ],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 197,
-        "end": 208,
-        "raw": "\"./mod.mjs\"",
-        "value": "./mod.mjs"
-      },
-      "specifiers": [
-        {
-          "type": "ImportNamespaceSpecifier",
-          "start": 180,
-          "end": 191,
-          "local": {
-            "type": "Identifier",
-            "start": 185,
-            "end": 191,
-            "decorators": [],
-            "name": "thing4",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        }
       ]
     },
     {
       "type": "ImportDeclaration",
       "start": 233,
       "end": 294,
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 257,
+        "end": 268,
+        "raw": "\"./mod.mjs\"",
+        "value": "./mod.mjs"
+      },
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "start": 240,
+          "end": 251,
+          "local": {
+            "type": "Identifier",
+            "start": 245,
+            "end": 251,
+            "decorators": [],
+            "name": "thing5",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ],
+      "phase": null,
       "attributes": [
         {
           "type": "ImportAttribute",
@@ -287,36 +316,37 @@ __ESTREE_TEST__:PASS:
             ]
           }
         }
-      ],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 257,
-        "end": 268,
-        "raw": "\"./mod.mjs\"",
-        "value": "./mod.mjs"
-      },
-      "specifiers": [
-        {
-          "type": "ImportNamespaceSpecifier",
-          "start": 240,
-          "end": 251,
-          "local": {
-            "type": "Identifier",
-            "start": 245,
-            "end": 251,
-            "decorators": [],
-            "name": "thing5",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        }
       ]
     },
     {
       "type": "ImportDeclaration",
       "start": 296,
       "end": 375,
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 320,
+        "end": 331,
+        "raw": "\"./mod.mjs\"",
+        "value": "./mod.mjs"
+      },
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "start": 303,
+          "end": 314,
+          "local": {
+            "type": "Identifier",
+            "start": 308,
+            "end": 314,
+            "decorators": [],
+            "name": "thing6",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ],
+      "phase": null,
       "attributes": [
         {
           "type": "ImportAttribute",
@@ -382,30 +412,6 @@ __ESTREE_TEST__:PASS:
             },
             "optional": false,
             "typeArguments": null
-          }
-        }
-      ],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 320,
-        "end": 331,
-        "raw": "\"./mod.mjs\"",
-        "value": "./mod.mjs"
-      },
-      "specifiers": [
-        {
-          "type": "ImportNamespaceSpecifier",
-          "start": 303,
-          "end": 314,
-          "local": {
-            "type": "Identifier",
-            "start": 308,
-            "end": 314,
-            "decorators": [],
-            "name": "thing6",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       ]

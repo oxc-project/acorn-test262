@@ -151,7 +151,8 @@
         "value": "./instn-named-bndng-dflt-fun-anon.js",
         "raw": "'./instn-named-bndng-dflt-fun-anon.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportDefaultDeclaration",

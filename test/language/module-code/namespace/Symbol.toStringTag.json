@@ -27,7 +27,8 @@
         "value": "./Symbol.toStringTag.js",
         "raw": "'./Symbol.toStringTag.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

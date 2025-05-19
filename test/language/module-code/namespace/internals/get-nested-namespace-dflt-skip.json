@@ -27,7 +27,8 @@
         "value": "./get-nested-namespace-dflt-skip-named_FIXTURE.js",
         "raw": "'./get-nested-namespace-dflt-skip-named_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -53,7 +54,8 @@
         "value": "./get-nested-namespace-dflt-skip-prod_FIXTURE.js",
         "raw": "'./get-nested-namespace-dflt-skip-prod_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

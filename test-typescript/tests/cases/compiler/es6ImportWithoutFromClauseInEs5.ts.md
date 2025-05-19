@@ -61,7 +61,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 43,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -70,7 +69,9 @@ __ESTREE_TEST__:PASS:
         "raw": "\"es6ImportWithoutFromClauseInEs5_0\"",
         "value": "es6ImportWithoutFromClauseInEs5_0"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     }
   ],
   "sourceType": "module",

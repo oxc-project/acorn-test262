@@ -27,7 +27,8 @@
         "value": "./set-prototype-of.js",
         "raw": "'./set-prototype-of.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "VariableDeclaration",

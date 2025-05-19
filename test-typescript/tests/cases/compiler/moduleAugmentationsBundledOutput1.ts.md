@@ -57,7 +57,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 25,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -91,7 +90,9 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -609,7 +610,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 25,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -643,13 +643,14 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 26,
       "end": 54,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -707,7 +708,9 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -1095,7 +1098,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 27,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -1129,13 +1131,14 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 28,
       "end": 40,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -1144,13 +1147,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"m2\"",
         "value": "m2"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 41,
       "end": 53,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -1159,7 +1163,9 @@ __ESTREE_TEST__:PASS:
         "raw": "\"m4\"",
         "value": "m4"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",

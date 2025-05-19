@@ -27,7 +27,8 @@
         "value": "./get-prototype-of.js",
         "raw": "'./get-prototype-of.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

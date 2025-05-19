@@ -15,7 +15,8 @@
         "value": "./verify-dfs-a_FIXTURE.js",
         "raw": "'./verify-dfs-a_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -29,7 +30,8 @@
         "value": "./verify-dfs-b_FIXTURE.js",
         "raw": "'./verify-dfs-b_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportNamedDeclaration",

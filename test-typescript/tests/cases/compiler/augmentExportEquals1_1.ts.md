@@ -223,7 +223,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 29,
       "end": 44,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -232,7 +231,9 @@ __ESTREE_TEST__:PASS:
         "raw": "\"file2\"",
         "value": "file2"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",

@@ -94,7 +94,8 @@
         "value": "./eval-export-dflt-expr-cls-anon.js",
         "raw": "'./eval-export-dflt-expr-cls-anon.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

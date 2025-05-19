@@ -108,7 +108,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 48,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -117,13 +116,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"exports-and-types-versions/foo\"",
         "value": "exports-and-types-versions/foo"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 49,
       "end": 98,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -132,13 +132,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"exports-and-types-versions/nope\"",
         "value": "exports-and-types-versions/nope"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 99,
       "end": 147,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -147,13 +148,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"exports-and-types-versions/yep\"",
         "value": "exports-and-types-versions/yep"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 148,
       "end": 206,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -162,13 +164,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"exports-and-types-versions/versioned-yep\"",
         "value": "exports-and-types-versions/versioned-yep"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 207,
       "end": 265,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -177,13 +180,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"exports-and-types-versions/versioned-nah\"",
         "value": "exports-and-types-versions/versioned-nah"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 266,
       "end": 307,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -192,7 +196,9 @@ __ESTREE_TEST__:PASS:
         "raw": "\"just-types-versions/foo\"",
         "value": "just-types-versions/foo"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -210,7 +216,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 48,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -219,13 +224,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"exports-and-types-versions/foo\"",
         "value": "exports-and-types-versions/foo"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 49,
       "end": 98,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -234,13 +240,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"exports-and-types-versions/nope\"",
         "value": "exports-and-types-versions/nope"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 99,
       "end": 147,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -249,13 +256,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"exports-and-types-versions/yep\"",
         "value": "exports-and-types-versions/yep"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 148,
       "end": 206,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -264,13 +272,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"exports-and-types-versions/versioned-yep\"",
         "value": "exports-and-types-versions/versioned-yep"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 207,
       "end": 265,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -279,13 +288,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"exports-and-types-versions/versioned-nah\"",
         "value": "exports-and-types-versions/versioned-nah"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 266,
       "end": 307,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -294,7 +304,9 @@ __ESTREE_TEST__:PASS:
         "raw": "\"just-types-versions/foo\"",
         "value": "just-types-versions/foo"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     }
   ],
   "sourceType": "module",

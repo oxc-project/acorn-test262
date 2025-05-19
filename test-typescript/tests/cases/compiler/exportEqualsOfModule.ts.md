@@ -77,7 +77,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 118,
             "end": 167,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -111,7 +110,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
@@ -237,7 +238,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 343,
             "end": 378,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -271,7 +271,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "TSDeclareFunction",

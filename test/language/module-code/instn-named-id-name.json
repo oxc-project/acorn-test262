@@ -506,7 +506,8 @@
         "value": "./instn-named-id-name.js",
         "raw": "'./instn-named-id-name.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

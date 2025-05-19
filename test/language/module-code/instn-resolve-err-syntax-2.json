@@ -33,7 +33,8 @@
         "value": "./instn-resolve-err-syntax-2_FIXTURE.js",
         "raw": "'./instn-resolve-err-syntax-2_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     }
   ],
   "sourceType": "module",

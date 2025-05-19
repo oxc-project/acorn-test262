@@ -27,7 +27,8 @@
         "value": "./delete-exported-init.js",
         "raw": "'./delete-exported-init.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportNamedDeclaration",

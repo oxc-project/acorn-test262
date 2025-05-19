@@ -114,7 +114,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 43,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -186,13 +185,14 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 44,
       "end": 74,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -230,13 +230,14 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 76,
       "end": 119,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -308,7 +309,9 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -329,7 +332,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 124,
       "end": 155,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -367,7 +369,9 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -388,7 +392,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 160,
       "end": 191,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -426,7 +429,9 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

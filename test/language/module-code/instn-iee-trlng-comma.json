@@ -116,7 +116,8 @@
         "value": "./instn-iee-trlng-comma.js",
         "raw": "'./instn-iee-trlng-comma.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

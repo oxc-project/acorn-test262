@@ -27,7 +27,8 @@
         "value": "./instn-star-ambiguous_FIXTURE.js",
         "raw": "'./instn-star-ambiguous_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

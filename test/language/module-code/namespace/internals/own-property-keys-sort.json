@@ -464,7 +464,8 @@
         "value": "./own-property-keys-sort.js",
         "raw": "'./own-property-keys-sort.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "VariableDeclaration",

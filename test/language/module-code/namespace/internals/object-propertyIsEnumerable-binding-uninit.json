@@ -27,7 +27,8 @@
         "value": "./object-propertyIsEnumerable-binding-uninit.js",
         "raw": "\"./object-propertyIsEnumerable-binding-uninit.js\""
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

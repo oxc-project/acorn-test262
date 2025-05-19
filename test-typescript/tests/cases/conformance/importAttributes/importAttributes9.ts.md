@@ -117,29 +117,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 81,
       "end": 133,
-      "attributes": [
-        {
-          "type": "ImportAttribute",
-          "start": 114,
-          "end": 130,
-          "key": {
-            "type": "Identifier",
-            "start": 114,
-            "end": 118,
-            "decorators": [],
-            "name": "type",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "value": {
-            "type": "Literal",
-            "start": 120,
-            "end": 130,
-            "raw": "\"not-json\"",
-            "value": "not-json"
-          }
-        }
-      ],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -161,6 +138,30 @@ __ESTREE_TEST__:PASS:
             "name": "ns",
             "optional": false,
             "typeAnnotation": null
+          }
+        }
+      ],
+      "phase": null,
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "start": 114,
+          "end": 130,
+          "key": {
+            "type": "Identifier",
+            "start": 114,
+            "end": 118,
+            "decorators": [],
+            "name": "type",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "value": {
+            "type": "Literal",
+            "start": 120,
+            "end": 130,
+            "raw": "\"not-json\"",
+            "value": "not-json"
           }
         }
       ]

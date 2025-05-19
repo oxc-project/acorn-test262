@@ -457,7 +457,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 438,
             "end": 469,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -481,13 +480,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 474,
             "end": 500,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -511,13 +511,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 505,
             "end": 535,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -551,13 +552,14 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "phase": null,
+            "attributes": []
           },
           {
             "type": "ImportDeclaration",
             "start": 540,
             "end": 557,
-            "attributes": [],
             "importKind": "value",
             "source": {
               "type": "Literal",
@@ -566,7 +568,9 @@ __ESTREE_TEST__:PASS:
               "raw": "\"ambient\"",
               "value": "ambient"
             },
-            "specifiers": []
+            "specifiers": [],
+            "phase": null,
+            "attributes": []
           }
         ]
       },

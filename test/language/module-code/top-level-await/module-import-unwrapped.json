@@ -27,7 +27,8 @@
         "value": "./module-import-unwrapped_FIXTURE.js",
         "raw": "'./module-import-unwrapped_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -76,7 +77,8 @@
         "value": "./module-import-unwrapped_FIXTURE.js",
         "raw": "'./module-import-unwrapped_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

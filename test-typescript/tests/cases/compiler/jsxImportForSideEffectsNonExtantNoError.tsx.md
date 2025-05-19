@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 44,
       "end": 75,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -33,13 +32,14 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 77,
       "end": 96,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -48,7 +48,9 @@ __ESTREE_TEST__:PASS:
         "raw": "\"./App.css\"",
         "value": "./App.css"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",

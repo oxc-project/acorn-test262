@@ -66,7 +66,8 @@
         "value": "./eval-export-dflt-expr-fn-anon.js",
         "raw": "'./eval-export-dflt-expr-fn-anon.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

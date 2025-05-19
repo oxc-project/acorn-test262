@@ -33,7 +33,8 @@
         "value": "../resources/ensure-linking-error_FIXTURE.js",
         "raw": "\"../resources/ensure-linking-error_FIXTURE.js\""
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -78,7 +79,8 @@
             "raw": "\"\\u0078\""
           }
         }
-      ]
+      ],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -111,7 +113,8 @@
             "raw": "\"\\u0078\""
           }
         }
-      ]
+      ],
+      "phase": null
     },
     {
       "type": "ExportAllDeclaration",

@@ -27,7 +27,8 @@
         "value": "./get-str-initialize.js",
         "raw": "'./get-str-initialize.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportNamedDeclaration",

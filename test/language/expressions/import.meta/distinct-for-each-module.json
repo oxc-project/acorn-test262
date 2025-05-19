@@ -50,7 +50,8 @@
         "value": "./distinct-for-each-module_FIXTURE.js",
         "raw": "\"./distinct-for-each-module_FIXTURE.js\""
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExpressionStatement",

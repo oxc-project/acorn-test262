@@ -51,7 +51,8 @@
         "value": "./instn-named-err-dflt-thru-star-int_FIXTURE.js",
         "raw": "'./instn-named-err-dflt-thru-star-int_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     }
   ],
   "sourceType": "module",

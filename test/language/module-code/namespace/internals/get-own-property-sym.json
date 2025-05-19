@@ -27,7 +27,8 @@
         "value": "./get-own-property-sym.js",
         "raw": "'./get-own-property-sym.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "VariableDeclaration",

@@ -27,7 +27,8 @@
         "value": "./import-attribute-1_FIXTURE.js",
         "raw": "'./import-attribute-1_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ImportDeclaration",
@@ -41,7 +42,8 @@
         "value": "./import-attribute-2_FIXTURE.js",
         "raw": "'./import-attribute-2_FIXTURE.js'"
       },
-      "attributes": []
+      "attributes": [],
+      "phase": null
     },
     {
       "type": "ExportAllDeclaration",

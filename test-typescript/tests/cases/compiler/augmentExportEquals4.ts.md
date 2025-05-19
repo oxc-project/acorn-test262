@@ -309,7 +309,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 29,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -333,13 +332,14 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      ]
+      ],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 30,
       "end": 47,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -348,7 +348,9 @@ __ESTREE_TEST__:PASS:
         "raw": "\"./file2\"",
         "value": "./file2"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",

@@ -113,7 +113,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 41,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -122,13 +121,14 @@ __ESTREE_TEST__:PASS:
         "raw": "\"es6ImportWithoutFromClauseAmd_0\"",
         "value": "es6ImportWithoutFromClauseAmd_0"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 43,
       "end": 84,
-      "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
@@ -137,7 +137,9 @@ __ESTREE_TEST__:PASS:
         "raw": "\"es6ImportWithoutFromClauseAmd_2\"",
         "value": "es6ImportWithoutFromClauseAmd_2"
       },
-      "specifiers": []
+      "specifiers": [],
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",
