@@ -193,7 +193,8 @@
                           },
                           "arguments": [],
                           "optional": false
-                        }
+                        },
+                        "phase": null
                       },
                       {
                         "type": "AssignmentExpression",

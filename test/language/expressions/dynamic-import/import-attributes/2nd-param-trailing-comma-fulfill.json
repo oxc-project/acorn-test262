@@ -39,7 +39,8 @@
                   "start": 605,
                   "end": 607,
                   "properties": []
-                }
+                },
+                "phase": null
               },
               "property": {
                 "type": "Identifier",

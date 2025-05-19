@@ -92,7 +92,8 @@
                             "end": 660,
                             "delegate": false,
                             "argument": null
-                          }
+                          },
+                          "phase": null
                         }
                       }
                     }

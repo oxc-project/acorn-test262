@@ -243,7 +243,8 @@
                           "value": "./eval-self-once-script.js",
                           "raw": "'./eval-self-once-script.js'"
                         },
-                        "options": null
+                        "options": null,
+                        "phase": null
                       },
                       {
                         "type": "ImportExpression",
@@ -256,7 +257,8 @@
                           "value": "./eval-self-once-script.js",
                           "raw": "'./eval-self-once-script.js'"
                         },
-                        "options": null
+                        "options": null,
+                        "phase": null
                       }
                     ]
                   }
@@ -306,7 +308,8 @@
                             "value": "./eval-self-once-script.js",
                             "raw": "'./eval-self-once-script.js'"
                           },
-                          "options": null
+                          "options": null,
+                          "phase": null
                         }
                       }
                     },
@@ -329,7 +332,8 @@
                             "value": "./eval-self-once-script.js",
                             "raw": "'./eval-self-once-script.js'"
                           },
-                          "options": null
+                          "options": null,
+                          "phase": null
                         }
                       }
                     },

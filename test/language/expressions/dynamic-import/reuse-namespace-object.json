@@ -63,7 +63,8 @@
                           "value": "./dynamic-import-module_FIXTURE.js",
                           "raw": "'./dynamic-import-module_FIXTURE.js'"
                         },
-                        "options": null
+                        "options": null,
+                        "phase": null
                       },
                       {
                         "type": "ImportExpression",
@@ -76,7 +77,8 @@
                           "value": "./dynamic-import-module_FIXTURE.js",
                           "raw": "'./dynamic-import-module_FIXTURE.js'"
                         },
-                        "options": null
+                        "options": null,
+                        "phase": null
                       }
                     ]
                   }

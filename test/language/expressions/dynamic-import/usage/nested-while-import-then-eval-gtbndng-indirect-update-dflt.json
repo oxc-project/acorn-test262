@@ -108,7 +108,8 @@
                             "value": "./eval-gtbndng-indirect-update-dflt_FIXTURE.js",
                             "raw": "'./eval-gtbndng-indirect-update-dflt_FIXTURE.js'"
                           },
-                          "options": null
+                          "options": null,
+                          "phase": null
                         },
                         "property": {
                           "type": "Identifier",

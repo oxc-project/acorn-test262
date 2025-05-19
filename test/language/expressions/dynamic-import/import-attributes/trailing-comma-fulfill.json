@@ -34,7 +34,8 @@
                   "value": "./2nd-param_FIXTURE.js",
                   "raw": "'./2nd-param_FIXTURE.js'"
                 },
-                "options": null
+                "options": null,
+                "phase": null
               },
               "property": {
                 "type": "Identifier",

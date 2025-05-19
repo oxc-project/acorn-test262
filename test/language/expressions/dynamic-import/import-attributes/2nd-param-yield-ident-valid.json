@@ -59,7 +59,8 @@
                   "start": 633,
                   "end": 638,
                   "name": "yield"
-                }
+                },
+                "phase": null
               },
               "property": {
                 "type": "Identifier",

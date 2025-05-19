@@ -139,7 +139,8 @@
                   "start": 1022,
                   "end": 1029,
                   "name": "options"
-                }
+                },
+                "phase": null
               },
               "property": {
                 "type": "Identifier",

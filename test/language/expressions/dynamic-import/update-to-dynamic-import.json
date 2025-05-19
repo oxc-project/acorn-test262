@@ -52,7 +52,8 @@
                       "value": "./update-to-dynamic-import_FIXTURE.js",
                       "raw": "'./update-to-dynamic-import_FIXTURE.js'"
                     },
-                    "options": null
+                    "options": null,
+                    "phase": null
                   }
                 }
               }

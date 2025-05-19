@@ -31,7 +31,8 @@
                   "value": "foo",
                   "raw": "'foo'"
                 },
-                "options": null
+                "options": null,
+                "phase": null
               }
             }
           }

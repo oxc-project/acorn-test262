@@ -301,7 +301,8 @@
                               "end": 1264,
                               "value": null,
                               "raw": "null"
-                            }
+                            },
+                            "phase": null
                           },
                           {
                             "type": "Literal",
@@ -341,7 +342,8 @@
                               "end": 1323,
                               "value": false,
                               "raw": "false"
-                            }
+                            },
+                            "phase": null
                           },
                           {
                             "type": "Literal",
@@ -381,7 +383,8 @@
                               "end": 1382,
                               "value": 23,
                               "raw": "23"
-                            }
+                            },
+                            "phase": null
                           },
                           {
                             "type": "Literal",
@@ -421,7 +424,8 @@
                               "end": 1440,
                               "value": "",
                               "raw": "''"
-                            }
+                            },
+                            "phase": null
                           },
                           {
                             "type": "Literal",
@@ -475,7 +479,8 @@
                                 }
                               ],
                               "optional": false
-                            }
+                            },
+                            "phase": null
                           },
                           {
                             "type": "Literal",
@@ -516,7 +521,8 @@
                               "value": null,
                               "raw": "23n",
                               "bigint": "23"
-                            }
+                            },
+                            "phase": null
                           },
                           {
                             "type": "Literal",

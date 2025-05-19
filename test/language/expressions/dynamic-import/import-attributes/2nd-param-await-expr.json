@@ -70,7 +70,8 @@
                                 "end": 663,
                                 "name": "undefined"
                               }
-                            }
+                            },
+                            "phase": null
                           }
                         }
                       ]

@@ -120,7 +120,8 @@
                             "end": 1799,
                             "name": "obj"
                           },
-                          "options": null
+                          "options": null,
+                          "phase": null
                         },
                         "property": {
                           "type": "Identifier",

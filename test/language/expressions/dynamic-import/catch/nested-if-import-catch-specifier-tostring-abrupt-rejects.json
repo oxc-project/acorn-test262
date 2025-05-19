@@ -119,7 +119,8 @@
                         "end": 1772,
                         "name": "obj"
                       },
-                      "options": null
+                      "options": null,
+                      "phase": null
                     },
                     "property": {
                       "type": "Identifier",

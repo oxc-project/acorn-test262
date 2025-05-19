@@ -103,7 +103,8 @@
                       "end": 962,
                       "name": "a"
                     },
-                    "options": null
+                    "options": null,
+                    "phase": null
                   }
                 }
               }
@@ -255,7 +256,8 @@
                       "end": 1119,
                       "name": "b"
                     },
-                    "options": null
+                    "options": null,
+                    "phase": null
                   }
                 }
               }

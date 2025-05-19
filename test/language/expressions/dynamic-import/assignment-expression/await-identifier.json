@@ -63,7 +63,8 @@
                 "end": 923,
                 "name": "await"
               },
-              "options": null
+              "options": null,
+              "phase": null
             }
           }
         }

@@ -63,7 +63,8 @@
                           "value": "./empty_FIXTURE.js",
                           "raw": "'./empty_FIXTURE.js'"
                         },
-                        "options": null
+                        "options": null,
+                        "phase": null
                       },
                       {
                         "type": "ImportExpression",
@@ -76,7 +77,8 @@
                           "value": "./empty_FIXTURE.js",
                           "raw": "'./empty_FIXTURE.js'"
                         },
-                        "options": null
+                        "options": null,
+                        "phase": null
                       }
                     ]
                   }

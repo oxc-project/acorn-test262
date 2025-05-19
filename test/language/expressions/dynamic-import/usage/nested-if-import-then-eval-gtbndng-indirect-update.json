@@ -58,7 +58,8 @@
                             "value": "./eval-gtbndng-indirect-update_FIXTURE.js",
                             "raw": "'./eval-gtbndng-indirect-update_FIXTURE.js'"
                           },
-                          "options": null
+                          "options": null,
+                          "phase": null
                         },
                         "property": {
                           "type": "Identifier",

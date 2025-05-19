@@ -114,7 +114,8 @@
                       "value": "./eval-export-dflt-expr-in.js",
                       "raw": "'./eval-export-dflt-expr-in.js'"
                     },
-                    "options": null
+                    "options": null,
+                    "phase": null
                   },
                   "property": {
                     "type": "Identifier",

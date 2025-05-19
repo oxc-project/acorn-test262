@@ -113,7 +113,8 @@
                   "start": 654,
                   "end": 656,
                   "properties": []
-                }
+                },
+                "phase": null
               },
               "property": {
                 "type": "Identifier",

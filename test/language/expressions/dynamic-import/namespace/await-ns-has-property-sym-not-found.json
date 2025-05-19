@@ -92,7 +92,8 @@
                       "value": "./module-code_FIXTURE.js",
                       "raw": "'./module-code_FIXTURE.js'"
                     },
-                    "options": null
+                    "options": null,
+                    "phase": null
                   }
                 }
               }

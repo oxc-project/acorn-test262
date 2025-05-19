@@ -39,7 +39,8 @@
                 "start": 1325,
                 "end": 1327,
                 "properties": []
-              }
+              },
+              "phase": null
             }
           }
         ]

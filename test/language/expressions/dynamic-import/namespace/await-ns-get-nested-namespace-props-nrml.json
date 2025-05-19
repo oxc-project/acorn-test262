@@ -157,7 +157,8 @@
                       "value": "./get-nested-namespace-props-nrml-1_FIXTURE.js",
                       "raw": "'./get-nested-namespace-props-nrml-1_FIXTURE.js'"
                     },
-                    "options": null
+                    "options": null,
+                    "phase": null
                   }
                 }
               }

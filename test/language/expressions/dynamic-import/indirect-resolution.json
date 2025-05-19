@@ -34,7 +34,8 @@
                   "value": "./indirect-resolution-1_FIXTURE.js",
                   "raw": "'./indirect-resolution-1_FIXTURE.js'"
                 },
-                "options": null
+                "options": null,
+                "phase": null
               },
               "property": {
                 "type": "Identifier",

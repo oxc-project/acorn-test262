@@ -109,7 +109,8 @@
                       "value": "./eval-export-dflt-cls-named.js",
                       "raw": "'./eval-export-dflt-cls-named.js'"
                     },
-                    "options": null
+                    "options": null,
+                    "phase": null
                   },
                   "property": {
                     "type": "Identifier",

@@ -180,7 +180,8 @@
                   "start": 1328,
                   "end": 1335,
                   "name": "options"
-                }
+                },
+                "phase": null
               },
               "property": {
                 "type": "Identifier",

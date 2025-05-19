@@ -104,7 +104,8 @@
                       "value": "./eval-export-dflt-cls-anon.js",
                       "raw": "'./eval-export-dflt-cls-anon.js'"
                     },
-                    "options": null
+                    "options": null,
+                    "phase": null
                   },
                   "property": {
                     "type": "Identifier",

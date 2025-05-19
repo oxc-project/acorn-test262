@@ -41,7 +41,8 @@
                   "value": "",
                   "raw": "''"
                 },
-                "options": null
+                "options": null,
+                "phase": null
               }
             }
           }

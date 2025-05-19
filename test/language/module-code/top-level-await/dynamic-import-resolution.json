@@ -34,7 +34,8 @@
                   "value": "./module-import-resolution_FIXTURE.js",
                   "raw": "'./module-import-resolution_FIXTURE.js'"
                 },
-                "options": null
+                "options": null,
+                "phase": null
               },
               "property": {
                 "type": "Identifier",

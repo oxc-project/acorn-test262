@@ -51,7 +51,8 @@
                         "value": "./eval-rqstd-abrupt-err-uri_FIXTURE.js",
                         "raw": "'./eval-rqstd-abrupt-err-uri_FIXTURE.js'"
                       },
-                      "options": null
+                      "options": null,
+                      "phase": null
                     }
                   }
                 }

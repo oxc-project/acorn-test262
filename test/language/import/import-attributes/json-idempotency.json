@@ -298,7 +298,8 @@
                       "kind": "init"
                     }
                   ]
-                }
+                },
+                "phase": null
               },
               "property": {
                 "type": "Identifier",
