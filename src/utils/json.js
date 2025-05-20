@@ -45,6 +45,8 @@ export function transformerTs(_key, value) {
     } else {
       value.phase = null;
     }
+  } else if (value.type === 'ImportExpression') {
+    value.phase = null;
   } else if (value.type === 'Literal' && Object.hasOwn(value, 'regex')) {
     value.regex.flags = [...value.regex.flags].sort().join('');
     value.value = null;
