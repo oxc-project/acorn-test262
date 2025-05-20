@@ -7,10 +7,13 @@
   "type": "module",
   "scripts": {
     "init": "pnpm run '/^clone-*/'",
-    "clone-test262": "just clone-submodule test262 https://github.com/tc39/test262.git 4b5d36ab6ef2f59d0a8902cd383762547a3a74c4",
-    "clone-acorn-jsx": "just clone-submodule acorn-jsx https://github.com/acornjs/acorn-jsx.git 8ed96d6ddec2065204ba07d924bb2e7bca539ea6",
-    "clone-typescript": "just clone-submodule typescript https://github.com/microsoft/TypeScript.git 81c951894e93bdc37c6916f18adcd80de76679bc",
-    "start": "node ./index.js"
+    "clone-test262": "just clone-submodule submodules/test262 https://github.com/tc39/test262.git 4b5d36ab6ef2f59d0a8902cd383762547a3a74c4",
+    "clone-acorn-jsx": "just clone-submodule submodules/acorn-jsx https://github.com/acornjs/acorn-jsx.git 8ed96d6ddec2065204ba07d924bb2e7bca539ea6",
+    "clone-typescript": "just clone-submodule submodules/typescript https://github.com/microsoft/TypeScript.git 81c951894e93bdc37c6916f18adcd80de76679bc",
+    "start": "pnpm run gen-test262 && pnpm run gen-acorn-jsx && pnpm run gen-typescript",
+    "gen-test262": "node src/test262.js",
+    "gen-acorn-jsx": "node src/acorn-jsx.js",
+    "gen-typescript": "node src/typescript-eslint.js"
   },
   "devDependencies": {
     "@typescript-eslint/parser": "^8.32.0",
