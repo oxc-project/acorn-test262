@@ -9,7 +9,6 @@ const EXIT = {};
 await run({
   submodule: 'typescript',
   subDirectory: 'tests/cases',
-  outputName: 'test-typescript',
   filter(path) {
     return path.startsWith('tests/cases/compiler/') || path.startsWith('tests/cases/conformance/');
   },
