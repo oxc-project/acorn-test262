@@ -38,7 +38,7 @@ function transformerTs(_key, value) {
   if (value.type === 'ImportDeclaration') {
     // Add `phase` field before `attributes` if `attributes` field exists (it should)
     if (Object.hasOwn(value, 'attributes')) {
-      const {attributes} = value;
+      const { attributes } = value;
       delete value.attributes;
       value.phase = null;
       value.attributes = attributes;
