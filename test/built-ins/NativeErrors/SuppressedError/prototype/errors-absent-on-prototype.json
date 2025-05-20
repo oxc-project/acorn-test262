@@ -1,0 +1,181 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 726,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 569,
+      "end": 644,
+      "expression": {
+        "type": "CallExpression",
+        "start": 569,
+        "end": 643,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 569,
+          "end": 585,
+          "object": {
+            "type": "Identifier",
+            "start": 569,
+            "end": 575,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 576,
+            "end": 585,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 586,
+            "end": 635,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 586,
+              "end": 626,
+              "object": {
+                "type": "MemberExpression",
+                "start": 586,
+                "end": 611,
+                "object": {
+                  "type": "Identifier",
+                  "start": 586,
+                  "end": 601,
+                  "name": "SuppressedError"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 602,
+                  "end": 611,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 612,
+                "end": 626,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 627,
+                "end": 634,
+                "value": "error",
+                "raw": "\"error\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 637,
+            "end": 642,
+            "value": false,
+            "raw": "false"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 645,
+      "end": 725,
+      "expression": {
+        "type": "CallExpression",
+        "start": 645,
+        "end": 724,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 645,
+          "end": 661,
+          "object": {
+            "type": "Identifier",
+            "start": 645,
+            "end": 651,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 652,
+            "end": 661,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 662,
+            "end": 716,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 662,
+              "end": 702,
+              "object": {
+                "type": "MemberExpression",
+                "start": 662,
+                "end": 687,
+                "object": {
+                  "type": "Identifier",
+                  "start": 662,
+                  "end": 677,
+                  "name": "SuppressedError"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 678,
+                  "end": 687,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 688,
+                "end": 702,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 703,
+                "end": 715,
+                "value": "suppressed",
+                "raw": "\"suppressed\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 718,
+            "end": 723,
+            "value": false,
+            "raw": "false"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null
+}

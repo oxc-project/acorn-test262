@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1932,
+  "end": 2153,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -568,7 +568,7 @@
     {
       "type": "ForOfStatement",
       "start": 1435,
-      "end": 1931,
+      "end": 2152,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
@@ -612,7 +612,7 @@
       "body": {
         "type": "BlockStatement",
         "start": 1487,
-        "end": 1931,
+        "end": 2152,
         "body": [
           {
             "type": "ExpressionStatement",
@@ -997,6 +997,182 @@
                         "cooked": "\",  timeStyle: \"short\" }) throws TypeError"
                       },
                       "tail": true
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 2001,
+            "end": 2074,
+            "expression": {
+              "type": "CallExpression",
+              "start": 2001,
+              "end": 2073,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 2001,
+                "end": 2024,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2001,
+                  "end": 2009,
+                  "name": "datetime"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2010,
+                  "end": 2024,
+                  "name": "toLocaleString"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 2025,
+                  "end": 2029,
+                  "value": "en",
+                  "raw": "\"en\""
+                },
+                {
+                  "type": "ObjectExpression",
+                  "start": 2031,
+                  "end": 2072,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 2033,
+                      "end": 2048,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": true,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 2034,
+                        "end": 2040,
+                        "name": "option"
+                      },
+                      "value": {
+                        "type": "Identifier",
+                        "start": 2043,
+                        "end": 2048,
+                        "name": "value"
+                      },
+                      "kind": "init"
+                    },
+                    {
+                      "type": "Property",
+                      "start": 2050,
+                      "end": 2070,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 2050,
+                        "end": 2059,
+                        "name": "dateStyle"
+                      },
+                      "value": {
+                        "type": "Identifier",
+                        "start": 2061,
+                        "end": 2070,
+                        "name": "undefined"
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 2077,
+            "end": 2150,
+            "expression": {
+              "type": "CallExpression",
+              "start": 2077,
+              "end": 2149,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 2077,
+                "end": 2100,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2077,
+                  "end": 2085,
+                  "name": "datetime"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2086,
+                  "end": 2100,
+                  "name": "toLocaleString"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 2101,
+                  "end": 2105,
+                  "value": "en",
+                  "raw": "\"en\""
+                },
+                {
+                  "type": "ObjectExpression",
+                  "start": 2107,
+                  "end": 2148,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 2109,
+                      "end": 2124,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": true,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 2110,
+                        "end": 2116,
+                        "name": "option"
+                      },
+                      "value": {
+                        "type": "Identifier",
+                        "start": 2119,
+                        "end": 2124,
+                        "name": "value"
+                      },
+                      "kind": "init"
+                    },
+                    {
+                      "type": "Property",
+                      "start": 2126,
+                      "end": 2146,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 2126,
+                        "end": 2135,
+                        "name": "timeStyle"
+                      },
+                      "value": {
+                        "type": "Identifier",
+                        "start": 2137,
+                        "end": 2146,
+                        "name": "undefined"
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

@@ -1,0 +1,73 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 532,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 430,
+      "end": 463,
+      "expression": {
+        "type": "Literal",
+        "start": 430,
+        "end": 462,
+        "value": null,
+        "raw": "/\\p{Script_Extensions=Unknown}/u",
+        "regex": {
+          "pattern": "\\p{Script_Extensions=Unknown}",
+          "flags": "u"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 464,
+      "end": 494,
+      "expression": {
+        "type": "Literal",
+        "start": 464,
+        "end": 493,
+        "value": null,
+        "raw": "/\\p{Script_Extensions=Zzzz}/u",
+        "regex": {
+          "pattern": "\\p{Script_Extensions=Zzzz}",
+          "flags": "u"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 495,
+      "end": 514,
+      "expression": {
+        "type": "Literal",
+        "start": 495,
+        "end": 513,
+        "value": null,
+        "raw": "/\\p{scx=Unknown}/u",
+        "regex": {
+          "pattern": "\\p{scx=Unknown}",
+          "flags": "u"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 515,
+      "end": 531,
+      "expression": {
+        "type": "Literal",
+        "start": 515,
+        "end": 530,
+        "value": null,
+        "raw": "/\\p{scx=Zzzz}/u",
+        "regex": {
+          "pattern": "\\p{scx=Zzzz}",
+          "flags": "u"
+        }
+      }
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null
+}

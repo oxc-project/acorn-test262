@@ -1,0 +1,164 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 678,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 549,
+      "end": 583,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 553,
+          "end": 582,
+          "id": {
+            "type": "Identifier",
+            "start": 553,
+            "end": 558,
+            "name": "stack"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 561,
+            "end": 582,
+            "callee": {
+              "type": "Identifier",
+              "start": 565,
+              "end": 580,
+              "name": "DisposableStack"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 584,
+      "end": 600,
+      "expression": {
+        "type": "CallExpression",
+        "start": 584,
+        "end": 599,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 584,
+          "end": 597,
+          "object": {
+            "type": "Identifier",
+            "start": 584,
+            "end": 589,
+            "name": "stack"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 590,
+            "end": 597,
+            "name": "dispose"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 602,
+      "end": 677,
+      "expression": {
+        "type": "CallExpression",
+        "start": 602,
+        "end": 676,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 602,
+          "end": 615,
+          "object": {
+            "type": "Identifier",
+            "start": 602,
+            "end": 608,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 609,
+            "end": 615,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 616,
+            "end": 630,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 632,
+            "end": 662,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 643,
+              "end": 662,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 647,
+                  "end": 660,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 647,
+                    "end": 659,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 647,
+                      "end": 657,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 647,
+                        "end": 652,
+                        "name": "stack"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 653,
+                        "end": 657,
+                        "name": "move"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 664,
+            "end": 675,
+            "value": "undefined",
+            "raw": "'undefined'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null
+}

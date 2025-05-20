@@ -1,0 +1,291 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 662,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 341,
+      "end": 431,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 347,
+          "end": 430,
+          "id": {
+            "type": "Identifier",
+            "start": 347,
+            "end": 355,
+            "name": "instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 358,
+            "end": 430,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 362,
+              "end": 384,
+              "object": {
+                "type": "Identifier",
+                "start": 362,
+                "end": 370,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 371,
+                "end": 384,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 385,
+                "end": 411,
+                "value": null,
+                "raw": "1_000_000_000_000_000_000n",
+                "bigint": "1000000000000000000"
+              },
+              {
+                "type": "Literal",
+                "start": 413,
+                "end": 418,
+                "value": "UTC",
+                "raw": "\"UTC\""
+              },
+              {
+                "type": "Literal",
+                "start": 420,
+                "end": 429,
+                "value": "iso8601",
+                "raw": "\"iso8601\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 433,
+      "end": 483,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 439,
+          "end": 482,
+          "id": {
+            "type": "Identifier",
+            "start": 439,
+            "end": 453,
+            "name": "invalidStrings"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 456,
+            "end": 482,
+            "elements": [
+              {
+                "type": "ArrayExpression",
+                "start": 460,
+                "end": 480,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 461,
+                    "end": 463,
+                    "value": "",
+                    "raw": "\"\""
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 465,
+                    "end": 479,
+                    "value": "empty string",
+                    "raw": "\"empty string\""
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 485,
+      "end": 661,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 490,
+        "end": 514,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 496,
+            "end": 514,
+            "id": {
+              "type": "ArrayPattern",
+              "start": 496,
+              "end": 514,
+              "elements": [
+                {
+                  "type": "Identifier",
+                  "start": 497,
+                  "end": 500,
+                  "name": "arg"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 502,
+                  "end": 513,
+                  "name": "description"
+                }
+              ]
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 518,
+        "end": 532,
+        "name": "invalidStrings"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 534,
+        "end": 661,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 538,
+            "end": 659,
+            "expression": {
+              "type": "CallExpression",
+              "start": 538,
+              "end": 658,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 538,
+                "end": 551,
+                "object": {
+                  "type": "Identifier",
+                  "start": 538,
+                  "end": 544,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 545,
+                  "end": 551,
+                  "name": "throws"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 557,
+                  "end": 567,
+                  "name": "RangeError"
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "start": 573,
+                  "end": 605,
+                  "id": null,
+                  "expression": true,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "CallExpression",
+                    "start": 579,
+                    "end": 605,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 579,
+                      "end": 600,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 579,
+                        "end": 587,
+                        "name": "instance"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 588,
+                        "end": 600,
+                        "name": "withCalendar"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 601,
+                        "end": 604,
+                        "name": "arg"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "start": 611,
+                  "end": 654,
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 614,
+                      "end": 625,
+                      "name": "description"
+                    }
+                  ],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 612,
+                      "end": 612,
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 626,
+                      "end": 653,
+                      "value": {
+                        "raw": " is not a valid calendar ID",
+                        "cooked": " is not a valid calendar ID"
+                      },
+                      "tail": true
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null
+}

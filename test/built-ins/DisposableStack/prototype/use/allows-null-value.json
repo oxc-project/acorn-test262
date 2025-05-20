@@ -1,0 +1,79 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 904,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 852,
+      "end": 886,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 856,
+          "end": 885,
+          "id": {
+            "type": "Identifier",
+            "start": 856,
+            "end": 861,
+            "name": "stack"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 864,
+            "end": 885,
+            "callee": {
+              "type": "Identifier",
+              "start": 868,
+              "end": 883,
+              "name": "DisposableStack"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 887,
+      "end": 903,
+      "expression": {
+        "type": "CallExpression",
+        "start": 887,
+        "end": 902,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 887,
+          "end": 896,
+          "object": {
+            "type": "Identifier",
+            "start": 887,
+            "end": 892,
+            "name": "stack"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 893,
+            "end": 896,
+            "name": "use"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 897,
+            "end": 901,
+            "value": null,
+            "raw": "null"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null
+}

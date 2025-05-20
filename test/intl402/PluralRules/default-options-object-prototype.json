@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 607,
+  "end": 716,
   "body": [
     {
       "type": "ExpressionStatement",
@@ -54,38 +54,88 @@
       }
     },
     {
-      "type": "VariableDeclaration",
+      "type": "ExpressionStatement",
       "start": 495,
-      "end": 540,
+      "end": 533,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 495,
+        "end": 532,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 495,
+          "end": 520,
+          "object": {
+            "type": "MemberExpression",
+            "start": 495,
+            "end": 511,
+            "object": {
+              "type": "Identifier",
+              "start": 495,
+              "end": 501,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 502,
+              "end": 511,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 512,
+            "end": 520,
+            "name": "notation"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 523,
+          "end": 532,
+          "value": "compact",
+          "raw": "\"compact\""
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 534,
+      "end": 579,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 499,
-          "end": 539,
+          "start": 538,
+          "end": 578,
           "id": {
             "type": "Identifier",
-            "start": 499,
-            "end": 510,
+            "start": 538,
+            "end": 549,
             "name": "pluralRules"
           },
           "init": {
             "type": "NewExpression",
-            "start": 513,
-            "end": 539,
+            "start": 552,
+            "end": 578,
             "callee": {
               "type": "MemberExpression",
-              "start": 517,
-              "end": 533,
+              "start": 556,
+              "end": 572,
               "object": {
                 "type": "Identifier",
-                "start": 517,
-                "end": 521,
+                "start": 556,
+                "end": 560,
                 "name": "Intl"
               },
               "property": {
                 "type": "Identifier",
-                "start": 522,
-                "end": 533,
+                "start": 561,
+                "end": 572,
                 "name": "PluralRules"
               },
               "computed": false,
@@ -94,8 +144,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 534,
-                "end": 538,
+                "start": 573,
+                "end": 577,
                 "value": "en",
                 "raw": "\"en\""
               }
@@ -107,26 +157,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 541,
-      "end": 606,
+      "start": 580,
+      "end": 645,
       "expression": {
         "type": "CallExpression",
-        "start": 541,
-        "end": 605,
+        "start": 580,
+        "end": 644,
         "callee": {
           "type": "MemberExpression",
-          "start": 541,
-          "end": 557,
+          "start": 580,
+          "end": 596,
           "object": {
             "type": "Identifier",
-            "start": 541,
-            "end": 547,
+            "start": 580,
+            "end": 586,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 548,
-            "end": 557,
+            "start": 587,
+            "end": 596,
             "name": "sameValue"
           },
           "computed": false,
@@ -135,26 +185,26 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 558,
-            "end": 592,
+            "start": 597,
+            "end": 631,
             "object": {
               "type": "CallExpression",
-              "start": 558,
-              "end": 587,
+              "start": 597,
+              "end": 626,
               "callee": {
                 "type": "MemberExpression",
-                "start": 558,
-                "end": 585,
+                "start": 597,
+                "end": 624,
                 "object": {
                   "type": "Identifier",
-                  "start": 558,
-                  "end": 569,
+                  "start": 597,
+                  "end": 608,
                   "name": "pluralRules"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 570,
-                  "end": 585,
+                  "start": 609,
+                  "end": 624,
                   "name": "resolvedOptions"
                 },
                 "computed": false,
@@ -165,8 +215,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 588,
-              "end": 592,
+              "start": 627,
+              "end": 631,
               "name": "type"
             },
             "computed": false,
@@ -174,10 +224,88 @@
           },
           {
             "type": "Literal",
-            "start": 594,
-            "end": 604,
+            "start": 633,
+            "end": 643,
             "value": "cardinal",
             "raw": "\"cardinal\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 646,
+      "end": 715,
+      "expression": {
+        "type": "CallExpression",
+        "start": 646,
+        "end": 714,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 646,
+          "end": 662,
+          "object": {
+            "type": "Identifier",
+            "start": 646,
+            "end": 652,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 653,
+            "end": 662,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 663,
+            "end": 701,
+            "object": {
+              "type": "CallExpression",
+              "start": 663,
+              "end": 692,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 663,
+                "end": 690,
+                "object": {
+                  "type": "Identifier",
+                  "start": 663,
+                  "end": 674,
+                  "name": "pluralRules"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 675,
+                  "end": 690,
+                  "name": "resolvedOptions"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 693,
+              "end": 701,
+              "name": "notation"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 703,
+            "end": 713,
+            "value": "standard",
+            "raw": "\"standard\""
           }
         ],
         "optional": false

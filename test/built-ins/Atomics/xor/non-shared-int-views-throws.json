@@ -211,7 +211,7 @@
                                     "type": "Identifier",
                                     "start": 534,
                                     "end": 537,
-                                    "name": "and"
+                                    "name": "xor"
                                   },
                                   "computed": false,
                                   "optional": false
@@ -275,8 +275,8 @@
                             "start": 557,
                             "end": 573,
                             "value": {
-                              "raw": "Atomics.and(new ",
-                              "cooked": "Atomics.and(new "
+                              "raw": "Atomics.xor(new ",
+                              "cooked": "Atomics.xor(new "
                             },
                             "tail": false
                           },

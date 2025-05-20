@@ -1,0 +1,284 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1129,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 762,
+      "end": 794,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 766,
+          "end": 793,
+          "id": {
+            "type": "Identifier",
+            "start": 766,
+            "end": 774,
+            "name": "ObjProto"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 777,
+            "end": 793,
+            "object": {
+              "type": "Identifier",
+              "start": 777,
+              "end": 783,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 784,
+              "end": 793,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 796,
+      "end": 968,
+      "expression": {
+        "type": "CallExpression",
+        "start": 796,
+        "end": 967,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 796,
+          "end": 809,
+          "object": {
+            "type": "Identifier",
+            "start": 796,
+            "end": 802,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 803,
+            "end": 809,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 810,
+            "end": 819,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 821,
+            "end": 891,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 832,
+              "end": 891,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 836,
+                  "end": 889,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 836,
+                    "end": 888,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 836,
+                      "end": 857,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 836,
+                        "end": 842,
+                        "name": "Object"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 843,
+                        "end": 857,
+                        "name": "setPrototypeOf"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 858,
+                        "end": 866,
+                        "name": "ObjProto"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 868,
+                        "end": 887,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 870,
+                            "end": 885,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 870,
+                              "end": 879,
+                              "name": "__proto__"
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "start": 881,
+                              "end": 885,
+                              "value": null,
+                              "raw": "null"
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 893,
+            "end": 966,
+            "value": "Object.setPrototypeOf(ObjProto, { __proto__: null }) throws a TypeError",
+            "raw": "\"Object.setPrototypeOf(ObjProto, { __proto__: null }) throws a TypeError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 970,
+      "end": 1128,
+      "expression": {
+        "type": "CallExpression",
+        "start": 970,
+        "end": 1127,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 970,
+          "end": 986,
+          "object": {
+            "type": "Identifier",
+            "start": 970,
+            "end": 976,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 977,
+            "end": 986,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 990,
+            "end": 1043,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 990,
+              "end": 1012,
+              "object": {
+                "type": "Identifier",
+                "start": 990,
+                "end": 997,
+                "name": "Reflect"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 998,
+                "end": 1012,
+                "name": "setPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1013,
+                "end": 1021,
+                "name": "ObjProto"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1023,
+                "end": 1042,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1025,
+                    "end": 1040,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1025,
+                      "end": 1034,
+                      "name": "__proto__"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1036,
+                      "end": 1040,
+                      "value": null,
+                      "raw": "null"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1047,
+            "end": 1052,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 1056,
+            "end": 1125,
+            "value": "Reflect.setPrototypeOf(ObjProto, { __proto__: null }) returns false",
+            "raw": "\"Reflect.setPrototypeOf(ObjProto, { __proto__: null }) returns false\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null
+}

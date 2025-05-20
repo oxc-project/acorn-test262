@@ -162,7 +162,7 @@
                             "type": "Identifier",
                             "start": 485,
                             "end": 488,
-                            "name": "and"
+                            "name": "xor"
                           },
                           "computed": false,
                           "optional": false
@@ -202,8 +202,8 @@
                         "type": "Literal",
                         "start": 505,
                         "end": 540,
-                        "value": "Atomics.and(view, 0, 1) returns 0",
-                        "raw": "'Atomics.and(view, 0, 1) returns 0'"
+                        "value": "Atomics.xor(view, 0, 1) returns 0",
+                        "raw": "'Atomics.xor(view, 0, 1) returns 0'"
                       }
                     ],
                     "optional": false
@@ -281,15 +281,15 @@
                         "type": "Literal",
                         "start": 585,
                         "end": 586,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 1,
+                        "raw": "1"
                       },
                       {
                         "type": "Literal",
                         "start": 588,
                         "end": 621,
-                        "value": "Atomics.load(view, 0) returns 0",
-                        "raw": "'Atomics.load(view, 0) returns 0'"
+                        "value": "Atomics.load(view, 0) returns 1",
+                        "raw": "'Atomics.load(view, 0) returns 1'"
                       }
                     ],
                     "optional": false

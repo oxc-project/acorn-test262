@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 996,
+  "end": 985,
   "body": [
     {
       "type": "ExpressionStatement",
@@ -24,57 +24,57 @@
     {
       "type": "ImportDeclaration",
       "start": 728,
-      "end": 782,
+      "end": 771,
       "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 735,
-        "end": 781,
-        "value": "../resources/ensure-linking-error_FIXTURE.js",
-        "raw": "\"../resources/ensure-linking-error_FIXTURE.js\""
+        "end": 770,
+        "value": "./ensure-linking-error_FIXTURE.js",
+        "raw": "\"./ensure-linking-error_FIXTURE.js\""
       },
       "attributes": [],
       "phase": null
     },
     {
       "type": "ImportDeclaration",
-      "start": 784,
-      "end": 856,
+      "start": 773,
+      "end": 845,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 791,
-          "end": 792,
+          "start": 780,
+          "end": 781,
           "local": {
             "type": "Identifier",
-            "start": 791,
-            "end": 792,
+            "start": 780,
+            "end": 781,
             "name": "x"
           }
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 798,
-        "end": 831,
+        "start": 787,
+        "end": 820,
         "value": "./import-attribute-1_FIXTURE.js",
         "raw": "'./import-attribute-1_FIXTURE.js'"
       },
       "attributes": [
         {
           "type": "ImportAttribute",
-          "start": 838,
-          "end": 854,
+          "start": 827,
+          "end": 843,
           "key": {
             "type": "Identifier",
-            "start": 838,
-            "end": 845,
+            "start": 827,
+            "end": 834,
             "name": "test262"
           },
           "value": {
             "type": "Literal",
-            "start": 846,
-            "end": 854,
+            "start": 835,
+            "end": 843,
             "value": "x",
             "raw": "\"\\u0078\""
           }
@@ -84,31 +84,31 @@
     },
     {
       "type": "ImportDeclaration",
-      "start": 857,
-      "end": 922,
+      "start": 846,
+      "end": 911,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 864,
-        "end": 897,
+        "start": 853,
+        "end": 886,
         "value": "./import-attribute-2_FIXTURE.js",
         "raw": "'./import-attribute-2_FIXTURE.js'"
       },
       "attributes": [
         {
           "type": "ImportAttribute",
-          "start": 904,
-          "end": 920,
+          "start": 893,
+          "end": 909,
           "key": {
             "type": "Identifier",
-            "start": 904,
-            "end": 911,
+            "start": 893,
+            "end": 900,
             "name": "test262"
           },
           "value": {
             "type": "Literal",
-            "start": 912,
-            "end": 920,
+            "start": 901,
+            "end": 909,
             "value": "x",
             "raw": "\"\\u0078\""
           }
@@ -118,31 +118,31 @@
     },
     {
       "type": "ExportAllDeclaration",
-      "start": 923,
-      "end": 995,
+      "start": 912,
+      "end": 984,
       "exported": null,
       "source": {
         "type": "Literal",
-        "start": 937,
-        "end": 970,
+        "start": 926,
+        "end": 959,
         "value": "./import-attribute-3_FIXTURE.js",
         "raw": "'./import-attribute-3_FIXTURE.js'"
       },
       "attributes": [
         {
           "type": "ImportAttribute",
-          "start": 977,
-          "end": 993,
+          "start": 966,
+          "end": 982,
           "key": {
             "type": "Identifier",
-            "start": 977,
-            "end": 984,
+            "start": 966,
+            "end": 973,
             "name": "test262"
           },
           "value": {
             "type": "Literal",
-            "start": 985,
-            "end": 993,
+            "start": 974,
+            "end": 982,
             "value": "x",
             "raw": "\"\\u0078\""
           }

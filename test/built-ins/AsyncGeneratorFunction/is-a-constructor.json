@@ -1,30 +1,70 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 912,
+  "end": 1001,
   "body": [
     {
+      "type": "VariableDeclaration",
+      "start": 756,
+      "end": 841,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 760,
+          "end": 840,
+          "id": {
+            "type": "Identifier",
+            "start": 760,
+            "end": 782,
+            "name": "AsyncGeneratorFunction"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 785,
+            "end": 840,
+            "callee": {
+              "type": "Identifier",
+              "start": 785,
+              "end": 812,
+              "name": "getWellKnownIntrinsicObject"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 813,
+                "end": 839,
+                "value": "%AsyncGeneratorFunction%",
+                "raw": "'%AsyncGeneratorFunction%'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
       "type": "ExpressionStatement",
-      "start": 750,
-      "end": 878,
+      "start": 842,
+      "end": 970,
       "expression": {
         "type": "CallExpression",
-        "start": 750,
-        "end": 877,
+        "start": 842,
+        "end": 969,
         "callee": {
           "type": "MemberExpression",
-          "start": 750,
-          "end": 766,
+          "start": 842,
+          "end": 858,
           "object": {
             "type": "Identifier",
-            "start": 750,
-            "end": 756,
+            "start": 842,
+            "end": 848,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 757,
-            "end": 766,
+            "start": 849,
+            "end": 858,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,19 +73,19 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 770,
-            "end": 807,
+            "start": 862,
+            "end": 899,
             "callee": {
               "type": "Identifier",
-              "start": 770,
-              "end": 783,
+              "start": 862,
+              "end": 875,
               "name": "isConstructor"
             },
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 784,
-                "end": 806,
+                "start": 876,
+                "end": 898,
                 "name": "AsyncGeneratorFunction"
               }
             ],
@@ -53,15 +93,15 @@
           },
           {
             "type": "Literal",
-            "start": 811,
-            "end": 815,
+            "start": 903,
+            "end": 907,
             "value": true,
             "raw": "true"
           },
           {
             "type": "Literal",
-            "start": 819,
-            "end": 875,
+            "start": 911,
+            "end": 967,
             "value": "isConstructor(AsyncGeneratorFunction) must return true",
             "raw": "'isConstructor(AsyncGeneratorFunction) must return true'"
           }
@@ -71,16 +111,16 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 879,
-      "end": 908,
+      "start": 971,
+      "end": 1000,
       "expression": {
         "type": "NewExpression",
-        "start": 879,
-        "end": 907,
+        "start": 971,
+        "end": 999,
         "callee": {
           "type": "Identifier",
-          "start": 883,
-          "end": 905,
+          "start": 975,
+          "end": 997,
           "name": "AsyncGeneratorFunction"
         },
         "arguments": []
