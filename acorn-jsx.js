@@ -23,7 +23,7 @@ async function main() {
   const tests = collectTests();
 
   // cleanup
-  const baseDir = 'test-acorn-jsx';
+  const baseDir = 'test-acorn-jsx/pass';
   fs.rmSync(baseDir, { recursive: true, force: true });
   fs.mkdirSync(baseDir, { recursive: true });
 
@@ -32,7 +32,6 @@ async function main() {
 
   for (let i = 0; i < tests.length; i++) {
     const [code] = tests[i];
-    let result;
     try {
       const ast = Parser.parse(code, {
         ecmaVersion: 'latest',
@@ -42,16 +41,14 @@ async function main() {
         allowReturnOutsideFunction: true,
       });
       ast.hashbang = null;
-      result = { ok: true, value: JSON.stringify(ast, null, 2) };
-    } catch (e) {
-      result = { ok: false, value: JSON.stringify(e.message) };
-    }
+      const json = JSON.stringify(ast, null, 2);
 
-    const name = String(i).padStart(3, '0');
-    const dir = path.join(baseDir, result.ok ? 'pass' : 'fail');
-    fs.mkdirSync(dir, { recursive: true, force: true });
-    fs.writeFileSync(path.join(dir, name + '.jsx'), code);
-    fs.writeFileSync(path.join(dir, name + '.json'), result.value);
+      const name = String(i).padStart(3, '0');
+      fs.writeFileSync(path.join(baseDir, name + '.jsx'), code);
+      fs.writeFileSync(path.join(baseDir, name + '.json'), json);
+    } catch (err) {
+      // console.log(err);
+    }
   }
 }
 
