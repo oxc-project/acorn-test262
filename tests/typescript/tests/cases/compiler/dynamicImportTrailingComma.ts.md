@@ -54,7 +54,8 @@ __ESTREE_TEST__:PASS:
           "name": "path",
           "optional": false,
           "typeAnnotation": null
-        }
+        },
+        "phase": null
       }
     }
   ],

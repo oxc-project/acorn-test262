@@ -95,7 +95,8 @@ __ESTREE_TEST__:PASS:
                       "end": 94,
                       "raw": "\"inner\"",
                       "value": "inner"
-                    }
+                    },
+                    "phase": null
                   }
                 },
                 "optional": false,

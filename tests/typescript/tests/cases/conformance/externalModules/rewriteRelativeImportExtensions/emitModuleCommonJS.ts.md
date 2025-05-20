@@ -83,7 +83,8 @@ __ESTREE_TEST__:PASS:
                 "raw": "\"./foo.ts\"",
                 "value": "./foo.ts"
               }
-            }
+            },
+            "phase": null
           }
         },
         {
@@ -133,7 +134,8 @@ __ESTREE_TEST__:PASS:
               "end": 99,
               "raw": "\"./foo.ts\"",
               "value": "./foo.ts"
-            }
+            },
+            "phase": null
           }
         }
       ]
@@ -184,7 +186,8 @@ __ESTREE_TEST__:PASS:
                 "raw": "\"./foo.ts\"",
                 "value": "./foo.ts"
               }
-            }
+            },
+            "phase": null
           }
         },
         {
@@ -203,7 +206,8 @@ __ESTREE_TEST__:PASS:
               "end": 48,
               "raw": "\"./foo.ts\"",
               "value": "./foo.ts"
-            }
+            },
+            "phase": null
           }
         }
       ]

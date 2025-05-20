@@ -192,7 +192,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 128,
                                       "raw": "\"./case0.js\"",
                                       "value": "./case0.js"
-                                    }
+                                    },
+                                    "phase": null
                                   }
                                 }
                               }
@@ -229,7 +230,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 181,
                                       "raw": "\"./case1.js\"",
                                       "value": "./case1.js"
-                                    }
+                                    },
+                                    "phase": null
                                   }
                                 }
                               }
@@ -266,7 +268,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 242,
                                       "raw": "\"./caseFallback.js\"",
                                       "value": "./caseFallback.js"
-                                    }
+                                    },
+                                    "phase": null
                                   }
                                 }
                               }

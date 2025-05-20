@@ -150,7 +150,8 @@ __ESTREE_TEST__:PASS:
                 "end": 95,
                 "raw": "\"./data.json\"",
                 "value": "./data.json"
-              }
+              },
+              "phase": null
             }
           }
         }

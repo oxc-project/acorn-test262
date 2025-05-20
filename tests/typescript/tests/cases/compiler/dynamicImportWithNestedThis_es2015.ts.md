@@ -105,7 +105,8 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         }
-                      }
+                      },
+                      "phase": null
                     }
                   }
                 ]

@@ -184,7 +184,8 @@ __ESTREE_TEST__:PASS:
               "end": 16,
               "raw": "\"package\"",
               "value": "package"
-            }
+            },
+            "phase": null
           },
           "optional": false,
           "property": {

@@ -156,7 +156,8 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               ]
-            }
+            },
+            "phase": null
           },
           "optional": false,
           "property": {
@@ -290,7 +291,8 @@ __ESTREE_TEST__:PASS:
                 "raw": "\".js\"",
                 "value": ".js"
               }
-            }
+            },
+            "phase": null
           },
           "optional": false,
           "property": {

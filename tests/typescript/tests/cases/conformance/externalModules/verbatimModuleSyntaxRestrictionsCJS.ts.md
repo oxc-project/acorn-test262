@@ -346,7 +346,8 @@ __ESTREE_TEST__:PASS:
           "end": 205,
           "raw": "\"./decl\"",
           "value": "./decl"
-        }
+        },
+        "phase": null
       }
     },
     {

@@ -93,7 +93,8 @@ __ESTREE_TEST__:PASS:
                     "end": 35,
                     "raw": "\"./sub\"",
                     "value": "./sub"
-                  }
+                  },
+                  "phase": null
                 }
               ],
               "callee": {

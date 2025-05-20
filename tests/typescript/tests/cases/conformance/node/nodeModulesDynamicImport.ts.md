@@ -83,7 +83,8 @@ __ESTREE_TEST__:PASS:
                         "end": 92,
                         "raw": "\"fs\"",
                         "value": "fs"
-                      }
+                      },
+                      "phase": null
                     }
                   }
                 }
@@ -203,7 +204,8 @@ __ESTREE_TEST__:PASS:
                         "end": 92,
                         "raw": "\"fs\"",
                         "value": "fs"
-                      }
+                      },
+                      "phase": null
                     }
                   }
                 }

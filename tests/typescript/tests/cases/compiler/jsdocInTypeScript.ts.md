@@ -884,7 +884,8 @@ __ESTREE_TEST__:PASS:
               },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "phase": null
           }
         }
       ],

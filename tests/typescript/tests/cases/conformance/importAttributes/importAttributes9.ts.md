@@ -276,7 +276,8 @@ __ESTREE_TEST__:PASS:
                   "end": 187,
                   "raw": "\"./a\"",
                   "value": "./a"
-                }
+                },
+                "phase": null
               }
             }
           }

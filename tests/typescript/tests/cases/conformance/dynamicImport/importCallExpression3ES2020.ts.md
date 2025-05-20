@@ -160,7 +160,8 @@ __ESTREE_TEST__:PASS:
                     "end": 62,
                     "raw": "\"./0\"",
                     "value": "./0"
-                  }
+                  },
+                  "phase": null
                 }
               },
               "optional": false,

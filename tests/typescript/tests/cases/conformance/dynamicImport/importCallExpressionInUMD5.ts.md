@@ -156,7 +156,8 @@ __ESTREE_TEST__:PASS:
                         "raw": "'/package.json'",
                         "value": "/package.json"
                       }
-                    }
+                    },
+                    "phase": null
                   }
                 }
               }

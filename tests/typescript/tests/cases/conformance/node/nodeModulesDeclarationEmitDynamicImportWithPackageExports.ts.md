@@ -110,7 +110,8 @@ __ESTREE_TEST__:PASS:
                   "end": 62,
                   "raw": "\"package/cjs\"",
                   "value": "package/cjs"
-                }
+                },
+                "phase": null
               }
             }
           }
@@ -161,7 +162,8 @@ __ESTREE_TEST__:PASS:
                   "end": 108,
                   "raw": "\"package/mjs\"",
                   "value": "package/mjs"
-                }
+                },
+                "phase": null
               }
             }
           }
@@ -212,7 +214,8 @@ __ESTREE_TEST__:PASS:
                   "end": 150,
                   "raw": "\"package\"",
                   "value": "package"
-                }
+                },
+                "phase": null
               }
             }
           }
@@ -263,7 +266,8 @@ __ESTREE_TEST__:PASS:
                   "end": 190,
                   "raw": "\"inner\"",
                   "value": "inner"
-                }
+                },
+                "phase": null
               }
             }
           }
@@ -326,7 +330,8 @@ __ESTREE_TEST__:PASS:
                   "end": 60,
                   "raw": "\"inner/cjs\"",
                   "value": "inner/cjs"
-                }
+                },
+                "phase": null
               }
             }
           }
@@ -377,7 +382,8 @@ __ESTREE_TEST__:PASS:
                   "end": 104,
                   "raw": "\"inner/mjs\"",
                   "value": "inner/mjs"
-                }
+                },
+                "phase": null
               }
             }
           }
@@ -440,7 +446,8 @@ __ESTREE_TEST__:PASS:
                   "end": 62,
                   "raw": "\"package/cjs\"",
                   "value": "package/cjs"
-                }
+                },
+                "phase": null
               }
             }
           }
@@ -491,7 +498,8 @@ __ESTREE_TEST__:PASS:
                   "end": 108,
                   "raw": "\"package/mjs\"",
                   "value": "package/mjs"
-                }
+                },
+                "phase": null
               }
             }
           }
@@ -542,7 +550,8 @@ __ESTREE_TEST__:PASS:
                   "end": 150,
                   "raw": "\"package\"",
                   "value": "package"
-                }
+                },
+                "phase": null
               }
             }
           }
@@ -593,7 +602,8 @@ __ESTREE_TEST__:PASS:
                   "end": 190,
                   "raw": "\"inner\"",
                   "value": "inner"
-                }
+                },
+                "phase": null
               }
             }
           }
@@ -656,7 +666,8 @@ __ESTREE_TEST__:PASS:
                   "end": 60,
                   "raw": "\"inner/cjs\"",
                   "value": "inner/cjs"
-                }
+                },
+                "phase": null
               }
             }
           }
@@ -707,7 +718,8 @@ __ESTREE_TEST__:PASS:
                   "end": 104,
                   "raw": "\"inner/mjs\"",
                   "value": "inner/mjs"
-                }
+                },
+                "phase": null
               }
             }
           }
@@ -766,7 +778,8 @@ __ESTREE_TEST__:PASS:
                 "end": 64,
                 "raw": "\"package/cjs\"",
                 "value": "package/cjs"
-              }
+              },
+              "phase": null
             }
           }
         ],
@@ -812,7 +825,8 @@ __ESTREE_TEST__:PASS:
                 "end": 104,
                 "raw": "\"package/mjs\"",
                 "value": "package/mjs"
-              }
+              },
+              "phase": null
             }
           }
         ],
@@ -858,7 +872,8 @@ __ESTREE_TEST__:PASS:
                 "end": 140,
                 "raw": "\"package\"",
                 "value": "package"
-              }
+              },
+              "phase": null
             }
           }
         ],
@@ -904,7 +919,8 @@ __ESTREE_TEST__:PASS:
                 "end": 174,
                 "raw": "\"inner\"",
                 "value": "inner"
-              }
+              },
+              "phase": null
             }
           }
         ],
@@ -962,7 +978,8 @@ __ESTREE_TEST__:PASS:
                 "end": 62,
                 "raw": "\"inner/cjs\"",
                 "value": "inner/cjs"
-              }
+              },
+              "phase": null
             }
           }
         ],
@@ -1008,7 +1025,8 @@ __ESTREE_TEST__:PASS:
                 "end": 100,
                 "raw": "\"inner/mjs\"",
                 "value": "inner/mjs"
-              }
+              },
+              "phase": null
             }
           }
         ],

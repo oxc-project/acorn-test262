@@ -35,7 +35,8 @@ __ESTREE_TEST__:PASS:
               "end": 24,
               "raw": "\"./b\"",
               "value": "./b"
-            }
+            },
+            "phase": null
           }
         }
       ],

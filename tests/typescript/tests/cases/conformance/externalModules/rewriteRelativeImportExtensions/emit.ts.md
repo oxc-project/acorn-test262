@@ -205,7 +205,8 @@ __ESTREE_TEST__:PASS:
           "end": 230,
           "raw": "\"./foo.ts\"",
           "value": "./foo.ts"
-        }
+        },
+        "phase": null
       }
     },
     {
@@ -253,7 +254,8 @@ __ESTREE_TEST__:PASS:
               "end": 250,
               "raw": "\"./foo.ts\"",
               "value": "./foo.ts"
-            }
+            },
+            "phase": null
           },
           "optional": false,
           "property": {
@@ -337,7 +339,8 @@ __ESTREE_TEST__:PASS:
               "end": 327,
               "raw": "\"./foo.ts\"",
               "value": "./foo.ts"
-            }
+            },
+            "phase": null
           }
         ],
         "callee": {
@@ -427,7 +430,8 @@ __ESTREE_TEST__:PASS:
           "end": 348,
           "raw": "\"./foo.ts\"",
           "value": "./foo.ts"
-        }
+        },
+        "phase": null
       }
     },
     {
@@ -459,7 +463,8 @@ __ESTREE_TEST__:PASS:
             "raw": "\"./foo.ts\"",
             "value": "./foo.ts"
           }
-        }
+        },
+        "phase": null
       }
     }
   ],
@@ -585,7 +590,8 @@ __ESTREE_TEST__:PASS:
           "end": 197,
           "raw": "\"./foo.ts\"",
           "value": "./foo.ts"
-        }
+        },
+        "phase": null
       }
     },
     {
@@ -662,7 +668,8 @@ __ESTREE_TEST__:PASS:
           "end": 217,
           "raw": "\"./foo.ts\"",
           "value": "./foo.ts"
-        }
+        },
+        "phase": null
       }
     },
     {
@@ -978,7 +985,8 @@ __ESTREE_TEST__:PASS:
           "end": 312,
           "raw": "\"node:path\"",
           "value": "node:path"
-        }
+        },
+        "phase": null
       }
     },
     {

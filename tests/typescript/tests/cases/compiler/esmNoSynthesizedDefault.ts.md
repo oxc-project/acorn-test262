@@ -200,7 +200,8 @@ __ESTREE_TEST__:PASS:
                 "end": 132,
                 "raw": "'mdast-util-to-string'",
                 "value": "mdast-util-to-string"
-              }
+              },
+              "phase": null
             }
           }
         }

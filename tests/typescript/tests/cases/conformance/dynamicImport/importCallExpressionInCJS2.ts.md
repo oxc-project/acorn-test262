@@ -219,7 +219,8 @@ __ESTREE_TEST__:PASS:
                           "end": 119,
                           "raw": "\"./1\"",
                           "value": "./1"
-                        }
+                        },
+                        "phase": null
                       }
                     }
                   }
@@ -398,7 +399,8 @@ __ESTREE_TEST__:PASS:
               "end": 198,
               "raw": "\"./0\"",
               "value": "./0"
-            }
+            },
+            "phase": null
           }
         ],
         "callee": {

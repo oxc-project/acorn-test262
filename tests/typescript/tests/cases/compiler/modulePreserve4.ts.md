@@ -520,7 +520,8 @@ __ESTREE_TEST__:PASS:
                 "end": 147,
                 "raw": "\"./a\"",
                 "value": "./a"
-              }
+              },
+              "phase": null
             }
           }
         }
@@ -682,7 +683,8 @@ __ESTREE_TEST__:PASS:
                 "end": 283,
                 "raw": "\"./b\"",
                 "value": "./b"
-              }
+              },
+              "phase": null
             }
           }
         }
@@ -964,7 +966,8 @@ __ESTREE_TEST__:PASS:
                 "end": 605,
                 "raw": "\"./d\"",
                 "value": "./d"
-              }
+              },
+              "phase": null
             }
           }
         }

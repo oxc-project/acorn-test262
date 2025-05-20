@@ -51,7 +51,8 @@ __ESTREE_TEST__:PASS:
                         "value": "foo"
                       },
                       "delegate": false
-                    }
+                    },
+                    "phase": null
                   }
                 },
                 "optional": false,
@@ -64,7 +65,8 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 }
-              }
+              },
+              "phase": null
             }
           }
         ]

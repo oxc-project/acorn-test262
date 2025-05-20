@@ -89,7 +89,8 @@ __ESTREE_TEST__:PASS:
                         "end": 54,
                         "raw": "\"./bar\"",
                         "value": "./bar"
-                      }
+                      },
+                      "phase": null
                     }
                   },
                   "typeAnnotation": null
