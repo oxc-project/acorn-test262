@@ -8,7 +8,7 @@ const INFINITY_REGEXP = new RegExp(`"${INFINITY_PLACEHOLDER}"`, 'g');
 //   which will be replaced in JSON with `1e+400`.
 // * Sort RegExp `Literal`s' `regex.flags` property in alphabetical order, the way V8 does.
 // * Add `phase` field to `ImportDeclaration` and `ImportExpression`.
-function transformerAcorn(_key, value) {
+export function transformerAcorn(_key, value) {
   if (typeof value === 'bigint') return null;
   if (value === Infinity) return INFINITY_PLACEHOLDER;
 
@@ -29,7 +29,7 @@ function transformerAcorn(_key, value) {
 // Makes the same changes as `acornTransformer`, but:
 // * Also converts location fields.
 // * Does not add `phase` field to `ImportExpression`.
-function transformerTs(_key, value) {
+export function transformerTs(_key, value) {
   if (typeof value === 'bigint') return null;
   if (value === Infinity) return INFINITY_PLACEHOLDER;
 
@@ -38,7 +38,7 @@ function transformerTs(_key, value) {
   if (value.type === 'ImportDeclaration') {
     // Add `phase` field before `attributes` if `attributes` field exists (it should)
     if (Object.hasOwn(value, 'attributes')) {
-      const {attributes} = value;
+      const { attributes } = value;
       delete value.attributes;
       value.phase = null;
       value.attributes = attributes;
@@ -68,15 +68,7 @@ function transformerTs(_key, value) {
   return value;
 }
 
-export function jsonStringifyAcorn(ast) {
-  return stringifyWith(ast, transformerAcorn);
-}
-
-export function jsonStringifyTs(ast) {
-  return stringifyWith(ast, transformerTs);
-}
-
-function stringifyWith(ast, transformer) {
+export function stringifyWith(ast, transformer) {
   // Add `hashbang` field
   ast.hashbang = null;
   // Serialize to JSON, with modifications

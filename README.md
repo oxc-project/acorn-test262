@@ -35,18 +35,22 @@ A non-standard `hashbang` field is added to `Program`.
 ## Maintainance
 
 ```bash
-# Change the commit sha in the init command, then:
+# Change the commit SHAs in the clone commands, then:
 pnpm run init
 pnpm run start
 git commit -m "update snapshots"
 
-# For acorn-jsx test suites
-pnpm run clone-acorn-jsx
-node acorn-jsx.js
+# Test262 only
+pnpm run clone-test262
+pnpm run gen-test262
 
-# For typescript-eslint test suites
+# Acorn JSX only
+pnpm run clone-acorn-jsx
+pnpm run gen-acorn-jsx
+
+# Acorn JSX only
 pnpm run clone-typescript
-node typescript-eslint.js
+pnpm run gen-typescript
 ```
 
 [acorn]: https://github.com/acornjs/acorn

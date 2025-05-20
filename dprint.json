@@ -5,12 +5,10 @@
     "binaryExpression.operatorPosition": "sameLine"
   },
   "excludes": [
-    "acorn-jsx",
+    "submodules",
     "test-acorn-jsx",
-    "typescript",
     "test-typescript",
-    "test",
-    "test262"
+    "test"
   ],
   "plugins": [
     "https://plugins.dprint.dev/typescript-0.93.3.wasm"

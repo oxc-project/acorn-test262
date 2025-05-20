@@ -1,4 +1,2 @@
-/test262
 /node_modules
-/acorn-jsx
-/typescript
+/submodules
