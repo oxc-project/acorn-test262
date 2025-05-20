@@ -38,7 +38,6 @@ return __tests;
 await run({
   submodule: 'acorn-jsx',
   subDirectory: 'fixtures/pass',
-  outputName: 'test-acorn-jsx',
   transform: transformerAcorn,
   async process(path, code) {
     try {

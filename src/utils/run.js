@@ -4,16 +4,16 @@ import { stringifyWith } from './json.js';
 
 const ROOT_DIR_PATH = pathJoin(import.meta.dirname, '../../');
 const SUBMODULES_DIR_PATH = pathJoin(ROOT_DIR_PATH, 'submodules');
-const OUTPUTS_DIR_PATH = ROOT_DIR_PATH;
+const OUTPUTS_DIR_PATH = pathJoin(ROOT_DIR_PATH, 'tests');
 
 const { stdout } = process;
 
 // Generate outputs
-export async function run({ submodule, subDirectory, outputName, filter, transform, process }) {
+export async function run({ submodule, subDirectory, filter, transform, process }) {
   console.log('> Generating:', submodule);
 
   const fixturesRootPath = pathJoin(SUBMODULES_DIR_PATH, submodule);
-  const outputsDirPath = pathJoin(OUTPUTS_DIR_PATH, outputName);
+  const outputsDirPath = pathJoin(OUTPUTS_DIR_PATH, submodule);
 
   // Find all files in fixtures dir
   const files = await fs.readdir(

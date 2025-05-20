@@ -6,7 +6,6 @@ import { run } from './utils/run.js';
 await run({
   submodule: 'test262',
   subDirectory: 'test',
-  outputName: 'test',
   filter(path) {
     return path.endsWith('.js') && !path.includes('_FIXTURE') && !path.includes('staging');
   },
@@ -43,7 +42,7 @@ await run({
 
       return [
         {
-          path: `${path.slice('test/'.length, -3)}.json`, // Replace `.js` with `.json`
+          path: `${path.slice(0, -3)}.json`, // Replace `.js` with `.json`
           ast,
         },
       ];
