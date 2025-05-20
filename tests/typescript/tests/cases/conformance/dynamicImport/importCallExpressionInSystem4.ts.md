@@ -295,7 +295,8 @@ __ESTREE_TEST__:PASS:
                 "end": 71,
                 "raw": "\"./0\"",
                 "value": "./0"
-              }
+              },
+              "phase": null
             }
           },
           {
@@ -358,7 +359,8 @@ __ESTREE_TEST__:PASS:
                             "end": 127,
                             "raw": "\"./0\"",
                             "value": "./0"
-                          }
+                          },
+                          "phase": null
                         }
                       }
                     ],
@@ -570,7 +572,8 @@ __ESTREE_TEST__:PASS:
                                           "end": 300,
                                           "raw": "\"./1\"",
                                           "value": "./1"
-                                        }
+                                        },
+                                        "phase": null
                                       }
                                     }
                                   }
@@ -790,7 +793,8 @@ __ESTREE_TEST__:PASS:
                   "end": 415,
                   "raw": "\"./0\"",
                   "value": "./0"
-                }
+                },
+                "phase": null
               }
             },
             {
@@ -853,7 +857,8 @@ __ESTREE_TEST__:PASS:
                               "end": 471,
                               "raw": "\"./0\"",
                               "value": "./0"
-                            }
+                            },
+                            "phase": null
                           }
                         }
                       ],
@@ -1065,7 +1070,8 @@ __ESTREE_TEST__:PASS:
                                             "end": 644,
                                             "raw": "\"./1\"",
                                             "value": "./1"
-                                          }
+                                          },
+                                          "phase": null
                                         }
                                       }
                                     }

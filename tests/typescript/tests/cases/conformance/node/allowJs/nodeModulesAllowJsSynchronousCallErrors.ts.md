@@ -190,7 +190,8 @@ __ESTREE_TEST__:PASS:
                         "end": 232,
                         "raw": "\"../index.js\"",
                         "value": "../index.js"
-                      }
+                      },
+                      "phase": null
                     }
                   }
                 }
@@ -232,7 +233,8 @@ __ESTREE_TEST__:PASS:
                         "end": 278,
                         "raw": "\"./index.js\"",
                         "value": "./index.js"
-                      }
+                      },
+                      "phase": null
                     }
                   }
                 }
@@ -482,7 +484,8 @@ __ESTREE_TEST__:PASS:
                         "end": 249,
                         "raw": "\"./index.js\"",
                         "value": "./index.js"
-                      }
+                      },
+                      "phase": null
                     }
                   }
                 }
@@ -524,7 +527,8 @@ __ESTREE_TEST__:PASS:
                         "end": 305,
                         "raw": "\"./subfolder/index.js\"",
                         "value": "./subfolder/index.js"
-                      }
+                      },
+                      "phase": null
                     }
                   }
                 }

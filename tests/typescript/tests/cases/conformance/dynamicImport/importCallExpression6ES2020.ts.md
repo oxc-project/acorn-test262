@@ -342,7 +342,8 @@ __ESTREE_TEST__:PASS:
               "name": "specify",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -381,7 +382,8 @@ __ESTREE_TEST__:PASS:
               "name": "undefined",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -447,7 +449,8 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeArguments": null
               }
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -484,7 +487,8 @@ __ESTREE_TEST__:PASS:
               "end": 216,
               "raw": "null",
               "value": null
-            }
+            },
+            "phase": null
           }
         }
       ],

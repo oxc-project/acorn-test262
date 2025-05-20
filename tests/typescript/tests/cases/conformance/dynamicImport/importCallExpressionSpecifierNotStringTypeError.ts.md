@@ -96,7 +96,8 @@ __ESTREE_TEST__:PASS:
           },
           "optional": false,
           "typeArguments": null
-        }
+        },
+        "phase": null
       }
     },
     {
@@ -139,7 +140,8 @@ __ESTREE_TEST__:PASS:
               },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -207,7 +209,8 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               }
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -365,7 +368,8 @@ __ESTREE_TEST__:PASS:
                   "value": "path2"
                 }
               ]
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -414,7 +418,8 @@ __ESTREE_TEST__:PASS:
               "params": [],
               "returnType": null,
               "typeParameters": null
-            }
+            },
+            "phase": null
           }
         }
       ],

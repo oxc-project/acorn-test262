@@ -57,7 +57,8 @@ __ESTREE_TEST__:PASS:
                         "end": 78,
                         "raw": "'./foo2'",
                         "value": "./foo2"
-                      }
+                      },
+                      "phase": null
                     }
                   }
                 ]

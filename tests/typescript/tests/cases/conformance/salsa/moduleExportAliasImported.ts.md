@@ -150,7 +150,8 @@ __ESTREE_TEST__:PASS:
           "end": 19,
           "raw": "'./bug28014'",
           "value": "./bug28014"
-        }
+        },
+        "phase": null
       }
     }
   ],

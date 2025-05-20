@@ -164,7 +164,8 @@ __ESTREE_TEST__:PASS:
           },
           "optional": false,
           "typeArguments": null
-        }
+        },
+        "phase": null
       }
     },
     {
@@ -247,7 +248,8 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               ]
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -294,7 +296,8 @@ __ESTREE_TEST__:PASS:
               },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -362,7 +365,8 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               }
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -396,7 +400,8 @@ __ESTREE_TEST__:PASS:
                 "name": "path",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "phase": null
             }
           }
         ]

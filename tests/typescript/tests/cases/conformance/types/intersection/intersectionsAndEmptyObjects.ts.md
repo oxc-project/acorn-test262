@@ -3163,7 +3163,8 @@ __ESTREE_TEST__:PASS:
               "end": 1801,
               "raw": "'./ex'",
               "value": "./ex"
-            }
+            },
+            "phase": null
           }
         ],
         "callee": {

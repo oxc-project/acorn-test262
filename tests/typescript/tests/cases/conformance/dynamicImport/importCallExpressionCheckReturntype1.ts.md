@@ -233,7 +233,8 @@ __ESTREE_TEST__:PASS:
               "end": 161,
               "raw": "\"./defaultPath\"",
               "value": "./defaultPath"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -274,7 +275,8 @@ __ESTREE_TEST__:PASS:
                 "end": 195,
                 "raw": "\"./defaultPath\"",
                 "value": "./defaultPath"
-              }
+              },
+              "phase": null
             },
             "typeAnnotation": {
               "type": "TSTypeReference",
@@ -378,7 +380,8 @@ __ESTREE_TEST__:PASS:
               "end": 276,
               "raw": "\"./defaultPath\"",
               "value": "./defaultPath"
-            }
+            },
+            "phase": null
           }
         }
       ],

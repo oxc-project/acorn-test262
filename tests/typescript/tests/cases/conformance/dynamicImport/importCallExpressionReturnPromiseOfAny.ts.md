@@ -314,7 +314,8 @@ __ESTREE_TEST__:PASS:
               }
             }
           ]
-        }
+        },
+        "phase": null
       }
     },
     {
@@ -343,7 +344,8 @@ __ESTREE_TEST__:PASS:
           },
           "optional": false,
           "typeArguments": null
-        }
+        },
+        "phase": null
       }
     },
     {
@@ -405,7 +407,8 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeArguments": null
               }
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -482,7 +485,8 @@ __ESTREE_TEST__:PASS:
               },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -569,7 +573,8 @@ __ESTREE_TEST__:PASS:
               },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -641,7 +646,8 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 }
-              }
+              },
+              "phase": null
             },
             "typeAnnotation": {
               "type": "TSTypeReference",
@@ -921,7 +927,8 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeArguments": null
               }
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -1034,7 +1041,8 @@ __ESTREE_TEST__:PASS:
                         "typeAnnotation": null
                       },
                       "delegate": false
-                    }
+                    },
+                    "phase": null
                   }
                 }
               ]

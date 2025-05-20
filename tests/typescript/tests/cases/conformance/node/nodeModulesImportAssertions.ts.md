@@ -211,7 +211,8 @@ __ESTREE_TEST__:PASS:
               "end": 155,
               "raw": "\"./package.json\"",
               "value": "./package.json"
-            }
+            },
+            "phase": null
           }
         }
       ],

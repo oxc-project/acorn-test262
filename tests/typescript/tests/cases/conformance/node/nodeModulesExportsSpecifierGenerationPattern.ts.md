@@ -95,7 +95,8 @@ __ESTREE_TEST__:PASS:
                       "end": 103,
                       "raw": "\"inner/index.js\"",
                       "value": "inner/index.js"
-                    }
+                    },
+                    "phase": null
                   }
                 },
                 "optional": false,

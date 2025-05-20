@@ -2495,7 +2495,8 @@ __ESTREE_TEST__:PASS:
               "end": 2173,
               "raw": "\"./\"",
               "value": "./"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -2532,7 +2533,8 @@ __ESTREE_TEST__:PASS:
               "end": 2205,
               "raw": "\"./index\"",
               "value": "./index"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -2569,7 +2571,8 @@ __ESTREE_TEST__:PASS:
               "end": 2241,
               "raw": "\"./subfolder\"",
               "value": "./subfolder"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -2606,7 +2609,8 @@ __ESTREE_TEST__:PASS:
               "end": 2278,
               "raw": "\"./subfolder/\"",
               "value": "./subfolder/"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -2643,7 +2647,8 @@ __ESTREE_TEST__:PASS:
               "end": 2320,
               "raw": "\"./subfolder/index\"",
               "value": "./subfolder/index"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -2680,7 +2685,8 @@ __ESTREE_TEST__:PASS:
               "end": 2357,
               "raw": "\"./subfolder2\"",
               "value": "./subfolder2"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -2717,7 +2723,8 @@ __ESTREE_TEST__:PASS:
               "end": 2395,
               "raw": "\"./subfolder2/\"",
               "value": "./subfolder2/"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -2754,7 +2761,8 @@ __ESTREE_TEST__:PASS:
               "end": 2438,
               "raw": "\"./subfolder2/index\"",
               "value": "./subfolder2/index"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -2791,7 +2799,8 @@ __ESTREE_TEST__:PASS:
               "end": 2483,
               "raw": "\"./subfolder2/another\"",
               "value": "./subfolder2/another"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -2828,7 +2837,8 @@ __ESTREE_TEST__:PASS:
               "end": 2529,
               "raw": "\"./subfolder2/another/\"",
               "value": "./subfolder2/another/"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -2865,7 +2875,8 @@ __ESTREE_TEST__:PASS:
               "end": 2580,
               "raw": "\"./subfolder2/another/index\"",
               "value": "./subfolder2/another/index"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -4738,7 +4749,8 @@ __ESTREE_TEST__:PASS:
               "end": 2276,
               "raw": "\"./\"",
               "value": "./"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -4775,7 +4787,8 @@ __ESTREE_TEST__:PASS:
               "end": 2308,
               "raw": "\"./index\"",
               "value": "./index"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -4812,7 +4825,8 @@ __ESTREE_TEST__:PASS:
               "end": 2344,
               "raw": "\"./subfolder\"",
               "value": "./subfolder"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -4849,7 +4863,8 @@ __ESTREE_TEST__:PASS:
               "end": 2381,
               "raw": "\"./subfolder/\"",
               "value": "./subfolder/"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -4886,7 +4901,8 @@ __ESTREE_TEST__:PASS:
               "end": 2423,
               "raw": "\"./subfolder/index\"",
               "value": "./subfolder/index"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -4923,7 +4939,8 @@ __ESTREE_TEST__:PASS:
               "end": 2460,
               "raw": "\"./subfolder2\"",
               "value": "./subfolder2"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -4960,7 +4977,8 @@ __ESTREE_TEST__:PASS:
               "end": 2498,
               "raw": "\"./subfolder2/\"",
               "value": "./subfolder2/"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -4997,7 +5015,8 @@ __ESTREE_TEST__:PASS:
               "end": 2541,
               "raw": "\"./subfolder2/index\"",
               "value": "./subfolder2/index"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -5034,7 +5053,8 @@ __ESTREE_TEST__:PASS:
               "end": 2586,
               "raw": "\"./subfolder2/another\"",
               "value": "./subfolder2/another"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -5071,7 +5091,8 @@ __ESTREE_TEST__:PASS:
               "end": 2632,
               "raw": "\"./subfolder2/another/\"",
               "value": "./subfolder2/another/"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -5108,7 +5129,8 @@ __ESTREE_TEST__:PASS:
               "end": 2683,
               "raw": "\"./subfolder2/another/index\"",
               "value": "./subfolder2/another/index"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -6981,7 +7003,8 @@ __ESTREE_TEST__:PASS:
               "end": 2170,
               "raw": "\"./\"",
               "value": "./"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -7018,7 +7041,8 @@ __ESTREE_TEST__:PASS:
               "end": 2202,
               "raw": "\"./index\"",
               "value": "./index"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -7055,7 +7079,8 @@ __ESTREE_TEST__:PASS:
               "end": 2238,
               "raw": "\"./subfolder\"",
               "value": "./subfolder"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -7092,7 +7117,8 @@ __ESTREE_TEST__:PASS:
               "end": 2275,
               "raw": "\"./subfolder/\"",
               "value": "./subfolder/"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -7129,7 +7155,8 @@ __ESTREE_TEST__:PASS:
               "end": 2317,
               "raw": "\"./subfolder/index\"",
               "value": "./subfolder/index"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -7166,7 +7193,8 @@ __ESTREE_TEST__:PASS:
               "end": 2354,
               "raw": "\"./subfolder2\"",
               "value": "./subfolder2"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -7203,7 +7231,8 @@ __ESTREE_TEST__:PASS:
               "end": 2392,
               "raw": "\"./subfolder2/\"",
               "value": "./subfolder2/"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -7240,7 +7269,8 @@ __ESTREE_TEST__:PASS:
               "end": 2435,
               "raw": "\"./subfolder2/index\"",
               "value": "./subfolder2/index"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -7277,7 +7307,8 @@ __ESTREE_TEST__:PASS:
               "end": 2480,
               "raw": "\"./subfolder2/another\"",
               "value": "./subfolder2/another"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -7314,7 +7345,8 @@ __ESTREE_TEST__:PASS:
               "end": 2526,
               "raw": "\"./subfolder2/another/\"",
               "value": "./subfolder2/another/"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -7351,7 +7383,8 @@ __ESTREE_TEST__:PASS:
               "end": 2577,
               "raw": "\"./subfolder2/another/index\"",
               "value": "./subfolder2/another/index"
-            }
+            },
+            "phase": null
           }
         }
       ],

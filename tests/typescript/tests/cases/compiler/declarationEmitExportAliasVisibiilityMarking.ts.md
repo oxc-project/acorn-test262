@@ -651,7 +651,8 @@ __ESTREE_TEST__:PASS:
                       "end": 43,
                       "raw": "'./Card'",
                       "value": "./Card"
-                    }
+                    },
+                    "phase": null
                   },
                   "optional": false,
                   "property": {

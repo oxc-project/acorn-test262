@@ -273,7 +273,8 @@ __ESTREE_TEST__:PASS:
               "end": 190,
               "raw": "\"./a.ts\"",
               "value": "./a.ts"
-            }
+            },
+            "phase": null
           }
         }
       ],
@@ -464,7 +465,8 @@ __ESTREE_TEST__:PASS:
               "end": 200,
               "raw": "\"./a.d.ts\"",
               "value": "./a.d.ts"
-            }
+            },
+            "phase": null
           }
         }
       ],

@@ -172,7 +172,8 @@ __ESTREE_TEST__:PASS:
               "end": 14,
               "raw": "\"./foo\"",
               "value": "./foo"
-            }
+            },
+            "phase": null
           },
           "optional": false,
           "property": {
