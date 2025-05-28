@@ -15,6 +15,12 @@
           "type": "JSXOpeningElement",
           "start": 0,
           "end": 60,
+          "name": {
+            "type": "JSXIdentifier",
+            "start": 1,
+            "end": 10,
+            "name": "LeftRight"
+          },
           "attributes": [
             {
               "type": "JSXAttribute",
@@ -34,17 +40,17 @@
                   "type": "JSXOpeningElement",
                   "start": 16,
                   "end": 21,
-                  "attributes": [],
                   "name": {
                     "type": "JSXIdentifier",
                     "start": 17,
                     "end": 18,
                     "name": "a"
                   },
+                  "attributes": [],
                   "selfClosing": true
                 },
-                "closingElement": null,
-                "children": []
+                "children": [],
+                "closingElement": null
               }
             },
             {
@@ -65,15 +71,24 @@
                   "type": "JSXOpeningElement",
                   "start": 28,
                   "end": 31,
-                  "attributes": [],
                   "name": {
                     "type": "JSXIdentifier",
                     "start": 29,
                     "end": 30,
                     "name": "b"
                   },
+                  "attributes": [],
                   "selfClosing": false
                 },
+                "children": [
+                  {
+                    "type": "JSXText",
+                    "start": 31,
+                    "end": 53,
+                    "value": "monkeys /> gorillas",
+                    "raw": "monkeys /&gt; gorillas"
+                  }
+                ],
                 "closingElement": {
                   "type": "JSXClosingElement",
                   "start": 53,
@@ -84,29 +99,14 @@
                     "end": 56,
                     "name": "b"
                   }
-                },
-                "children": [
-                  {
-                    "type": "JSXText",
-                    "start": 31,
-                    "end": 53,
-                    "value": "monkeys /> gorillas",
-                    "raw": "monkeys /&gt; gorillas"
-                  }
-                ]
+                }
               }
             }
           ],
-          "name": {
-            "type": "JSXIdentifier",
-            "start": 1,
-            "end": 10,
-            "name": "LeftRight"
-          },
           "selfClosing": true
         },
-        "closingElement": null,
-        "children": []
+        "children": [],
+        "closingElement": null
       }
     }
   ],

@@ -15,6 +15,12 @@
           "type": "JSXOpeningElement",
           "start": 0,
           "end": 15,
+          "name": {
+            "type": "JSXIdentifier",
+            "start": 1,
+            "end": 2,
+            "name": "a"
+          },
           "attributes": [
             {
               "type": "JSXAttribute",
@@ -46,24 +52,7 @@
               }
             }
           ],
-          "name": {
-            "type": "JSXIdentifier",
-            "start": 1,
-            "end": 2,
-            "name": "a"
-          },
           "selfClosing": false
-        },
-        "closingElement": {
-          "type": "JSXClosingElement",
-          "start": 36,
-          "end": 40,
-          "name": {
-            "type": "JSXIdentifier",
-            "start": 38,
-            "end": 39,
-            "name": "a"
-          }
         },
         "children": [
           {
@@ -99,25 +88,14 @@
               "type": "JSXOpeningElement",
               "start": 24,
               "end": 27,
-              "attributes": [],
               "name": {
                 "type": "JSXIdentifier",
                 "start": 25,
                 "end": 26,
                 "name": "b"
               },
+              "attributes": [],
               "selfClosing": false
-            },
-            "closingElement": {
-              "type": "JSXClosingElement",
-              "start": 32,
-              "end": 36,
-              "name": {
-                "type": "JSXIdentifier",
-                "start": 34,
-                "end": 35,
-                "name": "b"
-              }
             },
             "children": [
               {
@@ -128,21 +106,43 @@
                   "type": "JSXOpeningElement",
                   "start": 27,
                   "end": 32,
-                  "attributes": [],
                   "name": {
                     "type": "JSXIdentifier",
                     "start": 28,
                     "end": 29,
                     "name": "c"
                   },
+                  "attributes": [],
                   "selfClosing": true
                 },
-                "closingElement": null,
-                "children": []
+                "children": [],
+                "closingElement": null
               }
-            ]
+            ],
+            "closingElement": {
+              "type": "JSXClosingElement",
+              "start": 32,
+              "end": 36,
+              "name": {
+                "type": "JSXIdentifier",
+                "start": 34,
+                "end": 35,
+                "name": "b"
+              }
+            }
           }
-        ]
+        ],
+        "closingElement": {
+          "type": "JSXClosingElement",
+          "start": 36,
+          "end": 40,
+          "name": {
+            "type": "JSXIdentifier",
+            "start": 38,
+            "end": 39,
+            "name": "a"
+          }
+        }
       }
     }
   ],

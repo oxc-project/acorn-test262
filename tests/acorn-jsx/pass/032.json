@@ -15,15 +15,24 @@
           "type": "JSXOpeningElement",
           "start": 0,
           "end": 5,
-          "attributes": [],
           "name": {
             "type": "JSXIdentifier",
             "start": 1,
             "end": 4,
             "name": "div"
           },
+          "attributes": [],
           "selfClosing": false
         },
+        "children": [
+          {
+            "type": "JSXText",
+            "start": 5,
+            "end": 10,
+            "value": "/text",
+            "raw": "/text"
+          }
+        ],
         "closingElement": {
           "type": "JSXClosingElement",
           "start": 10,
@@ -34,16 +43,7 @@
             "end": 15,
             "name": "div"
           }
-        },
-        "children": [
-          {
-            "type": "JSXText",
-            "start": 5,
-            "end": 10,
-            "value": "/text",
-            "raw": "/text"
-          }
-        ]
+        }
       }
     }
   ],

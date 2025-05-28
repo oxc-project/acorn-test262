@@ -23,17 +23,17 @@
               "type": "JSXOpeningElement",
               "start": 1,
               "end": 8,
-              "attributes": [],
               "name": {
                 "type": "JSXIdentifier",
                 "start": 2,
                 "end": 5,
                 "name": "div"
               },
+              "attributes": [],
               "selfClosing": true
             },
-            "closingElement": null,
-            "children": []
+            "children": [],
+            "closingElement": null
           }
         },
         "operator": "<",

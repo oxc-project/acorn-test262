@@ -15,15 +15,16 @@
           "type": "JSXOpeningElement",
           "start": 0,
           "end": 5,
-          "attributes": [],
           "name": {
             "type": "JSXIdentifier",
             "start": 1,
             "end": 4,
             "name": "日本語"
           },
+          "attributes": [],
           "selfClosing": false
         },
+        "children": [],
         "closingElement": {
           "type": "JSXClosingElement",
           "start": 5,
@@ -34,8 +35,7 @@
             "end": 10,
             "name": "日本語"
           }
-        },
-        "children": []
+        }
       }
     }
   ],
