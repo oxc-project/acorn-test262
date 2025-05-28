@@ -7,6 +7,12 @@
       "type": "LabeledStatement",
       "start": 341,
       "end": 635,
+      "label": {
+        "type": "Identifier",
+        "start": 341,
+        "end": 347,
+        "name": "do_out"
+      },
       "body": {
         "type": "WhileStatement",
         "start": 350,
@@ -58,6 +64,7 @@
               "type": "VariableDeclaration",
               "start": 409,
               "end": 444,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -77,13 +84,18 @@
                     "raw": "\"once\""
                   }
                 }
-              ],
-              "kind": "var"
+              ]
             },
             {
               "type": "LabeledStatement",
               "start": 449,
               "end": 588,
+              "label": {
+                "type": "Identifier",
+                "start": 449,
+                "end": 454,
+                "name": "do_in"
+              },
               "body": {
                 "type": "WhileStatement",
                 "start": 457,
@@ -104,6 +116,7 @@
                       "type": "VariableDeclaration",
                       "start": 477,
                       "end": 514,
+                      "kind": "var",
                       "declarations": [
                         {
                           "type": "VariableDeclarator",
@@ -123,8 +136,7 @@
                             "raw": "\"in\""
                           }
                         }
-                      ],
-                      "kind": "var"
+                      ]
                     },
                     {
                       "type": "BreakStatement",
@@ -141,6 +153,7 @@
                       "type": "VariableDeclaration",
                       "start": 545,
                       "end": 582,
+                      "kind": "var",
                       "declarations": [
                         {
                           "type": "VariableDeclarator",
@@ -160,17 +173,10 @@
                             "raw": "\"the\""
                           }
                         }
-                      ],
-                      "kind": "var"
+                      ]
                     }
                   ]
                 }
-              },
-              "label": {
-                "type": "Identifier",
-                "start": 449,
-                "end": 454,
-                "name": "do_in"
               }
             },
             {
@@ -182,6 +188,7 @@
               "type": "VariableDeclaration",
               "start": 595,
               "end": 633,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -201,17 +208,10 @@
                     "raw": "\"lifetime\""
                   }
                 }
-              ],
-              "kind": "var"
+              ]
             }
           ]
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 341,
-        "end": 347,
-        "name": "do_out"
       }
     },
     {
@@ -228,7 +228,6 @@
         "start": 732,
         "end": 841,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 733,
@@ -265,13 +264,13 @@
                 "start": 788,
                 "end": 815,
                 "operator": "!",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 789,
                   "end": 815,
                   "name": "__in__do__IN__after__break"
-                }
+                },
+                "prefix": true
               }
             },
             "operator": "&&",
@@ -280,16 +279,17 @@
               "start": 817,
               "end": 840,
               "operator": "!",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 818,
                 "end": 840,
                 "name": "__in__do__after__break"
-              }
+              },
+              "prefix": true
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

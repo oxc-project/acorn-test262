@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 355,
       "end": 370,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -44,8 +45,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -55,6 +55,7 @@
         "type": "VariableDeclaration",
         "start": 375,
         "end": 382,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -74,8 +75,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -230,14 +230,14 @@
                 "start": 487,
                 "end": 489,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 488,
                   "end": 489,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               }
             }
           },
@@ -386,6 +386,7 @@
       "type": "VariableDeclaration",
       "start": 704,
       "end": 720,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -423,8 +424,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -434,6 +434,7 @@
         "type": "VariableDeclaration",
         "start": 725,
         "end": 732,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -453,8 +454,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -646,14 +646,14 @@
                 "start": 868,
                 "end": 870,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 869,
                   "end": 870,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               }
             }
           }

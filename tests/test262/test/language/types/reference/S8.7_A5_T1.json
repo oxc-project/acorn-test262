@@ -16,7 +16,6 @@
           "start": 394,
           "end": 407,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 400,
@@ -27,7 +26,8 @@
               "end": 406,
               "name": "__ref"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -79,7 +79,6 @@
                       "start": 502,
                       "end": 515,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 508,
@@ -90,7 +89,8 @@
                           "end": 514,
                           "name": "__ref"
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -110,6 +110,7 @@
       "type": "VariableDeclaration",
       "start": 605,
       "end": 628,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -134,13 +135,13 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 629,
       "end": 645,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -159,8 +160,7 @@
             "name": "obj"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -175,7 +175,6 @@
           "start": 740,
           "end": 753,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 746,
@@ -186,7 +185,8 @@
               "end": 752,
               "name": "__ref"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "===",
         "right": {
@@ -249,13 +249,13 @@
           "start": 1053,
           "end": 1065,
           "operator": "delete",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 1060,
             "end": 1065,
             "name": "__ref"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -307,13 +307,13 @@
                       "start": 1184,
                       "end": 1196,
                       "operator": "delete",
-                      "prefix": true,
                       "argument": {
                         "type": "Identifier",
                         "start": 1191,
                         "end": 1196,
                         "name": "__ref"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -342,7 +342,6 @@
           "start": 1379,
           "end": 1392,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 1385,
@@ -353,7 +352,8 @@
               "end": 1391,
               "name": "__ref"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -405,7 +405,6 @@
                       "start": 1532,
                       "end": 1545,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 1538,
@@ -416,7 +415,8 @@
                           "end": 1544,
                           "name": "__ref"
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -445,7 +445,6 @@
           "start": 1728,
           "end": 1739,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 1734,
@@ -456,7 +455,8 @@
               "end": 1738,
               "name": "obj"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -508,7 +508,6 @@
                       "start": 1877,
                       "end": 1888,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 1883,
@@ -519,7 +518,8 @@
                           "end": 1887,
                           "name": "obj"
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }

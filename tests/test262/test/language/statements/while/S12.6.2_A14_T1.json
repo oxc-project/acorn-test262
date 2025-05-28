@@ -17,7 +17,6 @@
           "end": 407,
           "name": "__func"
         },
-        "expression": false,
         "generator": false,
         "async": false,
         "params": [],
@@ -39,7 +38,8 @@
               }
             }
           ]
-        }
+        },
+        "expression": false
       },
       "body": {
         "type": "BlockStatement",
@@ -50,6 +50,7 @@
             "type": "VariableDeclaration",
             "start": 426,
             "end": 444,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -69,8 +70,7 @@
                   "raw": "1"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "BreakStatement",

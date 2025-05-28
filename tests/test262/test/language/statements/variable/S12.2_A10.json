@@ -95,8 +95,8 @@
                         "end": 485,
                         "name": "message"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 ]
@@ -115,6 +115,7 @@
         "type": "VariableDeclaration",
         "start": 578,
         "end": 587,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -128,8 +129,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": null,
       "update": null,

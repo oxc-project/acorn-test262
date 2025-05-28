@@ -70,7 +70,6 @@
         "start": 349,
         "end": 390,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 350,
@@ -131,7 +130,8 @@
               }
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

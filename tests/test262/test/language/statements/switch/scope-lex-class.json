@@ -19,6 +19,7 @@
           "type": "SwitchCase",
           "start": 837,
           "end": 856,
+          "test": null,
           "consequent": [
             {
               "type": "ClassDeclaration",
@@ -38,8 +39,7 @@
                 "body": []
               }
             }
-          ],
-          "test": null
+          ]
         }
       ]
     },

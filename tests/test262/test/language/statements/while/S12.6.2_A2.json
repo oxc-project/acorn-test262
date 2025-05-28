@@ -29,7 +29,6 @@
                   "start": 366,
                   "end": 385,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -51,7 +50,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               },
               "arguments": [],
@@ -211,13 +211,13 @@
           "start": 739,
           "end": 757,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 746,
             "end": 757,
             "name": "__in__while"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -265,13 +265,13 @@
                     "start": 876,
                     "end": 894,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 883,
                       "end": 894,
                       "name": "__in__while"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]

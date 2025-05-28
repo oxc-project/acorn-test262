@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 307,
       "end": 318,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,13 +26,13 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 319,
       "end": 329,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -50,8 +51,7 @@
             "name": "n"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -66,13 +66,13 @@
           "start": 424,
           "end": 432,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 431,
             "end": 432,
             "name": "m"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -124,13 +124,13 @@
                       "start": 538,
                       "end": 546,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "Identifier",
                         "start": 545,
                         "end": 546,
                         "name": "m"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -151,7 +151,6 @@
         "end": 655,
         "name": "populateAge"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -192,8 +191,8 @@
                   "end": 674,
                   "name": "age"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "Literal",
@@ -205,7 +204,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -256,8 +256,8 @@
             "end": 798,
             "name": "age"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -320,8 +320,8 @@
                         "end": 957,
                         "name": "age"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 }

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 230,
       "end": 240,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             "name": "NaN"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -41,7 +41,6 @@
           "start": 313,
           "end": 322,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 319,
@@ -52,7 +51,8 @@
               "end": 321,
               "name": "x"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -104,7 +104,6 @@
                       "start": 416,
                       "end": 425,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 422,
@@ -115,7 +114,8 @@
                           "end": 424,
                           "name": "x"
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -139,7 +139,6 @@
           "start": 565,
           "end": 576,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 571,
@@ -150,7 +149,8 @@
               "end": 575,
               "name": "NaN"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -202,7 +202,6 @@
                       "start": 661,
                       "end": 672,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 667,
@@ -213,7 +212,8 @@
                           "end": 671,
                           "name": "NaN"
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }

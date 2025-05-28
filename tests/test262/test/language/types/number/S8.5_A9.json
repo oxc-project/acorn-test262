@@ -28,8 +28,8 @@
             "end": 319,
             "name": "NaN"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -64,8 +64,8 @@
             "end": 340,
             "name": "NaN"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "===",
         "right": {

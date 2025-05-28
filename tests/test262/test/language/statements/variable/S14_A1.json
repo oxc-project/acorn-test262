@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 300,
       "end": 324,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "\"I'm there\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 325,
       "end": 347,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,8 +53,7 @@
             "raw": "\"I'm here\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -143,6 +143,7 @@
             "type": "VariableDeclaration",
             "start": 651,
             "end": 689,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -159,7 +160,6 @@
                   "start": 664,
                   "end": 688,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -180,11 +180,11 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           }
         ]
       },
@@ -197,6 +197,7 @@
             "type": "VariableDeclaration",
             "start": 703,
             "end": 743,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -213,7 +214,6 @@
                   "start": 716,
                   "end": 742,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -234,11 +234,11 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           }
         ]
       }

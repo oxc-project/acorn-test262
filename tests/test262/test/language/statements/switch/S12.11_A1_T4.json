@@ -13,7 +13,6 @@
         "end": 360,
         "name": "SwitchTest"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -33,6 +32,7 @@
             "type": "VariableDeclaration",
             "start": 371,
             "end": 386,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -52,8 +52,7 @@
                   "raw": "0"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "SwitchStatement",
@@ -70,6 +69,13 @@
                 "type": "SwitchCase",
                 "start": 412,
                 "end": 438,
+                "test": {
+                  "type": "Literal",
+                  "start": 417,
+                  "end": 418,
+                  "value": 0,
+                  "raw": "0"
+                },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
@@ -95,19 +101,19 @@
                       }
                     }
                   }
-                ],
-                "test": {
-                  "type": "Literal",
-                  "start": 417,
-                  "end": 418,
-                  "value": 0,
-                  "raw": "0"
-                }
+                ]
               },
               {
                 "type": "SwitchCase",
                 "start": 443,
                 "end": 482,
+                "test": {
+                  "type": "Literal",
+                  "start": 448,
+                  "end": 449,
+                  "value": 1,
+                  "raw": "1"
+                },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
@@ -139,19 +145,19 @@
                     "end": 482,
                     "label": null
                   }
-                ],
-                "test": {
-                  "type": "Literal",
-                  "start": 448,
-                  "end": 449,
-                  "value": 1,
-                  "raw": "1"
-                }
+                ]
               },
               {
                 "type": "SwitchCase",
                 "start": 487,
                 "end": 513,
+                "test": {
+                  "type": "Literal",
+                  "start": 492,
+                  "end": 493,
+                  "value": 2,
+                  "raw": "2"
+                },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
@@ -177,19 +183,32 @@
                       }
                     }
                   }
-                ],
-                "test": {
-                  "type": "Literal",
-                  "start": 492,
-                  "end": 493,
-                  "value": 2,
-                  "raw": "2"
-                }
+                ]
               },
               {
                 "type": "SwitchCase",
                 "start": 518,
                 "end": 556,
+                "test": {
+                  "type": "CallExpression",
+                  "start": 523,
+                  "end": 535,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 523,
+                    "end": 528,
+                    "name": "isNaN"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 529,
+                      "end": 534,
+                      "name": "value"
+                    }
+                  ],
+                  "optional": false
+                },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
@@ -215,32 +234,13 @@
                       }
                     }
                   }
-                ],
-                "test": {
-                  "type": "CallExpression",
-                  "start": 523,
-                  "end": 535,
-                  "callee": {
-                    "type": "Identifier",
-                    "start": 523,
-                    "end": 528,
-                    "name": "isNaN"
-                  },
-                  "arguments": [
-                    {
-                      "type": "Identifier",
-                      "start": 529,
-                      "end": 534,
-                      "name": "value"
-                    }
-                  ],
-                  "optional": false
-                }
+                ]
               },
               {
                 "type": "SwitchCase",
                 "start": 561,
                 "end": 602,
+                "test": null,
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
@@ -272,13 +272,19 @@
                     "end": 602,
                     "label": null
                   }
-                ],
-                "test": null
+                ]
               },
               {
                 "type": "SwitchCase",
                 "start": 607,
                 "end": 637,
+                "test": {
+                  "type": "Literal",
+                  "start": 612,
+                  "end": 616,
+                  "value": null,
+                  "raw": "null"
+                },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
@@ -304,19 +310,18 @@
                       }
                     }
                   }
-                ],
-                "test": {
-                  "type": "Literal",
-                  "start": 612,
-                  "end": 616,
-                  "value": null,
-                  "raw": "null"
-                }
+                ]
               },
               {
                 "type": "SwitchCase",
                 "start": 642,
                 "end": 687,
+                "test": {
+                  "type": "Identifier",
+                  "start": 647,
+                  "end": 652,
+                  "name": "isNaN"
+                },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
@@ -348,18 +353,18 @@
                     "end": 687,
                     "label": null
                   }
-                ],
-                "test": {
-                  "type": "Identifier",
-                  "start": 647,
-                  "end": 652,
-                  "name": "isNaN"
-                }
+                ]
               },
               {
                 "type": "SwitchCase",
                 "start": 692,
                 "end": 727,
+                "test": {
+                  "type": "Identifier",
+                  "start": 697,
+                  "end": 705,
+                  "name": "Infinity"
+                },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
@@ -385,18 +390,32 @@
                       }
                     }
                   }
-                ],
-                "test": {
-                  "type": "Identifier",
-                  "start": 697,
-                  "end": 705,
-                  "name": "Infinity"
-                }
+                ]
               },
               {
                 "type": "SwitchCase",
                 "start": 732,
                 "end": 775,
+                "test": {
+                  "type": "BinaryExpression",
+                  "start": 737,
+                  "end": 740,
+                  "left": {
+                    "type": "Literal",
+                    "start": 737,
+                    "end": 738,
+                    "value": 2,
+                    "raw": "2"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "start": 739,
+                    "end": 740,
+                    "value": 3,
+                    "raw": "3"
+                  }
+                },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
@@ -428,32 +447,18 @@
                     "end": 775,
                     "label": null
                   }
-                ],
-                "test": {
-                  "type": "BinaryExpression",
-                  "start": 737,
-                  "end": 740,
-                  "left": {
-                    "type": "Literal",
-                    "start": 737,
-                    "end": 738,
-                    "value": 2,
-                    "raw": "2"
-                  },
-                  "operator": "+",
-                  "right": {
-                    "type": "Literal",
-                    "start": 739,
-                    "end": 740,
-                    "value": 3,
-                    "raw": "3"
-                  }
-                }
+                ]
               },
               {
                 "type": "SwitchCase",
                 "start": 780,
                 "end": 817,
+                "test": {
+                  "type": "Identifier",
+                  "start": 785,
+                  "end": 794,
+                  "name": "undefined"
+                },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
@@ -479,13 +484,7 @@
                       }
                     }
                   }
-                ],
-                "test": {
-                  "type": "Identifier",
-                  "start": 785,
-                  "end": 794,
-                  "name": "undefined"
-                }
+                ]
               }
             ]
           },
@@ -501,12 +500,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 845,
       "end": 867,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -540,8 +541,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -552,7 +552,6 @@
         "start": 872,
         "end": 894,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 873,
@@ -590,7 +589,8 @@
               "raw": "6"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -661,7 +661,6 @@
         "start": 1025,
         "end": 1055,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1026,
@@ -699,7 +698,8 @@
               "raw": "32"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -770,7 +770,6 @@
         "start": 1184,
         "end": 1212,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1185,
@@ -808,7 +807,8 @@
               "raw": "128"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -879,7 +879,6 @@
         "start": 1333,
         "end": 1359,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1334,
@@ -918,7 +917,8 @@
               "raw": "32"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -990,7 +990,6 @@
         "start": 1476,
         "end": 1503,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1477,
@@ -1029,7 +1028,8 @@
               "raw": "48"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -1101,7 +1101,6 @@
         "start": 1623,
         "end": 1650,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1624,
@@ -1140,7 +1139,8 @@
               "raw": "192"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -1212,7 +1212,6 @@
         "start": 1768,
         "end": 1798,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1769,
@@ -1237,14 +1236,14 @@
                   "start": 1781,
                   "end": 1787,
                   "operator": "void",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1786,
                     "end": 1787,
                     "value": 0,
                     "raw": "0"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -1258,7 +1257,8 @@
               "raw": "1024"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -1308,14 +1308,14 @@
                         "start": 1905,
                         "end": 1911,
                         "operator": "void",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1910,
                           "end": 1911,
                           "value": 0,
                           "raw": "0"
-                        }
+                        },
+                        "prefix": true
                       }
                     ],
                     "optional": false
@@ -1337,7 +1337,6 @@
         "start": 1923,
         "end": 1948,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1924,
@@ -1375,7 +1374,8 @@
               "raw": "32"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -1446,7 +1446,6 @@
         "start": 2063,
         "end": 2094,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 2064,
@@ -1484,7 +1483,8 @@
               "raw": "768"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

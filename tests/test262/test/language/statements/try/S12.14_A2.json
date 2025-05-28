@@ -74,6 +74,7 @@
       "type": "VariableDeclaration",
       "start": 472,
       "end": 481,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -93,8 +94,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -269,6 +269,7 @@
       "type": "VariableDeclaration",
       "start": 730,
       "end": 739,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -288,8 +289,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -358,6 +358,7 @@
               "type": "VariableDeclaration",
               "start": 853,
               "end": 862,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -377,8 +378,7 @@
                     "raw": "1"
                   }
                 }
-              ],
-              "kind": "var"
+              ]
             }
           ]
         }

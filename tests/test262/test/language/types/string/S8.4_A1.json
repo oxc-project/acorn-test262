@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 400,
       "end": 417,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "\"abcdfg\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -42,7 +42,6 @@
           "start": 422,
           "end": 433,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 428,
@@ -53,7 +52,8 @@
               "end": 432,
               "name": "str"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -105,7 +105,6 @@
                       "start": 534,
                       "end": 545,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 540,
@@ -116,7 +115,8 @@
                           "end": 544,
                           "name": "str"
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -131,6 +131,7 @@
       "type": "VariableDeclaration",
       "start": 681,
       "end": 699,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -150,8 +151,7 @@
             "raw": "'qwerty'"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -166,7 +166,6 @@
           "start": 704,
           "end": 716,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 710,
@@ -177,7 +176,8 @@
               "end": 715,
               "name": "str2"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -229,7 +229,6 @@
                       "start": 820,
                       "end": 832,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 826,
@@ -240,7 +239,8 @@
                           "end": 831,
                           "name": "str2"
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -255,6 +255,7 @@
       "type": "VariableDeclaration",
       "start": 968,
       "end": 1023,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -274,8 +275,7 @@
             "raw": "'\\u0042\\u0043\\u0044\\u0045\\u0046\\u0047\\u0048'"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -290,7 +290,6 @@
           "start": 1028,
           "end": 1041,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 1034,
@@ -301,7 +300,8 @@
               "end": 1040,
               "name": "__str"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -353,7 +353,6 @@
                       "start": 1191,
                       "end": 1204,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 1197,
@@ -364,7 +363,8 @@
                           "end": 1203,
                           "name": "__str"
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -379,6 +379,7 @@
       "type": "VariableDeclaration",
       "start": 1340,
       "end": 1395,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -398,8 +399,7 @@
             "raw": "\"\\u0042\\u0043\\u0044\\u0045\\u0046\\u0047\\u0048\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -414,7 +414,6 @@
           "start": 1400,
           "end": 1413,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 1406,
@@ -425,7 +424,8 @@
               "end": 1412,
               "name": "str__"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -477,7 +477,6 @@
                       "start": 1518,
                       "end": 1531,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 1524,
@@ -488,7 +487,8 @@
                           "end": 1530,
                           "name": "str__"
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }

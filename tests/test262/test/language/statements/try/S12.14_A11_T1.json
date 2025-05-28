@@ -20,6 +20,7 @@
               "type": "VariableDeclaration",
               "start": 343,
               "end": 350,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -39,8 +40,7 @@
                     "raw": "0"
                   }
                 }
-              ],
-              "kind": "var"
+              ]
             },
             "test": {
               "type": "BinaryExpression",

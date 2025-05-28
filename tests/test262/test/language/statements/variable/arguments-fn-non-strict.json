@@ -13,7 +13,6 @@
         "end": 309,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -26,6 +25,7 @@
             "type": "VariableDeclaration",
             "start": 316,
             "end": 330,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -39,11 +39,11 @@
                 },
                 "init": null
               }
-            ],
-            "kind": "var"
+            ]
           }
         ]
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

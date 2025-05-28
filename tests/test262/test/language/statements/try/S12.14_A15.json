@@ -13,7 +13,6 @@
         "end": 352,
         "name": "SwitchTest1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -33,6 +32,7 @@
             "type": "VariableDeclaration",
             "start": 363,
             "end": 378,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -52,8 +52,7 @@
                   "raw": "0"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "TryStatement",
@@ -79,6 +78,13 @@
                       "type": "SwitchCase",
                       "start": 414,
                       "end": 479,
+                      "test": {
+                        "type": "Literal",
+                        "start": 419,
+                        "end": 420,
+                        "value": 1,
+                        "raw": "1"
+                      },
                       "consequent": [
                         {
                           "type": "ExpressionStatement",
@@ -121,19 +127,13 @@
                           "end": 479,
                           "label": null
                         }
-                      ],
-                      "test": {
-                        "type": "Literal",
-                        "start": 419,
-                        "end": 420,
-                        "value": 1,
-                        "raw": "1"
-                      }
+                      ]
                     },
                     {
                       "type": "SwitchCase",
                       "start": 486,
                       "end": 531,
+                      "test": null,
                       "consequent": [
                         {
                           "type": "ExpressionStatement",
@@ -165,13 +165,19 @@
                           "end": 531,
                           "label": null
                         }
-                      ],
-                      "test": null
+                      ]
                     },
                     {
                       "type": "SwitchCase",
                       "start": 538,
                       "end": 587,
+                      "test": {
+                        "type": "Literal",
+                        "start": 543,
+                        "end": 544,
+                        "value": 4,
+                        "raw": "4"
+                      },
                       "consequent": [
                         {
                           "type": "ExpressionStatement",
@@ -209,14 +215,7 @@
                             "raw": "\"ex\""
                           }
                         }
-                      ],
-                      "test": {
-                        "type": "Literal",
-                        "start": 543,
-                        "end": 544,
-                        "value": 4,
-                        "raw": "4"
-                      }
+                      ]
                     }
                   ]
                 },
@@ -465,7 +464,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -655,6 +655,7 @@
       "type": "VariableDeclaration",
       "start": 1146,
       "end": 1155,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -674,8 +675,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -687,7 +687,6 @@
         "end": 1176,
         "name": "SwitchTest2"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -707,6 +706,7 @@
             "type": "VariableDeclaration",
             "start": 1187,
             "end": 1202,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -726,8 +726,7 @@
                   "raw": "0"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "SwitchStatement",
@@ -744,6 +743,13 @@
                 "type": "SwitchCase",
                 "start": 1225,
                 "end": 1326,
+                "test": {
+                  "type": "Literal",
+                  "start": 1230,
+                  "end": 1231,
+                  "value": 0,
+                  "raw": "0"
+                },
                 "consequent": [
                   {
                     "type": "TryStatement",
@@ -819,19 +825,19 @@
                       ]
                     }
                   }
-                ],
-                "test": {
-                  "type": "Literal",
-                  "start": 1230,
-                  "end": 1231,
-                  "value": 0,
-                  "raw": "0"
-                }
+                ]
               },
               {
                 "type": "SwitchCase",
                 "start": 1331,
                 "end": 1370,
+                "test": {
+                  "type": "Literal",
+                  "start": 1336,
+                  "end": 1337,
+                  "value": 1,
+                  "raw": "1"
+                },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
@@ -863,19 +869,13 @@
                     "end": 1370,
                     "label": null
                   }
-                ],
-                "test": {
-                  "type": "Literal",
-                  "start": 1336,
-                  "end": 1337,
-                  "value": 1,
-                  "raw": "1"
-                }
+                ]
               },
               {
                 "type": "SwitchCase",
                 "start": 1375,
                 "end": 1416,
+                "test": null,
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
@@ -907,8 +907,7 @@
                     "end": 1416,
                     "label": null
                   }
-                ],
-                "test": null
+                ]
               }
             ]
           },
@@ -924,7 +923,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -1220,7 +1220,6 @@
         "end": 1861,
         "name": "SwitchTest3"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -1240,6 +1239,7 @@
             "type": "VariableDeclaration",
             "start": 1872,
             "end": 1887,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1259,8 +1259,7 @@
                   "raw": "0"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "SwitchStatement",
@@ -1277,6 +1276,13 @@
                 "type": "SwitchCase",
                 "start": 1910,
                 "end": 2017,
+                "test": {
+                  "type": "Literal",
+                  "start": 1915,
+                  "end": 1916,
+                  "value": 0,
+                  "raw": "0"
+                },
                 "consequent": [
                   {
                     "type": "TryStatement",
@@ -1340,19 +1346,13 @@
                       ]
                     }
                   }
-                ],
-                "test": {
-                  "type": "Literal",
-                  "start": 1915,
-                  "end": 1916,
-                  "value": 0,
-                  "raw": "0"
-                }
+                ]
               },
               {
                 "type": "SwitchCase",
                 "start": 2022,
                 "end": 2063,
+                "test": null,
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
@@ -1384,8 +1384,7 @@
                     "end": 2063,
                     "label": null
                   }
-                ],
-                "test": null
+                ]
               }
             ]
           },
@@ -1401,7 +1400,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "TryStatement",
@@ -1416,6 +1416,7 @@
             "type": "VariableDeclaration",
             "start": 2094,
             "end": 2116,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1449,8 +1450,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "IfStatement",

@@ -19,11 +19,19 @@
           "type": "SwitchCase",
           "start": 590,
           "end": 604,
+          "test": {
+            "type": "Literal",
+            "start": 595,
+            "end": 596,
+            "value": 1,
+            "raw": "1"
+          },
           "consequent": [
             {
               "type": "VariableDeclaration",
               "start": 598,
               "end": 604,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -37,27 +45,21 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "var"
+              ]
             }
-          ],
-          "test": {
-            "type": "Literal",
-            "start": 595,
-            "end": 596,
-            "value": 1,
-            "raw": "1"
-          }
+          ]
         },
         {
           "type": "SwitchCase",
           "start": 605,
           "end": 619,
+          "test": null,
           "consequent": [
             {
               "type": "VariableDeclaration",
               "start": 614,
               "end": 619,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -71,11 +73,9 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "var"
+              ]
             }
-          ],
-          "test": null
+          ]
         }
       ]
     }

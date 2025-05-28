@@ -55,8 +55,8 @@
                       "end": 461,
                       "name": "pow"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -103,8 +103,8 @@
                     "end": 478,
                     "name": "pow"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -216,8 +216,8 @@
                                   "end": 637,
                                   "name": "pow"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [
                                 {
@@ -264,8 +264,8 @@
                                 "end": 654,
                                 "name": "pow"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -357,8 +357,8 @@
                           "end": 698,
                           "name": "pow"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -415,8 +415,8 @@
                     "end": 718,
                     "name": "pow"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -536,8 +536,8 @@
                                       "end": 886,
                                       "name": "pow"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "arguments": [
                                     {
@@ -594,8 +594,8 @@
                                 "end": 906,
                                 "name": "pow"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -652,14 +652,14 @@
                 "start": 938,
                 "end": 940,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 939,
                   "end": 940,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               },
               "operator": "*",
               "right": {
@@ -686,8 +686,8 @@
                       "end": 950,
                       "name": "pow"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -734,8 +734,8 @@
                     "end": 967,
                     "name": "pow"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -764,14 +764,14 @@
           "start": 981,
           "end": 1003,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 982,
             "end": 1003,
             "value": 8.98846567431158e+307,
             "raw": "8.98846567431158e+307"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -827,14 +827,14 @@
                             "start": 1118,
                             "end": 1120,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 1119,
                               "end": 1120,
                               "value": 1,
                               "raw": "1"
-                            }
+                            },
+                            "prefix": true
                           },
                           "operator": "*",
                           "right": {
@@ -861,8 +861,8 @@
                                   "end": 1130,
                                   "name": "pow"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [
                                 {
@@ -909,8 +909,8 @@
                                 "end": 1147,
                                 "name": "pow"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {

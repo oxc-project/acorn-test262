@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 310,
       "end": 375,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -44,8 +45,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -167,13 +167,13 @@
           "start": 903,
           "end": 932,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 910,
             "end": 932,
             "name": "__in__do__after__break"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -221,13 +221,13 @@
                     "start": 1073,
                     "end": 1102,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 1080,
                       "end": 1102,
                       "name": "__in__do__after__break"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]

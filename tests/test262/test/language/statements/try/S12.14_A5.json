@@ -219,7 +219,6 @@
         "end": 755,
         "name": "SwitchTest1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -239,6 +238,7 @@
             "type": "VariableDeclaration",
             "start": 766,
             "end": 781,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -258,8 +258,7 @@
                   "raw": "0"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "TryStatement",
@@ -285,6 +284,13 @@
                       "type": "SwitchCase",
                       "start": 817,
                       "end": 882,
+                      "test": {
+                        "type": "Literal",
+                        "start": 822,
+                        "end": 823,
+                        "value": 1,
+                        "raw": "1"
+                      },
                       "consequent": [
                         {
                           "type": "ExpressionStatement",
@@ -327,19 +333,19 @@
                           "end": 882,
                           "label": null
                         }
-                      ],
-                      "test": {
-                        "type": "Literal",
-                        "start": 822,
-                        "end": 823,
-                        "value": 1,
-                        "raw": "1"
-                      }
+                      ]
                     },
                     {
                       "type": "SwitchCase",
                       "start": 889,
                       "end": 938,
+                      "test": {
+                        "type": "Literal",
+                        "start": 894,
+                        "end": 895,
+                        "value": 4,
+                        "raw": "4"
+                      },
                       "consequent": [
                         {
                           "type": "ExpressionStatement",
@@ -377,14 +383,7 @@
                             "raw": "\"ex\""
                           }
                         }
-                      ],
-                      "test": {
-                        "type": "Literal",
-                        "start": 894,
-                        "end": 895,
-                        "value": 4,
-                        "raw": "4"
-                      }
+                      ]
                     }
                   ]
                 },
@@ -633,7 +632,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",

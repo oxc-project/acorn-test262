@@ -27,8 +27,8 @@
             "end": 1139,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 1151,
             "end": 1214,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -99,9 +98,7 @@
                               "type": "Property",
                               "start": 1204,
                               "end": 1205,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1204,
@@ -114,7 +111,9 @@
                                 "end": 1205,
                                 "name": "x"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -130,7 +129,8 @@
                   "finalizer": null
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

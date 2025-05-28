@@ -13,7 +13,6 @@
         "end": 267,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -39,7 +38,6 @@
               "end": 293,
               "name": "innerf"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -59,6 +57,7 @@
                   "type": "VariableDeclaration",
                   "start": 305,
                   "end": 316,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -78,8 +77,7 @@
                         "raw": "42"
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "WithStatement",
@@ -111,7 +109,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "ReturnStatement",
@@ -139,7 +138,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -165,8 +165,8 @@
             "end": 411,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

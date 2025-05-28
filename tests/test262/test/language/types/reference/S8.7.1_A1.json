@@ -27,8 +27,8 @@
             "end": 328,
             "name": "y"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -56,7 +56,6 @@
             "start": 427,
             "end": 440,
             "operator": "delete",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 434,
@@ -72,9 +71,10 @@
                 "end": 440,
                 "name": "y"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           }
         },
         "operator": "!==",
@@ -131,7 +131,6 @@
                         "start": 535,
                         "end": 548,
                         "operator": "delete",
-                        "prefix": true,
                         "argument": {
                           "type": "MemberExpression",
                           "start": 542,
@@ -147,9 +146,10 @@
                             "end": 548,
                             "name": "y"
                           },
-                          "computed": false,
-                          "optional": false
-                        }
+                          "optional": false,
+                          "computed": false
+                        },
+                        "prefix": true
                       }
                     }
                   }
@@ -189,8 +189,8 @@
             "end": 739,
             "name": "y"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -251,8 +251,8 @@
                         "end": 865,
                         "name": "y"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 }

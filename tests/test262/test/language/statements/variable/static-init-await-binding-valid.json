@@ -36,9 +36,7 @@
                     "type": "ArrowFunctionExpression",
                     "start": 516,
                     "end": 536,
-                    "id": null,
                     "expression": false,
-                    "generator": false,
                     "async": false,
                     "params": [],
                     "body": {
@@ -50,6 +48,7 @@
                           "type": "VariableDeclaration",
                           "start": 524,
                           "end": 534,
+                          "kind": "var",
                           "declarations": [
                             {
                               "type": "VariableDeclarator",
@@ -63,11 +62,12 @@
                               },
                               "init": null
                             }
-                          ],
-                          "kind": "var"
+                          ]
                         }
                       ]
-                    }
+                    },
+                    "id": null,
+                    "generator": false
                   }
                 }
               }

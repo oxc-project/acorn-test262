@@ -18,7 +18,6 @@
             "end": 281,
             "name": "f"
           },
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -52,7 +51,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         },
         {
           "type": "ExpressionStatement",
@@ -78,8 +78,8 @@
                 "end": 311,
                 "name": "throws"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -93,7 +93,6 @@
                 "start": 328,
                 "end": 353,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -121,7 +120,8 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             ],
             "optional": false
@@ -131,6 +131,7 @@
           "type": "VariableDeclaration",
           "start": 359,
           "end": 365,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -144,8 +145,7 @@
               },
               "init": null
             }
-          ],
-          "kind": "let"
+          ]
         }
       ]
     }
