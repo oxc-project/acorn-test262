@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 718,
       "end": 799,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -43,8 +44,8 @@
                     "end": 764,
                     "name": "PlainTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -65,9 +66,7 @@
                     "type": "Property",
                     "start": 774,
                     "end": 782,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 774,
@@ -81,7 +80,9 @@
                       "value": 12,
                       "raw": "12"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               },
@@ -95,13 +96,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 801,
       "end": 897,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -163,8 +164,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -175,6 +175,7 @@
         "type": "VariableDeclaration",
         "start": 903,
         "end": 914,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -188,8 +189,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -211,6 +211,7 @@
               "type": "VariableDeclaration",
               "start": 940,
               "end": 954,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -224,8 +225,7 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "const"
+              ]
             },
             "right": {
               "type": "Identifier",
@@ -262,8 +262,8 @@
                         "end": 991,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -276,9 +276,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 1017,
                         "end": 1067,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -305,8 +303,8 @@
                                 "end": 1041,
                                 "name": "PlainTime"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -314,8 +312,8 @@
                               "end": 1046,
                               "name": "from"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -333,9 +331,7 @@
                                   "type": "Property",
                                   "start": 1056,
                                   "end": 1064,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 1056,
@@ -348,26 +344,22 @@
                                     "end": 1064,
                                     "name": "overflow"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 }
                               ]
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 1075,
                         "end": 1109,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1097,
-                            "end": 1105,
-                            "name": "overflow"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -388,6 +380,14 @@
                               "cooked": "\")"
                             },
                             "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1097,
+                            "end": 1105,
+                            "name": "overflow"
                           }
                         ]
                       }

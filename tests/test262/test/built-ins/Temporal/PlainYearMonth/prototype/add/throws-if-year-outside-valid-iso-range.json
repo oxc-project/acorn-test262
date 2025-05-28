@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 675,
       "end": 736,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 723,
                 "name": "PlainYearMonth"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -47,14 +48,14 @@
                 "start": 724,
                 "end": 731,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 725,
                   "end": 731,
                   "value": 271821,
                   "raw": "271821"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -66,13 +67,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 737,
       "end": 775,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -104,14 +105,13 @@
                 "end": 772,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -137,8 +137,8 @@
             "end": 790,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -151,9 +151,7 @@
             "type": "ArrowFunctionExpression",
             "start": 803,
             "end": 832,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -176,8 +174,8 @@
                   "end": 825,
                   "name": "add"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -188,7 +186,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

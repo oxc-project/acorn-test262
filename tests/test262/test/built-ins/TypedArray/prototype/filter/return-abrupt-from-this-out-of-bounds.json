@@ -27,8 +27,8 @@
             "end": 357,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 361,
             "end": 395,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 368,
@@ -57,8 +56,8 @@
                   "end": 388,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -66,9 +65,10 @@
                 "end": 395,
                 "name": "filter"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -112,8 +112,8 @@
             "end": 474,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -121,7 +121,6 @@
             "start": 478,
             "end": 513,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 485,
@@ -142,8 +141,8 @@
                   "end": 506,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -151,9 +150,10 @@
                 "end": 513,
                 "name": "resize"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -192,9 +192,7 @@
             "type": "ArrowFunctionExpression",
             "start": 608,
             "end": 1643,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -213,6 +211,7 @@
                   "type": "VariableDeclaration",
                   "start": 618,
                   "end": 649,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -240,17 +239,17 @@
                           "end": 648,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 652,
                   "end": 712,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -301,9 +300,7 @@
                                 "type": "Property",
                                 "start": 687,
                                 "end": 709,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 687,
@@ -329,20 +326,22 @@
                                     "raw": "5"
                                   }
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               }
                             ]
                           }
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 715,
                   "end": 746,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -387,8 +386,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "TryStatement",
@@ -423,8 +421,8 @@
                               "end": 769,
                               "name": "resize"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -495,17 +493,15 @@
                         "end": 842,
                         "name": "filter"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
                         "type": "ArrowFunctionExpression",
                         "start": 843,
                         "end": 851,
-                        "id": null,
                         "expression": false,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -513,7 +509,9 @@
                           "start": 849,
                           "end": 851,
                           "body": []
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       }
                     ],
                     "optional": false
@@ -552,8 +550,8 @@
                               "end": 876,
                               "name": "resize"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -624,17 +622,15 @@
                         "end": 967,
                         "name": "filter"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
                         "type": "ArrowFunctionExpression",
                         "start": 968,
                         "end": 976,
-                        "id": null,
                         "expression": false,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -642,7 +638,9 @@
                           "start": 974,
                           "end": 976,
                           "body": []
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       }
                     ],
                     "optional": false
@@ -652,6 +650,7 @@
                   "type": "VariableDeclaration",
                   "start": 982,
                   "end": 1000,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -665,8 +664,7 @@
                       },
                       "init": null
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "TryStatement",
@@ -701,8 +699,8 @@
                               "end": 1022,
                               "name": "resize"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -833,8 +831,8 @@
                         "end": 1523,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -847,9 +845,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 1539,
                         "end": 1639,
-                        "id": null,
                         "expression": false,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -881,17 +877,15 @@
                                     "end": 1563,
                                     "name": "filter"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
                                     "type": "ArrowFunctionExpression",
                                     "start": 1564,
                                     "end": 1572,
-                                    "id": null,
                                     "expression": false,
-                                    "generator": false,
                                     "async": false,
                                     "params": [],
                                     "body": {
@@ -899,7 +893,9 @@
                                       "start": 1570,
                                       "end": 1572,
                                       "body": []
-                                    }
+                                    },
+                                    "id": null,
+                                    "generator": false
                                   }
                                 ],
                                 "optional": false
@@ -931,14 +927,18 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

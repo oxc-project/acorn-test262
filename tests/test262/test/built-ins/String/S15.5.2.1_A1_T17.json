@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 584,
       "end": 615,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,8 +40,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -55,13 +55,13 @@
           "start": 709,
           "end": 721,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 716,
             "end": 721,
             "name": "__str"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -109,13 +109,13 @@
                     "start": 851,
                     "end": 863,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 858,
                       "end": 863,
                       "name": "__str"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]
@@ -149,8 +149,8 @@
             "end": 1063,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -208,8 +208,8 @@
                       "end": 1218,
                       "name": "constructor"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -338,13 +338,13 @@
           "start": 1735,
           "end": 1747,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 1742,
             "end": 1747,
             "name": "__str"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -392,13 +392,13 @@
                     "start": 1882,
                     "end": 1894,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 1889,
                       "end": 1894,
                       "name": "__str"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]
@@ -432,8 +432,8 @@
             "end": 2094,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -491,8 +491,8 @@
                       "end": 2254,
                       "name": "constructor"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -621,13 +621,13 @@
           "start": 2802,
           "end": 2814,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 2809,
             "end": 2814,
             "name": "__str"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -675,13 +675,13 @@
                     "start": 2967,
                     "end": 2979,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 2974,
                       "end": 2979,
                       "name": "__str"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]
@@ -715,8 +715,8 @@
             "end": 3179,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -774,8 +774,8 @@
                       "end": 3357,
                       "name": "constructor"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]

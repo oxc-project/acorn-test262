@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 299,
       "end": 341,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 336,
                 "name": "Instant"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -53,13 +54,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 343,
       "end": 419,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -91,8 +92,8 @@
                 "end": 373,
                 "name": "since"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -115,8 +116,8 @@
                     "end": 394,
                     "name": "Instant"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -139,8 +140,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -166,8 +166,8 @@
             "end": 450,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -223,14 +223,14 @@
             "start": 481,
             "end": 486,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 482,
               "end": 486,
               "value": 3600,
               "raw": "3600"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -268,6 +268,7 @@
       "type": "VariableDeclaration",
       "start": 542,
       "end": 624,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -299,8 +300,8 @@
                 "end": 572,
                 "name": "since"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -323,8 +324,8 @@
                     "end": 593,
                     "name": "Instant"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -341,9 +342,7 @@
                 "type": "ArrowFunctionExpression",
                 "start": 614,
                 "end": 622,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
@@ -351,14 +350,15 @@
                   "start": 620,
                   "end": 622,
                   "body": []
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ],
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -384,8 +384,8 @@
             "end": 655,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -441,14 +441,14 @@
             "start": 686,
             "end": 691,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 687,
               "end": 691,
               "value": 3600,
               "raw": "3600"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

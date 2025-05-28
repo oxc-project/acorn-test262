@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 301,
       "end": 353,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 340,
                 "name": "PlainDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -66,13 +67,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 355,
       "end": 428,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -104,8 +105,8 @@
                 "end": 385,
                 "name": "since"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -128,8 +129,8 @@
                     "end": 408,
                     "name": "PlainDate"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -165,8 +166,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -192,8 +192,8 @@
             "end": 459,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -287,6 +287,7 @@
       "type": "VariableDeclaration",
       "start": 550,
       "end": 629,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -318,8 +319,8 @@
                 "end": 580,
                 "name": "since"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -342,8 +343,8 @@
                     "end": 603,
                     "name": "PlainDate"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -373,9 +374,7 @@
                 "type": "ArrowFunctionExpression",
                 "start": 619,
                 "end": 627,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
@@ -383,14 +382,15 @@
                   "start": 625,
                   "end": 627,
                   "body": []
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ],
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -416,8 +416,8 @@
             "end": 660,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

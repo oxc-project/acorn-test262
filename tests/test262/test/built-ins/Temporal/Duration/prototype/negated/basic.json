@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 668,
       "end": 701,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,14 +39,13 @@
                 "end": 698,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -71,8 +71,8 @@
             "end": 732,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -95,8 +95,8 @@
                 "end": 746,
                 "name": "negated"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -186,6 +186,7 @@
       "type": "VariableDeclaration",
       "start": 793,
       "end": 855,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -217,8 +218,8 @@
                 "end": 823,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -294,8 +295,7 @@
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -321,8 +321,8 @@
             "end": 886,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -345,8 +345,8 @@
                 "end": 900,
                 "name": "negated"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -356,140 +356,140 @@
             "start": 904,
             "end": 906,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 905,
               "end": 906,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 908,
             "end": 910,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 909,
               "end": 910,
               "value": 2,
               "raw": "2"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 912,
             "end": 914,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 913,
               "end": 914,
               "value": 3,
               "raw": "3"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 916,
             "end": 918,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 917,
               "end": 918,
               "value": 4,
               "raw": "4"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 920,
             "end": 922,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 921,
               "end": 922,
               "value": 5,
               "raw": "5"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 924,
             "end": 926,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 925,
               "end": 926,
               "value": 6,
               "raw": "6"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 928,
             "end": 930,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 929,
               "end": 930,
               "value": 7,
               "raw": "7"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 932,
             "end": 934,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 933,
               "end": 934,
               "value": 8,
               "raw": "8"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 936,
             "end": 938,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 937,
               "end": 938,
               "value": 9,
               "raw": "9"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 940,
             "end": 943,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 941,
               "end": 943,
               "value": 10,
               "raw": "10"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -506,6 +506,7 @@
       "type": "VariableDeclaration",
       "start": 968,
       "end": 1050,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -537,8 +538,8 @@
                 "end": 998,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -614,8 +615,7 @@
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -641,8 +641,8 @@
             "end": 1081,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -665,8 +665,8 @@
                 "end": 1095,
                 "name": "negated"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -676,140 +676,140 @@
             "start": 1099,
             "end": 1103,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1100,
               "end": 1103,
               "value": 100000,
               "raw": "1e5"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 1105,
             "end": 1109,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1106,
               "end": 1109,
               "value": 200000,
               "raw": "2e5"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 1111,
             "end": 1115,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1112,
               "end": 1115,
               "value": 300000,
               "raw": "3e5"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 1117,
             "end": 1121,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1118,
               "end": 1121,
               "value": 400000,
               "raw": "4e5"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 1123,
             "end": 1127,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1124,
               "end": 1127,
               "value": 500000,
               "raw": "5e5"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 1129,
             "end": 1133,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1130,
               "end": 1133,
               "value": 600000,
               "raw": "6e5"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 1135,
             "end": 1139,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1136,
               "end": 1139,
               "value": 700000,
               "raw": "7e5"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 1141,
             "end": 1145,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1142,
               "end": 1145,
               "value": 800000,
               "raw": "8e5"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 1147,
             "end": 1151,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1148,
               "end": 1151,
               "value": 900000,
               "raw": "9e5"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 1153,
             "end": 1158,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1154,
               "end": 1158,
               "value": 1000000,
               "raw": "10e5"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -826,6 +826,7 @@
       "type": "VariableDeclaration",
       "start": 1189,
       "end": 1261,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -857,8 +858,8 @@
                 "end": 1219,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -866,146 +867,145 @@
                 "start": 1220,
                 "end": 1222,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1221,
                   "end": 1222,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1224,
                 "end": 1226,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1225,
                   "end": 1226,
                   "value": 2,
                   "raw": "2"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1228,
                 "end": 1230,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1229,
                   "end": 1230,
                   "value": 3,
                   "raw": "3"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1232,
                 "end": 1234,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1233,
                   "end": 1234,
                   "value": 4,
                   "raw": "4"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1236,
                 "end": 1238,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1237,
                   "end": 1238,
                   "value": 5,
                   "raw": "5"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1240,
                 "end": 1242,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1241,
                   "end": 1242,
                   "value": 6,
                   "raw": "6"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1244,
                 "end": 1246,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1245,
                   "end": 1246,
                   "value": 7,
                   "raw": "7"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1248,
                 "end": 1250,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1249,
                   "end": 1250,
                   "value": 8,
                   "raw": "8"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1252,
                 "end": 1254,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1253,
                   "end": 1254,
                   "value": 9,
                   "raw": "9"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1256,
                 "end": 1259,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1257,
                   "end": 1259,
                   "value": 10,
                   "raw": "10"
-                }
+                },
+                "prefix": true
               }
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1031,8 +1031,8 @@
             "end": 1292,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1055,8 +1055,8 @@
                 "end": 1306,
                 "name": "negated"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1146,6 +1146,7 @@
       "type": "VariableDeclaration",
       "start": 1364,
       "end": 1456,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1177,8 +1178,8 @@
                 "end": 1394,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1186,146 +1187,145 @@
                 "start": 1395,
                 "end": 1399,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1396,
                   "end": 1399,
                   "value": 100000,
                   "raw": "1e5"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1401,
                 "end": 1405,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1402,
                   "end": 1405,
                   "value": 200000,
                   "raw": "2e5"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1407,
                 "end": 1411,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1408,
                   "end": 1411,
                   "value": 300000,
                   "raw": "3e5"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1413,
                 "end": 1417,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1414,
                   "end": 1417,
                   "value": 400000,
                   "raw": "4e5"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1419,
                 "end": 1423,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1420,
                   "end": 1423,
                   "value": 500000,
                   "raw": "5e5"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1425,
                 "end": 1429,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1426,
                   "end": 1429,
                   "value": 600000,
                   "raw": "6e5"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1431,
                 "end": 1435,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1432,
                   "end": 1435,
                   "value": 700000,
                   "raw": "7e5"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1437,
                 "end": 1441,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1438,
                   "end": 1441,
                   "value": 800000,
                   "raw": "8e5"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1443,
                 "end": 1447,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1444,
                   "end": 1447,
                   "value": 900000,
                   "raw": "9e5"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1449,
                 "end": 1454,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1450,
                   "end": 1454,
                   "value": 1000000,
                   "raw": "10e5"
-                }
+                },
+                "prefix": true
               }
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1351,8 +1351,8 @@
             "end": 1487,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1375,8 +1375,8 @@
                 "end": 1501,
                 "name": "negated"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1466,6 +1466,7 @@
       "type": "VariableDeclaration",
       "start": 1585,
       "end": 1646,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1497,8 +1498,8 @@
                 "end": 1615,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1574,8 +1575,7 @@
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1601,8 +1601,8 @@
             "end": 1677,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1625,8 +1625,8 @@
                 "end": 1691,
                 "name": "negated"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1636,14 +1636,14 @@
             "start": 1695,
             "end": 1697,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1696,
               "end": 1697,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1657,14 +1657,14 @@
             "start": 1702,
             "end": 1704,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1703,
               "end": 1704,
               "value": 3,
               "raw": "3"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1678,14 +1678,14 @@
             "start": 1709,
             "end": 1711,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1710,
               "end": 1711,
               "value": 5,
               "raw": "5"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1699,14 +1699,14 @@
             "start": 1716,
             "end": 1718,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1717,
               "end": 1718,
               "value": 7,
               "raw": "7"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1720,14 +1720,14 @@
             "start": 1723,
             "end": 1725,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1724,
               "end": 1725,
               "value": 9,
               "raw": "9"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1751,6 +1751,7 @@
       "type": "VariableDeclaration",
       "start": 1769,
       "end": 1835,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1782,8 +1783,8 @@
                 "end": 1799,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1791,14 +1792,14 @@
                 "start": 1800,
                 "end": 1802,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1801,
                   "end": 1802,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -1812,14 +1813,14 @@
                 "start": 1807,
                 "end": 1809,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1808,
                   "end": 1809,
                   "value": 3,
                   "raw": "3"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -1833,14 +1834,14 @@
                 "start": 1814,
                 "end": 1816,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1815,
                   "end": 1816,
                   "value": 5,
                   "raw": "5"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -1854,14 +1855,14 @@
                 "start": 1821,
                 "end": 1823,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1822,
                   "end": 1823,
                   "value": 7,
                   "raw": "7"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -1875,14 +1876,14 @@
                 "start": 1828,
                 "end": 1830,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1829,
                   "end": 1830,
                   "value": 9,
                   "raw": "9"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -1894,8 +1895,7 @@
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1921,8 +1921,8 @@
             "end": 1866,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1945,8 +1945,8 @@
                 "end": 1880,
                 "name": "negated"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -2036,6 +2036,7 @@
       "type": "VariableDeclaration",
       "start": 1953,
       "end": 2020,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2067,8 +2068,8 @@
                 "end": 1983,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2083,14 +2084,14 @@
                 "start": 1987,
                 "end": 1989,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1988,
                   "end": 1989,
                   "value": 2,
                   "raw": "2"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -2104,14 +2105,14 @@
                 "start": 1994,
                 "end": 1996,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1995,
                   "end": 1996,
                   "value": 4,
                   "raw": "4"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -2125,14 +2126,14 @@
                 "start": 2001,
                 "end": 2003,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 2002,
                   "end": 2003,
                   "value": 6,
                   "raw": "6"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -2146,14 +2147,14 @@
                 "start": 2008,
                 "end": 2010,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 2009,
                   "end": 2010,
                   "value": 8,
                   "raw": "8"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -2167,20 +2168,19 @@
                 "start": 2015,
                 "end": 2018,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 2016,
                   "end": 2018,
                   "value": 10,
                   "raw": "10"
-                }
+                },
+                "prefix": true
               }
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -2206,8 +2206,8 @@
             "end": 2051,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2230,8 +2230,8 @@
                 "end": 2065,
                 "name": "negated"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

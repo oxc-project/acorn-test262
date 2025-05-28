@@ -27,8 +27,8 @@
             "end": 273,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -55,8 +55,8 @@
                   "end": 293,
                   "name": "Instant"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -64,8 +64,8 @@
                 "end": 301,
                 "name": "compare"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -88,8 +88,8 @@
                     "end": 322,
                     "name": "Instant"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -122,8 +122,8 @@
                     "end": 372,
                     "name": "Instant"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -181,8 +181,8 @@
             "end": 431,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -209,8 +209,8 @@
                   "end": 451,
                   "name": "Instant"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -218,8 +218,8 @@
                 "end": 459,
                 "name": "compare"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -242,8 +242,8 @@
                     "end": 480,
                     "name": "Instant"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -251,7 +251,6 @@
                     "start": 481,
                     "end": 487,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 482,
@@ -259,7 +258,8 @@
                       "value": null,
                       "raw": "1000n",
                       "bigint": "1000"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               },
@@ -283,8 +283,8 @@
                     "end": 510,
                     "name": "Instant"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -305,14 +305,14 @@
             "start": 522,
             "end": 524,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 523,
               "end": 524,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -349,8 +349,8 @@
             "end": 551,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -377,8 +377,8 @@
                   "end": 571,
                   "name": "Instant"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -386,8 +386,8 @@
                 "end": 579,
                 "name": "compare"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -410,8 +410,8 @@
                     "end": 600,
                     "name": "Instant"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -444,8 +444,8 @@
                     "end": 636,
                     "name": "Instant"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {

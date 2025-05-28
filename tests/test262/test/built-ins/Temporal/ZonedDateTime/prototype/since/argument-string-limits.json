@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 276,
       "end": 299,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "\"UTC\""
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 300,
       "end": 358,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -64,8 +65,8 @@
                 "end": 343,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -85,13 +86,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 360,
       "end": 525,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -139,8 +140,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -151,6 +151,7 @@
         "type": "VariableDeclaration",
         "start": 532,
         "end": 541,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -164,8 +165,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -202,8 +202,8 @@
                   "end": 577,
                   "name": "since"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -223,6 +223,7 @@
       "type": "VariableDeclaration",
       "start": 587,
       "end": 939,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -298,8 +299,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -310,6 +310,7 @@
         "type": "VariableDeclaration",
         "start": 946,
         "end": 955,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -323,8 +324,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -361,8 +361,8 @@
                   "end": 992,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -375,9 +375,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1014,
                   "end": 1039,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -400,8 +398,8 @@
                         "end": 1034,
                         "name": "since"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -412,20 +410,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1045,
                   "end": 1107,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1049,
-                      "end": 1052,
-                      "name": "arg"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -446,6 +438,14 @@
                         "cooked": "\" is outside the representable range of ZonedDateTime"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1049,
+                      "end": 1052,
+                      "name": "arg"
                     }
                   ]
                 }

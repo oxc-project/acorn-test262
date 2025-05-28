@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 455,
       "end": 738,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,9 +39,7 @@
                     "type": "Property",
                     "start": 492,
                     "end": 510,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 492,
@@ -53,15 +52,15 @@
                       "end": 510,
                       "elements": []
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 514,
                     "end": 734,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 514,
@@ -243,7 +242,9 @@
                         }
                       ]
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -251,8 +252,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -430,6 +430,7 @@
       "type": "VariableDeclaration",
       "start": 1092,
       "end": 1422,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -461,9 +462,7 @@
                     "type": "Property",
                     "start": 1132,
                     "end": 1194,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1132,
@@ -498,15 +497,15 @@
                         }
                       ]
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1198,
                     "end": 1418,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1198,
@@ -688,7 +687,9 @@
                         }
                       ]
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -696,8 +697,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",

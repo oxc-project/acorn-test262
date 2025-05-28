@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 322,
       "end": 374,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 361,
                 "name": "PlainDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -66,13 +67,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 376,
       "end": 429,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -104,8 +105,8 @@
                 "end": 408,
                 "name": "add"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -119,8 +120,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -146,8 +146,8 @@
             "end": 461,
             "name": "assertPlainDate"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -199,6 +199,7 @@
       "type": "VariableDeclaration",
       "start": 525,
       "end": 582,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -230,8 +231,8 @@
                 "end": 559,
                 "name": "add"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -245,8 +246,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -272,8 +272,8 @@
             "end": 614,
             "name": "assertPlainDate"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

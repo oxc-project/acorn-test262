@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1231,
       "end": 1290,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 1273,
                 "name": "PlainDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -73,13 +74,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1291,
       "end": 1344,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -111,8 +112,8 @@
                 "end": 1331,
                 "name": "PlainDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -139,13 +140,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1345,
       "end": 1428,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -177,8 +178,8 @@
                 "end": 1371,
                 "name": "since"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -196,9 +197,7 @@
                     "type": "Property",
                     "start": 1383,
                     "end": 1402,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1383,
@@ -212,15 +211,15 @@
                       "value": "day",
                       "raw": "\"day\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1404,
                     "end": 1424,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1404,
@@ -234,7 +233,9 @@
                       "value": 2,
                       "raw": "2"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -242,8 +243,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -269,8 +269,8 @@
             "end": 1459,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

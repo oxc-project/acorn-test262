@@ -27,8 +27,8 @@
             "end": 536,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 550,
             "end": 606,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -84,7 +83,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -114,8 +114,8 @@
             "end": 623,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -129,7 +129,6 @@
             "start": 637,
             "end": 700,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -171,7 +170,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -201,8 +201,8 @@
             "end": 717,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -216,7 +216,6 @@
             "start": 731,
             "end": 797,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -258,7 +257,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -288,8 +288,8 @@
             "end": 814,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -303,7 +303,6 @@
             "start": 828,
             "end": 884,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -345,7 +344,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -375,8 +375,8 @@
             "end": 901,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -390,7 +390,6 @@
             "start": 915,
             "end": 978,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -432,7 +431,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -462,8 +462,8 @@
             "end": 995,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -477,7 +477,6 @@
             "start": 1009,
             "end": 1076,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -519,7 +518,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -549,8 +549,8 @@
             "end": 1093,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -564,7 +564,6 @@
             "start": 1107,
             "end": 1166,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -606,7 +605,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -636,8 +636,8 @@
             "end": 1183,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -651,7 +651,6 @@
             "start": 1197,
             "end": 1263,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -693,7 +692,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -723,8 +723,8 @@
             "end": 1280,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -738,7 +738,6 @@
             "start": 1294,
             "end": 1363,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -780,7 +779,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

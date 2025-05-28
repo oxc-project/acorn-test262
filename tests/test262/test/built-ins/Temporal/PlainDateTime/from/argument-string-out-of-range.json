@@ -27,8 +27,8 @@
             "end": 291,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -41,9 +41,7 @@
             "type": "ArrowFunctionExpression",
             "start": 309,
             "end": 366,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -70,8 +68,8 @@
                     "end": 337,
                     "name": "PlainDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -79,8 +77,8 @@
                   "end": 342,
                   "name": "from"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -98,7 +96,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -135,8 +135,8 @@
             "end": 460,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -149,9 +149,7 @@
             "type": "ArrowFunctionExpression",
             "start": 478,
             "end": 541,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -178,8 +176,8 @@
                     "end": 506,
                     "name": "PlainDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -187,8 +185,8 @@
                   "end": 511,
                   "name": "from"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -202,9 +200,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 532,
                   "end": 540,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -212,11 +208,15 @@
                     "start": 538,
                     "end": 540,
                     "body": []
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -253,8 +253,8 @@
             "end": 651,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -267,9 +267,7 @@
             "type": "ArrowFunctionExpression",
             "start": 669,
             "end": 747,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -296,8 +294,8 @@
                     "end": 697,
                     "name": "PlainDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -305,8 +303,8 @@
                   "end": 702,
                   "name": "from"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -325,9 +323,7 @@
                       "type": "Property",
                       "start": 724,
                       "end": 745,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 724,
@@ -341,13 +337,17 @@
                         "value": "constrain",
                         "raw": "\"constrain\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -384,8 +384,8 @@
             "end": 827,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -398,9 +398,7 @@
             "type": "ArrowFunctionExpression",
             "start": 845,
             "end": 920,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -427,8 +425,8 @@
                     "end": 873,
                     "name": "PlainDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -436,8 +434,8 @@
                   "end": 878,
                   "name": "from"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -456,9 +454,7 @@
                       "type": "Property",
                       "start": 900,
                       "end": 918,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 900,
@@ -472,13 +468,17 @@
                         "value": "reject",
                         "raw": "\"reject\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",

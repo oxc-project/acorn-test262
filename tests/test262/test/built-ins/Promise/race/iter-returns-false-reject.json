@@ -52,8 +52,8 @@
                           "end": 627,
                           "name": "race"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -65,9 +65,7 @@
                               "type": "Property",
                               "start": 634,
                               "end": 681,
-                              "method": true,
-                              "shorthand": false,
-                              "computed": true,
+                              "kind": "init",
                               "key": {
                                 "type": "MemberExpression",
                                 "start": 635,
@@ -84,15 +82,14 @@
                                   "end": 650,
                                   "name": "iterator"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "value": {
                                 "type": "FunctionExpression",
                                 "start": 651,
                                 "end": 681,
                                 "id": null,
-                                "expression": false,
                                 "generator": false,
                                 "async": false,
                                 "params": [],
@@ -114,9 +111,12 @@
                                       }
                                     }
                                   ]
-                                }
+                                },
+                                "expression": false
                               },
-                              "kind": "init"
+                              "method": true,
+                              "shorthand": false,
+                              "computed": true
                             }
                           ]
                         }
@@ -129,8 +129,8 @@
                       "end": 691,
                       "name": "then"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -138,7 +138,6 @@
                       "start": 692,
                       "end": 771,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -174,14 +173,14 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     },
                     {
                       "type": "FunctionExpression",
                       "start": 773,
                       "end": 834,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [
@@ -235,7 +234,8 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     }
                   ],
                   "optional": false
@@ -246,8 +246,8 @@
                   "end": 840,
                   "name": "then"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -302,27 +302,6 @@
                     "type": "TemplateLiteral",
                     "start": 882,
                     "end": 956,
-                    "expressions": [
-                      {
-                        "type": "MemberExpression",
-                        "start": 941,
-                        "end": 954,
-                        "object": {
-                          "type": "Identifier",
-                          "start": 941,
-                          "end": 946,
-                          "name": "error"
-                        },
-                        "property": {
-                          "type": "Identifier",
-                          "start": 947,
-                          "end": 954,
-                          "name": "message"
-                        },
-                        "computed": false,
-                        "optional": false
-                      }
-                    ],
                     "quasis": [
                       {
                         "type": "TemplateElement",
@@ -343,6 +322,27 @@
                           "cooked": ""
                         },
                         "tail": true
+                      }
+                    ],
+                    "expressions": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 941,
+                        "end": 954,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 941,
+                          "end": 946,
+                          "name": "error"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 947,
+                          "end": 954,
+                          "name": "message"
+                        },
+                        "optional": false,
+                        "computed": false
                       }
                     ]
                   }

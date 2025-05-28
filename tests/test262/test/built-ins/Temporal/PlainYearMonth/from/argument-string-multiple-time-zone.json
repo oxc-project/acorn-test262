@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 268,
       "end": 480,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -61,8 +62,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -88,17 +88,15 @@
             "end": 504,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 505,
             "end": 656,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -137,8 +135,8 @@
                         "end": 531,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -151,9 +149,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 553,
                         "end": 592,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -180,8 +176,8 @@
                                 "end": 582,
                                 "name": "PlainYearMonth"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -189,8 +185,8 @@
                               "end": 587,
                               "name": "from"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -201,20 +197,14 @@
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 598,
                         "end": 649,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 644,
-                            "end": 647,
-                            "name": "arg"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -236,6 +226,14 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 644,
+                            "end": 647,
+                            "name": "arg"
+                          }
                         ]
                       }
                     ],
@@ -243,7 +241,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

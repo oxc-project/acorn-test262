@@ -23,7 +23,6 @@
             "start": 1039,
             "end": 1793,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -43,6 +42,7 @@
                   "type": "VariableDeclaration",
                   "start": 1056,
                   "end": 1078,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -67,8 +67,7 @@
                         "arguments": []
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -94,8 +93,8 @@
                         "end": 1095,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -109,7 +108,6 @@
                         "start": 1107,
                         "end": 1144,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -142,8 +140,8 @@
                                     "end": 1135,
                                     "name": "find"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -157,7 +155,8 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       },
                       {
                         "type": "Literal",
@@ -194,8 +193,8 @@
                         "end": 1173,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -209,7 +208,6 @@
                         "start": 1185,
                         "end": 1224,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -242,8 +240,8 @@
                                     "end": 1213,
                                     "name": "find"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -258,7 +256,8 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       },
                       {
                         "type": "Literal",
@@ -295,8 +294,8 @@
                         "end": 1251,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -310,7 +309,6 @@
                         "start": 1263,
                         "end": 1307,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -343,8 +341,8 @@
                                     "end": 1291,
                                     "name": "find"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -358,7 +356,8 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       },
                       {
                         "type": "Literal",
@@ -395,8 +394,8 @@
                         "end": 1339,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -410,7 +409,6 @@
                         "start": 1351,
                         "end": 1391,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -443,8 +441,8 @@
                                     "end": 1379,
                                     "name": "find"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -459,7 +457,8 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       },
                       {
                         "type": "Literal",
@@ -496,8 +495,8 @@
                         "end": 1419,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -511,7 +510,6 @@
                         "start": 1431,
                         "end": 1470,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -544,8 +542,8 @@
                                     "end": 1459,
                                     "name": "find"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -560,7 +558,8 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       },
                       {
                         "type": "Literal",
@@ -597,8 +596,8 @@
                         "end": 1497,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -612,7 +611,6 @@
                         "start": 1509,
                         "end": 1545,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -645,8 +643,8 @@
                                     "end": 1537,
                                     "name": "find"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -661,7 +659,8 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       },
                       {
                         "type": "Literal",
@@ -698,8 +697,8 @@
                         "end": 1574,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -713,7 +712,6 @@
                         "start": 1586,
                         "end": 1623,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -746,8 +744,8 @@
                                     "end": 1614,
                                     "name": "find"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -762,7 +760,8 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       },
                       {
                         "type": "Literal",
@@ -799,8 +798,8 @@
                         "end": 1652,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -814,7 +813,6 @@
                         "start": 1664,
                         "end": 1701,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -847,8 +845,8 @@
                                     "end": 1692,
                                     "name": "find"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -862,7 +860,8 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       },
                       {
                         "type": "Literal",
@@ -899,8 +898,8 @@
                         "end": 1729,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -914,7 +913,6 @@
                         "start": 1741,
                         "end": 1779,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -947,8 +945,8 @@
                                     "end": 1769,
                                     "name": "find"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -967,7 +965,8 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       },
                       {
                         "type": "Literal",
@@ -981,7 +980,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 739,
       "end": 796,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 774,
                 "name": "PlainTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -87,8 +88,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -114,8 +114,8 @@
             "end": 810,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -128,9 +128,7 @@
             "type": "ArrowFunctionExpression",
             "start": 823,
             "end": 902,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -153,8 +151,8 @@
                   "end": 839,
                   "name": "round"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -166,9 +164,7 @@
                       "type": "Property",
                       "start": 842,
                       "end": 869,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 842,
@@ -182,15 +178,15 @@
                         "value": "nanoseconds",
                         "raw": "\"nanoseconds\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 871,
                       "end": 899,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 871,
@@ -202,21 +198,25 @@
                         "start": 890,
                         "end": 899,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Identifier",
                           "start": 891,
                           "end": 899,
                           "name": "Infinity"
-                        }
+                        },
+                        "prefix": true
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -246,8 +246,8 @@
             "end": 918,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -260,9 +260,7 @@
             "type": "ArrowFunctionExpression",
             "start": 931,
             "end": 1003,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -285,8 +283,8 @@
                   "end": 947,
                   "name": "round"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -298,9 +296,7 @@
                       "type": "Property",
                       "start": 950,
                       "end": 977,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 950,
@@ -314,15 +310,15 @@
                         "value": "nanoseconds",
                         "raw": "\"nanoseconds\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 979,
                       "end": 1000,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 979,
@@ -334,22 +330,26 @@
                         "start": 998,
                         "end": 1000,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 999,
                           "end": 1000,
                           "value": 1,
                           "raw": "1"
-                        }
+                        },
+                        "prefix": true
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -379,8 +379,8 @@
             "end": 1019,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -393,9 +393,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1032,
             "end": 1103,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -418,8 +416,8 @@
                   "end": 1048,
                   "name": "round"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -431,9 +429,7 @@
                       "type": "Property",
                       "start": 1051,
                       "end": 1078,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1051,
@@ -447,15 +443,15 @@
                         "value": "nanoseconds",
                         "raw": "\"nanoseconds\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 1080,
                       "end": 1100,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1080,
@@ -469,13 +465,17 @@
                         "value": 0,
                         "raw": "0"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -505,8 +505,8 @@
             "end": 1119,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -519,9 +519,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1132,
             "end": 1205,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -544,8 +542,8 @@
                   "end": 1148,
                   "name": "round"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -557,9 +555,7 @@
                       "type": "Property",
                       "start": 1151,
                       "end": 1178,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1151,
@@ -573,15 +569,15 @@
                         "value": "nanoseconds",
                         "raw": "\"nanoseconds\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 1180,
                       "end": 1202,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1180,
@@ -595,13 +591,17 @@
                         "value": 0.9,
                         "raw": "0.9"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -631,8 +631,8 @@
             "end": 1221,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -645,9 +645,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1234,
             "end": 1311,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -670,8 +668,8 @@
                   "end": 1250,
                   "name": "round"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -683,9 +681,7 @@
                       "type": "Property",
                       "start": 1253,
                       "end": 1280,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1253,
@@ -699,15 +695,15 @@
                         "value": "nanoseconds",
                         "raw": "\"nanoseconds\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 1282,
                       "end": 1308,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1282,
@@ -734,13 +730,17 @@
                           "raw": "1"
                         }
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -770,8 +770,8 @@
             "end": 1327,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -784,9 +784,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1340,
             "end": 1418,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -809,8 +807,8 @@
                   "end": 1356,
                   "name": "round"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -822,9 +820,7 @@
                       "type": "Property",
                       "start": 1359,
                       "end": 1386,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1359,
@@ -838,15 +834,15 @@
                         "value": "nanoseconds",
                         "raw": "\"nanoseconds\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 1388,
                       "end": 1415,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1388,
@@ -859,13 +855,17 @@
                         "end": 1415,
                         "name": "Infinity"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

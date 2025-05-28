@@ -13,7 +13,6 @@
         "end": 939,
         "name": "TestWithConstructor"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -33,6 +32,7 @@
             "type": "VariableDeclaration",
             "start": 950,
             "end": 969,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -56,8 +56,7 @@
                   }
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -84,8 +83,8 @@
                   "end": 990,
                   "name": "constructor"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "ObjectExpression",
@@ -96,9 +95,7 @@
                     "type": "Property",
                     "start": 999,
                     "end": 1021,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": true,
+                    "kind": "init",
                     "key": {
                       "type": "MemberExpression",
                       "start": 1000,
@@ -115,8 +112,8 @@
                         "end": 1014,
                         "name": "species"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "value": {
                       "type": "Identifier",
@@ -124,7 +121,9 @@
                       "end": 1021,
                       "name": "ctor"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": true
                   }
                 ]
               }
@@ -134,6 +133,7 @@
             "type": "VariableDeclaration",
             "start": 1029,
             "end": 1045,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -153,8 +153,7 @@
                   "raw": "'a*b'"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -180,8 +179,8 @@
                   "end": 1071,
                   "name": "compareIterator"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -214,11 +213,11 @@
                         "end": 1094,
                         "name": "matchAll"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   },
                   "arguments": [
                     {
@@ -324,7 +323,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

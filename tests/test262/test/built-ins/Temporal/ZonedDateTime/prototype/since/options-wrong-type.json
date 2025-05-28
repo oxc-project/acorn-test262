@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 294,
       "end": 373,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -75,13 +76,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 375,
       "end": 430,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -113,8 +114,8 @@
                 "end": 418,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -135,8 +136,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -147,6 +147,7 @@
         "type": "VariableDeclaration",
         "start": 436,
         "end": 447,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -160,8 +161,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -198,8 +198,8 @@
                   "end": 480,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -212,9 +212,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 492,
                   "end": 573,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -237,8 +235,8 @@
                         "end": 512,
                         "name": "since"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -261,8 +259,8 @@
                             "end": 539,
                             "name": "ZonedDateTime"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -290,27 +288,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 579,
                   "end": 628,
-                  "expressions": [
-                    {
-                      "type": "UnaryExpression",
-                      "start": 614,
-                      "end": 626,
-                      "operator": "typeof",
-                      "prefix": true,
-                      "argument": {
-                        "type": "Identifier",
-                        "start": 621,
-                        "end": 626,
-                        "name": "value"
-                      }
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -331,6 +316,21 @@
                         "cooked": ""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "UnaryExpression",
+                      "start": 614,
+                      "end": 626,
+                      "operator": "typeof",
+                      "argument": {
+                        "type": "Identifier",
+                        "start": 621,
+                        "end": 626,
+                        "name": "value"
+                      },
+                      "prefix": true
                     }
                   ]
                 }

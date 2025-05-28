@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 247,
       "end": 481,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -48,8 +49,8 @@
                         "end": 288,
                         "name": "PlainTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -109,8 +110,8 @@
                         "end": 337,
                         "name": "PlainTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -163,8 +164,8 @@
                         "end": 385,
                         "name": "PlainTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -224,8 +225,8 @@
                         "end": 437,
                         "name": "PlainTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -277,13 +278,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 483,
       "end": 595,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -321,9 +322,7 @@
                     "type": "Property",
                     "start": 517,
                     "end": 591,
-                    "method": true,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 517,
@@ -335,7 +334,6 @@
                       "start": 520,
                       "end": 591,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -370,17 +368,19 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -391,6 +391,7 @@
         "type": "VariableDeclaration",
         "start": 601,
         "end": 623,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -417,8 +418,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -455,8 +455,8 @@
                   "end": 654,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -479,8 +479,8 @@
                       "end": 666,
                       "name": "toJSON"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -526,8 +526,8 @@
                   "end": 726,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -550,8 +550,8 @@
                       "end": 738,
                       "name": "toJSON"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {

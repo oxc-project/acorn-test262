@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 844,
       "end": 876,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "'The future is cool!'"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -64,8 +64,8 @@
                 "end": 897,
                 "name": "endsWith"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -124,8 +124,8 @@
                 "end": 962,
                 "name": "endsWith"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -184,8 +184,8 @@
                 "end": 1019,
                 "name": "endsWith"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

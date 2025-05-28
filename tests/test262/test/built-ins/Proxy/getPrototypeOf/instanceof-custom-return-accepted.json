@@ -13,7 +13,6 @@
         "end": 950,
         "name": "Custom"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,12 +21,14 @@
         "start": 953,
         "end": 955,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 957,
       "end": 1038,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -65,9 +66,7 @@
                     "type": "Property",
                     "start": 983,
                     "end": 1034,
-                    "method": true,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 983,
@@ -79,7 +78,6 @@
                       "start": 997,
                       "end": 1034,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -108,22 +106,24 @@
                                 "end": 1029,
                                 "name": "prototype"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",

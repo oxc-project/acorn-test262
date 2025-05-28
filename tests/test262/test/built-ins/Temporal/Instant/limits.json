@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 274,
       "end": 310,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,8 +28,7 @@
             "bigint": "8640000000000000000000"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -54,8 +54,8 @@
             "end": 324,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -68,9 +68,7 @@
             "type": "ArrowFunctionExpression",
             "start": 337,
             "end": 376,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -93,8 +91,8 @@
                   "end": 363,
                   "name": "Instant"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -106,13 +104,13 @@
                     "start": 364,
                     "end": 370,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 365,
                       "end": 370,
                       "name": "limit"
-                    }
+                    },
+                    "prefix": true
                   },
                   "operator": "-",
                   "right": {
@@ -125,7 +123,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -155,8 +155,8 @@
             "end": 392,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -169,9 +169,7 @@
             "type": "ArrowFunctionExpression",
             "start": 405,
             "end": 443,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -194,8 +192,8 @@
                   "end": 431,
                   "name": "Instant"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -219,7 +217,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -249,8 +249,8 @@
             "end": 481,
             "name": "assertInstantsEqual"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -273,8 +273,8 @@
                 "end": 502,
                 "name": "Instant"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -282,13 +282,13 @@
                 "start": 503,
                 "end": 509,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 504,
                   "end": 509,
                   "name": "limit"
-                }
+                },
+                "prefix": true
               }
             ]
           },
@@ -316,8 +316,8 @@
                   "end": 564,
                   "name": "Instant"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -325,8 +325,8 @@
                 "end": 569,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -367,8 +367,8 @@
             "end": 634,
             "name": "assertInstantsEqual"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -391,8 +391,8 @@
                 "end": 655,
                 "name": "Instant"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -427,8 +427,8 @@
                   "end": 716,
                   "name": "Instant"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -436,8 +436,8 @@
                 "end": 721,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

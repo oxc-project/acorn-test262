@@ -27,8 +27,8 @@
             "end": 416,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 420,
             "end": 461,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 427,
@@ -57,8 +56,8 @@
                   "end": 447,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -66,9 +65,10 @@
                 "end": 461,
                 "name": "findLastIndex"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -112,8 +112,8 @@
             "end": 547,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -121,7 +121,6 @@
             "start": 551,
             "end": 586,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 558,
@@ -142,8 +141,8 @@
                   "end": 579,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -151,9 +150,10 @@
                 "end": 586,
                 "name": "resize"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -192,9 +192,7 @@
             "type": "ArrowFunctionExpression",
             "start": 687,
             "end": 1757,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -213,6 +211,7 @@
                   "type": "VariableDeclaration",
                   "start": 697,
                   "end": 728,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -240,17 +239,17 @@
                           "end": 727,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 731,
                   "end": 791,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -301,9 +300,7 @@
                                 "type": "Property",
                                 "start": 766,
                                 "end": 788,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 766,
@@ -329,20 +326,22 @@
                                     "raw": "5"
                                   }
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               }
                             ]
                           }
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 794,
                   "end": 825,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -387,8 +386,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "TryStatement",
@@ -423,8 +421,8 @@
                               "end": 848,
                               "name": "resize"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -495,17 +493,15 @@
                         "end": 928,
                         "name": "findLastIndex"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
                         "type": "ArrowFunctionExpression",
                         "start": 929,
                         "end": 937,
-                        "id": null,
                         "expression": false,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -513,7 +509,9 @@
                           "start": 935,
                           "end": 937,
                           "body": []
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       }
                     ],
                     "optional": false
@@ -552,8 +550,8 @@
                               "end": 962,
                               "name": "resize"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -624,17 +622,15 @@
                         "end": 1060,
                         "name": "findLastIndex"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
                         "type": "ArrowFunctionExpression",
                         "start": 1061,
                         "end": 1069,
-                        "id": null,
                         "expression": false,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -642,7 +638,9 @@
                           "start": 1067,
                           "end": 1069,
                           "body": []
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       }
                     ],
                     "optional": false
@@ -652,6 +650,7 @@
                   "type": "VariableDeclaration",
                   "start": 1075,
                   "end": 1093,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -665,8 +664,7 @@
                       },
                       "init": null
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "TryStatement",
@@ -701,8 +699,8 @@
                               "end": 1115,
                               "name": "resize"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -833,8 +831,8 @@
                         "end": 1623,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -847,9 +845,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 1639,
                         "end": 1753,
-                        "id": null,
                         "expression": false,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -881,17 +877,15 @@
                                     "end": 1670,
                                     "name": "findLastIndex"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
                                     "type": "ArrowFunctionExpression",
                                     "start": 1671,
                                     "end": 1679,
-                                    "id": null,
                                     "expression": false,
-                                    "generator": false,
                                     "async": false,
                                     "params": [],
                                     "body": {
@@ -899,7 +893,9 @@
                                       "start": 1677,
                                       "end": 1679,
                                       "body": []
-                                    }
+                                    },
+                                    "id": null,
+                                    "generator": false
                                   }
                                 ],
                                 "optional": false
@@ -931,14 +927,18 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

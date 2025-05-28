@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 299,
       "end": 353,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 343,
                 "name": "PlainYearMonth"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -59,13 +60,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 355,
       "end": 412,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -101,14 +102,14 @@
                 "start": 390,
                 "end": 397,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 391,
                   "end": 397,
                   "value": 201906,
                   "raw": "201906"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -120,8 +121,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -132,6 +132,7 @@
         "type": "VariableDeclaration",
         "start": 419,
         "end": 428,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -145,8 +146,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -183,8 +183,8 @@
                   "end": 458,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -197,9 +197,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 479,
                   "end": 504,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -222,8 +220,8 @@
                         "end": 499,
                         "name": "until"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -234,20 +232,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 510,
                   "end": 574,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 523,
-                      "end": 526,
-                      "name": "arg"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -268,6 +260,14 @@
                         "cooked": ") is not a valid ISO string for PlainYearMonth"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 523,
+                      "end": 526,
+                      "name": "arg"
                     }
                   ]
                 }

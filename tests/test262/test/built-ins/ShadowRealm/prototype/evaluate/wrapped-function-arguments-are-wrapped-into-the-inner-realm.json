@@ -27,8 +27,8 @@
             "end": 330,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 334,
             "end": 371,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 341,
@@ -57,8 +56,8 @@
                   "end": 362,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -66,9 +65,10 @@
                 "end": 371,
                 "name": "evaluate"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -92,6 +92,7 @@
       "type": "VariableDeclaration",
       "start": 467,
       "end": 495,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -116,13 +117,13 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 496,
       "end": 527,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -138,9 +139,7 @@
             "type": "ArrowFunctionExpression",
             "start": 511,
             "end": 526,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -173,16 +172,18 @@
                 "end": 526,
                 "name": "y"
               }
-            }
+            },
+            "id": null,
+            "generator": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 529,
       "end": 637,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -214,15 +215,14 @@
                 "end": 560,
                 "name": "evaluate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
                 "type": "TemplateLiteral",
                 "start": 561,
                 "end": 635,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -234,14 +234,14 @@
                     },
                     "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
             ],
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -267,8 +267,8 @@
             "end": 654,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

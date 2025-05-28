@@ -23,7 +23,6 @@
             "start": 1046,
             "end": 1986,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -131,8 +130,8 @@
                                 "end": 1130,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -304,8 +303,8 @@
                                 "end": 1279,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -476,8 +475,8 @@
                                 "end": 1426,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -649,8 +648,8 @@
                                 "end": 1577,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -822,8 +821,8 @@
                                 "end": 1726,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -995,8 +994,8 @@
                                 "end": 1891,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -1018,14 +1017,14 @@
                                 "start": 1898,
                                 "end": 1902,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Literal",
                                   "start": 1899,
                                   "end": 1902,
                                   "value": 2.5,
                                   "raw": "2.5"
-                                }
+                                },
+                                "prefix": true
                               }
                             ],
                             "optional": false
@@ -1084,7 +1083,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

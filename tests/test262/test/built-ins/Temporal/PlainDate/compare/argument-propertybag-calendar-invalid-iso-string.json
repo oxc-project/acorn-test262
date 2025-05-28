@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 291,
       "end": 342,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -47,8 +48,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -59,6 +59,7 @@
         "type": "VariableDeclaration",
         "start": 351,
         "end": 380,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -85,8 +86,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -103,6 +103,7 @@
             "type": "VariableDeclaration",
             "start": 404,
             "end": 468,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -123,9 +124,7 @@
                       "type": "Property",
                       "start": 418,
                       "end": 428,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 418,
@@ -139,15 +138,15 @@
                         "value": 1976,
                         "raw": "1976"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 430,
                       "end": 446,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 430,
@@ -161,15 +160,15 @@
                         "value": "M11",
                         "raw": "\"M11\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 448,
                       "end": 455,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 448,
@@ -183,15 +182,15 @@
                         "value": 18,
                         "raw": "18"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 457,
                       "end": 465,
-                      "method": false,
-                      "shorthand": true,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 457,
@@ -204,13 +203,14 @@
                         "end": 465,
                         "name": "calendar"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false
                     }
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -236,8 +236,8 @@
                   "end": 484,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -250,9 +250,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 506,
                   "end": 581,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -279,8 +277,8 @@
                           "end": 530,
                           "name": "PlainDate"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -288,8 +286,8 @@
                         "end": 538,
                         "name": "compare"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -318,8 +316,8 @@
                             "end": 566,
                             "name": "PlainDate"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -347,20 +345,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 587,
                   "end": 647,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 590,
-                      "end": 601,
-                      "name": "description"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -381,6 +373,14 @@
                         "cooked": " is not a valid calendar ID (first argument)"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 590,
+                      "end": 601,
+                      "name": "description"
                     }
                   ]
                 }
@@ -412,8 +412,8 @@
                   "end": 668,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -426,9 +426,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 690,
                   "end": 765,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -455,8 +453,8 @@
                           "end": 714,
                           "name": "PlainDate"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -464,8 +462,8 @@
                         "end": 722,
                         "name": "compare"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -488,8 +486,8 @@
                             "end": 745,
                             "name": "PlainDate"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -523,20 +521,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 771,
                   "end": 832,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 774,
-                      "end": 785,
-                      "name": "description"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -557,6 +549,14 @@
                         "cooked": " is not a valid calendar ID (second argument)"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 774,
+                      "end": 785,
+                      "name": "description"
                     }
                   ]
                 }

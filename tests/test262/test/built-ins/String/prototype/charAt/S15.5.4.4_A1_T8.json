@@ -46,8 +46,8 @@
               "end": 460,
               "name": "charAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -55,14 +55,14 @@
               "start": 461,
               "end": 467,
               "operator": "void",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 466,
                 "end": 467,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -143,8 +143,8 @@
                         "end": 603,
                         "name": "charAt"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -152,14 +152,14 @@
                         "start": 604,
                         "end": 610,
                         "operator": "void",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 609,
                           "end": 610,
                           "value": 0,
                           "raw": "0"
-                        }
+                        },
+                        "prefix": true
                       }
                     ],
                     "optional": false

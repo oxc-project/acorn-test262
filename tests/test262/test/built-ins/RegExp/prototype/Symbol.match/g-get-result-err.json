@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 604,
       "end": 617,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -30,13 +31,13 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 618,
       "end": 687,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -57,9 +58,7 @@
                 "type": "Property",
                 "start": 641,
                 "end": 684,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "get",
                 "key": {
                   "type": "Literal",
                   "start": 645,
@@ -72,7 +71,6 @@
                   "start": 646,
                   "end": 684,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -99,15 +97,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "get"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -134,15 +134,14 @@
             "end": 695,
             "name": "exec"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 698,
           "end": 735,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -163,7 +162,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -191,8 +191,8 @@
             "end": 751,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -206,7 +206,6 @@
             "start": 766,
             "end": 803,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -249,11 +248,11 @@
                           "end": 795,
                           "name": "match"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "arguments": [
                       {
@@ -268,7 +267,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

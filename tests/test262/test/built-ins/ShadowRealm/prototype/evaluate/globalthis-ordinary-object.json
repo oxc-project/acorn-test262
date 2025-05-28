@@ -27,8 +27,8 @@
             "end": 1414,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 1418,
             "end": 1455,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 1425,
@@ -57,8 +56,8 @@
                   "end": 1446,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -66,9 +65,10 @@
                 "end": 1455,
                 "name": "evaluate"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -92,6 +92,7 @@
       "type": "VariableDeclaration",
       "start": 1551,
       "end": 1579,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -116,8 +117,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -143,8 +143,8 @@
             "end": 1597,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -167,8 +167,8 @@
                 "end": 1611,
                 "name": "evaluate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -223,8 +223,8 @@
             "end": 1755,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -247,8 +247,8 @@
                 "end": 1769,
                 "name": "evaluate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -303,8 +303,8 @@
             "end": 1863,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -327,8 +327,8 @@
                 "end": 1877,
                 "name": "evaluate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -383,8 +383,8 @@
             "end": 1981,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -407,15 +407,14 @@
                 "end": 1995,
                 "name": "evaluate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
                 "type": "TemplateLiteral",
                 "start": 1996,
                 "end": 2143,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -427,7 +426,8 @@
                     },
                     "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
             ],
             "optional": false
@@ -474,8 +474,8 @@
             "end": 2222,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -498,15 +498,14 @@
                 "end": 2236,
                 "name": "evaluate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
                 "type": "TemplateLiteral",
                 "start": 2237,
                 "end": 2352,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -518,7 +517,8 @@
                     },
                     "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
             ],
             "optional": false

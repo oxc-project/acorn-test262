@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 266,
       "end": 330,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -42,14 +43,14 @@
                 "start": 303,
                 "end": 312,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 304,
                   "end": 312,
                   "value": 19761118,
                   "raw": "19761118"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -61,8 +62,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -73,6 +73,7 @@
         "type": "VariableDeclaration",
         "start": 337,
         "end": 346,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -86,8 +87,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -124,8 +124,8 @@
                   "end": 376,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -138,9 +138,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 397,
                   "end": 431,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -167,8 +165,8 @@
                           "end": 421,
                           "name": "PlainDate"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -176,8 +174,8 @@
                         "end": 426,
                         "name": "from"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -188,7 +186,9 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "Literal",

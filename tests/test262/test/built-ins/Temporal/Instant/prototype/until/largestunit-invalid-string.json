@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 297,
       "end": 362,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 333,
                 "name": "Instant"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -53,13 +54,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 363,
       "end": 426,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -91,8 +92,8 @@
                 "end": 397,
                 "name": "Instant"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -106,13 +107,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 427,
       "end": 705,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -265,8 +266,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -277,6 +277,7 @@
         "type": "VariableDeclaration",
         "start": 711,
         "end": 728,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -290,8 +291,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -328,8 +328,8 @@
                   "end": 760,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -342,9 +342,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 773,
                   "end": 816,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -367,8 +365,8 @@
                         "end": 792,
                         "name": "until"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -386,9 +384,7 @@
                             "type": "Property",
                             "start": 802,
                             "end": 813,
-                            "method": false,
-                            "shorthand": true,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 802,
@@ -401,26 +397,22 @@
                               "end": 813,
                               "name": "largestUnit"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false
                           }
                         ]
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 822,
                   "end": 877,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 826,
-                      "end": 837,
-                      "name": "largestUnit"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -441,6 +433,14 @@
                         "cooked": "\" is not a valid value for largestUnit"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 826,
+                      "end": 837,
+                      "name": "largestUnit"
                     }
                   ]
                 }

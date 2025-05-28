@@ -27,8 +27,8 @@
             "end": 251,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -51,14 +51,13 @@
                 "end": 262,
                 "name": "raw"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "quasi": {
               "type": "TemplateLiteral",
               "start": 262,
               "end": 264,
-              "expressions": [],
               "quasis": [
                 {
                   "type": "TemplateElement",
@@ -70,7 +69,8 @@
                   },
                   "tail": true
                 }
-              ]
+              ],
+              "expressions": []
             }
           },
           {

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 317,
       "end": 344,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -53,13 +54,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 345,
       "end": 360,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -86,8 +87,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -114,8 +114,8 @@
             "end": 368,
             "name": "size"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -151,15 +151,14 @@
             "end": 380,
             "name": "has"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 383,
           "end": 576,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [
@@ -275,7 +274,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -304,15 +304,14 @@
             "end": 585,
             "name": "keys"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 588,
           "end": 730,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -347,7 +346,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -375,8 +375,8 @@
             "end": 749,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -399,8 +399,8 @@
                 "end": 765,
                 "name": "isSupersetOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

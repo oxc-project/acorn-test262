@@ -13,7 +13,6 @@
         "end": 443,
         "name": "func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -35,7 +34,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -61,8 +61,8 @@
             "end": 479,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -70,13 +70,13 @@
             "start": 480,
             "end": 491,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 487,
               "end": 491,
               "name": "func"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -100,6 +100,7 @@
       "type": "VariableDeclaration",
       "start": 566,
       "end": 591,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -132,8 +133,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -159,8 +159,8 @@
             "end": 609,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -210,8 +210,8 @@
             "end": 701,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

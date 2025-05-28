@@ -23,7 +23,6 @@
             "start": 1041,
             "end": 1545,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -127,8 +126,8 @@
                                 "end": 1121,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -136,14 +135,14 @@
                                 "start": 1122,
                                 "end": 1124,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Literal",
                                   "start": 1123,
                                   "end": 1124,
                                   "value": 1,
                                   "raw": "1"
-                                }
+                                },
+                                "prefix": true
                               },
                               {
                                 "type": "Literal",
@@ -299,8 +298,8 @@
                                 "end": 1283,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -308,14 +307,14 @@
                                 "start": 1284,
                                 "end": 1286,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Literal",
                                   "start": 1285,
                                   "end": 1286,
                                   "value": 2,
                                   "raw": "2"
-                                }
+                                },
+                                "prefix": true
                               },
                               {
                                 "type": "Literal",
@@ -471,8 +470,8 @@
                                 "end": 1451,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -480,14 +479,14 @@
                                 "start": 1452,
                                 "end": 1454,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Literal",
                                   "start": 1453,
                                   "end": 1454,
                                   "value": 1,
                                   "raw": "1"
-                                }
+                                },
+                                "prefix": true
                               },
                               {
                                 "type": "Literal",
@@ -549,7 +548,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

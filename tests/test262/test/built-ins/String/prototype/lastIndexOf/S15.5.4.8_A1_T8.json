@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 338,
       "end": 380,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 354,
                 "end": 377,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 354,
@@ -41,7 +40,6 @@
                   "start": 364,
                   "end": 377,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -50,15 +48,17 @@
                     "start": 375,
                     "end": 377,
                     "body": []
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -102,8 +102,8 @@
               "end": 610,
               "name": "lastIndexOf"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -111,14 +111,14 @@
               "start": 611,
               "end": 617,
               "operator": "void",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 616,
                 "end": 617,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -198,8 +198,8 @@
                         "end": 769,
                         "name": "lastIndexOf"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -207,14 +207,14 @@
                         "start": 770,
                         "end": 776,
                         "operator": "void",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 775,
                           "end": 776,
                           "value": 0,
                           "raw": "0"
-                        }
+                        },
+                        "prefix": true
                       }
                     ],
                     "optional": false

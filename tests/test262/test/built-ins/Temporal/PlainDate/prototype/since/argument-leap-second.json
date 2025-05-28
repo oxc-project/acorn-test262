@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 299,
       "end": 353,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 338,
                 "name": "PlainDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -66,13 +67,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 355,
       "end": 387,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -92,13 +93,13 @@
             "raw": "\"2016-12-31T23:59:60\""
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 388,
       "end": 424,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -130,8 +131,8 @@
                 "end": 418,
                 "name": "since"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -144,8 +145,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -171,8 +171,8 @@
             "end": 455,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -286,9 +286,7 @@
               "type": "Property",
               "start": 564,
               "end": 574,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 564,
@@ -302,15 +300,15 @@
                 "value": 2016,
                 "raw": "2016"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             },
             {
               "type": "Property",
               "start": 576,
               "end": 585,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 576,
@@ -324,15 +322,15 @@
                 "value": 12,
                 "raw": "12"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             },
             {
               "type": "Property",
               "start": 587,
               "end": 594,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 587,
@@ -346,15 +344,15 @@
                 "value": 31,
                 "raw": "31"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             },
             {
               "type": "Property",
               "start": 596,
               "end": 604,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 596,
@@ -368,15 +366,15 @@
                 "value": 23,
                 "raw": "23"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             },
             {
               "type": "Property",
               "start": 606,
               "end": 616,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 606,
@@ -390,15 +388,15 @@
                 "value": 59,
                 "raw": "59"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             },
             {
               "type": "Property",
               "start": 618,
               "end": 628,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 618,
@@ -412,7 +410,9 @@
                 "value": 60,
                 "raw": "60"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             }
           ]
         }
@@ -422,6 +422,7 @@
       "type": "VariableDeclaration",
       "start": 632,
       "end": 668,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -453,8 +454,8 @@
                 "end": 662,
                 "name": "since"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -467,8 +468,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -494,8 +494,8 @@
             "end": 699,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

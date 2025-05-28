@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1323,
       "end": 1402,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 1366,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -60,13 +61,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1403,
       "end": 1454,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -98,8 +99,8 @@
                 "end": 1441,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -133,13 +134,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1455,
       "end": 1551,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -201,8 +202,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -213,6 +213,7 @@
         "type": "VariableDeclaration",
         "start": 1557,
         "end": 1571,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -226,8 +227,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -264,8 +264,8 @@
                   "end": 1606,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -278,9 +278,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1628,
                   "end": 1675,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -303,8 +301,8 @@
                         "end": 1651,
                         "name": "subtract"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -322,9 +320,7 @@
                             "type": "Property",
                             "start": 1664,
                             "end": 1672,
-                            "method": false,
-                            "shorthand": true,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1664,
@@ -337,26 +333,22 @@
                               "end": 1672,
                               "name": "overflow"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false
                           }
                         ]
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1681,
                   "end": 1715,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1703,
-                      "end": 1711,
-                      "name": "overflow"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -377,6 +369,14 @@
                         "cooked": "\")"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1703,
+                      "end": 1711,
+                      "name": "overflow"
                     }
                   ]
                 }

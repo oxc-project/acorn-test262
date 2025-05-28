@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 334,
       "end": 389,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 377,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -60,8 +61,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -72,6 +72,7 @@
         "type": "VariableDeclaration",
         "start": 396,
         "end": 410,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -85,8 +86,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -138,8 +138,8 @@
                   "end": 505,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -152,9 +152,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 527,
                   "end": 564,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -177,8 +175,8 @@
                         "end": 554,
                         "name": "withTimeZone"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -189,20 +187,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 570,
                   "end": 615,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 573,
-                      "end": 581,
-                      "name": "timeZone"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -223,6 +215,14 @@
                         "cooked": " is not a valid time zone string"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 573,
+                      "end": 581,
+                      "name": "timeZone"
                     }
                   ]
                 }

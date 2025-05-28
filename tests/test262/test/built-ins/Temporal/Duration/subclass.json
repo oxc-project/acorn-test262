@@ -29,8 +29,8 @@
           "end": 320,
           "name": "Duration"
         },
-        "computed": false,
-        "optional": false
+        "optional": false,
+        "computed": false
       },
       "body": {
         "type": "ClassBody",
@@ -43,6 +43,7 @@
       "type": "VariableDeclaration",
       "start": 326,
       "end": 374,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -96,8 +97,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -123,8 +123,8 @@
             "end": 405,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -231,8 +231,8 @@
             "end": 463,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -255,8 +255,8 @@
                 "end": 485,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -284,8 +284,8 @@
               "end": 521,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -384,8 +384,8 @@
                 "end": 672,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           },
           {

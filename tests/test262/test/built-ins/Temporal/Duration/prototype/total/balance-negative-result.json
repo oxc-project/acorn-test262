@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1166,
       "end": 1222,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 1204,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -75,25 +76,25 @@
                 "start": 1217,
                 "end": 1220,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1218,
                   "end": 1220,
                   "value": 60,
                   "raw": "60"
-                }
+                },
+                "prefix": true
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1223,
       "end": 1271,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -125,8 +126,8 @@
                 "end": 1252,
                 "name": "total"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -138,9 +139,7 @@
                     "type": "Property",
                     "start": 1255,
                     "end": 1267,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1255,
@@ -154,7 +153,9 @@
                       "value": "days",
                       "raw": "\"days\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -162,8 +163,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -189,8 +189,8 @@
             "end": 1288,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -204,14 +204,14 @@
             "start": 1297,
             "end": 1301,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1298,
               "end": 1301,
               "value": 2.5,
               "raw": "2.5"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false

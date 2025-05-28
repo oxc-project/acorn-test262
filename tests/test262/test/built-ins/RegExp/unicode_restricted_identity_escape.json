@@ -13,7 +13,6 @@
         "end": 486,
         "name": "isSyntaxCharacter"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -44,175 +43,182 @@
                 "type": "SwitchCase",
                 "start": 511,
                 "end": 520,
-                "consequent": [],
                 "test": {
                   "type": "Literal",
                   "start": 516,
                   "end": 519,
                   "value": "^",
                   "raw": "\"^\""
-                }
+                },
+                "consequent": []
               },
               {
                 "type": "SwitchCase",
                 "start": 525,
                 "end": 534,
-                "consequent": [],
                 "test": {
                   "type": "Literal",
                   "start": 530,
                   "end": 533,
                   "value": "$",
                   "raw": "\"$\""
-                }
+                },
+                "consequent": []
               },
               {
                 "type": "SwitchCase",
                 "start": 539,
                 "end": 549,
-                "consequent": [],
                 "test": {
                   "type": "Literal",
                   "start": 544,
                   "end": 548,
                   "value": "\\",
                   "raw": "\"\\\\\""
-                }
+                },
+                "consequent": []
               },
               {
                 "type": "SwitchCase",
                 "start": 554,
                 "end": 563,
-                "consequent": [],
                 "test": {
                   "type": "Literal",
                   "start": 559,
                   "end": 562,
                   "value": ".",
                   "raw": "\".\""
-                }
+                },
+                "consequent": []
               },
               {
                 "type": "SwitchCase",
                 "start": 568,
                 "end": 577,
-                "consequent": [],
                 "test": {
                   "type": "Literal",
                   "start": 573,
                   "end": 576,
                   "value": "*",
                   "raw": "\"*\""
-                }
+                },
+                "consequent": []
               },
               {
                 "type": "SwitchCase",
                 "start": 582,
                 "end": 591,
-                "consequent": [],
                 "test": {
                   "type": "Literal",
                   "start": 587,
                   "end": 590,
                   "value": "+",
                   "raw": "\"+\""
-                }
+                },
+                "consequent": []
               },
               {
                 "type": "SwitchCase",
                 "start": 596,
                 "end": 605,
-                "consequent": [],
                 "test": {
                   "type": "Literal",
                   "start": 601,
                   "end": 604,
                   "value": "?",
                   "raw": "\"?\""
-                }
+                },
+                "consequent": []
               },
               {
                 "type": "SwitchCase",
                 "start": 610,
                 "end": 619,
-                "consequent": [],
                 "test": {
                   "type": "Literal",
                   "start": 615,
                   "end": 618,
                   "value": "(",
                   "raw": "\"(\""
-                }
+                },
+                "consequent": []
               },
               {
                 "type": "SwitchCase",
                 "start": 624,
                 "end": 633,
-                "consequent": [],
                 "test": {
                   "type": "Literal",
                   "start": 629,
                   "end": 632,
                   "value": ")",
                   "raw": "\")\""
-                }
+                },
+                "consequent": []
               },
               {
                 "type": "SwitchCase",
                 "start": 638,
                 "end": 647,
-                "consequent": [],
                 "test": {
                   "type": "Literal",
                   "start": 643,
                   "end": 646,
                   "value": "[",
                   "raw": "\"[\""
-                }
+                },
+                "consequent": []
               },
               {
                 "type": "SwitchCase",
                 "start": 652,
                 "end": 661,
-                "consequent": [],
                 "test": {
                   "type": "Literal",
                   "start": 657,
                   "end": 660,
                   "value": "]",
                   "raw": "\"]\""
-                }
+                },
+                "consequent": []
               },
               {
                 "type": "SwitchCase",
                 "start": 666,
                 "end": 675,
-                "consequent": [],
                 "test": {
                   "type": "Literal",
                   "start": 671,
                   "end": 674,
                   "value": "{",
                   "raw": "\"{\""
-                }
+                },
+                "consequent": []
               },
               {
                 "type": "SwitchCase",
                 "start": 680,
                 "end": 689,
-                "consequent": [],
                 "test": {
                   "type": "Literal",
                   "start": 685,
                   "end": 688,
                   "value": "}",
                   "raw": "\"}\""
-                }
+                },
+                "consequent": []
               },
               {
                 "type": "SwitchCase",
                 "start": 694,
                 "end": 722,
+                "test": {
+                  "type": "Literal",
+                  "start": 699,
+                  "end": 702,
+                  "value": "|",
+                  "raw": "\"|\""
+                },
                 "consequent": [
                   {
                     "type": "ReturnStatement",
@@ -226,19 +232,13 @@
                       "raw": "true"
                     }
                   }
-                ],
-                "test": {
-                  "type": "Literal",
-                  "start": 699,
-                  "end": 702,
-                  "value": "|",
-                  "raw": "\"|\""
-                }
+                ]
               },
               {
                 "type": "SwitchCase",
                 "start": 727,
                 "end": 755,
+                "test": null,
                 "consequent": [
                   {
                     "type": "ReturnStatement",
@@ -252,13 +252,13 @@
                       "raw": "false"
                     }
                   }
-                ],
-                "test": null
+                ]
               }
             ]
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -270,7 +270,6 @@
         "end": 784,
         "name": "isAlphaDigit"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -451,7 +450,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ForStatement",
@@ -461,6 +461,7 @@
         "type": "VariableDeclaration",
         "start": 1004,
         "end": 1017,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -480,8 +481,7 @@
               "raw": "0x00"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -524,6 +524,7 @@
             "type": "VariableDeclaration",
             "start": 1041,
             "end": 1073,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -555,8 +556,8 @@
                       "end": 1068,
                       "name": "fromCharCode"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -569,8 +570,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "IfStatement",
@@ -589,7 +589,6 @@
                   "start": 1080,
                   "end": 1096,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 1081,
@@ -609,7 +608,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 },
                 "operator": "&&",
                 "right": {
@@ -617,7 +617,6 @@
                   "start": 1100,
                   "end": 1121,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 1101,
@@ -637,7 +636,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               },
               "operator": "&&",
@@ -690,8 +690,8 @@
                         "end": 1155,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -705,7 +705,6 @@
                         "start": 1169,
                         "end": 1216,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -760,7 +759,8 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       },
                       {
                         "type": "BinaryExpression",
@@ -813,6 +813,7 @@
         "type": "VariableDeclaration",
         "start": 1409,
         "end": 1422,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -832,8 +833,7 @@
               "raw": "0x00"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -876,6 +876,7 @@
             "type": "VariableDeclaration",
             "start": 1446,
             "end": 1478,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -907,8 +908,8 @@
                       "end": 1473,
                       "name": "fromCharCode"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -921,8 +922,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "IfStatement",
@@ -945,7 +945,6 @@
                     "start": 1485,
                     "end": 1501,
                     "operator": "!",
-                    "prefix": true,
                     "argument": {
                       "type": "CallExpression",
                       "start": 1486,
@@ -965,7 +964,8 @@
                         }
                       ],
                       "optional": false
-                    }
+                    },
+                    "prefix": true
                   },
                   "operator": "&&",
                   "right": {
@@ -973,7 +973,6 @@
                     "start": 1505,
                     "end": 1526,
                     "operator": "!",
-                    "prefix": true,
                     "argument": {
                       "type": "CallExpression",
                       "start": 1506,
@@ -993,7 +992,8 @@
                         }
                       ],
                       "optional": false
-                    }
+                    },
+                    "prefix": true
                   }
                 },
                 "operator": "&&",
@@ -1067,8 +1067,8 @@
                         "end": 1573,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1082,7 +1082,6 @@
                         "start": 1587,
                         "end": 1641,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -1150,7 +1149,8 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       },
                       {
                         "type": "BinaryExpression",

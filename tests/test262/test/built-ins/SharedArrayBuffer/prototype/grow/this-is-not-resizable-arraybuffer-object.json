@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 519,
       "end": 526,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -47,8 +47,8 @@
             "end": 544,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -56,7 +56,6 @@
             "start": 545,
             "end": 584,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 552,
@@ -77,8 +76,8 @@
                   "end": 579,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -86,9 +85,10 @@
                 "end": 584,
                 "name": "grow"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -162,8 +162,8 @@
             "end": 644,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -177,7 +177,6 @@
             "start": 656,
             "end": 684,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -210,8 +209,8 @@
                         "end": 678,
                         "name": "grow"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -226,7 +225,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -300,8 +300,8 @@
             "end": 752,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -315,7 +315,6 @@
             "start": 764,
             "end": 792,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -348,8 +347,8 @@
                         "end": 786,
                         "name": "grow"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -364,7 +363,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -438,8 +438,8 @@
             "end": 863,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -453,7 +453,6 @@
             "start": 875,
             "end": 903,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -486,8 +485,8 @@
                         "end": 897,
                         "name": "grow"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -502,7 +501,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -576,8 +576,8 @@
             "end": 971,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -591,7 +591,6 @@
             "start": 983,
             "end": 1011,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -624,8 +623,8 @@
                         "end": 1005,
                         "name": "grow"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -640,7 +639,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

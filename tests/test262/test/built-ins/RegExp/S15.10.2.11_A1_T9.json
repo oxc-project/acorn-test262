@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 293,
       "end": 368,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -43,8 +44,8 @@
                 "end": 352,
                 "name": "exec"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -58,8 +59,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -119,8 +119,8 @@
                 "value": 0,
                 "raw": "0"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "operator": "!==",
             "right": {
@@ -197,8 +197,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       }
                     }
                   }
@@ -218,6 +218,7 @@
         "type": "VariableDeclaration",
         "start": 602,
         "end": 611,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -237,8 +238,7 @@
               "raw": "1"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -334,8 +334,8 @@
                       "end": 661,
                       "name": "i"
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   },
                   "operator": "!==",
                   "right": {
@@ -436,8 +436,8 @@
                                 "end": 842,
                                 "name": "i"
                               },
-                              "computed": true,
-                              "optional": false
+                              "optional": false,
+                              "computed": true
                             }
                           }
                         }

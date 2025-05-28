@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 317,
       "end": 369,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 356,
                 "name": "PlainDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -66,13 +67,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 370,
       "end": 593,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -176,8 +177,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -203,17 +203,15 @@
             "end": 614,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 615,
             "end": 808,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -232,6 +230,7 @@
                   "type": "VariableDeclaration",
                   "start": 628,
                   "end": 705,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -263,8 +262,8 @@
                             "end": 667,
                             "name": "toZonedDateTime"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -276,9 +275,7 @@
                                 "type": "Property",
                                 "start": 670,
                                 "end": 684,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 670,
@@ -291,15 +288,15 @@
                                   "end": 684,
                                   "name": "arg"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               },
                               {
                                 "type": "Property",
                                 "start": 686,
                                 "end": 701,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 686,
@@ -313,7 +310,9 @@
                                   "value": "UTC",
                                   "raw": "\"UTC\""
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               }
                             ]
                           }
@@ -321,8 +320,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -348,8 +346,8 @@
                         "end": 724,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -368,8 +366,8 @@
                           "end": 748,
                           "name": "epochNanoseconds"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       {
                         "type": "Literal",
@@ -383,14 +381,6 @@
                         "type": "TemplateLiteral",
                         "start": 774,
                         "end": 804,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 799,
-                            "end": 802,
-                            "name": "arg"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -412,6 +402,14 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 799,
+                            "end": 802,
+                            "name": "arg"
+                          }
                         ]
                       }
                     ],
@@ -419,7 +417,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

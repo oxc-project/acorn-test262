@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1134,
       "end": 1239,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -43,8 +44,8 @@
                     "end": 1185,
                     "name": "PlainYearMonth"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -72,9 +73,7 @@
                     "type": "Property",
                     "start": 1200,
                     "end": 1210,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1200,
@@ -88,15 +87,15 @@
                       "value": 2000,
                       "raw": "2000"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1212,
                     "end": 1220,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1212,
@@ -110,7 +109,9 @@
                       "value": 5,
                       "raw": "5"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               },
@@ -124,13 +125,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1241,
       "end": 1337,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -192,8 +193,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -204,6 +204,7 @@
         "type": "VariableDeclaration",
         "start": 1343,
         "end": 1354,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -217,8 +218,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -240,6 +240,7 @@
               "type": "VariableDeclaration",
               "start": 1380,
               "end": 1394,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -253,8 +254,7 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "const"
+              ]
             },
             "right": {
               "type": "Identifier",
@@ -291,8 +291,8 @@
                         "end": 1431,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -305,9 +305,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 1457,
                         "end": 1512,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -334,8 +332,8 @@
                                 "end": 1486,
                                 "name": "PlainYearMonth"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -343,8 +341,8 @@
                               "end": 1491,
                               "name": "from"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -362,9 +360,7 @@
                                   "type": "Property",
                                   "start": 1501,
                                   "end": 1509,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 1501,
@@ -377,26 +373,22 @@
                                     "end": 1509,
                                     "name": "overflow"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 }
                               ]
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 1520,
                         "end": 1554,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1542,
-                            "end": 1550,
-                            "name": "overflow"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -417,6 +409,14 @@
                               "cooked": "\")"
                             },
                             "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1542,
+                            "end": 1550,
+                            "name": "overflow"
                           }
                         ]
                       }

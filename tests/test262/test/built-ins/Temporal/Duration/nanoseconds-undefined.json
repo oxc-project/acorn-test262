@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 281,
       "end": 322,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -89,13 +90,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 324,
       "end": 383,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -127,8 +128,8 @@
                 "end": 362,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -151,8 +152,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -178,8 +178,8 @@
             "end": 414,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -273,6 +273,7 @@
       "type": "VariableDeclaration",
       "start": 469,
       "end": 517,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -304,8 +305,8 @@
                 "end": 507,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -322,8 +323,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -349,8 +349,8 @@
             "end": 548,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

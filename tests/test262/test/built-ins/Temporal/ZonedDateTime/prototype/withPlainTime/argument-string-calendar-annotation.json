@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 298,
       "end": 1566,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -362,13 +363,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1568,
       "end": 1591,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -388,13 +389,13 @@
             "raw": "\"UTC\""
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1592,
       "end": 1650,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -426,8 +427,8 @@
                 "end": 1635,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -447,8 +448,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -474,17 +474,15 @@
             "end": 1665,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 1666,
             "end": 1862,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -516,6 +514,7 @@
                   "type": "VariableDeclaration",
                   "start": 1694,
                   "end": 1737,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -547,8 +546,8 @@
                             "end": 1731,
                             "name": "withPlainTime"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -561,8 +560,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -588,8 +586,8 @@
                         "end": 1757,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -608,8 +606,8 @@
                           "end": 1786,
                           "name": "epochNanoseconds"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       {
                         "type": "Literal",
@@ -623,14 +621,6 @@
                         "type": "TemplateLiteral",
                         "start": 1817,
                         "end": 1855,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1841,
-                            "end": 1852,
-                            "name": "description"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -652,6 +642,14 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1841,
+                            "end": 1852,
+                            "name": "description"
+                          }
                         ]
                       }
                     ],
@@ -659,7 +657,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

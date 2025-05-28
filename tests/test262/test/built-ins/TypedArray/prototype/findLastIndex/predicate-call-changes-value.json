@@ -23,7 +23,6 @@
             "start": 570,
             "end": 1502,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -43,6 +42,7 @@
                   "type": "VariableDeclaration",
                   "start": 587,
                   "end": 610,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -83,13 +83,13 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 613,
                   "end": 624,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -103,13 +103,13 @@
                       },
                       "init": null
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 627,
                   "end": 638,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -123,8 +123,7 @@
                       },
                       "init": null
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -187,8 +186,8 @@
                         "end": 684,
                         "name": "findLastIndex"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -196,7 +195,6 @@
                         "start": 685,
                         "end": 797,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [
@@ -243,8 +241,8 @@
                                     "end": 716,
                                     "name": "i"
                                   },
-                                  "computed": true,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": true
                                 },
                                 "right": {
                                   "type": "MemberExpression",
@@ -262,8 +260,8 @@
                                     "end": 725,
                                     "name": "i"
                                   },
-                                  "computed": true,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": true
                                 }
                               }
                             },
@@ -291,8 +289,8 @@
                                     "end": 749,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -320,7 +318,8 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
@@ -449,8 +448,8 @@
                           "end": 934,
                           "name": "findLastIndex"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -458,7 +457,6 @@
                           "start": 935,
                           "end": 1027,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [
@@ -534,8 +532,8 @@
                                             "value": 0,
                                             "raw": "0"
                                           },
-                                          "computed": true,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": true
                                         },
                                         "right": {
                                           "type": "Literal",
@@ -575,7 +573,8 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         }
                       ],
                       "optional": false
@@ -606,8 +605,8 @@
                         "end": 1048,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -705,8 +704,8 @@
                           "end": 1132,
                           "name": "findLastIndex"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -714,7 +713,6 @@
                           "start": 1133,
                           "end": 1226,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [
@@ -790,8 +788,8 @@
                                             "value": 0,
                                             "raw": "0"
                                           },
-                                          "computed": true,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": true
                                         },
                                         "right": {
                                           "type": "Literal",
@@ -831,7 +829,8 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         }
                       ],
                       "optional": false
@@ -862,8 +861,8 @@
                         "end": 1247,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -877,14 +876,14 @@
                         "start": 1256,
                         "end": 1258,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1257,
                           "end": 1258,
                           "value": 1,
                           "raw": "1"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "Literal",
@@ -968,8 +967,8 @@
                           "end": 1336,
                           "name": "findLastIndex"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -977,7 +976,6 @@
                           "start": 1337,
                           "end": 1426,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [
@@ -1053,8 +1051,8 @@
                                             "value": 2,
                                             "raw": "2"
                                           },
-                                          "computed": true,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": true
                                         },
                                         "right": {
                                           "type": "Literal",
@@ -1094,7 +1092,8 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         }
                       ],
                       "optional": false
@@ -1125,8 +1124,8 @@
                         "end": 1447,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1140,14 +1139,14 @@
                         "start": 1456,
                         "end": 1458,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1457,
                           "end": 1458,
                           "value": 1,
                           "raw": "1"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "Literal",
@@ -1161,7 +1160,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

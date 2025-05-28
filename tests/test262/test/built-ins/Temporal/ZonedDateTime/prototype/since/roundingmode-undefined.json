@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 294,
       "end": 372,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 336,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -60,13 +61,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 373,
       "end": 449,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -98,8 +99,8 @@
                 "end": 413,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -120,13 +121,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 451,
       "end": 548,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -158,8 +159,8 @@
                 "end": 480,
                 "name": "since"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -177,9 +178,7 @@
                     "type": "Property",
                     "start": 492,
                     "end": 519,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 492,
@@ -193,15 +192,15 @@
                       "value": "microsecond",
                       "raw": "\"microsecond\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 521,
                     "end": 544,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 521,
@@ -214,7 +213,9 @@
                       "end": 544,
                       "name": "undefined"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -222,8 +223,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -249,8 +249,8 @@
             "end": 579,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -344,6 +344,7 @@
       "type": "VariableDeclaration",
       "start": 660,
       "end": 732,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -375,8 +376,8 @@
                 "end": 689,
                 "name": "since"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -394,9 +395,7 @@
                     "type": "Property",
                     "start": 701,
                     "end": 728,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 701,
@@ -410,7 +409,9 @@
                       "value": "microsecond",
                       "raw": "\"microsecond\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -418,8 +419,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -445,8 +445,8 @@
             "end": 763,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -540,6 +540,7 @@
       "type": "VariableDeclaration",
       "start": 845,
       "end": 942,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -571,8 +572,8 @@
                 "end": 874,
                 "name": "since"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -590,9 +591,7 @@
                     "type": "Property",
                     "start": 886,
                     "end": 913,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 886,
@@ -606,15 +605,15 @@
                       "value": "millisecond",
                       "raw": "\"millisecond\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 915,
                     "end": 938,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 915,
@@ -627,7 +626,9 @@
                       "end": 938,
                       "name": "undefined"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -635,8 +636,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -662,8 +662,8 @@
             "end": 973,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -757,6 +757,7 @@
       "type": "VariableDeclaration",
       "start": 1052,
       "end": 1124,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -788,8 +789,8 @@
                 "end": 1081,
                 "name": "since"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -807,9 +808,7 @@
                     "type": "Property",
                     "start": 1093,
                     "end": 1120,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1093,
@@ -823,7 +822,9 @@
                       "value": "millisecond",
                       "raw": "\"millisecond\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -831,8 +832,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -858,8 +858,8 @@
             "end": 1155,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -953,6 +953,7 @@
       "type": "VariableDeclaration",
       "start": 1235,
       "end": 1327,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -984,8 +985,8 @@
                 "end": 1264,
                 "name": "since"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1003,9 +1004,7 @@
                     "type": "Property",
                     "start": 1276,
                     "end": 1298,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1276,
@@ -1019,15 +1018,15 @@
                       "value": "second",
                       "raw": "\"second\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1300,
                     "end": 1323,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1300,
@@ -1040,7 +1039,9 @@
                       "end": 1323,
                       "name": "undefined"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -1048,8 +1049,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1075,8 +1075,8 @@
             "end": 1358,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1170,6 +1170,7 @@
       "type": "VariableDeclaration",
       "start": 1435,
       "end": 1502,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1201,8 +1202,8 @@
                 "end": 1464,
                 "name": "since"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1220,9 +1221,7 @@
                     "type": "Property",
                     "start": 1476,
                     "end": 1498,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1476,
@@ -1236,7 +1235,9 @@
                       "value": "second",
                       "raw": "\"second\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -1244,8 +1245,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1271,8 +1271,8 @@
             "end": 1533,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

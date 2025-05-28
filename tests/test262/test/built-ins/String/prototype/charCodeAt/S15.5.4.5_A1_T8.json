@@ -46,8 +46,8 @@
               "end": 480,
               "name": "charCodeAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -55,14 +55,14 @@
               "start": 481,
               "end": 487,
               "operator": "void",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 486,
                 "end": 487,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -143,8 +143,8 @@
                         "end": 637,
                         "name": "charCodeAt"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -152,14 +152,14 @@
                         "start": 638,
                         "end": 644,
                         "operator": "void",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 643,
                           "end": 644,
                           "value": 0,
                           "raw": "0"
-                        }
+                        },
+                        "prefix": true
                       }
                     ],
                     "optional": false

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 657,
       "end": 732,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 700,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -47,7 +48,6 @@
                 "start": 701,
                 "end": 723,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 702,
@@ -55,7 +55,8 @@
                   "value": null,
                   "raw": "13849764_999_999_999n",
                   "bigint": "13849764999999999"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -67,13 +68,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 733,
       "end": 790,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -105,8 +106,8 @@
                 "end": 768,
                 "name": "PlainTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -154,13 +155,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 941,
       "end": 1000,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -196,8 +197,8 @@
                   "end": 975,
                   "name": "PlainTime"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -205,8 +206,8 @@
                 "end": 983,
                 "name": "compare"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -225,8 +226,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -252,8 +252,8 @@
             "end": 1017,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -277,6 +277,7 @@
       "type": "VariableDeclaration",
       "start": 1032,
       "end": 1091,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -312,8 +313,8 @@
                   "end": 1066,
                   "name": "PlainTime"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -321,8 +322,8 @@
                 "end": 1074,
                 "name": "compare"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -341,8 +342,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -368,8 +368,8 @@
             "end": 1108,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

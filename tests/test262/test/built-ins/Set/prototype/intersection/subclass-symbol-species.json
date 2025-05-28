@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 389,
       "end": 403,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -54,8 +54,6 @@
             "type": "MethodDefinition",
             "start": 432,
             "end": 496,
-            "static": true,
-            "computed": true,
             "key": {
               "type": "MemberExpression",
               "start": 444,
@@ -72,16 +70,14 @@
                 "end": 458,
                 "name": "species"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 459,
               "end": 496,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -120,8 +116,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": true,
+            "static": true
           }
         ]
       }
@@ -130,6 +130,7 @@
       "type": "VariableDeclaration",
       "start": 500,
       "end": 529,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -176,13 +177,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 530,
       "end": 557,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -229,13 +230,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 558,
       "end": 579,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -262,13 +263,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 580,
       "end": 617,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -300,8 +301,8 @@
                 "end": 612,
                 "name": "intersection"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -314,8 +315,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -341,8 +341,8 @@
             "end": 638,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -397,8 +397,8 @@
             "end": 681,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -449,8 +449,8 @@
             "end": 743,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -513,8 +513,8 @@
             "end": 824,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

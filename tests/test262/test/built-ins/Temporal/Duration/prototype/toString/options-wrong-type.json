@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 292,
       "end": 371,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -75,13 +76,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 373,
       "end": 427,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -113,8 +114,8 @@
                 "end": 411,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -155,8 +156,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -167,6 +167,7 @@
         "type": "VariableDeclaration",
         "start": 433,
         "end": 444,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -180,8 +181,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -218,8 +218,8 @@
                   "end": 477,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -232,9 +232,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 489,
                   "end": 519,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -257,8 +255,8 @@
                         "end": 512,
                         "name": "toString"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -269,27 +267,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 525,
                   "end": 574,
-                  "expressions": [
-                    {
-                      "type": "UnaryExpression",
-                      "start": 560,
-                      "end": 572,
-                      "operator": "typeof",
-                      "prefix": true,
-                      "argument": {
-                        "type": "Identifier",
-                        "start": 567,
-                        "end": 572,
-                        "name": "value"
-                      }
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -310,6 +295,21 @@
                         "cooked": ""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "UnaryExpression",
+                      "start": 560,
+                      "end": 572,
+                      "operator": "typeof",
+                      "argument": {
+                        "type": "Identifier",
+                        "start": 567,
+                        "end": 572,
+                        "name": "value"
+                      },
+                      "prefix": true
                     }
                   ]
                 }

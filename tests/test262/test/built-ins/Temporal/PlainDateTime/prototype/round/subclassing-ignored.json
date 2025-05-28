@@ -27,8 +27,8 @@
             "end": 352,
             "name": "checkSubclassingIgnored"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -47,8 +47,8 @@
               "end": 378,
               "name": "PlainDateTime"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "ArrayExpression",
@@ -141,9 +141,7 @@
                     "type": "Property",
                     "start": 439,
                     "end": 461,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 439,
@@ -157,7 +155,9 @@
                       "value": "second",
                       "raw": "'second'"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -167,9 +167,7 @@
             "type": "ArrowFunctionExpression",
             "start": 468,
             "end": 563,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -199,8 +197,8 @@
                   "end": 515,
                   "name": "assertPlainDateTime"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -281,7 +279,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

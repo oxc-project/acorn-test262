@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 791,
       "end": 841,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -75,8 +76,8 @@
                       "end": 833,
                       "name": "source"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 },
                 "operator": "+",
@@ -92,8 +93,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -130,8 +130,8 @@
                 "end": 857,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -190,8 +190,8 @@
                 "end": 893,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -235,7 +235,6 @@
             "start": 926,
             "end": 940,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 927,
@@ -256,8 +255,8 @@
                   "end": 934,
                   "name": "test"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -269,7 +268,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

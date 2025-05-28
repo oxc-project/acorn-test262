@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 599,
       "end": 616,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -30,8 +31,7 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -58,8 +58,8 @@
             "end": 635,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ObjectExpression",
@@ -70,9 +70,7 @@
               "type": "Property",
               "start": 642,
               "end": 790,
-              "method": false,
-              "shorthand": false,
-              "computed": true,
+              "kind": "init",
               "key": {
                 "type": "MemberExpression",
                 "start": 643,
@@ -89,15 +87,14 @@
                   "end": 657,
                   "name": "species"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "value": {
                 "type": "FunctionExpression",
                 "start": 660,
                 "end": 790,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -130,8 +127,8 @@
                             "end": 705,
                             "name": "defineProperty"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -161,9 +158,7 @@
                                 "type": "Property",
                                 "start": 729,
                                 "end": 778,
-                                "method": true,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 729,
@@ -175,7 +170,6 @@
                                   "start": 732,
                                   "end": 778,
                                   "id": null,
-                                  "expression": false,
                                   "generator": false,
                                   "async": false,
                                   "params": [],
@@ -202,9 +196,12 @@
                                         }
                                       }
                                     ]
-                                  }
+                                  },
+                                  "expression": false
                                 },
-                                "kind": "init"
+                                "method": true,
+                                "shorthand": false,
+                                "computed": false
                               }
                             ]
                           }
@@ -213,9 +210,12 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": true
             }
           ]
         }
@@ -255,11 +255,11 @@
               "end": 817,
               "name": "matchAll"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "arguments": [
           {

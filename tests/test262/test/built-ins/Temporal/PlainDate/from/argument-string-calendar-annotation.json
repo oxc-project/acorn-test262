@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 306,
       "end": 787,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -173,8 +174,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -200,17 +200,15 @@
             "end": 802,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 803,
             "end": 996,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -242,6 +240,7 @@
                   "type": "VariableDeclaration",
                   "start": 831,
                   "end": 875,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -277,8 +276,8 @@
                               "end": 864,
                               "name": "PlainDate"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "property": {
                             "type": "Identifier",
@@ -286,8 +285,8 @@
                             "end": 869,
                             "name": "from"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -300,8 +299,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -327,8 +325,8 @@
                         "end": 910,
                         "name": "assertPlainDate"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -369,14 +367,6 @@
                         "type": "TemplateLiteral",
                         "start": 951,
                         "end": 989,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 975,
-                            "end": 986,
-                            "name": "description"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -398,6 +388,14 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 975,
+                            "end": 986,
+                            "name": "description"
+                          }
                         ]
                       }
                     ],
@@ -405,7 +403,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

@@ -12,6 +12,7 @@
         "type": "VariableDeclaration",
         "start": 321,
         "end": 332,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "CallExpression",
@@ -52,8 +52,8 @@
               "end": 355,
               "name": "ISO"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -61,8 +61,8 @@
             "end": 382,
             "name": "plainYearMonthStringsValid"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -76,6 +76,7 @@
             "type": "VariableDeclaration",
             "start": 390,
             "end": 449,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -111,8 +112,8 @@
                         "end": 436,
                         "name": "PlainYearMonth"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -120,8 +121,8 @@
                       "end": 441,
                       "name": "from"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -134,8 +135,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -161,8 +161,8 @@
                   "end": 488,
                   "name": "assertPlainYearMonth"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -220,8 +220,8 @@
                   "end": 541,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -240,8 +240,8 @@
                     "end": 567,
                     "name": "calendarId"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -285,8 +285,8 @@
                   "end": 636,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -309,8 +309,8 @@
                       "end": 660,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -322,9 +322,7 @@
                           "type": "Property",
                           "start": 663,
                           "end": 685,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 663,
@@ -338,7 +336,9 @@
                             "value": "always",
                             "raw": "\"always\""
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }
@@ -375,6 +375,7 @@
         "type": "VariableDeclaration",
         "start": 749,
         "end": 760,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -388,8 +389,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "CallExpression",
@@ -415,8 +415,8 @@
               "end": 783,
               "name": "ISO"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -424,8 +424,8 @@
             "end": 822,
             "name": "plainYearMonthStringsValidNegativeYear"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -439,6 +439,7 @@
             "type": "VariableDeclaration",
             "start": 830,
             "end": 889,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -474,8 +475,8 @@
                         "end": 876,
                         "name": "PlainYearMonth"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -483,8 +484,8 @@
                       "end": 881,
                       "name": "from"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -497,8 +498,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -524,8 +524,8 @@
                   "end": 928,
                   "name": "assertPlainYearMonth"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -539,14 +539,14 @@
                   "start": 945,
                   "end": 950,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 946,
                     "end": 950,
                     "value": 9999,
                     "raw": "9999"
-                  }
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "Literal",
@@ -590,8 +590,8 @@
                   "end": 982,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -610,8 +610,8 @@
                     "end": 1008,
                     "name": "calendarId"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -655,8 +655,8 @@
                   "end": 1077,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -679,8 +679,8 @@
                       "end": 1101,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -692,9 +692,7 @@
                           "type": "Property",
                           "start": 1104,
                           "end": 1126,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 1104,
@@ -708,7 +706,9 @@
                             "value": "always",
                             "raw": "\"always\""
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }

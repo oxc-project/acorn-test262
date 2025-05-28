@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 324,
       "end": 346,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -40,8 +41,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -56,13 +56,13 @@
           "start": 441,
           "end": 453,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 448,
             "end": 453,
             "name": "__str"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -110,13 +110,13 @@
                     "start": 574,
                     "end": 586,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 581,
                       "end": 586,
                       "name": "__str"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]
@@ -226,14 +226,14 @@
               "start": 977,
               "end": 979,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 978,
                 "end": 979,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -253,13 +253,13 @@
           "start": 1076,
           "end": 1088,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 1083,
             "end": 1088,
             "name": "__str"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -307,13 +307,13 @@
                     "start": 1210,
                     "end": 1222,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 1217,
                       "end": 1222,
                       "name": "__str"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1092,
       "end": 1150,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -34,7 +35,6 @@
                 "start": 1113,
                 "end": 1148,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [
@@ -75,18 +75,19 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1151,
       "end": 1158,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -100,8 +101,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -138,8 +138,8 @@
               "end": 1172,
               "name": "then"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -147,7 +147,6 @@
               "start": 1173,
               "end": 1186,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -156,14 +155,14 @@
                 "start": 1184,
                 "end": 1186,
                 "body": []
-              }
+              },
+              "expression": false
             },
             {
               "type": "FunctionExpression",
               "start": 1188,
               "end": 1215,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -184,7 +183,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           ],
           "optional": false
@@ -215,8 +215,8 @@
             "end": 1226,
             "name": "then"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -224,7 +224,6 @@
             "start": 1227,
             "end": 1290,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -260,14 +259,14 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "FunctionExpression",
             "start": 1292,
             "end": 1547,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -292,13 +291,13 @@
                     "start": 1317,
                     "end": 1324,
                     "operator": "!",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 1318,
                       "end": 1324,
                       "name": "reason"
-                    }
+                    },
+                    "prefix": true
                   },
                   "consequent": {
                     "type": "BlockStatement",
@@ -365,8 +364,8 @@
                         "end": 1428,
                         "name": "constructor"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "operator": "!==",
                     "right": {
@@ -436,7 +435,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

@@ -27,8 +27,8 @@
             "end": 621,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 622,
             "end": 648,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 629,
@@ -57,8 +56,8 @@
                   "end": 645,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -66,9 +65,10 @@
                 "end": 648,
                 "name": "at"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -85,6 +85,7 @@
       "type": "VariableDeclaration",
       "start": 664,
       "end": 680,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -104,8 +105,7 @@
             "raw": "\"12345\""
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -131,8 +131,8 @@
             "end": 698,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -155,8 +155,8 @@
                 "end": 703,
                 "name": "at"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -211,8 +211,8 @@
             "end": 757,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -235,8 +235,8 @@
                 "end": 762,
                 "name": "at"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -244,14 +244,14 @@
                 "start": 763,
                 "end": 765,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 764,
                   "end": 765,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -298,8 +298,8 @@
             "end": 818,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -322,8 +322,8 @@
                 "end": 823,
                 "name": "at"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -331,14 +331,14 @@
                 "start": 824,
                 "end": 826,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 825,
                   "end": 826,
                   "value": 3,
                   "raw": "3"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -385,8 +385,8 @@
             "end": 879,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -409,8 +409,8 @@
                 "end": 884,
                 "name": "at"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -418,14 +418,14 @@
                 "start": 885,
                 "end": 887,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 886,
                   "end": 887,
                   "value": 4,
                   "raw": "4"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false

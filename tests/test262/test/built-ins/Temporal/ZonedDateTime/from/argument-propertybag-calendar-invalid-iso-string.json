@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 302,
       "end": 325,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "\"UTC\""
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 327,
       "end": 378,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -73,8 +74,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -85,6 +85,7 @@
         "type": "VariableDeclaration",
         "start": 385,
         "end": 414,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -111,8 +112,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -129,6 +129,7 @@
             "type": "VariableDeclaration",
             "start": 438,
             "end": 511,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -149,9 +150,7 @@
                       "type": "Property",
                       "start": 452,
                       "end": 462,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 452,
@@ -165,15 +164,15 @@
                         "value": 1970,
                         "raw": "1970"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 464,
                       "end": 480,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 464,
@@ -187,15 +186,15 @@
                         "value": "M01",
                         "raw": "\"M01\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 482,
                       "end": 488,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 482,
@@ -209,15 +208,15 @@
                         "value": 1,
                         "raw": "1"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 490,
                       "end": 498,
-                      "method": false,
-                      "shorthand": true,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 490,
@@ -230,15 +229,15 @@
                         "end": 498,
                         "name": "timeZone"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 500,
                       "end": 508,
-                      "method": false,
-                      "shorthand": true,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 500,
@@ -251,13 +250,14 @@
                         "end": 508,
                         "name": "calendar"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false
                     }
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -283,8 +283,8 @@
                   "end": 527,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -297,9 +297,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 549,
                   "end": 587,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -326,8 +324,8 @@
                           "end": 577,
                           "name": "ZonedDateTime"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -335,8 +333,8 @@
                         "end": 582,
                         "name": "from"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -347,20 +345,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 593,
                   "end": 636,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 596,
-                      "end": 607,
-                      "name": "description"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -381,6 +373,14 @@
                         "cooked": " is not a valid calendar ID"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 596,
+                      "end": 607,
+                      "name": "description"
                     }
                   ]
                 }

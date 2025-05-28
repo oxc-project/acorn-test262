@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 2159,
       "end": 2181,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -30,8 +31,7 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -68,8 +68,8 @@
                 "end": 2197,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -113,7 +113,6 @@
             "start": 2260,
             "end": 2279,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 2261,
@@ -134,8 +133,8 @@
                   "end": 2269,
                   "name": "test"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -147,7 +146,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -164,6 +164,7 @@
       "type": "VariableDeclaration",
       "start": 2331,
       "end": 2354,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -187,8 +188,7 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -225,8 +225,8 @@
                 "end": 2370,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -285,8 +285,8 @@
                 "end": 2441,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -314,6 +314,7 @@
       "type": "VariableDeclaration",
       "start": 2499,
       "end": 2522,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -337,8 +338,7 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -375,8 +375,8 @@
                 "end": 2538,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -420,7 +420,6 @@
             "start": 2601,
             "end": 2620,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 2602,
@@ -441,8 +440,8 @@
                   "end": 2610,
                   "name": "test"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -454,7 +453,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -471,6 +471,7 @@
       "type": "VariableDeclaration",
       "start": 2672,
       "end": 2696,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -494,8 +495,7 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -532,8 +532,8 @@
                 "end": 2712,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -592,8 +592,8 @@
                 "end": 2783,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 294,
       "end": 650,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -22,9 +23,7 @@
             "type": "ArrowFunctionExpression",
             "start": 316,
             "end": 649,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -104,8 +103,8 @@
                                   "end": 347,
                                   "name": "op"
                                 },
-                                "computed": true,
-                                "optional": false
+                                "optional": false,
+                                "computed": true
                               },
                               "arguments": [
                                 {
@@ -117,9 +116,7 @@
                                       "type": "Property",
                                       "start": 351,
                                       "end": 365,
-                                      "method": false,
-                                      "shorthand": false,
-                                      "computed": false,
+                                      "kind": "init",
                                       "key": {
                                         "type": "Identifier",
                                         "start": 351,
@@ -142,10 +139,12 @@
                                           "end": 365,
                                           "name": "years"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
-                                      "kind": "init"
+                                      "method": false,
+                                      "shorthand": false,
+                                      "computed": false
                                     }
                                   ]
                                 },
@@ -164,8 +163,8 @@
                               "end": 380,
                               "name": "op"
                             },
-                            "computed": true,
-                            "optional": false
+                            "optional": false,
+                            "computed": true
                           },
                           "arguments": [
                             {
@@ -177,9 +176,7 @@
                                   "type": "Property",
                                   "start": 384,
                                   "end": 400,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 384,
@@ -202,10 +199,12 @@
                                       "end": 400,
                                       "name": "months"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 }
                               ]
                             },
@@ -224,8 +223,8 @@
                           "end": 415,
                           "name": "op"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       "arguments": [
                         {
@@ -237,9 +236,7 @@
                               "type": "Property",
                               "start": 419,
                               "end": 433,
-                              "method": false,
-                              "shorthand": false,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 419,
@@ -262,10 +259,12 @@
                                   "end": 433,
                                   "name": "weeks"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false
                             }
                           ]
                         },
@@ -284,8 +283,8 @@
                       "end": 448,
                       "name": "op"
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   },
                   "arguments": [
                     {
@@ -297,9 +296,7 @@
                           "type": "Property",
                           "start": 452,
                           "end": 464,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 452,
@@ -322,10 +319,12 @@
                               "end": 464,
                               "name": "days"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     },
@@ -344,8 +343,8 @@
                   "end": 479,
                   "name": "op"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "arguments": [
                 {
@@ -357,9 +356,7 @@
                       "type": "Property",
                       "start": 485,
                       "end": 499,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 485,
@@ -382,18 +379,18 @@
                           "end": 499,
                           "name": "hours"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 503,
                       "end": 521,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 503,
@@ -416,18 +413,18 @@
                           "end": 521,
                           "name": "minutes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 525,
                       "end": 543,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 525,
@@ -450,18 +447,18 @@
                           "end": 543,
                           "name": "seconds"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 547,
                       "end": 575,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 547,
@@ -484,18 +481,18 @@
                           "end": 575,
                           "name": "milliseconds"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 579,
                       "end": 607,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 579,
@@ -518,18 +515,18 @@
                           "end": 607,
                           "name": "microseconds"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 611,
                       "end": 637,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 611,
@@ -552,10 +549,12 @@
                           "end": 637,
                           "name": "nanoseconds"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 },
@@ -567,16 +566,18 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 730,
       "end": 801,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -608,8 +609,8 @@
                 "end": 768,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -630,13 +631,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 802,
       "end": 864,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -668,8 +669,8 @@
                 "end": 833,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -745,13 +746,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 865,
       "end": 891,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -770,13 +771,13 @@
             "name": "undefined"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 931,
       "end": 1007,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -808,8 +809,8 @@
                 "end": 974,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -830,13 +831,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1009,
       "end": 1049,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -868,8 +869,8 @@
                 "end": 1036,
                 "name": "subtract"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -888,8 +889,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -915,8 +915,8 @@
             "end": 1091,
             "name": "assertZonedDateTimesEqual"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -959,8 +959,8 @@
             "end": 1152,
             "name": "assertZonedDateTimesEqual"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

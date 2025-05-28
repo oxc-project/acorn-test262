@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 287,
       "end": 338,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -42,8 +43,8 @@
                   "end": 321,
                   "name": "PlainYearMonth"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -51,8 +52,8 @@
                 "end": 326,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -66,13 +67,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 340,
       "end": 500,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -103,9 +104,7 @@
                         "type": "Property",
                         "start": 361,
                         "end": 370,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 361,
@@ -119,7 +118,9 @@
                           "value": 2,
                           "raw": "2"
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   },
@@ -160,9 +161,7 @@
                         "type": "Property",
                         "start": 396,
                         "end": 404,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 396,
@@ -176,7 +175,9 @@
                           "value": 1,
                           "raw": "1"
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   },
@@ -217,9 +218,7 @@
                         "type": "Property",
                         "start": 431,
                         "end": 441,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 431,
@@ -231,16 +230,18 @@
                           "start": 439,
                           "end": 441,
                           "operator": "-",
-                          "prefix": true,
                           "argument": {
                             "type": "Literal",
                             "start": 440,
                             "end": 441,
                             "value": 2,
                             "raw": "2"
-                          }
+                          },
+                          "prefix": true
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   },
@@ -281,9 +282,7 @@
                         "type": "Property",
                         "start": 467,
                         "end": 476,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 467,
@@ -295,16 +294,18 @@
                           "start": 474,
                           "end": 476,
                           "operator": "-",
-                          "prefix": true,
                           "argument": {
                             "type": "Literal",
                             "start": 475,
                             "end": 476,
                             "value": 1,
                             "raw": "1"
-                          }
+                          },
+                          "prefix": true
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   },
@@ -334,8 +335,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -346,6 +346,7 @@
         "type": "VariableDeclaration",
         "start": 507,
         "end": 536,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -377,8 +378,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -415,8 +415,8 @@
                   "end": 587,
                   "name": "assertPlainYearMonth"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -439,8 +439,8 @@
                       "end": 594,
                       "name": "add"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -498,8 +498,8 @@
                   "end": 672,
                   "name": "assertPlainYearMonth"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -522,8 +522,8 @@
                       "end": 679,
                       "name": "add"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -541,9 +541,7 @@
                           "type": "Property",
                           "start": 692,
                           "end": 713,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 692,
@@ -557,7 +555,9 @@
                             "value": "constrain",
                             "raw": "\"constrain\""
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }
@@ -610,8 +610,8 @@
                   "end": 783,
                   "name": "assertPlainYearMonth"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -634,8 +634,8 @@
                       "end": 790,
                       "name": "add"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -653,9 +653,7 @@
                           "type": "Property",
                           "start": 803,
                           "end": 821,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 803,
@@ -669,7 +667,9 @@
                             "value": "reject",
                             "raw": "\"reject\""
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }

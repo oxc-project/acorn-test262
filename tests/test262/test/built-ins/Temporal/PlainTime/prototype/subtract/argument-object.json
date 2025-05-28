@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 292,
       "end": 360,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 332,
                 "name": "PlainTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -87,8 +88,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -114,8 +114,8 @@
             "end": 392,
             "name": "assertPlainTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -138,8 +138,8 @@
                 "end": 411,
                 "name": "subtract"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -151,9 +151,7 @@
                     "type": "Property",
                     "start": 414,
                     "end": 423,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 414,
@@ -167,7 +165,9 @@
                       "value": 16,
                       "raw": "16"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -251,8 +251,8 @@
             "end": 535,
             "name": "assertPlainTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -275,8 +275,8 @@
                 "end": 554,
                 "name": "subtract"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -288,9 +288,7 @@
                     "type": "Property",
                     "start": 557,
                     "end": 568,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 557,
@@ -304,7 +302,9 @@
                       "value": 45,
                       "raw": "45"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -388,8 +388,8 @@
             "end": 657,
             "name": "assertPlainTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -412,8 +412,8 @@
                 "end": 676,
                 "name": "subtract"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -425,9 +425,7 @@
                     "type": "Property",
                     "start": 679,
                     "end": 690,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 679,
@@ -441,7 +439,9 @@
                       "value": 45,
                       "raw": "45"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -525,8 +525,8 @@
             "end": 779,
             "name": "assertPlainTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -549,8 +549,8 @@
                 "end": 798,
                 "name": "subtract"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -562,9 +562,7 @@
                     "type": "Property",
                     "start": 801,
                     "end": 818,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 801,
@@ -578,7 +576,9 @@
                       "value": 800,
                       "raw": "800"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -662,8 +662,8 @@
             "end": 913,
             "name": "assertPlainTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -686,8 +686,8 @@
                 "end": 932,
                 "name": "subtract"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -699,9 +699,7 @@
                     "type": "Property",
                     "start": 935,
                     "end": 952,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 935,
@@ -715,7 +713,9 @@
                       "value": 800,
                       "raw": "800"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -799,8 +799,8 @@
             "end": 1047,
             "name": "assertPlainTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -823,8 +823,8 @@
                 "end": 1066,
                 "name": "subtract"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -836,9 +836,7 @@
                     "type": "Property",
                     "start": 1069,
                     "end": 1085,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1069,
@@ -852,7 +850,9 @@
                       "value": 800,
                       "raw": "800"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -936,8 +936,8 @@
             "end": 1179,
             "name": "assertPlainTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -972,8 +972,8 @@
                       "end": 1198,
                       "name": "PlainTime"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -981,8 +981,8 @@
                     "end": 1203,
                     "name": "from"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1001,8 +1001,8 @@
                 "end": 1234,
                 "name": "subtract"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1014,9 +1014,7 @@
                     "type": "Property",
                     "start": 1237,
                     "end": 1247,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1237,
@@ -1028,16 +1026,18 @@
                       "start": 1244,
                       "end": 1247,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 1245,
                         "end": 1247,
                         "value": 16,
                         "raw": "16"
-                      }
+                      },
+                      "prefix": true
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -1121,8 +1121,8 @@
             "end": 1360,
             "name": "assertPlainTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1157,8 +1157,8 @@
                       "end": 1379,
                       "name": "PlainTime"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -1166,8 +1166,8 @@
                     "end": 1384,
                     "name": "from"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1186,8 +1186,8 @@
                 "end": 1415,
                 "name": "subtract"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1199,9 +1199,7 @@
                     "type": "Property",
                     "start": 1418,
                     "end": 1430,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1418,
@@ -1213,16 +1211,18 @@
                       "start": 1427,
                       "end": 1430,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 1428,
                         "end": 1430,
                         "value": 45,
                         "raw": "45"
-                      }
+                      },
+                      "prefix": true
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -1306,8 +1306,8 @@
             "end": 1520,
             "name": "assertPlainTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1342,8 +1342,8 @@
                       "end": 1539,
                       "name": "PlainTime"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -1351,8 +1351,8 @@
                     "end": 1544,
                     "name": "from"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1371,8 +1371,8 @@
                 "end": 1575,
                 "name": "subtract"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1384,9 +1384,7 @@
                     "type": "Property",
                     "start": 1578,
                     "end": 1590,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1578,
@@ -1398,16 +1396,18 @@
                       "start": 1587,
                       "end": 1590,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 1588,
                         "end": 1590,
                         "value": 45,
                         "raw": "45"
-                      }
+                      },
+                      "prefix": true
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -1491,8 +1491,8 @@
             "end": 1680,
             "name": "assertPlainTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1527,8 +1527,8 @@
                       "end": 1699,
                       "name": "PlainTime"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -1536,8 +1536,8 @@
                     "end": 1704,
                     "name": "from"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1556,8 +1556,8 @@
                 "end": 1735,
                 "name": "subtract"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1569,9 +1569,7 @@
                     "type": "Property",
                     "start": 1738,
                     "end": 1756,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1738,
@@ -1583,16 +1581,18 @@
                       "start": 1752,
                       "end": 1756,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 1753,
                         "end": 1756,
                         "value": 800,
                         "raw": "800"
-                      }
+                      },
+                      "prefix": true
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -1676,8 +1676,8 @@
             "end": 1852,
             "name": "assertPlainTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1712,8 +1712,8 @@
                       "end": 1871,
                       "name": "PlainTime"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -1721,8 +1721,8 @@
                     "end": 1876,
                     "name": "from"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1741,8 +1741,8 @@
                 "end": 1907,
                 "name": "subtract"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1754,9 +1754,7 @@
                     "type": "Property",
                     "start": 1910,
                     "end": 1928,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1910,
@@ -1768,16 +1766,18 @@
                       "start": 1924,
                       "end": 1928,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 1925,
                         "end": 1928,
                         "value": 800,
                         "raw": "800"
-                      }
+                      },
+                      "prefix": true
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -1861,8 +1861,8 @@
             "end": 2024,
             "name": "assertPlainTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1897,8 +1897,8 @@
                       "end": 2043,
                       "name": "PlainTime"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -1906,8 +1906,8 @@
                     "end": 2048,
                     "name": "from"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1926,8 +1926,8 @@
                 "end": 2079,
                 "name": "subtract"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1939,9 +1939,7 @@
                     "type": "Property",
                     "start": 2082,
                     "end": 2099,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 2082,
@@ -1953,16 +1951,18 @@
                       "start": 2095,
                       "end": 2099,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 2096,
                         "end": 2099,
                         "value": 800,
                         "raw": "800"
-                      }
+                      },
+                      "prefix": true
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -2046,8 +2046,8 @@
             "end": 2194,
             "name": "assertPlainTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2070,8 +2070,8 @@
                 "end": 2213,
                 "name": "subtract"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2083,9 +2083,7 @@
                     "type": "Property",
                     "start": 2216,
                     "end": 2225,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 2216,
@@ -2099,15 +2097,15 @@
                       "value": 1,
                       "raw": "1"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 2227,
                     "end": 2235,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 2227,
@@ -2121,7 +2119,9 @@
                       "value": 1,
                       "raw": "1"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }

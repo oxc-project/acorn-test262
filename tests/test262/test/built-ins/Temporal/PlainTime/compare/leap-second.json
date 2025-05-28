@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 260,
       "end": 292,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "\"2016-12-31T23:59:60\""
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 293,
       "end": 377,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -68,8 +69,8 @@
                   "end": 327,
                   "name": "PlainTime"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -77,8 +78,8 @@
                 "end": 335,
                 "name": "compare"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -107,8 +108,8 @@
                     "end": 363,
                     "name": "PlainTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -138,8 +139,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -165,8 +165,8 @@
             "end": 394,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -197,6 +197,7 @@
       "type": "VariableDeclaration",
       "start": 476,
       "end": 560,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -232,8 +233,8 @@
                   "end": 510,
                   "name": "PlainTime"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -241,8 +242,8 @@
                 "end": 518,
                 "name": "compare"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -265,8 +266,8 @@
                     "end": 541,
                     "name": "PlainTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -302,8 +303,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -329,8 +329,8 @@
             "end": 577,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -381,9 +381,7 @@
               "type": "Property",
               "start": 668,
               "end": 678,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 668,
@@ -397,15 +395,15 @@
                 "value": 2016,
                 "raw": "2016"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             },
             {
               "type": "Property",
               "start": 680,
               "end": 689,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 680,
@@ -419,15 +417,15 @@
                 "value": 12,
                 "raw": "12"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             },
             {
               "type": "Property",
               "start": 691,
               "end": 698,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 691,
@@ -441,15 +439,15 @@
                 "value": 31,
                 "raw": "31"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             },
             {
               "type": "Property",
               "start": 700,
               "end": 708,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 700,
@@ -463,15 +461,15 @@
                 "value": 23,
                 "raw": "23"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             },
             {
               "type": "Property",
               "start": 710,
               "end": 720,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 710,
@@ -485,15 +483,15 @@
                 "value": 59,
                 "raw": "59"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             },
             {
               "type": "Property",
               "start": 722,
               "end": 732,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 722,
@@ -507,7 +505,9 @@
                 "value": 60,
                 "raw": "60"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             }
           ]
         }
@@ -517,6 +517,7 @@
       "type": "VariableDeclaration",
       "start": 736,
       "end": 820,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -552,8 +553,8 @@
                   "end": 770,
                   "name": "PlainTime"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -561,8 +562,8 @@
                 "end": 778,
                 "name": "compare"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -591,8 +592,8 @@
                     "end": 806,
                     "name": "PlainTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -622,8 +623,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -649,8 +649,8 @@
             "end": 837,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -681,6 +681,7 @@
       "type": "VariableDeclaration",
       "start": 923,
       "end": 1007,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -716,8 +717,8 @@
                   "end": 957,
                   "name": "PlainTime"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -725,8 +726,8 @@
                 "end": 965,
                 "name": "compare"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -749,8 +750,8 @@
                     "end": 988,
                     "name": "PlainTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -786,8 +787,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -813,8 +813,8 @@
             "end": 1024,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

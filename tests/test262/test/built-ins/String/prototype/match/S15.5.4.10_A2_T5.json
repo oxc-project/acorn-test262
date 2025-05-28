@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 265,
       "end": 294,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -40,13 +41,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 296,
       "end": 329,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -66,8 +67,7 @@
             "raw": "\"123456abcde7890\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -101,8 +101,8 @@
                 "end": 438,
                 "name": "match"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -125,8 +125,8 @@
             "end": 455,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -193,8 +193,8 @@
                           "end": 590,
                           "name": "match"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -217,8 +217,8 @@
                       "end": 607,
                       "name": "length"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -236,6 +236,7 @@
         "type": "VariableDeclaration",
         "start": 789,
         "end": 799,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -255,8 +256,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -285,8 +285,8 @@
             "end": 822,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "update": {
@@ -339,8 +339,8 @@
                       "end": 852,
                       "name": "match"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -363,8 +363,8 @@
                   "end": 865,
                   "name": "mi"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "operator": "!==",
               "right": {
@@ -383,8 +383,8 @@
                   "end": 883,
                   "name": "mi"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               }
             },
             "consequent": {
@@ -518,8 +518,8 @@
                                 "end": 1074,
                                 "name": "match"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -542,8 +542,8 @@
                             "end": 1087,
                             "name": "mi"
                           },
-                          "computed": true,
-                          "optional": false
+                          "optional": false,
+                          "computed": true
                         }
                       }
                     ]

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 314,
       "end": 753,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -82,13 +83,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 754,
       "end": 808,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -120,8 +121,8 @@
                 "end": 798,
                 "name": "PlainYearMonth"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -141,8 +142,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -168,17 +168,15 @@
             "end": 831,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 832,
             "end": 985,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -217,8 +215,8 @@
                         "end": 858,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -231,9 +229,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 880,
                         "end": 906,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -256,8 +252,8 @@
                               "end": 901,
                               "name": "equals"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -268,20 +264,14 @@
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 912,
                         "end": 978,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 973,
-                            "end": 976,
-                            "name": "arg"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -303,6 +293,14 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 973,
+                            "end": 976,
+                            "name": "arg"
+                          }
                         ]
                       }
                     ],
@@ -310,7 +308,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

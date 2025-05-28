@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 291,
       "end": 347,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 333,
                 "name": "PlainYearMonth"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -47,14 +48,14 @@
                 "start": 334,
                 "end": 341,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 335,
                   "end": 341,
                   "value": 100000,
                   "raw": "100000"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -66,8 +67,7 @@
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -93,8 +93,8 @@
             "end": 364,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -117,8 +117,8 @@
                 "end": 380,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -176,8 +176,8 @@
               "end": 482,
               "name": "PlainYearMonth"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -185,14 +185,14 @@
               "start": 483,
               "end": 489,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 484,
                 "end": 489,
                 "value": 10000,
                 "raw": "10000"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "Literal",
@@ -229,8 +229,8 @@
             "end": 511,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -253,8 +253,8 @@
                 "end": 527,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -312,8 +312,8 @@
               "end": 640,
               "name": "PlainYearMonth"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -321,14 +321,14 @@
               "start": 641,
               "end": 646,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 642,
                 "end": 646,
                 "value": 9999,
                 "raw": "9999"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "Literal",
@@ -365,8 +365,8 @@
             "end": 668,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -389,8 +389,8 @@
                 "end": 684,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -448,8 +448,8 @@
               "end": 796,
               "name": "PlainYearMonth"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -457,14 +457,14 @@
               "start": 797,
               "end": 802,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 798,
                 "end": 802,
                 "value": 1000,
                 "raw": "1000"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "Literal",
@@ -501,8 +501,8 @@
             "end": 824,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -525,8 +525,8 @@
                 "end": 840,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -584,8 +584,8 @@
               "end": 953,
               "name": "PlainYearMonth"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -593,14 +593,14 @@
               "start": 954,
               "end": 958,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 955,
                 "end": 958,
                 "value": 999,
                 "raw": "999"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "Literal",
@@ -637,8 +637,8 @@
             "end": 981,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -661,8 +661,8 @@
                 "end": 997,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -720,8 +720,8 @@
               "end": 1109,
               "name": "PlainYearMonth"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -729,14 +729,14 @@
               "start": 1110,
               "end": 1112,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1111,
                 "end": 1112,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "Literal",
@@ -773,8 +773,8 @@
             "end": 1134,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -797,8 +797,8 @@
                 "end": 1150,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -856,8 +856,8 @@
               "end": 1240,
               "name": "PlainYearMonth"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -902,8 +902,8 @@
             "end": 1264,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -926,8 +926,8 @@
                 "end": 1280,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -985,8 +985,8 @@
               "end": 1366,
               "name": "PlainYearMonth"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1031,8 +1031,8 @@
             "end": 1390,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1055,8 +1055,8 @@
                 "end": 1406,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1114,8 +1114,8 @@
               "end": 1492,
               "name": "PlainYearMonth"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1160,8 +1160,8 @@
             "end": 1518,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1184,8 +1184,8 @@
                 "end": 1534,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1243,8 +1243,8 @@
               "end": 1643,
               "name": "PlainYearMonth"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1289,8 +1289,8 @@
             "end": 1670,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1313,8 +1313,8 @@
                 "end": 1686,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1372,8 +1372,8 @@
               "end": 1796,
               "name": "PlainYearMonth"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1418,8 +1418,8 @@
             "end": 1823,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1442,8 +1442,8 @@
                 "end": 1839,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1501,8 +1501,8 @@
               "end": 1948,
               "name": "PlainYearMonth"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1547,8 +1547,8 @@
             "end": 1976,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1571,8 +1571,8 @@
                 "end": 1992,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1630,8 +1630,8 @@
               "end": 2105,
               "name": "PlainYearMonth"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1676,8 +1676,8 @@
             "end": 2134,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1700,8 +1700,8 @@
                 "end": 2150,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

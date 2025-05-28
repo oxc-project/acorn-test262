@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 280,
       "end": 1104,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -362,8 +363,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -389,17 +389,15 @@
             "end": 1119,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 1120,
             "end": 1323,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -437,6 +435,7 @@
                   "type": "VariableDeclaration",
                   "start": 1162,
                   "end": 1210,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -472,8 +471,8 @@
                               "end": 1199,
                               "name": "ZonedDateTime"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "property": {
                             "type": "Identifier",
@@ -481,8 +480,8 @@
                             "end": 1204,
                             "name": "from"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -495,8 +494,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -522,8 +520,8 @@
                         "end": 1230,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -542,8 +540,8 @@
                           "end": 1253,
                           "name": "timeZoneId"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       {
                         "type": "Identifier",
@@ -555,14 +553,6 @@
                         "type": "TemplateLiteral",
                         "start": 1277,
                         "end": 1316,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1302,
-                            "end": 1313,
-                            "name": "description"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -584,6 +574,14 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1302,
+                            "end": 1313,
+                            "name": "description"
+                          }
                         ]
                       }
                     ],
@@ -591,7 +589,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

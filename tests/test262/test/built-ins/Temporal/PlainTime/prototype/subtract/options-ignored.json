@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 291,
       "end": 472,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -96,9 +97,7 @@
                 "type": "ArrowFunctionExpression",
                 "start": 384,
                 "end": 392,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
@@ -106,7 +105,9 @@
                   "start": 390,
                   "end": 392,
                   "body": []
-                }
+                },
+                "id": null,
+                "generator": false
               },
               {
                 "type": "ObjectExpression",
@@ -117,9 +118,7 @@
                     "type": "Property",
                     "start": 398,
                     "end": 466,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "get",
                     "key": {
                       "type": "Identifier",
                       "start": 402,
@@ -131,7 +130,6 @@
                       "start": 410,
                       "end": 466,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -166,22 +164,25 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "get"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 474,
       "end": 533,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -217,8 +218,8 @@
                   "end": 505,
                   "name": "PlainTime"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -226,8 +227,8 @@
                 "end": 510,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -241,8 +242,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -253,6 +253,7 @@
         "type": "VariableDeclaration",
         "start": 539,
         "end": 552,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -266,8 +267,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -304,8 +304,8 @@
                   "end": 599,
                   "name": "assertPlainTime"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -328,8 +328,8 @@
                       "end": 613,
                       "name": "subtract"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -341,9 +341,7 @@
                           "type": "Property",
                           "start": 616,
                           "end": 624,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 616,
@@ -357,7 +355,9 @@
                             "value": 1,
                             "raw": "1"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     },

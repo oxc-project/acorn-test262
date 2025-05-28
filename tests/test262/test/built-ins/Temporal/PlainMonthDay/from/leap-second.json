@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 296,
       "end": 328,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "\"2016-12-31T23:59:60\""
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 330,
       "end": 379,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -68,8 +69,8 @@
                   "end": 368,
                   "name": "PlainMonthDay"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -77,8 +78,8 @@
                 "end": 373,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -91,8 +92,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -118,8 +118,8 @@
             "end": 415,
             "name": "assertPlainMonthDay"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -157,6 +157,7 @@
       "type": "VariableDeclaration",
       "start": 501,
       "end": 574,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -192,8 +193,8 @@
                   "end": 539,
                   "name": "PlainMonthDay"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -201,8 +202,8 @@
                 "end": 544,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -220,9 +221,7 @@
                     "type": "Property",
                     "start": 552,
                     "end": 570,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 552,
@@ -236,7 +235,9 @@
                       "value": "reject",
                       "raw": "\"reject\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -244,8 +245,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -271,8 +271,8 @@
             "end": 610,
             "name": "assertPlainMonthDay"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -330,9 +330,7 @@
               "type": "Property",
               "start": 704,
               "end": 714,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 704,
@@ -346,15 +344,15 @@
                 "value": 2016,
                 "raw": "2016"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             },
             {
               "type": "Property",
               "start": 716,
               "end": 725,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 716,
@@ -368,15 +366,15 @@
                 "value": 12,
                 "raw": "12"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             },
             {
               "type": "Property",
               "start": 727,
               "end": 734,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 727,
@@ -390,15 +388,15 @@
                 "value": 31,
                 "raw": "31"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             },
             {
               "type": "Property",
               "start": 736,
               "end": 744,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 736,
@@ -412,15 +410,15 @@
                 "value": 23,
                 "raw": "23"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             },
             {
               "type": "Property",
               "start": 746,
               "end": 756,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 746,
@@ -434,15 +432,15 @@
                 "value": 59,
                 "raw": "59"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             },
             {
               "type": "Property",
               "start": 758,
               "end": 768,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 758,
@@ -456,7 +454,9 @@
                 "value": 60,
                 "raw": "60"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             }
           ]
         }
@@ -466,6 +466,7 @@
       "type": "VariableDeclaration",
       "start": 773,
       "end": 822,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -501,8 +502,8 @@
                   "end": 811,
                   "name": "PlainMonthDay"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -510,8 +511,8 @@
                 "end": 816,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -524,8 +525,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -551,8 +551,8 @@
             "end": 858,
             "name": "assertPlainMonthDay"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -590,6 +590,7 @@
       "type": "VariableDeclaration",
       "start": 948,
       "end": 1021,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -625,8 +626,8 @@
                   "end": 986,
                   "name": "PlainMonthDay"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -634,8 +635,8 @@
                 "end": 991,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -653,9 +654,7 @@
                     "type": "Property",
                     "start": 999,
                     "end": 1017,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 999,
@@ -669,7 +668,9 @@
                       "value": "reject",
                       "raw": "\"reject\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -677,8 +678,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -704,8 +704,8 @@
             "end": 1057,
             "name": "assertPlainMonthDay"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -27,8 +27,8 @@
             "end": 559,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 572,
             "end": 616,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -75,8 +74,8 @@
                         "end": 607,
                         "name": "fromCodePoint"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -91,7 +90,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -121,8 +121,8 @@
             "end": 633,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -136,7 +136,6 @@
             "start": 646,
             "end": 694,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -169,8 +168,8 @@
                         "end": 681,
                         "name": "fromCodePoint"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -192,7 +191,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -222,8 +222,8 @@
             "end": 711,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -237,7 +237,6 @@
             "start": 724,
             "end": 770,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -270,8 +269,8 @@
                         "end": 759,
                         "name": "fromCodePoint"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -286,7 +285,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -316,8 +316,8 @@
             "end": 823,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -331,7 +331,6 @@
             "start": 836,
             "end": 885,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -364,8 +363,8 @@
                         "end": 871,
                         "name": "fromCodePoint"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -379,7 +378,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -409,8 +409,8 @@
             "end": 902,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -424,7 +424,6 @@
             "start": 915,
             "end": 959,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -457,8 +456,8 @@
                         "end": 950,
                         "name": "fromCodePoint"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -473,7 +472,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -503,8 +503,8 @@
             "end": 976,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -518,7 +518,6 @@
             "start": 989,
             "end": 1033,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -551,8 +550,8 @@
                         "end": 1024,
                         "name": "fromCodePoint"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -567,7 +566,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

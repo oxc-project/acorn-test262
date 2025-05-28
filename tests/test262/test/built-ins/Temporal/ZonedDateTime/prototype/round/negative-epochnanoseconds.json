@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 669,
       "end": 744,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 712,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -47,7 +48,6 @@
                 "start": 713,
                 "end": 735,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 714,
@@ -55,7 +55,8 @@
                   "value": null,
                   "raw": "13849764_999_999_999n",
                   "bigint": "13849764999999999"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -67,13 +68,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 895,
       "end": 958,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -105,8 +106,8 @@
                 "end": 924,
                 "name": "round"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -118,9 +119,7 @@
                     "type": "Property",
                     "start": 927,
                     "end": 954,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 927,
@@ -134,7 +133,9 @@
                       "value": "millisecond",
                       "raw": "\"millisecond\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -142,8 +143,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -169,8 +169,8 @@
             "end": 975,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -189,15 +189,14 @@
               "end": 999,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "UnaryExpression",
             "start": 1001,
             "end": 1023,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1002,
@@ -205,7 +204,8 @@
               "value": null,
               "raw": "13849765_000_000_000n",
               "bigint": "13849765000000000"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false

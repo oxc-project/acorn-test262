@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 259,
       "end": 638,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -48,8 +49,8 @@
                         "end": 304,
                         "name": "ZonedDateTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -103,8 +104,8 @@
                         "end": 403,
                         "name": "ZonedDateTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -158,8 +159,8 @@
                         "end": 480,
                         "name": "ZonedDateTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -213,8 +214,8 @@
                         "end": 570,
                         "name": "ZonedDateTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -246,13 +247,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 640,
       "end": 752,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -290,9 +291,7 @@
                     "type": "Property",
                     "start": 674,
                     "end": 748,
-                    "method": true,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 674,
@@ -304,7 +303,6 @@
                       "start": 677,
                       "end": 748,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -339,17 +337,19 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -360,6 +360,7 @@
         "type": "VariableDeclaration",
         "start": 758,
         "end": 784,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -386,8 +387,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -424,8 +424,8 @@
                   "end": 815,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -448,8 +448,8 @@
                       "end": 831,
                       "name": "toJSON"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -495,8 +495,8 @@
                   "end": 891,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -519,8 +519,8 @@
                       "end": 907,
                       "name": "toJSON"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {

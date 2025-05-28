@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 302,
       "end": 352,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -47,8 +48,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -59,6 +59,7 @@
         "type": "VariableDeclaration",
         "start": 359,
         "end": 388,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -85,8 +86,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -103,6 +103,7 @@
             "type": "VariableDeclaration",
             "start": 411,
             "end": 463,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -123,9 +124,7 @@
                       "type": "Property",
                       "start": 425,
                       "end": 441,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 425,
@@ -139,15 +138,15 @@
                         "value": "M11",
                         "raw": "\"M11\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 443,
                       "end": 450,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 443,
@@ -161,15 +160,15 @@
                         "value": 18,
                         "raw": "18"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 452,
                       "end": 460,
-                      "method": false,
-                      "shorthand": true,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 452,
@@ -182,13 +181,14 @@
                         "end": 460,
                         "name": "calendar"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false
                     }
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -214,8 +214,8 @@
                   "end": 478,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -228,9 +228,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 496,
                   "end": 534,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -257,8 +255,8 @@
                           "end": 524,
                           "name": "PlainMonthDay"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -266,8 +264,8 @@
                         "end": 529,
                         "name": "from"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -278,20 +276,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 538,
                   "end": 581,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 541,
-                      "end": 552,
-                      "name": "description"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -312,6 +304,14 @@
                         "cooked": " is not a valid calendar ID"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 541,
+                      "end": 552,
+                      "name": "description"
                     }
                   ]
                 }

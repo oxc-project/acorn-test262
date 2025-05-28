@@ -13,7 +13,6 @@
         "end": 384,
         "name": "C"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -48,9 +47,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 408,
                   "end": 416,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -58,15 +55,15 @@
                     "start": 414,
                     "end": 416,
                     "body": []
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "ArrowFunctionExpression",
                   "start": 418,
                   "end": 426,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -74,14 +71,17 @@
                     "start": 424,
                     "end": 426,
                     "body": []
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -107,8 +107,8 @@
             "end": 453,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -133,8 +133,8 @@
               "end": 471,
               "name": "species"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "ObjectExpression",
@@ -145,9 +145,7 @@
                 "type": "Property",
                 "start": 477,
                 "end": 552,
-                "method": true,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 477,
@@ -159,7 +157,6 @@
                   "start": 480,
                   "end": 552,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -194,9 +191,12 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": true,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -229,15 +229,14 @@
             "end": 567,
             "name": "resolve"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 570,
           "end": 643,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -272,7 +271,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -304,8 +304,8 @@
               "end": 657,
               "name": "any"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -313,8 +313,8 @@
             "end": 662,
             "name": "call"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

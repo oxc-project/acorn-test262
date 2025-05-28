@@ -28,15 +28,14 @@
             "end": 389,
             "name": "valueOf"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 392,
           "end": 426,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -58,7 +57,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -87,15 +87,14 @@
             "end": 443,
             "name": "toString"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 446,
           "end": 477,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -116,7 +115,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -149,8 +149,8 @@
               "end": 498,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -158,8 +158,8 @@
             "end": 504,
             "name": "slice"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "MemberExpression",
@@ -181,8 +181,8 @@
               "end": 523,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -190,8 +190,8 @@
             "end": 529,
             "name": "slice"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       }
     },
@@ -223,8 +223,8 @@
               "end": 638,
               "name": "slice"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -265,8 +265,8 @@
                     "end": 661,
                     "name": "slice"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -291,8 +291,8 @@
                 "end": 679,
                 "name": "length"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           ],
           "optional": false
@@ -358,8 +358,8 @@
                         "end": 817,
                         "name": "slice"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -400,8 +400,8 @@
                               "end": 840,
                               "name": "slice"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -426,8 +426,8 @@
                           "end": 858,
                           "name": "length"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     ],
                     "optional": false
@@ -450,7 +450,6 @@
         "end": 962,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -459,7 +458,8 @@
         "start": 965,
         "end": 967,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",

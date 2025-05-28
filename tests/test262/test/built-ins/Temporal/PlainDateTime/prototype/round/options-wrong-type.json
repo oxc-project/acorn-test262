@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 316,
       "end": 391,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -74,13 +75,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 393,
       "end": 449,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -112,8 +113,8 @@
                 "end": 436,
                 "name": "PlainDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -140,8 +141,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -167,8 +167,8 @@
             "end": 463,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -181,9 +181,7 @@
             "type": "ArrowFunctionExpression",
             "start": 475,
             "end": 497,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -206,12 +204,14 @@
                   "end": 495,
                   "name": "round"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -233,6 +233,7 @@
         "type": "VariableDeclaration",
         "start": 546,
         "end": 557,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -246,8 +247,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -284,8 +284,8 @@
                   "end": 590,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -298,9 +298,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 602,
                   "end": 629,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -323,8 +321,8 @@
                         "end": 622,
                         "name": "round"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -335,27 +333,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 635,
                   "end": 684,
-                  "expressions": [
-                    {
-                      "type": "UnaryExpression",
-                      "start": 670,
-                      "end": 682,
-                      "operator": "typeof",
-                      "prefix": true,
-                      "argument": {
-                        "type": "Identifier",
-                        "start": 677,
-                        "end": 682,
-                        "name": "value"
-                      }
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -376,6 +361,21 @@
                         "cooked": ""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "UnaryExpression",
+                      "start": 670,
+                      "end": 682,
+                      "operator": "typeof",
+                      "argument": {
+                        "type": "Identifier",
+                        "start": 677,
+                        "end": 682,
+                        "name": "value"
+                      },
+                      "prefix": true
                     }
                   ]
                 }

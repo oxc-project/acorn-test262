@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 615,
       "end": 633,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -30,8 +31,7 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -58,8 +58,8 @@
             "end": 650,
             "name": "lastIndex"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ObjectExpression",
@@ -70,9 +70,7 @@
               "type": "Property",
               "start": 657,
               "end": 686,
-              "method": true,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 657,
@@ -84,7 +82,6 @@
                 "start": 664,
                 "end": 686,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -106,9 +103,12 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               },
-              "kind": "init"
+              "method": true,
+              "shorthand": false,
+              "computed": false
             }
           ]
         }
@@ -118,6 +118,7 @@
       "type": "VariableDeclaration",
       "start": 690,
       "end": 707,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -137,13 +138,13 @@
             "raw": "'abcd'"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 708,
       "end": 748,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -185,11 +186,11 @@
                   "end": 741,
                   "name": "matchAll"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "arguments": [
               {
@@ -202,8 +203,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -230,8 +230,8 @@
             "end": 830,
             "name": "lastIndex"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -266,8 +266,8 @@
             "end": 859,
             "name": "compareIterator"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

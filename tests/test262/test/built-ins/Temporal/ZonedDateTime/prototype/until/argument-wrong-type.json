@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 357,
       "end": 380,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "\"UTC\""
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 381,
       "end": 439,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -64,8 +65,8 @@
                 "end": 424,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -85,13 +86,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 441,
       "end": 720,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -258,8 +259,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -270,6 +270,7 @@
         "type": "VariableDeclaration",
         "start": 727,
         "end": 751,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -296,8 +297,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -334,8 +334,8 @@
                   "end": 788,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -351,13 +351,13 @@
                       "start": 794,
                       "end": 804,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "Identifier",
                         "start": 801,
                         "end": 804,
                         "name": "arg"
-                      }
+                      },
+                      "prefix": true
                     },
                     "operator": "===",
                     "right": {
@@ -385,9 +385,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 848,
                   "end": 873,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -410,8 +408,8 @@
                         "end": 868,
                         "name": "until"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -422,20 +420,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 879,
                   "end": 934,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 882,
-                      "end": 893,
-                      "name": "description"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -457,6 +449,14 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 882,
+                      "end": 893,
+                      "name": "description"
+                    }
                   ]
                 }
               ],
@@ -470,6 +470,7 @@
       "type": "VariableDeclaration",
       "start": 943,
       "end": 1162,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -554,8 +555,8 @@
                       "end": 1041,
                       "name": "ZonedDateTime"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   {
                     "type": "Literal",
@@ -591,8 +592,8 @@
                         "end": 1103,
                         "name": "ZonedDateTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -600,8 +601,8 @@
                       "end": 1113,
                       "name": "prototype"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   {
                     "type": "Literal",
@@ -615,8 +616,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -627,6 +627,7 @@
         "type": "VariableDeclaration",
         "start": 1169,
         "end": 1193,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -653,8 +654,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -691,8 +691,8 @@
                   "end": 1230,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -705,9 +705,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1242,
                   "end": 1267,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -730,8 +728,8 @@
                         "end": 1262,
                         "name": "until"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -742,20 +740,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1269,
                   "end": 1346,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1272,
-                      "end": 1283,
-                      "name": "description"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -776,6 +768,14 @@
                         "cooked": " is not a valid property bag and does not convert to a string"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1272,
+                      "end": 1283,
+                      "name": "description"
                     }
                   ]
                 }

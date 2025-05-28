@@ -12,6 +12,7 @@
         "type": "VariableDeclaration",
         "start": 1585,
         "end": 1596,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -70,6 +70,7 @@
               "type": "VariableDeclaration",
               "start": 1625,
               "end": 1633,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -83,8 +84,7 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "var"
+              ]
             },
             "right": {
               "type": "ArrayExpression",
@@ -172,6 +172,7 @@
                   "type": "VariableDeclaration",
                   "start": 1804,
                   "end": 1833,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -192,9 +193,7 @@
                             "type": "Property",
                             "start": 1816,
                             "end": 1831,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": true,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1817,
@@ -207,13 +206,14 @@
                               "end": 1831,
                               "name": "invalid"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": true
                           }
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -239,8 +239,8 @@
                         "end": 1851,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -253,9 +253,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 1876,
                         "end": 1910,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -282,8 +280,8 @@
                                 "end": 1899,
                                 "name": "Duration"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -291,8 +289,8 @@
                               "end": 1904,
                               "name": "from"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -303,40 +301,14 @@
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 1918,
                         "end": 1962,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1928,
-                            "end": 1932,
-                            "name": "name"
-                          },
-                          {
-                            "type": "CallExpression",
-                            "start": 1945,
-                            "end": 1960,
-                            "callee": {
-                              "type": "Identifier",
-                              "start": 1945,
-                              "end": 1951,
-                              "name": "String"
-                            },
-                            "arguments": [
-                              {
-                                "type": "Identifier",
-                                "start": 1952,
-                                "end": 1959,
-                                "name": "invalid"
-                              }
-                            ],
-                            "optional": false
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -367,6 +339,34 @@
                               "cooked": ""
                             },
                             "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1928,
+                            "end": 1932,
+                            "name": "name"
+                          },
+                          {
+                            "type": "CallExpression",
+                            "start": 1945,
+                            "end": 1960,
+                            "callee": {
+                              "type": "Identifier",
+                              "start": 1945,
+                              "end": 1951,
+                              "name": "String"
+                            },
+                            "arguments": [
+                              {
+                                "type": "Identifier",
+                                "start": 1952,
+                                "end": 1959,
+                                "name": "invalid"
+                              }
+                            ],
+                            "optional": false
                           }
                         ]
                       }

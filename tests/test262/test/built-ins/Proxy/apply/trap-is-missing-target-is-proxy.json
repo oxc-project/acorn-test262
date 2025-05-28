@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 638,
       "end": 683,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 667,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -47,17 +48,17 @@
               "end": 682,
               "name": "hasOwnProperty"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 684,
       "end": 725,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -95,13 +96,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 726,
       "end": 772,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -139,13 +140,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 774,
       "end": 793,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -166,9 +167,7 @@
                 "type": "Property",
                 "start": 785,
                 "end": 791,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 785,
@@ -182,13 +181,14 @@
                   "value": 1,
                   "raw": "1"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -225,8 +225,8 @@
                 "end": 817,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -269,7 +269,6 @@
             "start": 839,
             "end": 880,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 840,
@@ -290,8 +289,8 @@
                   "end": 853,
                   "name": "apply"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -322,7 +321,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false

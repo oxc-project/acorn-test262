@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1763,
       "end": 1786,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -30,8 +31,7 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -53,7 +53,6 @@
             "start": 1794,
             "end": 1810,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 1795,
@@ -74,8 +73,8 @@
                   "end": 1803,
                   "name": "test"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -87,7 +86,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -120,7 +120,6 @@
             "start": 1887,
             "end": 1903,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 1888,
@@ -141,8 +140,8 @@
                   "end": 1896,
                   "name": "test"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -154,7 +153,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -202,8 +202,8 @@
                 "end": 1988,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -262,8 +262,8 @@
                 "end": 2065,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -291,6 +291,7 @@
       "type": "VariableDeclaration",
       "start": 2128,
       "end": 2167,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -330,8 +331,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -353,7 +353,6 @@
             "start": 2175,
             "end": 2191,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 2176,
@@ -374,8 +373,8 @@
                   "end": 2184,
                   "name": "test"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -387,7 +386,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -420,7 +420,6 @@
             "start": 2268,
             "end": 2284,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 2269,
@@ -441,8 +440,8 @@
                   "end": 2277,
                   "name": "test"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -454,7 +453,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -502,8 +502,8 @@
                 "end": 2369,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -562,8 +562,8 @@
                 "end": 2446,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -591,6 +591,7 @@
       "type": "VariableDeclaration",
       "start": 2509,
       "end": 2532,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -614,8 +615,7 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -637,7 +637,6 @@
             "start": 2540,
             "end": 2556,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 2541,
@@ -658,8 +657,8 @@
                   "end": 2549,
                   "name": "test"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -671,7 +670,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -704,7 +704,6 @@
             "start": 2633,
             "end": 2649,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 2634,
@@ -725,8 +724,8 @@
                   "end": 2642,
                   "name": "test"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -738,7 +737,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -786,8 +786,8 @@
                 "end": 2734,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -846,8 +846,8 @@
                 "end": 2811,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -875,6 +875,7 @@
       "type": "VariableDeclaration",
       "start": 2874,
       "end": 2913,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -914,8 +915,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -937,7 +937,6 @@
             "start": 2921,
             "end": 2937,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 2922,
@@ -958,8 +957,8 @@
                   "end": 2930,
                   "name": "test"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -971,7 +970,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1004,7 +1004,6 @@
             "start": 3014,
             "end": 3030,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 3015,
@@ -1025,8 +1024,8 @@
                   "end": 3023,
                   "name": "test"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1038,7 +1037,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1086,8 +1086,8 @@
                 "end": 3115,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1146,8 +1146,8 @@
                 "end": 3192,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1175,6 +1175,7 @@
       "type": "VariableDeclaration",
       "start": 3255,
       "end": 3278,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1198,8 +1199,7 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1236,8 +1236,8 @@
                 "end": 3294,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1281,7 +1281,6 @@
             "start": 3338,
             "end": 3354,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 3339,
@@ -1302,8 +1301,8 @@
                   "end": 3347,
                   "name": "test"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1315,7 +1314,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1363,8 +1363,8 @@
                 "end": 3403,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1423,8 +1423,8 @@
                 "end": 3455,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1483,8 +1483,8 @@
                 "end": 3507,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1528,7 +1528,6 @@
             "start": 3544,
             "end": 3560,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 3545,
@@ -1549,8 +1548,8 @@
                   "end": 3553,
                   "name": "test"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1562,7 +1561,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1579,6 +1579,7 @@
       "type": "VariableDeclaration",
       "start": 3588,
       "end": 3627,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1618,8 +1619,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1656,8 +1656,8 @@
                 "end": 3643,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1701,7 +1701,6 @@
             "start": 3687,
             "end": 3703,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 3688,
@@ -1722,8 +1721,8 @@
                   "end": 3696,
                   "name": "test"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1735,7 +1734,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1783,8 +1783,8 @@
                 "end": 3752,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1843,8 +1843,8 @@
                 "end": 3804,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1903,8 +1903,8 @@
                 "end": 3856,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1948,7 +1948,6 @@
             "start": 3893,
             "end": 3909,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 3894,
@@ -1969,8 +1968,8 @@
                   "end": 3902,
                   "name": "test"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1982,7 +1981,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

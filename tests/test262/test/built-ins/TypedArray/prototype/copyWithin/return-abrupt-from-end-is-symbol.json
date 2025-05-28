@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 974,
       "end": 992,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -40,8 +41,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -63,7 +63,6 @@
             "start": 1025,
             "end": 1144,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -83,6 +82,7 @@
                   "type": "VariableDeclaration",
                   "start": 1042,
                   "end": 1064,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -107,8 +107,7 @@
                         "arguments": []
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -134,8 +133,8 @@
                         "end": 1080,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -149,7 +148,6 @@
                         "start": 1092,
                         "end": 1140,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -182,8 +180,8 @@
                                     "end": 1126,
                                     "name": "copyWithin"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -211,14 +209,16 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

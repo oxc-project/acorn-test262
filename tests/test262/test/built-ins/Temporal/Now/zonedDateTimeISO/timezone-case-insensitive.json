@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 252,
       "end": 275,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "'UtC'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 276,
       "end": 331,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -68,8 +69,8 @@
                   "end": 303,
                   "name": "Now"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -77,8 +78,8 @@
                 "end": 320,
                 "name": "zonedDateTimeISO"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -91,8 +92,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -118,8 +118,8 @@
             "end": 348,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -138,8 +138,8 @@
               "end": 366,
               "name": "timeZoneId"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -152,14 +152,6 @@
             "type": "TemplateLiteral",
             "start": 375,
             "end": 420,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 409,
-                "end": 417,
-                "name": "timeZone"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -180,6 +172,14 @@
                   "cooked": "\""
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 409,
+                "end": 417,
+                "name": "timeZone"
               }
             ]
           }

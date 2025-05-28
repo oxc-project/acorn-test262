@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 273,
       "end": 306,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -31,13 +32,13 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 307,
       "end": 340,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -62,8 +63,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -90,8 +90,8 @@
             "end": 358,
             "name": "count"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -126,8 +126,8 @@
             "end": 384,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -150,6 +150,7 @@
       "type": "VariableDeclaration",
       "start": 403,
       "end": 497,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -181,15 +182,14 @@
                 "end": 436,
                 "name": "evaluate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
                 "type": "TemplateLiteral",
                 "start": 437,
                 "end": 495,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -201,19 +201,20 @@
                     },
                     "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
             ],
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 499,
       "end": 639,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -245,15 +246,14 @@
                 "end": 532,
                 "name": "evaluate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
                 "type": "TemplateLiteral",
                 "start": 533,
                 "end": 637,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -265,19 +265,20 @@
                     },
                     "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
             ],
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 641,
       "end": 680,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -310,8 +311,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -337,8 +337,8 @@
             "end": 701,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -368,6 +368,7 @@
       "type": "VariableDeclaration",
       "start": 753,
       "end": 809,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -399,8 +400,8 @@
                 "end": 786,
                 "name": "evaluate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -414,8 +415,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -441,8 +441,8 @@
             "end": 830,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -492,8 +492,8 @@
             "end": 900,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -543,8 +543,8 @@
             "end": 968,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -567,8 +567,8 @@
                 "end": 984,
                 "name": "evaluate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -592,7 +592,6 @@
             "type": "TemplateLiteral",
             "start": 1009,
             "end": 1056,
-            "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -604,7 +603,8 @@
                 },
                 "tail": true
               }
-            ]
+            ],
+            "expressions": []
           }
         ],
         "optional": false
@@ -634,8 +634,8 @@
             "end": 1076,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -693,8 +693,8 @@
             "end": 1165,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -717,8 +717,8 @@
                 "end": 1181,
                 "name": "evaluate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -773,8 +773,8 @@
             "end": 1265,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -832,8 +832,8 @@
             "end": 1354,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -856,8 +856,8 @@
                 "end": 1370,
                 "name": "evaluate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -912,8 +912,8 @@
             "end": 1454,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -936,8 +936,8 @@
                 "end": 1470,
                 "name": "evaluate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -992,8 +992,8 @@
             "end": 1568,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1012,8 +1012,8 @@
               "end": 1585,
               "name": "count"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

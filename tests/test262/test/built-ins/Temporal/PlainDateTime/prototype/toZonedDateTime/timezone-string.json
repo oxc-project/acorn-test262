@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 280,
       "end": 336,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 323,
                 "name": "PlainDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -66,8 +67,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -108,17 +108,15 @@
             "end": 363,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 364,
             "end": 535,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -137,6 +135,7 @@
                   "type": "VariableDeclaration",
                   "start": 382,
                   "end": 432,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -168,8 +167,8 @@
                             "end": 421,
                             "name": "toZonedDateTime"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -182,8 +181,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -209,8 +207,8 @@
                         "end": 451,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -229,8 +227,8 @@
                           "end": 469,
                           "name": "timeZoneId"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       {
                         "type": "Identifier",
@@ -242,14 +240,6 @@
                         "type": "TemplateLiteral",
                         "start": 481,
                         "end": 531,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 520,
-                            "end": 528,
-                            "name": "timeZone"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -271,6 +261,14 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 520,
+                            "end": 528,
+                            "name": "timeZone"
+                          }
                         ]
                       }
                     ],
@@ -278,7 +276,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 894,
       "end": 907,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -30,8 +31,7 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -58,15 +58,14 @@
             "end": 922,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 925,
           "end": 938,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -75,7 +74,8 @@
             "start": 936,
             "end": 938,
             "body": []
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -113,11 +113,11 @@
               "end": 1007,
               "name": "split"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "arguments": [],
         "optional": false
@@ -152,8 +152,8 @@
               "end": 1027,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "MemberExpression",
@@ -171,11 +171,11 @@
               "end": 1042,
               "name": "species"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "ObjectExpression",
@@ -209,8 +209,8 @@
             "end": 1063,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -224,7 +224,6 @@
             "start": 1075,
             "end": 1111,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -267,18 +266,19 @@
                           "end": 1105,
                           "name": "split"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -313,8 +313,8 @@
               "end": 1129,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "MemberExpression",
@@ -332,11 +332,11 @@
               "end": 1144,
               "name": "species"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -371,8 +371,8 @@
             "end": 1164,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -386,7 +386,6 @@
             "start": 1176,
             "end": 1212,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -429,18 +428,19 @@
                           "end": 1206,
                           "name": "split"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -475,8 +475,8 @@
               "end": 1230,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "MemberExpression",
@@ -494,11 +494,11 @@
               "end": 1245,
               "name": "species"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -533,8 +533,8 @@
             "end": 1266,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -548,7 +548,6 @@
             "start": 1278,
             "end": 1314,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -591,18 +590,19 @@
                           "end": 1308,
                           "name": "split"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -637,8 +637,8 @@
               "end": 1332,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "MemberExpression",
@@ -656,11 +656,11 @@
               "end": 1347,
               "name": "species"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "MemberExpression",
@@ -678,8 +678,8 @@
             "end": 1363,
             "name": "split"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       }
     },
@@ -707,8 +707,8 @@
             "end": 1378,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -722,7 +722,6 @@
             "start": 1390,
             "end": 1426,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -765,18 +764,19 @@
                           "end": 1420,
                           "name": "split"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -811,8 +811,8 @@
               "end": 1444,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "MemberExpression",
@@ -830,11 +830,11 @@
               "end": 1459,
               "name": "species"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "MemberExpression",
@@ -852,8 +852,8 @@
             "end": 1471,
             "name": "now"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       }
     },
@@ -881,8 +881,8 @@
             "end": 1486,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -896,7 +896,6 @@
             "start": 1498,
             "end": 1534,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -939,18 +938,19 @@
                           "end": 1528,
                           "name": "split"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

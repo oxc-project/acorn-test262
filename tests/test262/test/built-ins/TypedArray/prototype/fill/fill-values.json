@@ -23,7 +23,6 @@
             "start": 1198,
             "end": 1455,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -91,8 +90,8 @@
                                 "end": 1260,
                                 "name": "fill"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -206,8 +205,8 @@
                                 "end": 1374,
                                 "name": "fill"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -263,7 +262,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

@@ -23,7 +23,6 @@
             "start": 837,
             "end": 1280,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -43,6 +42,7 @@
                   "type": "VariableDeclaration",
                   "start": 854,
                   "end": 861,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -56,8 +56,7 @@
                       },
                       "init": null
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "FunctionDeclaration",
@@ -69,7 +68,6 @@
                     "end": 893,
                     "name": "detachAndReturnIndex"
                   },
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -109,8 +107,8 @@
                                 "end": 926,
                                 "name": "buffer"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             }
                           ],
                           "optional": false
@@ -129,12 +127,14 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 954,
                   "end": 969,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -153,8 +153,7 @@
                         "elements": []
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -181,8 +180,8 @@
                         "end": 984,
                         "name": "length"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "Literal",
@@ -217,8 +216,8 @@
                         "end": 1095,
                         "name": "fill"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -299,8 +298,8 @@
                         "end": 1140,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -314,7 +313,6 @@
                         "start": 1152,
                         "end": 1229,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -347,8 +345,8 @@
                                     "end": 1181,
                                     "name": "copyWithin"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -367,9 +365,7 @@
                                         "type": "Property",
                                         "start": 1186,
                                         "end": 1216,
-                                        "method": false,
-                                        "shorthand": false,
-                                        "computed": false,
+                                        "kind": "init",
                                         "key": {
                                           "type": "Identifier",
                                           "start": 1186,
@@ -382,7 +378,9 @@
                                           "end": 1216,
                                           "name": "detachAndReturnIndex"
                                         },
-                                        "kind": "init"
+                                        "method": false,
+                                        "shorthand": false,
+                                        "computed": false
                                       }
                                     ]
                                   },
@@ -398,7 +396,8 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       },
                       {
                         "type": "Literal",
@@ -412,7 +411,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

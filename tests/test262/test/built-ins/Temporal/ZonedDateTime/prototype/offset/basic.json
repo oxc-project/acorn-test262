@@ -13,7 +13,6 @@
         "end": 306,
         "name": "test"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -45,6 +44,7 @@
             "type": "VariableDeclaration",
             "start": 366,
             "end": 434,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -76,8 +76,8 @@
                       "end": 409,
                       "name": "ZonedDateTime"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -97,8 +97,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -124,8 +123,8 @@
                   "end": 453,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -144,8 +143,8 @@
                     "end": 469,
                     "name": "offset"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Identifier",
@@ -164,7 +163,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

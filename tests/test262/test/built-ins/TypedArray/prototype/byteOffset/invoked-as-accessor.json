@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 583,
       "end": 630,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -34,12 +35,11 @@
               "end": 629,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -65,8 +65,8 @@
             "end": 645,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -80,7 +80,6 @@
             "start": 657,
             "end": 705,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -109,12 +108,13 @@
                       "end": 702,
                       "name": "byteOffset"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

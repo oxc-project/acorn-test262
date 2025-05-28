@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 273,
       "end": 302,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "\"1970-01-01T00:00\""
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -53,8 +53,8 @@
             "end": 316,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -67,9 +67,7 @@
             "type": "ArrowFunctionExpression",
             "start": 329,
             "end": 361,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -96,8 +94,8 @@
                     "end": 351,
                     "name": "Instant"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -105,8 +103,8 @@
                   "end": 356,
                   "name": "from"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -117,7 +115,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -178,8 +178,8 @@
             "end": 451,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -192,9 +192,7 @@
             "type": "ArrowFunctionExpression",
             "start": 464,
             "end": 496,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -221,8 +219,8 @@
                     "end": 486,
                     "name": "Instant"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -230,8 +228,8 @@
                   "end": 491,
                   "name": "from"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -242,7 +240,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -283,6 +283,7 @@
       "type": "VariableDeclaration",
       "start": 576,
       "end": 619,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -318,8 +319,8 @@
                   "end": 608,
                   "name": "Instant"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -327,8 +328,8 @@
                 "end": 613,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -341,8 +342,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -368,8 +368,8 @@
             "end": 636,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -388,8 +388,8 @@
               "end": 661,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -438,6 +438,7 @@
       "type": "VariableDeclaration",
       "start": 739,
       "end": 782,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -473,8 +474,8 @@
                   "end": 771,
                   "name": "Instant"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -482,8 +483,8 @@
                 "end": 776,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -496,8 +497,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -523,8 +523,8 @@
             "end": 799,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -543,15 +543,14 @@
               "end": 824,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "UnaryExpression",
             "start": 826,
             "end": 844,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 827,
@@ -559,7 +558,8 @@
               "value": null,
               "raw": "3600_000_000_000n",
               "bigint": "3600000000000"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -600,6 +600,7 @@
       "type": "VariableDeclaration",
       "start": 943,
       "end": 986,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -635,8 +636,8 @@
                   "end": 975,
                   "name": "Instant"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -644,8 +645,8 @@
                 "end": 980,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -658,8 +659,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -685,8 +685,8 @@
             "end": 1003,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -705,8 +705,8 @@
               "end": 1028,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -755,6 +755,7 @@
       "type": "VariableDeclaration",
       "start": 1144,
       "end": 1187,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -790,8 +791,8 @@
                   "end": 1176,
                   "name": "Instant"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -799,8 +800,8 @@
                 "end": 1181,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -813,8 +814,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -840,8 +840,8 @@
             "end": 1204,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -860,15 +860,14 @@
               "end": 1229,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "UnaryExpression",
             "start": 1231,
             "end": 1249,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1232,
@@ -876,7 +875,8 @@
               "value": null,
               "raw": "3600_000_000_000n",
               "bigint": "3600000000000"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -917,6 +917,7 @@
       "type": "VariableDeclaration",
       "start": 1361,
       "end": 1404,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -952,8 +953,8 @@
                   "end": 1393,
                   "name": "Instant"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -961,8 +962,8 @@
                 "end": 1398,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -975,8 +976,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1002,8 +1002,8 @@
             "end": 1421,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1022,8 +1022,8 @@
               "end": 1446,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1072,6 +1072,7 @@
       "type": "VariableDeclaration",
       "start": 1548,
       "end": 1591,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1107,8 +1108,8 @@
                   "end": 1580,
                   "name": "Instant"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -1116,8 +1117,8 @@
                 "end": 1585,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1130,8 +1131,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1157,8 +1157,8 @@
             "end": 1608,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1177,15 +1177,14 @@
               "end": 1633,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "UnaryExpression",
             "start": 1635,
             "end": 1653,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1636,
@@ -1193,7 +1192,8 @@
               "value": null,
               "raw": "3600_000_000_000n",
               "bigint": "3600000000000"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1234,6 +1234,7 @@
       "type": "VariableDeclaration",
       "start": 1769,
       "end": 1812,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1269,8 +1270,8 @@
                   "end": 1801,
                   "name": "Instant"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -1278,8 +1279,8 @@
                 "end": 1806,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1292,8 +1293,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1319,8 +1319,8 @@
             "end": 1829,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1339,15 +1339,14 @@
               "end": 1854,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "UnaryExpression",
             "start": 1856,
             "end": 1874,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1857,
@@ -1355,7 +1354,8 @@
               "value": null,
               "raw": "3600_000_000_000n",
               "bigint": "3600000000000"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

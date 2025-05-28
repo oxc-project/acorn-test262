@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 297,
       "end": 364,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 336,
                 "name": "PlainTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -87,13 +88,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 366,
       "end": 585,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -386,13 +387,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 587,
       "end": 616,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -412,8 +413,7 @@
             "raw": "\"trunc\""
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -439,17 +439,15 @@
             "end": 634,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 635,
             "end": 916,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -481,6 +479,7 @@
                   "type": "VariableDeclaration",
                   "start": 669,
                   "end": 730,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -596,8 +595,7 @@
                         "name": "expected"
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -623,8 +621,8 @@
                         "end": 764,
                         "name": "assertPlainTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -647,8 +645,8 @@
                             "end": 784,
                             "name": "round"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -660,9 +658,7 @@
                                 "type": "Property",
                                 "start": 787,
                                 "end": 799,
-                                "method": false,
-                                "shorthand": true,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 787,
@@ -675,15 +671,15 @@
                                   "end": 799,
                                   "name": "smallestUnit"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": true,
+                                "computed": false
                               },
                               {
                                 "type": "Property",
                                 "start": 801,
                                 "end": 813,
-                                "method": false,
-                                "shorthand": true,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 801,
@@ -696,7 +692,9 @@
                                   "end": 813,
                                   "name": "roundingMode"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": true,
+                                "computed": false
                               }
                             ]
                           }
@@ -743,20 +741,6 @@
                         "type": "TemplateLiteral",
                         "start": 849,
                         "end": 909,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 862,
-                            "end": 874,
-                            "name": "smallestUnit"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 894,
-                            "end": 906,
-                            "name": "roundingMode"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -788,6 +772,20 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 862,
+                            "end": 874,
+                            "name": "smallestUnit"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 894,
+                            "end": 906,
+                            "name": "roundingMode"
+                          }
                         ]
                       }
                     ],
@@ -795,7 +793,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

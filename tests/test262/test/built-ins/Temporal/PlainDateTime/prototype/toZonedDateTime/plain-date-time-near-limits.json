@@ -12,6 +12,7 @@
           "type": "VariableDeclaration",
           "start": 560,
           "end": 630,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -43,8 +44,8 @@
                     "end": 595,
                     "name": "PlainDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -52,14 +53,14 @@
                     "start": 596,
                     "end": 603,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 597,
                       "end": 603,
                       "value": 271821,
                       "raw": "271821"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -120,8 +121,7 @@
                 ]
               }
             }
-          ],
-          "kind": "let"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -147,8 +147,8 @@
                 "end": 646,
                 "name": "throws"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -161,9 +161,7 @@
                 "type": "ArrowFunctionExpression",
                 "start": 659,
                 "end": 690,
-                "id": null,
                 "expression": true,
-                "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
@@ -186,8 +184,8 @@
                       "end": 683,
                       "name": "toZonedDateTime"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -199,7 +197,9 @@
                     }
                   ],
                   "optional": false
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ],
             "optional": false
@@ -216,6 +216,7 @@
           "type": "VariableDeclaration",
           "start": 699,
           "end": 769,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -247,8 +248,8 @@
                     "end": 734,
                     "name": "PlainDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -256,14 +257,14 @@
                     "start": 735,
                     "end": 742,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 736,
                       "end": 742,
                       "value": 271821,
                       "raw": "271821"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -324,8 +325,7 @@
                 ]
               }
             }
-          ],
-          "kind": "let"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -351,8 +351,8 @@
                 "end": 785,
                 "name": "throws"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -365,9 +365,7 @@
                 "type": "ArrowFunctionExpression",
                 "start": 798,
                 "end": 829,
-                "id": null,
                 "expression": true,
-                "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
@@ -390,8 +388,8 @@
                       "end": 822,
                       "name": "toZonedDateTime"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -403,7 +401,9 @@
                     }
                   ],
                   "optional": false
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ],
             "optional": false
@@ -420,6 +420,7 @@
           "type": "VariableDeclaration",
           "start": 884,
           "end": 953,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -451,8 +452,8 @@
                     "end": 919,
                     "name": "PlainDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -521,8 +522,7 @@
                 ]
               }
             }
-          ],
-          "kind": "let"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -548,8 +548,8 @@
                 "end": 969,
                 "name": "throws"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -562,9 +562,7 @@
                 "type": "ArrowFunctionExpression",
                 "start": 982,
                 "end": 1013,
-                "id": null,
                 "expression": true,
-                "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
@@ -587,8 +585,8 @@
                       "end": 1006,
                       "name": "toZonedDateTime"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -600,7 +598,9 @@
                     }
                   ],
                   "optional": false
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ],
             "optional": false
@@ -617,6 +617,7 @@
           "type": "VariableDeclaration",
           "start": 1022,
           "end": 1091,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -648,8 +649,8 @@
                     "end": 1057,
                     "name": "PlainDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -718,8 +719,7 @@
                 ]
               }
             }
-          ],
-          "kind": "let"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -745,8 +745,8 @@
                 "end": 1107,
                 "name": "throws"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -759,9 +759,7 @@
                 "type": "ArrowFunctionExpression",
                 "start": 1120,
                 "end": 1151,
-                "id": null,
                 "expression": true,
-                "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
@@ -784,8 +782,8 @@
                       "end": 1144,
                       "name": "toZonedDateTime"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -797,7 +795,9 @@
                     }
                   ],
                   "optional": false
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ],
             "optional": false

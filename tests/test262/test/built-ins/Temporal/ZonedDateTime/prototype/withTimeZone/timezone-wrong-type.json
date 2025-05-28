@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 344,
       "end": 399,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 387,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -60,13 +61,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 401,
       "end": 652,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -213,8 +214,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -225,6 +225,7 @@
         "type": "VariableDeclaration",
         "start": 659,
         "end": 688,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -251,8 +252,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -289,8 +289,8 @@
                   "end": 725,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -306,13 +306,13 @@
                       "start": 731,
                       "end": 746,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "Identifier",
                         "start": 738,
                         "end": 746,
                         "name": "timeZone"
-                      }
+                      },
+                      "prefix": true
                     },
                     "operator": "===",
                     "right": {
@@ -340,9 +340,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 790,
                   "end": 827,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -365,8 +363,8 @@
                         "end": 817,
                         "name": "withTimeZone"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -377,20 +375,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 833,
                   "end": 888,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 836,
-                      "end": 847,
-                      "name": "description"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -412,6 +404,14 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 836,
+                      "end": 847,
+                      "name": "description"
+                    }
                   ]
                 }
               ],
@@ -425,6 +425,7 @@
       "type": "VariableDeclaration",
       "start": 897,
       "end": 1016,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -513,8 +514,8 @@
                         "end": 988,
                         "name": "Duration"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": []
                   },
@@ -530,8 +531,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -542,6 +542,7 @@
         "type": "VariableDeclaration",
         "start": 1023,
         "end": 1052,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -568,8 +569,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -606,8 +606,8 @@
                   "end": 1089,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -620,9 +620,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1101,
                   "end": 1138,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -645,8 +643,8 @@
                         "end": 1128,
                         "name": "withTimeZone"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -657,20 +655,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1140,
                   "end": 1211,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1143,
-                      "end": 1154,
-                      "name": "description"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -691,6 +683,14 @@
                         "cooked": " is not a valid object and does not convert to a string"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1143,
+                      "end": 1154,
+                      "name": "description"
                     }
                   ]
                 }

@@ -39,8 +39,8 @@
                   "end": 354,
                   "name": "fromCharCode"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -59,8 +59,8 @@
                     "end": 365,
                     "name": "NaN"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               ],
               "optional": false
@@ -71,8 +71,8 @@
               "end": 377,
               "name": "charCodeAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -91,14 +91,14 @@
           "start": 385,
           "end": 387,
           "operator": "+",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 386,
             "end": 387,
             "value": 0,
             "raw": "0"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -165,8 +165,8 @@
                               "end": 508,
                               "name": "fromCharCode"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -185,8 +185,8 @@
                                 "end": 519,
                                 "name": "NaN"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             }
                           ],
                           "optional": false
@@ -197,8 +197,8 @@
                           "end": 531,
                           "name": "charCodeAt"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -266,8 +266,8 @@
                       "end": 572,
                       "name": "fromCharCode"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -286,8 +286,8 @@
                         "end": 583,
                         "name": "NaN"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   ],
                   "optional": false
@@ -298,8 +298,8 @@
                   "end": 595,
                   "name": "charCodeAt"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -330,8 +330,8 @@
               "end": 627,
               "name": "POSITIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         },
         "consequent": {
@@ -405,8 +405,8 @@
                   "end": 768,
                   "name": "fromCharCode"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -439,8 +439,8 @@
               "end": 794,
               "name": "charCodeAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -459,14 +459,14 @@
           "start": 802,
           "end": 804,
           "operator": "+",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 803,
             "end": 804,
             "value": 0,
             "raw": "0"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -533,8 +533,8 @@
                               "end": 928,
                               "name": "fromCharCode"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -567,8 +567,8 @@
                           "end": 954,
                           "name": "charCodeAt"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -636,8 +636,8 @@
                       "end": 995,
                       "name": "fromCharCode"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -656,8 +656,8 @@
                   "end": 1009,
                   "name": "charCodeAt"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -688,8 +688,8 @@
               "end": 1041,
               "name": "POSITIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         },
         "consequent": {
@@ -763,8 +763,8 @@
                   "end": 1173,
                   "name": "fromCharCode"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -783,8 +783,8 @@
               "end": 1187,
               "name": "charCodeAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -803,14 +803,14 @@
           "start": 1195,
           "end": 1197,
           "operator": "+",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 1196,
             "end": 1197,
             "value": 0,
             "raw": "0"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -877,8 +877,8 @@
                               "end": 1309,
                               "name": "fromCharCode"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -897,8 +897,8 @@
                           "end": 1323,
                           "name": "charCodeAt"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -966,8 +966,8 @@
                       "end": 1364,
                       "name": "fromCharCode"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -986,8 +986,8 @@
                   "end": 1378,
                   "name": "charCodeAt"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1018,8 +1018,8 @@
               "end": 1410,
               "name": "POSITIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         },
         "consequent": {
@@ -1093,8 +1093,8 @@
                   "end": 1542,
                   "name": "fromCharCode"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1102,14 +1102,14 @@
                   "start": 1543,
                   "end": 1545,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1544,
                     "end": 1545,
                     "value": 0,
                     "raw": "0"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -1120,8 +1120,8 @@
               "end": 1557,
               "name": "charCodeAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1140,14 +1140,14 @@
           "start": 1565,
           "end": 1567,
           "operator": "+",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 1566,
             "end": 1567,
             "value": 0,
             "raw": "0"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -1230,8 +1230,8 @@
                       "end": 1685,
                       "name": "fromCharCode"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1239,14 +1239,14 @@
                       "start": 1686,
                       "end": 1688,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 1687,
                         "end": 1688,
                         "value": 0,
                         "raw": "0"
-                      }
+                      },
+                      "prefix": true
                     }
                   ],
                   "optional": false
@@ -1257,8 +1257,8 @@
                   "end": 1700,
                   "name": "charCodeAt"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1289,8 +1289,8 @@
               "end": 1732,
               "name": "POSITIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         },
         "consequent": {
@@ -1364,8 +1364,8 @@
                   "end": 1865,
                   "name": "fromCharCode"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1384,8 +1384,8 @@
                     "end": 1890,
                     "name": "POSITIVE_INFINITY"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               ],
               "optional": false
@@ -1396,8 +1396,8 @@
               "end": 1902,
               "name": "charCodeAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1416,14 +1416,14 @@
           "start": 1910,
           "end": 1912,
           "operator": "+",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 1911,
             "end": 1912,
             "value": 0,
             "raw": "0"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -1490,8 +1490,8 @@
                               "end": 2047,
                               "name": "fromCharCode"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1510,8 +1510,8 @@
                                 "end": 2072,
                                 "name": "POSITIVE_INFINITY"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             }
                           ],
                           "optional": false
@@ -1522,8 +1522,8 @@
                           "end": 2084,
                           "name": "charCodeAt"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1591,8 +1591,8 @@
                       "end": 2125,
                       "name": "fromCharCode"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1611,8 +1611,8 @@
                         "end": 2150,
                         "name": "POSITIVE_INFINITY"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   ],
                   "optional": false
@@ -1623,8 +1623,8 @@
                   "end": 2162,
                   "name": "charCodeAt"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1655,8 +1655,8 @@
               "end": 2194,
               "name": "POSITIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         },
         "consequent": {
@@ -1730,8 +1730,8 @@
                   "end": 2349,
                   "name": "fromCharCode"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1750,8 +1750,8 @@
                     "end": 2374,
                     "name": "NEGATIVE_INFINITY"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               ],
               "optional": false
@@ -1762,8 +1762,8 @@
               "end": 2386,
               "name": "charCodeAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1782,14 +1782,14 @@
           "start": 2394,
           "end": 2396,
           "operator": "+",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 2395,
             "end": 2396,
             "value": 0,
             "raw": "0"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -1872,8 +1872,8 @@
                       "end": 2536,
                       "name": "fromCharCode"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1892,8 +1892,8 @@
                         "end": 2561,
                         "name": "NEGATIVE_INFINITY"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   ],
                   "optional": false
@@ -1904,8 +1904,8 @@
                   "end": 2573,
                   "name": "charCodeAt"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1936,8 +1936,8 @@
               "end": 2605,
               "name": "POSITIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         },
         "consequent": {

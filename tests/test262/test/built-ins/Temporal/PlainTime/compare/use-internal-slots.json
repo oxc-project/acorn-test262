@@ -13,7 +13,6 @@
         "end": 302,
         "name": "CustomError"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,7 +21,8 @@
         "start": 305,
         "end": 307,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "ClassDeclaration",
@@ -50,8 +50,8 @@
           "end": 358,
           "name": "PlainTime"
         },
-        "computed": false,
-        "optional": false
+        "optional": false,
+        "computed": false
       },
       "body": {
         "type": "ClassBody",
@@ -62,21 +62,17 @@
             "type": "MethodDefinition",
             "start": 363,
             "end": 408,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 367,
               "end": 371,
               "name": "hour"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 371,
               "end": 408,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -103,28 +99,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 411,
             "end": 458,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 415,
               "end": 421,
               "name": "minute"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 421,
               "end": 458,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -151,28 +147,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 461,
             "end": 508,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 465,
               "end": 471,
               "name": "second"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 471,
               "end": 508,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -199,28 +195,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 511,
             "end": 563,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 515,
               "end": 526,
               "name": "millisecond"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 526,
               "end": 563,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -247,28 +243,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 566,
             "end": 618,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 570,
               "end": 581,
               "name": "microsecond"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 581,
               "end": 618,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -295,28 +291,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 621,
             "end": 672,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 625,
               "end": 635,
               "name": "nanosecond"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 635,
               "end": 672,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -343,8 +339,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -353,6 +353,7 @@
       "type": "VariableDeclaration",
       "start": 676,
       "end": 736,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -420,13 +421,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 737,
       "end": 796,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -494,8 +495,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -521,8 +521,8 @@
             "end": 813,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -549,8 +549,8 @@
                   "end": 832,
                   "name": "PlainTime"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -558,8 +558,8 @@
                 "end": 840,
                 "name": "compare"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 304,
       "end": 388,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 346,
                 "name": "PlainDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -108,13 +109,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 389,
       "end": 471,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -146,8 +147,8 @@
                 "end": 429,
                 "name": "PlainDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -216,13 +217,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 472,
       "end": 554,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -291,8 +292,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -318,17 +318,15 @@
             "end": 569,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 570,
             "end": 1521,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -347,6 +345,7 @@
                   "type": "VariableDeclaration",
                   "start": 591,
                   "end": 642,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -378,8 +377,8 @@
                             "end": 615,
                             "name": "since"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -397,9 +396,7 @@
                                 "type": "Property",
                                 "start": 627,
                                 "end": 638,
-                                "method": false,
-                                "shorthand": true,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 627,
@@ -412,7 +409,9 @@
                                   "end": 638,
                                   "name": "largestUnit"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": true,
+                                "computed": false
                               }
                             ]
                           }
@@ -420,8 +419,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -447,8 +445,8 @@
                         "end": 681,
                         "name": "assertDurationsEqual"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -471,8 +469,8 @@
                             "end": 700,
                             "name": "since"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -490,9 +488,7 @@
                                 "type": "Property",
                                 "start": 710,
                                 "end": 721,
-                                "method": false,
-                                "shorthand": true,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 710,
@@ -505,7 +501,9 @@
                                   "end": 721,
                                   "name": "largestUnit"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": true,
+                                "computed": false
                               }
                             ]
                           }
@@ -532,8 +530,8 @@
                             "end": 742,
                             "name": "negated"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [],
                         "optional": false
@@ -542,32 +540,6 @@
                         "type": "TemplateLiteral",
                         "start": 750,
                         "end": 822,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 754,
-                            "end": 761,
-                            "name": "earlier"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 772,
-                            "end": 777,
-                            "name": "later"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 786,
-                            "end": 791,
-                            "name": "later"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 802,
-                            "end": 809,
-                            "name": "earlier"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -619,6 +591,32 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 754,
+                            "end": 761,
+                            "name": "earlier"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 772,
+                            "end": 777,
+                            "name": "later"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 786,
+                            "end": 791,
+                            "name": "later"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 802,
+                            "end": 809,
+                            "name": "earlier"
+                          }
                         ]
                       }
                     ],
@@ -649,8 +647,8 @@
                         "end": 866,
                         "name": "assertDurationsEqual"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -673,8 +671,8 @@
                             "end": 885,
                             "name": "until"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -692,9 +690,7 @@
                                 "type": "Property",
                                 "start": 895,
                                 "end": 906,
-                                "method": false,
-                                "shorthand": true,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 895,
@@ -707,7 +703,9 @@
                                   "end": 906,
                                   "name": "largestUnit"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": true,
+                                "computed": false
                               }
                             ]
                           }
@@ -724,32 +722,6 @@
                         "type": "TemplateLiteral",
                         "start": 925,
                         "end": 987,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 929,
-                            "end": 936,
-                            "name": "earlier"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 947,
-                            "end": 952,
-                            "name": "later"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 961,
-                            "end": 966,
-                            "name": "later"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 977,
-                            "end": 984,
-                            "name": "earlier"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -801,6 +773,32 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 929,
+                            "end": 936,
+                            "name": "earlier"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 947,
+                            "end": 952,
+                            "name": "later"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 961,
+                            "end": 966,
+                            "name": "later"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 977,
+                            "end": 984,
+                            "name": "earlier"
+                          }
                         ]
                       }
                     ],
@@ -831,8 +829,8 @@
                         "end": 1011,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -863,8 +861,8 @@
                                 "end": 1028,
                                 "name": "add"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -882,8 +880,8 @@
                             "end": 1041,
                             "name": "equals"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -906,26 +904,6 @@
                         "type": "TemplateLiteral",
                         "start": 1064,
                         "end": 1105,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1068,
-                            "end": 1075,
-                            "name": "earlier"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 1084,
-                            "end": 1088,
-                            "name": "diff"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 1097,
-                            "end": 1102,
-                            "name": "later"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -967,6 +945,26 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1068,
+                            "end": 1075,
+                            "name": "earlier"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 1084,
+                            "end": 1088,
+                            "name": "diff"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 1097,
+                            "end": 1102,
+                            "name": "later"
+                          }
                         ]
                       }
                     ],
@@ -997,8 +995,8 @@
                         "end": 1129,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1029,8 +1027,8 @@
                                 "end": 1149,
                                 "name": "subtract"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -1048,8 +1046,8 @@
                             "end": 1162,
                             "name": "equals"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1072,26 +1070,6 @@
                         "type": "TemplateLiteral",
                         "start": 1187,
                         "end": 1233,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1191,
-                            "end": 1196,
-                            "name": "later"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 1210,
-                            "end": 1214,
-                            "name": "diff"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 1223,
-                            "end": 1230,
-                            "name": "earlier"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -1133,6 +1111,26 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1191,
+                            "end": 1196,
+                            "name": "later"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 1210,
+                            "end": 1214,
+                            "name": "diff"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 1223,
+                            "end": 1230,
+                            "name": "earlier"
+                          }
                         ]
                       }
                     ],
@@ -1163,8 +1161,8 @@
                         "end": 1257,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1195,8 +1193,8 @@
                                 "end": 1279,
                                 "name": "subtract"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -1219,8 +1217,8 @@
                                     "end": 1292,
                                     "name": "negated"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [],
                                 "optional": false
@@ -1234,8 +1232,8 @@
                             "end": 1302,
                             "name": "equals"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1289,8 +1287,8 @@
                         "end": 1400,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1321,8 +1319,8 @@
                                 "end": 1415,
                                 "name": "add"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -1345,8 +1343,8 @@
                                     "end": 1428,
                                     "name": "negated"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [],
                                 "optional": false
@@ -1360,8 +1358,8 @@
                             "end": 1438,
                             "name": "equals"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1392,7 +1390,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

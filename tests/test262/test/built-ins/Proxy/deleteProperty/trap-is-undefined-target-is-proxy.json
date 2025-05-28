@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 595,
       "end": 611,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -33,13 +34,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 612,
       "end": 651,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -77,13 +78,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 652,
       "end": 726,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -121,9 +122,7 @@
                     "type": "Property",
                     "start": 696,
                     "end": 721,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 696,
@@ -136,15 +135,16 @@
                       "end": 721,
                       "name": "undefined"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -166,7 +166,6 @@
             "start": 735,
             "end": 755,
             "operator": "delete",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 742,
@@ -184,9 +183,10 @@
                 "value": 0,
                 "raw": "0"
               },
-              "computed": true,
-              "optional": false
-            }
+              "optional": false,
+              "computed": true
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -212,7 +212,6 @@
             "start": 765,
             "end": 791,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 766,
@@ -233,8 +232,8 @@
                   "end": 786,
                   "name": "hasOwnProperty"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -246,7 +245,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -272,7 +272,6 @@
             "start": 802,
             "end": 847,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 803,
@@ -293,8 +292,8 @@
                   "end": 825,
                   "name": "deleteProperty"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -312,7 +311,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -342,8 +342,8 @@
             "end": 866,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -362,8 +362,8 @@
               "end": 879,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -380,6 +380,7 @@
       "type": "VariableDeclaration",
       "start": 887,
       "end": 905,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -399,13 +400,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 906,
       "end": 1029,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -443,9 +444,7 @@
                     "type": "Property",
                     "start": 937,
                     "end": 1024,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 937,
@@ -457,7 +456,6 @@
                       "start": 953,
                       "end": 1024,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [
@@ -522,22 +520,25 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1031,
       "end": 1095,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -575,9 +576,7 @@
                     "type": "Property",
                     "start": 1065,
                     "end": 1090,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1065,
@@ -590,15 +589,16 @@
                       "end": 1090,
                       "name": "undefined"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -620,7 +620,6 @@
             "start": 1104,
             "end": 1120,
             "operator": "delete",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 1111,
@@ -637,9 +636,10 @@
                 "end": 1120,
                 "name": "foo"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -669,8 +669,8 @@
             "end": 1139,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -714,8 +714,8 @@
             "end": 1169,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -729,7 +729,6 @@
             "start": 1181,
             "end": 1231,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -760,7 +759,6 @@
                     "start": 1212,
                     "end": 1228,
                     "operator": "delete",
-                    "prefix": true,
                     "argument": {
                       "type": "MemberExpression",
                       "start": 1219,
@@ -777,13 +775,15 @@
                         "end": 1228,
                         "name": "bar"
                       },
-                      "computed": false,
-                      "optional": false
-                    }
+                      "optional": false,
+                      "computed": false
+                    },
+                    "prefix": true
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -813,8 +813,8 @@
             "end": 1250,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

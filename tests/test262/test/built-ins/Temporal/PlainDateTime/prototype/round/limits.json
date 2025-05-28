@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 271,
       "end": 344,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 309,
                 "name": "PlainDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -47,14 +48,14 @@
                 "start": 310,
                 "end": 317,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 311,
                   "end": 317,
                   "value": 271821,
                   "raw": "271821"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -115,13 +116,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 345,
       "end": 426,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -153,8 +154,8 @@
                 "end": 383,
                 "name": "PlainDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -223,8 +224,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -293,17 +293,15 @@
             "end": 501,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 502,
             "end": 873,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -342,8 +340,8 @@
                         "end": 537,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -356,9 +354,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 559,
                         "end": 615,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -381,8 +377,8 @@
                               "end": 574,
                               "name": "round"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -394,9 +390,7 @@
                                   "type": "Property",
                                   "start": 577,
                                   "end": 589,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 577,
@@ -409,15 +403,15 @@
                                     "end": 589,
                                     "name": "smallestUnit"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 },
                                 {
                                   "type": "Property",
                                   "start": 591,
                                   "end": 612,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 591,
@@ -431,26 +425,22 @@
                                     "value": "floor",
                                     "raw": "\"floor\""
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 }
                               ]
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 621,
                         "end": 692,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 654,
-                            "end": 666,
-                            "name": "smallestUnit"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -471,6 +461,14 @@
                               "cooked": ", rounding mode = floor)"
                             },
                             "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 654,
+                            "end": 666,
+                            "name": "smallestUnit"
                           }
                         ]
                       }
@@ -502,8 +500,8 @@
                         "end": 713,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -516,9 +514,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 735,
                         "end": 790,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -541,8 +537,8 @@
                               "end": 750,
                               "name": "round"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -554,9 +550,7 @@
                                   "type": "Property",
                                   "start": 753,
                                   "end": 765,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 753,
@@ -569,15 +563,15 @@
                                     "end": 765,
                                     "name": "smallestUnit"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 },
                                 {
                                   "type": "Property",
                                   "start": 767,
                                   "end": 787,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 767,
@@ -591,26 +585,22 @@
                                     "value": "ceil",
                                     "raw": "\"ceil\""
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 }
                               ]
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 796,
                         "end": 866,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 829,
-                            "end": 841,
-                            "name": "smallestUnit"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -632,6 +622,14 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 829,
+                            "end": 841,
+                            "name": "smallestUnit"
+                          }
                         ]
                       }
                     ],
@@ -639,7 +637,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

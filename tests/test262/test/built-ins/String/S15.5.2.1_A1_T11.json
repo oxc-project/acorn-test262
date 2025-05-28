@@ -13,7 +13,6 @@
         "end": 593,
         "name": "__obj"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,7 +21,8 @@
         "start": 596,
         "end": 598,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -54,15 +54,14 @@
             "end": 614,
             "name": "valueOf"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 617,
           "end": 646,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -84,7 +83,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -113,15 +113,14 @@
             "end": 663,
             "name": "toString"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 666,
           "end": 693,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -142,7 +141,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -150,6 +150,7 @@
       "type": "VariableDeclaration",
       "start": 696,
       "end": 726,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -181,8 +182,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -197,13 +197,13 @@
           "start": 823,
           "end": 835,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 830,
             "end": 835,
             "name": "__str"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -251,13 +251,13 @@
                     "start": 984,
                     "end": 996,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 991,
                       "end": 996,
                       "name": "__str"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]
@@ -291,8 +291,8 @@
             "end": 1196,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -350,8 +350,8 @@
                       "end": 1350,
                       "name": "constructor"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]

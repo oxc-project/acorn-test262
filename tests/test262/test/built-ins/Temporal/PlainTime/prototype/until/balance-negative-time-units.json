@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1608,
       "end": 1662,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 1643,
                 "name": "PlainTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -87,13 +88,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1664,
       "end": 1733,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -133,8 +134,8 @@
                     "end": 1702,
                     "name": "PlainTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -187,8 +188,8 @@
                 "end": 1726,
                 "name": "until"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -201,8 +202,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -228,8 +228,8 @@
             "end": 1764,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -323,6 +323,7 @@
       "type": "VariableDeclaration",
       "start": 1831,
       "end": 1897,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -362,8 +363,8 @@
                     "end": 1869,
                     "name": "PlainTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -409,8 +410,8 @@
                 "end": 1890,
                 "name": "until"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -423,8 +424,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -450,8 +450,8 @@
             "end": 1928,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -545,6 +545,7 @@
       "type": "VariableDeclaration",
       "start": 1996,
       "end": 2059,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -584,8 +585,8 @@
                     "end": 2034,
                     "name": "PlainTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -624,8 +625,8 @@
                 "end": 2052,
                 "name": "until"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -638,8 +639,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -665,8 +665,8 @@
             "end": 2090,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -760,6 +760,7 @@
       "type": "VariableDeclaration",
       "start": 2158,
       "end": 2218,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -799,8 +800,8 @@
                     "end": 2196,
                     "name": "PlainTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -832,8 +833,8 @@
                 "end": 2211,
                 "name": "until"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -846,8 +847,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -873,8 +873,8 @@
             "end": 2249,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -968,6 +968,7 @@
       "type": "VariableDeclaration",
       "start": 2311,
       "end": 2368,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1007,8 +1008,8 @@
                     "end": 2349,
                     "name": "PlainTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1033,8 +1034,8 @@
                 "end": 2361,
                 "name": "until"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1047,8 +1048,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1074,8 +1074,8 @@
             "end": 2399,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1169,6 +1169,7 @@
       "type": "VariableDeclaration",
       "start": 2544,
       "end": 2598,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1208,8 +1209,8 @@
                     "end": 2582,
                     "name": "PlainTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1227,8 +1228,8 @@
                 "end": 2591,
                 "name": "until"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1241,8 +1242,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1268,8 +1268,8 @@
             "end": 2629,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1318,70 +1318,70 @@
             "start": 2654,
             "end": 2657,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2655,
               "end": 2657,
               "value": 58,
               "raw": "58"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 2659,
             "end": 2662,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2660,
               "end": 2662,
               "value": 58,
               "raw": "58"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 2664,
             "end": 2668,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2665,
               "end": 2668,
               "value": 998,
               "raw": "998"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 2670,
             "end": 2674,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2671,
               "end": 2674,
               "value": 998,
               "raw": "998"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 2676,
             "end": 2680,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2677,
               "end": 2680,
               "value": 999,
               "raw": "999"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

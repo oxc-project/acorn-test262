@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1004,
       "end": 1039,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -55,13 +56,13 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1040,
       "end": 1073,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -78,22 +79,22 @@
             "start": 1059,
             "end": 1072,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 1060,
               "end": 1072,
               "name": "nsMaxInstant"
-            }
+            },
+            "prefix": true
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1075,
       "end": 1102,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -112,13 +113,13 @@
             "name": "nsMinInstant"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1103,
       "end": 1156,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -150,8 +151,8 @@
                 "end": 1139,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -170,8 +171,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -197,8 +197,8 @@
             "end": 1171,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -211,9 +211,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1184,
             "end": 1209,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -236,8 +234,8 @@
                   "end": 1197,
                   "name": "add"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -249,9 +247,7 @@
                       "type": "Property",
                       "start": 1199,
                       "end": 1207,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1199,
@@ -263,22 +259,26 @@
                         "start": 1205,
                         "end": 1207,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1206,
                           "end": 1207,
                           "value": 1,
                           "raw": "1"
-                        }
+                        },
+                        "prefix": true
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

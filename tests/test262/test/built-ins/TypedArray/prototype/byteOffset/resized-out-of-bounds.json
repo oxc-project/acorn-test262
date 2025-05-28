@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 447,
       "end": 494,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -47,13 +48,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 538,
       "end": 563,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -72,8 +73,7 @@
             "elements": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -84,6 +84,7 @@
         "type": "VariableDeclaration",
         "start": 569,
         "end": 577,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -97,8 +98,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -115,6 +115,7 @@
             "type": "VariableDeclaration",
             "start": 592,
             "end": 634,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -154,13 +155,12 @@
                       "end": 633,
                       "name": "BYTES_PER_ELEMENT"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -186,8 +186,8 @@
                   "end": 657,
                   "name": "push"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -251,6 +251,7 @@
         "type": "VariableDeclaration",
         "start": 714,
         "end": 730,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -277,8 +278,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -315,8 +315,8 @@
                   "end": 771,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -335,8 +335,8 @@
                     "end": 785,
                     "name": "byteOffset"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -376,8 +376,8 @@
             "end": 803,
             "name": "resize"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -400,6 +400,7 @@
         "type": "VariableDeclaration",
         "start": 814,
         "end": 830,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -426,8 +427,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -464,8 +464,8 @@
                   "end": 871,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -484,8 +484,8 @@
                     "end": 885,
                     "name": "byteOffset"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -525,8 +525,8 @@
             "end": 971,
             "name": "resize"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -549,6 +549,7 @@
         "type": "VariableDeclaration",
         "start": 982,
         "end": 998,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -575,8 +576,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -613,8 +613,8 @@
                   "end": 1039,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -633,8 +633,8 @@
                     "end": 1053,
                     "name": "byteOffset"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -674,8 +674,8 @@
             "end": 1071,
             "name": "resize"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -698,6 +698,7 @@
         "type": "VariableDeclaration",
         "start": 1082,
         "end": 1098,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -724,8 +725,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -762,8 +762,8 @@
                   "end": 1139,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -782,8 +782,8 @@
                     "end": 1153,
                     "name": "byteOffset"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",

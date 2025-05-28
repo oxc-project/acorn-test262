@@ -46,8 +46,8 @@
               "end": 470,
               "name": "charAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -135,8 +135,8 @@
                         "end": 634,
                         "name": "charAt"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 543,
       "end": 596,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 579,
                 "name": "PlainDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -47,14 +48,14 @@
                 "start": 580,
                 "end": 587,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 581,
                   "end": 587,
                   "value": 271821,
                   "raw": "271821"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -73,13 +74,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 597,
       "end": 654,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -111,8 +112,8 @@
                 "end": 637,
                 "name": "PlainDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -120,14 +121,14 @@
                 "start": 638,
                 "end": 645,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 639,
                   "end": 645,
                   "value": 271821,
                   "raw": "271821"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -146,13 +147,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 655,
       "end": 707,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -184,8 +185,8 @@
                 "end": 691,
                 "name": "PlainDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -212,13 +213,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 709,
       "end": 749,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -250,19 +251,19 @@
                 "end": 746,
                 "name": "PlainTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 750,
       "end": 802,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -294,8 +295,8 @@
                 "end": 798,
                 "name": "PlainTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -308,8 +309,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -335,8 +335,8 @@
             "end": 817,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -349,9 +349,7 @@
             "type": "ArrowFunctionExpression",
             "start": 830,
             "end": 917,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -374,8 +372,8 @@
                   "end": 859,
                   "name": "toZonedDateTime"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -387,9 +385,7 @@
                       "type": "Property",
                       "start": 864,
                       "end": 879,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 864,
@@ -403,15 +399,15 @@
                         "value": "UTC",
                         "raw": "\"UTC\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 883,
                       "end": 913,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 883,
@@ -424,13 +420,17 @@
                         "end": 913,
                         "name": "oneHourPastMidnight"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -460,8 +460,8 @@
             "end": 934,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -474,9 +474,7 @@
             "type": "ArrowFunctionExpression",
             "start": 947,
             "end": 1034,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -499,8 +497,8 @@
                   "end": 976,
                   "name": "toZonedDateTime"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -512,9 +510,7 @@
                       "type": "Property",
                       "start": 981,
                       "end": 996,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 981,
@@ -528,15 +524,15 @@
                         "value": "+00",
                         "raw": "\"+00\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 1000,
                       "end": 1030,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1000,
@@ -549,13 +545,17 @@
                         "end": 1030,
                         "name": "oneHourPastMidnight"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -585,8 +585,8 @@
             "end": 1051,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -599,9 +599,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1064,
             "end": 1147,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -624,8 +622,8 @@
                   "end": 1097,
                   "name": "toZonedDateTime"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -637,9 +635,7 @@
                       "type": "Property",
                       "start": 1102,
                       "end": 1117,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1102,
@@ -653,15 +649,15 @@
                         "value": "+01",
                         "raw": "\"+01\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 1121,
                       "end": 1143,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1121,
@@ -674,13 +670,17 @@
                         "end": 1143,
                         "name": "midnight"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -710,8 +710,8 @@
             "end": 1164,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -724,9 +724,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1177,
             "end": 1256,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -749,8 +747,8 @@
                   "end": 1206,
                   "name": "toZonedDateTime"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -762,9 +760,7 @@
                       "type": "Property",
                       "start": 1211,
                       "end": 1226,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1211,
@@ -778,15 +774,15 @@
                         "value": "-01",
                         "raw": "\"-01\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 1230,
                       "end": 1252,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1230,
@@ -799,13 +795,17 @@
                         "end": 1252,
                         "name": "midnight"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

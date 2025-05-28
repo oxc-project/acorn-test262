@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 267,
       "end": 329,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 298,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -115,8 +116,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -145,9 +145,7 @@
                 "type": "ArrowFunctionExpression",
                 "start": 390,
                 "end": 401,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
@@ -155,7 +153,9 @@
                   "start": 396,
                   "end": 401,
                   "body": []
-                }
+                },
+                "id": null,
+                "generator": false
               },
               {
                 "type": "ObjectExpression",
@@ -166,9 +166,7 @@
                     "type": "Property",
                     "start": 407,
                     "end": 427,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 407,
@@ -182,7 +180,9 @@
                       "value": "ceil",
                       "raw": "\"ceil\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -194,17 +194,15 @@
             "end": 439,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 440,
             "end": 500,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -234,8 +232,8 @@
                   "end": 464,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -248,9 +246,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 477,
                   "end": 499,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -273,8 +269,8 @@
                         "end": 490,
                         "name": "total"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -285,11 +281,15 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

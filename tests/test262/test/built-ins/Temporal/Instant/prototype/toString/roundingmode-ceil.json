@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 256,
       "end": 321,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 292,
                 "name": "Instant"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -53,13 +54,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 323,
       "end": 411,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -91,8 +92,8 @@
                 "end": 355,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -104,9 +105,7 @@
                     "type": "Property",
                     "start": 358,
                     "end": 385,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 358,
@@ -120,15 +119,15 @@
                       "value": "microsecond",
                       "raw": "\"microsecond\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 387,
                     "end": 407,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 387,
@@ -142,7 +141,9 @@
                       "value": "ceil",
                       "raw": "\"ceil\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -150,8 +151,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -177,8 +177,8 @@
             "end": 428,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -209,6 +209,7 @@
       "type": "VariableDeclaration",
       "start": 531,
       "end": 617,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -240,8 +241,8 @@
                 "end": 563,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -253,9 +254,7 @@
                     "type": "Property",
                     "start": 566,
                     "end": 591,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 566,
@@ -269,15 +268,15 @@
                       "value": 6,
                       "raw": "6"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 593,
                     "end": 613,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 593,
@@ -291,7 +290,9 @@
                       "value": "ceil",
                       "raw": "\"ceil\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -299,8 +300,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -326,8 +326,8 @@
             "end": 634,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -358,6 +358,7 @@
       "type": "VariableDeclaration",
       "start": 747,
       "end": 835,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -389,8 +390,8 @@
                 "end": 779,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -402,9 +403,7 @@
                     "type": "Property",
                     "start": 782,
                     "end": 809,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 782,
@@ -418,15 +417,15 @@
                       "value": "millisecond",
                       "raw": "\"millisecond\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 811,
                     "end": 831,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 811,
@@ -440,7 +439,9 @@
                       "value": "ceil",
                       "raw": "\"ceil\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -448,8 +449,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -475,8 +475,8 @@
             "end": 852,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -507,6 +507,7 @@
       "type": "VariableDeclaration",
       "start": 952,
       "end": 1038,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -538,8 +539,8 @@
                 "end": 984,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -551,9 +552,7 @@
                     "type": "Property",
                     "start": 987,
                     "end": 1012,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 987,
@@ -567,15 +566,15 @@
                       "value": 3,
                       "raw": "3"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1014,
                     "end": 1034,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1014,
@@ -589,7 +588,9 @@
                       "value": "ceil",
                       "raw": "\"ceil\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -597,8 +598,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -624,8 +624,8 @@
             "end": 1055,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -656,6 +656,7 @@
       "type": "VariableDeclaration",
       "start": 1165,
       "end": 1248,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -687,8 +688,8 @@
                 "end": 1197,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -700,9 +701,7 @@
                     "type": "Property",
                     "start": 1200,
                     "end": 1222,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1200,
@@ -716,15 +715,15 @@
                       "value": "second",
                       "raw": "\"second\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1224,
                     "end": 1244,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1224,
@@ -738,7 +737,9 @@
                       "value": "ceil",
                       "raw": "\"ceil\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -746,8 +747,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -773,8 +773,8 @@
             "end": 1265,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -805,6 +805,7 @@
       "type": "VariableDeclaration",
       "start": 1361,
       "end": 1447,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -836,8 +837,8 @@
                 "end": 1393,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -849,9 +850,7 @@
                     "type": "Property",
                     "start": 1396,
                     "end": 1421,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1396,
@@ -865,15 +864,15 @@
                       "value": 0,
                       "raw": "0"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1423,
                     "end": 1443,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1423,
@@ -887,7 +886,9 @@
                       "value": "ceil",
                       "raw": "\"ceil\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -895,8 +896,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -922,8 +922,8 @@
             "end": 1464,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -954,6 +954,7 @@
       "type": "VariableDeclaration",
       "start": 1570,
       "end": 1653,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -985,8 +986,8 @@
                 "end": 1602,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -998,9 +999,7 @@
                     "type": "Property",
                     "start": 1605,
                     "end": 1627,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1605,
@@ -1014,15 +1013,15 @@
                       "value": "minute",
                       "raw": "\"minute\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1629,
                     "end": 1649,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1629,
@@ -1036,7 +1035,9 @@
                       "value": "ceil",
                       "raw": "\"ceil\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -1044,8 +1045,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1071,8 +1071,8 @@
             "end": 1670,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

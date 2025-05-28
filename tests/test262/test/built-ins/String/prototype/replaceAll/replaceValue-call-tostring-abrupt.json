@@ -13,7 +13,6 @@
         "end": 644,
         "name": "custom"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -35,9 +34,7 @@
                   "type": "Property",
                   "start": 664,
                   "end": 714,
-                  "method": true,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 664,
@@ -49,7 +46,6 @@
                     "start": 672,
                     "end": 714,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -76,15 +72,19 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   },
-                  "kind": "init"
+                  "method": true,
+                  "shorthand": false,
+                  "computed": false
                 }
               ]
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -110,8 +110,8 @@
             "end": 735,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -125,7 +125,6 @@
             "start": 750,
             "end": 795,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -159,8 +158,8 @@
                         "end": 779,
                         "name": "replaceAll"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -181,7 +180,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -197,7 +197,6 @@
         "end": 814,
         "name": "symbol"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -219,9 +218,7 @@
                   "type": "Property",
                   "start": 834,
                   "end": 875,
-                  "method": true,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 834,
@@ -233,7 +230,6 @@
                     "start": 842,
                     "end": 875,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -261,15 +257,19 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   },
-                  "kind": "init"
+                  "method": true,
+                  "shorthand": false,
+                  "computed": false
                 }
               ]
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -295,8 +295,8 @@
             "end": 896,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -310,7 +310,6 @@
             "start": 908,
             "end": 953,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -344,8 +343,8 @@
                         "end": 937,
                         "name": "replaceAll"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -366,7 +365,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

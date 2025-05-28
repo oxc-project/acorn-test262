@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 300,
       "end": 342,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,19 +39,19 @@
                 "end": 339,
                 "name": "PlainTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 344,
       "end": 394,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -82,8 +83,8 @@
                 "end": 373,
                 "name": "with"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -95,9 +96,7 @@
                     "type": "Property",
                     "start": 376,
                     "end": 386,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 376,
@@ -111,7 +110,9 @@
                       "value": 45,
                       "raw": "45"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               },
@@ -125,8 +126,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -152,8 +152,8 @@
             "end": 426,
             "name": "assertPlainTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -219,6 +219,7 @@
       "type": "VariableDeclaration",
       "start": 503,
       "end": 559,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -250,8 +251,8 @@
                 "end": 532,
                 "name": "with"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -263,9 +264,7 @@
                     "type": "Property",
                     "start": 535,
                     "end": 545,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 535,
@@ -279,7 +278,9 @@
                       "value": 45,
                       "raw": "45"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               },
@@ -287,9 +288,7 @@
                 "type": "ArrowFunctionExpression",
                 "start": 549,
                 "end": 557,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
@@ -297,14 +296,15 @@
                   "start": 555,
                   "end": 557,
                   "body": []
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ],
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -330,8 +330,8 @@
             "end": 591,
             "name": "assertPlainTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

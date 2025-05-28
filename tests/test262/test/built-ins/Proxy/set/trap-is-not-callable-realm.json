@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 550,
       "end": 595,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -46,8 +47,8 @@
                     "end": 579,
                     "name": "createRealm"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -58,8 +59,8 @@
                 "end": 588,
                 "name": "global"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -67,17 +68,17 @@
               "end": 594,
               "name": "Proxy"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 596,
       "end": 634,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -115,9 +116,7 @@
                     "type": "Property",
                     "start": 623,
                     "end": 630,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 623,
@@ -130,15 +129,16 @@
                       "end": 630,
                       "properties": []
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -164,8 +164,8 @@
             "end": 649,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -179,7 +179,6 @@
             "start": 661,
             "end": 689,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -213,8 +212,8 @@
                         "end": 682,
                         "name": "attr"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "Literal",
@@ -226,7 +225,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -256,8 +256,8 @@
             "end": 706,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -271,7 +271,6 @@
             "start": 718,
             "end": 749,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -306,8 +305,8 @@
                         "value": "attr",
                         "raw": "\"attr\""
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "right": {
                       "type": "Literal",
@@ -319,7 +318,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

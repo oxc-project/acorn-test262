@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 267,
       "end": 319,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 310,
                 "name": "PlainMonthDay"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -59,13 +60,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 321,
       "end": 348,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -85,13 +86,13 @@
             "raw": "\"iso8601\""
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 350,
       "end": 402,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -112,9 +113,7 @@
                 "type": "Property",
                 "start": 364,
                 "end": 380,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 364,
@@ -128,15 +127,15 @@
                   "value": "M11",
                   "raw": "\"M11\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 382,
                 "end": 389,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 382,
@@ -150,15 +149,15 @@
                   "value": 18,
                   "raw": "18"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 391,
                 "end": 399,
-                "method": false,
-                "shorthand": true,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 391,
@@ -171,18 +170,20 @@
                   "end": 399,
                   "name": "calendar"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": true,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 403,
       "end": 439,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -214,8 +215,8 @@
                 "end": 433,
                 "name": "equals"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -228,8 +229,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -255,8 +255,8 @@
             "end": 456,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -276,14 +276,6 @@
             "type": "TemplateLiteral",
             "start": 471,
             "end": 515,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 504,
-                "end": 512,
-                "name": "calendar"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -304,6 +296,14 @@
                   "cooked": "\""
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 504,
+                "end": 512,
+                "name": "calendar"
               }
             ]
           }

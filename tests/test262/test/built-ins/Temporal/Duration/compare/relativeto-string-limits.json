@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 263,
       "end": 336,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 301,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -87,13 +88,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 337,
       "end": 383,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -125,19 +126,19 @@
                 "end": 380,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 385,
       "end": 638,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -213,8 +214,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -225,6 +225,7 @@
         "type": "VariableDeclaration",
         "start": 645,
         "end": 661,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -238,8 +239,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -280,8 +280,8 @@
                     "end": 700,
                     "name": "Duration"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -289,8 +289,8 @@
                   "end": 708,
                   "name": "compare"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -314,9 +314,7 @@
                       "type": "Property",
                       "start": 736,
                       "end": 746,
-                      "method": false,
-                      "shorthand": true,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 736,
@@ -329,7 +327,9 @@
                         "end": 746,
                         "name": "relativeTo"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false
                     }
                   ]
                 }
@@ -344,6 +344,7 @@
       "type": "VariableDeclaration",
       "start": 754,
       "end": 1194,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -447,8 +448,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -459,6 +459,7 @@
         "type": "VariableDeclaration",
         "start": 1201,
         "end": 1217,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -472,8 +473,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -510,8 +510,8 @@
                   "end": 1254,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -524,9 +524,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1276,
                   "end": 1348,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -553,8 +551,8 @@
                           "end": 1299,
                           "name": "Duration"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -562,8 +560,8 @@
                         "end": 1307,
                         "name": "compare"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -587,9 +585,7 @@
                             "type": "Property",
                             "start": 1335,
                             "end": 1345,
-                            "method": false,
-                            "shorthand": true,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1335,
@@ -602,26 +598,22 @@
                               "end": 1345,
                               "name": "relativeTo"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false
                           }
                         ]
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1354,
                   "end": 1433,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1358,
-                      "end": 1368,
-                      "name": "relativeTo"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -642,6 +634,14 @@
                         "cooked": "\" is outside the representable range for a relativeTo parameter"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1358,
+                      "end": 1368,
+                      "name": "relativeTo"
                     }
                   ]
                 }

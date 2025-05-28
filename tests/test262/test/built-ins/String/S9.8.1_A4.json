@@ -140,8 +140,8 @@
                 "end": 480,
                 "name": "POSITIVE_INFINITY"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           ],
           "optional": false
@@ -218,8 +218,8 @@
                             "end": 623,
                             "name": "POSITIVE_INFINITY"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         }
                       ],
                       "optional": false
@@ -257,13 +257,13 @@
               "start": 653,
               "end": 662,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 654,
                 "end": 662,
                 "name": "Infinity"
-              }
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -329,13 +329,13 @@
                           "start": 768,
                           "end": 777,
                           "operator": "-",
-                          "prefix": true,
                           "argument": {
                             "type": "Identifier",
                             "start": 769,
                             "end": 777,
                             "name": "Infinity"
-                          }
+                          },
+                          "prefix": true
                         }
                       ],
                       "optional": false
@@ -384,8 +384,8 @@
                 "end": 831,
                 "name": "NEGATIVE_INFINITY"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           ],
           "optional": false
@@ -462,8 +462,8 @@
                             "end": 976,
                             "name": "NEGATIVE_INFINITY"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         }
                       ],
                       "optional": false

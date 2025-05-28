@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 677,
       "end": 752,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 720,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -47,7 +48,6 @@
                 "start": 721,
                 "end": 743,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 722,
@@ -55,7 +55,8 @@
                   "value": null,
                   "raw": "13849764_999_999_999n",
                   "bigint": "13849764999999999"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -67,13 +68,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 903,
       "end": 958,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -105,8 +106,8 @@
                 "end": 946,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -127,13 +128,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 959,
       "end": 1007,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -165,8 +166,8 @@
                 "end": 996,
                 "name": "withPlainTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -179,8 +180,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -206,8 +206,8 @@
             "end": 1024,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -226,8 +226,8 @@
               "end": 1048,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

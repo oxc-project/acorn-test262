@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 284,
       "end": 372,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 327,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -75,95 +76,95 @@
                 "start": 340,
                 "end": 343,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 341,
                   "end": 343,
                   "value": 24,
                   "raw": "24"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 345,
                 "end": 348,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 346,
                   "end": 348,
                   "value": 34,
                   "raw": "34"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 350,
                 "end": 352,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 351,
                   "end": 352,
                   "value": 4,
                   "raw": "4"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 354,
                 "end": 358,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 355,
                   "end": 358,
                   "value": 404,
                   "raw": "404"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 360,
                 "end": 364,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 361,
                   "end": 364,
                   "value": 442,
                   "raw": "442"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 366,
                 "end": 370,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 367,
                   "end": 370,
                   "value": 800,
                   "raw": "800"
-                }
+                },
+                "prefix": true
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 373,
       "end": 455,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -199,8 +200,8 @@
                   "end": 411,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -208,8 +209,8 @@
                 "end": 419,
                 "name": "compare"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -229,8 +230,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -256,8 +256,8 @@
             "end": 472,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -288,6 +288,7 @@
       "type": "VariableDeclaration",
       "start": 537,
       "end": 619,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -323,8 +324,8 @@
                   "end": 575,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -332,8 +333,8 @@
                 "end": 583,
                 "name": "compare"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -353,8 +354,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -380,8 +380,8 @@
             "end": 636,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -412,6 +412,7 @@
       "type": "VariableDeclaration",
       "start": 703,
       "end": 793,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -443,8 +444,8 @@
                 "end": 748,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -487,81 +488,81 @@
                 "start": 764,
                 "end": 769,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 765,
                   "end": 769,
                   "value": 1440,
                   "raw": "1440"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 771,
                 "end": 774,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 772,
                   "end": 774,
                   "value": 34,
                   "raw": "34"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 776,
                 "end": 779,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 777,
                   "end": 779,
                   "value": 73,
                   "raw": "73"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 781,
                 "end": 785,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 782,
                   "end": 785,
                   "value": 407,
                   "raw": "407"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 787,
                 "end": 791,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 788,
                   "end": 791,
                   "value": 380,
                   "raw": "380"
-                }
+                },
+                "prefix": true
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 794,
       "end": 882,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -597,8 +598,8 @@
                   "end": 834,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -606,8 +607,8 @@
                 "end": 842,
                 "name": "compare"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -627,8 +628,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -654,8 +654,8 @@
             "end": 899,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -686,6 +686,7 @@
       "type": "VariableDeclaration",
       "start": 968,
       "end": 1056,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -721,8 +722,8 @@
                   "end": 1008,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -730,8 +731,8 @@
                 "end": 1016,
                 "name": "compare"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -751,8 +752,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -778,8 +778,8 @@
             "end": 1073,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

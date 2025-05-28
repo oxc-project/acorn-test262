@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 596,
       "end": 658,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -34,7 +35,6 @@
                 "start": 622,
                 "end": 656,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [
@@ -69,18 +69,19 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 659,
       "end": 672,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -100,8 +101,7 @@
             "raw": "''"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -127,8 +127,8 @@
             "end": 686,
             "name": "then"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -136,7 +136,6 @@
             "start": 687,
             "end": 715,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -170,14 +169,14 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "FunctionExpression",
             "start": 717,
             "end": 745,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -211,7 +210,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -241,8 +241,8 @@
             "end": 761,
             "name": "then"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -250,7 +250,6 @@
             "start": 762,
             "end": 790,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -284,14 +283,14 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "FunctionExpression",
             "start": 792,
             "end": 820,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -325,7 +324,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -355,8 +355,8 @@
             "end": 836,
             "name": "then"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -364,7 +364,6 @@
             "start": 837,
             "end": 865,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -398,14 +397,14 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "FunctionExpression",
             "start": 867,
             "end": 895,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -439,7 +438,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -469,8 +469,8 @@
             "end": 911,
             "name": "then"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -478,7 +478,6 @@
             "start": 912,
             "end": 1118,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -595,14 +594,14 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "FunctionExpression",
             "start": 1120,
             "end": 1183,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -638,7 +637,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

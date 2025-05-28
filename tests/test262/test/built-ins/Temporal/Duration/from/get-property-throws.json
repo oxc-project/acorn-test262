@@ -12,6 +12,7 @@
         "type": "VariableDeclaration",
         "start": 1264,
         "end": 1272,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -114,6 +114,7 @@
             "type": "VariableDeclaration",
             "start": 1419,
             "end": 1493,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -134,9 +135,7 @@
                       "type": "Property",
                       "start": 1436,
                       "end": 1488,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": true,
+                      "kind": "get",
                       "key": {
                         "type": "Identifier",
                         "start": 1441,
@@ -148,7 +147,6 @@
                         "start": 1446,
                         "end": 1488,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -175,15 +173,17 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       },
-                      "kind": "get"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": true
                     }
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -209,8 +209,8 @@
                   "end": 1509,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -223,9 +223,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1533,
                   "end": 1567,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -252,8 +250,8 @@
                           "end": 1556,
                           "name": "Duration"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -261,8 +259,8 @@
                         "end": 1561,
                         "name": "from"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -273,20 +271,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1573,
                   "end": 1589,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1583,
-                      "end": 1587,
-                      "name": "name"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -307,6 +299,14 @@
                         "cooked": ""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1583,
+                      "end": 1587,
+                      "name": "name"
                     }
                   ]
                 }

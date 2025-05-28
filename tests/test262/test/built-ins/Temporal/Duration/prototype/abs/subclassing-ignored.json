@@ -27,8 +27,8 @@
             "end": 345,
             "name": "checkSubclassingIgnored"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -47,8 +47,8 @@
               "end": 366,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "ArrayExpression",
@@ -81,98 +81,98 @@
                 "start": 380,
                 "end": 382,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 381,
                   "end": 382,
                   "value": 4,
                   "raw": "4"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 384,
                 "end": 386,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 385,
                   "end": 386,
                   "value": 5,
                   "raw": "5"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 388,
                 "end": 390,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 389,
                   "end": 390,
                   "value": 6,
                   "raw": "6"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 392,
                 "end": 394,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 393,
                   "end": 394,
                   "value": 7,
                   "raw": "7"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 396,
                 "end": 400,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 397,
                   "end": 400,
                   "value": 987,
                   "raw": "987"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 402,
                 "end": 406,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 403,
                   "end": 406,
                   "value": 654,
                   "raw": "654"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 408,
                 "end": 412,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 409,
                   "end": 412,
                   "value": 321,
                   "raw": "321"
-                }
+                },
+                "prefix": true
               }
             ]
           },
@@ -193,9 +193,7 @@
             "type": "ArrowFunctionExpression",
             "start": 432,
             "end": 518,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -225,8 +223,8 @@
                   "end": 474,
                   "name": "assertDuration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -307,7 +305,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

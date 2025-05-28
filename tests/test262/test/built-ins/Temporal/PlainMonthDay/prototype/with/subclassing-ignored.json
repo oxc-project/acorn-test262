@@ -27,8 +27,8 @@
             "end": 361,
             "name": "checkSubclassingIgnored"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -47,8 +47,8 @@
               "end": 387,
               "name": "PlainMonthDay"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "ArrayExpression",
@@ -92,9 +92,7 @@
                     "type": "Property",
                     "start": 414,
                     "end": 421,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 414,
@@ -108,7 +106,9 @@
                       "value": 20,
                       "raw": "20"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -118,9 +118,7 @@
             "type": "ArrowFunctionExpression",
             "start": 428,
             "end": 494,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -150,8 +148,8 @@
                   "end": 475,
                   "name": "assertPlainMonthDay"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -176,7 +174,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

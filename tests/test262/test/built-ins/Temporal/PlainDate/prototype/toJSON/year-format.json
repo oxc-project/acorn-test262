@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 286,
       "end": 340,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 323,
                 "name": "PlainDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -47,14 +48,14 @@
                 "start": 324,
                 "end": 331,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 325,
                   "end": 331,
                   "value": 100000,
                   "raw": "100000"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -73,8 +74,7 @@
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -100,8 +100,8 @@
             "end": 357,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -124,8 +124,8 @@
                 "end": 373,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -183,8 +183,8 @@
               "end": 473,
               "name": "PlainDate"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -192,14 +192,14 @@
               "start": 474,
               "end": 480,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 475,
                 "end": 480,
                 "value": 10000,
                 "raw": "10000"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "Literal",
@@ -243,8 +243,8 @@
             "end": 505,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -267,8 +267,8 @@
                 "end": 521,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -326,8 +326,8 @@
               "end": 632,
               "name": "PlainDate"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -335,14 +335,14 @@
               "start": 633,
               "end": 638,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 634,
                 "end": 638,
                 "value": 9999,
                 "raw": "9999"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "Literal",
@@ -386,8 +386,8 @@
             "end": 663,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -410,8 +410,8 @@
                 "end": 679,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -469,8 +469,8 @@
               "end": 789,
               "name": "PlainDate"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -478,14 +478,14 @@
               "start": 790,
               "end": 795,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 791,
                 "end": 795,
                 "value": 1000,
                 "raw": "1000"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "Literal",
@@ -529,8 +529,8 @@
             "end": 820,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -553,8 +553,8 @@
                 "end": 836,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -612,8 +612,8 @@
               "end": 947,
               "name": "PlainDate"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -621,14 +621,14 @@
               "start": 948,
               "end": 952,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 949,
                 "end": 952,
                 "value": 999,
                 "raw": "999"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "Literal",
@@ -672,8 +672,8 @@
             "end": 978,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -696,8 +696,8 @@
                 "end": 994,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -755,8 +755,8 @@
               "end": 1104,
               "name": "PlainDate"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -764,14 +764,14 @@
               "start": 1105,
               "end": 1107,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1106,
                 "end": 1107,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "Literal",
@@ -815,8 +815,8 @@
             "end": 1132,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -839,8 +839,8 @@
                 "end": 1148,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -898,8 +898,8 @@
               "end": 1236,
               "name": "PlainDate"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -951,8 +951,8 @@
             "end": 1263,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -975,8 +975,8 @@
                 "end": 1279,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1034,8 +1034,8 @@
               "end": 1363,
               "name": "PlainDate"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1087,8 +1087,8 @@
             "end": 1390,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1111,8 +1111,8 @@
                 "end": 1406,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1170,8 +1170,8 @@
               "end": 1490,
               "name": "PlainDate"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1223,8 +1223,8 @@
             "end": 1520,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1247,8 +1247,8 @@
                 "end": 1536,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1306,8 +1306,8 @@
               "end": 1643,
               "name": "PlainDate"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1359,8 +1359,8 @@
             "end": 1674,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1383,8 +1383,8 @@
                 "end": 1690,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1442,8 +1442,8 @@
               "end": 1798,
               "name": "PlainDate"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1495,8 +1495,8 @@
             "end": 1828,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1519,8 +1519,8 @@
                 "end": 1844,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1578,8 +1578,8 @@
               "end": 1951,
               "name": "PlainDate"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1631,8 +1631,8 @@
             "end": 1982,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1655,8 +1655,8 @@
                 "end": 1998,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1714,8 +1714,8 @@
               "end": 2109,
               "name": "PlainDate"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1767,8 +1767,8 @@
             "end": 2141,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1791,8 +1791,8 @@
                 "end": 2157,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

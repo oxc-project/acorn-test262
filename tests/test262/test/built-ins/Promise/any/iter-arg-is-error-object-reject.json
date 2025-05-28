@@ -52,8 +52,8 @@
                           "end": 881,
                           "name": "any"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -77,17 +77,15 @@
                       "end": 906,
                       "name": "then"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
                       "type": "ArrowFunctionExpression",
                       "start": 907,
                       "end": 981,
-                      "id": null,
                       "expression": false,
-                      "generator": false,
                       "async": false,
                       "params": [],
                       "body": {
@@ -122,15 +120,15 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "id": null,
+                      "generator": false
                     },
                     {
                       "type": "ArrowFunctionExpression",
                       "start": 983,
                       "end": 1039,
-                      "id": null,
                       "expression": false,
-                      "generator": false,
                       "async": false,
                       "params": [
                         {
@@ -183,7 +181,9 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "id": null,
+                      "generator": false
                     }
                   ],
                   "optional": false
@@ -194,8 +194,8 @@
                   "end": 1045,
                   "name": "then"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -250,27 +250,6 @@
                     "type": "TemplateLiteral",
                     "start": 1087,
                     "end": 1161,
-                    "expressions": [
-                      {
-                        "type": "MemberExpression",
-                        "start": 1146,
-                        "end": 1159,
-                        "object": {
-                          "type": "Identifier",
-                          "start": 1146,
-                          "end": 1151,
-                          "name": "error"
-                        },
-                        "property": {
-                          "type": "Identifier",
-                          "start": 1152,
-                          "end": 1159,
-                          "name": "message"
-                        },
-                        "computed": false,
-                        "optional": false
-                      }
-                    ],
                     "quasis": [
                       {
                         "type": "TemplateElement",
@@ -291,6 +270,27 @@
                           "cooked": ""
                         },
                         "tail": true
+                      }
+                    ],
+                    "expressions": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 1146,
+                        "end": 1159,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1146,
+                          "end": 1151,
+                          "name": "error"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1152,
+                          "end": 1159,
+                          "name": "message"
+                        },
+                        "optional": false,
+                        "computed": false
                       }
                     ]
                   }

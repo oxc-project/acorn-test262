@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 335,
       "end": 357,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -46,8 +47,7 @@
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -73,8 +73,8 @@
             "end": 371,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -88,7 +88,6 @@
             "start": 388,
             "end": 436,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -121,8 +120,8 @@
                         "end": 428,
                         "name": "symmetricDifference"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -137,7 +136,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -174,8 +174,8 @@
             "end": 466,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -189,7 +189,6 @@
             "start": 483,
             "end": 532,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -222,8 +221,8 @@
                         "end": 523,
                         "name": "symmetricDifference"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -238,7 +237,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -275,8 +275,8 @@
             "end": 562,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -290,7 +290,6 @@
             "start": 579,
             "end": 628,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -323,8 +322,8 @@
                         "end": 619,
                         "name": "symmetricDifference"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -340,7 +339,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -377,8 +377,8 @@
             "end": 658,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -392,7 +392,6 @@
             "start": 675,
             "end": 727,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -425,8 +424,8 @@
                         "end": 715,
                         "name": "symmetricDifference"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -441,7 +440,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -478,8 +478,8 @@
             "end": 758,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -493,7 +493,6 @@
             "start": 775,
             "end": 831,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -526,8 +525,8 @@
                         "end": 815,
                         "name": "symmetricDifference"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -541,7 +540,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -578,8 +578,8 @@
             "end": 864,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -593,7 +593,6 @@
             "start": 881,
             "end": 932,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -626,8 +625,8 @@
                         "end": 921,
                         "name": "symmetricDifference"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -642,7 +641,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -679,8 +679,8 @@
             "end": 960,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -694,7 +694,6 @@
             "start": 977,
             "end": 1038,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -727,8 +726,8 @@
                         "end": 1017,
                         "name": "symmetricDifference"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -757,7 +756,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

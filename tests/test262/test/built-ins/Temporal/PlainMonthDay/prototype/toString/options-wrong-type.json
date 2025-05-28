@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 297,
       "end": 376,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -75,13 +76,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 378,
       "end": 428,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -113,8 +114,8 @@
                 "end": 421,
                 "name": "PlainMonthDay"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -134,8 +135,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -146,6 +146,7 @@
         "type": "VariableDeclaration",
         "start": 434,
         "end": 445,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -159,8 +160,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -197,8 +197,8 @@
                   "end": 478,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -211,9 +211,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 490,
                   "end": 520,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -236,8 +234,8 @@
                         "end": 513,
                         "name": "toString"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -248,27 +246,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 526,
                   "end": 575,
-                  "expressions": [
-                    {
-                      "type": "UnaryExpression",
-                      "start": 561,
-                      "end": 573,
-                      "operator": "typeof",
-                      "prefix": true,
-                      "argument": {
-                        "type": "Identifier",
-                        "start": 568,
-                        "end": 573,
-                        "name": "value"
-                      }
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -289,6 +274,21 @@
                         "cooked": ""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "UnaryExpression",
+                      "start": 561,
+                      "end": 573,
+                      "operator": "typeof",
+                      "argument": {
+                        "type": "Identifier",
+                        "start": 568,
+                        "end": 573,
+                        "name": "value"
+                      },
+                      "prefix": true
                     }
                   ]
                 }

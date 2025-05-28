@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 254,
       "end": 379,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -48,8 +49,8 @@
                         "end": 300,
                         "name": "PlainYearMonth"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -102,8 +103,8 @@
                         "end": 353,
                         "name": "PlainYearMonth"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -134,13 +135,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 381,
       "end": 493,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -178,9 +179,7 @@
                     "type": "Property",
                     "start": 415,
                     "end": 489,
-                    "method": true,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 415,
@@ -192,7 +191,6 @@
                       "start": 418,
                       "end": 489,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -227,17 +225,19 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -248,6 +248,7 @@
         "type": "VariableDeclaration",
         "start": 500,
         "end": 527,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -274,8 +275,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -312,8 +312,8 @@
                   "end": 558,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -336,8 +336,8 @@
                       "end": 575,
                       "name": "toJSON"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -383,8 +383,8 @@
                   "end": 635,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -407,8 +407,8 @@
                       "end": 652,
                       "name": "toJSON"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {

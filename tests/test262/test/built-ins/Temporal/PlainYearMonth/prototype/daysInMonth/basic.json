@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 253,
       "end": 457,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -48,8 +49,8 @@
                         "end": 299,
                         "name": "PlainYearMonth"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -102,8 +103,8 @@
                         "end": 345,
                         "name": "PlainYearMonth"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -156,8 +157,8 @@
                         "end": 392,
                         "name": "PlainYearMonth"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -210,8 +211,8 @@
                         "end": 439,
                         "name": "PlainYearMonth"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -242,8 +243,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -254,6 +254,7 @@
         "type": "VariableDeclaration",
         "start": 463,
         "end": 495,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -280,8 +281,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -318,8 +318,8 @@
                   "end": 526,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -338,8 +338,8 @@
                     "end": 553,
                     "name": "daysInMonth"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Identifier",
@@ -351,20 +351,6 @@
                   "type": "TemplateLiteral",
                   "start": 565,
                   "end": 617,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 568,
-                      "end": 576,
-                      "name": "expected"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 601,
-                      "end": 615,
-                      "name": "plainYearMonth"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -395,6 +381,20 @@
                         "cooked": ""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 568,
+                      "end": 576,
+                      "name": "expected"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 601,
+                      "end": 615,
+                      "name": "plainYearMonth"
                     }
                   ]
                 }

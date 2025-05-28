@@ -52,8 +52,8 @@
                           "end": 641,
                           "name": "race"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -65,9 +65,7 @@
                               "type": "Property",
                               "start": 648,
                               "end": 671,
-                              "method": false,
-                              "shorthand": false,
-                              "computed": true,
+                              "kind": "init",
                               "key": {
                                 "type": "MemberExpression",
                                 "start": 649,
@@ -84,8 +82,8 @@
                                   "end": 664,
                                   "name": "iterator"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "value": {
                                 "type": "Literal",
@@ -94,7 +92,9 @@
                                 "value": null,
                                 "raw": "null"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": false,
+                              "computed": true
                             }
                           ]
                         }
@@ -107,8 +107,8 @@
                       "end": 681,
                       "name": "then"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -116,7 +116,6 @@
                       "start": 682,
                       "end": 761,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -152,14 +151,14 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     },
                     {
                       "type": "FunctionExpression",
                       "start": 763,
                       "end": 824,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [
@@ -213,7 +212,8 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     }
                   ],
                   "optional": false
@@ -224,8 +224,8 @@
                   "end": 830,
                   "name": "then"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -280,27 +280,6 @@
                     "type": "TemplateLiteral",
                     "start": 872,
                     "end": 946,
-                    "expressions": [
-                      {
-                        "type": "MemberExpression",
-                        "start": 931,
-                        "end": 944,
-                        "object": {
-                          "type": "Identifier",
-                          "start": 931,
-                          "end": 936,
-                          "name": "error"
-                        },
-                        "property": {
-                          "type": "Identifier",
-                          "start": 937,
-                          "end": 944,
-                          "name": "message"
-                        },
-                        "computed": false,
-                        "optional": false
-                      }
-                    ],
                     "quasis": [
                       {
                         "type": "TemplateElement",
@@ -321,6 +300,27 @@
                           "cooked": ""
                         },
                         "tail": true
+                      }
+                    ],
+                    "expressions": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 931,
+                        "end": 944,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 931,
+                          "end": 936,
+                          "name": "error"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 937,
+                          "end": 944,
+                          "name": "message"
+                        },
+                        "optional": false,
+                        "computed": false
                       }
                     ]
                   }

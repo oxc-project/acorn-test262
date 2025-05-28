@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1094,
       "end": 1126,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -31,13 +32,13 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1127,
       "end": 1269,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -54,7 +55,6 @@
             "start": 1135,
             "end": 1268,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -90,7 +90,6 @@
                         "start": 1177,
                         "end": 1264,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [
@@ -132,7 +131,6 @@
                                     "start": 1212,
                                     "end": 1250,
                                     "id": null,
-                                    "expression": false,
                                     "generator": false,
                                     "async": false,
                                     "params": [],
@@ -153,7 +151,8 @@
                                           }
                                         }
                                       ]
-                                    }
+                                    },
+                                    "expression": false
                                   },
                                   {
                                     "type": "Identifier",
@@ -166,17 +165,18 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -203,15 +203,14 @@
             "end": 1280,
             "name": "resolve"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 1283,
           "end": 1325,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -238,7 +237,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -278,8 +278,8 @@
                   "end": 1346,
                   "name": "allSettled"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -287,8 +287,8 @@
                 "end": 1351,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -312,8 +312,8 @@
             "end": 1366,
             "name": "then"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -321,7 +321,6 @@
             "start": 1367,
             "end": 1428,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -357,14 +356,14 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "FunctionExpression",
             "start": 1430,
             "end": 1572,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -462,7 +461,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

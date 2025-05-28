@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 284,
       "end": 326,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 321,
                 "name": "Instant"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -53,13 +54,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 328,
       "end": 362,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -79,8 +80,7 @@
             "raw": "\"2021-08-19T17:30\""
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -106,8 +106,8 @@
             "end": 376,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -120,9 +120,7 @@
             "type": "ArrowFunctionExpression",
             "start": 389,
             "end": 432,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -145,8 +143,8 @@
                   "end": 422,
                   "name": "toZonedDateTimeISO"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -157,7 +155,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -335,17 +335,15 @@
             "end": 1219,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 1220,
             "end": 1403,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -384,8 +382,8 @@
                         "end": 1251,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -398,9 +396,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 1273,
                         "end": 1316,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -423,8 +419,8 @@
                               "end": 1306,
                               "name": "toZonedDateTimeISO"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -435,20 +431,14 @@
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 1322,
                         "end": 1396,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1336,
-                            "end": 1344,
-                            "name": "timeZone"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -470,6 +460,14 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1336,
+                            "end": 1344,
+                            "name": "timeZone"
+                          }
                         ]
                       }
                     ],
@@ -477,7 +475,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -511,6 +511,7 @@
       "type": "VariableDeclaration",
       "start": 1439,
       "end": 1493,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -542,8 +543,8 @@
                 "end": 1482,
                 "name": "toZonedDateTimeISO"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -556,8 +557,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -583,8 +583,8 @@
             "end": 1510,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -603,8 +603,8 @@
               "end": 1529,
               "name": "timeZoneId"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -652,6 +652,7 @@
       "type": "VariableDeclaration",
       "start": 1611,
       "end": 1665,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -683,8 +684,8 @@
                 "end": 1654,
                 "name": "toZonedDateTimeISO"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -697,8 +698,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -724,8 +724,8 @@
             "end": 1682,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -744,8 +744,8 @@
               "end": 1701,
               "name": "timeZoneId"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -793,6 +793,7 @@
       "type": "VariableDeclaration",
       "start": 1797,
       "end": 1851,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -824,8 +825,8 @@
                 "end": 1840,
                 "name": "toZonedDateTimeISO"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -838,8 +839,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -865,8 +865,8 @@
             "end": 1868,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -885,8 +885,8 @@
               "end": 1887,
               "name": "timeZoneId"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -934,6 +934,7 @@
       "type": "VariableDeclaration",
       "start": 1988,
       "end": 2042,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -965,8 +966,8 @@
                 "end": 2031,
                 "name": "toZonedDateTimeISO"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -979,8 +980,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1006,8 +1006,8 @@
             "end": 2059,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1026,8 +1026,8 @@
               "end": 2078,
               "name": "timeZoneId"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1075,6 +1075,7 @@
       "type": "VariableDeclaration",
       "start": 2188,
       "end": 2242,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1106,8 +1107,8 @@
                 "end": 2231,
                 "name": "toZonedDateTimeISO"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1120,8 +1121,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1147,8 +1147,8 @@
             "end": 2259,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1167,8 +1167,8 @@
               "end": 2278,
               "name": "timeZoneId"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

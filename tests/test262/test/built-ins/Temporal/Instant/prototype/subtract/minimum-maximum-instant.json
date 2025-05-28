@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 263,
       "end": 324,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 293,
                 "name": "Instant"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -47,7 +48,6 @@
                 "start": 294,
                 "end": 322,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 295,
@@ -55,18 +55,19 @@
                   "value": null,
                   "raw": "86_40000_00000_00000_00000n",
                   "bigint": "8640000000000000000000"
-                }
+                },
+                "prefix": true
               }
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 325,
       "end": 385,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -98,8 +99,8 @@
                 "end": 355,
                 "name": "Instant"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -113,13 +114,13 @@
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 387,
       "end": 439,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -155,8 +156,8 @@
                   "end": 415,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -164,8 +165,8 @@
                 "end": 420,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -177,9 +178,7 @@
                     "type": "Property",
                     "start": 422,
                     "end": 436,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 422,
@@ -193,7 +192,9 @@
                       "value": 0,
                       "raw": "0"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -201,13 +202,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 440,
       "end": 491,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -243,8 +244,8 @@
                   "end": 467,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -252,8 +253,8 @@
                 "end": 472,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -265,9 +266,7 @@
                     "type": "Property",
                     "start": 474,
                     "end": 488,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 474,
@@ -281,7 +280,9 @@
                       "value": 1,
                       "raw": "1"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -289,13 +290,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 492,
       "end": 549,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -331,8 +332,8 @@
                   "end": 524,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -340,8 +341,8 @@
                 "end": 529,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -353,9 +354,7 @@
                     "type": "Property",
                     "start": 531,
                     "end": 546,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 531,
@@ -367,16 +366,18 @@
                       "start": 544,
                       "end": 546,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 545,
                         "end": 546,
                         "value": 1,
                         "raw": "1"
-                      }
+                      },
+                      "prefix": true
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -384,8 +385,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -411,8 +411,8 @@
             "end": 606,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -439,8 +439,8 @@
                   "end": 619,
                   "name": "subtract"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -458,8 +458,8 @@
               "end": 642,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -477,8 +477,8 @@
               "end": 664,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         ],
         "optional": false
@@ -508,8 +508,8 @@
             "end": 723,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -536,8 +536,8 @@
                   "end": 736,
                   "name": "subtract"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -555,8 +555,8 @@
               "end": 759,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -574,8 +574,8 @@
               "end": 781,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         ],
         "optional": false
@@ -605,8 +605,8 @@
             "end": 843,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -619,9 +619,7 @@
             "type": "ArrowFunctionExpression",
             "start": 856,
             "end": 879,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -644,8 +642,8 @@
                   "end": 874,
                   "name": "subtract"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -656,7 +654,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -686,8 +686,8 @@
             "end": 934,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -700,9 +700,7 @@
             "type": "ArrowFunctionExpression",
             "start": 947,
             "end": 975,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -725,8 +723,8 @@
                   "end": 965,
                   "name": "subtract"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -737,7 +735,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -767,8 +767,8 @@
             "end": 1033,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -795,8 +795,8 @@
                   "end": 1046,
                   "name": "subtract"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -814,8 +814,8 @@
               "end": 1073,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "BinaryExpression",
@@ -837,8 +837,8 @@
                 "end": 1095,
                 "name": "epochNanoseconds"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "+",
             "right": {
@@ -878,8 +878,8 @@
             "end": 1165,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -906,8 +906,8 @@
                   "end": 1178,
                   "name": "subtract"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -925,8 +925,8 @@
               "end": 1200,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "BinaryExpression",
@@ -948,8 +948,8 @@
                 "end": 1222,
                 "name": "epochNanoseconds"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "-",
             "right": {
@@ -989,8 +989,8 @@
             "end": 1283,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1017,8 +1017,8 @@
                   "end": 1296,
                   "name": "subtract"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1030,9 +1030,7 @@
                       "type": "Property",
                       "start": 1298,
                       "end": 1342,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1298,
@@ -1048,14 +1046,14 @@
                           "start": 1311,
                           "end": 1338,
                           "operator": "-",
-                          "prefix": true,
                           "argument": {
                             "type": "Literal",
                             "start": 1312,
                             "end": 1338,
                             "value": 8.64e+21,
                             "raw": "86_40000_00000_00000_00000"
-                          }
+                          },
+                          "prefix": true
                         },
                         "operator": "*",
                         "right": {
@@ -1066,7 +1064,9 @@
                           "raw": "2"
                         }
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -1079,8 +1079,8 @@
               "end": 1361,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -1098,8 +1098,8 @@
               "end": 1383,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         ],
         "optional": false
@@ -1129,8 +1129,8 @@
             "end": 1403,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1157,8 +1157,8 @@
                   "end": 1416,
                   "name": "subtract"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1170,9 +1170,7 @@
                       "type": "Property",
                       "start": 1418,
                       "end": 1459,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1418,
@@ -1188,14 +1186,14 @@
                           "start": 1432,
                           "end": 1455,
                           "operator": "-",
-                          "prefix": true,
                           "argument": {
                             "type": "Literal",
                             "start": 1433,
                             "end": 1455,
                             "value": 8640000000000000000,
                             "raw": "8640_00000_00000_00000"
-                          }
+                          },
+                          "prefix": true
                         },
                         "operator": "*",
                         "right": {
@@ -1206,7 +1204,9 @@
                           "raw": "2"
                         }
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -1219,8 +1219,8 @@
               "end": 1478,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -1238,8 +1238,8 @@
               "end": 1500,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         ],
         "optional": false
@@ -1269,8 +1269,8 @@
             "end": 1520,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1297,8 +1297,8 @@
                   "end": 1533,
                   "name": "subtract"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1310,9 +1310,7 @@
                       "type": "Property",
                       "start": 1535,
                       "end": 1573,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1535,
@@ -1328,14 +1326,14 @@
                           "start": 1549,
                           "end": 1569,
                           "operator": "-",
-                          "prefix": true,
                           "argument": {
                             "type": "Literal",
                             "start": 1550,
                             "end": 1569,
                             "value": 8640000000000000,
                             "raw": "8_64000_00000_00000"
-                          }
+                          },
+                          "prefix": true
                         },
                         "operator": "*",
                         "right": {
@@ -1346,7 +1344,9 @@
                           "raw": "2"
                         }
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -1359,8 +1359,8 @@
               "end": 1592,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -1378,8 +1378,8 @@
               "end": 1614,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         ],
         "optional": false
@@ -1409,8 +1409,8 @@
             "end": 1634,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1437,8 +1437,8 @@
                   "end": 1647,
                   "name": "subtract"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1450,9 +1450,7 @@
                       "type": "Property",
                       "start": 1649,
                       "end": 1678,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1649,
@@ -1468,14 +1466,14 @@
                           "start": 1658,
                           "end": 1674,
                           "operator": "-",
-                          "prefix": true,
                           "argument": {
                             "type": "Literal",
                             "start": 1659,
                             "end": 1674,
                             "value": 8640000000000,
                             "raw": "864_00000_00000"
-                          }
+                          },
+                          "prefix": true
                         },
                         "operator": "*",
                         "right": {
@@ -1486,7 +1484,9 @@
                           "raw": "2"
                         }
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -1499,8 +1499,8 @@
               "end": 1697,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -1518,8 +1518,8 @@
               "end": 1719,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         ],
         "optional": false
@@ -1549,8 +1549,8 @@
             "end": 1775,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1577,8 +1577,8 @@
                   "end": 1788,
                   "name": "subtract"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1590,9 +1590,7 @@
                       "type": "Property",
                       "start": 1790,
                       "end": 1833,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1790,
@@ -1619,7 +1617,9 @@
                           "raw": "2"
                         }
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -1632,8 +1632,8 @@
               "end": 1852,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -1651,8 +1651,8 @@
               "end": 1874,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         ],
         "optional": false
@@ -1682,8 +1682,8 @@
             "end": 1894,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1710,8 +1710,8 @@
                   "end": 1907,
                   "name": "subtract"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1723,9 +1723,7 @@
                       "type": "Property",
                       "start": 1909,
                       "end": 1949,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1909,
@@ -1752,7 +1750,9 @@
                           "raw": "2"
                         }
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -1765,8 +1765,8 @@
               "end": 1968,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -1784,8 +1784,8 @@
               "end": 1990,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         ],
         "optional": false
@@ -1815,8 +1815,8 @@
             "end": 2010,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1843,8 +1843,8 @@
                   "end": 2023,
                   "name": "subtract"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1856,9 +1856,7 @@
                       "type": "Property",
                       "start": 2025,
                       "end": 2062,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 2025,
@@ -1885,7 +1883,9 @@
                           "raw": "2"
                         }
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -1898,8 +1898,8 @@
               "end": 2081,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -1917,8 +1917,8 @@
               "end": 2103,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         ],
         "optional": false
@@ -1948,8 +1948,8 @@
             "end": 2123,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1976,8 +1976,8 @@
                   "end": 2136,
                   "name": "subtract"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1989,9 +1989,7 @@
                       "type": "Property",
                       "start": 2138,
                       "end": 2166,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 2138,
@@ -2018,7 +2016,9 @@
                           "raw": "2"
                         }
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -2031,8 +2031,8 @@
               "end": 2185,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -2050,8 +2050,8 @@
               "end": 2207,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         ],
         "optional": false

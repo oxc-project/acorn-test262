@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 346,
       "end": 961,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -145,13 +146,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 962,
       "end": 980,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -170,13 +171,13 @@
             "elements": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 982,
       "end": 1043,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -208,8 +209,8 @@
                 "end": 1025,
                 "name": "PlainMonthDay"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -236,13 +237,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1045,
       "end": 1178,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -274,8 +275,8 @@
                 "end": 1095,
                 "name": "propertyBagObserver"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -293,9 +294,7 @@
                     "type": "Property",
                     "start": 1108,
                     "end": 1117,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1108,
@@ -309,15 +308,15 @@
                       "value": 1.7,
                       "raw": "1.7"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1121,
                     "end": 1131,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1121,
@@ -331,15 +330,15 @@
                       "value": 1.7,
                       "raw": "1.7"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1135,
                     "end": 1151,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1135,
@@ -353,15 +352,15 @@
                       "value": "M01",
                       "raw": "\"M01\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1155,
                     "end": 1163,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1155,
@@ -375,7 +374,9 @@
                       "value": 1.7,
                       "raw": "1.7"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               },
@@ -390,13 +391,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1180,
       "end": 1302,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -428,8 +429,8 @@
                 "end": 1231,
                 "name": "propertyBagObserver"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -447,9 +448,7 @@
                     "type": "Property",
                     "start": 1244,
                     "end": 1265,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1244,
@@ -463,15 +462,15 @@
                       "value": "constrain",
                       "raw": "\"constrain\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1269,
                     "end": 1286,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1269,
@@ -485,7 +484,9 @@
                       "value": "property",
                       "raw": "\"property\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               },
@@ -500,8 +501,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -527,8 +527,8 @@
             "end": 1317,
             "name": "with"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -571,8 +571,8 @@
             "end": 1355,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

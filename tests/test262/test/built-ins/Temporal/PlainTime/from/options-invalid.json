@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 277,
       "end": 336,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -83,8 +84,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -95,6 +95,7 @@
         "type": "VariableDeclaration",
         "start": 343,
         "end": 359,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -108,8 +109,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -146,8 +146,8 @@
                   "end": 388,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -160,9 +160,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 400,
                   "end": 456,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -189,8 +187,8 @@
                           "end": 424,
                           "name": "PlainTime"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -198,8 +196,8 @@
                         "end": 429,
                         "name": "from"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -211,9 +209,7 @@
                             "type": "Property",
                             "start": 432,
                             "end": 441,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 432,
@@ -227,7 +223,9 @@
                               "value": 12,
                               "raw": "12"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -239,7 +237,9 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false

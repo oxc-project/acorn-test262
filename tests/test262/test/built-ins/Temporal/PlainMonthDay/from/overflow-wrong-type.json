@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1051,
       "end": 1154,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -43,8 +44,8 @@
                     "end": 1101,
                     "name": "PlainMonthDay"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -72,9 +73,7 @@
                     "type": "Property",
                     "start": 1113,
                     "end": 1129,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1113,
@@ -88,15 +87,15 @@
                       "value": "M05",
                       "raw": "\"M05\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1131,
                     "end": 1137,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1131,
@@ -110,7 +109,9 @@
                       "value": 2,
                       "raw": "2"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               },
@@ -124,8 +125,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -151,17 +151,15 @@
             "end": 1174,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 1175,
             "end": 1404,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -191,8 +189,8 @@
                   "end": 1228,
                   "name": "checkStringOptionWrongType"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -213,9 +211,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1256,
                   "end": 1318,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [
                     {
@@ -249,8 +245,8 @@
                           "end": 1292,
                           "name": "PlainMonthDay"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -258,8 +254,8 @@
                         "end": 1297,
                         "name": "from"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -277,9 +273,7 @@
                             "type": "Property",
                             "start": 1307,
                             "end": 1315,
-                            "method": false,
-                            "shorthand": true,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1307,
@@ -292,21 +286,23 @@
                               "end": 1315,
                               "name": "overflow"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false
                           }
                         ]
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "ArrowFunctionExpression",
                   "start": 1322,
                   "end": 1401,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [
                     {
@@ -342,8 +338,8 @@
                         "end": 1376,
                         "name": "assertPlainMonthDay"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -374,11 +370,15 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

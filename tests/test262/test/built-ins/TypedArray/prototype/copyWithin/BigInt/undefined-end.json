@@ -23,7 +23,6 @@
             "start": 1060,
             "end": 1424,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -131,8 +130,8 @@
                                 "end": 1144,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -303,8 +302,8 @@
                                 "end": 1328,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -378,7 +377,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

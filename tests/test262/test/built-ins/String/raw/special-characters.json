@@ -27,8 +27,8 @@
             "end": 325,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -51,22 +51,13 @@
                 "end": 339,
                 "name": "raw"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "quasi": {
               "type": "TemplateLiteral",
               "start": 339,
               "end": 371,
-              "expressions": [
-                {
-                  "type": "Literal",
-                  "start": 358,
-                  "end": 364,
-                  "value": "test",
-                  "raw": "'test'"
-                }
-              ],
               "quasis": [
                 {
                   "type": "TemplateElement",
@@ -87,6 +78,15 @@
                     "cooked": "check"
                   },
                   "tail": true
+                }
+              ],
+              "expressions": [
+                {
+                  "type": "Literal",
+                  "start": 358,
+                  "end": 364,
+                  "value": "test",
+                  "raw": "'test'"
                 }
               ]
             }
@@ -133,8 +133,8 @@
             "end": 458,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -157,14 +157,13 @@
                 "end": 472,
                 "name": "raw"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "quasi": {
               "type": "TemplateLiteral",
               "start": 472,
               "end": 481,
-              "expressions": [],
               "quasis": [
                 {
                   "type": "TemplateElement",
@@ -176,7 +175,8 @@
                   },
                   "tail": true
                 }
-              ]
+              ],
+              "expressions": []
             }
           },
           {

@@ -59,8 +59,8 @@
             "end": 578,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -73,9 +73,7 @@
             "type": "ArrowFunctionExpression",
             "start": 592,
             "end": 620,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -104,7 +102,9 @@
                   "raw": "\"migg\""
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -173,8 +173,8 @@
             "end": 712,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -187,9 +187,7 @@
             "type": "ArrowFunctionExpression",
             "start": 726,
             "end": 752,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -218,7 +216,9 @@
                   "raw": "\"ii\""
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -287,8 +287,8 @@
             "end": 844,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -301,9 +301,7 @@
             "type": "ArrowFunctionExpression",
             "start": 858,
             "end": 884,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -332,7 +330,9 @@
                   "raw": "\"mm\""
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -401,8 +401,8 @@
             "end": 976,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -415,9 +415,7 @@
             "type": "ArrowFunctionExpression",
             "start": 990,
             "end": 1016,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -446,7 +444,9 @@
                   "raw": "\"ss\""
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -515,8 +515,8 @@
             "end": 1108,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -529,9 +529,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1122,
             "end": 1148,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -560,7 +558,9 @@
                   "raw": "\"uu\""
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -629,8 +629,8 @@
             "end": 1240,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -643,9 +643,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1254,
             "end": 1280,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -674,7 +672,9 @@
                   "raw": "\"yy\""
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -743,8 +743,8 @@
             "end": 1372,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -757,9 +757,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1386,
             "end": 1412,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -788,7 +786,9 @@
                   "raw": "\"dd\""
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",

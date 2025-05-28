@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 245,
       "end": 932,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -215,8 +216,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -242,17 +242,15 @@
             "end": 956,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 957,
             "end": 1115,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -304,8 +302,8 @@
                         "end": 992,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -318,9 +316,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 1014,
                         "end": 1048,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -347,8 +343,8 @@
                                 "end": 1038,
                                 "name": "PlainTime"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -356,8 +352,8 @@
                               "end": 1043,
                               "name": "from"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -368,26 +364,14 @@
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 1054,
                         "end": 1108,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1092,
-                            "end": 1095,
-                            "name": "arg"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 1101,
-                            "end": 1106,
-                            "name": "descr"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -419,6 +403,20 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1092,
+                            "end": 1095,
+                            "name": "arg"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 1101,
+                            "end": 1106,
+                            "name": "descr"
+                          }
                         ]
                       }
                     ],
@@ -426,7 +424,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

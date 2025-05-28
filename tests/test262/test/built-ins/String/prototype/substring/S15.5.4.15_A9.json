@@ -12,7 +12,6 @@
         "start": 458,
         "end": 512,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 459,
@@ -45,8 +44,8 @@
                     "end": 476,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -54,8 +53,8 @@
                   "end": 486,
                   "name": "substring"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -63,8 +62,8 @@
                 "end": 501,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -77,7 +76,8 @@
             ],
             "optional": false
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -139,8 +139,8 @@
                             "end": 641,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -148,8 +148,8 @@
                           "end": 651,
                           "name": "substring"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -157,8 +157,8 @@
                         "end": 666,
                         "name": "hasOwnProperty"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -188,13 +188,11 @@
         "start": 857,
         "end": 898,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "UnaryExpression",
           "start": 858,
           "end": 898,
           "operator": "delete",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 865,
@@ -219,8 +217,8 @@
                   "end": 881,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -228,8 +226,8 @@
                 "end": 891,
                 "name": "substring"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -237,10 +235,12 @@
               "end": 898,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
-          }
-        }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -308,8 +308,8 @@
                 "end": 1182,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -317,8 +317,8 @@
               "end": 1192,
               "name": "substring"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -326,8 +326,8 @@
             "end": 1207,
             "name": "hasOwnProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -400,8 +400,8 @@
                             "end": 1389,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -409,8 +409,8 @@
                           "end": 1399,
                           "name": "substring"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -418,8 +418,8 @@
                         "end": 1414,
                         "name": "hasOwnProperty"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {

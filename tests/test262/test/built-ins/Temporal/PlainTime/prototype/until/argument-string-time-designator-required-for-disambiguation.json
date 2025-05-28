@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 327,
       "end": 394,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 366,
                 "name": "PlainTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -87,8 +88,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -126,8 +126,8 @@
                   "end": 415,
                   "name": "ISO"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -135,8 +135,8 @@
                 "end": 441,
                 "name": "plainTimeStringsAmbiguous"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -147,17 +147,15 @@
             "end": 451,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 452,
             "end": 865,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -176,6 +174,7 @@
                   "type": "VariableDeclaration",
                   "start": 468,
                   "end": 485,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -194,8 +193,7 @@
                         "name": "string"
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -221,8 +219,8 @@
                         "end": 501,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -235,9 +233,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 523,
                         "end": 548,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -260,8 +256,8 @@
                               "end": 543,
                               "name": "until"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -272,20 +268,14 @@
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 554,
                         "end": 599,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 558,
-                            "end": 561,
-                            "name": "arg"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -306,6 +296,14 @@
                               "cooked": "' is ambiguous and requires T prefix"
                             },
                             "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 558,
+                            "end": 561,
+                            "name": "arg"
                           }
                         ]
                       }
@@ -332,14 +330,6 @@
                       "type": "TemplateLiteral",
                       "start": 668,
                       "end": 680,
-                      "expressions": [
-                        {
-                          "type": "Identifier",
-                          "start": 672,
-                          "end": 678,
-                          "name": "string"
-                        }
-                      ],
                       "quasis": [
                         {
                           "type": "TemplateElement",
@@ -360,6 +350,14 @@
                             "cooked": ""
                           },
                           "tail": true
+                        }
+                      ],
+                      "expressions": [
+                        {
+                          "type": "Identifier",
+                          "start": 672,
+                          "end": 678,
+                          "name": "string"
                         }
                       ]
                     }
@@ -389,8 +387,8 @@
                         "end": 698,
                         "name": "until"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -422,14 +420,6 @@
                       "type": "TemplateLiteral",
                       "start": 714,
                       "end": 726,
-                      "expressions": [
-                        {
-                          "type": "Identifier",
-                          "start": 718,
-                          "end": 724,
-                          "name": "string"
-                        }
-                      ],
                       "quasis": [
                         {
                           "type": "TemplateElement",
@@ -450,6 +440,14 @@
                             "cooked": ""
                           },
                           "tail": true
+                        }
+                      ],
+                      "expressions": [
+                        {
+                          "type": "Identifier",
+                          "start": 718,
+                          "end": 724,
+                          "name": "string"
                         }
                       ]
                     }
@@ -479,8 +477,8 @@
                         "end": 743,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -493,9 +491,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 765,
                         "end": 790,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -518,8 +514,8 @@
                               "end": 785,
                               "name": "until"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -530,20 +526,14 @@
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 796,
                         "end": 858,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 852,
-                            "end": 855,
-                            "name": "arg"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -565,6 +555,14 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 852,
+                            "end": 855,
+                            "name": "arg"
+                          }
                         ]
                       }
                     ],
@@ -572,7 +570,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -614,8 +614,8 @@
                   "end": 983,
                   "name": "ISO"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -623,8 +623,8 @@
                 "end": 1011,
                 "name": "plainTimeStringsUnambiguous"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -635,17 +635,15 @@
             "end": 1021,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 1025,
             "end": 1053,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -675,8 +673,8 @@
                   "end": 1048,
                   "name": "until"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -687,7 +685,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

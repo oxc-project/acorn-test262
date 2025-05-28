@@ -12,6 +12,7 @@
         "type": "VariableDeclaration",
         "start": 319,
         "end": 333,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -78,8 +78,8 @@
                   "end": 428,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -92,9 +92,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 450,
                   "end": 491,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -121,8 +119,8 @@
                           "end": 468,
                           "name": "Now"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -130,8 +128,8 @@
                         "end": 481,
                         "name": "plainDateISO"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -142,20 +140,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 497,
                   "end": 542,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 500,
-                      "end": 508,
-                      "name": "timeZone"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -176,6 +168,14 @@
                         "cooked": " is not a valid time zone string"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 500,
+                      "end": 508,
+                      "name": "timeZone"
                     }
                   ]
                 }

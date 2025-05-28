@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 491,
       "end": 499,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -58,8 +58,8 @@
               "end": 569,
               "name": "ZonedDateTime"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -71,7 +71,6 @@
                 "start": 570,
                 "end": 575,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 571,
@@ -79,7 +78,8 @@
                   "value": null,
                   "raw": "864n",
                   "bigint": "864"
-                }
+                },
+                "prefix": true
               },
               "operator": "*",
               "right": {
@@ -140,8 +140,8 @@
             "end": 609,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -154,9 +154,7 @@
             "type": "ArrowFunctionExpression",
             "start": 622,
             "end": 642,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -175,9 +173,11 @@
                 "end": 642,
                 "name": "hoursInDay"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -218,8 +218,8 @@
               "end": 714,
               "name": "ZonedDateTime"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -231,7 +231,6 @@
                 "start": 715,
                 "end": 720,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 716,
@@ -239,7 +238,8 @@
                   "value": null,
                   "raw": "864n",
                   "bigint": "864"
-                }
+                },
+                "prefix": true
               },
               "operator": "*",
               "right": {
@@ -300,8 +300,8 @@
             "end": 754,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -314,9 +314,7 @@
             "type": "ArrowFunctionExpression",
             "start": 767,
             "end": 787,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -335,9 +333,11 @@
                 "end": 787,
                 "name": "hoursInDay"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -378,8 +378,8 @@
               "end": 862,
               "name": "ZonedDateTime"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -453,8 +453,8 @@
             "end": 901,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -467,9 +467,7 @@
             "type": "ArrowFunctionExpression",
             "start": 914,
             "end": 934,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -488,9 +486,11 @@
                 "end": 934,
                 "name": "hoursInDay"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

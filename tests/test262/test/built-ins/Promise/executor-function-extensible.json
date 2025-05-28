@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 406,
       "end": 427,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -33,7 +33,6 @@
         "end": 448,
         "name": "NotPromise"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -92,7 +91,6 @@
                   "start": 503,
                   "end": 516,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -101,14 +99,14 @@
                     "start": 514,
                     "end": 516,
                     "body": []
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "FunctionExpression",
                   "start": 518,
                   "end": 531,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -117,14 +115,16 @@
                     "start": 529,
                     "end": 531,
                     "body": []
-                  }
+                  },
+                  "expression": false
                 }
               ],
               "optional": false
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -154,8 +154,8 @@
               "end": 551,
               "name": "resolve"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -163,8 +163,8 @@
             "end": 556,
             "name": "call"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -212,8 +212,8 @@
                 "end": 597,
                 "name": "isExtensible"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

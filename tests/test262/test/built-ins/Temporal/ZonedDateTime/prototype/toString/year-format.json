@@ -13,7 +13,6 @@
         "end": 314,
         "name": "epochNsInYear"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -33,6 +32,7 @@
             "type": "VariableDeclaration",
             "start": 398,
             "end": 443,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -53,8 +53,7 @@
                   "bigint": "31556952000000000"
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ReturnStatement",
@@ -130,12 +129,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 509,
       "end": 583,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -167,8 +168,8 @@
                 "end": 550,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -187,7 +188,6 @@
                     "start": 565,
                     "end": 573,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 566,
@@ -195,7 +195,8 @@
                       "value": null,
                       "raw": "100000n",
                       "bigint": "100000"
-                    }
+                    },
+                    "prefix": true
                   }
                 ],
                 "optional": false
@@ -210,8 +211,7 @@
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -237,8 +237,8 @@
             "end": 600,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -261,8 +261,8 @@
                 "end": 618,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -320,8 +320,8 @@
               "end": 742,
               "name": "ZonedDateTime"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -340,7 +340,6 @@
                   "start": 757,
                   "end": 764,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 758,
@@ -348,7 +347,8 @@
                     "value": null,
                     "raw": "10000n",
                     "bigint": "10000"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -388,8 +388,8 @@
             "end": 791,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -412,8 +412,8 @@
                 "end": 809,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -471,8 +471,8 @@
               "end": 944,
               "name": "ZonedDateTime"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -491,7 +491,6 @@
                   "start": 959,
                   "end": 965,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 960,
@@ -499,7 +498,8 @@
                     "value": null,
                     "raw": "9999n",
                     "bigint": "9999"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -539,8 +539,8 @@
             "end": 992,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -563,8 +563,8 @@
                 "end": 1010,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -622,8 +622,8 @@
               "end": 1144,
               "name": "ZonedDateTime"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -642,7 +642,6 @@
                   "start": 1159,
                   "end": 1165,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1160,
@@ -650,7 +649,8 @@
                     "value": null,
                     "raw": "1000n",
                     "bigint": "1000"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -690,8 +690,8 @@
             "end": 1192,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -714,8 +714,8 @@
                 "end": 1210,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -773,8 +773,8 @@
               "end": 1345,
               "name": "ZonedDateTime"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -793,7 +793,6 @@
                   "start": 1360,
                   "end": 1365,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1361,
@@ -801,7 +800,8 @@
                     "value": null,
                     "raw": "999n",
                     "bigint": "999"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -841,8 +841,8 @@
             "end": 1392,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -865,8 +865,8 @@
                 "end": 1410,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -924,8 +924,8 @@
               "end": 1544,
               "name": "ZonedDateTime"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -944,7 +944,6 @@
                   "start": 1559,
                   "end": 1562,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1560,
@@ -952,7 +951,8 @@
                     "value": null,
                     "raw": "1n",
                     "bigint": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -992,8 +992,8 @@
             "end": 1589,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1016,8 +1016,8 @@
                 "end": 1607,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1075,8 +1075,8 @@
               "end": 1719,
               "name": "ZonedDateTime"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1136,8 +1136,8 @@
             "end": 1763,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1160,8 +1160,8 @@
                 "end": 1781,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1219,8 +1219,8 @@
               "end": 1889,
               "name": "ZonedDateTime"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1280,8 +1280,8 @@
             "end": 1933,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1304,8 +1304,8 @@
                 "end": 1951,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1363,8 +1363,8 @@
               "end": 2059,
               "name": "ZonedDateTime"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1424,8 +1424,8 @@
             "end": 2105,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1448,8 +1448,8 @@
                 "end": 2123,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1507,8 +1507,8 @@
               "end": 2254,
               "name": "ZonedDateTime"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1568,8 +1568,8 @@
             "end": 2301,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1592,8 +1592,8 @@
                 "end": 2319,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1651,8 +1651,8 @@
               "end": 2451,
               "name": "ZonedDateTime"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1712,8 +1712,8 @@
             "end": 2498,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1736,8 +1736,8 @@
                 "end": 2516,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1795,8 +1795,8 @@
               "end": 2647,
               "name": "ZonedDateTime"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1856,8 +1856,8 @@
             "end": 2695,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1880,8 +1880,8 @@
                 "end": 2713,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1939,8 +1939,8 @@
               "end": 2848,
               "name": "ZonedDateTime"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -2000,8 +2000,8 @@
             "end": 2897,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2024,8 +2024,8 @@
                 "end": 2915,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

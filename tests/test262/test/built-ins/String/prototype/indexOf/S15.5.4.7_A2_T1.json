@@ -32,8 +32,8 @@
               "end": 415,
               "name": "indexOf"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -52,14 +52,14 @@
           "start": 430,
           "end": 432,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 431,
             "end": 432,
             "value": 1,
             "raw": "1"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -119,8 +119,8 @@
                           "end": 524,
                           "name": "indexOf"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {

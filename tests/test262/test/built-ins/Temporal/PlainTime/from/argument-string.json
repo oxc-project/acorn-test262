@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 287,
       "end": 2287,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2210,8 +2211,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -2222,6 +2222,7 @@
         "type": "VariableDeclaration",
         "start": 2294,
         "end": 2320,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -2253,8 +2254,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -2271,6 +2271,7 @@
             "type": "VariableDeclaration",
             "start": 2335,
             "end": 2381,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -2306,8 +2307,8 @@
                         "end": 2368,
                         "name": "PlainTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -2315,8 +2316,8 @@
                       "end": 2373,
                       "name": "from"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -2329,8 +2330,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -2356,8 +2356,8 @@
                   "end": 2400,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -2376,8 +2376,8 @@
                     "end": 2416,
                     "name": "length"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -2420,8 +2420,8 @@
                   "end": 2462,
                   "name": "assertPlainTime"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {

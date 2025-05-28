@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 721,
       "end": 753,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,14 +39,13 @@
                 "end": 750,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -71,8 +71,8 @@
             "end": 770,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -95,8 +95,8 @@
                 "end": 779,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -154,8 +154,8 @@
               "end": 835,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -193,8 +193,8 @@
             "end": 856,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -217,8 +217,8 @@
                 "end": 865,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -276,8 +276,8 @@
               "end": 926,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -285,14 +285,14 @@
               "start": 927,
               "end": 929,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 928,
                 "end": 929,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -322,8 +322,8 @@
             "end": 948,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -346,8 +346,8 @@
                 "end": 957,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -405,8 +405,8 @@
               "end": 1019,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -444,8 +444,8 @@
             "end": 1049,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -468,8 +468,8 @@
                 "end": 1058,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -527,8 +527,8 @@
               "end": 1128,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -536,14 +536,14 @@
               "start": 1129,
               "end": 1140,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1130,
                 "end": 1140,
                 "value": 1234567890,
                 "raw": "1234567890"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -573,8 +573,8 @@
             "end": 1159,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -597,8 +597,8 @@
                 "end": 1168,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -656,8 +656,8 @@
               "end": 1240,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -702,8 +702,8 @@
             "end": 1264,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -726,8 +726,8 @@
                 "end": 1273,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -785,8 +785,8 @@
               "end": 1341,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -794,28 +794,28 @@
               "start": 1342,
               "end": 1344,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1343,
                 "end": 1344,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 1346,
               "end": 1348,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1347,
                 "end": 1348,
                 "value": 2,
                 "raw": "2"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -845,8 +845,8 @@
             "end": 1367,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -869,8 +869,8 @@
                 "end": 1376,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -928,8 +928,8 @@
               "end": 1445,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -974,8 +974,8 @@
             "end": 1469,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -998,8 +998,8 @@
                 "end": 1478,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1057,8 +1057,8 @@
               "end": 1540,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1073,14 +1073,14 @@
               "start": 1543,
               "end": 1545,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1544,
                 "end": 1545,
                 "value": 2,
                 "raw": "2"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -1110,8 +1110,8 @@
             "end": 1564,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1134,8 +1134,8 @@
                 "end": 1573,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1193,8 +1193,8 @@
               "end": 1636,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1239,8 +1239,8 @@
             "end": 1669,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1263,8 +1263,8 @@
                 "end": 1678,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1322,8 +1322,8 @@
               "end": 1749,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1338,14 +1338,14 @@
               "start": 1752,
               "end": 1763,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1753,
                 "end": 1763,
                 "value": 1234567890,
                 "raw": "1234567890"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -1375,8 +1375,8 @@
             "end": 1782,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1399,8 +1399,8 @@
                 "end": 1791,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1458,8 +1458,8 @@
               "end": 1864,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1511,8 +1511,8 @@
             "end": 1891,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1535,8 +1535,8 @@
                 "end": 1900,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1594,8 +1594,8 @@
               "end": 1974,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1603,42 +1603,42 @@
               "start": 1975,
               "end": 1977,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1976,
                 "end": 1977,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 1979,
               "end": 1981,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1980,
                 "end": 1981,
                 "value": 2,
                 "raw": "2"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 1983,
               "end": 1985,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1984,
                 "end": 1985,
                 "value": 3,
                 "raw": "3"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -1668,8 +1668,8 @@
             "end": 2004,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1692,8 +1692,8 @@
                 "end": 2013,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1751,8 +1751,8 @@
               "end": 2088,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1804,8 +1804,8 @@
             "end": 2115,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1828,8 +1828,8 @@
                 "end": 2124,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1887,8 +1887,8 @@
               "end": 2185,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1910,14 +1910,14 @@
               "start": 2192,
               "end": 2194,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 2193,
                 "end": 2194,
                 "value": 3,
                 "raw": "3"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -1947,8 +1947,8 @@
             "end": 2213,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1971,8 +1971,8 @@
                 "end": 2222,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -2030,8 +2030,8 @@
               "end": 2284,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -2083,8 +2083,8 @@
             "end": 2311,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2107,8 +2107,8 @@
                 "end": 2320,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -2166,8 +2166,8 @@
               "end": 2387,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -2175,14 +2175,14 @@
               "start": 2388,
               "end": 2390,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 2389,
                 "end": 2390,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "Literal",
@@ -2196,14 +2196,14 @@
               "start": 2395,
               "end": 2397,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 2396,
                 "end": 2397,
                 "value": 3,
                 "raw": "3"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -2233,8 +2233,8 @@
             "end": 2416,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2257,8 +2257,8 @@
                 "end": 2425,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -2316,8 +2316,8 @@
               "end": 2493,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -2369,8 +2369,8 @@
             "end": 2520,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2393,8 +2393,8 @@
                 "end": 2529,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -2452,8 +2452,8 @@
               "end": 2597,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -2468,28 +2468,28 @@
               "start": 2601,
               "end": 2603,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 2602,
                 "end": 2603,
                 "value": 2,
                 "raw": "2"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 2605,
               "end": 2607,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 2606,
                 "end": 2607,
                 "value": 3,
                 "raw": "3"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -2519,8 +2519,8 @@
             "end": 2626,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2543,8 +2543,8 @@
                 "end": 2635,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -2602,8 +2602,8 @@
               "end": 2704,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -2655,8 +2655,8 @@
             "end": 2740,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2679,8 +2679,8 @@
                 "end": 2749,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -2738,8 +2738,8 @@
               "end": 2819,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -2761,14 +2761,14 @@
               "start": 2826,
               "end": 2837,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 2827,
                 "end": 2837,
                 "value": 1234567890,
                 "raw": "1234567890"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -2798,8 +2798,8 @@
             "end": 2856,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2822,8 +2822,8 @@
                 "end": 2865,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -2881,8 +2881,8 @@
               "end": 2937,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -2941,8 +2941,8 @@
             "end": 2967,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2965,8 +2965,8 @@
                 "end": 2976,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -3024,8 +3024,8 @@
               "end": 3058,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -3033,56 +3033,56 @@
               "start": 3059,
               "end": 3061,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 3060,
                 "end": 3061,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 3063,
               "end": 3065,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 3064,
                 "end": 3065,
                 "value": 2,
                 "raw": "2"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 3067,
               "end": 3069,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 3068,
                 "end": 3069,
                 "value": 3,
                 "raw": "3"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 3071,
               "end": 3073,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 3072,
                 "end": 3073,
                 "value": 4,
                 "raw": "4"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -3112,8 +3112,8 @@
             "end": 3092,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3136,8 +3136,8 @@
                 "end": 3101,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -3195,8 +3195,8 @@
               "end": 3184,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -3255,8 +3255,8 @@
             "end": 3223,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3279,8 +3279,8 @@
                 "end": 3232,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -3338,8 +3338,8 @@
               "end": 3301,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -3368,14 +3368,14 @@
               "start": 3311,
               "end": 3322,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 3312,
                 "end": 3322,
                 "value": 1234567890,
                 "raw": "1234567890"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -3405,8 +3405,8 @@
             "end": 3341,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3429,8 +3429,8 @@
                 "end": 3350,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -3488,8 +3488,8 @@
               "end": 3420,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -3548,8 +3548,8 @@
             "end": 3450,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3572,8 +3572,8 @@
                 "end": 3459,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -3631,8 +3631,8 @@
               "end": 3519,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -3661,14 +3661,14 @@
               "start": 3529,
               "end": 3531,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 3530,
                 "end": 3531,
                 "value": 4,
                 "raw": "4"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -3698,8 +3698,8 @@
             "end": 3550,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3722,8 +3722,8 @@
                 "end": 3559,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -3781,8 +3781,8 @@
               "end": 3620,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -3841,8 +3841,8 @@
             "end": 3650,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3865,8 +3865,8 @@
                 "end": 3659,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -3924,8 +3924,8 @@
               "end": 3725,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -3933,14 +3933,14 @@
               "start": 3726,
               "end": 3728,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 3727,
                 "end": 3728,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "Literal",
@@ -3961,14 +3961,14 @@
               "start": 3736,
               "end": 3738,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 3737,
                 "end": 3738,
                 "value": 4,
                 "raw": "4"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -3998,8 +3998,8 @@
             "end": 3757,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -4022,8 +4022,8 @@
                 "end": 3766,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -4081,8 +4081,8 @@
               "end": 3833,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -4141,8 +4141,8 @@
             "end": 3863,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -4165,8 +4165,8 @@
                 "end": 3872,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -4224,8 +4224,8 @@
               "end": 3939,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -4240,14 +4240,14 @@
               "start": 3943,
               "end": 3945,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 3944,
                 "end": 3945,
                 "value": 2,
                 "raw": "2"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "Literal",
@@ -4261,14 +4261,14 @@
               "start": 3950,
               "end": 3952,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 3951,
                 "end": 3952,
                 "value": 4,
                 "raw": "4"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -4298,8 +4298,8 @@
             "end": 3971,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -4322,8 +4322,8 @@
                 "end": 3980,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -4381,8 +4381,8 @@
               "end": 4048,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -4441,8 +4441,8 @@
             "end": 4078,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -4465,8 +4465,8 @@
                 "end": 4087,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -4524,8 +4524,8 @@
               "end": 4153,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -4547,28 +4547,28 @@
               "start": 4160,
               "end": 4162,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 4161,
                 "end": 4162,
                 "value": 3,
                 "raw": "3"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 4164,
               "end": 4166,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 4165,
                 "end": 4166,
                 "value": 4,
                 "raw": "4"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -4598,8 +4598,8 @@
             "end": 4185,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -4622,8 +4622,8 @@
                 "end": 4194,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -4681,8 +4681,8 @@
               "end": 4262,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -4748,8 +4748,8 @@
             "end": 4295,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -4772,8 +4772,8 @@
                 "end": 4304,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -4831,8 +4831,8 @@
               "end": 4360,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -4868,14 +4868,14 @@
               "start": 4373,
               "end": 4375,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 4374,
                 "end": 4375,
                 "value": 5,
                 "raw": "5"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -4905,8 +4905,8 @@
             "end": 4394,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -4929,8 +4929,8 @@
                 "end": 4403,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -4988,8 +4988,8 @@
               "end": 4460,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -5055,8 +5055,8 @@
             "end": 4493,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -5079,8 +5079,8 @@
                 "end": 4502,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -5138,8 +5138,8 @@
               "end": 4570,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -5147,14 +5147,14 @@
               "start": 4571,
               "end": 4573,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 4572,
                 "end": 4573,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "Literal",
@@ -5182,14 +5182,14 @@
               "start": 4584,
               "end": 4586,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 4585,
                 "end": 4586,
                 "value": 5,
                 "raw": "5"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -5219,8 +5219,8 @@
             "end": 4605,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -5243,8 +5243,8 @@
                 "end": 4614,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -5302,8 +5302,8 @@
               "end": 4683,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -5369,8 +5369,8 @@
             "end": 4716,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -5393,8 +5393,8 @@
                 "end": 4725,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -5452,8 +5452,8 @@
               "end": 4794,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -5468,14 +5468,14 @@
               "start": 4798,
               "end": 4800,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 4799,
                 "end": 4800,
                 "value": 2,
                 "raw": "2"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "Literal",
@@ -5496,14 +5496,14 @@
               "start": 4808,
               "end": 4810,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 4809,
                 "end": 4810,
                 "value": 5,
                 "raw": "5"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -5533,8 +5533,8 @@
             "end": 4829,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -5557,8 +5557,8 @@
                 "end": 4838,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -5616,8 +5616,8 @@
               "end": 4909,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -5690,8 +5690,8 @@
             "end": 4945,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -5714,8 +5714,8 @@
                 "end": 4954,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -5773,8 +5773,8 @@
               "end": 5012,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -5817,14 +5817,14 @@
               "start": 5028,
               "end": 5030,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 5029,
                 "end": 5030,
                 "value": 6,
                 "raw": "6"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -5854,8 +5854,8 @@
             "end": 5049,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -5878,8 +5878,8 @@
                 "end": 5058,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -5937,8 +5937,8 @@
               "end": 5117,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -6011,8 +6011,8 @@
             "end": 5153,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -6035,8 +6035,8 @@
                 "end": 5162,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -6094,8 +6094,8 @@
               "end": 5232,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -6131,28 +6131,28 @@
               "start": 5245,
               "end": 5247,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 5246,
                 "end": 5247,
                 "value": 5,
                 "raw": "5"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 5249,
               "end": 5251,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 5250,
                 "end": 5251,
                 "value": 6,
                 "raw": "6"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -6182,8 +6182,8 @@
             "end": 5270,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -6206,8 +6206,8 @@
                 "end": 5279,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -6265,8 +6265,8 @@
               "end": 5350,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -6339,8 +6339,8 @@
             "end": 5386,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -6363,8 +6363,8 @@
                 "end": 5395,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -6422,8 +6422,8 @@
               "end": 5465,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -6445,14 +6445,14 @@
               "start": 5472,
               "end": 5474,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 5473,
                 "end": 5474,
                 "value": 3,
                 "raw": "3"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "Literal",
@@ -6473,14 +6473,14 @@
               "start": 5482,
               "end": 5484,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 5483,
                 "end": 5484,
                 "value": 6,
                 "raw": "6"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -6510,8 +6510,8 @@
             "end": 5503,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -6534,8 +6534,8 @@
                 "end": 5512,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -6593,8 +6593,8 @@
               "end": 5583,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -6667,8 +6667,8 @@
             "end": 5619,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -6691,8 +6691,8 @@
                 "end": 5628,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -6750,8 +6750,8 @@
               "end": 5697,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -6780,14 +6780,14 @@
               "start": 5707,
               "end": 5709,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 5708,
                 "end": 5709,
                 "value": 4,
                 "raw": "4"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "Literal",
@@ -6801,14 +6801,14 @@
               "start": 5714,
               "end": 5716,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 5715,
                 "end": 5716,
                 "value": 6,
                 "raw": "6"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -6838,8 +6838,8 @@
             "end": 5735,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -6862,8 +6862,8 @@
                 "end": 5744,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -6921,8 +6921,8 @@
               "end": 5815,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -7002,8 +7002,8 @@
             "end": 5854,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -7026,8 +7026,8 @@
                 "end": 5863,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -7085,8 +7085,8 @@
               "end": 5921,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -7136,14 +7136,14 @@
               "start": 5940,
               "end": 5942,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 5941,
                 "end": 5942,
                 "value": 7,
                 "raw": "7"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -7173,8 +7173,8 @@
             "end": 5961,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -7197,8 +7197,8 @@
                 "end": 5970,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -7256,8 +7256,8 @@
               "end": 6029,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -7337,8 +7337,8 @@
             "end": 6068,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -7361,8 +7361,8 @@
                 "end": 6077,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -7420,8 +7420,8 @@
               "end": 6147,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -7457,14 +7457,14 @@
               "start": 6160,
               "end": 6162,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 6161,
                 "end": 6162,
                 "value": 5,
                 "raw": "5"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "Literal",
@@ -7478,14 +7478,14 @@
               "start": 6167,
               "end": 6169,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 6168,
                 "end": 6169,
                 "value": 7,
                 "raw": "7"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -7515,8 +7515,8 @@
             "end": 6188,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -7539,8 +7539,8 @@
                 "end": 6197,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -7598,8 +7598,8 @@
               "end": 6268,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -7679,8 +7679,8 @@
             "end": 6307,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -7703,8 +7703,8 @@
                 "end": 6316,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -7762,8 +7762,8 @@
               "end": 6388,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -7806,28 +7806,28 @@
               "start": 6404,
               "end": 6406,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 6405,
                 "end": 6406,
                 "value": 6,
                 "raw": "6"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 6408,
               "end": 6410,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 6409,
                 "end": 6410,
                 "value": 7,
                 "raw": "7"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -7857,8 +7857,8 @@
             "end": 6429,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -7881,8 +7881,8 @@
                 "end": 6438,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -7940,8 +7940,8 @@
               "end": 6511,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -8021,8 +8021,8 @@
             "end": 6550,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -8045,8 +8045,8 @@
                 "end": 6559,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -8104,8 +8104,8 @@
               "end": 6637,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -8141,42 +8141,42 @@
               "start": 6650,
               "end": 6652,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 6651,
                 "end": 6652,
                 "value": 5,
                 "raw": "5"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 6654,
               "end": 6656,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 6655,
                 "end": 6656,
                 "value": 6,
                 "raw": "6"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 6658,
               "end": 6660,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 6659,
                 "end": 6660,
                 "value": 7,
                 "raw": "7"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -8206,8 +8206,8 @@
             "end": 6679,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -8230,8 +8230,8 @@
                 "end": 6688,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -8289,8 +8289,8 @@
               "end": 6767,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -8370,8 +8370,8 @@
             "end": 6806,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -8394,8 +8394,8 @@
                 "end": 6815,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -8453,8 +8453,8 @@
               "end": 6902,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -8462,14 +8462,14 @@
               "start": 6903,
               "end": 6905,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 6904,
                 "end": 6905,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "Literal",
@@ -8497,42 +8497,42 @@
               "start": 6916,
               "end": 6918,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 6917,
                 "end": 6918,
                 "value": 5,
                 "raw": "5"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 6920,
               "end": 6922,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 6921,
                 "end": 6922,
                 "value": 6,
                 "raw": "6"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 6924,
               "end": 6926,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 6925,
                 "end": 6926,
                 "value": 7,
                 "raw": "7"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -8562,8 +8562,8 @@
             "end": 6945,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -8586,8 +8586,8 @@
                 "end": 6954,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -8645,8 +8645,8 @@
               "end": 7043,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -8733,8 +8733,8 @@
             "end": 7085,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -8757,8 +8757,8 @@
                 "end": 7094,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -8816,8 +8816,8 @@
               "end": 7161,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -8874,14 +8874,14 @@
               "start": 7183,
               "end": 7185,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 7184,
                 "end": 7185,
                 "value": 8,
                 "raw": "8"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -8911,8 +8911,8 @@
             "end": 7204,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -8935,8 +8935,8 @@
                 "end": 7213,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -8994,8 +8994,8 @@
               "end": 7281,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -9082,8 +9082,8 @@
             "end": 7324,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -9106,8 +9106,8 @@
                 "end": 7333,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -9165,8 +9165,8 @@
               "end": 7414,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -9223,14 +9223,14 @@
               "start": 7436,
               "end": 7439,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 7437,
                 "end": 7439,
                 "value": 80,
                 "raw": "80"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -9260,8 +9260,8 @@
             "end": 7458,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -9284,8 +9284,8 @@
                 "end": 7467,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -9343,8 +9343,8 @@
               "end": 7549,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -9431,8 +9431,8 @@
             "end": 7592,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -9455,8 +9455,8 @@
                 "end": 7601,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -9514,8 +9514,8 @@
               "end": 7678,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -9572,14 +9572,14 @@
               "start": 7700,
               "end": 7703,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 7701,
                 "end": 7703,
                 "value": 87,
                 "raw": "87"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -9609,8 +9609,8 @@
             "end": 7722,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -9633,8 +9633,8 @@
                 "end": 7731,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -9692,8 +9692,8 @@
               "end": 7809,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -9780,8 +9780,8 @@
             "end": 7853,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -9804,8 +9804,8 @@
                 "end": 7862,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -9863,8 +9863,8 @@
               "end": 7941,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -9921,14 +9921,14 @@
               "start": 7963,
               "end": 7967,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 7964,
                 "end": 7967,
                 "value": 876,
                 "raw": "876"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -9958,8 +9958,8 @@
             "end": 7986,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -9982,8 +9982,8 @@
                 "end": 7995,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -10041,8 +10041,8 @@
               "end": 8075,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -10129,8 +10129,8 @@
             "end": 8122,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -10153,8 +10153,8 @@
                 "end": 8131,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -10212,8 +10212,8 @@
               "end": 8206,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -10270,14 +10270,14 @@
               "start": 8228,
               "end": 8235,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 8229,
                 "end": 8235,
                 "value": 876543,
                 "raw": "876543"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -10307,8 +10307,8 @@
             "end": 8254,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -10331,8 +10331,8 @@
                 "end": 8263,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -10390,8 +10390,8 @@
               "end": 8340,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -10485,8 +10485,8 @@
             "end": 8385,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -10509,8 +10509,8 @@
                 "end": 8394,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -10568,8 +10568,8 @@
               "end": 8464,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -10633,14 +10633,14 @@
               "start": 8489,
               "end": 8491,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 8490,
                 "end": 8491,
                 "value": 9,
                 "raw": "9"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -10670,8 +10670,8 @@
             "end": 8510,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -10694,8 +10694,8 @@
                 "end": 8519,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -10753,8 +10753,8 @@
               "end": 8590,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -10848,8 +10848,8 @@
             "end": 8636,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -10872,8 +10872,8 @@
                 "end": 8645,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -10931,8 +10931,8 @@
               "end": 8729,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -10996,14 +10996,14 @@
               "start": 8754,
               "end": 8757,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 8755,
                 "end": 8757,
                 "value": 90,
                 "raw": "90"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -11033,8 +11033,8 @@
             "end": 8776,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -11057,8 +11057,8 @@
                 "end": 8785,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -11116,8 +11116,8 @@
               "end": 8870,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -11211,8 +11211,8 @@
             "end": 8916,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -11235,8 +11235,8 @@
                 "end": 8925,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -11294,8 +11294,8 @@
               "end": 9005,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -11359,14 +11359,14 @@
               "start": 9030,
               "end": 9033,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 9031,
                 "end": 9033,
                 "value": 98,
                 "raw": "98"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -11396,8 +11396,8 @@
             "end": 9052,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -11420,8 +11420,8 @@
                 "end": 9061,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -11479,8 +11479,8 @@
               "end": 9142,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -11574,8 +11574,8 @@
             "end": 9189,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -11598,8 +11598,8 @@
                 "end": 9198,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -11657,8 +11657,8 @@
               "end": 9282,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -11722,14 +11722,14 @@
               "start": 9307,
               "end": 9311,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 9308,
                 "end": 9311,
                 "value": 900,
                 "raw": "900"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -11759,8 +11759,8 @@
             "end": 9330,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -11783,8 +11783,8 @@
                 "end": 9339,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -11842,8 +11842,8 @@
               "end": 9424,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -11937,8 +11937,8 @@
             "end": 9471,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -11961,8 +11961,8 @@
                 "end": 9480,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -12020,8 +12020,8 @@
               "end": 9562,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -12085,14 +12085,14 @@
               "start": 9587,
               "end": 9591,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 9588,
                 "end": 9591,
                 "value": 987,
                 "raw": "987"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -12122,8 +12122,8 @@
             "end": 9610,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -12146,8 +12146,8 @@
                 "end": 9619,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -12205,8 +12205,8 @@
               "end": 9702,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -12300,8 +12300,8 @@
             "end": 9752,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -12324,8 +12324,8 @@
                 "end": 9761,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -12383,8 +12383,8 @@
               "end": 9837,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -12448,14 +12448,14 @@
               "start": 9862,
               "end": 9869,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 9863,
                 "end": 9869,
                 "value": 987654,
                 "raw": "987654"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -12485,8 +12485,8 @@
             "end": 9888,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -12509,8 +12509,8 @@
                 "end": 9897,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -12568,8 +12568,8 @@
               "end": 9974,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -12663,8 +12663,8 @@
             "end": 10027,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -12687,8 +12687,8 @@
                 "end": 10036,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -12746,8 +12746,8 @@
               "end": 10115,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -12811,14 +12811,14 @@
               "start": 10140,
               "end": 10150,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 10141,
                 "end": 10150,
                 "value": 987654321,
                 "raw": "987654321"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -12848,8 +12848,8 @@
             "end": 10169,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -12872,8 +12872,8 @@
                 "end": 10178,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -12931,8 +12931,8 @@
               "end": 10259,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -13033,8 +13033,8 @@
             "end": 10307,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -13057,8 +13057,8 @@
                 "end": 10316,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -13116,8 +13116,8 @@
               "end": 10388,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -13188,14 +13188,14 @@
               "start": 10416,
               "end": 10418,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 10417,
                 "end": 10418,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -13225,8 +13225,8 @@
             "end": 10437,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -13249,8 +13249,8 @@
                 "end": 10446,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -13308,8 +13308,8 @@
               "end": 10519,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -13410,8 +13410,8 @@
             "end": 10568,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -13434,8 +13434,8 @@
                 "end": 10577,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -13493,8 +13493,8 @@
               "end": 10663,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -13565,14 +13565,14 @@
               "start": 10691,
               "end": 10694,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 10692,
                 "end": 10694,
                 "value": 10,
                 "raw": "10"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -13602,8 +13602,8 @@
             "end": 10713,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -13626,8 +13626,8 @@
                 "end": 10722,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -13685,8 +13685,8 @@
               "end": 10809,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -13787,8 +13787,8 @@
             "end": 10858,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -13811,8 +13811,8 @@
                 "end": 10867,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -13870,8 +13870,8 @@
               "end": 10949,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -13942,14 +13942,14 @@
               "start": 10977,
               "end": 10980,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 10978,
                 "end": 10980,
                 "value": 12,
                 "raw": "12"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -13979,8 +13979,8 @@
             "end": 10999,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -14003,8 +14003,8 @@
                 "end": 11008,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -14062,8 +14062,8 @@
               "end": 11091,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -14164,8 +14164,8 @@
             "end": 11141,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -14188,8 +14188,8 @@
                 "end": 11150,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -14247,8 +14247,8 @@
               "end": 11236,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -14319,14 +14319,14 @@
               "start": 11264,
               "end": 11268,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 11265,
                 "end": 11268,
                 "value": 100,
                 "raw": "100"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -14356,8 +14356,8 @@
             "end": 11287,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -14380,8 +14380,8 @@
                 "end": 11296,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -14439,8 +14439,8 @@
               "end": 11383,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -14541,8 +14541,8 @@
             "end": 11433,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -14565,8 +14565,8 @@
                 "end": 11442,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -14624,8 +14624,8 @@
               "end": 11526,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -14696,14 +14696,14 @@
               "start": 11554,
               "end": 11558,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 11555,
                 "end": 11558,
                 "value": 123,
                 "raw": "123"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -14733,8 +14733,8 @@
             "end": 11577,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -14757,8 +14757,8 @@
                 "end": 11586,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -14816,8 +14816,8 @@
               "end": 11671,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -14918,8 +14918,8 @@
             "end": 11724,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -14942,8 +14942,8 @@
                 "end": 11733,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -15001,8 +15001,8 @@
               "end": 11811,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -15073,14 +15073,14 @@
               "start": 11839,
               "end": 11846,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 11840,
                 "end": 11846,
                 "value": 123456,
                 "raw": "123456"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -15110,8 +15110,8 @@
             "end": 11865,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -15134,8 +15134,8 @@
                 "end": 11874,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -15193,8 +15193,8 @@
               "end": 11953,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -15295,8 +15295,8 @@
             "end": 12009,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -15319,8 +15319,8 @@
                 "end": 12018,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -15378,8 +15378,8 @@
               "end": 12097,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -15450,14 +15450,14 @@
               "start": 12125,
               "end": 12135,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 12126,
                 "end": 12135,
                 "value": 123456789,
                 "raw": "123456789"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -15487,8 +15487,8 @@
             "end": 12154,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -15511,8 +15511,8 @@
                 "end": 12163,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -15570,8 +15570,8 @@
               "end": 12243,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -15672,8 +15672,8 @@
             "end": 12300,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -15696,8 +15696,8 @@
                 "end": 12309,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -15755,8 +15755,8 @@
               "end": 12393,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -15827,14 +15827,14 @@
               "start": 12421,
               "end": 12432,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 12422,
                 "end": 12432,
                 "value": 1234567891,
                 "raw": "1234567891"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -15864,8 +15864,8 @@
             "end": 12451,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -15888,8 +15888,8 @@
                 "end": 12460,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -15947,8 +15947,8 @@
               "end": 12546,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -16049,8 +16049,8 @@
             "end": 12594,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -16073,8 +16073,8 @@
                 "end": 12603,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -16132,8 +16132,8 @@
               "end": 12686,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -16183,56 +16183,56 @@
               "start": 12705,
               "end": 12707,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 12706,
                 "end": 12707,
                 "value": 4,
                 "raw": "4"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 12709,
               "end": 12711,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 12710,
                 "end": 12711,
                 "value": 3,
                 "raw": "3"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 12713,
               "end": 12715,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 12714,
                 "end": 12715,
                 "value": 2,
                 "raw": "2"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 12717,
               "end": 12719,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 12718,
                 "end": 12719,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -16262,8 +16262,8 @@
             "end": 12738,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -16286,8 +16286,8 @@
                 "end": 12747,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -16345,8 +16345,8 @@
               "end": 12831,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -16447,8 +16447,8 @@
             "end": 12883,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -16471,8 +16471,8 @@
                 "end": 12892,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -16530,8 +16530,8 @@
               "end": 12981,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -16581,56 +16581,56 @@
               "start": 13000,
               "end": 13002,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13001,
                 "end": 13002,
                 "value": 4,
                 "raw": "4"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 13004,
               "end": 13006,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13005,
                 "end": 13006,
                 "value": 3,
                 "raw": "3"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 13008,
               "end": 13010,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13009,
                 "end": 13010,
                 "value": 2,
                 "raw": "2"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 13012,
               "end": 13018,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13013,
                 "end": 13018,
                 "value": 90001,
                 "raw": "90001"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -16660,8 +16660,8 @@
             "end": 13037,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -16684,8 +16684,8 @@
                 "end": 13046,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -16743,8 +16743,8 @@
               "end": 13136,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -16845,8 +16845,8 @@
             "end": 13191,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -16869,8 +16869,8 @@
                 "end": 13200,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -16928,8 +16928,8 @@
               "end": 13290,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -16979,56 +16979,56 @@
               "start": 13309,
               "end": 13311,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13310,
                 "end": 13311,
                 "value": 4,
                 "raw": "4"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 13313,
               "end": 13315,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13314,
                 "end": 13315,
                 "value": 3,
                 "raw": "3"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 13317,
               "end": 13319,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13318,
                 "end": 13319,
                 "value": 2,
                 "raw": "2"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 13321,
               "end": 13330,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13322,
                 "end": 13330,
                 "value": 90080001,
                 "raw": "90080001"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -17058,8 +17058,8 @@
             "end": 13349,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -17082,8 +17082,8 @@
                 "end": 13358,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -17141,8 +17141,8 @@
               "end": 13450,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -17243,8 +17243,8 @@
             "end": 13498,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -17267,8 +17267,8 @@
                 "end": 13507,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -17326,8 +17326,8 @@
               "end": 13590,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -17335,140 +17335,140 @@
               "start": 13591,
               "end": 13593,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13592,
                 "end": 13593,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 13595,
               "end": 13597,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13596,
                 "end": 13597,
                 "value": 2,
                 "raw": "2"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 13599,
               "end": 13601,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13600,
                 "end": 13601,
                 "value": 3,
                 "raw": "3"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 13603,
               "end": 13605,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13604,
                 "end": 13605,
                 "value": 4,
                 "raw": "4"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 13607,
               "end": 13609,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13608,
                 "end": 13609,
                 "value": 5,
                 "raw": "5"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 13611,
               "end": 13613,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13612,
                 "end": 13613,
                 "value": 6,
                 "raw": "6"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 13615,
               "end": 13617,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13616,
                 "end": 13617,
                 "value": 7,
                 "raw": "7"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 13619,
               "end": 13621,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13620,
                 "end": 13621,
                 "value": 8,
                 "raw": "8"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 13623,
               "end": 13625,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13624,
                 "end": 13625,
                 "value": 9,
                 "raw": "9"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 13627,
               "end": 13629,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13628,
                 "end": 13629,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -17498,8 +17498,8 @@
             "end": 13648,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -17522,8 +17522,8 @@
                 "end": 13657,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -17581,8 +17581,8 @@
               "end": 13742,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -17683,8 +17683,8 @@
             "end": 13817,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -17707,8 +17707,8 @@
                 "end": 13826,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -17766,8 +17766,8 @@
               "end": 13940,
               "name": "Duration"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -17775,140 +17775,140 @@
               "start": 13941,
               "end": 13946,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13942,
                 "end": 13946,
                 "value": 1234,
                 "raw": "1234"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 13948,
               "end": 13953,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13949,
                 "end": 13953,
                 "value": 2345,
                 "raw": "2345"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 13955,
               "end": 13960,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13956,
                 "end": 13960,
                 "value": 3456,
                 "raw": "3456"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 13962,
               "end": 13967,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13963,
                 "end": 13967,
                 "value": 4567,
                 "raw": "4567"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 13969,
               "end": 13974,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13970,
                 "end": 13974,
                 "value": 5678,
                 "raw": "5678"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 13976,
               "end": 13981,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13977,
                 "end": 13981,
                 "value": 6789,
                 "raw": "6789"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 13983,
               "end": 13988,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13984,
                 "end": 13988,
                 "value": 7890,
                 "raw": "7890"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 13990,
               "end": 13994,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13991,
                 "end": 13994,
                 "value": 890,
                 "raw": "890"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 13996,
               "end": 14000,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 13997,
                 "end": 14000,
                 "value": 901,
                 "raw": "901"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "UnaryExpression",
               "start": 14002,
               "end": 14006,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 14003,
                 "end": 14006,
                 "value": 123,
                 "raw": "123"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -17938,8 +17938,8 @@
             "end": 14025,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -17962,8 +17962,8 @@
                 "end": 14034,
                 "name": "toJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

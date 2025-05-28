@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1300,
       "end": 1378,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -54,13 +55,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1428,
       "end": 1554,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -81,9 +82,7 @@
                 "type": "Property",
                 "start": 1448,
                 "end": 1473,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 1448,
@@ -99,15 +98,15 @@
                   "raw": "1_000_000_000n",
                   "bigint": "1000000000"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1477,
                 "end": 1503,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 1477,
@@ -123,15 +122,15 @@
                   "raw": "1_000_000n",
                   "bigint": "1000000"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1507,
                 "end": 1529,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 1507,
@@ -147,15 +146,15 @@
                   "raw": "1_000n",
                   "bigint": "1000"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1533,
                 "end": 1550,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 1533,
@@ -171,18 +170,20 @@
                   "raw": "1n",
                   "bigint": "1"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1556,
       "end": 1702,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -303,13 +304,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1704,
       "end": 2000,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -518,13 +519,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2002,
       "end": 2057,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -611,8 +612,7 @@
             }
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -623,6 +623,7 @@
         "type": "VariableDeclaration",
         "start": 2111,
         "end": 2119,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -636,8 +637,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "CallExpression",
@@ -659,8 +659,8 @@
             "end": 2134,
             "name": "slice"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -675,14 +675,14 @@
             "start": 2138,
             "end": 2140,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2139,
               "end": 2140,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -696,6 +696,7 @@
             "type": "VariableDeclaration",
             "start": 2147,
             "end": 2196,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -741,8 +742,8 @@
                           "end": 2184,
                           "name": "indexOf"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -763,12 +764,11 @@
                       "raw": "1"
                     }
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ForOfStatement",
@@ -779,6 +779,7 @@
               "type": "VariableDeclaration",
               "start": 2205,
               "end": 2216,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -792,8 +793,7 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "let"
+              ]
             },
             "right": {
               "type": "Identifier",
@@ -815,6 +815,7 @@
                     "type": "VariableDeclaration",
                     "start": 2241,
                     "end": 2253,
+                    "kind": "let",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
@@ -828,8 +829,7 @@
                         },
                         "init": null
                       }
-                    ],
-                    "kind": "let"
+                    ]
                   },
                   "right": {
                     "type": "Identifier",
@@ -846,6 +846,7 @@
                         "type": "VariableDeclaration",
                         "start": 2338,
                         "end": 2435,
+                        "kind": "let",
                         "declarations": [
                           {
                             "type": "VariableDeclarator",
@@ -902,8 +903,8 @@
                                     "end": 2391,
                                     "name": "unit"
                                   },
-                                  "computed": true,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": true
                                 }
                               },
                               "operator": "+",
@@ -948,14 +949,13 @@
                                     "end": 2433,
                                     "name": "smallerUnit"
                                   },
-                                  "computed": true,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": true
                                 }
                               }
                             }
                           }
-                        ],
-                        "kind": "let"
+                        ]
                       },
                       {
                         "type": "IfStatement",
@@ -998,6 +998,7 @@
                         "type": "VariableDeclaration",
                         "start": 2587,
                         "end": 2638,
+                        "kind": "let",
                         "declarations": [
                           {
                             "type": "VariableDeclarator",
@@ -1070,13 +1071,13 @@
                               }
                             }
                           }
-                        ],
-                        "kind": "let"
+                        ]
                       },
                       {
                         "type": "VariableDeclaration",
                         "start": 2645,
                         "end": 2694,
+                        "kind": "let",
                         "declarations": [
                           {
                             "type": "VariableDeclarator",
@@ -1135,8 +1136,8 @@
                                   "end": 2685,
                                   "name": "padStart"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [
                                 {
@@ -1157,13 +1158,13 @@
                               "optional": false
                             }
                           }
-                        ],
-                        "kind": "let"
+                        ]
                       },
                       {
                         "type": "VariableDeclaration",
                         "start": 2701,
                         "end": 2736,
+                        "kind": "let",
                         "declarations": [
                           {
                             "type": "VariableDeclarator",
@@ -1190,20 +1191,6 @@
                                   "type": "TemplateLiteral",
                                   "start": 2723,
                                   "end": 2734,
-                                  "expressions": [
-                                    {
-                                      "type": "Identifier",
-                                      "start": 2726,
-                                      "end": 2727,
-                                      "name": "i"
-                                    },
-                                    {
-                                      "type": "Identifier",
-                                      "start": 2731,
-                                      "end": 2732,
-                                      "name": "f"
-                                    }
-                                  ],
                                   "quasis": [
                                     {
                                       "type": "TemplateElement",
@@ -1235,19 +1222,33 @@
                                       },
                                       "tail": true
                                     }
+                                  ],
+                                  "expressions": [
+                                    {
+                                      "type": "Identifier",
+                                      "start": 2726,
+                                      "end": 2727,
+                                      "name": "i"
+                                    },
+                                    {
+                                      "type": "Identifier",
+                                      "start": 2731,
+                                      "end": 2732,
+                                      "name": "f"
+                                    }
                                   ]
                                 }
                               ],
                               "optional": false
                             }
                           }
-                        ],
-                        "kind": "let"
+                        ]
                       },
                       {
                         "type": "VariableDeclaration",
                         "start": 2744,
                         "end": 2819,
+                        "kind": "let",
                         "declarations": [
                           {
                             "type": "VariableDeclarator",
@@ -1283,8 +1284,8 @@
                                     "end": 2769,
                                     "name": "Duration"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "property": {
                                   "type": "Identifier",
@@ -1292,8 +1293,8 @@
                                   "end": 2774,
                                   "name": "from"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [
                                 {
@@ -1305,9 +1306,7 @@
                                       "type": "Property",
                                       "start": 2776,
                                       "end": 2791,
-                                      "method": false,
-                                      "shorthand": false,
-                                      "computed": true,
+                                      "kind": "init",
                                       "key": {
                                         "type": "Identifier",
                                         "start": 2777,
@@ -1320,15 +1319,15 @@
                                         "end": 2791,
                                         "name": "integer"
                                       },
-                                      "kind": "init"
+                                      "method": false,
+                                      "shorthand": false,
+                                      "computed": true
                                     },
                                     {
                                       "type": "Property",
                                       "start": 2793,
                                       "end": 2816,
-                                      "method": false,
-                                      "shorthand": false,
-                                      "computed": true,
+                                      "kind": "init",
                                       "key": {
                                         "type": "Identifier",
                                         "start": 2794,
@@ -1341,7 +1340,9 @@
                                         "end": 2816,
                                         "name": "fraction"
                                       },
-                                      "kind": "init"
+                                      "method": false,
+                                      "shorthand": false,
+                                      "computed": true
                                     }
                                   ]
                                 }
@@ -1349,13 +1350,13 @@
                               "optional": false
                             }
                           }
-                        ],
-                        "kind": "let"
+                        ]
                       },
                       {
                         "type": "VariableDeclaration",
                         "start": 2826,
                         "end": 2853,
+                        "kind": "let",
                         "declarations": [
                           {
                             "type": "VariableDeclarator",
@@ -1387,8 +1388,8 @@
                                   "end": 2846,
                                   "name": "total"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [
                                 {
@@ -1401,8 +1402,7 @@
                               "optional": false
                             }
                           }
-                        ],
-                        "kind": "let"
+                        ]
                       },
                       {
                         "type": "ExpressionStatement",
@@ -1428,8 +1428,8 @@
                               "end": 2877,
                               "name": "sameValue"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1448,32 +1448,6 @@
                               "type": "TemplateLiteral",
                               "start": 2921,
                               "end": 2969,
-                              "expressions": [
-                                {
-                                  "type": "Identifier",
-                                  "start": 2924,
-                                  "end": 2928,
-                                  "name": "unit"
-                                },
-                                {
-                                  "type": "Identifier",
-                                  "start": 2932,
-                                  "end": 2939,
-                                  "name": "integer"
-                                },
-                                {
-                                  "type": "Identifier",
-                                  "start": 2944,
-                                  "end": 2955,
-                                  "name": "smallerUnit"
-                                },
-                                {
-                                  "type": "Identifier",
-                                  "start": 2959,
-                                  "end": 2967,
-                                  "name": "fraction"
-                                }
-                              ],
                               "quasis": [
                                 {
                                   "type": "TemplateElement",
@@ -1524,6 +1498,32 @@
                                     "cooked": ""
                                   },
                                   "tail": true
+                                }
+                              ],
+                              "expressions": [
+                                {
+                                  "type": "Identifier",
+                                  "start": 2924,
+                                  "end": 2928,
+                                  "name": "unit"
+                                },
+                                {
+                                  "type": "Identifier",
+                                  "start": 2932,
+                                  "end": 2939,
+                                  "name": "integer"
+                                },
+                                {
+                                  "type": "Identifier",
+                                  "start": 2944,
+                                  "end": 2955,
+                                  "name": "smallerUnit"
+                                },
+                                {
+                                  "type": "Identifier",
+                                  "start": 2959,
+                                  "end": 2967,
+                                  "name": "fraction"
                                 }
                               ]
                             }

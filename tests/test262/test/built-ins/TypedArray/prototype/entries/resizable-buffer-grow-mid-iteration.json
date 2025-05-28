@@ -12,6 +12,7 @@
         "type": "VariableDeclaration",
         "start": 707,
         "end": 715,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -43,6 +43,7 @@
             "type": "VariableDeclaration",
             "start": 730,
             "end": 765,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -75,13 +76,13 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 768,
             "end": 808,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -127,8 +128,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -165,8 +165,8 @@
                       "end": 910,
                       "name": "entries"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -303,8 +303,8 @@
                       "end": 1074,
                       "name": "BYTES_PER_ELEMENT"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ],
@@ -323,6 +323,7 @@
         "type": "VariableDeclaration",
         "start": 1084,
         "end": 1092,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -336,8 +337,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -354,6 +354,7 @@
             "type": "VariableDeclaration",
             "start": 1107,
             "end": 1142,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -386,13 +387,13 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 1145,
             "end": 1220,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -449,8 +450,8 @@
                           "end": 1215,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     },
                     {
@@ -463,8 +464,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -501,8 +501,8 @@
                       "end": 1332,
                       "name": "entries"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -597,8 +597,8 @@
                       "end": 1436,
                       "name": "BYTES_PER_ELEMENT"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ],
@@ -617,6 +617,7 @@
         "type": "VariableDeclaration",
         "start": 1446,
         "end": 1454,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -630,8 +631,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -648,6 +648,7 @@
             "type": "VariableDeclaration",
             "start": 1469,
             "end": 1504,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -680,13 +681,13 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 1507,
             "end": 1547,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -725,8 +726,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -763,8 +763,8 @@
                       "end": 1595,
                       "name": "entries"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -943,8 +943,8 @@
                       "end": 1819,
                       "name": "BYTES_PER_ELEMENT"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ],
@@ -963,6 +963,7 @@
         "type": "VariableDeclaration",
         "start": 1829,
         "end": 1837,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -976,8 +977,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -994,6 +994,7 @@
             "type": "VariableDeclaration",
             "start": 1852,
             "end": 1887,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1026,13 +1027,13 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 1890,
             "end": 1965,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1089,15 +1090,14 @@
                           "end": 1963,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -1134,8 +1134,8 @@
                       "end": 2023,
                       "name": "entries"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -1272,8 +1272,8 @@
                       "end": 2187,
                       "name": "BYTES_PER_ELEMENT"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ],

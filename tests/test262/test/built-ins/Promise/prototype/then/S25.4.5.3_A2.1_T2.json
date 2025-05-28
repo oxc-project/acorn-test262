@@ -13,7 +13,6 @@
         "end": 309,
         "name": "ZeroArgConstructor"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,12 +21,14 @@
         "start": 312,
         "end": 314,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 316,
       "end": 349,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,8 +53,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -79,8 +79,8 @@
             "end": 364,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -94,7 +94,6 @@
             "start": 376,
             "end": 444,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -131,8 +130,8 @@
                           "end": 403,
                           "name": "then"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -140,8 +139,8 @@
                         "end": 408,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -155,7 +154,6 @@
                         "start": 412,
                         "end": 425,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -164,14 +162,14 @@
                           "start": 423,
                           "end": 425,
                           "body": []
-                        }
+                        },
+                        "expression": false
                       },
                       {
                         "type": "FunctionExpression",
                         "start": 427,
                         "end": 440,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -180,14 +178,16 @@
                           "start": 438,
                           "end": 440,
                           "body": []
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 290,
       "end": 1286,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -48,8 +49,8 @@
                         "end": 330,
                         "name": "Duration"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -165,8 +166,8 @@
                         "end": 446,
                         "name": "Duration"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -282,8 +283,8 @@
                         "end": 564,
                         "name": "Duration"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -399,8 +400,8 @@
                         "end": 685,
                         "name": "Duration"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -516,8 +517,8 @@
                         "end": 806,
                         "name": "Duration"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -546,98 +547,98 @@
                         "start": 816,
                         "end": 829,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 817,
                           "end": 829,
                           "value": 104249991374,
                           "raw": "104249991374"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "UnaryExpression",
                         "start": 831,
                         "end": 833,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 832,
                           "end": 833,
                           "value": 7,
                           "raw": "7"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "UnaryExpression",
                         "start": 835,
                         "end": 838,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 836,
                           "end": 838,
                           "value": 36,
                           "raw": "36"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "UnaryExpression",
                         "start": 840,
                         "end": 843,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 841,
                           "end": 843,
                           "value": 31,
                           "raw": "31"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "UnaryExpression",
                         "start": 845,
                         "end": 849,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 846,
                           "end": 849,
                           "value": 999,
                           "raw": "999"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "UnaryExpression",
                         "start": 851,
                         "end": 855,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 852,
                           "end": 855,
                           "value": 999,
                           "raw": "999"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "UnaryExpression",
                         "start": 857,
                         "end": 861,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 858,
                           "end": 861,
                           "value": 999,
                           "raw": "999"
-                        }
+                        },
+                        "prefix": true
                       }
                     ]
                   },
@@ -653,14 +654,14 @@
                     "start": 876,
                     "end": 903,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 877,
                       "end": 903,
                       "value": 9007199254740992,
                       "raw": "9007199254740991.999999999"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               },
@@ -689,8 +690,8 @@
                         "end": 930,
                         "name": "Duration"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -726,84 +727,84 @@
                         "start": 943,
                         "end": 957,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 944,
                           "end": 957,
                           "value": 2501999792983,
                           "raw": "2501999792983"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "UnaryExpression",
                         "start": 959,
                         "end": 962,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 960,
                           "end": 962,
                           "value": 36,
                           "raw": "36"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "UnaryExpression",
                         "start": 964,
                         "end": 967,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 965,
                           "end": 967,
                           "value": 31,
                           "raw": "31"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "UnaryExpression",
                         "start": 969,
                         "end": 973,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 970,
                           "end": 973,
                           "value": 999,
                           "raw": "999"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "UnaryExpression",
                         "start": 975,
                         "end": 979,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 976,
                           "end": 979,
                           "value": 999,
                           "raw": "999"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "UnaryExpression",
                         "start": 981,
                         "end": 985,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 982,
                           "end": 985,
                           "value": 999,
                           "raw": "999"
-                        }
+                        },
+                        "prefix": true
                       }
                     ]
                   },
@@ -819,14 +820,14 @@
                     "start": 1001,
                     "end": 1028,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1002,
                       "end": 1028,
                       "value": 9007199254740992,
                       "raw": "9007199254740991.999999999"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               },
@@ -855,8 +856,8 @@
                         "end": 1055,
                         "name": "Duration"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -899,70 +900,70 @@
                         "start": 1071,
                         "end": 1087,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1072,
                           "end": 1087,
                           "value": 150119987579016,
                           "raw": "150119987579016"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "UnaryExpression",
                         "start": 1089,
                         "end": 1092,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1090,
                           "end": 1092,
                           "value": 31,
                           "raw": "31"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "UnaryExpression",
                         "start": 1094,
                         "end": 1098,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1095,
                           "end": 1098,
                           "value": 999,
                           "raw": "999"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "UnaryExpression",
                         "start": 1100,
                         "end": 1104,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1101,
                           "end": 1104,
                           "value": 999,
                           "raw": "999"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "UnaryExpression",
                         "start": 1106,
                         "end": 1110,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1107,
                           "end": 1110,
                           "value": 999,
                           "raw": "999"
-                        }
+                        },
+                        "prefix": true
                       }
                     ]
                   },
@@ -978,14 +979,14 @@
                     "start": 1128,
                     "end": 1155,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1129,
                       "end": 1155,
                       "value": 9007199254740992,
                       "raw": "9007199254740991.999999999"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               },
@@ -1014,8 +1015,8 @@
                         "end": 1182,
                         "name": "Duration"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1065,56 +1066,56 @@
                         "start": 1201,
                         "end": 1218,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1202,
                           "end": 1218,
                           "value": 9007199254740991,
                           "raw": "9007199254740991"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "UnaryExpression",
                         "start": 1220,
                         "end": 1224,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1221,
                           "end": 1224,
                           "value": 999,
                           "raw": "999"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "UnaryExpression",
                         "start": 1226,
                         "end": 1230,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1227,
                           "end": 1230,
                           "value": 999,
                           "raw": "999"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "UnaryExpression",
                         "start": 1232,
                         "end": 1236,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1233,
                           "end": 1236,
                           "value": 999,
                           "raw": "999"
-                        }
+                        },
+                        "prefix": true
                       }
                     ]
                   },
@@ -1130,22 +1131,21 @@
                     "start": 1254,
                     "end": 1281,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1255,
                       "end": 1281,
                       "value": 9007199254740992,
                       "raw": "9007199254740991.999999999"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -1156,6 +1156,7 @@
         "type": "VariableDeclaration",
         "start": 1293,
         "end": 1319,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -1188,8 +1189,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -1226,8 +1226,8 @@
                   "end": 1350,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1250,8 +1250,8 @@
                       "end": 1358,
                       "name": "total"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1287,6 +1287,7 @@
       "type": "VariableDeclaration",
       "start": 1417,
       "end": 1527,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1318,8 +1319,8 @@
                 "end": 1450,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1395,8 +1396,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1422,8 +1422,8 @@
             "end": 1558,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1510,6 +1510,7 @@
       "type": "VariableDeclaration",
       "start": 1641,
       "end": 1761,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1541,8 +1542,8 @@
                 "end": 1674,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1550,146 +1551,145 @@
                 "start": 1675,
                 "end": 1686,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1676,
                   "end": 1686,
                   "value": 4294967295,
                   "raw": "4294967295"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1688,
                 "end": 1699,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1689,
                   "end": 1699,
                   "value": 4294967295,
                   "raw": "4294967295"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1701,
                 "end": 1712,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1702,
                   "end": 1712,
                   "value": 4294967295,
                   "raw": "4294967295"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1714,
                 "end": 1727,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1715,
                   "end": 1727,
                   "value": 104249991374,
                   "raw": "104249991374"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1729,
                 "end": 1731,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1730,
                   "end": 1731,
                   "value": 7,
                   "raw": "7"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1733,
                 "end": 1736,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1734,
                   "end": 1736,
                   "value": 36,
                   "raw": "36"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1738,
                 "end": 1741,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1739,
                   "end": 1741,
                   "value": 31,
                   "raw": "31"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1743,
                 "end": 1747,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1744,
                   "end": 1747,
                   "value": 999,
                   "raw": "999"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1749,
                 "end": 1753,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1750,
                   "end": 1753,
                   "value": 999,
                   "raw": "999"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1755,
                 "end": 1759,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1756,
                   "end": 1759,
                   "value": 999,
                   "raw": "999"
-                }
+                },
+                "prefix": true
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1715,8 +1715,8 @@
             "end": 1792,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1730,140 +1730,140 @@
             "start": 1798,
             "end": 1809,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1799,
               "end": 1809,
               "value": 4294967295,
               "raw": "4294967295"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 1811,
             "end": 1822,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1812,
               "end": 1822,
               "value": 4294967295,
               "raw": "4294967295"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 1824,
             "end": 1835,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1825,
               "end": 1835,
               "value": 4294967295,
               "raw": "4294967295"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 1837,
             "end": 1850,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1838,
               "end": 1850,
               "value": 104249991374,
               "raw": "104249991374"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 1852,
             "end": 1854,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1853,
               "end": 1854,
               "value": 7,
               "raw": "7"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 1856,
             "end": 1859,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1857,
               "end": 1859,
               "value": 36,
               "raw": "36"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 1861,
             "end": 1864,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1862,
               "end": 1864,
               "value": 31,
               "raw": "31"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 1866,
             "end": 1870,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1867,
               "end": 1870,
               "value": 999,
               "raw": "999"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 1872,
             "end": 1876,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1873,
               "end": 1876,
               "value": 999,
               "raw": "999"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 1878,
             "end": 1882,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1879,
               "end": 1882,
               "value": 999,
               "raw": "999"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false

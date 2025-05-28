@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 706,
       "end": 750,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "\"(?<fst>.)(?<snd>.)|(?<thd>x)\""
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -38,6 +38,7 @@
         "type": "VariableDeclaration",
         "start": 756,
         "end": 765,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -51,8 +52,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -84,6 +84,7 @@
             "type": "VariableDeclaration",
             "start": 786,
             "end": 821,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -121,8 +122,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -148,8 +148,8 @@
                   "end": 840,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -180,8 +180,8 @@
                       "end": 863,
                       "name": "replace"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -216,6 +216,7 @@
         "type": "VariableDeclaration",
         "start": 885,
         "end": 894,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -229,8 +230,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -262,6 +262,7 @@
             "type": "VariableDeclaration",
             "start": 913,
             "end": 948,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -299,8 +300,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -326,8 +326,8 @@
                   "end": 967,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -358,8 +358,8 @@
                       "end": 990,
                       "name": "replace"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {

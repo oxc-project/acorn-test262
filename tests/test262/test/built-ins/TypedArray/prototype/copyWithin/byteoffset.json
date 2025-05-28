@@ -23,7 +23,6 @@
             "start": 723,
             "end": 1043,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -43,6 +42,7 @@
                   "type": "VariableDeclaration",
                   "start": 740,
                   "end": 770,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -103,8 +103,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -130,8 +129,8 @@
                         "end": 792,
                         "name": "compareArray"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -169,8 +168,8 @@
                                   "end": 814,
                                   "name": "buffer"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               {
                                 "type": "MemberExpression",
@@ -188,8 +187,8 @@
                                   "end": 836,
                                   "name": "BYTES_PER_ELEMENT"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               }
                             ]
                           },
@@ -199,8 +198,8 @@
                             "end": 848,
                             "name": "copyWithin"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -283,8 +282,8 @@
                         "end": 955,
                         "name": "compareArray"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -340,7 +339,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

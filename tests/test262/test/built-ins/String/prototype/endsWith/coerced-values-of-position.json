@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 850,
       "end": 882,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "'The future is cool!'"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -64,8 +64,8 @@
                 "end": 903,
                 "name": "endsWith"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -130,8 +130,8 @@
                 "end": 954,
                 "name": "endsWith"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -197,8 +197,8 @@
                 "end": 1007,
                 "name": "endsWith"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -264,8 +264,8 @@
                 "end": 1062,
                 "name": "endsWith"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -331,8 +331,8 @@
                 "end": 1111,
                 "name": "endsWith"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -398,8 +398,8 @@
                 "end": 1162,
                 "name": "endsWith"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -464,8 +464,8 @@
                 "end": 1226,
                 "name": "endsWith"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -531,8 +531,8 @@
                 "end": 1290,
                 "name": "endsWith"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -598,8 +598,8 @@
                 "end": 1345,
                 "name": "endsWith"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

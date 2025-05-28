@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1676,
       "end": 1694,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -30,8 +31,7 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -53,7 +53,6 @@
             "start": 1702,
             "end": 1713,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 1703,
@@ -70,9 +69,10 @@
                 "end": 1713,
                 "name": "dotAll"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -89,6 +89,7 @@
       "type": "VariableDeclaration",
       "start": 1766,
       "end": 1796,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -121,8 +122,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -144,7 +144,6 @@
             "start": 1804,
             "end": 1815,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 1805,
@@ -161,9 +160,10 @@
                 "end": 1815,
                 "name": "dotAll"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -180,6 +180,7 @@
       "type": "VariableDeclaration",
       "start": 1868,
       "end": 1887,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -203,8 +204,7 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -226,7 +226,6 @@
             "start": 1895,
             "end": 1906,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 1896,
@@ -243,9 +242,10 @@
                 "end": 1906,
                 "name": "dotAll"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -262,6 +262,7 @@
       "type": "VariableDeclaration",
       "start": 1959,
       "end": 1990,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -294,8 +295,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -317,7 +317,6 @@
             "start": 1998,
             "end": 2009,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 1999,
@@ -334,9 +333,10 @@
                 "end": 2009,
                 "name": "dotAll"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

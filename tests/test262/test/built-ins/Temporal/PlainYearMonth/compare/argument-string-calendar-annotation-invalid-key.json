@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 253,
       "end": 493,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -89,8 +90,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -116,17 +116,15 @@
             "end": 517,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 518,
             "end": 940,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -178,8 +176,8 @@
                         "end": 553,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -192,9 +190,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 575,
                         "end": 655,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -221,8 +217,8 @@
                                 "end": 604,
                                 "name": "PlainYearMonth"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -230,8 +226,8 @@
                               "end": 612,
                               "name": "compare"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -260,8 +256,8 @@
                                   "end": 645,
                                   "name": "PlainYearMonth"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [
                                 {
@@ -282,26 +278,14 @@
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 661,
                         "end": 732,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 699,
-                            "end": 702,
-                            "name": "arg"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 708,
-                            "end": 713,
-                            "name": "descr"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -333,6 +317,20 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 699,
+                            "end": 702,
+                            "name": "arg"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 708,
+                            "end": 713,
+                            "name": "descr"
+                          }
                         ]
                       }
                     ],
@@ -363,8 +361,8 @@
                         "end": 753,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -377,9 +375,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 775,
                         "end": 855,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -406,8 +402,8 @@
                                 "end": 804,
                                 "name": "PlainYearMonth"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -415,8 +411,8 @@
                               "end": 812,
                               "name": "compare"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -439,8 +435,8 @@
                                   "end": 840,
                                   "name": "PlainYearMonth"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [
                                 {
@@ -467,26 +463,14 @@
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 861,
                         "end": 933,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 899,
-                            "end": 902,
-                            "name": "arg"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 908,
-                            "end": 913,
-                            "name": "descr"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -518,6 +502,20 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 899,
+                            "end": 902,
+                            "name": "arg"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 908,
+                            "end": 913,
+                            "name": "descr"
+                          }
                         ]
                       }
                     ],
@@ -525,7 +523,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

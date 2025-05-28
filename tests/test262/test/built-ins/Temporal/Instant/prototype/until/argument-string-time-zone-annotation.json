@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 316,
       "end": 828,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -194,13 +195,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 830,
       "end": 872,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -232,8 +233,8 @@
                 "end": 867,
                 "name": "Instant"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -247,8 +248,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -274,17 +274,15 @@
             "end": 887,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 888,
             "end": 1083,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -316,6 +314,7 @@
                   "type": "VariableDeclaration",
                   "start": 916,
                   "end": 951,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -347,8 +346,8 @@
                             "end": 945,
                             "name": "until"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -361,8 +360,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -388,8 +386,8 @@
                         "end": 985,
                         "name": "assertDuration"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -472,14 +470,6 @@
                         "type": "TemplateLiteral",
                         "start": 1037,
                         "end": 1076,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1062,
-                            "end": 1073,
-                            "name": "description"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -501,6 +491,14 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1062,
+                            "end": 1073,
+                            "name": "description"
+                          }
                         ]
                       }
                     ],
@@ -508,7 +506,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

@@ -27,8 +27,8 @@
             "end": 286,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -41,9 +41,7 @@
             "type": "ArrowFunctionExpression",
             "start": 299,
             "end": 343,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -66,8 +64,8 @@
                   "end": 327,
                   "name": "PlainDate"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -75,14 +73,14 @@
                   "start": 328,
                   "end": 335,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 329,
                     "end": 335,
                     "value": 271821,
                     "raw": "271821"
-                  }
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "Literal",
@@ -99,7 +97,9 @@
                   "raw": "18"
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -136,8 +136,8 @@
             "end": 366,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -150,9 +150,7 @@
             "type": "ArrowFunctionExpression",
             "start": 379,
             "end": 422,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -175,8 +173,8 @@
                   "end": 407,
                   "name": "PlainDate"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -201,7 +199,9 @@
                   "raw": "14"
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -238,8 +238,8 @@
             "end": 463,
             "name": "assertPlainDate"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -262,8 +262,8 @@
                 "end": 486,
                 "name": "PlainDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -271,14 +271,14 @@
                 "start": 487,
                 "end": 494,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 488,
                   "end": 494,
                   "value": 271821,
                   "raw": "271821"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -301,14 +301,14 @@
             "start": 506,
             "end": 513,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 507,
               "end": 513,
               "value": 271821,
               "raw": "271821"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -366,8 +366,8 @@
             "end": 568,
             "name": "assertPlainDate"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -390,8 +390,8 @@
                 "end": 591,
                 "name": "PlainDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

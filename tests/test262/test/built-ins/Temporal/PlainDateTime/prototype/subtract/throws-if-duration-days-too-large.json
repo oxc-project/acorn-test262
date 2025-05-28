@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 744,
       "end": 779,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,13 +53,13 @@
             }
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 780,
       "end": 811,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -104,13 +105,13 @@
             }
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 812,
       "end": 867,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -142,8 +143,8 @@
                 "end": 838,
                 "name": "trunc"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -168,13 +169,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 868,
       "end": 937,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -206,8 +207,8 @@
                 "end": 895,
                 "name": "trunc"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -268,13 +269,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 939,
       "end": 999,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -306,8 +307,8 @@
                 "end": 968,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -336,37 +337,37 @@
                 "start": 978,
                 "end": 986,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 979,
                   "end": 986,
                   "name": "maxDays"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 988,
                 "end": 997,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 989,
                   "end": 997,
                   "name": "maxHours"
-                }
+                },
+                "prefix": true
               }
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1000,
       "end": 1064,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -398,8 +399,8 @@
                 "end": 1036,
                 "name": "PlainDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -445,8 +446,7 @@
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -472,8 +472,8 @@
             "end": 1079,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -486,9 +486,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1092,
             "end": 1113,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -511,8 +509,8 @@
                   "end": 1110,
                   "name": "subtract"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -523,7 +521,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

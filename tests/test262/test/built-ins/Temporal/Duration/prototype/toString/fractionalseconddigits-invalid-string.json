@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 804,
       "end": 877,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 842,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -115,8 +116,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -127,6 +127,7 @@
         "type": "VariableDeclaration",
         "start": 884,
         "end": 912,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -140,8 +141,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -214,8 +214,8 @@
                   "end": 990,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -228,9 +228,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1003,
                   "end": 1054,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -253,8 +251,8 @@
                         "end": 1026,
                         "name": "toString"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -266,9 +264,7 @@
                             "type": "Property",
                             "start": 1029,
                             "end": 1051,
-                            "method": false,
-                            "shorthand": true,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1029,
@@ -281,26 +277,22 @@
                               "end": 1051,
                               "name": "fractionalSecondDigits"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false
                           }
                         ]
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1060,
                   "end": 1137,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1064,
-                      "end": 1086,
-                      "name": "fractionalSecondDigits"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -321,6 +313,14 @@
                         "cooked": "\" is not a valid value for fractionalSecondDigits"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1064,
+                      "end": 1086,
+                      "name": "fractionalSecondDigits"
                     }
                   ]
                 }

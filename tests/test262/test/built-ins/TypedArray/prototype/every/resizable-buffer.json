@@ -12,6 +12,7 @@
         "type": "VariableDeclaration",
         "start": 371,
         "end": 379,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -43,6 +43,7 @@
             "type": "VariableDeclaration",
             "start": 394,
             "end": 489,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -93,8 +94,8 @@
                           "end": 459,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     },
                     {
@@ -125,21 +126,21 @@
                           "end": 487,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   ],
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 492,
             "end": 532,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -185,13 +186,13 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 535,
             "end": 610,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -248,8 +249,8 @@
                           "end": 605,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     },
                     {
@@ -262,13 +263,13 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 613,
             "end": 653,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -307,13 +308,13 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 656,
             "end": 731,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -370,20 +371,20 @@
                           "end": 729,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 772,
             "end": 802,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -415,8 +416,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ForStatement",
@@ -426,6 +426,7 @@
               "type": "VariableDeclaration",
               "start": 810,
               "end": 819,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -445,8 +446,7 @@
                     "raw": "0"
                   }
                 }
-              ],
-              "kind": "let"
+              ]
             },
             "test": {
               "type": "BinaryExpression",
@@ -510,8 +510,8 @@
                         "end": 848,
                         "name": "i"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "right": {
                       "type": "CallExpression",
@@ -567,7 +567,6 @@
               "end": 1155,
               "name": "div3"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -635,7 +634,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "FunctionDeclaration",
@@ -647,7 +647,6 @@
               "end": 1211,
               "name": "even"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -715,7 +714,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "FunctionDeclaration",
@@ -727,7 +727,6 @@
               "end": 1269,
               "name": "over10"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -782,7 +781,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "ExpressionStatement",
@@ -804,7 +804,6 @@
                   "start": 1315,
                   "end": 1339,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 1316,
@@ -825,8 +824,8 @@
                         "end": 1333,
                         "name": "every"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -837,7 +836,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -878,8 +878,8 @@
                       "end": 1368,
                       "name": "every"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -915,7 +915,6 @@
                   "start": 1386,
                   "end": 1420,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 1387,
@@ -936,8 +935,8 @@
                         "end": 1414,
                         "name": "every"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -948,7 +947,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -989,8 +989,8 @@
                       "end": 1459,
                       "name": "every"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1026,7 +1026,6 @@
                   "start": 1477,
                   "end": 1504,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 1478,
@@ -1047,8 +1046,8 @@
                         "end": 1498,
                         "name": "every"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1059,7 +1058,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -1100,8 +1100,8 @@
                       "end": 1536,
                       "name": "every"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1137,7 +1137,6 @@
                   "start": 1554,
                   "end": 1591,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 1555,
@@ -1158,8 +1157,8 @@
                         "end": 1585,
                         "name": "every"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1170,7 +1169,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -1211,8 +1211,8 @@
                       "end": 1633,
                       "name": "every"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1252,8 +1252,8 @@
                   "end": 1710,
                   "name": "resize"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1284,8 +1284,8 @@
                       "end": 1737,
                       "name": "BYTES_PER_ELEMENT"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ],
@@ -1316,8 +1316,8 @@
                   "end": 1948,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1330,9 +1330,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1960,
                   "end": 2000,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -1364,8 +1362,8 @@
                               "end": 1989,
                               "name": "every"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1379,7 +1377,9 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
@@ -1409,8 +1409,8 @@
                   "end": 2018,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1423,9 +1423,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 2030,
                   "end": 2080,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -1457,8 +1455,8 @@
                               "end": 2069,
                               "name": "every"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1472,7 +1470,9 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
@@ -1498,7 +1498,6 @@
                   "start": 2093,
                   "end": 2120,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 2094,
@@ -1519,8 +1518,8 @@
                         "end": 2114,
                         "name": "every"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1531,7 +1530,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -1572,8 +1572,8 @@
                       "end": 2152,
                       "name": "every"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1609,7 +1609,6 @@
                   "start": 2170,
                   "end": 2207,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 2171,
@@ -1630,8 +1629,8 @@
                         "end": 2201,
                         "name": "every"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1642,7 +1641,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -1683,8 +1683,8 @@
                       "end": 2249,
                       "name": "every"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1724,8 +1724,8 @@
                   "end": 2329,
                   "name": "resize"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1756,8 +1756,8 @@
                       "end": 2356,
                       "name": "BYTES_PER_ELEMENT"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ],
@@ -1788,8 +1788,8 @@
                   "end": 2425,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1802,9 +1802,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 2437,
                   "end": 2477,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -1836,8 +1834,8 @@
                               "end": 2466,
                               "name": "every"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1851,7 +1849,9 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
@@ -1881,8 +1881,8 @@
                   "end": 2495,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1895,9 +1895,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 2507,
                   "end": 2557,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -1929,8 +1927,8 @@
                               "end": 2546,
                               "name": "every"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1944,7 +1942,9 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
@@ -1974,8 +1974,8 @@
                   "end": 2575,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1988,9 +1988,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 2587,
                   "end": 2640,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -2022,8 +2020,8 @@
                               "end": 2629,
                               "name": "every"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -2037,7 +2035,9 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
@@ -2078,8 +2078,8 @@
                       "end": 2673,
                       "name": "every"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -2130,8 +2130,8 @@
                       "end": 2711,
                       "name": "every"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -2171,8 +2171,8 @@
                   "end": 2754,
                   "name": "resize"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -2210,8 +2210,8 @@
                   "end": 2825,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -2224,9 +2224,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 2837,
                   "end": 2877,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -2258,8 +2256,8 @@
                               "end": 2866,
                               "name": "every"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -2273,7 +2271,9 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
@@ -2303,8 +2303,8 @@
                   "end": 2895,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -2317,9 +2317,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 2907,
                   "end": 2957,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -2351,8 +2349,8 @@
                               "end": 2946,
                               "name": "every"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -2366,7 +2364,9 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
@@ -2396,8 +2396,8 @@
                   "end": 2975,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -2410,9 +2410,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 2987,
                   "end": 3040,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -2444,8 +2442,8 @@
                               "end": 3029,
                               "name": "every"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -2459,7 +2457,9 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
@@ -2500,8 +2500,8 @@
                       "end": 3073,
                       "name": "every"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -2552,8 +2552,8 @@
                       "end": 3111,
                       "name": "every"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -2593,8 +2593,8 @@
                   "end": 3179,
                   "name": "resize"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -2625,8 +2625,8 @@
                       "end": 3206,
                       "name": "BYTES_PER_ELEMENT"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ],
@@ -2641,6 +2641,7 @@
               "type": "VariableDeclaration",
               "start": 3216,
               "end": 3225,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -2660,8 +2661,7 @@
                     "raw": "0"
                   }
                 }
-              ],
-              "kind": "let"
+              ]
             },
             "test": {
               "type": "BinaryExpression",
@@ -2725,8 +2725,8 @@
                         "end": 3254,
                         "name": "i"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "right": {
                       "type": "CallExpression",
@@ -2792,7 +2792,6 @@
                   "start": 3576,
                   "end": 3600,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 3577,
@@ -2813,8 +2812,8 @@
                         "end": 3594,
                         "name": "every"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2825,7 +2824,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -2866,8 +2866,8 @@
                       "end": 3629,
                       "name": "every"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -2903,7 +2903,6 @@
                   "start": 3647,
                   "end": 3681,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 3648,
@@ -2924,8 +2923,8 @@
                         "end": 3675,
                         "name": "every"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2936,7 +2935,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -2977,8 +2977,8 @@
                       "end": 3720,
                       "name": "every"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -3014,7 +3014,6 @@
                   "start": 3738,
                   "end": 3765,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 3739,
@@ -3035,8 +3034,8 @@
                         "end": 3759,
                         "name": "every"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3047,7 +3046,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -3088,8 +3088,8 @@
                       "end": 3797,
                       "name": "every"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -3125,7 +3125,6 @@
                   "start": 3815,
                   "end": 3852,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 3816,
@@ -3146,8 +3145,8 @@
                         "end": 3846,
                         "name": "every"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3158,7 +3157,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -3199,8 +3199,8 @@
                       "end": 3894,
                       "name": "every"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {

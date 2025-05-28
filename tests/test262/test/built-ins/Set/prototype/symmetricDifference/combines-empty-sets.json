@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 328,
       "end": 351,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,13 +39,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 352,
       "end": 379,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -91,13 +92,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 380,
       "end": 402,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -131,13 +132,13 @@
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 403,
       "end": 445,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -169,8 +170,8 @@
                 "end": 440,
                 "name": "symmetricDifference"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -183,8 +184,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -210,8 +210,8 @@
             "end": 466,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -266,8 +266,8 @@
             "end": 509,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -310,6 +310,7 @@
       "type": "VariableDeclaration",
       "start": 575,
       "end": 602,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -356,13 +357,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 603,
       "end": 626,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -394,8 +395,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -470,8 +470,8 @@
               "end": 679,
               "name": "symmetricDifference"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -509,8 +509,8 @@
             "end": 705,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -565,8 +565,8 @@
             "end": 748,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -609,6 +609,7 @@
       "type": "VariableDeclaration",
       "start": 814,
       "end": 837,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -640,13 +641,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 838,
       "end": 861,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -678,8 +679,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -739,8 +739,8 @@
               "end": 910,
               "name": "symmetricDifference"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -778,8 +778,8 @@
             "end": 936,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -834,8 +834,8 @@
             "end": 979,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

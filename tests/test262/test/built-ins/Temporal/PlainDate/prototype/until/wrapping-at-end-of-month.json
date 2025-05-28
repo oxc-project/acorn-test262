@@ -12,6 +12,7 @@
           "type": "VariableDeclaration",
           "start": 381,
           "end": 429,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -43,8 +44,8 @@
                     "end": 415,
                     "name": "PlainDate"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -71,8 +72,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ForOfStatement",
@@ -83,6 +83,7 @@
             "type": "VariableDeclaration",
             "start": 437,
             "end": 454,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -96,8 +97,7 @@
                 },
                 "init": null
               }
-            ],
-            "kind": "const"
+            ]
           },
           "right": {
             "type": "ArrayExpression",
@@ -149,8 +149,8 @@
                       "end": 515,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -181,8 +181,8 @@
                               "end": 545,
                               "name": "PlainDate"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -214,8 +214,8 @@
                           "end": 564,
                           "name": "until"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -233,9 +233,7 @@
                               "type": "Property",
                               "start": 572,
                               "end": 583,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 572,
@@ -248,7 +246,9 @@
                                 "end": 583,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -360,8 +360,8 @@
                       "end": 707,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -392,8 +392,8 @@
                               "end": 737,
                               "name": "PlainDate"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -425,8 +425,8 @@
                           "end": 756,
                           "name": "until"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -444,9 +444,7 @@
                               "type": "Property",
                               "start": 764,
                               "end": 775,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 764,
@@ -459,7 +457,9 @@
                                 "end": 775,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -571,8 +571,8 @@
                       "end": 913,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -603,8 +603,8 @@
                               "end": 943,
                               "name": "PlainDate"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -636,8 +636,8 @@
                           "end": 962,
                           "name": "until"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -655,9 +655,7 @@
                               "type": "Property",
                               "start": 970,
                               "end": 981,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 970,
@@ -670,7 +668,9 @@
                                 "end": 981,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -782,8 +782,8 @@
                       "end": 1119,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -814,8 +814,8 @@
                               "end": 1149,
                               "name": "PlainDate"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -847,8 +847,8 @@
                           "end": 1168,
                           "name": "until"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -866,9 +866,7 @@
                               "type": "Property",
                               "start": 1176,
                               "end": 1187,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1176,
@@ -881,7 +879,9 @@
                                 "end": 1187,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -983,6 +983,7 @@
           "type": "VariableDeclaration",
           "start": 1378,
           "end": 1426,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -1014,8 +1015,8 @@
                     "end": 1412,
                     "name": "PlainDate"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1042,8 +1043,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ForOfStatement",
@@ -1054,6 +1054,7 @@
             "type": "VariableDeclaration",
             "start": 1434,
             "end": 1451,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1067,8 +1068,7 @@
                 },
                 "init": null
               }
-            ],
-            "kind": "const"
+            ]
           },
           "right": {
             "type": "ArrayExpression",
@@ -1120,8 +1120,8 @@
                       "end": 1512,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1152,8 +1152,8 @@
                               "end": 1542,
                               "name": "PlainDate"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1185,8 +1185,8 @@
                           "end": 1561,
                           "name": "until"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1204,9 +1204,7 @@
                               "type": "Property",
                               "start": 1569,
                               "end": 1580,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1569,
@@ -1219,7 +1217,9 @@
                                 "end": 1580,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -1331,8 +1331,8 @@
                       "end": 1704,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1363,8 +1363,8 @@
                               "end": 1734,
                               "name": "PlainDate"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1396,8 +1396,8 @@
                           "end": 1753,
                           "name": "until"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1415,9 +1415,7 @@
                               "type": "Property",
                               "start": 1761,
                               "end": 1772,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1761,
@@ -1430,7 +1428,9 @@
                                 "end": 1772,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -1542,8 +1542,8 @@
                       "end": 1910,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1574,8 +1574,8 @@
                               "end": 1940,
                               "name": "PlainDate"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1607,8 +1607,8 @@
                           "end": 1959,
                           "name": "until"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1626,9 +1626,7 @@
                               "type": "Property",
                               "start": 1967,
                               "end": 1978,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1967,
@@ -1641,7 +1639,9 @@
                                 "end": 1978,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -1743,6 +1743,7 @@
           "type": "VariableDeclaration",
           "start": 2188,
           "end": 2237,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -1774,8 +1775,8 @@
                     "end": 2222,
                     "name": "PlainDate"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1802,8 +1803,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ForOfStatement",
@@ -1814,6 +1814,7 @@
             "type": "VariableDeclaration",
             "start": 2245,
             "end": 2262,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1827,8 +1828,7 @@
                 },
                 "init": null
               }
-            ],
-            "kind": "const"
+            ]
           },
           "right": {
             "type": "ArrayExpression",
@@ -1880,8 +1880,8 @@
                       "end": 2323,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1912,8 +1912,8 @@
                               "end": 2353,
                               "name": "PlainDate"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1945,8 +1945,8 @@
                           "end": 2372,
                           "name": "until"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1964,9 +1964,7 @@
                               "type": "Property",
                               "start": 2380,
                               "end": 2391,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 2380,
@@ -1979,7 +1977,9 @@
                                 "end": 2391,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -2091,8 +2091,8 @@
                       "end": 2514,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -2123,8 +2123,8 @@
                               "end": 2544,
                               "name": "PlainDate"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -2156,8 +2156,8 @@
                           "end": 2563,
                           "name": "until"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -2175,9 +2175,7 @@
                               "type": "Property",
                               "start": 2571,
                               "end": 2582,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 2571,
@@ -2190,7 +2188,9 @@
                                 "end": 2582,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -2292,6 +2292,7 @@
           "type": "VariableDeclaration",
           "start": 2793,
           "end": 2841,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -2323,8 +2324,8 @@
                     "end": 2827,
                     "name": "PlainDate"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -2351,8 +2352,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -2378,8 +2378,8 @@
                 "end": 2874,
                 "name": "assertDuration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2410,8 +2410,8 @@
                         "end": 2902,
                         "name": "PlainDate"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2443,8 +2443,8 @@
                     "end": 2922,
                     "name": "until"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -2462,9 +2462,7 @@
                         "type": "Property",
                         "start": 2930,
                         "end": 2951,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 2930,
@@ -2478,7 +2476,9 @@
                           "value": "months",
                           "raw": "\"months\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -2590,8 +2590,8 @@
                 "end": 3078,
                 "name": "assertDuration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2622,8 +2622,8 @@
                         "end": 3106,
                         "name": "PlainDate"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2655,8 +2655,8 @@
                     "end": 3126,
                     "name": "until"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -2674,9 +2674,7 @@
                         "type": "Property",
                         "start": 3134,
                         "end": 3154,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 3134,
@@ -2690,7 +2688,9 @@
                           "value": "years",
                           "raw": "\"years\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -2802,8 +2802,8 @@
                 "end": 3288,
                 "name": "assertDuration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2834,8 +2834,8 @@
                         "end": 3316,
                         "name": "PlainDate"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2867,8 +2867,8 @@
                     "end": 3336,
                     "name": "until"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -2886,9 +2886,7 @@
                         "type": "Property",
                         "start": 3344,
                         "end": 3365,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 3344,
@@ -2902,7 +2900,9 @@
                           "value": "months",
                           "raw": "\"months\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -3014,8 +3014,8 @@
                 "end": 3517,
                 "name": "assertDuration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -3046,8 +3046,8 @@
                         "end": 3545,
                         "name": "PlainDate"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3079,8 +3079,8 @@
                     "end": 3565,
                     "name": "until"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -3098,9 +3098,7 @@
                         "type": "Property",
                         "start": 3573,
                         "end": 3593,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 3573,
@@ -3114,7 +3112,9 @@
                           "value": "years",
                           "raw": "\"years\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -3233,8 +3233,8 @@
                 "end": 3886,
                 "name": "assertDuration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -3265,8 +3265,8 @@
                         "end": 3914,
                         "name": "PlainDate"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3298,8 +3298,8 @@
                     "end": 3933,
                     "name": "until"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -3322,8 +3322,8 @@
                         "end": 3956,
                         "name": "PlainDate"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3358,9 +3358,7 @@
                         "type": "Property",
                         "start": 3973,
                         "end": 3994,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 3973,
@@ -3374,7 +3372,9 @@
                           "value": "months",
                           "raw": "\"months\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -3486,8 +3486,8 @@
                 "end": 4130,
                 "name": "assertDuration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -3518,8 +3518,8 @@
                         "end": 4158,
                         "name": "PlainDate"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3551,8 +3551,8 @@
                     "end": 4177,
                     "name": "until"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -3575,8 +3575,8 @@
                         "end": 4200,
                         "name": "PlainDate"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3611,9 +3611,7 @@
                         "type": "Property",
                         "start": 4217,
                         "end": 4237,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 4217,
@@ -3627,7 +3625,9 @@
                           "value": "years",
                           "raw": "\"years\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }

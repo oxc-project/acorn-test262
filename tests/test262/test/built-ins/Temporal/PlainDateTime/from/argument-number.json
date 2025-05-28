@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 274,
       "end": 338,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -42,14 +43,14 @@
                 "start": 311,
                 "end": 320,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 312,
                   "end": 320,
                   "value": 19761118,
                   "raw": "19761118"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -61,8 +62,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -73,6 +73,7 @@
         "type": "VariableDeclaration",
         "start": 345,
         "end": 354,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -86,8 +87,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -124,8 +124,8 @@
                   "end": 384,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -138,9 +138,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 405,
                   "end": 443,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -167,8 +165,8 @@
                           "end": 433,
                           "name": "PlainDateTime"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -176,8 +174,8 @@
                         "end": 438,
                         "name": "from"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -188,20 +186,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 449,
                   "end": 512,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 462,
-                      "end": 465,
-                      "name": "arg"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -222,6 +214,14 @@
                         "cooked": ") is not a valid ISO string for PlainDateTime"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 462,
+                      "end": 465,
+                      "name": "arg"
                     }
                   ]
                 }

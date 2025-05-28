@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1247,
       "end": 1266,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -32,13 +33,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1267,
       "end": 1298,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -71,8 +72,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -99,8 +99,8 @@
             "end": 1309,
             "name": "sym"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -115,6 +115,7 @@
       "type": "VariableDeclaration",
       "start": 1317,
       "end": 1358,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -152,13 +153,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1359,
       "end": 1405,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -196,8 +197,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -223,8 +223,8 @@
             "end": 1426,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -247,8 +247,8 @@
                 "end": 1445,
                 "name": "ownKeys"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

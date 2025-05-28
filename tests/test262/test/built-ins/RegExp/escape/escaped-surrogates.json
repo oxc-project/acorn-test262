@@ -27,8 +27,8 @@
             "end": 853,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -51,8 +51,8 @@
                 "end": 867,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -107,8 +107,8 @@
             "end": 954,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -131,8 +131,8 @@
                 "end": 968,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -187,8 +187,8 @@
             "end": 1055,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -211,8 +211,8 @@
                 "end": 1069,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -267,8 +267,8 @@
             "end": 1155,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -291,8 +291,8 @@
                 "end": 1169,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -327,6 +327,7 @@
       "type": "VariableDeclaration",
       "start": 1262,
       "end": 1390,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -346,13 +347,13 @@
             "raw": "'\\uD800\\uD801\\uD802\\uD803\\uD804\\uD805\\uD806\\uD807\\uD808\\uD809\\uD80A\\uD80B\\uD80C\\uD80D\\uD80E\\uD80F'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1391,
       "end": 1519,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -372,13 +373,13 @@
             "raw": "'\\uD810\\uD811\\uD812\\uD813\\uD814\\uD815\\uD816\\uD817\\uD818\\uD819\\uD81A\\uD81B\\uD81C\\uD81D\\uD81E\\uD81F'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1520,
       "end": 1648,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -398,13 +399,13 @@
             "raw": "'\\uD820\\uD821\\uD822\\uD823\\uD824\\uD825\\uD826\\uD827\\uD828\\uD829\\uD82A\\uD82B\\uD82C\\uD82D\\uD82E\\uD82F'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1649,
       "end": 1777,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -424,13 +425,13 @@
             "raw": "'\\uD830\\uD831\\uD832\\uD833\\uD834\\uD835\\uD836\\uD837\\uD838\\uD839\\uD83A\\uD83B\\uD83C\\uD83D\\uD83E\\uD83F'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1778,
       "end": 1906,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -450,13 +451,13 @@
             "raw": "'\\uD840\\uD841\\uD842\\uD843\\uD844\\uD845\\uD846\\uD847\\uD848\\uD849\\uD84A\\uD84B\\uD84C\\uD84D\\uD84E\\uD84F'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1907,
       "end": 2035,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -476,13 +477,13 @@
             "raw": "'\\uD850\\uD851\\uD852\\uD853\\uD854\\uD855\\uD856\\uD857\\uD858\\uD859\\uD85A\\uD85B\\uD85C\\uD85D\\uD85E\\uD85F'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2036,
       "end": 2164,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -502,13 +503,13 @@
             "raw": "'\\uD860\\uD861\\uD862\\uD863\\uD864\\uD865\\uD866\\uD867\\uD868\\uD869\\uD86A\\uD86B\\uD86C\\uD86D\\uD86E\\uD86F'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2165,
       "end": 2293,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -528,13 +529,13 @@
             "raw": "'\\uD870\\uD871\\uD872\\uD873\\uD874\\uD875\\uD876\\uD877\\uD878\\uD879\\uD87A\\uD87B\\uD87C\\uD87D\\uD87E\\uD87F'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2294,
       "end": 2422,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -554,13 +555,13 @@
             "raw": "'\\uD880\\uD881\\uD882\\uD883\\uD884\\uD885\\uD886\\uD887\\uD888\\uD889\\uD88A\\uD88B\\uD88C\\uD88D\\uD88E\\uD88F'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2423,
       "end": 2552,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -580,13 +581,13 @@
             "raw": "'\\uD890\\uD891\\uD892\\uD893\\uD894\\uD895\\uD896\\uD897\\uD898\\uD899\\uD89A\\uD89B\\uD89C\\uD89D\\uD89E\\uD89F'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2553,
       "end": 2682,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -606,13 +607,13 @@
             "raw": "'\\uD8A0\\uD8A1\\uD8A2\\uD8A3\\uD8A4\\uD8A5\\uD8A6\\uD8A7\\uD8A8\\uD8A9\\uD8AA\\uD8AB\\uD8AC\\uD8AD\\uD8AE\\uD8AF'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2683,
       "end": 2812,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -632,13 +633,13 @@
             "raw": "'\\uD8B0\\uD8B1\\uD8B2\\uD8B3\\uD8B4\\uD8B5\\uD8B6\\uD8B7\\uD8B8\\uD8B9\\uD8BA\\uD8BB\\uD8BC\\uD8BD\\uD8BE\\uD8BF'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2813,
       "end": 2942,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -658,13 +659,13 @@
             "raw": "'\\uD8C0\\uD8C1\\uD8C2\\uD8C3\\uD8C4\\uD8C5\\uD8C6\\uD8C7\\uD8C8\\uD8C9\\uD8CA\\uD8CB\\uD8CC\\uD8CD\\uD8CE\\uD8CF'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2943,
       "end": 3072,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -684,13 +685,13 @@
             "raw": "'\\uD8D0\\uD8D1\\uD8D2\\uD8D3\\uD8D4\\uD8D5\\uD8D6\\uD8D7\\uD8D8\\uD8D9\\uD8DA\\uD8DB\\uD8DC\\uD8DD\\uD8DE\\uD8DF'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 3073,
       "end": 3202,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -710,13 +711,13 @@
             "raw": "'\\uD8E0\\uD8E1\\uD8E2\\uD8E3\\uD8E4\\uD8E5\\uD8E6\\uD8E7\\uD8E8\\uD8E9\\uD8EA\\uD8EB\\uD8EC\\uD8ED\\uD8EE\\uD8EF'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 3203,
       "end": 3332,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -736,8 +737,7 @@
             "raw": "'\\uD8F0\\uD8F1\\uD8F2\\uD8F3\\uD8F4\\uD8F5\\uD8F6\\uD8F7\\uD8F8\\uD8F9\\uD8FA\\uD8FB\\uD8FC\\uD8FD\\uD8FE\\uD8FF'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -763,8 +763,8 @@
             "end": 3350,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -787,8 +787,8 @@
                 "end": 3364,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -842,8 +842,8 @@
             "end": 3571,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -866,8 +866,8 @@
                 "end": 3585,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -921,8 +921,8 @@
             "end": 3792,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -945,8 +945,8 @@
                 "end": 3806,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1000,8 +1000,8 @@
             "end": 4013,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1024,8 +1024,8 @@
                 "end": 4027,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1079,8 +1079,8 @@
             "end": 4234,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1103,8 +1103,8 @@
                 "end": 4248,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1158,8 +1158,8 @@
             "end": 4455,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1182,8 +1182,8 @@
                 "end": 4469,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1237,8 +1237,8 @@
             "end": 4676,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1261,8 +1261,8 @@
                 "end": 4690,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1316,8 +1316,8 @@
             "end": 4897,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1340,8 +1340,8 @@
                 "end": 4911,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1395,8 +1395,8 @@
             "end": 5118,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1419,8 +1419,8 @@
                 "end": 5132,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1474,8 +1474,8 @@
             "end": 5339,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1498,8 +1498,8 @@
                 "end": 5353,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1553,8 +1553,8 @@
             "end": 5561,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1577,8 +1577,8 @@
                 "end": 5575,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1632,8 +1632,8 @@
             "end": 5783,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1656,8 +1656,8 @@
                 "end": 5797,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1711,8 +1711,8 @@
             "end": 6005,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1735,8 +1735,8 @@
                 "end": 6019,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1790,8 +1790,8 @@
             "end": 6227,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1814,8 +1814,8 @@
                 "end": 6241,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1869,8 +1869,8 @@
             "end": 6449,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1893,8 +1893,8 @@
                 "end": 6463,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1948,8 +1948,8 @@
             "end": 6671,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1972,8 +1972,8 @@
                 "end": 6685,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2007,6 +2007,7 @@
       "type": "VariableDeclaration",
       "start": 6901,
       "end": 7028,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2026,13 +2027,13 @@
             "raw": "'\\uDC00\\uDC01\\uDC02\\uDC03\\uDC04\\uDC05\\uDC06\\uDC07\\uDC08\\uDC09\\uDC0A\\uDC0B\\uDC0C\\uDC0D\\uDC0E\\uDC0F'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 7029,
       "end": 7156,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2052,13 +2053,13 @@
             "raw": "'\\uDC10\\uDC11\\uDC12\\uDC13\\uDC14\\uDC15\\uDC16\\uDC17\\uDC18\\uDC19\\uDC1A\\uDC1B\\uDC1C\\uDC1D\\uDC1E\\uDC1F'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 7157,
       "end": 7284,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2078,13 +2079,13 @@
             "raw": "'\\uDC20\\uDC21\\uDC22\\uDC23\\uDC24\\uDC25\\uDC26\\uDC27\\uDC28\\uDC29\\uDC2A\\uDC2B\\uDC2C\\uDC2D\\uDC2E\\uDC2F'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 7285,
       "end": 7412,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2104,13 +2105,13 @@
             "raw": "'\\uDC30\\uDC31\\uDC32\\uDC33\\uDC34\\uDC35\\uDC36\\uDC37\\uDC38\\uDC39\\uDC3A\\uDC3B\\uDC3C\\uDC3D\\uDC3E\\uDC3F'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 7413,
       "end": 7540,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2130,13 +2131,13 @@
             "raw": "'\\uDC40\\uDC41\\uDC42\\uDC43\\uDC44\\uDC45\\uDC46\\uDC47\\uDC48\\uDC49\\uDC4A\\uDC4B\\uDC4C\\uDC4D\\uDC4E\\uDC4F'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 7541,
       "end": 7668,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2156,13 +2157,13 @@
             "raw": "'\\uDC50\\uDC51\\uDC52\\uDC53\\uDC54\\uDC55\\uDC56\\uDC57\\uDC58\\uDC59\\uDC5A\\uDC5B\\uDC5C\\uDC5D\\uDC5E\\uDC5F'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 7669,
       "end": 7796,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2182,13 +2183,13 @@
             "raw": "'\\uDC60\\uDC61\\uDC62\\uDC63\\uDC64\\uDC65\\uDC66\\uDC67\\uDC68\\uDC69\\uDC6A\\uDC6B\\uDC6C\\uDC6D\\uDC6E\\uDC6F'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 7797,
       "end": 7924,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2208,13 +2209,13 @@
             "raw": "'\\uDC70\\uDC71\\uDC72\\uDC73\\uDC74\\uDC75\\uDC76\\uDC77\\uDC78\\uDC79\\uDC7A\\uDC7B\\uDC7C\\uDC7D\\uDC7E\\uDC7F'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 7925,
       "end": 8052,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2234,13 +2235,13 @@
             "raw": "'\\uDC80\\uDC81\\uDC82\\uDC83\\uDC84\\uDC85\\uDC86\\uDC87\\uDC88\\uDC89\\uDC8A\\uDC8B\\uDC8C\\uDC8D\\uDC8E\\uDC8F'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 8053,
       "end": 8181,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2260,13 +2261,13 @@
             "raw": "'\\uDC90\\uDC91\\uDC92\\uDC93\\uDC94\\uDC95\\uDC96\\uDC97\\uDC98\\uDC99\\uDC9A\\uDC9B\\uDC9C\\uDC9D\\uDC9E\\uDC9F'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 8182,
       "end": 8310,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2286,13 +2287,13 @@
             "raw": "'\\uDCA0\\uDCA1\\uDCA2\\uDCA3\\uDCA4\\uDCA5\\uDCA6\\uDCA7\\uDCA8\\uDCA9\\uDCAA\\uDCAB\\uDCAC\\uDCAD\\uDCAE\\uDCAF'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 8311,
       "end": 8439,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2312,13 +2313,13 @@
             "raw": "'\\uDCB0\\uDCB1\\uDCB2\\uDCB3\\uDCB4\\uDCB5\\uDCB6\\uDCB7\\uDCB8\\uDCB9\\uDCBA\\uDCBB\\uDCBC\\uDCBD\\uDCBE\\uDCBF'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 8440,
       "end": 8568,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2338,13 +2339,13 @@
             "raw": "'\\uDCC0\\uDCC1\\uDCC2\\uDCC3\\uDCC4\\uDCC5\\uDCC6\\uDCC7\\uDCC8\\uDCC9\\uDCCA\\uDCCB\\uDCCC\\uDCCD\\uDCCE\\uDCCF'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 8569,
       "end": 8697,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2364,13 +2365,13 @@
             "raw": "'\\uDCD0\\uDCD1\\uDCD2\\uDCD3\\uDCD4\\uDCD5\\uDCD6\\uDCD7\\uDCD8\\uDCD9\\uDCDA\\uDCDB\\uDCDC\\uDCDD\\uDCDE\\uDCDF'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 8698,
       "end": 8826,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2390,13 +2391,13 @@
             "raw": "'\\uDCE0\\uDCE1\\uDCE2\\uDCE3\\uDCE4\\uDCE5\\uDCE6\\uDCE7\\uDCE8\\uDCE9\\uDCEA\\uDCEB\\uDCEC\\uDCED\\uDCEE\\uDCEF'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 8827,
       "end": 8955,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2416,8 +2417,7 @@
             "raw": "'\\uDCF0\\uDCF1\\uDCF2\\uDCF3\\uDCF4\\uDCF5\\uDCF6\\uDCF7\\uDCF8\\uDCF9\\uDCFA\\uDCFB\\uDCFC\\uDCFD\\uDCFE\\uDCFF'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -2443,8 +2443,8 @@
             "end": 8973,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2467,8 +2467,8 @@
                 "end": 8987,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2522,8 +2522,8 @@
             "end": 9192,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2546,8 +2546,8 @@
                 "end": 9206,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2601,8 +2601,8 @@
             "end": 9411,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2625,8 +2625,8 @@
                 "end": 9425,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2680,8 +2680,8 @@
             "end": 9630,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2704,8 +2704,8 @@
                 "end": 9644,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2759,8 +2759,8 @@
             "end": 9849,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2783,8 +2783,8 @@
                 "end": 9863,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2838,8 +2838,8 @@
             "end": 10068,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2862,8 +2862,8 @@
                 "end": 10082,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2917,8 +2917,8 @@
             "end": 10287,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2941,8 +2941,8 @@
                 "end": 10301,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2996,8 +2996,8 @@
             "end": 10506,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3020,8 +3020,8 @@
                 "end": 10520,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -3075,8 +3075,8 @@
             "end": 10725,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3099,8 +3099,8 @@
                 "end": 10739,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -3154,8 +3154,8 @@
             "end": 10944,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3178,8 +3178,8 @@
                 "end": 10958,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -3233,8 +3233,8 @@
             "end": 11164,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3257,8 +3257,8 @@
                 "end": 11178,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -3312,8 +3312,8 @@
             "end": 11384,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3336,8 +3336,8 @@
                 "end": 11398,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -3391,8 +3391,8 @@
             "end": 11604,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3415,8 +3415,8 @@
                 "end": 11618,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -3470,8 +3470,8 @@
             "end": 11824,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3494,8 +3494,8 @@
                 "end": 11838,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -3549,8 +3549,8 @@
             "end": 12044,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3573,8 +3573,8 @@
                 "end": 12058,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -3628,8 +3628,8 @@
             "end": 12264,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3652,8 +3652,8 @@
                 "end": 12278,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

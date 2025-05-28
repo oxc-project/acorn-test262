@@ -27,8 +27,8 @@
             "end": 426,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,13 +36,13 @@
             "start": 427,
             "end": 438,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 434,
               "end": 438,
               "name": "func"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -66,6 +66,7 @@
       "type": "VariableDeclaration",
       "start": 515,
       "end": 567,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -98,7 +99,6 @@
                   "end": 547,
                   "name": "func"
                 },
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -120,14 +120,14 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             ],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -153,8 +153,8 @@
             "end": 585,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -173,8 +173,8 @@
               "end": 606,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",
@@ -217,8 +217,8 @@
             "end": 717,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -276,8 +276,8 @@
             "end": 771,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -285,13 +285,13 @@
             "start": 772,
             "end": 783,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 779,
               "end": 783,
               "name": "func"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

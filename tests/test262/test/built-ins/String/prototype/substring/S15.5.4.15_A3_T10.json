@@ -32,8 +32,8 @@
               "end": 435,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -41,8 +41,8 @@
             "end": 445,
             "name": "substring"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "MemberExpression",
@@ -64,8 +64,8 @@
               "end": 464,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -73,8 +73,8 @@
             "end": 474,
             "name": "substring"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       }
     },
@@ -82,6 +82,7 @@
       "type": "VariableDeclaration",
       "start": 477,
       "end": 516,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -109,20 +110,19 @@
                 "start": 508,
                 "end": 514,
                 "operator": "void",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 513,
                   "end": 514,
                   "value": 0,
                   "raw": "0"
-                }
+                },
+                "prefix": true
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -152,8 +152,8 @@
               "end": 631,
               "name": "substring"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -234,8 +234,8 @@
                         "end": 767,
                         "name": "substring"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -273,7 +273,6 @@
         "end": 881,
         "name": "__FACTORY"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -313,8 +312,8 @@
                   "end": 903,
                   "name": "value"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "Identifier",
@@ -348,15 +347,14 @@
                   "end": 928,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "FunctionExpression",
                 "start": 931,
                 "end": 975,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -388,8 +386,8 @@
                             "end": 965,
                             "name": "value"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "operator": "+",
                         "right": {
@@ -402,12 +400,14 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             }
           }
         ]
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

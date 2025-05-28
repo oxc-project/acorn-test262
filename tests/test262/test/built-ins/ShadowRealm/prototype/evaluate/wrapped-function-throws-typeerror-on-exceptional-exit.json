@@ -27,8 +27,8 @@
             "end": 336,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 340,
             "end": 377,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 347,
@@ -57,8 +56,8 @@
                   "end": 368,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -66,9 +65,10 @@
                 "end": 377,
                 "name": "evaluate"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -92,6 +92,7 @@
       "type": "VariableDeclaration",
       "start": 473,
       "end": 501,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -116,8 +117,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -143,8 +143,8 @@
             "end": 519,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -171,15 +171,14 @@
                   "end": 533,
                   "name": "evaluate"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
                   "type": "TemplateLiteral",
                   "start": 534,
                   "end": 728,
-                  "expressions": [],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -191,7 +190,8 @@
                       },
                       "tail": true
                     }
-                  ]
+                  ],
+                  "expressions": []
                 }
               ],
               "optional": false
@@ -201,9 +201,7 @@
                 "type": "ArrowFunctionExpression",
                 "start": 730,
                 "end": 759,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
@@ -238,7 +236,9 @@
                       }
                     }
                   ]
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ],
             "optional": false
@@ -285,8 +285,8 @@
             "end": 894,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -299,9 +299,7 @@
             "type": "ArrowFunctionExpression",
             "start": 911,
             "end": 966,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -328,8 +326,8 @@
                     "end": 927,
                     "name": "evaluate"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -344,7 +342,9 @@
               },
               "arguments": [],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",

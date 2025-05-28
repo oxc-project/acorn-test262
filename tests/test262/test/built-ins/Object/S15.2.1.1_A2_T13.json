@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 409,
       "end": 449,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -68,14 +69,14 @@
                     "start": 440,
                     "end": 446,
                     "operator": "!",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 441,
                       "end": 446,
                       "value": false,
                       "raw": "false"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               }
@@ -83,8 +84,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -110,8 +110,8 @@
             "end": 467,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -130,8 +130,8 @@
               "end": 483,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",
@@ -174,8 +174,8 @@
             "end": 585,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -183,13 +183,13 @@
             "start": 586,
             "end": 596,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 593,
               "end": 596,
               "name": "obj"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -229,20 +229,20 @@
             "start": 672,
             "end": 677,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "UnaryExpression",
               "start": 673,
               "end": 677,
               "operator": "!",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 674,
                 "end": 677,
                 "name": "obj"
-              }
-            }
+              },
+              "prefix": true
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -279,8 +279,8 @@
             "end": 744,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

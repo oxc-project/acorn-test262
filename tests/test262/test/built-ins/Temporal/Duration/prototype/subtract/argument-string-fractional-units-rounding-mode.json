@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 335,
       "end": 373,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,14 +39,13 @@
                 "end": 370,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -71,8 +71,8 @@
             "end": 405,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -95,8 +95,8 @@
                 "end": 420,
                 "name": "subtract"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -142,56 +142,56 @@
             "start": 448,
             "end": 450,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 449,
               "end": 450,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 452,
             "end": 454,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 453,
               "end": 454,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 456,
             "end": 459,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 457,
               "end": 459,
               "value": 52,
               "raw": "52"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 461,
             "end": 465,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 462,
               "end": 465,
               "value": 500,
               "raw": "500"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -242,8 +242,8 @@
             "end": 570,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -266,8 +266,8 @@
                 "end": 585,
                 "name": "subtract"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

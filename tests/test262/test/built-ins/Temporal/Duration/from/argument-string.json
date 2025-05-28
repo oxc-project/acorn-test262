@@ -27,8 +27,8 @@
             "end": 293,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -55,8 +55,8 @@
                   "end": 311,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -64,8 +64,8 @@
                 "end": 316,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -176,8 +176,8 @@
             "end": 388,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -204,8 +204,8 @@
                   "end": 406,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -213,8 +213,8 @@
                 "end": 411,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -325,8 +325,8 @@
             "end": 494,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -353,8 +353,8 @@
                   "end": 512,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -362,8 +362,8 @@
                 "end": 517,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -474,8 +474,8 @@
             "end": 607,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -502,8 +502,8 @@
                   "end": 625,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -511,8 +511,8 @@
                 "end": 630,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -623,8 +623,8 @@
             "end": 721,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -651,8 +651,8 @@
                   "end": 739,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -660,8 +660,8 @@
                 "end": 744,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -772,8 +772,8 @@
             "end": 836,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -800,8 +800,8 @@
                   "end": 854,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -809,8 +809,8 @@
                 "end": 859,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -921,8 +921,8 @@
             "end": 954,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -949,8 +949,8 @@
                   "end": 972,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -958,8 +958,8 @@
                 "end": 977,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1070,8 +1070,8 @@
             "end": 1073,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1098,8 +1098,8 @@
                   "end": 1091,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -1107,8 +1107,8 @@
                 "end": 1096,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1219,8 +1219,8 @@
             "end": 1193,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1247,8 +1247,8 @@
                   "end": 1211,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -1256,8 +1256,8 @@
                 "end": 1216,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1368,8 +1368,8 @@
             "end": 1316,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1396,8 +1396,8 @@
                   "end": 1334,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -1405,8 +1405,8 @@
                 "end": 1339,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1517,8 +1517,8 @@
             "end": 1440,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1545,8 +1545,8 @@
                   "end": 1458,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -1554,8 +1554,8 @@
                 "end": 1463,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1666,8 +1666,8 @@
             "end": 1565,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1694,8 +1694,8 @@
                   "end": 1583,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -1703,8 +1703,8 @@
                 "end": 1588,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1815,8 +1815,8 @@
             "end": 1679,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1843,8 +1843,8 @@
                   "end": 1697,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -1852,8 +1852,8 @@
                 "end": 1702,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1964,8 +1964,8 @@
             "end": 1781,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1992,8 +1992,8 @@
                   "end": 1799,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -2001,8 +2001,8 @@
                 "end": 1804,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2113,8 +2113,8 @@
             "end": 1883,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2141,8 +2141,8 @@
                   "end": 1901,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -2150,8 +2150,8 @@
                 "end": 1906,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2262,8 +2262,8 @@
             "end": 1980,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2290,8 +2290,8 @@
                   "end": 1998,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -2299,8 +2299,8 @@
                 "end": 2003,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2339,14 +2339,14 @@
             "start": 2025,
             "end": 2027,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2026,
               "end": 2027,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -2418,8 +2418,8 @@
             "end": 2078,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2446,8 +2446,8 @@
                   "end": 2096,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -2455,8 +2455,8 @@
                 "end": 2101,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2474,140 +2474,140 @@
             "start": 2137,
             "end": 2139,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2138,
               "end": 2139,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 2141,
             "end": 2143,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2142,
               "end": 2143,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 2145,
             "end": 2147,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2146,
               "end": 2147,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 2149,
             "end": 2151,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2150,
               "end": 2151,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 2153,
             "end": 2155,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2154,
               "end": 2155,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 2157,
             "end": 2159,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2158,
               "end": 2159,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 2161,
             "end": 2163,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2162,
               "end": 2163,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 2165,
             "end": 2169,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2166,
               "end": 2169,
               "value": 123,
               "raw": "123"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 2171,
             "end": 2175,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2172,
               "end": 2175,
               "value": 456,
               "raw": "456"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 2177,
             "end": 2181,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2178,
               "end": 2181,
               "value": 789,
               "raw": "789"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -2637,8 +2637,8 @@
             "end": 2214,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2665,8 +2665,8 @@
                   "end": 2232,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -2674,8 +2674,8 @@
                 "end": 2237,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

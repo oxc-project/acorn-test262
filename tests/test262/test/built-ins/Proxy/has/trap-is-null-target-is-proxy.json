@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 627,
       "end": 679,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -58,13 +59,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 680,
       "end": 740,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -102,9 +103,7 @@
                     "type": "Property",
                     "start": 726,
                     "end": 735,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 726,
@@ -118,15 +117,16 @@
                       "value": null,
                       "raw": "null"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -163,8 +163,8 @@
                 "end": 760,
                 "name": "has"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -245,7 +245,6 @@
             "start": 819,
             "end": 838,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "ParenthesizedExpression",
               "start": 820,
@@ -269,7 +268,8 @@
                   "name": "stringProxy"
                 }
               }
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -279,6 +279,7 @@
       "type": "VariableDeclaration",
       "start": 843,
       "end": 862,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -304,13 +305,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 863,
       "end": 976,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -348,9 +349,7 @@
                     "type": "Property",
                     "start": 894,
                     "end": 971,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 894,
@@ -362,7 +361,6 @@
                       "start": 899,
                       "end": 971,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [
@@ -429,8 +427,8 @@
                                   "end": 961,
                                   "name": "includes"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [
                                 {
@@ -444,22 +442,25 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 978,
       "end": 1026,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -497,9 +498,7 @@
                     "type": "Property",
                     "start": 1012,
                     "end": 1021,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1012,
@@ -513,15 +512,16 @@
                       "value": null,
                       "raw": "null"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -558,8 +558,8 @@
                 "end": 1046,
                 "name": "has"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -666,8 +666,8 @@
                   "end": 1112,
                   "name": "create"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -704,7 +704,6 @@
             "start": 1129,
             "end": 1146,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "ParenthesizedExpression",
               "start": 1130,
@@ -728,7 +727,8 @@
                   "name": "proxy"
                 }
               }
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false

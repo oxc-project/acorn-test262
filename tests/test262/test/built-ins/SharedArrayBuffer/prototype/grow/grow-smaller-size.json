@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 754,
       "end": 809,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -45,9 +46,7 @@
                     "type": "Property",
                     "start": 790,
                     "end": 806,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 790,
@@ -61,20 +60,22 @@
                       "value": 5,
                       "raw": "5"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 810,
       "end": 821,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -88,8 +89,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -115,8 +115,8 @@
             "end": 1142,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -124,7 +124,6 @@
             "start": 1143,
             "end": 1158,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 1150,
@@ -141,9 +140,10 @@
                 "end": 1158,
                 "name": "grow"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -200,8 +200,8 @@
                     "end": 1198,
                     "name": "grow"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -261,8 +261,8 @@
             "end": 1645,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

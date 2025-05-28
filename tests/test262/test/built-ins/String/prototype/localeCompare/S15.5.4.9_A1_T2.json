@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 325,
       "end": 340,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "\"h\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 341,
       "end": 356,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,8 +53,7 @@
             "raw": "\"H\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -83,8 +83,8 @@
               "end": 379,
               "name": "localeCompare"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -102,7 +102,6 @@
           "start": 390,
           "end": 415,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "CallExpression",
             "start": 391,
@@ -123,8 +122,8 @@
                 "end": 409,
                 "name": "localeCompare"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -135,7 +134,8 @@
               }
             ],
             "optional": false
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -190,8 +190,8 @@
                         "end": 567,
                         "name": "localeCompare"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 346,
       "end": 407,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 362,
                 "end": 384,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 362,
@@ -41,7 +40,6 @@
                   "start": 371,
                   "end": 384,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -50,17 +48,18 @@
                     "start": 382,
                     "end": 384,
                     "body": []
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 388,
                 "end": 404,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 388,
@@ -72,22 +71,23 @@
                   "start": 398,
                   "end": 404,
                   "operator": "void",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 403,
                     "end": 404,
                     "value": 0,
                     "raw": "0"
-                  }
+                  },
+                  "prefix": true
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -130,8 +130,8 @@
               "end": 637,
               "name": "lastIndexOf"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -143,7 +143,6 @@
                 "start": 638,
                 "end": 651,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -152,7 +151,8 @@
                   "start": 649,
                   "end": 651,
                   "body": []
-                }
+                },
+                "expression": false
               },
               "arguments": [],
               "optional": false
@@ -234,8 +234,8 @@
                         "end": 837,
                         "name": "lastIndexOf"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -247,7 +247,6 @@
                           "start": 838,
                           "end": 851,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -256,7 +255,8 @@
                             "start": 849,
                             "end": 851,
                             "body": []
-                          }
+                          },
+                          "expression": false
                         },
                         "arguments": [],
                         "optional": false

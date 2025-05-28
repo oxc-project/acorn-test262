@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 383,
       "end": 410,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -40,8 +41,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -56,13 +56,13 @@
           "start": 505,
           "end": 517,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 512,
             "end": 517,
             "name": "__str"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -110,13 +110,13 @@
                     "start": 643,
                     "end": 655,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 650,
                       "end": 655,
                       "name": "__str"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]
@@ -246,13 +246,13 @@
           "start": 1169,
           "end": 1181,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 1176,
             "end": 1181,
             "name": "__str"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -300,13 +300,13 @@
                     "start": 1312,
                     "end": 1324,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 1319,
                       "end": 1324,
                       "name": "__str"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]
@@ -436,13 +436,13 @@
           "start": 1869,
           "end": 1881,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 1876,
             "end": 1881,
             "name": "__str"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -490,13 +490,13 @@
                     "start": 2030,
                     "end": 2042,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 2037,
                       "end": 2042,
                       "name": "__str"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]

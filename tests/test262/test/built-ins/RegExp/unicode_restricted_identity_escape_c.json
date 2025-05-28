@@ -13,7 +13,6 @@
         "end": 464,
         "name": "isAlpha"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -139,7 +138,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -165,8 +165,8 @@
             "end": 675,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -180,7 +180,6 @@
             "start": 689,
             "end": 723,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -223,7 +222,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -237,6 +237,7 @@
         "type": "VariableDeclaration",
         "start": 731,
         "end": 744,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -256,8 +257,7 @@
               "raw": "0x00"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -300,6 +300,7 @@
             "type": "VariableDeclaration",
             "start": 768,
             "end": 800,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -331,8 +332,8 @@
                       "end": 795,
                       "name": "fromCharCode"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -345,8 +346,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "IfStatement",
@@ -357,7 +357,6 @@
               "start": 807,
               "end": 818,
               "operator": "!",
-              "prefix": true,
               "argument": {
                 "type": "CallExpression",
                 "start": 808,
@@ -377,7 +376,8 @@
                   }
                 ],
                 "optional": false
-              }
+              },
+              "prefix": true
             },
             "consequent": {
               "type": "BlockStatement",
@@ -408,8 +408,8 @@
                         "end": 839,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -423,7 +423,6 @@
                         "start": 853,
                         "end": 901,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -478,7 +477,8 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       },
                       {
                         "type": "BinaryExpression",
@@ -547,8 +547,8 @@
             "end": 1107,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -562,7 +562,6 @@
             "start": 1121,
             "end": 1157,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -605,7 +604,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -619,6 +619,7 @@
         "type": "VariableDeclaration",
         "start": 1165,
         "end": 1178,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -638,8 +639,7 @@
               "raw": "0x00"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -682,6 +682,7 @@
             "type": "VariableDeclaration",
             "start": 1202,
             "end": 1234,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -713,8 +714,8 @@
                       "end": 1229,
                       "name": "fromCharCode"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -727,8 +728,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "IfStatement",
@@ -739,7 +739,6 @@
               "start": 1241,
               "end": 1252,
               "operator": "!",
-              "prefix": true,
               "argument": {
                 "type": "CallExpression",
                 "start": 1242,
@@ -759,7 +758,8 @@
                   }
                 ],
                 "optional": false
-              }
+              },
+              "prefix": true
             },
             "consequent": {
               "type": "BlockStatement",
@@ -790,8 +790,8 @@
                         "end": 1273,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -805,7 +805,6 @@
                         "start": 1287,
                         "end": 1342,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -873,7 +872,8 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       },
                       {
                         "type": "BinaryExpression",

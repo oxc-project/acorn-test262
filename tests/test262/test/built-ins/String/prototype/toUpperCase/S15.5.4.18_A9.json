@@ -12,7 +12,6 @@
         "start": 462,
         "end": 518,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 463,
@@ -45,8 +44,8 @@
                     "end": 480,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -54,8 +53,8 @@
                   "end": 492,
                   "name": "toUpperCase"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -63,8 +62,8 @@
                 "end": 507,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -77,7 +76,8 @@
             ],
             "optional": false
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -139,8 +139,8 @@
                             "end": 649,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -148,8 +148,8 @@
                           "end": 661,
                           "name": "toUpperCase"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -157,8 +157,8 @@
                         "end": 676,
                         "name": "hasOwnProperty"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -188,13 +188,11 @@
         "start": 867,
         "end": 910,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "UnaryExpression",
           "start": 868,
           "end": 910,
           "operator": "delete",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 875,
@@ -219,8 +217,8 @@
                   "end": 891,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -228,8 +226,8 @@
                 "end": 903,
                 "name": "toUpperCase"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -237,10 +235,12 @@
               "end": 910,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
-          }
-        }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -308,8 +308,8 @@
                 "end": 1196,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -317,8 +317,8 @@
               "end": 1208,
               "name": "toUpperCase"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -326,8 +326,8 @@
             "end": 1223,
             "name": "hasOwnProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -400,8 +400,8 @@
                             "end": 1409,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -409,8 +409,8 @@
                           "end": 1421,
                           "name": "toUpperCase"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -418,8 +418,8 @@
                         "end": 1436,
                         "name": "hasOwnProperty"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {

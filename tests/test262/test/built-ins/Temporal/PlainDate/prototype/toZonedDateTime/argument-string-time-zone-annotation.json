@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 297,
       "end": 2143,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -530,13 +531,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2145,
       "end": 2197,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -568,8 +569,8 @@
                 "end": 2184,
                 "name": "PlainDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -596,8 +597,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -623,17 +623,15 @@
             "end": 2212,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 2213,
             "end": 2449,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -665,6 +663,7 @@
                   "type": "VariableDeclaration",
                   "start": 2241,
                   "end": 2318,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -696,8 +695,8 @@
                             "end": 2280,
                             "name": "toZonedDateTime"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -709,9 +708,7 @@
                                 "type": "Property",
                                 "start": 2283,
                                 "end": 2297,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 2283,
@@ -724,15 +721,15 @@
                                   "end": 2297,
                                   "name": "arg"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               },
                               {
                                 "type": "Property",
                                 "start": 2299,
                                 "end": 2314,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 2299,
@@ -746,7 +743,9 @@
                                   "value": "UTC",
                                   "raw": "\"UTC\""
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               }
                             ]
                           }
@@ -754,8 +753,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -781,8 +779,8 @@
                         "end": 2338,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -801,8 +799,8 @@
                           "end": 2367,
                           "name": "epochNanoseconds"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       {
                         "type": "Literal",
@@ -816,14 +814,6 @@
                         "type": "TemplateLiteral",
                         "start": 2403,
                         "end": 2442,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 2428,
-                            "end": 2439,
-                            "name": "description"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -845,6 +835,14 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 2428,
+                            "end": 2439,
+                            "name": "description"
+                          }
                         ]
                       }
                     ],
@@ -852,7 +850,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

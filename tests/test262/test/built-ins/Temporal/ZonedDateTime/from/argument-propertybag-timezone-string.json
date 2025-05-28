@@ -42,17 +42,15 @@
             "end": 284,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 285,
             "end": 488,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -71,6 +69,7 @@
                   "type": "VariableDeclaration",
                   "start": 303,
                   "end": 390,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -106,8 +105,8 @@
                               "end": 340,
                               "name": "ZonedDateTime"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "property": {
                             "type": "Identifier",
@@ -115,8 +114,8 @@
                             "end": 345,
                             "name": "from"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -128,9 +127,7 @@
                                 "type": "Property",
                                 "start": 348,
                                 "end": 358,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 348,
@@ -144,15 +141,15 @@
                                   "value": 2000,
                                   "raw": "2000"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               },
                               {
                                 "type": "Property",
                                 "start": 360,
                                 "end": 368,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 360,
@@ -166,15 +163,15 @@
                                   "value": 5,
                                   "raw": "5"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               },
                               {
                                 "type": "Property",
                                 "start": 370,
                                 "end": 376,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 370,
@@ -188,15 +185,15 @@
                                   "value": 2,
                                   "raw": "2"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               },
                               {
                                 "type": "Property",
                                 "start": 378,
                                 "end": 386,
-                                "method": false,
-                                "shorthand": true,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 378,
@@ -209,7 +206,9 @@
                                   "end": 386,
                                   "name": "timeZone"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": true,
+                                "computed": false
                               }
                             ]
                           }
@@ -217,8 +216,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -244,8 +242,8 @@
                         "end": 409,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -264,8 +262,8 @@
                           "end": 427,
                           "name": "timeZoneId"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       {
                         "type": "Identifier",
@@ -277,14 +275,6 @@
                         "type": "TemplateLiteral",
                         "start": 439,
                         "end": 484,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 473,
-                            "end": 481,
-                            "name": "timeZone"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -306,6 +296,14 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 473,
+                            "end": 481,
+                            "name": "timeZone"
+                          }
                         ]
                       }
                     ],
@@ -313,7 +311,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

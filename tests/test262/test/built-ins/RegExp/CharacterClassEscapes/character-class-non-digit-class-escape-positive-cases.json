@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1588,
       "end": 1760,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,9 +39,7 @@
                     "type": "Property",
                     "start": 1617,
                     "end": 1635,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1617,
@@ -53,15 +52,15 @@
                       "end": 1635,
                       "elements": []
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1639,
                     "end": 1755,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1639,
@@ -159,7 +158,9 @@
                         }
                       ]
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -167,13 +168,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1762,
       "end": 1787,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -197,13 +198,13 @@
             }
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1788,
       "end": 1813,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -227,13 +228,13 @@
             }
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1814,
       "end": 1837,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -257,13 +258,13 @@
             }
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1838,
       "end": 1879,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -301,13 +302,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1881,
       "end": 1899,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -326,8 +327,7 @@
             "elements": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -338,6 +338,7 @@
         "type": "VariableDeclaration",
         "start": 1906,
         "end": 1917,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -351,8 +352,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -374,7 +374,6 @@
               "start": 1938,
               "end": 1954,
               "operator": "!",
-              "prefix": true,
               "argument": {
                 "type": "CallExpression",
                 "start": 1939,
@@ -395,8 +394,8 @@
                     "end": 1949,
                     "name": "test"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -407,7 +406,8 @@
                   }
                 ],
                 "optional": false
-              }
+              },
+              "prefix": true
             },
             "consequent": {
               "type": "BlockStatement",
@@ -423,6 +423,7 @@
                     "type": "VariableDeclaration",
                     "start": 2002,
                     "end": 2012,
+                    "kind": "const",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
@@ -436,8 +437,7 @@
                         },
                         "init": null
                       }
-                    ],
-                    "kind": "const"
+                    ]
                   },
                   "right": {
                     "type": "Identifier",
@@ -459,7 +459,6 @@
                           "start": 2033,
                           "end": 2050,
                           "operator": "!",
-                          "prefix": true,
                           "argument": {
                             "type": "CallExpression",
                             "start": 2034,
@@ -480,8 +479,8 @@
                                 "end": 2044,
                                 "name": "test"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -492,7 +491,8 @@
                               }
                             ],
                             "optional": false
-                          }
+                          },
+                          "prefix": true
                         },
                         "consequent": {
                           "type": "BlockStatement",
@@ -523,8 +523,8 @@
                                     "end": 2073,
                                     "name": "push"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -567,8 +567,8 @@
                                               "end": 2097,
                                               "name": "codePointAt"
                                             },
-                                            "computed": false,
-                                            "optional": false
+                                            "optional": false,
+                                            "computed": false
                                           },
                                           "arguments": [
                                             {
@@ -587,8 +587,8 @@
                                           "end": 2109,
                                           "name": "toString"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -644,8 +644,8 @@
             "end": 2153,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -664,8 +664,8 @@
               "end": 2170,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -706,8 +706,8 @@
                   "end": 2235,
                   "name": "join"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {

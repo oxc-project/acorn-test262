@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 273,
       "end": 344,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -43,8 +44,8 @@
                     "end": 323,
                     "name": "PlainMonthDay"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -73,8 +74,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -100,17 +100,15 @@
             "end": 364,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 365,
             "end": 722,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -129,6 +127,7 @@
                   "type": "VariableDeclaration",
                   "start": 380,
                   "end": 460,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -164,8 +163,8 @@
                               "end": 420,
                               "name": "PlainMonthDay"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "property": {
                             "type": "Identifier",
@@ -173,8 +172,8 @@
                             "end": 425,
                             "name": "from"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -192,9 +191,7 @@
                                 "type": "Property",
                                 "start": 435,
                                 "end": 456,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 435,
@@ -208,7 +205,9 @@
                                   "value": "constrain",
                                   "raw": "\"constrain\""
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               }
                             ]
                           }
@@ -216,8 +215,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -243,8 +241,8 @@
                         "end": 498,
                         "name": "assertPlainMonthDay"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -282,6 +280,7 @@
                   "type": "VariableDeclaration",
                   "start": 558,
                   "end": 632,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -317,8 +316,8 @@
                               "end": 595,
                               "name": "PlainMonthDay"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "property": {
                             "type": "Identifier",
@@ -326,8 +325,8 @@
                             "end": 600,
                             "name": "from"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -345,9 +344,7 @@
                                 "type": "Property",
                                 "start": 610,
                                 "end": 628,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 610,
@@ -361,7 +358,9 @@
                                   "value": "reject",
                                   "raw": "\"reject\""
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               }
                             ]
                           }
@@ -369,8 +368,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -396,8 +394,8 @@
                         "end": 670,
                         "name": "assertPlainMonthDay"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -432,7 +430,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -442,6 +442,7 @@
       "type": "VariableDeclaration",
       "start": 726,
       "end": 782,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -462,9 +463,7 @@
                 "type": "Property",
                 "start": 749,
                 "end": 759,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 749,
@@ -478,15 +477,15 @@
                   "value": 2000,
                   "raw": "2000"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 761,
                 "end": 770,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 761,
@@ -500,15 +499,15 @@
                   "value": 13,
                   "raw": "13"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 772,
                 "end": 779,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 772,
@@ -522,18 +521,20 @@
                   "value": 34,
                   "raw": "34"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 783,
       "end": 868,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -569,8 +570,8 @@
                   "end": 821,
                   "name": "PlainMonthDay"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -578,8 +579,8 @@
                 "end": 826,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -597,9 +598,7 @@
                     "type": "Property",
                     "start": 843,
                     "end": 864,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 843,
@@ -613,7 +612,9 @@
                       "value": "constrain",
                       "raw": "\"constrain\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -621,8 +622,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -648,8 +648,8 @@
             "end": 904,
             "name": "assertPlainMonthDay"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -707,8 +707,8 @@
             "end": 972,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -721,9 +721,7 @@
             "type": "ArrowFunctionExpression",
             "start": 985,
             "end": 1056,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -750,8 +748,8 @@
                     "end": 1013,
                     "name": "PlainMonthDay"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -759,8 +757,8 @@
                   "end": 1018,
                   "name": "from"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -778,9 +776,7 @@
                       "type": "Property",
                       "start": 1035,
                       "end": 1053,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1035,
@@ -794,13 +790,17 @@
                         "value": "reject",
                         "raw": "\"reject\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -817,6 +817,7 @@
       "type": "VariableDeclaration",
       "start": 1094,
       "end": 1137,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -837,9 +838,7 @@
                 "type": "Property",
                 "start": 1117,
                 "end": 1125,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1117,
@@ -853,15 +852,15 @@
                   "value": 1,
                   "raw": "1"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1127,
                 "end": 1134,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1127,
@@ -875,18 +874,20 @@
                   "value": 32,
                   "raw": "32"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1138,
       "end": 1223,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -922,8 +923,8 @@
                   "end": 1176,
                   "name": "PlainMonthDay"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -931,8 +932,8 @@
                 "end": 1181,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -950,9 +951,7 @@
                     "type": "Property",
                     "start": 1198,
                     "end": 1219,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1198,
@@ -966,7 +965,9 @@
                       "value": "constrain",
                       "raw": "\"constrain\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -974,8 +975,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1001,8 +1001,8 @@
             "end": 1259,
             "name": "assertPlainMonthDay"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1060,8 +1060,8 @@
             "end": 1327,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1074,9 +1074,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1340,
             "end": 1411,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -1103,8 +1101,8 @@
                     "end": 1368,
                     "name": "PlainMonthDay"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -1112,8 +1110,8 @@
                   "end": 1373,
                   "name": "from"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1131,9 +1129,7 @@
                       "type": "Property",
                       "start": 1390,
                       "end": 1408,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1390,
@@ -1147,13 +1143,17 @@
                         "value": "reject",
                         "raw": "\"reject\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -1190,8 +1190,8 @@
             "end": 1462,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1204,9 +1204,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1475,
             "end": 1544,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -1233,8 +1231,8 @@
                     "end": 1503,
                     "name": "PlainMonthDay"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -1242,8 +1240,8 @@
                   "end": 1508,
                   "name": "from"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1262,9 +1260,7 @@
                       "type": "Property",
                       "start": 1520,
                       "end": 1541,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1520,
@@ -1278,13 +1274,17 @@
                         "value": "constrain",
                         "raw": "\"constrain\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -1321,8 +1321,8 @@
             "end": 1595,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1335,9 +1335,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1608,
             "end": 1674,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -1364,8 +1362,8 @@
                     "end": 1636,
                     "name": "PlainMonthDay"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -1373,8 +1371,8 @@
                   "end": 1641,
                   "name": "from"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1393,9 +1391,7 @@
                       "type": "Property",
                       "start": 1653,
                       "end": 1671,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1653,
@@ -1409,13 +1405,17 @@
                         "value": "reject",
                         "raw": "\"reject\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -1432,6 +1432,7 @@
       "type": "VariableDeclaration",
       "start": 1710,
       "end": 1748,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1452,9 +1453,7 @@
                 "type": "Property",
                 "start": 1724,
                 "end": 1745,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1724,
@@ -1468,18 +1467,20 @@
                   "value": "constrain",
                   "raw": "\"constrain\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1750,
       "end": 1831,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1515,8 +1516,8 @@
                   "end": 1785,
                   "name": "PlainMonthDay"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -1524,8 +1525,8 @@
                 "end": 1790,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1537,9 +1538,7 @@
                     "type": "Property",
                     "start": 1793,
                     "end": 1803,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1793,
@@ -1553,15 +1552,15 @@
                       "value": 2021,
                       "raw": "2021"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1805,
                     "end": 1814,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1805,
@@ -1575,15 +1574,15 @@
                       "value": 13,
                       "raw": "13"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1816,
                     "end": 1822,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1816,
@@ -1597,7 +1596,9 @@
                       "value": 1,
                       "raw": "1"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               },
@@ -1611,8 +1612,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1638,8 +1638,8 @@
             "end": 1867,
             "name": "assertPlainMonthDay"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1712,8 +1712,8 @@
                 "end": 1952,
                 "name": "PlainMonthDay"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -1721,8 +1721,8 @@
               "end": 1957,
               "name": "from"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1734,9 +1734,7 @@
                   "type": "Property",
                   "start": 1960,
                   "end": 1970,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 1960,
@@ -1750,15 +1748,15 @@
                     "value": 2021,
                     "raw": "2021"
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 },
                 {
                   "type": "Property",
                   "start": 1972,
                   "end": 1985,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 1972,
@@ -1772,15 +1770,15 @@
                     "value": 999999,
                     "raw": "999999"
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 },
                 {
                   "type": "Property",
                   "start": 1987,
                   "end": 1995,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 1987,
@@ -1794,7 +1792,9 @@
                     "value": 500,
                     "raw": "500"
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 }
               ]
             },
@@ -1833,8 +1833,8 @@
             "end": 2040,
             "name": "assertPlainMonthDay"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1890,28 +1890,28 @@
                 "start": 2133,
                 "end": 2139,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 2134,
                   "end": 2139,
                   "value": 99999,
                   "raw": "99999"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 2141,
                 "end": 2143,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 2142,
                   "end": 2143,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -1928,17 +1928,15 @@
             "end": 2155,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 2156,
             "end": 2359,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -1977,8 +1975,8 @@
                         "end": 2184,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1991,9 +1989,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 2206,
                         "end": 2275,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -2020,8 +2016,8 @@
                                 "end": 2234,
                                 "name": "PlainMonthDay"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -2029,8 +2025,8 @@
                               "end": 2239,
                               "name": "from"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -2042,9 +2038,7 @@
                                   "type": "Property",
                                   "start": 2242,
                                   "end": 2252,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 2242,
@@ -2058,15 +2052,15 @@
                                     "value": 2021,
                                     "raw": "2021"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 },
                                 {
                                   "type": "Property",
                                   "start": 2254,
                                   "end": 2259,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 2254,
@@ -2079,15 +2073,15 @@
                                     "end": 2259,
                                     "name": "month"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 },
                                 {
                                   "type": "Property",
                                   "start": 2261,
                                   "end": 2267,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 2261,
@@ -2101,7 +2095,9 @@
                                     "value": 1,
                                     "raw": "1"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 }
                               ]
                             },
@@ -2113,20 +2109,14 @@
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 2281,
                         "end": 2352,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 2290,
-                            "end": 2295,
-                            "name": "month"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -2148,6 +2138,14 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 2290,
+                            "end": 2295,
+                            "name": "month"
+                          }
                         ]
                       }
                     ],
@@ -2155,7 +2153,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -2189,8 +2189,8 @@
               "end": 2388,
               "name": "ISOMonths"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -2198,17 +2198,15 @@
             "end": 2396,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 2397,
             "end": 3310,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -2220,9 +2218,7 @@
                     "type": "Property",
                     "start": 2400,
                     "end": 2405,
-                    "method": false,
-                    "shorthand": true,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 2400,
@@ -2235,15 +2231,15 @@
                       "end": 2405,
                       "name": "month"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": true,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 2407,
                     "end": 2416,
-                    "method": false,
-                    "shorthand": true,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 2407,
@@ -2256,15 +2252,15 @@
                       "end": 2416,
                       "name": "monthCode"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": true,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 2418,
                     "end": 2429,
-                    "method": false,
-                    "shorthand": true,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 2418,
@@ -2277,7 +2273,9 @@
                       "end": 2429,
                       "name": "daysInMonth"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": true,
+                    "computed": false
                   }
                 ]
               }
@@ -2291,6 +2289,7 @@
                   "type": "VariableDeclaration",
                   "start": 2440,
                   "end": 2468,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -2322,8 +2321,7 @@
                         }
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -2364,8 +2362,8 @@
                             "end": 2503,
                             "name": "PlainMonthDay"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -2373,8 +2371,8 @@
                           "end": 2508,
                           "name": "from"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -2386,9 +2384,7 @@
                               "type": "Property",
                               "start": 2511,
                               "end": 2516,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 2511,
@@ -2401,15 +2397,15 @@
                                 "end": 2516,
                                 "name": "month"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             },
                             {
                               "type": "Property",
                               "start": 2518,
                               "end": 2521,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 2518,
@@ -2422,7 +2418,9 @@
                                 "end": 2521,
                                 "name": "day"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         },
@@ -2461,8 +2459,8 @@
                         "end": 2568,
                         "name": "assertPlainMonthDay"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2487,26 +2485,6 @@
                         "type": "TemplateLiteral",
                         "start": 2605,
                         "end": 2673,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 2632,
-                            "end": 2635,
-                            "name": "day"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 2642,
-                            "end": 2653,
-                            "name": "daysInMonth"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 2666,
-                            "end": 2671,
-                            "name": "month"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -2547,6 +2525,26 @@
                               "cooked": ""
                             },
                             "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 2632,
+                            "end": 2635,
+                            "name": "day"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 2642,
+                            "end": 2653,
+                            "name": "daysInMonth"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 2666,
+                            "end": 2671,
+                            "name": "month"
                           }
                         ]
                       }
@@ -2593,8 +2591,8 @@
                             "end": 2710,
                             "name": "PlainMonthDay"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -2602,8 +2600,8 @@
                           "end": 2715,
                           "name": "from"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -2615,9 +2613,7 @@
                               "type": "Property",
                               "start": 2718,
                               "end": 2723,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 2718,
@@ -2630,15 +2626,15 @@
                                 "end": 2723,
                                 "name": "month"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             },
                             {
                               "type": "Property",
                               "start": 2725,
                               "end": 2734,
-                              "method": false,
-                              "shorthand": false,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 2725,
@@ -2652,7 +2648,9 @@
                                 "value": 9001,
                                 "raw": "9001"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false
                             }
                           ]
                         },
@@ -2691,8 +2689,8 @@
                         "end": 2781,
                         "name": "assertPlainMonthDay"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2717,20 +2715,6 @@
                         "type": "TemplateLiteral",
                         "start": 2818,
                         "end": 2874,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 2843,
-                            "end": 2854,
-                            "name": "daysInMonth"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 2867,
-                            "end": 2872,
-                            "name": "month"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -2761,6 +2745,20 @@
                               "cooked": ""
                             },
                             "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 2843,
+                            "end": 2854,
+                            "name": "daysInMonth"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 2867,
+                            "end": 2872,
+                            "name": "month"
                           }
                         ]
                       }
@@ -2807,8 +2805,8 @@
                             "end": 2911,
                             "name": "PlainMonthDay"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -2816,8 +2814,8 @@
                           "end": 2916,
                           "name": "from"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -2829,9 +2827,7 @@
                               "type": "Property",
                               "start": 2919,
                               "end": 2928,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 2919,
@@ -2844,15 +2840,15 @@
                                 "end": 2928,
                                 "name": "monthCode"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             },
                             {
                               "type": "Property",
                               "start": 2930,
                               "end": 2933,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 2930,
@@ -2865,7 +2861,9 @@
                                 "end": 2933,
                                 "name": "day"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         },
@@ -2904,8 +2902,8 @@
                         "end": 2980,
                         "name": "assertPlainMonthDay"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2930,26 +2928,6 @@
                         "type": "TemplateLiteral",
                         "start": 3017,
                         "end": 3093,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 3044,
-                            "end": 3047,
-                            "name": "day"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 3054,
-                            "end": 3065,
-                            "name": "daysInMonth"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 3082,
-                            "end": 3091,
-                            "name": "monthCode"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -2990,6 +2968,26 @@
                               "cooked": ""
                             },
                             "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 3044,
+                            "end": 3047,
+                            "name": "day"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 3054,
+                            "end": 3065,
+                            "name": "daysInMonth"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 3082,
+                            "end": 3091,
+                            "name": "monthCode"
                           }
                         ]
                       }
@@ -3036,8 +3034,8 @@
                             "end": 3130,
                             "name": "PlainMonthDay"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -3045,8 +3043,8 @@
                           "end": 3135,
                           "name": "from"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -3058,9 +3056,7 @@
                               "type": "Property",
                               "start": 3138,
                               "end": 3147,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 3138,
@@ -3073,15 +3069,15 @@
                                 "end": 3147,
                                 "name": "monthCode"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             },
                             {
                               "type": "Property",
                               "start": 3149,
                               "end": 3158,
-                              "method": false,
-                              "shorthand": false,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 3149,
@@ -3095,7 +3091,9 @@
                                 "value": 9001,
                                 "raw": "9001"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false
                             }
                           ]
                         },
@@ -3134,8 +3132,8 @@
                         "end": 3205,
                         "name": "assertPlainMonthDay"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3160,20 +3158,6 @@
                         "type": "TemplateLiteral",
                         "start": 3242,
                         "end": 3306,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 3267,
-                            "end": 3278,
-                            "name": "daysInMonth"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 3295,
-                            "end": 3304,
-                            "name": "monthCode"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -3205,6 +3189,20 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 3267,
+                            "end": 3278,
+                            "name": "daysInMonth"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 3295,
+                            "end": 3304,
+                            "name": "monthCode"
+                          }
                         ]
                       }
                     ],
@@ -3212,7 +3210,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -3285,17 +3285,15 @@
             "end": 3360,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 3361,
             "end": 3792,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -3362,8 +3360,8 @@
                             "end": 3417,
                             "name": "PlainMonthDay"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -3371,8 +3369,8 @@
                           "end": 3422,
                           "name": "from"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -3384,9 +3382,7 @@
                               "type": "Property",
                               "start": 3425,
                               "end": 3435,
-                              "method": false,
-                              "shorthand": false,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 3425,
@@ -3400,15 +3396,15 @@
                                 "value": 2020,
                                 "raw": "2020"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false
                             },
                             {
                               "type": "Property",
                               "start": 3437,
                               "end": 3450,
-                              "method": false,
-                              "shorthand": false,
-                              "computed": true,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 3438,
@@ -3421,15 +3417,15 @@
                                 "end": 3450,
                                 "name": "value"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": false,
+                              "computed": true
                             },
                             {
                               "type": "Property",
                               "start": 3452,
                               "end": 3459,
-                              "method": false,
-                              "shorthand": false,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 3452,
@@ -3443,7 +3439,9 @@
                                 "value": 30,
                                 "raw": "30"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false
                             }
                           ]
                         },
@@ -3482,8 +3480,8 @@
                         "end": 3506,
                         "name": "assertPlainMonthDay"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3510,20 +3508,6 @@
                         "type": "TemplateLiteral",
                         "start": 3526,
                         "end": 3583,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 3529,
-                            "end": 3533,
-                            "name": "name"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 3537,
-                            "end": 3542,
-                            "name": "value"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -3554,6 +3538,20 @@
                               "cooked": " is constrained to 29 in leap year 2020"
                             },
                             "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 3529,
+                            "end": 3533,
+                            "name": "name"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 3537,
+                            "end": 3542,
+                            "name": "value"
                           }
                         ]
                       }
@@ -3600,8 +3598,8 @@
                             "end": 3620,
                             "name": "PlainMonthDay"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -3609,8 +3607,8 @@
                           "end": 3625,
                           "name": "from"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -3622,9 +3620,7 @@
                               "type": "Property",
                               "start": 3628,
                               "end": 3638,
-                              "method": false,
-                              "shorthand": false,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 3628,
@@ -3638,15 +3634,15 @@
                                 "value": 2021,
                                 "raw": "2021"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false
                             },
                             {
                               "type": "Property",
                               "start": 3640,
                               "end": 3653,
-                              "method": false,
-                              "shorthand": false,
-                              "computed": true,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 3641,
@@ -3659,15 +3655,15 @@
                                 "end": 3653,
                                 "name": "value"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": false,
+                              "computed": true
                             },
                             {
                               "type": "Property",
                               "start": 3655,
                               "end": 3662,
-                              "method": false,
-                              "shorthand": false,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 3655,
@@ -3681,7 +3677,9 @@
                                 "value": 29,
                                 "raw": "29"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false
                             }
                           ]
                         },
@@ -3720,8 +3718,8 @@
                         "end": 3709,
                         "name": "assertPlainMonthDay"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3748,20 +3746,6 @@
                         "type": "TemplateLiteral",
                         "start": 3729,
                         "end": 3788,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 3732,
-                            "end": 3736,
-                            "name": "name"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 3740,
-                            "end": 3745,
-                            "name": "value"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -3793,6 +3777,20 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 3732,
+                            "end": 3736,
+                            "name": "name"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 3740,
+                            "end": 3745,
+                            "name": "value"
+                          }
                         ]
                       }
                     ],
@@ -3800,7 +3798,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -3828,14 +3828,14 @@
                 "start": 3797,
                 "end": 3799,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 3798,
                   "end": 3799,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -3866,17 +3866,15 @@
             "end": 3821,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 3822,
             "end": 4034,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -3915,8 +3913,8 @@
                         "end": 3850,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3929,9 +3927,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 3872,
                         "end": 3958,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -3958,8 +3954,8 @@
                                 "end": 3900,
                                 "name": "PlainMonthDay"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -3967,8 +3963,8 @@
                               "end": 3905,
                               "name": "from"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -3980,9 +3976,7 @@
                                   "type": "Property",
                                   "start": 3907,
                                   "end": 3917,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 3907,
@@ -3996,15 +3990,15 @@
                                     "value": 2021,
                                     "raw": "2021"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 },
                                 {
                                   "type": "Property",
                                   "start": 3919,
                                   "end": 3924,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 3919,
@@ -4017,15 +4011,15 @@
                                     "end": 3924,
                                     "name": "month"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 },
                                 {
                                   "type": "Property",
                                   "start": 3926,
                                   "end": 3932,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 3926,
@@ -4039,7 +4033,9 @@
                                     "value": 5,
                                     "raw": "5"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 }
                               ]
                             },
@@ -4052,9 +4048,7 @@
                                   "type": "Property",
                                   "start": 3937,
                                   "end": 3955,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 3937,
@@ -4068,26 +4062,22 @@
                                     "value": "reject",
                                     "raw": "\"reject\""
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 }
                               ]
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 3964,
                         "end": 4027,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 3973,
-                            "end": 3978,
-                            "name": "month"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -4109,6 +4099,14 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 3973,
+                            "end": 3978,
+                            "name": "month"
+                          }
                         ]
                       }
                     ],
@@ -4116,7 +4114,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -4144,14 +4144,14 @@
                 "start": 4039,
                 "end": 4041,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 4040,
                   "end": 4041,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -4182,17 +4182,15 @@
             "end": 4062,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 4063,
             "end": 4471,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -4231,8 +4229,8 @@
                         "end": 4089,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -4245,9 +4243,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 4111,
                         "end": 4200,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -4274,8 +4270,8 @@
                                 "end": 4139,
                                 "name": "PlainMonthDay"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -4283,8 +4279,8 @@
                               "end": 4144,
                               "name": "from"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -4296,9 +4292,7 @@
                                   "type": "Property",
                                   "start": 4147,
                                   "end": 4157,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 4147,
@@ -4312,15 +4306,15 @@
                                     "value": 2021,
                                     "raw": "2021"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 },
                                 {
                                   "type": "Property",
                                   "start": 4159,
                                   "end": 4168,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 4159,
@@ -4334,15 +4328,15 @@
                                     "value": 12,
                                     "raw": "12"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 },
                                 {
                                   "type": "Property",
                                   "start": 4170,
                                   "end": 4173,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 4170,
@@ -4355,7 +4349,9 @@
                                     "end": 4173,
                                     "name": "day"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 }
                               ]
                             },
@@ -4368,9 +4364,7 @@
                                   "type": "Property",
                                   "start": 4179,
                                   "end": 4197,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 4179,
@@ -4384,26 +4378,22 @@
                                     "value": "reject",
                                     "raw": "\"reject\""
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 }
                               ]
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 4206,
                         "end": 4268,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 4213,
-                            "end": 4216,
-                            "name": "day"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -4424,6 +4414,14 @@
                               "cooked": " is out of range for 2021-12 with overflow: reject"
                             },
                             "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 4213,
+                            "end": 4216,
+                            "name": "day"
                           }
                         ]
                       }
@@ -4455,8 +4453,8 @@
                         "end": 4289,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -4469,9 +4467,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 4311,
                         "end": 4395,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -4498,8 +4494,8 @@
                                 "end": 4339,
                                 "name": "PlainMonthDay"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -4507,8 +4503,8 @@
                               "end": 4344,
                               "name": "from"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -4520,9 +4516,7 @@
                                   "type": "Property",
                                   "start": 4347,
                                   "end": 4363,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 4347,
@@ -4536,15 +4530,15 @@
                                     "value": "M12",
                                     "raw": "\"M12\""
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 },
                                 {
                                   "type": "Property",
                                   "start": 4365,
                                   "end": 4368,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 4365,
@@ -4557,7 +4551,9 @@
                                     "end": 4368,
                                     "name": "day"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 }
                               ]
                             },
@@ -4570,9 +4566,7 @@
                                   "type": "Property",
                                   "start": 4374,
                                   "end": 4392,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 4374,
@@ -4586,26 +4580,22 @@
                                     "value": "reject",
                                     "raw": "\"reject\""
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 }
                               ]
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 4401,
                         "end": 4464,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 4408,
-                            "end": 4411,
-                            "name": "day"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -4627,6 +4617,14 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 4408,
+                            "end": 4411,
+                            "name": "day"
+                          }
                         ]
                       }
                     ],
@@ -4634,7 +4632,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -4668,8 +4668,8 @@
               "end": 4500,
               "name": "ISOMonths"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -4677,17 +4677,15 @@
             "end": 4508,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 4509,
             "end": 4960,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -4699,9 +4697,7 @@
                     "type": "Property",
                     "start": 4512,
                     "end": 4517,
-                    "method": false,
-                    "shorthand": true,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 4512,
@@ -4714,15 +4710,15 @@
                       "end": 4517,
                       "name": "month"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": true,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 4519,
                     "end": 4528,
-                    "method": false,
-                    "shorthand": true,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 4519,
@@ -4735,15 +4731,15 @@
                       "end": 4528,
                       "name": "monthCode"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": true,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 4530,
                     "end": 4541,
-                    "method": false,
-                    "shorthand": true,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 4530,
@@ -4756,7 +4752,9 @@
                       "end": 4541,
                       "name": "daysInMonth"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": true,
+                    "computed": false
                   }
                 ]
               }
@@ -4770,6 +4768,7 @@
                   "type": "VariableDeclaration",
                   "start": 4552,
                   "end": 4580,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -4801,8 +4800,7 @@
                         }
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -4828,8 +4826,8 @@
                         "end": 4596,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -4842,9 +4840,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 4613,
                         "end": 4686,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -4871,8 +4867,8 @@
                                 "end": 4641,
                                 "name": "PlainMonthDay"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -4880,8 +4876,8 @@
                               "end": 4646,
                               "name": "from"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -4893,9 +4889,7 @@
                                   "type": "Property",
                                   "start": 4649,
                                   "end": 4654,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 4649,
@@ -4908,15 +4902,15 @@
                                     "end": 4654,
                                     "name": "month"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 },
                                 {
                                   "type": "Property",
                                   "start": 4656,
                                   "end": 4659,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 4656,
@@ -4929,7 +4923,9 @@
                                     "end": 4659,
                                     "name": "day"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 }
                               ]
                             },
@@ -4942,9 +4938,7 @@
                                   "type": "Property",
                                   "start": 4665,
                                   "end": 4683,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 4665,
@@ -4958,32 +4952,22 @@
                                     "value": "reject",
                                     "raw": "\"reject\""
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 }
                               ]
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 4692,
                         "end": 4761,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 4699,
-                            "end": 4702,
-                            "name": "day"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 4732,
-                            "end": 4737,
-                            "name": "month"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -5015,6 +4999,20 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 4699,
+                            "end": 4702,
+                            "name": "day"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 4732,
+                            "end": 4737,
+                            "name": "month"
+                          }
                         ]
                       }
                     ],
@@ -5045,8 +5043,8 @@
                         "end": 4779,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -5059,9 +5057,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 4796,
                         "end": 4873,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -5088,8 +5084,8 @@
                                 "end": 4824,
                                 "name": "PlainMonthDay"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -5097,8 +5093,8 @@
                               "end": 4829,
                               "name": "from"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -5110,9 +5106,7 @@
                                   "type": "Property",
                                   "start": 4832,
                                   "end": 4841,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 4832,
@@ -5125,15 +5119,15 @@
                                     "end": 4841,
                                     "name": "monthCode"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 },
                                 {
                                   "type": "Property",
                                   "start": 4843,
                                   "end": 4846,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 4843,
@@ -5146,7 +5140,9 @@
                                     "end": 4846,
                                     "name": "day"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 }
                               ]
                             },
@@ -5159,9 +5155,7 @@
                                   "type": "Property",
                                   "start": 4852,
                                   "end": 4870,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 4852,
@@ -5175,32 +5169,22 @@
                                     "value": "reject",
                                     "raw": "\"reject\""
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 }
                               ]
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 4879,
                         "end": 4956,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 4886,
-                            "end": 4889,
-                            "name": "day"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 4923,
-                            "end": 4932,
-                            "name": "monthCode"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -5232,6 +5216,20 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 4886,
+                            "end": 4889,
+                            "name": "day"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 4923,
+                            "end": 4932,
+                            "name": "monthCode"
+                          }
                         ]
                       }
                     ],
@@ -5239,7 +5237,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -5312,17 +5312,15 @@
             "end": 5010,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 5011,
             "end": 5483,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -5374,8 +5372,8 @@
                         "end": 5049,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -5388,9 +5386,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 5066,
                         "end": 5163,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -5417,8 +5413,8 @@
                                 "end": 5094,
                                 "name": "PlainMonthDay"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -5426,8 +5422,8 @@
                               "end": 5099,
                               "name": "from"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -5439,9 +5435,7 @@
                                   "type": "Property",
                                   "start": 5102,
                                   "end": 5112,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 5102,
@@ -5455,15 +5449,15 @@
                                     "value": 2020,
                                     "raw": "2020"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 },
                                 {
                                   "type": "Property",
                                   "start": 5114,
                                   "end": 5127,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": true,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 5115,
@@ -5476,15 +5470,15 @@
                                     "end": 5127,
                                     "name": "value"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": true
                                 },
                                 {
                                   "type": "Property",
                                   "start": 5129,
                                   "end": 5136,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 5129,
@@ -5498,7 +5492,9 @@
                                     "value": 30,
                                     "raw": "30"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 }
                               ]
                             },
@@ -5511,9 +5507,7 @@
                                   "type": "Property",
                                   "start": 5142,
                                   "end": 5160,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 5142,
@@ -5527,32 +5521,22 @@
                                     "value": "reject",
                                     "raw": "\"reject\""
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 }
                               ]
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 5169,
                         "end": 5254,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 5199,
-                            "end": 5203,
-                            "name": "name"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 5207,
-                            "end": 5212,
-                            "name": "value"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -5584,6 +5568,20 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 5199,
+                            "end": 5203,
+                            "name": "name"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 5207,
+                            "end": 5212,
+                            "name": "value"
+                          }
                         ]
                       }
                     ],
@@ -5614,8 +5612,8 @@
                         "end": 5272,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -5628,9 +5626,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 5289,
                         "end": 5386,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -5657,8 +5653,8 @@
                                 "end": 5317,
                                 "name": "PlainMonthDay"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -5666,8 +5662,8 @@
                               "end": 5322,
                               "name": "from"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -5679,9 +5675,7 @@
                                   "type": "Property",
                                   "start": 5325,
                                   "end": 5335,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 5325,
@@ -5695,15 +5689,15 @@
                                     "value": 2021,
                                     "raw": "2021"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 },
                                 {
                                   "type": "Property",
                                   "start": 5337,
                                   "end": 5350,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": true,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 5338,
@@ -5716,15 +5710,15 @@
                                     "end": 5350,
                                     "name": "value"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": true
                                 },
                                 {
                                   "type": "Property",
                                   "start": 5352,
                                   "end": 5359,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 5352,
@@ -5738,7 +5732,9 @@
                                     "value": 29,
                                     "raw": "29"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 }
                               ]
                             },
@@ -5751,9 +5747,7 @@
                                   "type": "Property",
                                   "start": 5365,
                                   "end": 5383,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 5365,
@@ -5767,32 +5761,22 @@
                                     "value": "reject",
                                     "raw": "\"reject\""
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 }
                               ]
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 5392,
                         "end": 5479,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 5422,
-                            "end": 5426,
-                            "name": "name"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 5430,
-                            "end": 5435,
-                            "name": "value"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -5824,6 +5808,20 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 5422,
+                            "end": 5426,
+                            "name": "name"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 5430,
+                            "end": 5435,
+                            "name": "value"
+                          }
                         ]
                       }
                     ],
@@ -5831,7 +5829,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

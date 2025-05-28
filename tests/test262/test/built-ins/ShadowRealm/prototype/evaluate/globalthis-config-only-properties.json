@@ -27,8 +27,8 @@
             "end": 1149,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 1153,
             "end": 1190,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 1160,
@@ -57,8 +56,8 @@
                   "end": 1181,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -66,9 +65,10 @@
                 "end": 1190,
                 "name": "evaluate"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -92,6 +92,7 @@
       "type": "VariableDeclaration",
       "start": 1286,
       "end": 1314,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -116,13 +117,13 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1316,
       "end": 1816,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -154,15 +155,14 @@
                 "end": 1344,
                 "name": "evaluate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
                 "type": "TemplateLiteral",
                 "start": 1345,
                 "end": 1814,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -174,14 +174,14 @@
                     },
                     "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
             ],
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -207,8 +207,8 @@
             "end": 1834,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -239,6 +239,7 @@
       "type": "VariableDeclaration",
       "start": 1902,
       "end": 2808,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -270,15 +271,14 @@
                 "end": 1927,
                 "name": "evaluate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
                 "type": "TemplateLiteral",
                 "start": 1928,
                 "end": 2806,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -290,14 +290,14 @@
                     },
                     "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
             ],
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -323,8 +323,8 @@
             "end": 2826,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

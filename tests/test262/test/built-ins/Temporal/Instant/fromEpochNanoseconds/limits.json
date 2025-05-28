@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 474,
       "end": 510,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,8 +28,7 @@
             "bigint": "8640000000000000000000"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -54,8 +54,8 @@
             "end": 525,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -68,9 +68,7 @@
             "type": "ArrowFunctionExpression",
             "start": 538,
             "end": 594,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -97,8 +95,8 @@
                     "end": 560,
                     "name": "Instant"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -106,8 +104,8 @@
                   "end": 581,
                   "name": "fromEpochNanoseconds"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -119,13 +117,13 @@
                     "start": 582,
                     "end": 588,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 583,
                       "end": 588,
                       "name": "limit"
-                    }
+                    },
+                    "prefix": true
                   },
                   "operator": "-",
                   "right": {
@@ -139,7 +137,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -169,8 +169,8 @@
             "end": 610,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -183,9 +183,7 @@
             "type": "ArrowFunctionExpression",
             "start": 623,
             "end": 678,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -212,8 +210,8 @@
                     "end": 645,
                     "name": "Instant"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -221,8 +219,8 @@
                   "end": 666,
                   "name": "fromEpochNanoseconds"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -247,7 +245,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

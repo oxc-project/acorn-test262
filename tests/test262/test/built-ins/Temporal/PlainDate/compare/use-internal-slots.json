@@ -13,7 +13,6 @@
         "end": 297,
         "name": "CustomError"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,7 +21,8 @@
         "start": 300,
         "end": 302,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "ClassDeclaration",
@@ -50,8 +50,8 @@
           "end": 353,
           "name": "PlainDate"
         },
-        "computed": false,
-        "optional": false
+        "optional": false,
+        "computed": false
       },
       "body": {
         "type": "ClassBody",
@@ -62,21 +62,17 @@
             "type": "MethodDefinition",
             "start": 358,
             "end": 403,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 362,
               "end": 366,
               "name": "year"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 366,
               "end": 403,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -103,28 +99,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 406,
             "end": 452,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 410,
               "end": 415,
               "name": "month"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 415,
               "end": 452,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -151,28 +147,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 455,
             "end": 499,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 459,
               "end": 462,
               "name": "day"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 462,
               "end": 499,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -199,8 +195,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -209,6 +209,7 @@
       "type": "VariableDeclaration",
       "start": 503,
       "end": 548,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -255,13 +256,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 549,
       "end": 595,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -308,8 +309,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -335,8 +335,8 @@
             "end": 612,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -363,8 +363,8 @@
                   "end": 631,
                   "name": "PlainDate"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -372,8 +372,8 @@
                 "end": 639,
                 "name": "compare"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -396,14 +396,14 @@
             "start": 651,
             "end": 653,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 652,
               "end": 653,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false

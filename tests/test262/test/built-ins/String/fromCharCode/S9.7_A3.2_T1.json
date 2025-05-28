@@ -39,8 +39,8 @@
                   "end": 324,
                   "name": "fromCharCode"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -59,8 +59,8 @@
               "end": 343,
               "name": "charCodeAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -146,8 +146,8 @@
                               "end": 467,
                               "name": "fromCharCode"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -166,8 +166,8 @@
                           "end": 486,
                           "name": "charCodeAt"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -225,8 +225,8 @@
                   "end": 530,
                   "name": "fromCharCode"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -234,14 +234,14 @@
                   "start": 531,
                   "end": 538,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 532,
                     "end": 538,
                     "value": 5.4321,
                     "raw": "5.4321"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -252,8 +252,8 @@
               "end": 550,
               "name": "charCodeAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -339,8 +339,8 @@
                               "end": 683,
                               "name": "fromCharCode"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -348,14 +348,14 @@
                               "start": 684,
                               "end": 691,
                               "operator": "-",
-                              "prefix": true,
                               "argument": {
                                 "type": "Literal",
                                 "start": 685,
                                 "end": 691,
                                 "value": 5.4321,
                                 "raw": "5.4321"
-                              }
+                              },
+                              "prefix": true
                             }
                           ],
                           "optional": false
@@ -366,8 +366,8 @@
                           "end": 703,
                           "name": "charCodeAt"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {

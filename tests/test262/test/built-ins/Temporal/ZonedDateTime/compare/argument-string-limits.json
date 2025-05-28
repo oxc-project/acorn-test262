@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 268,
       "end": 323,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 311,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -60,13 +61,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 325,
       "end": 490,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -114,8 +115,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -126,6 +126,7 @@
         "type": "VariableDeclaration",
         "start": 497,
         "end": 506,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -139,8 +140,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -181,8 +181,8 @@
                     "end": 550,
                     "name": "ZonedDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -190,8 +190,8 @@
                   "end": 558,
                   "name": "compare"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -238,8 +238,8 @@
                     "end": 599,
                     "name": "ZonedDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -247,8 +247,8 @@
                   "end": 607,
                   "name": "compare"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -274,6 +274,7 @@
       "type": "VariableDeclaration",
       "start": 627,
       "end": 979,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -349,8 +350,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -361,6 +361,7 @@
         "type": "VariableDeclaration",
         "start": 986,
         "end": 995,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -374,8 +375,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -412,8 +412,8 @@
                   "end": 1032,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -426,9 +426,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1054,
                   "end": 1105,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -455,8 +453,8 @@
                           "end": 1082,
                           "name": "ZonedDateTime"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -464,8 +462,8 @@
                         "end": 1090,
                         "name": "compare"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -482,20 +480,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1111,
                   "end": 1190,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1115,
-                      "end": 1118,
-                      "name": "arg"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -516,6 +508,14 @@
                         "cooked": "\" is outside the representable range of ZonedDateTime (first argument)"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1115,
+                      "end": 1118,
+                      "name": "arg"
                     }
                   ]
                 }
@@ -547,8 +547,8 @@
                   "end": 1211,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -561,9 +561,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1233,
                   "end": 1284,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -590,8 +588,8 @@
                           "end": 1261,
                           "name": "ZonedDateTime"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -599,8 +597,8 @@
                         "end": 1269,
                         "name": "compare"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -617,20 +615,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1290,
                   "end": 1370,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1294,
-                      "end": 1297,
-                      "name": "arg"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -651,6 +643,14 @@
                         "cooked": "\" is outside the representable range of ZonedDateTime (second argument)"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1294,
+                      "end": 1297,
+                      "name": "arg"
                     }
                   ]
                 }

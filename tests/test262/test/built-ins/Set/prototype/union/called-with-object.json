@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 317,
       "end": 339,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -46,8 +47,7 @@
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -73,8 +73,8 @@
             "end": 353,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -88,7 +88,6 @@
             "start": 370,
             "end": 404,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -121,8 +120,8 @@
                         "end": 396,
                         "name": "union"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -137,7 +136,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -174,8 +174,8 @@
             "end": 434,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -189,7 +189,6 @@
             "start": 451,
             "end": 486,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -222,8 +221,8 @@
                         "end": 477,
                         "name": "union"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -238,7 +237,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -275,8 +275,8 @@
             "end": 516,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -290,7 +290,6 @@
             "start": 533,
             "end": 568,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -323,8 +322,8 @@
                         "end": 559,
                         "name": "union"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -340,7 +339,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -377,8 +377,8 @@
             "end": 598,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -392,7 +392,6 @@
             "start": 615,
             "end": 653,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -425,8 +424,8 @@
                         "end": 641,
                         "name": "union"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -441,7 +440,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -478,8 +478,8 @@
             "end": 684,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -493,7 +493,6 @@
             "start": 701,
             "end": 743,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -526,8 +525,8 @@
                         "end": 727,
                         "name": "union"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -541,7 +540,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -578,8 +578,8 @@
             "end": 776,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -593,7 +593,6 @@
             "start": 793,
             "end": 830,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -626,8 +625,8 @@
                         "end": 819,
                         "name": "union"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -642,7 +641,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -679,8 +679,8 @@
             "end": 858,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -694,7 +694,6 @@
             "start": 875,
             "end": 922,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -727,8 +726,8 @@
                         "end": 901,
                         "name": "union"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -757,7 +756,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

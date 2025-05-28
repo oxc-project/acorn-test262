@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 271,
       "end": 344,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 309,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -87,13 +88,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 345,
       "end": 391,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -125,19 +126,19 @@
                 "end": 388,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 393,
       "end": 493,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -178,8 +179,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -190,6 +190,7 @@
         "type": "VariableDeclaration",
         "start": 500,
         "end": 516,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -203,8 +204,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -241,8 +241,8 @@
                   "end": 552,
                   "name": "total"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -254,9 +254,7 @@
                       "type": "Property",
                       "start": 555,
                       "end": 570,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 555,
@@ -270,15 +268,15 @@
                         "value": "minutes",
                         "raw": "\"minutes\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 572,
                       "end": 582,
-                      "method": false,
-                      "shorthand": true,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 572,
@@ -291,7 +289,9 @@
                         "end": 582,
                         "name": "relativeTo"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false
                     }
                   ]
                 }
@@ -323,8 +323,8 @@
                   "end": 608,
                   "name": "total"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -336,9 +336,7 @@
                       "type": "Property",
                       "start": 611,
                       "end": 626,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 611,
@@ -352,15 +350,15 @@
                         "value": "minutes",
                         "raw": "\"minutes\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 628,
                       "end": 638,
-                      "method": false,
-                      "shorthand": true,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 628,
@@ -373,7 +371,9 @@
                         "end": 638,
                         "name": "relativeTo"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false
                     }
                   ]
                 }
@@ -388,6 +388,7 @@
       "type": "VariableDeclaration",
       "start": 646,
       "end": 848,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -442,8 +443,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -454,6 +454,7 @@
         "type": "VariableDeclaration",
         "start": 854,
         "end": 870,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -467,8 +468,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -505,8 +505,8 @@
                   "end": 935,
                   "name": "total"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -518,9 +518,7 @@
                       "type": "Property",
                       "start": 938,
                       "end": 953,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 938,
@@ -534,15 +532,15 @@
                         "value": "minutes",
                         "raw": "\"minutes\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 955,
                       "end": 965,
-                      "method": false,
-                      "shorthand": true,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 955,
@@ -555,7 +553,9 @@
                         "end": 965,
                         "name": "relativeTo"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false
                     }
                   ]
                 }
@@ -587,8 +587,8 @@
                   "end": 985,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -601,9 +601,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1007,
                   "end": 1060,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -626,8 +624,8 @@
                         "end": 1027,
                         "name": "total"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -639,9 +637,7 @@
                             "type": "Property",
                             "start": 1030,
                             "end": 1045,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1030,
@@ -655,15 +651,15 @@
                               "value": "minutes",
                               "raw": "\"minutes\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1047,
                             "end": 1057,
-                            "method": false,
-                            "shorthand": true,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1047,
@@ -676,26 +672,22 @@
                               "end": 1057,
                               "name": "relativeTo"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false
                           }
                         ]
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1066,
                   "end": 1174,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1070,
-                      "end": 1080,
-                      "name": "relativeTo"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -717,6 +709,14 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1070,
+                      "end": 1080,
+                      "name": "relativeTo"
+                    }
                   ]
                 }
               ],
@@ -730,6 +730,7 @@
       "type": "VariableDeclaration",
       "start": 1183,
       "end": 1623,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -833,8 +834,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -845,6 +845,7 @@
         "type": "VariableDeclaration",
         "start": 1630,
         "end": 1646,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -858,8 +859,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -896,8 +896,8 @@
                   "end": 1683,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -910,9 +910,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1705,
                   "end": 1758,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -935,8 +933,8 @@
                         "end": 1725,
                         "name": "total"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -948,9 +946,7 @@
                             "type": "Property",
                             "start": 1728,
                             "end": 1743,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1728,
@@ -964,15 +960,15 @@
                               "value": "minutes",
                               "raw": "\"minutes\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1745,
                             "end": 1755,
-                            "method": false,
-                            "shorthand": true,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1745,
@@ -985,26 +981,22 @@
                               "end": 1755,
                               "name": "relativeTo"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false
                           }
                         ]
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1764,
                   "end": 1843,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1768,
-                      "end": 1778,
-                      "name": "relativeTo"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -1025,6 +1017,14 @@
                         "cooked": "\" is outside the representable range for a relativeTo parameter"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1768,
+                      "end": 1778,
+                      "name": "relativeTo"
                     }
                   ]
                 }
@@ -1056,8 +1056,8 @@
                   "end": 1864,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1070,9 +1070,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1886,
                   "end": 1944,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -1095,8 +1093,8 @@
                         "end": 1911,
                         "name": "total"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1108,9 +1106,7 @@
                             "type": "Property",
                             "start": 1914,
                             "end": 1929,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1914,
@@ -1124,15 +1120,15 @@
                               "value": "minutes",
                               "raw": "\"minutes\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1931,
                             "end": 1941,
-                            "method": false,
-                            "shorthand": true,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1931,
@@ -1145,26 +1141,22 @@
                               "end": 1941,
                               "name": "relativeTo"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false
                           }
                         ]
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1950,
                   "end": 2029,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1954,
-                      "end": 1964,
-                      "name": "relativeTo"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -1185,6 +1177,14 @@
                         "cooked": "\" is outside the representable range for a relativeTo parameter"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1954,
+                      "end": 1964,
+                      "name": "relativeTo"
                     }
                   ]
                 }

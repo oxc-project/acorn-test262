@@ -27,8 +27,8 @@
             "end": 1206,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 1210,
             "end": 1247,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 1217,
@@ -57,8 +56,8 @@
                   "end": 1238,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -66,9 +65,10 @@
                 "end": 1247,
                 "name": "evaluate"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -92,6 +92,7 @@
       "type": "VariableDeclaration",
       "start": 1343,
       "end": 1371,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -116,13 +117,13 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1373,
       "end": 2259,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -548,8 +549,7 @@
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -586,17 +586,15 @@
               "end": 2601,
               "name": "filter"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
               "type": "ArrowFunctionExpression",
               "start": 2602,
               "end": 2644,
-              "id": null,
               "expression": false,
-              "generator": false,
               "async": false,
               "params": [
                 {
@@ -635,7 +633,9 @@
                     }
                   }
                 ]
-              }
+              },
+              "id": null,
+              "generator": false
             }
           ],
           "optional": false
@@ -646,6 +646,7 @@
       "type": "VariableDeclaration",
       "start": 2648,
       "end": 2897,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -677,17 +678,15 @@
                 "end": 2683,
                 "name": "filter"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
                 "type": "ArrowFunctionExpression",
                 "start": 2684,
                 "end": 2895,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": false,
                 "params": [
                   {
@@ -726,22 +725,14 @@
                             "end": 2829,
                             "name": "evaluate"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
                             "type": "TemplateLiteral",
                             "start": 2830,
                             "end": 2891,
-                            "expressions": [
-                              {
-                                "type": "Identifier",
-                                "start": 2883,
-                                "end": 2887,
-                                "name": "name"
-                              }
-                            ],
                             "quasis": [
                               {
                                 "type": "TemplateElement",
@@ -763,6 +754,14 @@
                                 },
                                 "tail": true
                               }
+                            ],
+                            "expressions": [
+                              {
+                                "type": "Identifier",
+                                "start": 2883,
+                                "end": 2887,
+                                "name": "name"
+                              }
                             ]
                           }
                         ],
@@ -770,14 +769,15 @@
                       }
                     }
                   ]
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ],
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -803,8 +803,8 @@
             "end": 3007,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

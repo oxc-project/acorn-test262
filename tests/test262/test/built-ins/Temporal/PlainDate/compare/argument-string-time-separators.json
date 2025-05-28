@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 255,
       "end": 303,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 290,
                 "name": "PlainDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -66,13 +67,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 304,
       "end": 455,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -155,8 +156,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -182,17 +182,15 @@
             "end": 470,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 471,
             "end": 776,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -244,8 +242,8 @@
                         "end": 515,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -272,8 +270,8 @@
                               "end": 539,
                               "name": "PlainDate"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "property": {
                             "type": "Identifier",
@@ -281,8 +279,8 @@
                             "end": 547,
                             "name": "compare"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -311,14 +309,6 @@
                         "type": "TemplateLiteral",
                         "start": 571,
                         "end": 629,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 599,
-                            "end": 610,
-                            "name": "description"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -339,6 +329,14 @@
                               "cooked": "), first argument"
                             },
                             "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 599,
+                            "end": 610,
+                            "name": "description"
                           }
                         ]
                       }
@@ -370,8 +368,8 @@
                         "end": 654,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -398,8 +396,8 @@
                               "end": 678,
                               "name": "PlainDate"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "property": {
                             "type": "Identifier",
@@ -407,8 +405,8 @@
                             "end": 686,
                             "name": "compare"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -437,14 +435,6 @@
                         "type": "TemplateLiteral",
                         "start": 710,
                         "end": 769,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 738,
-                            "end": 749,
-                            "name": "description"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -466,6 +456,14 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 738,
+                            "end": 749,
+                            "name": "description"
+                          }
                         ]
                       }
                     ],
@@ -473,7 +471,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

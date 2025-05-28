@@ -27,8 +27,8 @@
             "end": 736,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -47,8 +47,8 @@
               "end": 753,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -66,8 +66,8 @@
               "end": 773,
               "name": "toPrimitive"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "ObjectExpression",
@@ -78,9 +78,7 @@
                 "type": "Property",
                 "start": 777,
                 "end": 788,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 777,
@@ -94,7 +92,9 @@
                   "value": null,
                   "raw": "null"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -126,8 +126,8 @@
             "end": 810,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -212,8 +212,8 @@
             "end": 881,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -226,9 +226,7 @@
             "type": "ArrowFunctionExpression",
             "start": 893,
             "end": 921,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -245,7 +243,6 @@
                     "start": 901,
                     "end": 918,
                     "operator": "+",
-                    "prefix": true,
                     "argument": {
                       "type": "CallExpression",
                       "start": 902,
@@ -272,11 +269,14 @@
                         }
                       ],
                       "optional": false
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -313,14 +313,36 @@
             "end": 956,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
             "start": 957,
             "end": 978,
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 958,
+                "end": 958,
+                "value": {
+                  "raw": "",
+                  "cooked": ""
+                },
+                "tail": false
+              },
+              {
+                "type": "TemplateElement",
+                "start": 977,
+                "end": 977,
+                "value": {
+                  "raw": "",
+                  "cooked": ""
+                },
+                "tail": true
+              }
+            ],
             "expressions": [
               {
                 "type": "CallExpression",
@@ -348,28 +370,6 @@
                   }
                 ],
                 "optional": false
-              }
-            ],
-            "quasis": [
-              {
-                "type": "TemplateElement",
-                "start": 958,
-                "end": 958,
-                "value": {
-                  "raw": "",
-                  "cooked": ""
-                },
-                "tail": false
-              },
-              {
-                "type": "TemplateElement",
-                "start": 977,
-                "end": 977,
-                "value": {
-                  "raw": "",
-                  "cooked": ""
-                },
-                "tail": true
               }
             ]
           },
@@ -415,8 +415,8 @@
             "end": 1031,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -435,8 +435,8 @@
               "end": 1048,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -454,8 +454,8 @@
               "end": 1068,
               "name": "toPrimitive"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "ObjectExpression",
@@ -466,9 +466,7 @@
                 "type": "Property",
                 "start": 1072,
                 "end": 1088,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1072,
@@ -481,7 +479,9 @@
                   "end": 1088,
                   "name": "undefined"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -535,8 +535,8 @@
                     "end": 1123,
                     "name": "iterator"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               ],
               "optional": false
@@ -558,8 +558,8 @@
                 "end": 1143,
                 "name": "iterator"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           },
           {
@@ -597,8 +597,8 @@
             "end": 1176,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -611,9 +611,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1188,
             "end": 1221,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -667,7 +665,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -704,8 +704,8 @@
             "end": 1256,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -721,9 +721,7 @@
                   "type": "Property",
                   "start": 1259,
                   "end": 1272,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Literal",
                     "start": 1259,
@@ -738,7 +736,9 @@
                     "value": 1,
                     "raw": "1"
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 }
               ]
             },
@@ -769,8 +769,8 @@
               ],
               "optional": false
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",

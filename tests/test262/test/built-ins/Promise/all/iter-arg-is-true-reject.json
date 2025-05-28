@@ -52,8 +52,8 @@
                           "end": 603,
                           "name": "all"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -72,8 +72,8 @@
                       "end": 614,
                       "name": "then"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -81,7 +81,6 @@
                       "start": 615,
                       "end": 694,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -117,14 +116,14 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     },
                     {
                       "type": "FunctionExpression",
                       "start": 696,
                       "end": 757,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [
@@ -178,7 +177,8 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     }
                   ],
                   "optional": false
@@ -189,8 +189,8 @@
                   "end": 763,
                   "name": "then"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -245,27 +245,6 @@
                     "type": "TemplateLiteral",
                     "start": 805,
                     "end": 879,
-                    "expressions": [
-                      {
-                        "type": "MemberExpression",
-                        "start": 864,
-                        "end": 877,
-                        "object": {
-                          "type": "Identifier",
-                          "start": 864,
-                          "end": 869,
-                          "name": "error"
-                        },
-                        "property": {
-                          "type": "Identifier",
-                          "start": 870,
-                          "end": 877,
-                          "name": "message"
-                        },
-                        "computed": false,
-                        "optional": false
-                      }
-                    ],
                     "quasis": [
                       {
                         "type": "TemplateElement",
@@ -286,6 +265,27 @@
                           "cooked": ""
                         },
                         "tail": true
+                      }
+                    ],
+                    "expressions": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 864,
+                        "end": 877,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 864,
+                          "end": 869,
+                          "name": "error"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 870,
+                          "end": 877,
+                          "name": "message"
+                        },
+                        "optional": false,
+                        "computed": false
                       }
                     ]
                   }

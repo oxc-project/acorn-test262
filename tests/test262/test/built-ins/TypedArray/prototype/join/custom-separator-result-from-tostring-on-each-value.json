@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1172,
       "end": 1236,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -28,14 +29,14 @@
                 "start": 1183,
                 "end": 1185,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1184,
                   "end": 1185,
                   "value": 2,
                   "raw": "2"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Identifier",
@@ -54,13 +55,13 @@
                 "start": 1202,
                 "end": 1211,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 1203,
                   "end": 1211,
                   "name": "Infinity"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -79,8 +80,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -102,7 +102,6 @@
             "start": 1269,
             "end": 4356,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -122,6 +121,7 @@
                   "type": "VariableDeclaration",
                   "start": 1286,
                   "end": 1311,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -153,13 +153,13 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 1314,
                   "end": 1346,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -197,8 +197,7 @@
                       },
                       "init": null
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -267,8 +266,8 @@
                               "end": 1387,
                               "name": "map"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -276,7 +275,6 @@
                               "start": 1388,
                               "end": 1441,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [
@@ -326,8 +324,8 @@
                                             "end": 1424,
                                             "name": "i"
                                           },
-                                          "computed": true,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": true
                                         },
                                         "property": {
                                           "type": "Identifier",
@@ -335,15 +333,16 @@
                                           "end": 1434,
                                           "name": "toString"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [],
                                       "optional": false
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             }
                           ],
                           "optional": false
@@ -354,8 +353,8 @@
                           "end": 1447,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -404,8 +403,8 @@
                           "end": 1482,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -443,8 +442,8 @@
                         "end": 1513,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -529,8 +528,8 @@
                               "end": 1579,
                               "name": "map"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -538,7 +537,6 @@
                               "start": 1580,
                               "end": 1633,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [
@@ -588,8 +586,8 @@
                                             "end": 1616,
                                             "name": "i"
                                           },
-                                          "computed": true,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": true
                                         },
                                         "property": {
                                           "type": "Identifier",
@@ -597,15 +595,16 @@
                                           "end": 1626,
                                           "name": "toString"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [],
                                       "optional": false
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             }
                           ],
                           "optional": false
@@ -616,8 +615,8 @@
                           "end": 1639,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -666,8 +665,8 @@
                           "end": 1674,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -705,8 +704,8 @@
                         "end": 1705,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -811,8 +810,8 @@
                               "end": 1789,
                               "name": "map"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -820,7 +819,6 @@
                               "start": 1790,
                               "end": 1843,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [
@@ -870,8 +868,8 @@
                                             "end": 1826,
                                             "name": "i"
                                           },
-                                          "computed": true,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": true
                                         },
                                         "property": {
                                           "type": "Identifier",
@@ -879,15 +877,16 @@
                                           "end": 1836,
                                           "name": "toString"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [],
                                       "optional": false
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             }
                           ],
                           "optional": false
@@ -898,8 +897,8 @@
                           "end": 1849,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -948,8 +947,8 @@
                           "end": 1884,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -987,8 +986,8 @@
                         "end": 1915,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1093,8 +1092,8 @@
                               "end": 1999,
                               "name": "map"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1102,7 +1101,6 @@
                               "start": 2000,
                               "end": 2053,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [
@@ -1152,8 +1150,8 @@
                                             "end": 2036,
                                             "name": "i"
                                           },
-                                          "computed": true,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": true
                                         },
                                         "property": {
                                           "type": "Identifier",
@@ -1161,15 +1159,16 @@
                                           "end": 2046,
                                           "name": "toString"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [],
                                       "optional": false
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             }
                           ],
                           "optional": false
@@ -1180,8 +1179,8 @@
                           "end": 2059,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1230,8 +1229,8 @@
                           "end": 2094,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1269,8 +1268,8 @@
                         "end": 2125,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1375,8 +1374,8 @@
                               "end": 2206,
                               "name": "map"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1384,7 +1383,6 @@
                               "start": 2207,
                               "end": 2260,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [
@@ -1434,8 +1432,8 @@
                                             "end": 2243,
                                             "name": "i"
                                           },
-                                          "computed": true,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": true
                                         },
                                         "property": {
                                           "type": "Identifier",
@@ -1443,15 +1441,16 @@
                                           "end": 2253,
                                           "name": "toString"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [],
                                       "optional": false
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             }
                           ],
                           "optional": false
@@ -1462,8 +1461,8 @@
                           "end": 2266,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1512,8 +1511,8 @@
                           "end": 2301,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1551,8 +1550,8 @@
                         "end": 2332,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1657,8 +1656,8 @@
                               "end": 2414,
                               "name": "map"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1666,7 +1665,6 @@
                               "start": 2415,
                               "end": 2468,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [
@@ -1716,8 +1714,8 @@
                                             "end": 2451,
                                             "name": "i"
                                           },
-                                          "computed": true,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": true
                                         },
                                         "property": {
                                           "type": "Identifier",
@@ -1725,15 +1723,16 @@
                                           "end": 2461,
                                           "name": "toString"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [],
                                       "optional": false
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             }
                           ],
                           "optional": false
@@ -1744,8 +1743,8 @@
                           "end": 2474,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1794,8 +1793,8 @@
                           "end": 2509,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1833,8 +1832,8 @@
                         "end": 2540,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1939,8 +1938,8 @@
                               "end": 2629,
                               "name": "map"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1948,7 +1947,6 @@
                               "start": 2630,
                               "end": 2683,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [
@@ -1998,8 +1996,8 @@
                                             "end": 2666,
                                             "name": "i"
                                           },
-                                          "computed": true,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": true
                                         },
                                         "property": {
                                           "type": "Identifier",
@@ -2007,15 +2005,16 @@
                                           "end": 2676,
                                           "name": "toString"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [],
                                       "optional": false
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             }
                           ],
                           "optional": false
@@ -2026,8 +2025,8 @@
                           "end": 2689,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -2076,8 +2075,8 @@
                           "end": 2724,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -2115,8 +2114,8 @@
                         "end": 2755,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2220,8 +2219,8 @@
                               "end": 2837,
                               "name": "map"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -2229,7 +2228,6 @@
                               "start": 2838,
                               "end": 2891,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [
@@ -2279,8 +2277,8 @@
                                             "end": 2874,
                                             "name": "i"
                                           },
-                                          "computed": true,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": true
                                         },
                                         "property": {
                                           "type": "Identifier",
@@ -2288,15 +2286,16 @@
                                           "end": 2884,
                                           "name": "toString"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [],
                                       "optional": false
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             }
                           ],
                           "optional": false
@@ -2307,8 +2306,8 @@
                           "end": 2897,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -2357,8 +2356,8 @@
                           "end": 2932,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -2396,8 +2395,8 @@
                         "end": 2963,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2459,9 +2458,7 @@
                           "type": "Property",
                           "start": 3023,
                           "end": 3061,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 3023,
@@ -2473,7 +2470,6 @@
                             "start": 3033,
                             "end": 3061,
                             "id": null,
-                            "expression": false,
                             "generator": false,
                             "async": false,
                             "params": [],
@@ -2495,9 +2491,12 @@
                                   }
                                 }
                               ]
-                            }
+                            },
+                            "expression": false
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }
@@ -2546,8 +2545,8 @@
                               "end": 3084,
                               "name": "map"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -2555,7 +2554,6 @@
                               "start": 3085,
                               "end": 3138,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [
@@ -2605,8 +2603,8 @@
                                             "end": 3121,
                                             "name": "i"
                                           },
-                                          "computed": true,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": true
                                         },
                                         "property": {
                                           "type": "Identifier",
@@ -2614,15 +2612,16 @@
                                           "end": 3131,
                                           "name": "toString"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [],
                                       "optional": false
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             }
                           ],
                           "optional": false
@@ -2633,8 +2632,8 @@
                           "end": 3144,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -2683,8 +2682,8 @@
                           "end": 3179,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -2722,8 +2721,8 @@
                         "end": 3210,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2785,9 +2784,7 @@
                           "type": "Property",
                           "start": 3270,
                           "end": 3289,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 3270,
@@ -2800,15 +2797,15 @@
                             "end": 3289,
                             "name": "undefined"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         },
                         {
                           "type": "Property",
                           "start": 3291,
                           "end": 3328,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 3291,
@@ -2820,7 +2817,6 @@
                             "start": 3300,
                             "end": 3328,
                             "id": null,
-                            "expression": false,
                             "generator": false,
                             "async": false,
                             "params": [],
@@ -2842,9 +2838,12 @@
                                   }
                                 }
                               ]
-                            }
+                            },
+                            "expression": false
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }
@@ -2893,8 +2892,8 @@
                               "end": 3351,
                               "name": "map"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -2902,7 +2901,6 @@
                               "start": 3352,
                               "end": 3405,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [
@@ -2952,8 +2950,8 @@
                                             "end": 3388,
                                             "name": "i"
                                           },
-                                          "computed": true,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": true
                                         },
                                         "property": {
                                           "type": "Identifier",
@@ -2961,15 +2959,16 @@
                                           "end": 3398,
                                           "name": "toString"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [],
                                       "optional": false
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             }
                           ],
                           "optional": false
@@ -2980,8 +2979,8 @@
                           "end": 3411,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -3030,8 +3029,8 @@
                           "end": 3446,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -3069,8 +3068,8 @@
                         "end": 3477,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3175,8 +3174,8 @@
                               "end": 3561,
                               "name": "map"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -3184,7 +3183,6 @@
                               "start": 3562,
                               "end": 3615,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [
@@ -3234,8 +3232,8 @@
                                             "end": 3598,
                                             "name": "i"
                                           },
-                                          "computed": true,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": true
                                         },
                                         "property": {
                                           "type": "Identifier",
@@ -3243,15 +3241,16 @@
                                           "end": 3608,
                                           "name": "toString"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [],
                                       "optional": false
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             }
                           ],
                           "optional": false
@@ -3262,8 +3261,8 @@
                           "end": 3621,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -3312,8 +3311,8 @@
                           "end": 3656,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -3351,8 +3350,8 @@
                         "end": 3687,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3457,8 +3456,8 @@
                               "end": 3772,
                               "name": "map"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -3466,7 +3465,6 @@
                               "start": 3773,
                               "end": 3826,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [
@@ -3516,8 +3514,8 @@
                                             "end": 3809,
                                             "name": "i"
                                           },
-                                          "computed": true,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": true
                                         },
                                         "property": {
                                           "type": "Identifier",
@@ -3525,15 +3523,16 @@
                                           "end": 3819,
                                           "name": "toString"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [],
                                       "optional": false
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             }
                           ],
                           "optional": false
@@ -3544,8 +3543,8 @@
                           "end": 3832,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -3594,8 +3593,8 @@
                           "end": 3867,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -3633,8 +3632,8 @@
                         "end": 3898,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3739,8 +3738,8 @@
                               "end": 3979,
                               "name": "map"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -3748,7 +3747,6 @@
                               "start": 3980,
                               "end": 4033,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [
@@ -3798,8 +3796,8 @@
                                             "end": 4016,
                                             "name": "i"
                                           },
-                                          "computed": true,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": true
                                         },
                                         "property": {
                                           "type": "Identifier",
@@ -3807,15 +3805,16 @@
                                           "end": 4026,
                                           "name": "toString"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [],
                                       "optional": false
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             }
                           ],
                           "optional": false
@@ -3826,8 +3825,8 @@
                           "end": 4039,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -3876,8 +3875,8 @@
                           "end": 4074,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -3915,8 +3914,8 @@
                         "end": 4105,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -4021,8 +4020,8 @@
                               "end": 4186,
                               "name": "map"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -4030,7 +4029,6 @@
                               "start": 4187,
                               "end": 4240,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [
@@ -4080,8 +4078,8 @@
                                             "end": 4223,
                                             "name": "i"
                                           },
-                                          "computed": true,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": true
                                         },
                                         "property": {
                                           "type": "Identifier",
@@ -4089,15 +4087,16 @@
                                           "end": 4233,
                                           "name": "toString"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [],
                                       "optional": false
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             }
                           ],
                           "optional": false
@@ -4108,8 +4107,8 @@
                           "end": 4246,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -4158,8 +4157,8 @@
                           "end": 4281,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -4197,8 +4196,8 @@
                         "end": 4312,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -4237,7 +4236,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

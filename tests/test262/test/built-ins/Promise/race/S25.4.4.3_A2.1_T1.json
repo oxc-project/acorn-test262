@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 234,
       "end": 259,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 254,
                 "name": "race"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -52,8 +53,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -75,13 +75,11 @@
             "start": 268,
             "end": 292,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "UnaryExpression",
               "start": 269,
               "end": 292,
               "operator": "!",
-              "prefix": true,
               "argument": {
                 "type": "ParenthesizedExpression",
                 "start": 270,
@@ -104,8 +102,10 @@
                     "name": "Promise"
                   }
                 }
-              }
-            }
+              },
+              "prefix": true
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

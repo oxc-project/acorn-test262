@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 295,
       "end": 380,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 338,
                 "name": "PlainDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -108,13 +109,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 381,
       "end": 616,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -239,8 +240,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -251,6 +251,7 @@
         "type": "VariableDeclaration",
         "start": 623,
         "end": 653,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -277,8 +278,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -295,6 +295,7 @@
             "type": "VariableDeclaration",
             "start": 668,
             "end": 757,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -326,8 +327,8 @@
                       "end": 700,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -339,9 +340,7 @@
                           "type": "Property",
                           "start": 707,
                           "end": 719,
-                          "method": false,
-                          "shorthand": true,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 707,
@@ -354,15 +353,15 @@
                             "end": 719,
                             "name": "smallestUnit"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false
                         },
                         {
                           "type": "Property",
                           "start": 725,
                           "end": 750,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 725,
@@ -376,7 +375,9 @@
                             "value": 5,
                             "raw": "5"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }
@@ -384,8 +385,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -411,8 +411,8 @@
                   "end": 776,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -431,14 +431,6 @@
                   "type": "TemplateLiteral",
                   "start": 795,
                   "end": 861,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 813,
-                      "end": 825,
-                      "name": "smallestUnit"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -459,6 +451,14 @@
                         "cooked": "\" overrides fractionalSecondDigits"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 813,
+                      "end": 825,
+                      "name": "smallestUnit"
                     }
                   ]
                 }
@@ -493,8 +493,8 @@
             "end": 880,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -507,9 +507,7 @@
             "type": "ArrowFunctionExpression",
             "start": 893,
             "end": 974,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -532,8 +530,8 @@
                   "end": 916,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -545,9 +543,7 @@
                       "type": "Property",
                       "start": 921,
                       "end": 941,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 921,
@@ -561,15 +557,15 @@
                         "value": "hour",
                         "raw": "\"hour\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 945,
                       "end": 970,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 945,
@@ -583,13 +579,17 @@
                         "value": 5,
                         "raw": "5"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",

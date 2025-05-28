@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 656,
       "end": 733,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 701,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -47,7 +48,6 @@
                 "start": 702,
                 "end": 724,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 703,
@@ -55,7 +55,8 @@
                   "value": null,
                   "raw": "13849764_999_999_999n",
                   "bigint": "13849764999999999"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -67,13 +68,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 734,
       "end": 785,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -105,8 +106,8 @@
                 "end": 772,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -140,13 +141,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 968,
       "end": 1045,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -182,8 +183,8 @@
                   "end": 1000,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -191,8 +192,8 @@
                 "end": 1008,
                 "name": "compare"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -216,9 +217,7 @@
                     "type": "Property",
                     "start": 1031,
                     "end": 1041,
-                    "method": false,
-                    "shorthand": true,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1031,
@@ -231,7 +230,9 @@
                       "end": 1041,
                       "name": "relativeTo"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": true,
+                    "computed": false
                   }
                 ]
               }
@@ -239,8 +240,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -266,8 +266,8 @@
             "end": 1062,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

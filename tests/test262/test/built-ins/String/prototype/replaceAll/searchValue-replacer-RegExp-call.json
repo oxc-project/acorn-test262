@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1052,
       "end": 1067,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -54,8 +54,6 @@
             "type": "MethodDefinition",
             "start": 1097,
             "end": 1274,
-            "static": false,
-            "computed": true,
             "key": {
               "type": "MemberExpression",
               "start": 1098,
@@ -72,16 +70,14 @@
                 "end": 1112,
                 "name": "replace"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1113,
               "end": 1274,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -106,6 +102,7 @@
                     "type": "VariableDeclaration",
                     "start": 1129,
                     "end": 1175,
+                    "kind": "const",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
@@ -146,11 +143,11 @@
                                 "end": 1164,
                                 "name": "replace"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
-                            "computed": true,
-                            "optional": false
+                            "optional": false,
+                            "computed": true
                           },
                           "arguments": [
                             {
@@ -168,8 +165,7 @@
                           "optional": false
                         }
                       }
-                    ],
-                    "kind": "const"
+                    ]
                   },
                   {
                     "type": "ExpressionStatement",
@@ -207,28 +203,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": true,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 1278,
             "end": 1347,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1278,
               "end": 1286,
               "name": "toString"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1286,
               "end": 1347,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -250,8 +246,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -260,6 +260,7 @@
       "type": "VariableDeclaration",
       "start": 1351,
       "end": 3066,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1455,13 +1456,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 3068,
       "end": 3082,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1481,8 +1482,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -1493,6 +1493,7 @@
         "type": "VariableDeclaration",
         "start": 3088,
         "end": 3149,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -1544,8 +1545,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -1562,6 +1562,7 @@
             "type": "VariableDeclaration",
             "start": 3166,
             "end": 3207,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1599,8 +1600,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -1630,6 +1630,7 @@
             "type": "VariableDeclaration",
             "start": 3225,
             "end": 3288,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1661,8 +1662,8 @@
                       "end": 3260,
                       "name": "replaceAll"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1681,13 +1682,13 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 3292,
             "end": 3392,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1703,38 +1704,6 @@
                   "type": "TemplateLiteral",
                   "start": 3308,
                   "end": 3391,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 3318,
-                      "end": 3323,
-                      "name": "count"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 3329,
-                      "end": 3338,
-                      "name": "thisValue"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 3355,
-                      "end": 3360,
-                      "name": "reStr"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 3364,
-                      "end": 3369,
-                      "name": "flags"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 3375,
-                      "end": 3387,
-                      "name": "replaceValue"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -1796,11 +1765,42 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 3318,
+                      "end": 3323,
+                      "name": "count"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 3329,
+                      "end": 3338,
+                      "name": "thisValue"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 3355,
+                      "end": 3360,
+                      "name": "reStr"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 3364,
+                      "end": 3369,
+                      "name": "flags"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 3375,
+                      "end": 3387,
+                      "name": "replaceValue"
+                    }
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -1826,8 +1826,8 @@
                   "end": 3412,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1877,8 +1877,8 @@
                   "end": 3452,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {

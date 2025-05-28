@@ -27,8 +27,8 @@
             "end": 339,
             "name": "checkSubclassingIgnoredStatic"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -47,8 +47,8 @@
               "end": 366,
               "name": "PlainYearMonth"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -75,9 +75,7 @@
             "type": "ArrowFunctionExpression",
             "start": 395,
             "end": 467,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -107,8 +105,8 @@
                   "end": 443,
                   "name": "assertPlainYearMonth"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -140,7 +138,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

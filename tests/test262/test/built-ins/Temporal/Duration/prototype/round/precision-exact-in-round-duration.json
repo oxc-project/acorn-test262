@@ -12,6 +12,7 @@
           "type": "VariableDeclaration",
           "start": 313,
           "end": 398,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -47,8 +48,8 @@
                       "end": 345,
                       "name": "Duration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -56,8 +57,8 @@
                     "end": 350,
                     "name": "from"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -69,9 +70,7 @@
                         "type": "Property",
                         "start": 357,
                         "end": 371,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 357,
@@ -85,15 +84,15 @@
                           "value": 100000,
                           "raw": "100_000"
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       },
                       {
                         "type": "Property",
                         "start": 377,
                         "end": 391,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 377,
@@ -107,7 +106,9 @@
                           "value": 5,
                           "raw": "5"
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -115,13 +116,13 @@
                 "optional": false
               }
             }
-          ],
-          "kind": "let"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 402,
           "end": 478,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -153,8 +154,8 @@
                     "end": 430,
                     "name": "round"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -166,9 +167,7 @@
                         "type": "Property",
                         "start": 432,
                         "end": 453,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 432,
@@ -182,15 +181,15 @@
                           "value": "hours",
                           "raw": "\"hours\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       },
                       {
                         "type": "Property",
                         "start": 455,
                         "end": 475,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 455,
@@ -204,7 +203,9 @@
                           "value": "ceil",
                           "raw": "\"ceil\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -212,8 +213,7 @@
                 "optional": false
               }
             }
-          ],
-          "kind": "let"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -239,8 +239,8 @@
                 "end": 715,
                 "name": "assertDuration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -334,6 +334,7 @@
           "type": "VariableDeclaration",
           "start": 789,
           "end": 870,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -369,8 +370,8 @@
                       "end": 821,
                       "name": "Duration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -378,8 +379,8 @@
                     "end": 826,
                     "name": "from"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -391,9 +392,7 @@
                         "type": "Property",
                         "start": 833,
                         "end": 843,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 833,
@@ -407,15 +406,15 @@
                           "value": 1000,
                           "raw": "1000"
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       },
                       {
                         "type": "Property",
                         "start": 849,
                         "end": 863,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 849,
@@ -429,7 +428,9 @@
                           "value": 5,
                           "raw": "5"
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -437,13 +438,13 @@
                 "optional": false
               }
             }
-          ],
-          "kind": "let"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 874,
           "end": 949,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -475,8 +476,8 @@
                     "end": 902,
                     "name": "round"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -488,9 +489,7 @@
                         "type": "Property",
                         "start": 904,
                         "end": 924,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 904,
@@ -504,15 +503,15 @@
                           "value": "days",
                           "raw": "\"days\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       },
                       {
                         "type": "Property",
                         "start": 926,
                         "end": 946,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 926,
@@ -526,7 +525,9 @@
                           "value": "ceil",
                           "raw": "\"ceil\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -534,8 +535,7 @@
                 "optional": false
               }
             }
-          ],
-          "kind": "let"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -561,8 +561,8 @@
                 "end": 1180,
                 "name": "assertDuration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

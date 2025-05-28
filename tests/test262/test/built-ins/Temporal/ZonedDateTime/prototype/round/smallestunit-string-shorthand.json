@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 350,
       "end": 429,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 393,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -60,13 +61,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 430,
       "end": 546,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -135,8 +136,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -162,17 +162,15 @@
             "end": 565,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 566,
             "end": 825,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -191,6 +189,7 @@
                   "type": "VariableDeclaration",
                   "start": 588,
                   "end": 634,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -222,8 +221,8 @@
                             "end": 615,
                             "name": "round"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -235,9 +234,7 @@
                                 "type": "Property",
                                 "start": 618,
                                 "end": 630,
-                                "method": false,
-                                "shorthand": true,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 618,
@@ -250,7 +247,9 @@
                                   "end": 630,
                                   "name": "smallestUnit"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": true,
+                                "computed": false
                               }
                             ]
                           }
@@ -258,13 +257,13 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 637,
                   "end": 684,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -296,8 +295,8 @@
                             "end": 669,
                             "name": "round"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -310,8 +309,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -337,8 +335,8 @@
                         "end": 728,
                         "name": "assertZonedDateTimesEqual"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -357,14 +355,6 @@
                         "type": "TemplateLiteral",
                         "start": 746,
                         "end": 821,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 750,
-                            "end": 762,
-                            "name": "smallestUnit"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -386,6 +376,14 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 750,
+                            "end": 762,
+                            "name": "smallestUnit"
+                          }
                         ]
                       }
                     ],
@@ -393,7 +391,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

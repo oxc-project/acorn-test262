@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 324,
       "end": 366,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -40,13 +41,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 367,
       "end": 497,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -136,13 +137,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 499,
       "end": 631,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -178,8 +179,8 @@
                   "end": 534,
                   "name": "PlainTime"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -187,8 +188,8 @@
                 "end": 539,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -200,9 +201,7 @@
                     "type": "Property",
                     "start": 542,
                     "end": 550,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 542,
@@ -216,15 +215,15 @@
                       "value": 12,
                       "raw": "12"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 552,
                     "end": 562,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 552,
@@ -238,15 +237,15 @@
                       "value": 34,
                       "raw": "34"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 564,
                     "end": 574,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 564,
@@ -260,15 +259,15 @@
                       "value": 56,
                       "raw": "56"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 576,
                     "end": 592,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 576,
@@ -282,15 +281,15 @@
                       "value": 987,
                       "raw": "987"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 594,
                     "end": 610,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 594,
@@ -304,15 +303,15 @@
                       "value": 654,
                       "raw": "654"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 612,
                     "end": 627,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 612,
@@ -326,7 +325,9 @@
                       "value": 321,
                       "raw": "321"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -334,8 +335,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -361,17 +361,15 @@
             "end": 650,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 651,
             "end": 797,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -410,17 +408,15 @@
                         "end": 683,
                         "name": "forEach"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
                         "type": "ArrowFunctionExpression",
                         "start": 684,
                         "end": 793,
-                        "id": null,
                         "expression": false,
-                        "generator": false,
                         "async": false,
                         "params": [
                           {
@@ -459,8 +455,8 @@
                                     "end": 714,
                                     "name": "throws"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -473,9 +469,7 @@
                                     "type": "ArrowFunctionExpression",
                                     "start": 727,
                                     "end": 787,
-                                    "id": null,
                                     "expression": true,
-                                    "generator": false,
                                     "async": false,
                                     "params": [],
                                     "body": {
@@ -498,8 +492,8 @@
                                           "end": 750,
                                           "name": "subtract"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -511,9 +505,7 @@
                                               "type": "Property",
                                               "start": 753,
                                               "end": 770,
-                                              "method": false,
-                                              "shorthand": false,
-                                              "computed": true,
+                                              "kind": "init",
                                               "key": {
                                                 "type": "Identifier",
                                                 "start": 754,
@@ -526,7 +518,9 @@
                                                 "end": 770,
                                                 "name": "Infinity"
                                               },
-                                              "kind": "init"
+                                              "method": false,
+                                              "shorthand": false,
+                                              "computed": true
                                             }
                                           ]
                                         },
@@ -539,9 +533,7 @@
                                               "type": "Property",
                                               "start": 776,
                                               "end": 784,
-                                              "method": false,
-                                              "shorthand": true,
-                                              "computed": false,
+                                              "kind": "init",
                                               "key": {
                                                 "type": "Identifier",
                                                 "start": 776,
@@ -554,27 +546,35 @@
                                                 "end": 784,
                                                 "name": "overflow"
                                               },
-                                              "kind": "init"
+                                              "method": false,
+                                              "shorthand": true,
+                                              "computed": false
                                             }
                                           ]
                                         }
                                       ],
                                       "optional": false
-                                    }
+                                    },
+                                    "id": null,
+                                    "generator": false
                                   }
                                 ],
                                 "optional": false
                               }
                             }
                           ]
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -584,6 +584,7 @@
       "type": "VariableDeclaration",
       "start": 801,
       "end": 815,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -603,13 +604,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 816,
       "end": 884,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -630,9 +631,7 @@
                 "type": "Property",
                 "start": 832,
                 "end": 881,
-                "method": true,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 832,
@@ -644,7 +643,6 @@
                   "start": 839,
                   "end": 881,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -683,15 +681,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": true,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -717,17 +717,15 @@
             "end": 903,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 904,
             "end": 1139,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -766,17 +764,15 @@
                         "end": 936,
                         "name": "forEach"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
                         "type": "ArrowFunctionExpression",
                         "start": 937,
                         "end": 1135,
-                        "id": null,
                         "expression": false,
-                        "generator": false,
                         "async": false,
                         "params": [
                           {
@@ -839,8 +835,8 @@
                                     "end": 982,
                                     "name": "throws"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -853,9 +849,7 @@
                                     "type": "ArrowFunctionExpression",
                                     "start": 995,
                                     "end": 1050,
-                                    "id": null,
                                     "expression": true,
-                                    "generator": false,
                                     "async": false,
                                     "params": [],
                                     "body": {
@@ -878,8 +872,8 @@
                                           "end": 1018,
                                           "name": "subtract"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -891,9 +885,7 @@
                                               "type": "Property",
                                               "start": 1021,
                                               "end": 1033,
-                                              "method": false,
-                                              "shorthand": false,
-                                              "computed": true,
+                                              "kind": "init",
                                               "key": {
                                                 "type": "Identifier",
                                                 "start": 1022,
@@ -906,7 +898,9 @@
                                                 "end": 1033,
                                                 "name": "obj"
                                               },
-                                              "kind": "init"
+                                              "method": false,
+                                              "shorthand": false,
+                                              "computed": true
                                             }
                                           ]
                                         },
@@ -919,9 +913,7 @@
                                               "type": "Property",
                                               "start": 1039,
                                               "end": 1047,
-                                              "method": false,
-                                              "shorthand": true,
-                                              "computed": false,
+                                              "kind": "init",
                                               "key": {
                                                 "type": "Identifier",
                                                 "start": 1039,
@@ -934,13 +926,17 @@
                                                 "end": 1047,
                                                 "name": "overflow"
                                               },
-                                              "kind": "init"
+                                              "method": false,
+                                              "shorthand": true,
+                                              "computed": false
                                             }
                                           ]
                                         }
                                       ],
                                       "optional": false
-                                    }
+                                    },
+                                    "id": null,
+                                    "generator": false
                                   }
                                 ],
                                 "optional": false
@@ -970,8 +966,8 @@
                                     "end": 1073,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -999,14 +995,18 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

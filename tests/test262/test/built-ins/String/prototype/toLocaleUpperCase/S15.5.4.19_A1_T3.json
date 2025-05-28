@@ -46,8 +46,8 @@
               "end": 373,
               "name": "toLocaleUpperCase"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [],
           "optional": false
@@ -128,8 +128,8 @@
                         "end": 509,
                         "name": "toLocaleUpperCase"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false

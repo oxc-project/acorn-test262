@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 927,
       "end": 939,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,13 +21,13 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 940,
       "end": 1007,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -54,7 +55,6 @@
                 "start": 961,
                 "end": 1005,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [
@@ -94,18 +94,19 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1008,
       "end": 1015,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -119,8 +120,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -157,8 +157,8 @@
               "end": 1029,
               "name": "then"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -166,7 +166,6 @@
               "start": 1030,
               "end": 1057,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -187,7 +186,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           ],
           "optional": false
@@ -218,8 +218,8 @@
             "end": 1068,
             "name": "then"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -227,7 +227,6 @@
             "start": 1069,
             "end": 1132,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -263,14 +262,14 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "FunctionExpression",
             "start": 1134,
             "end": 1389,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -295,13 +294,13 @@
                     "start": 1159,
                     "end": 1166,
                     "operator": "!",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 1160,
                       "end": 1166,
                       "name": "reason"
-                    }
+                    },
+                    "prefix": true
                   },
                   "consequent": {
                     "type": "BlockStatement",
@@ -368,8 +367,8 @@
                         "end": 1270,
                         "name": "constructor"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "operator": "!==",
                     "right": {
@@ -439,7 +438,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

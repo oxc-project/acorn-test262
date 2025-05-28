@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 276,
       "end": 385,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -89,8 +90,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -101,6 +101,7 @@
         "type": "VariableDeclaration",
         "start": 392,
         "end": 415,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -127,8 +128,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -145,6 +145,7 @@
             "type": "VariableDeclaration",
             "start": 430,
             "end": 474,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -180,8 +181,8 @@
                         "end": 461,
                         "name": "PlainTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -189,8 +190,8 @@
                       "end": 466,
                       "name": "from"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -203,13 +204,13 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 478,
             "end": 520,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -241,8 +242,8 @@
                       "end": 508,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -255,8 +256,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -282,8 +282,8 @@
                   "end": 539,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -313,6 +313,7 @@
             "type": "VariableDeclaration",
             "start": 609,
             "end": 642,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -344,15 +345,14 @@
                       "end": 639,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -378,8 +378,8 @@
                   "end": 661,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {

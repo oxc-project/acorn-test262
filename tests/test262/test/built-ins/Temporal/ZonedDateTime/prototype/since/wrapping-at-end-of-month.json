@@ -12,6 +12,7 @@
           "type": "VariableDeclaration",
           "start": 385,
           "end": 476,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -43,8 +44,8 @@
                     "end": 423,
                     "name": "ZonedDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -65,8 +66,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ForOfStatement",
@@ -77,6 +77,7 @@
             "type": "VariableDeclaration",
             "start": 484,
             "end": 501,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -90,8 +91,7 @@
                 },
                 "init": null
               }
-            ],
-            "kind": "const"
+            ]
           },
           "right": {
             "type": "ArrayExpression",
@@ -143,8 +143,8 @@
                       "end": 562,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -175,8 +175,8 @@
                               "end": 596,
                               "name": "ZonedDateTime"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -202,8 +202,8 @@
                           "end": 654,
                           "name": "since"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -221,9 +221,7 @@
                               "type": "Property",
                               "start": 662,
                               "end": 673,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 662,
@@ -236,7 +234,9 @@
                                 "end": 673,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -255,14 +255,14 @@
                       "start": 687,
                       "end": 689,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 688,
                         "end": 689,
                         "value": 1,
                         "raw": "1"
-                      }
+                      },
+                      "prefix": true
                     },
                     {
                       "type": "Literal",
@@ -355,8 +355,8 @@
                       "end": 798,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -387,8 +387,8 @@
                               "end": 832,
                               "name": "ZonedDateTime"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -414,8 +414,8 @@
                           "end": 890,
                           "name": "since"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -433,9 +433,7 @@
                               "type": "Property",
                               "start": 898,
                               "end": 909,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 898,
@@ -448,7 +446,9 @@
                                 "end": 909,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -481,14 +481,14 @@
                       "start": 929,
                       "end": 932,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 930,
                         "end": 932,
                         "value": 30,
                         "raw": "30"
-                      }
+                      },
+                      "prefix": true
                     },
                     {
                       "type": "Literal",
@@ -567,8 +567,8 @@
                       "end": 1048,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -599,8 +599,8 @@
                               "end": 1082,
                               "name": "ZonedDateTime"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -626,8 +626,8 @@
                           "end": 1140,
                           "name": "since"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -645,9 +645,7 @@
                               "type": "Property",
                               "start": 1148,
                               "end": 1159,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1148,
@@ -660,7 +658,9 @@
                                 "end": 1159,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -693,14 +693,14 @@
                       "start": 1179,
                       "end": 1182,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 1180,
                         "end": 1182,
                         "value": 29,
                         "raw": "29"
-                      }
+                      },
+                      "prefix": true
                     },
                     {
                       "type": "Literal",
@@ -779,8 +779,8 @@
                       "end": 1298,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -811,8 +811,8 @@
                               "end": 1332,
                               "name": "ZonedDateTime"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -838,8 +838,8 @@
                           "end": 1390,
                           "name": "since"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -857,9 +857,7 @@
                               "type": "Property",
                               "start": 1398,
                               "end": 1409,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1398,
@@ -872,7 +870,9 @@
                                 "end": 1409,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -905,14 +905,14 @@
                       "start": 1429,
                       "end": 1432,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 1430,
                         "end": 1432,
                         "value": 28,
                         "raw": "28"
-                      }
+                      },
+                      "prefix": true
                     },
                     {
                       "type": "Literal",
@@ -981,6 +981,7 @@
           "type": "VariableDeclaration",
           "start": 1601,
           "end": 1693,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -1012,8 +1013,8 @@
                     "end": 1639,
                     "name": "ZonedDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1034,8 +1035,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ForOfStatement",
@@ -1046,6 +1046,7 @@
             "type": "VariableDeclaration",
             "start": 1701,
             "end": 1718,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1059,8 +1060,7 @@
                 },
                 "init": null
               }
-            ],
-            "kind": "const"
+            ]
           },
           "right": {
             "type": "ArrayExpression",
@@ -1112,8 +1112,8 @@
                       "end": 1779,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1144,8 +1144,8 @@
                               "end": 1813,
                               "name": "ZonedDateTime"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1171,8 +1171,8 @@
                           "end": 1872,
                           "name": "since"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1190,9 +1190,7 @@
                               "type": "Property",
                               "start": 1880,
                               "end": 1891,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1880,
@@ -1205,7 +1203,9 @@
                                 "end": 1891,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -1224,14 +1224,14 @@
                       "start": 1905,
                       "end": 1907,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 1906,
                         "end": 1907,
                         "value": 1,
                         "raw": "1"
-                      }
+                      },
+                      "prefix": true
                     },
                     {
                       "type": "Literal",
@@ -1324,8 +1324,8 @@
                       "end": 2016,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1356,8 +1356,8 @@
                               "end": 2050,
                               "name": "ZonedDateTime"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1383,8 +1383,8 @@
                           "end": 2109,
                           "name": "since"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1402,9 +1402,7 @@
                               "type": "Property",
                               "start": 2117,
                               "end": 2128,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 2117,
@@ -1417,7 +1415,9 @@
                                 "end": 2128,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -1450,14 +1450,14 @@
                       "start": 2148,
                       "end": 2151,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 2149,
                         "end": 2151,
                         "value": 30,
                         "raw": "30"
-                      }
+                      },
+                      "prefix": true
                     },
                     {
                       "type": "Literal",
@@ -1536,8 +1536,8 @@
                       "end": 2267,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1568,8 +1568,8 @@
                               "end": 2301,
                               "name": "ZonedDateTime"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1595,8 +1595,8 @@
                           "end": 2360,
                           "name": "since"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1614,9 +1614,7 @@
                               "type": "Property",
                               "start": 2368,
                               "end": 2379,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 2368,
@@ -1629,7 +1627,9 @@
                                 "end": 2379,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -1662,14 +1662,14 @@
                       "start": 2399,
                       "end": 2402,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 2400,
                         "end": 2402,
                         "value": 29,
                         "raw": "29"
-                      }
+                      },
+                      "prefix": true
                     },
                     {
                       "type": "Literal",
@@ -1738,6 +1738,7 @@
           "type": "VariableDeclaration",
           "start": 2590,
           "end": 2682,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -1769,8 +1770,8 @@
                     "end": 2628,
                     "name": "ZonedDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1791,8 +1792,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ForOfStatement",
@@ -1803,6 +1803,7 @@
             "type": "VariableDeclaration",
             "start": 2690,
             "end": 2707,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1816,8 +1817,7 @@
                 },
                 "init": null
               }
-            ],
-            "kind": "const"
+            ]
           },
           "right": {
             "type": "ArrayExpression",
@@ -1869,8 +1869,8 @@
                       "end": 2768,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1901,8 +1901,8 @@
                               "end": 2802,
                               "name": "ZonedDateTime"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1928,8 +1928,8 @@
                           "end": 2861,
                           "name": "since"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1947,9 +1947,7 @@
                               "type": "Property",
                               "start": 2869,
                               "end": 2880,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 2869,
@@ -1962,7 +1960,9 @@
                                 "end": 2880,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -1981,14 +1981,14 @@
                       "start": 2894,
                       "end": 2896,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 2895,
                         "end": 2896,
                         "value": 3,
                         "raw": "3"
-                      }
+                      },
+                      "prefix": true
                     },
                     {
                       "type": "Literal",
@@ -2081,8 +2081,8 @@
                       "end": 3004,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -2113,8 +2113,8 @@
                               "end": 3038,
                               "name": "ZonedDateTime"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -2140,8 +2140,8 @@
                           "end": 3097,
                           "name": "since"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -2159,9 +2159,7 @@
                               "type": "Property",
                               "start": 3105,
                               "end": 3116,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 3105,
@@ -2174,7 +2172,9 @@
                                 "end": 3116,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -2193,14 +2193,14 @@
                       "start": 3130,
                       "end": 3132,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 3131,
                         "end": 3132,
                         "value": 2,
                         "raw": "2"
-                      }
+                      },
+                      "prefix": true
                     },
                     {
                       "type": "Literal",
@@ -2214,14 +2214,14 @@
                       "start": 3137,
                       "end": 3140,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 3138,
                         "end": 3140,
                         "value": 30,
                         "raw": "30"
-                      }
+                      },
+                      "prefix": true
                     },
                     {
                       "type": "Literal",
@@ -2290,6 +2290,7 @@
           "type": "VariableDeclaration",
           "start": 3329,
           "end": 3422,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -2321,8 +2322,8 @@
                     "end": 3367,
                     "name": "ZonedDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -2343,8 +2344,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -2370,8 +2370,8 @@
                 "end": 3455,
                 "name": "assertDuration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2402,8 +2402,8 @@
                         "end": 3487,
                         "name": "ZonedDateTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2429,8 +2429,8 @@
                     "end": 3546,
                     "name": "since"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -2448,9 +2448,7 @@
                         "type": "Property",
                         "start": 3554,
                         "end": 3575,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 3554,
@@ -2464,7 +2462,9 @@
                           "value": "months",
                           "raw": "\"months\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -2483,14 +2483,14 @@
                 "start": 3587,
                 "end": 3590,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 3588,
                   "end": 3590,
                   "value": 28,
                   "raw": "28"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -2583,8 +2583,8 @@
                 "end": 3703,
                 "name": "assertDuration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2615,8 +2615,8 @@
                         "end": 3735,
                         "name": "ZonedDateTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2642,8 +2642,8 @@
                     "end": 3794,
                     "name": "since"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -2661,9 +2661,7 @@
                         "type": "Property",
                         "start": 3802,
                         "end": 3822,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 3802,
@@ -2677,7 +2675,9 @@
                           "value": "years",
                           "raw": "\"years\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -2689,28 +2689,28 @@
                 "start": 3831,
                 "end": 3833,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 3832,
                   "end": 3833,
                   "value": 2,
                   "raw": "2"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 3835,
                 "end": 3837,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 3836,
                   "end": 3837,
                   "value": 4,
                   "raw": "4"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -2803,8 +2803,8 @@
                 "end": 3958,
                 "name": "assertDuration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2835,8 +2835,8 @@
                         "end": 3990,
                         "name": "ZonedDateTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2862,8 +2862,8 @@
                     "end": 4049,
                     "name": "since"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -2881,9 +2881,7 @@
                         "type": "Property",
                         "start": 4057,
                         "end": 4078,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 4057,
@@ -2897,7 +2895,9 @@
                           "value": "months",
                           "raw": "\"months\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -2916,14 +2916,14 @@
                 "start": 4090,
                 "end": 4093,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 4091,
                   "end": 4093,
                   "value": 27,
                   "raw": "27"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -2937,14 +2937,14 @@
                 "start": 4098,
                 "end": 4101,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 4099,
                   "end": 4101,
                   "value": 30,
                   "raw": "30"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -3023,8 +3023,8 @@
                 "end": 4232,
                 "name": "assertDuration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -3055,8 +3055,8 @@
                         "end": 4264,
                         "name": "ZonedDateTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3082,8 +3082,8 @@
                     "end": 4323,
                     "name": "since"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -3101,9 +3101,7 @@
                         "type": "Property",
                         "start": 4331,
                         "end": 4351,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 4331,
@@ -3117,7 +3115,9 @@
                           "value": "years",
                           "raw": "\"years\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -3129,28 +3129,28 @@
                 "start": 4360,
                 "end": 4362,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 4361,
                   "end": 4362,
                   "value": 2,
                   "raw": "2"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 4364,
                 "end": 4366,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 4365,
                   "end": 4366,
                   "value": 3,
                   "raw": "3"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -3164,14 +3164,14 @@
                 "start": 4371,
                 "end": 4374,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 4372,
                   "end": 4374,
                   "value": 30,
                   "raw": "30"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -3257,8 +3257,8 @@
                 "end": 4647,
                 "name": "assertDuration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -3289,8 +3289,8 @@
                         "end": 4679,
                         "name": "ZonedDateTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3316,8 +3316,8 @@
                     "end": 4737,
                     "name": "since"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -3340,8 +3340,8 @@
                         "end": 4764,
                         "name": "ZonedDateTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3370,9 +3370,7 @@
                         "type": "Property",
                         "start": 4820,
                         "end": 4841,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 4820,
@@ -3386,7 +3384,9 @@
                           "value": "months",
                           "raw": "\"months\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -3405,14 +3405,14 @@
                 "start": 4853,
                 "end": 4855,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 4854,
                   "end": 4855,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -3426,14 +3426,14 @@
                 "start": 4860,
                 "end": 4863,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 4861,
                   "end": 4863,
                   "value": 28,
                   "raw": "28"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -3512,8 +3512,8 @@
                 "end": 4979,
                 "name": "assertDuration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -3544,8 +3544,8 @@
                         "end": 5011,
                         "name": "ZonedDateTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3571,8 +3571,8 @@
                     "end": 5069,
                     "name": "since"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -3595,8 +3595,8 @@
                         "end": 5096,
                         "name": "ZonedDateTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3625,9 +3625,7 @@
                         "type": "Property",
                         "start": 5153,
                         "end": 5173,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 5153,
@@ -3641,7 +3639,9 @@
                           "value": "years",
                           "raw": "\"years\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -3653,28 +3653,28 @@
                 "start": 5182,
                 "end": 5184,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 5183,
                   "end": 5184,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 5186,
                 "end": 5188,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 5187,
                   "end": 5188,
                   "value": 3,
                   "raw": "3"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -3688,14 +3688,14 @@
                 "start": 5193,
                 "end": 5196,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 5194,
                   "end": 5196,
                   "value": 30,
                   "raw": "30"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 291,
       "end": 310,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "201906"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 312,
       "end": 369,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -68,14 +69,14 @@
                 "start": 347,
                 "end": 354,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 348,
                   "end": 354,
                   "value": 201906,
                   "raw": "201906"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -87,8 +88,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -99,6 +99,7 @@
         "type": "VariableDeclaration",
         "start": 376,
         "end": 385,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -112,8 +113,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -150,8 +150,8 @@
                   "end": 415,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -164,9 +164,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 436,
                   "end": 516,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -193,8 +191,8 @@
                           "end": 465,
                           "name": "PlainYearMonth"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -202,8 +200,8 @@
                         "end": 473,
                         "name": "compare"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -232,8 +230,8 @@
                             "end": 506,
                             "name": "PlainYearMonth"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -254,20 +252,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 522,
                   "end": 603,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 535,
-                      "end": 538,
-                      "name": "arg"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -288,6 +280,14 @@
                         "cooked": ") is not a valid ISO string for PlainYearMonth (first argument)"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 535,
+                      "end": 538,
+                      "name": "arg"
                     }
                   ]
                 }
@@ -319,8 +319,8 @@
                   "end": 624,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -333,9 +333,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 645,
                   "end": 725,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -362,8 +360,8 @@
                           "end": 674,
                           "name": "PlainYearMonth"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -371,8 +369,8 @@
                         "end": 682,
                         "name": "compare"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -395,8 +393,8 @@
                             "end": 710,
                             "name": "PlainYearMonth"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -423,20 +421,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 731,
                   "end": 812,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 744,
-                      "end": 747,
-                      "name": "arg"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -457,6 +449,14 @@
                         "cooked": ") is not a valid ISO string for PlainYearMonth (first argument)"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 744,
+                      "end": 747,
+                      "name": "arg"
                     }
                   ]
                 }

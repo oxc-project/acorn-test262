@@ -45,8 +45,8 @@
               "end": 515,
               "name": "search"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -133,8 +133,8 @@
                         "end": 648,
                         "name": "search"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -158,6 +158,7 @@
       "type": "VariableDeclaration",
       "start": 739,
       "end": 745,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -171,8 +172,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     }
   ],
   "sourceType": "script",

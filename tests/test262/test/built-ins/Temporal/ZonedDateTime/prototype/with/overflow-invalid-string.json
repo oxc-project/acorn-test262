@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 991,
       "end": 1070,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 1034,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -60,13 +61,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1071,
       "end": 1167,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -128,8 +129,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -140,6 +140,7 @@
         "type": "VariableDeclaration",
         "start": 1173,
         "end": 1187,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -153,8 +154,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -191,8 +191,8 @@
                   "end": 1222,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -205,9 +205,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1244,
                   "end": 1293,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -230,8 +228,8 @@
                         "end": 1263,
                         "name": "with"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -243,9 +241,7 @@
                             "type": "Property",
                             "start": 1266,
                             "end": 1276,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1266,
@@ -259,7 +255,9 @@
                               "value": 45,
                               "raw": "45"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -272,9 +270,7 @@
                             "type": "Property",
                             "start": 1282,
                             "end": 1290,
-                            "method": false,
-                            "shorthand": true,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1282,
@@ -287,26 +283,22 @@
                               "end": 1290,
                               "name": "overflow"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false
                           }
                         ]
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1299,
                   "end": 1333,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1321,
-                      "end": 1329,
-                      "name": "overflow"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -327,6 +319,14 @@
                         "cooked": "\")"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1321,
+                      "end": 1329,
+                      "name": "overflow"
                     }
                   ]
                 }

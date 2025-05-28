@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 290,
       "end": 342,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -42,8 +43,8 @@
                   "end": 322,
                   "name": "PlainDate"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -51,8 +52,8 @@
                 "end": 327,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -66,13 +67,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 343,
       "end": 395,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -108,8 +109,8 @@
                   "end": 375,
                   "name": "PlainDate"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -117,8 +118,8 @@
                 "end": 380,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -132,8 +133,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -159,8 +159,8 @@
             "end": 427,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -183,8 +183,8 @@
                 "end": 442,
                 "name": "since"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -202,9 +202,7 @@
                     "type": "Property",
                     "start": 452,
                     "end": 474,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 452,
@@ -218,15 +216,15 @@
                       "value": "months",
                       "raw": "\"months\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 476,
                     "end": 502,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 476,
@@ -240,7 +238,9 @@
                       "value": "halfExpand",
                       "raw": "\"halfExpand\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -345,8 +345,8 @@
             "end": 585,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -369,8 +369,8 @@
                 "end": 600,
                 "name": "since"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -388,9 +388,7 @@
                     "type": "Property",
                     "start": 610,
                     "end": 632,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 610,
@@ -404,15 +402,15 @@
                       "value": "months",
                       "raw": "\"months\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 634,
                     "end": 660,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 634,
@@ -426,7 +424,9 @@
                       "value": "halfExpand",
                       "raw": "\"halfExpand\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -445,14 +445,14 @@
             "start": 685,
             "end": 687,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 686,
               "end": 687,
               "value": 2,
               "raw": "2"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -518,6 +518,7 @@
       "type": "VariableDeclaration",
       "start": 715,
       "end": 1047,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -593,28 +594,28 @@
                     "start": 800,
                     "end": 802,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 801,
                       "end": 802,
                       "value": 1,
                       "raw": "1"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "UnaryExpression",
                     "start": 804,
                     "end": 806,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 805,
                       "end": 806,
                       "value": 1,
                       "raw": "1"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               },
@@ -677,28 +678,28 @@
                     "start": 879,
                     "end": 881,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 880,
                       "end": 881,
                       "value": 1,
                       "raw": "1"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "UnaryExpression",
                     "start": 883,
                     "end": 886,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 884,
                       "end": 886,
                       "value": 29,
                       "raw": "29"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               },
@@ -761,28 +762,28 @@
                     "start": 959,
                     "end": 961,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 960,
                       "end": 961,
                       "value": 1,
                       "raw": "1"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "UnaryExpression",
                     "start": 963,
                     "end": 966,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 964,
                       "end": 966,
                       "value": 30,
                       "raw": "30"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               },
@@ -845,14 +846,14 @@
                     "start": 1038,
                     "end": 1040,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1039,
                       "end": 1040,
                       "value": 2,
                       "raw": "2"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -866,8 +867,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -878,6 +878,7 @@
         "type": "VariableDeclaration",
         "start": 1053,
         "end": 1085,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -916,8 +917,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -934,6 +934,7 @@
             "type": "VariableDeclaration",
             "start": 1100,
             "end": 1184,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -977,8 +978,8 @@
                             "end": 1133,
                             "name": "PlainDate"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -986,8 +987,8 @@
                           "end": 1138,
                           "name": "from"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1005,8 +1006,8 @@
                       "end": 1149,
                       "name": "since"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1024,9 +1025,7 @@
                           "type": "Property",
                           "start": 1159,
                           "end": 1180,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 1159,
@@ -1040,7 +1039,9 @@
                             "value": "months",
                             "raw": "\"months\""
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }
@@ -1048,8 +1049,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -1075,8 +1075,8 @@
                   "end": 1217,
                   "name": "assertDuration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1157,20 +1157,6 @@
                   "type": "TemplateLiteral",
                   "start": 1264,
                   "end": 1283,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1267,
-                      "end": 1270,
-                      "name": "end"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 1276,
-                      "end": 1281,
-                      "name": "start"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -1201,6 +1187,20 @@
                         "cooked": ""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1267,
+                      "end": 1270,
+                      "name": "end"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 1276,
+                      "end": 1281,
+                      "name": "start"
                     }
                   ]
                 }

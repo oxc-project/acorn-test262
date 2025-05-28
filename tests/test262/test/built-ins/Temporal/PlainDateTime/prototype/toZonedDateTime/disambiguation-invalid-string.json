@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 824,
       "end": 906,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 867,
                 "name": "PlainDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -108,13 +109,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 907,
       "end": 1001,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -176,8 +177,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -203,17 +203,15 @@
             "end": 1024,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 1025,
             "end": 1179,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -252,8 +250,8 @@
                         "end": 1049,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -266,9 +264,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 1071,
                         "end": 1131,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -291,8 +287,8 @@
                               "end": 1101,
                               "name": "toZonedDateTime"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -311,9 +307,7 @@
                                   "type": "Property",
                                   "start": 1111,
                                   "end": 1128,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 1111,
@@ -326,26 +320,22 @@
                                     "end": 1128,
                                     "name": "s"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 }
                               ]
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 1137,
                         "end": 1175,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1171,
-                            "end": 1172,
-                            "name": "s"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -367,6 +357,14 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1171,
+                            "end": 1172,
+                            "name": "s"
+                          }
                         ]
                       }
                     ],
@@ -374,7 +372,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

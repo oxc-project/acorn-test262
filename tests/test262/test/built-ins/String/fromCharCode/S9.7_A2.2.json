@@ -39,8 +39,8 @@
                   "end": 323,
                   "name": "fromCharCode"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -48,14 +48,14 @@
                   "start": 324,
                   "end": 330,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 325,
                     "end": 330,
                     "value": 32767,
                     "raw": "32767"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -66,8 +66,8 @@
               "end": 342,
               "name": "charCodeAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -153,8 +153,8 @@
                               "end": 474,
                               "name": "fromCharCode"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -162,14 +162,14 @@
                               "start": 475,
                               "end": 481,
                               "operator": "-",
-                              "prefix": true,
                               "argument": {
                                 "type": "Literal",
                                 "start": 476,
                                 "end": 481,
                                 "value": 32767,
                                 "raw": "32767"
-                              }
+                              },
+                              "prefix": true
                             }
                           ],
                           "optional": false
@@ -180,8 +180,8 @@
                           "end": 493,
                           "name": "charCodeAt"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -239,8 +239,8 @@
                   "end": 537,
                   "name": "fromCharCode"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -248,14 +248,14 @@
                   "start": 538,
                   "end": 544,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 539,
                     "end": 544,
                     "value": 32768,
                     "raw": "32768"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -266,8 +266,8 @@
               "end": 556,
               "name": "charCodeAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -353,8 +353,8 @@
                               "end": 688,
                               "name": "fromCharCode"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -362,14 +362,14 @@
                               "start": 689,
                               "end": 695,
                               "operator": "-",
-                              "prefix": true,
                               "argument": {
                                 "type": "Literal",
                                 "start": 690,
                                 "end": 695,
                                 "value": 32768,
                                 "raw": "32768"
-                              }
+                              },
+                              "prefix": true
                             }
                           ],
                           "optional": false
@@ -380,8 +380,8 @@
                           "end": 707,
                           "name": "charCodeAt"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -439,8 +439,8 @@
                   "end": 751,
                   "name": "fromCharCode"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -448,14 +448,14 @@
                   "start": 752,
                   "end": 758,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 753,
                     "end": 758,
                     "value": 32769,
                     "raw": "32769"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -466,8 +466,8 @@
               "end": 770,
               "name": "charCodeAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -553,8 +553,8 @@
                               "end": 902,
                               "name": "fromCharCode"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -562,14 +562,14 @@
                               "start": 903,
                               "end": 909,
                               "operator": "-",
-                              "prefix": true,
                               "argument": {
                                 "type": "Literal",
                                 "start": 904,
                                 "end": 909,
                                 "value": 32769,
                                 "raw": "32769"
-                              }
+                              },
+                              "prefix": true
                             }
                           ],
                           "optional": false
@@ -580,8 +580,8 @@
                           "end": 921,
                           "name": "charCodeAt"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -639,8 +639,8 @@
                   "end": 965,
                   "name": "fromCharCode"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -648,14 +648,14 @@
                   "start": 966,
                   "end": 972,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 967,
                     "end": 972,
                     "value": 65535,
                     "raw": "65535"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -666,8 +666,8 @@
               "end": 984,
               "name": "charCodeAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -753,8 +753,8 @@
                               "end": 1108,
                               "name": "fromCharCode"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -762,14 +762,14 @@
                               "start": 1109,
                               "end": 1115,
                               "operator": "-",
-                              "prefix": true,
                               "argument": {
                                 "type": "Literal",
                                 "start": 1110,
                                 "end": 1115,
                                 "value": 65535,
                                 "raw": "65535"
-                              }
+                              },
+                              "prefix": true
                             }
                           ],
                           "optional": false
@@ -780,8 +780,8 @@
                           "end": 1127,
                           "name": "charCodeAt"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -839,8 +839,8 @@
                   "end": 1171,
                   "name": "fromCharCode"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -848,14 +848,14 @@
                   "start": 1172,
                   "end": 1178,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1173,
                     "end": 1178,
                     "value": 65536,
                     "raw": "65536"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -866,8 +866,8 @@
               "end": 1190,
               "name": "charCodeAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -953,8 +953,8 @@
                               "end": 1314,
                               "name": "fromCharCode"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -962,14 +962,14 @@
                               "start": 1315,
                               "end": 1321,
                               "operator": "-",
-                              "prefix": true,
                               "argument": {
                                 "type": "Literal",
                                 "start": 1316,
                                 "end": 1321,
                                 "value": 65536,
                                 "raw": "65536"
-                              }
+                              },
+                              "prefix": true
                             }
                           ],
                           "optional": false
@@ -980,8 +980,8 @@
                           "end": 1333,
                           "name": "charCodeAt"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1039,8 +1039,8 @@
                   "end": 1377,
                   "name": "fromCharCode"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1048,14 +1048,14 @@
                   "start": 1378,
                   "end": 1384,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1379,
                     "end": 1384,
                     "value": 65537,
                     "raw": "65537"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -1066,8 +1066,8 @@
               "end": 1396,
               "name": "charCodeAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1153,8 +1153,8 @@
                               "end": 1528,
                               "name": "fromCharCode"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1162,14 +1162,14 @@
                               "start": 1529,
                               "end": 1535,
                               "operator": "-",
-                              "prefix": true,
                               "argument": {
                                 "type": "Literal",
                                 "start": 1530,
                                 "end": 1535,
                                 "value": 65537,
                                 "raw": "65537"
-                              }
+                              },
+                              "prefix": true
                             }
                           ],
                           "optional": false
@@ -1180,8 +1180,8 @@
                           "end": 1547,
                           "name": "charCodeAt"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1239,8 +1239,8 @@
                   "end": 1591,
                   "name": "fromCharCode"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1259,8 +1259,8 @@
               "end": 1609,
               "name": "charCodeAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1346,8 +1346,8 @@
                               "end": 1740,
                               "name": "fromCharCode"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1366,8 +1366,8 @@
                           "end": 1758,
                           "name": "charCodeAt"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1425,8 +1425,8 @@
                   "end": 1802,
                   "name": "fromCharCode"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1445,8 +1445,8 @@
               "end": 1820,
               "name": "charCodeAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1532,8 +1532,8 @@
                               "end": 1943,
                               "name": "fromCharCode"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1552,8 +1552,8 @@
                           "end": 1961,
                           "name": "charCodeAt"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1611,8 +1611,8 @@
                   "end": 2005,
                   "name": "fromCharCode"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1631,8 +1631,8 @@
               "end": 2023,
               "name": "charCodeAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1718,8 +1718,8 @@
                               "end": 2146,
                               "name": "fromCharCode"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1738,8 +1738,8 @@
                           "end": 2164,
                           "name": "charCodeAt"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1797,8 +1797,8 @@
                   "end": 2209,
                   "name": "fromCharCode"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1817,8 +1817,8 @@
               "end": 2228,
               "name": "charCodeAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1904,8 +1904,8 @@
                               "end": 2361,
                               "name": "fromCharCode"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1924,8 +1924,8 @@
                           "end": 2380,
                           "name": "charCodeAt"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1983,8 +1983,8 @@
                   "end": 2425,
                   "name": "fromCharCode"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -2003,8 +2003,8 @@
               "end": 2444,
               "name": "charCodeAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -2090,8 +2090,8 @@
                               "end": 2569,
                               "name": "fromCharCode"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -2110,8 +2110,8 @@
                           "end": 2588,
                           "name": "charCodeAt"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -2169,8 +2169,8 @@
                   "end": 2633,
                   "name": "fromCharCode"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -2189,8 +2189,8 @@
               "end": 2652,
               "name": "charCodeAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -2276,8 +2276,8 @@
                               "end": 2777,
                               "name": "fromCharCode"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -2296,8 +2296,8 @@
                           "end": 2796,
                           "name": "charCodeAt"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {

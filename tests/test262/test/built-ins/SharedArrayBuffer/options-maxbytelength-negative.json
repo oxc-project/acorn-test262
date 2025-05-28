@@ -27,8 +27,8 @@
             "end": 843,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 856,
             "end": 921,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -82,9 +81,7 @@
                             "type": "Property",
                             "start": 898,
                             "end": 915,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 898,
@@ -96,16 +93,18 @@
                               "start": 913,
                               "end": 915,
                               "operator": "-",
-                              "prefix": true,
                               "argument": {
                                 "type": "Literal",
                                 "start": 914,
                                 "end": 915,
                                 "value": 1,
                                 "raw": "1"
-                              }
+                              },
+                              "prefix": true
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -113,7 +112,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

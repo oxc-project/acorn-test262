@@ -28,8 +28,8 @@
             "end": 384,
             "name": "test"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "MemberExpression",
@@ -51,8 +51,8 @@
               "end": 403,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -60,8 +60,8 @@
             "end": 408,
             "name": "test"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       }
     },
@@ -98,8 +98,8 @@
                   "end": 434,
                   "name": "test"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -179,8 +179,8 @@
                     "end": 637,
                     "name": "sameValue"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -234,7 +234,6 @@
         "end": 783,
         "name": "__instance"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -243,7 +242,8 @@
         "start": 785,
         "end": 787,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",

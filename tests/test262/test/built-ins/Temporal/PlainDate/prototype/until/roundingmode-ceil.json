@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 296,
       "end": 347,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 334,
                 "name": "PlainDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -66,13 +67,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 348,
       "end": 397,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -104,8 +105,8 @@
                 "end": 384,
                 "name": "PlainDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -132,13 +133,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 399,
       "end": 562,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -191,14 +192,14 @@
                         "start": 436,
                         "end": 438,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 437,
                           "end": 438,
                           "value": 2,
                           "raw": "2"
-                        }
+                        },
+                        "prefix": true
                       }
                     ]
                   }
@@ -254,14 +255,14 @@
                         "start": 468,
                         "end": 471,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 469,
                           "end": 471,
                           "value": 31,
                           "raw": "31"
-                        }
+                        },
+                        "prefix": true
                       }
                     ]
                   }
@@ -331,14 +332,14 @@
                         "start": 507,
                         "end": 511,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 508,
                           "end": 511,
                           "value": 139,
                           "raw": "139"
-                        }
+                        },
+                        "prefix": true
                       }
                     ]
                   }
@@ -422,14 +423,14 @@
                         "start": 552,
                         "end": 556,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 553,
                           "end": 556,
                           "value": 973,
                           "raw": "973"
-                        }
+                        },
+                        "prefix": true
                       }
                     ]
                   }
@@ -438,13 +439,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 564,
       "end": 592,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -464,8 +465,7 @@
             "raw": "\"ceil\""
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -491,17 +491,15 @@
             "end": 610,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 611,
             "end": 1343,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -539,6 +537,7 @@
                   "type": "VariableDeclaration",
                   "start": 671,
                   "end": 778,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -726,13 +725,13 @@
                         "name": "expectedPositive"
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 781,
                   "end": 888,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -920,8 +919,7 @@
                         "name": "expectedNegative"
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -947,8 +945,8 @@
                         "end": 921,
                         "name": "assertDuration"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -971,8 +969,8 @@
                             "end": 940,
                             "name": "until"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -990,9 +988,7 @@
                                 "type": "Property",
                                 "start": 950,
                                 "end": 962,
-                                "method": false,
-                                "shorthand": true,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 950,
@@ -1005,15 +1001,15 @@
                                   "end": 962,
                                   "name": "smallestUnit"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": true,
+                                "computed": false
                               },
                               {
                                 "type": "Property",
                                 "start": 964,
                                 "end": 976,
-                                "method": false,
-                                "shorthand": true,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 964,
@@ -1026,7 +1022,9 @@
                                   "end": 976,
                                   "name": "roundingMode"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": true,
+                                "computed": false
                               }
                             ]
                           }
@@ -1097,20 +1095,6 @@
                         "type": "TemplateLiteral",
                         "start": 1034,
                         "end": 1109,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1047,
-                            "end": 1059,
-                            "name": "smallestUnit"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 1079,
-                            "end": 1091,
-                            "name": "roundingMode"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -1142,6 +1126,20 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1047,
+                            "end": 1059,
+                            "name": "smallestUnit"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 1079,
+                            "end": 1091,
+                            "name": "roundingMode"
+                          }
                         ]
                       }
                     ],
@@ -1172,8 +1170,8 @@
                         "end": 1147,
                         "name": "assertDuration"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1196,8 +1194,8 @@
                             "end": 1164,
                             "name": "until"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1215,9 +1213,7 @@
                                 "type": "Property",
                                 "start": 1176,
                                 "end": 1188,
-                                "method": false,
-                                "shorthand": true,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 1176,
@@ -1230,15 +1226,15 @@
                                   "end": 1188,
                                   "name": "smallestUnit"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": true,
+                                "computed": false
                               },
                               {
                                 "type": "Property",
                                 "start": 1190,
                                 "end": 1202,
-                                "method": false,
-                                "shorthand": true,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 1190,
@@ -1251,7 +1247,9 @@
                                   "end": 1202,
                                   "name": "roundingMode"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": true,
+                                "computed": false
                               }
                             ]
                           }
@@ -1322,20 +1320,6 @@
                         "type": "TemplateLiteral",
                         "start": 1260,
                         "end": 1336,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1273,
-                            "end": 1285,
-                            "name": "smallestUnit"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 1306,
-                            "end": 1318,
-                            "name": "roundingMode"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -1367,6 +1351,20 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1273,
+                            "end": 1285,
+                            "name": "smallestUnit"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 1306,
+                            "end": 1318,
+                            "name": "roundingMode"
+                          }
                         ]
                       }
                     ],
@@ -1374,7 +1372,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

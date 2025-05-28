@@ -27,8 +27,8 @@
             "end": 823,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 836,
             "end": 1012,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -82,9 +81,7 @@
                             "type": "Property",
                             "start": 972,
                             "end": 1007,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 972,
@@ -111,7 +108,9 @@
                                 "raw": "1125899906842624"
                               }
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -119,7 +118,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -156,8 +156,8 @@
             "end": 1064,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -171,7 +171,6 @@
             "start": 1077,
             "end": 1258,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -211,9 +210,7 @@
                             "type": "Property",
                             "start": 1218,
                             "end": 1253,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1218,
@@ -240,7 +237,9 @@
                                 "raw": "1"
                               }
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -248,7 +247,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

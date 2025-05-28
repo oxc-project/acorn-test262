@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 269,
       "end": 333,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -42,14 +43,14 @@
                 "start": 306,
                 "end": 315,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 307,
                   "end": 315,
                   "value": 19761118,
                   "raw": "19761118"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -61,8 +62,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -73,6 +73,7 @@
         "type": "VariableDeclaration",
         "start": 340,
         "end": 349,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -86,8 +87,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -124,8 +124,8 @@
                   "end": 379,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -138,9 +138,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 400,
                   "end": 475,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -167,8 +165,8 @@
                           "end": 424,
                           "name": "PlainDate"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -176,8 +174,8 @@
                         "end": 432,
                         "name": "compare"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -206,8 +204,8 @@
                             "end": 460,
                             "name": "PlainDate"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -235,7 +233,9 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "Literal",
@@ -272,8 +272,8 @@
                   "end": 569,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -286,9 +286,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 590,
                   "end": 665,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -315,8 +313,8 @@
                           "end": 614,
                           "name": "PlainDate"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -324,8 +322,8 @@
                         "end": 622,
                         "name": "compare"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -348,8 +346,8 @@
                             "end": 645,
                             "name": "PlainDate"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -383,7 +381,9 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "Literal",

@@ -32,8 +32,8 @@
               "end": 402,
               "name": "substring"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -45,7 +45,6 @@
                 "start": 403,
                 "end": 416,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -54,7 +53,8 @@
                   "start": 414,
                   "end": 416,
                   "body": []
-                }
+                },
+                "expression": false
               },
               "arguments": [],
               "optional": false
@@ -124,8 +124,8 @@
                         "end": 545,
                         "name": "substring"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -137,7 +137,6 @@
                           "start": 546,
                           "end": 559,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -146,7 +145,8 @@
                             "start": 557,
                             "end": 559,
                             "body": []
-                          }
+                          },
+                          "expression": false
                         },
                         "arguments": [],
                         "optional": false

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 259,
       "end": 512,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -68,8 +69,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -80,6 +80,7 @@
         "type": "VariableDeclaration",
         "start": 519,
         "end": 528,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -93,8 +94,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -135,8 +135,8 @@
                     "end": 566,
                     "name": "Instant"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -144,8 +144,8 @@
                   "end": 571,
                   "name": "from"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -165,6 +165,7 @@
       "type": "VariableDeclaration",
       "start": 581,
       "end": 865,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -226,8 +227,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -238,6 +238,7 @@
         "type": "VariableDeclaration",
         "start": 872,
         "end": 881,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -251,8 +252,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -289,8 +289,8 @@
                   "end": 918,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -303,9 +303,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 940,
                   "end": 972,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -332,8 +330,8 @@
                           "end": 962,
                           "name": "Instant"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -341,8 +339,8 @@
                         "end": 967,
                         "name": "from"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -353,20 +351,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 978,
                   "end": 1034,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 982,
-                      "end": 985,
-                      "name": "arg"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -387,6 +379,14 @@
                         "cooked": "\" is outside the representable range of Instant"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 982,
+                      "end": 985,
+                      "name": "arg"
                     }
                   ]
                 }

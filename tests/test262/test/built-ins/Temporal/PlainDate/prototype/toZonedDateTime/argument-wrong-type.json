@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 359,
       "end": 411,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 398,
                 "name": "PlainDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -66,13 +67,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 413,
       "end": 581,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -198,8 +199,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -210,6 +210,7 @@
         "type": "VariableDeclaration",
         "start": 588,
         "end": 612,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -236,8 +237,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -274,8 +274,8 @@
                   "end": 649,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -291,13 +291,13 @@
                       "start": 655,
                       "end": 665,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "Identifier",
                         "start": 662,
                         "end": 665,
                         "name": "arg"
-                      }
+                      },
+                      "prefix": true
                     },
                     "operator": "===",
                     "right": {
@@ -325,9 +325,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 709,
                   "end": 776,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -350,8 +348,8 @@
                         "end": 739,
                         "name": "toZonedDateTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -363,9 +361,7 @@
                             "type": "Property",
                             "start": 742,
                             "end": 756,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 742,
@@ -378,15 +374,15 @@
                               "end": 756,
                               "name": "arg"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 758,
                             "end": 773,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 758,
@@ -400,26 +396,22 @@
                               "value": "UTC",
                               "raw": "\"UTC\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 782,
                   "end": 837,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 785,
-                      "end": 796,
-                      "name": "description"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -441,6 +433,14 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 785,
+                      "end": 796,
+                      "name": "description"
+                    }
                   ]
                 }
               ],
@@ -454,6 +454,7 @@
       "type": "VariableDeclaration",
       "start": 846,
       "end": 1049,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -538,8 +539,8 @@
                       "end": 940,
                       "name": "PlainTime"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   {
                     "type": "Literal",
@@ -575,8 +576,8 @@
                         "end": 994,
                         "name": "PlainTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -584,8 +585,8 @@
                       "end": 1004,
                       "name": "prototype"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   {
                     "type": "Literal",
@@ -599,8 +600,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -611,6 +611,7 @@
         "type": "VariableDeclaration",
         "start": 1056,
         "end": 1080,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -637,8 +638,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -675,8 +675,8 @@
                   "end": 1117,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -689,9 +689,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1129,
                   "end": 1196,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -714,8 +712,8 @@
                         "end": 1159,
                         "name": "toZonedDateTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -727,9 +725,7 @@
                             "type": "Property",
                             "start": 1162,
                             "end": 1176,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1162,
@@ -742,15 +738,15 @@
                               "end": 1176,
                               "name": "arg"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1178,
                             "end": 1193,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1178,
@@ -764,26 +760,22 @@
                               "value": "UTC",
                               "raw": "\"UTC\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1198,
                   "end": 1275,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1201,
-                      "end": 1212,
-                      "name": "description"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -804,6 +796,14 @@
                         "cooked": " is not a valid property bag and does not convert to a string"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1201,
+                      "end": 1212,
+                      "name": "description"
                     }
                   ]
                 }

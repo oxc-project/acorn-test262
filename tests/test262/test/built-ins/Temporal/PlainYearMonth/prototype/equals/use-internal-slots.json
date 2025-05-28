@@ -13,7 +13,6 @@
         "end": 313,
         "name": "CustomError"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,7 +21,8 @@
         "start": 316,
         "end": 318,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "ClassDeclaration",
@@ -50,8 +50,8 @@
           "end": 379,
           "name": "PlainYearMonth"
         },
-        "computed": false,
-        "optional": false
+        "optional": false,
+        "computed": false
       },
       "body": {
         "type": "ClassBody",
@@ -62,21 +62,17 @@
             "type": "MethodDefinition",
             "start": 384,
             "end": 429,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 388,
               "end": 392,
               "name": "year"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 392,
               "end": 429,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -103,28 +99,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 432,
             "end": 478,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 436,
               "end": 441,
               "name": "month"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 441,
               "end": 478,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -151,8 +147,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -161,6 +161,7 @@
       "type": "VariableDeclaration",
       "start": 482,
       "end": 529,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -200,13 +201,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 530,
       "end": 577,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -246,8 +247,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -273,8 +273,8 @@
             "end": 594,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -297,8 +297,8 @@
                 "end": 605,
                 "name": "equals"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

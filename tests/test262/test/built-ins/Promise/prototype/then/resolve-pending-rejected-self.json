@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 934,
       "end": 945,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,13 +21,13 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 946,
       "end": 1013,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -54,7 +55,6 @@
                 "start": 967,
                 "end": 1011,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [
@@ -100,18 +100,19 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1014,
       "end": 1021,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -125,8 +126,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -163,8 +163,8 @@
               "end": 1035,
               "name": "then"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -172,7 +172,6 @@
               "start": 1036,
               "end": 1049,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -181,14 +180,14 @@
                 "start": 1047,
                 "end": 1049,
                 "body": []
-              }
+              },
+              "expression": false
             },
             {
               "type": "FunctionExpression",
               "start": 1051,
               "end": 1078,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -209,7 +208,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           ],
           "optional": false
@@ -240,8 +240,8 @@
             "end": 1089,
             "name": "then"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -249,7 +249,6 @@
             "start": 1090,
             "end": 1153,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -285,14 +284,14 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "FunctionExpression",
             "start": 1155,
             "end": 1410,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -317,13 +316,13 @@
                     "start": 1180,
                     "end": 1187,
                     "operator": "!",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 1181,
                       "end": 1187,
                       "name": "reason"
-                    }
+                    },
+                    "prefix": true
                   },
                   "consequent": {
                     "type": "BlockStatement",
@@ -390,8 +389,8 @@
                         "end": 1291,
                         "name": "constructor"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "operator": "!==",
                     "right": {
@@ -461,7 +460,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

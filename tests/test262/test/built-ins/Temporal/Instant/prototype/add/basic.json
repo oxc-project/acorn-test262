@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 760,
       "end": 802,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 793,
                 "name": "Instant"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -53,13 +54,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 804,
       "end": 879,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -91,8 +92,8 @@
                 "end": 825,
                 "name": "add"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -115,8 +116,8 @@
                     "end": 847,
                     "name": "Duration"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -195,8 +196,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -222,8 +222,8 @@
             "end": 896,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -250,8 +250,8 @@
               "end": 935,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -299,8 +299,8 @@
               "end": 987,
               "name": "add"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -323,8 +323,8 @@
                   "end": 1009,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -428,8 +428,8 @@
             "end": 1058,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -496,8 +496,8 @@
               "end": 1115,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -545,8 +545,8 @@
               "end": 1163,
               "name": "add"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -569,8 +569,8 @@
                   "end": 1185,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -674,8 +674,8 @@
             "end": 1234,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -769,8 +769,8 @@
               "end": 1308,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -818,8 +818,8 @@
               "end": 1356,
               "name": "add"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -842,8 +842,8 @@
                   "end": 1378,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -947,8 +947,8 @@
             "end": 1427,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1068,8 +1068,8 @@
               "end": 1512,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1117,8 +1117,8 @@
               "end": 1558,
               "name": "add"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1141,8 +1141,8 @@
                   "end": 1580,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1199,42 +1199,42 @@
                   "start": 1602,
                   "end": 1604,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1603,
                     "end": 1604,
                     "value": 3,
                     "raw": "3"
-                  }
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "UnaryExpression",
                   "start": 1606,
                   "end": 1608,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1607,
                     "end": 1608,
                     "value": 2,
                     "raw": "2"
-                  }
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "UnaryExpression",
                   "start": 1610,
                   "end": 1612,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1611,
                     "end": 1612,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ]
             }
@@ -1267,8 +1267,8 @@
             "end": 1632,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1276,7 +1276,6 @@
             "start": 1636,
             "end": 1645,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1637,
@@ -1284,7 +1283,8 @@
               "value": null,
               "raw": "2952001n",
               "bigint": "2952001"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "MemberExpression",
@@ -1302,8 +1302,8 @@
               "end": 1672,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1351,8 +1351,8 @@
               "end": 1724,
               "name": "add"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1375,8 +1375,8 @@
                   "end": 1746,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1426,56 +1426,56 @@
                   "start": 1765,
                   "end": 1767,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1766,
                     "end": 1767,
                     "value": 4,
                     "raw": "4"
-                  }
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "UnaryExpression",
                   "start": 1769,
                   "end": 1771,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1770,
                     "end": 1771,
                     "value": 3,
                     "raw": "3"
-                  }
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "UnaryExpression",
                   "start": 1773,
                   "end": 1775,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1774,
                     "end": 1775,
                     "value": 2,
                     "raw": "2"
-                  }
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "UnaryExpression",
                   "start": 1777,
                   "end": 1779,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1778,
                     "end": 1779,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ]
             }
@@ -1508,8 +1508,8 @@
             "end": 1799,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1536,14 +1536,14 @@
                     "start": 1810,
                     "end": 1812,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1811,
                       "end": 1812,
                       "value": 4,
                       "raw": "4"
-                    }
+                    },
+                    "prefix": true
                   },
                   "operator": "*",
                   "right": {
@@ -1583,8 +1583,8 @@
               "end": 1857,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1632,8 +1632,8 @@
               "end": 1905,
               "name": "add"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1656,8 +1656,8 @@
                   "end": 1927,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1700,70 +1700,70 @@
                   "start": 1943,
                   "end": 1945,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1944,
                     "end": 1945,
                     "value": 5,
                     "raw": "5"
-                  }
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "UnaryExpression",
                   "start": 1947,
                   "end": 1949,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1948,
                     "end": 1949,
                     "value": 4,
                     "raw": "4"
-                  }
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "UnaryExpression",
                   "start": 1951,
                   "end": 1953,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1952,
                     "end": 1953,
                     "value": 3,
                     "raw": "3"
-                  }
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "UnaryExpression",
                   "start": 1955,
                   "end": 1957,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1956,
                     "end": 1957,
                     "value": 2,
                     "raw": "2"
-                  }
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "UnaryExpression",
                   "start": 1959,
                   "end": 1961,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1960,
                     "end": 1961,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ]
             }
@@ -1796,8 +1796,8 @@
             "end": 1981,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1861,7 +1861,6 @@
                 "start": 2006,
                 "end": 2018,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 2007,
@@ -1869,7 +1868,8 @@
                   "value": null,
                   "raw": "1000000000n",
                   "bigint": "1000000000"
-                }
+                },
+                "prefix": true
               }
             },
             "operator": "-",
@@ -1898,8 +1898,8 @@
               "end": 2056,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1947,8 +1947,8 @@
               "end": 2104,
               "name": "add"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1971,8 +1971,8 @@
                   "end": 2126,
                   "name": "Duration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -2008,84 +2008,84 @@
                   "start": 2139,
                   "end": 2141,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 2140,
                     "end": 2141,
                     "value": 6,
                     "raw": "6"
-                  }
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "UnaryExpression",
                   "start": 2143,
                   "end": 2145,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 2144,
                     "end": 2145,
                     "value": 5,
                     "raw": "5"
-                  }
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "UnaryExpression",
                   "start": 2147,
                   "end": 2149,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 2148,
                     "end": 2149,
                     "value": 4,
                     "raw": "4"
-                  }
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "UnaryExpression",
                   "start": 2151,
                   "end": 2153,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 2152,
                     "end": 2153,
                     "value": 3,
                     "raw": "3"
-                  }
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "UnaryExpression",
                   "start": 2155,
                   "end": 2157,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 2156,
                     "end": 2157,
                     "value": 2,
                     "raw": "2"
-                  }
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "UnaryExpression",
                   "start": 2159,
                   "end": 2161,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 2160,
                     "end": 2161,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ]
             }
@@ -2118,8 +2118,8 @@
             "end": 2181,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2209,7 +2209,6 @@
                 "start": 2217,
                 "end": 2229,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 2218,
@@ -2217,7 +2216,8 @@
                   "value": null,
                   "raw": "1000000000n",
                   "bigint": "1000000000"
-                }
+                },
+                "prefix": true
               }
             },
             "operator": "-",
@@ -2246,8 +2246,8 @@
               "end": 2267,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

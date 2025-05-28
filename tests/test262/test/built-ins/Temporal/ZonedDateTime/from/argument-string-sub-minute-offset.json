@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 289,
       "end": 357,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "\"2021-08-19T17:30:45.123456789-12:12:59.9[-12:12:59.9]\""
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -53,8 +53,8 @@
             "end": 371,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -67,9 +67,7 @@
             "type": "ArrowFunctionExpression",
             "start": 384,
             "end": 422,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -96,8 +94,8 @@
                     "end": 412,
                     "name": "ZonedDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -105,8 +103,8 @@
                   "end": 417,
                   "name": "from"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -117,20 +115,14 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "TemplateLiteral",
             "start": 424,
             "end": 458,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 427,
-                "end": 430,
-                "name": "str"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -151,6 +143,14 @@
                   "cooked": " is not a valid ISO string"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 427,
+                "end": 430,
+                "name": "str"
               }
             ]
           }

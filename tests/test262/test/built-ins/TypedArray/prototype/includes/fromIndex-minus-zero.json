@@ -23,7 +23,6 @@
             "start": 826,
             "end": 1070,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -43,6 +42,7 @@
                   "type": "VariableDeclaration",
                   "start": 843,
                   "end": 854,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -56,8 +56,7 @@
                       },
                       "init": null
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -134,8 +133,8 @@
                         "end": 903,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -158,8 +157,8 @@
                             "end": 919,
                             "name": "includes"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -174,14 +173,14 @@
                             "start": 924,
                             "end": 926,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 925,
                               "end": 926,
                               "value": 0,
                               "raw": "0"
-                            }
+                            },
+                            "prefix": true
                           }
                         ],
                         "optional": false
@@ -228,8 +227,8 @@
                         "end": 964,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -252,8 +251,8 @@
                             "end": 980,
                             "name": "includes"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -268,14 +267,14 @@
                             "start": 985,
                             "end": 987,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 986,
                               "end": 987,
                               "value": 0,
                               "raw": "0"
-                            }
+                            },
+                            "prefix": true
                           }
                         ],
                         "optional": false
@@ -322,8 +321,8 @@
                         "end": 1025,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -346,8 +345,8 @@
                             "end": 1041,
                             "name": "includes"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -362,14 +361,14 @@
                             "start": 1046,
                             "end": 1048,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 1047,
                               "end": 1048,
                               "value": 0,
                               "raw": "0"
-                            }
+                            },
+                            "prefix": true
                           }
                         ],
                         "optional": false
@@ -393,7 +392,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

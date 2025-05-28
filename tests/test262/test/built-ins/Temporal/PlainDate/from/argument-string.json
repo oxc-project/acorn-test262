@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 278,
       "end": 1380,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -208,14 +209,14 @@
                     "start": 472,
                     "end": 478,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 473,
                       "end": 478,
                       "value": 10583,
                       "raw": "10583"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -257,14 +258,14 @@
                     "start": 515,
                     "end": 519,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 516,
                       "end": 519,
                       "value": 333,
                       "raw": "333"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -964,8 +965,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -976,6 +976,7 @@
         "type": "VariableDeclaration",
         "start": 1387,
         "end": 1413,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -1007,8 +1008,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -1025,6 +1025,7 @@
             "type": "VariableDeclaration",
             "start": 1428,
             "end": 1474,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1060,8 +1061,8 @@
                         "end": 1461,
                         "name": "PlainDate"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1069,8 +1070,8 @@
                       "end": 1466,
                       "name": "from"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1083,8 +1084,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -1110,8 +1110,8 @@
                   "end": 1508,
                   "name": "assertPlainDate"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1135,14 +1135,6 @@
                   "type": "TemplateLiteral",
                   "start": 1530,
                   "end": 1546,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1538,
-                      "end": 1543,
-                      "name": "input"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -1163,6 +1155,14 @@
                         "cooked": ")"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1538,
+                      "end": 1543,
+                      "name": "input"
                     }
                   ]
                 }

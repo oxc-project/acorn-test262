@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 627,
       "end": 653,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "\"(.)(.)|(x)\""
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -38,6 +38,7 @@
         "type": "VariableDeclaration",
         "start": 659,
         "end": 668,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -51,8 +52,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -84,6 +84,7 @@
             "type": "VariableDeclaration",
             "start": 687,
             "end": 722,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -121,8 +122,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -148,8 +148,8 @@
                   "end": 741,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -180,8 +180,8 @@
                       "end": 774,
                       "name": "replace"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -228,8 +228,8 @@
                   "end": 815,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -260,8 +260,8 @@
                       "end": 838,
                       "name": "replace"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -308,8 +308,8 @@
                   "end": 871,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -340,8 +340,8 @@
                       "end": 892,
                       "name": "replace"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -388,8 +388,8 @@
                   "end": 923,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -420,8 +420,8 @@
                       "end": 949,
                       "name": "replace"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -468,8 +468,8 @@
                   "end": 983,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -500,8 +500,8 @@
                       "end": 1010,
                       "name": "replace"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -548,8 +548,8 @@
                   "end": 1046,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -580,8 +580,8 @@
                       "end": 1073,
                       "name": "replace"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -628,8 +628,8 @@
                   "end": 1109,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -660,8 +660,8 @@
                       "end": 1136,
                       "name": "replace"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -708,8 +708,8 @@
                   "end": 1171,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -740,8 +740,8 @@
                       "end": 1196,
                       "name": "replace"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {

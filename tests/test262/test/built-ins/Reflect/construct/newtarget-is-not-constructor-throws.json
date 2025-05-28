@@ -27,8 +27,8 @@
             "end": 515,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 527,
             "end": 584,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -75,8 +74,8 @@
                         "end": 559,
                         "name": "construct"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -84,7 +83,6 @@
                         "start": 560,
                         "end": 573,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -93,7 +91,8 @@
                           "start": 571,
                           "end": 573,
                           "body": []
-                        }
+                        },
+                        "expression": false
                       },
                       {
                         "type": "ArrayExpression",
@@ -113,7 +112,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -143,8 +143,8 @@
             "end": 601,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -158,7 +158,6 @@
             "start": 613,
             "end": 673,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -191,8 +190,8 @@
                         "end": 645,
                         "name": "construct"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -200,7 +199,6 @@
                         "start": 646,
                         "end": 659,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -209,7 +207,8 @@
                           "start": 657,
                           "end": 659,
                           "body": []
-                        }
+                        },
+                        "expression": false
                       },
                       {
                         "type": "ArrayExpression",
@@ -229,7 +228,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -259,8 +259,8 @@
             "end": 690,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -274,7 +274,6 @@
             "start": 702,
             "end": 760,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -307,8 +306,8 @@
                         "end": 734,
                         "name": "construct"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -316,7 +315,6 @@
                         "start": 735,
                         "end": 748,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -325,7 +323,8 @@
                           "start": 746,
                           "end": 748,
                           "body": []
-                        }
+                        },
+                        "expression": false
                       },
                       {
                         "type": "ArrayExpression",
@@ -344,7 +343,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -374,8 +374,8 @@
             "end": 777,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -389,7 +389,6 @@
             "start": 789,
             "end": 853,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -422,8 +421,8 @@
                         "end": 821,
                         "name": "construct"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -431,7 +430,6 @@
                         "start": 822,
                         "end": 835,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -440,7 +438,8 @@
                           "start": 833,
                           "end": 835,
                           "body": []
-                        }
+                        },
+                        "expression": false
                       },
                       {
                         "type": "ArrayExpression",
@@ -464,15 +463,16 @@
                           "end": 849,
                           "name": "now"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

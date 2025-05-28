@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 300,
       "end": 360,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 338,
                 "name": "PlainTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -87,13 +88,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 361,
       "end": 425,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -125,8 +126,8 @@
                 "end": 397,
                 "name": "PlainTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -174,13 +175,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 426,
       "end": 705,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -333,8 +334,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -345,6 +345,7 @@
         "type": "VariableDeclaration",
         "start": 711,
         "end": 729,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -358,8 +359,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -396,8 +396,8 @@
                   "end": 761,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -410,9 +410,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 774,
                   "end": 818,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -435,8 +433,8 @@
                         "end": 793,
                         "name": "until"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -454,9 +452,7 @@
                             "type": "Property",
                             "start": 803,
                             "end": 815,
-                            "method": false,
-                            "shorthand": true,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 803,
@@ -469,26 +465,22 @@
                               "end": 815,
                               "name": "smallestUnit"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false
                           }
                         ]
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 824,
                   "end": 882,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 828,
-                      "end": 840,
-                      "name": "smallestUnit"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -509,6 +501,14 @@
                         "cooked": "\" is not a valid value for smallest unit"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 828,
+                      "end": 840,
+                      "name": "smallestUnit"
                     }
                   ]
                 }

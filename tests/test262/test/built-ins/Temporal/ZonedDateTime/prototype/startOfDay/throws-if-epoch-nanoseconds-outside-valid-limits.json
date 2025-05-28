@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 458,
       "end": 466,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -58,8 +58,8 @@
               "end": 500,
               "name": "ZonedDateTime"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -71,7 +71,6 @@
                 "start": 501,
                 "end": 506,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 502,
@@ -79,7 +78,8 @@
                   "value": null,
                   "raw": "864n",
                   "bigint": "864"
-                }
+                },
+                "prefix": true
               },
               "operator": "*",
               "right": {
@@ -140,8 +140,8 @@
             "end": 540,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -154,9 +154,7 @@
             "type": "ArrowFunctionExpression",
             "start": 553,
             "end": 575,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -179,12 +177,14 @@
                   "end": 573,
                   "name": "startOfDay"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -225,8 +225,8 @@
               "end": 611,
               "name": "ZonedDateTime"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -238,7 +238,6 @@
                 "start": 612,
                 "end": 617,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 613,
@@ -246,7 +245,8 @@
                   "value": null,
                   "raw": "864n",
                   "bigint": "864"
-                }
+                },
+                "prefix": true
               },
               "operator": "*",
               "right": {
@@ -307,8 +307,8 @@
             "end": 651,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -321,9 +321,7 @@
             "type": "ArrowFunctionExpression",
             "start": 664,
             "end": 686,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -346,12 +344,14 @@
                   "end": 684,
                   "name": "startOfDay"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -392,8 +392,8 @@
               "end": 722,
               "name": "ZonedDateTime"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -405,7 +405,6 @@
                 "start": 723,
                 "end": 728,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 724,
@@ -413,7 +412,8 @@
                   "value": null,
                   "raw": "864n",
                   "bigint": "864"
-                }
+                },
+                "prefix": true
               },
               "operator": "*",
               "right": {
@@ -493,8 +493,8 @@
                     "end": 770,
                     "name": "startOfDay"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -505,8 +505,8 @@
                 "end": 779,
                 "name": "equals"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
