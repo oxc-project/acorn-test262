@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 902,
       "end": 950,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -33,21 +34,17 @@
                   "type": "MethodDefinition",
                   "start": 920,
                   "end": 948,
-                  "static": false,
-                  "computed": false,
                   "key": {
                     "type": "Identifier",
                     "start": 920,
                     "end": 931,
                     "name": "export"
                   },
-                  "kind": "method",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 931,
                     "end": 948,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -69,20 +66,24 @@
                           }
                         }
                       ]
-                    }
-                  }
+                    },
+                    "expression": false
+                  },
+                  "kind": "method",
+                  "computed": false,
+                  "static": false
                 }
               ]
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 952,
       "end": 970,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -107,8 +108,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -134,8 +134,8 @@
             "end": 988,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -159,8 +159,8 @@
                 "value": "export",
                 "raw": "'export'"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "arguments": [],
             "optional": false

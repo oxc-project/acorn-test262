@@ -16,7 +16,6 @@
           "start": 324,
           "end": 331,
           "operator": "!",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 325,
@@ -28,7 +27,8 @@
               "value": true,
               "raw": "true"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -80,7 +80,6 @@
                       "start": 407,
                       "end": 414,
                       "operator": "!",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 408,
@@ -92,7 +91,8 @@
                           "value": true,
                           "raw": "true"
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -116,7 +116,6 @@
           "start": 437,
           "end": 445,
           "operator": "!",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 438,
@@ -128,7 +127,8 @@
               "value": false,
               "raw": "false"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -180,7 +180,6 @@
                       "start": 520,
                       "end": 528,
                       "operator": "!",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 521,
@@ -192,7 +191,8 @@
                           "value": false,
                           "raw": "false"
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }

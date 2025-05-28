@@ -13,7 +13,6 @@
         "end": 346,
         "name": "f1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -26,6 +25,7 @@
             "type": "VariableDeclaration",
             "start": 355,
             "end": 410,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -42,7 +42,6 @@
                   "start": 363,
                   "end": 410,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -60,20 +59,20 @@
                           "start": 392,
                           "end": 403,
                           "operator": "typeof",
-                          "prefix": true,
                           "argument": {
                             "type": "ThisExpression",
                             "start": 399,
                             "end": 403
-                          }
+                          },
+                          "prefix": true
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ReturnStatement",
@@ -132,12 +131,12 @@
                       "start": 447,
                       "end": 458,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "ThisExpression",
                         "start": 454,
                         "end": 458
-                      }
+                      },
+                      "prefix": true
                     }
                   },
                   "operator": "===",
@@ -153,7 +152,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -164,7 +164,6 @@
         "start": 482,
         "end": 488,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "CallExpression",
           "start": 484,
@@ -177,7 +176,8 @@
           },
           "arguments": [],
           "optional": false
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

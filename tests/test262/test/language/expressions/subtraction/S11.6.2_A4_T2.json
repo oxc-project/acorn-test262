@@ -31,8 +31,8 @@
               "end": 367,
               "name": "POSITIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "operator": "-",
           "right": {
@@ -51,8 +51,8 @@
               "end": 394,
               "name": "NEGATIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         },
         "operator": "!==",
@@ -72,8 +72,8 @@
             "end": 423,
             "name": "POSITIVE_INFINITY"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "consequent": {
@@ -128,13 +128,13 @@
                         "start": 517,
                         "end": 526,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Identifier",
                           "start": 518,
                           "end": 526,
                           "name": "Infinity"
-                        }
+                        },
+                        "prefix": true
                       }
                     }
                   }
@@ -174,8 +174,8 @@
               "end": 571,
               "name": "NEGATIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "operator": "-",
           "right": {
@@ -194,8 +194,8 @@
               "end": 598,
               "name": "POSITIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         },
         "operator": "!==",
@@ -215,8 +215,8 @@
             "end": 627,
             "name": "NEGATIVE_INFINITY"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "consequent": {
@@ -264,13 +264,13 @@
                         "start": 711,
                         "end": 720,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Identifier",
                           "start": 712,
                           "end": 720,
                           "name": "Infinity"
-                        }
+                        },
+                        "prefix": true
                       },
                       "operator": "-",
                       "right": {

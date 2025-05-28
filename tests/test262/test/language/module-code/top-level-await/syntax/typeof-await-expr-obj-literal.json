@@ -12,7 +12,6 @@
         "start": 1133,
         "end": 1163,
         "operator": "typeof",
-        "prefix": true,
         "argument": {
           "type": "AwaitExpression",
           "start": 1140,
@@ -26,9 +25,7 @@
                 "type": "Property",
                 "start": 1148,
                 "end": 1161,
-                "method": true,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1148,
@@ -40,7 +37,6 @@
                   "start": 1156,
                   "end": 1161,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -49,13 +45,17 @@
                     "start": 1159,
                     "end": 1161,
                     "body": []
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": true,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
-        }
+        },
+        "prefix": true
       }
     }
   ],

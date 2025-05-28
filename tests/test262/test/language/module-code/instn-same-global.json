@@ -15,13 +15,14 @@
         "value": "./instn-same-global-set_FIXTURE.js",
         "raw": "'./instn-same-global-set_FIXTURE.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",
       "start": 471,
       "end": 501,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -47,8 +48,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -74,8 +74,8 @@
             "end": 519,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -94,8 +94,8 @@
               "end": 534,
               "name": "test262"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

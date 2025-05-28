@@ -27,8 +27,8 @@
         "value": "./module-import-unwrapped_FIXTURE.js",
         "raw": "'./module-import-unwrapped_FIXTURE.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -77,8 +77,8 @@
         "value": "./module-import-unwrapped_FIXTURE.js",
         "raw": "'./module-import-unwrapped_FIXTURE.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -236,8 +236,8 @@
             "end": 2946,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -260,8 +260,8 @@
                 "end": 2968,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -289,8 +289,8 @@
               "end": 2992,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -327,8 +327,8 @@
             "end": 3027,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -351,8 +351,8 @@
                 "end": 3049,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -380,8 +380,8 @@
               "end": 3071,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -418,8 +418,8 @@
             "end": 3104,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -442,8 +442,8 @@
                 "end": 3126,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -471,8 +471,8 @@
               "end": 3148,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -509,8 +509,8 @@
             "end": 3182,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -559,8 +559,8 @@
             "end": 3222,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -589,6 +589,7 @@
       "type": "VariableDeclaration",
       "start": 3258,
       "end": 3266,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -602,8 +603,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -699,8 +699,8 @@
             "end": 3328,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

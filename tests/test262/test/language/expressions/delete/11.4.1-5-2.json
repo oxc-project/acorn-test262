@@ -13,7 +13,6 @@
         "end": 343,
         "name": "foo"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -39,6 +38,7 @@
             "type": "VariableDeclaration",
             "start": 459,
             "end": 476,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -55,17 +55,16 @@
                   "start": 467,
                   "end": 475,
                   "operator": "delete",
-                  "prefix": true,
                   "argument": {
                     "type": "Identifier",
                     "start": 474,
                     "end": 475,
                     "name": "a"
-                  }
+                  },
+                  "prefix": true
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ReturnStatement",
@@ -117,7 +116,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

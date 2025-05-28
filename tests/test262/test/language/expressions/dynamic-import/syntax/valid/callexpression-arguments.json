@@ -27,8 +27,8 @@
             "end": 439,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -41,9 +41,7 @@
             "type": "ArrowFunctionExpression",
             "start": 451,
             "end": 496,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -78,7 +76,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -115,8 +115,8 @@
             "end": 532,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -129,9 +129,7 @@
             "type": "ArrowFunctionExpression",
             "start": 544,
             "end": 591,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -174,7 +172,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -211,8 +211,8 @@
             "end": 641,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -225,9 +225,7 @@
             "type": "ArrowFunctionExpression",
             "start": 653,
             "end": 702,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -277,7 +275,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -314,8 +314,8 @@
             "end": 734,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -328,9 +328,7 @@
             "type": "ArrowFunctionExpression",
             "start": 746,
             "end": 796,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -377,7 +375,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",

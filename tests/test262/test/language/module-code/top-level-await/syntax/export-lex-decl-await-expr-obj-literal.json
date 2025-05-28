@@ -11,6 +11,7 @@
         "type": "VariableDeclaration",
         "start": 1857,
         "end": 1889,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -35,9 +36,7 @@
                     "type": "Property",
                     "start": 1873,
                     "end": 1886,
-                    "method": true,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1873,
@@ -49,7 +48,6 @@
                       "start": 1881,
                       "end": 1886,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -58,16 +56,18 @@
                         "start": 1884,
                         "end": 1886,
                         "body": []
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             }
           }
-        ],
-        "kind": "let"
+        ]
       },
       "specifiers": [],
       "source": null,
@@ -81,6 +81,7 @@
         "type": "VariableDeclaration",
         "start": 1897,
         "end": 1931,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -105,9 +106,7 @@
                     "type": "Property",
                     "start": 1915,
                     "end": 1928,
-                    "method": true,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1915,
@@ -119,7 +118,6 @@
                       "start": 1923,
                       "end": 1928,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -128,16 +126,18 @@
                         "start": 1926,
                         "end": 1928,
                         "body": []
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             }
           }
-        ],
-        "kind": "const"
+        ]
       },
       "specifiers": [],
       "source": null,

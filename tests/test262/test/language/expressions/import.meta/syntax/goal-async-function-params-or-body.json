@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 449,
       "end": 500,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,7 +28,6 @@
               "start": 469,
               "end": 487,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": true,
               "params": [],
@@ -36,7 +36,8 @@
                 "start": 485,
                 "end": 487,
                 "body": []
-              }
+              },
+              "expression": false
             },
             "property": {
               "type": "Identifier",
@@ -44,12 +45,11 @@
               "end": 499,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -75,8 +75,8 @@
             "end": 515,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -90,7 +90,6 @@
             "start": 529,
             "end": 577,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -126,7 +125,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -163,8 +163,8 @@
             "end": 630,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -178,7 +178,6 @@
             "start": 644,
             "end": 700,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -221,7 +220,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

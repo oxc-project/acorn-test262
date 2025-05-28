@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 353,
       "end": 385,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 367,
                 "end": 383,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 367,
@@ -43,13 +42,14 @@
                   "value": true,
                   "raw": "true"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -75,8 +75,8 @@
             "end": 406,
             "name": "undefined"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -125,6 +125,7 @@
       "type": "VariableDeclaration",
       "start": 524,
       "end": 556,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -145,9 +146,7 @@
                 "type": "Property",
                 "start": 538,
                 "end": 554,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 538,
@@ -161,13 +160,14 @@
                   "value": true,
                   "raw": "true"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -194,8 +194,8 @@
             "value": "undefined",
             "raw": "\"undefined\""
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "operator": "!==",
         "right": {
@@ -244,6 +244,7 @@
       "type": "VariableDeclaration",
       "start": 701,
       "end": 730,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -264,9 +265,7 @@
                 "type": "Property",
                 "start": 715,
                 "end": 728,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 715,
@@ -281,13 +280,14 @@
                   "value": true,
                   "raw": "true"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -314,8 +314,8 @@
             "value": "true",
             "raw": "\"true\""
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "operator": "!==",
         "right": {
@@ -364,6 +364,7 @@
       "type": "VariableDeclaration",
       "start": 862,
       "end": 891,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -384,9 +385,7 @@
                 "type": "Property",
                 "start": 876,
                 "end": 889,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 876,
@@ -401,13 +400,14 @@
                   "value": true,
                   "raw": "true"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -434,8 +434,8 @@
             "value": "null",
             "raw": "\"null\""
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "operator": "!==",
         "right": {

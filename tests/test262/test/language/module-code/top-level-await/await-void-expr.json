@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 535,
       "end": 556,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,19 +28,18 @@
               "start": 549,
               "end": 555,
               "operator": "void",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 554,
                 "end": 555,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -65,8 +65,8 @@
             "end": 574,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

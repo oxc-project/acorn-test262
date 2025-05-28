@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1551,
       "end": 1782,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -22,9 +23,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1559,
             "end": 1781,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -80,17 +79,15 @@
                                 "end": 1637,
                                 "name": "then"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
                                 "type": "ArrowFunctionExpression",
                                 "start": 1638,
                                 "end": 1745,
-                                "id": null,
                                 "expression": false,
-                                "generator": false,
                                 "async": false,
                                 "params": [
                                   {
@@ -129,8 +126,8 @@
                                             "end": 1673,
                                             "name": "sameValue"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "arguments": [
                                           {
@@ -153,8 +150,8 @@
                                                 "end": 1690,
                                                 "name": "default"
                                               },
-                                              "computed": false,
-                                              "optional": false
+                                              "optional": false,
+                                              "computed": false
                                             },
                                             "arguments": [],
                                             "optional": false
@@ -194,8 +191,8 @@
                                             "end": 1718,
                                             "name": "sameValue"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "arguments": [
                                           {
@@ -214,8 +211,8 @@
                                               "end": 1735,
                                               "name": "default"
                                             },
-                                            "computed": false,
-                                            "optional": false
+                                            "optional": false,
+                                            "computed": false
                                           },
                                           {
                                             "type": "Literal",
@@ -229,7 +226,9 @@
                                       }
                                     }
                                   ]
-                                }
+                                },
+                                "id": null,
+                                "generator": false
                               }
                             ],
                             "optional": false
@@ -240,8 +239,8 @@
                             "end": 1751,
                             "name": "then"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -265,8 +264,8 @@
                         "end": 1771,
                         "name": "catch"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -280,11 +279,12 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",

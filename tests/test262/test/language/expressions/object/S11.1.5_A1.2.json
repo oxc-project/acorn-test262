@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 378,
       "end": 402,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 392,
                 "end": 400,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 392,
@@ -44,13 +43,14 @@
                   "value": true,
                   "raw": "true"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -65,13 +65,13 @@
           "start": 418,
           "end": 431,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 425,
             "end": 431,
             "name": "object"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -123,13 +123,13 @@
                       "start": 544,
                       "end": 557,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "Identifier",
                         "start": 551,
                         "end": 557,
                         "name": "object"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -233,8 +233,8 @@
             "end": 739,
             "name": "toString"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -257,8 +257,8 @@
               "end": 760,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -266,8 +266,8 @@
             "end": 769,
             "name": "toString"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "consequent": {
@@ -322,8 +322,8 @@
                         "end": 903,
                         "name": "toString"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 }
@@ -359,8 +359,8 @@
             "value": 1,
             "raw": "1"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "operator": "!==",
         "right": {
@@ -430,8 +430,8 @@
             "value": "1",
             "raw": "\"1\""
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "operator": "!==",
         "right": {

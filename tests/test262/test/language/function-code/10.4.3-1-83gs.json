@@ -13,7 +13,6 @@
         "end": 338,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -45,7 +44,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -61,7 +61,6 @@
         "start": 373,
         "end": 443,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 375,
@@ -79,7 +78,6 @@
                 "start": 377,
                 "end": 439,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -122,13 +120,15 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             },
             "arguments": [],
             "optional": false
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

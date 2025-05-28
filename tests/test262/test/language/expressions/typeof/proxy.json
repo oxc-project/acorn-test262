@@ -27,8 +27,8 @@
             "end": 705,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 706,
             "end": 730,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "NewExpression",
               "start": 713,
@@ -61,7 +60,8 @@
                   "properties": []
                 }
               ]
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -98,8 +98,8 @@
             "end": 760,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -107,7 +107,6 @@
             "start": 761,
             "end": 796,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "NewExpression",
               "start": 768,
@@ -124,7 +123,6 @@
                   "start": 778,
                   "end": 791,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -133,7 +131,8 @@
                     "start": 789,
                     "end": 791,
                     "body": []
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "ObjectExpression",
@@ -142,7 +141,8 @@
                   "properties": []
                 }
               ]
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -159,6 +159,7 @@
       "type": "VariableDeclaration",
       "start": 812,
       "end": 848,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -190,8 +191,8 @@
                 "end": 839,
                 "name": "revocable"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -210,8 +211,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -237,8 +237,8 @@
             "end": 859,
             "name": "revoke"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -268,8 +268,8 @@
             "end": 879,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -277,7 +277,6 @@
             "start": 880,
             "end": 896,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 887,
@@ -294,9 +293,10 @@
                 "end": 896,
                 "name": "proxy"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -313,6 +313,7 @@
       "type": "VariableDeclaration",
       "start": 910,
       "end": 957,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -344,8 +345,8 @@
                 "end": 937,
                 "name": "revocable"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -353,7 +354,6 @@
                 "start": 938,
                 "end": 951,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -362,7 +362,8 @@
                   "start": 949,
                   "end": 951,
                   "body": []
-                }
+                },
+                "expression": false
               },
               {
                 "type": "ObjectExpression",
@@ -374,8 +375,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -401,8 +401,8 @@
             "end": 968,
             "name": "revoke"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -432,8 +432,8 @@
             "end": 988,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -441,7 +441,6 @@
             "start": 989,
             "end": 1005,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 996,
@@ -458,9 +457,10 @@
                 "end": 1005,
                 "name": "proxy"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

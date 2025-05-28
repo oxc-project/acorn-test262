@@ -12,7 +12,6 @@
         "start": 325,
         "end": 358,
         "operator": "void",
-        "prefix": true,
         "argument": {
           "type": "ObjectExpression",
           "start": 330,
@@ -22,9 +21,7 @@
               "type": "Property",
               "start": 334,
               "end": 346,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "get",
               "key": {
                 "type": "Identifier",
                 "start": 338,
@@ -36,7 +33,6 @@
                 "start": 341,
                 "end": 346,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -45,17 +41,18 @@
                   "start": 344,
                   "end": 346,
                   "body": []
-                }
+                },
+                "expression": false
               },
-              "kind": "get"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             },
             {
               "type": "Property",
               "start": 350,
               "end": 356,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 350,
@@ -69,10 +66,13 @@
                 "value": 1,
                 "raw": "1"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             }
           ]
-        }
+        },
+        "prefix": true
       }
     }
   ],

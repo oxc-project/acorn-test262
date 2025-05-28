@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1520,
       "end": 1538,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -39,7 +39,6 @@
         "end": 1556,
         "name": "f"
       },
-      "expression": false,
       "generator": true,
       "async": true,
       "params": [],
@@ -72,8 +71,8 @@
                   "end": 1579,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -96,8 +95,8 @@
                       "end": 1596,
                       "name": "hasOwnProperty"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -140,7 +139,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -189,8 +189,8 @@
                     "end": 1645,
                     "name": "next"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -201,17 +201,15 @@
                 "end": 1655,
                 "name": "then"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
                 "type": "ArrowFunctionExpression",
                 "start": 1656,
                 "end": 1730,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
@@ -243,8 +241,8 @@
                             "end": 1684,
                             "name": "sameValue"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -272,7 +270,9 @@
                       }
                     }
                   ]
-                }
+                },
+                "id": null,
+                "generator": false
               },
               {
                 "type": "Identifier",
@@ -289,8 +289,8 @@
             "end": 1743,
             "name": "then"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

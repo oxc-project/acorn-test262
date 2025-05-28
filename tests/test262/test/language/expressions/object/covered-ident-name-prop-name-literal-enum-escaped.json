@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 937,
       "end": 967,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -31,9 +32,7 @@
                   "type": "Property",
                   "start": 950,
                   "end": 963,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 950,
@@ -47,14 +46,15 @@
                     "value": 42,
                     "raw": "42"
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 }
               ]
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -80,8 +80,8 @@
             "end": 985,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -101,8 +101,8 @@
               "value": "enum",
               "raw": "'enum'"
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",

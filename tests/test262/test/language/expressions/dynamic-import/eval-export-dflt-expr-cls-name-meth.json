@@ -26,21 +26,17 @@
                 "type": "MethodDefinition",
                 "start": 1164,
                 "end": 1203,
-                "static": true,
-                "computed": false,
                 "key": {
                   "type": "Identifier",
                   "start": 1171,
                   "end": 1175,
                   "name": "name"
                 },
-                "kind": "method",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1175,
                   "end": 1203,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -62,8 +58,12 @@
                         }
                       }
                     ]
-                  }
-                }
+                  },
+                  "expression": false
+                },
+                "kind": "method",
+                "computed": false,
+                "static": true
               }
             ]
           }
@@ -118,17 +118,15 @@
                     "end": 1263,
                     "name": "then"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
                     "type": "ArrowFunctionExpression",
                     "start": 1264,
                     "end": 1378,
-                    "id": null,
                     "expression": false,
-                    "generator": false,
                     "async": false,
                     "params": [
                       {
@@ -167,8 +165,8 @@
                                 "end": 1296,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -195,8 +193,8 @@
                                       "end": 1313,
                                       "name": "default"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "property": {
                                     "type": "Identifier",
@@ -204,8 +202,8 @@
                                     "end": 1318,
                                     "name": "name"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [],
                                 "optional": false
@@ -229,7 +227,9 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "id": null,
+                    "generator": false
                   }
                 ],
                 "optional": false
@@ -240,8 +240,8 @@
                 "end": 1384,
                 "name": "then"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -265,8 +265,8 @@
             "end": 1404,
             "name": "catch"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -27,8 +27,8 @@
             "end": 290,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 307,
             "end": 343,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -68,9 +67,7 @@
                           "type": "Property",
                           "start": 325,
                           "end": 337,
-                          "method": false,
-                          "shorthand": true,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 325,
@@ -83,14 +80,17 @@
                             "end": 337,
                             "name": "unresolvable"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false
                         }
                       ]
                     }
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

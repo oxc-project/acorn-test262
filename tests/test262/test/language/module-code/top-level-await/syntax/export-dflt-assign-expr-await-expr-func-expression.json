@@ -16,7 +16,6 @@
           "start": 2254,
           "end": 2267,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -25,7 +24,8 @@
             "start": 2265,
             "end": 2267,
             "body": []
-          }
+          },
+          "expression": false
         }
       }
     }

@@ -89,6 +89,7 @@
       "type": "VariableDeclaration",
       "start": 372,
       "end": 396,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -121,8 +122,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",

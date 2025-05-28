@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 273,
       "end": 285,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "1.1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 286,
       "end": 298,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -58,8 +59,7 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -139,6 +139,7 @@
       "type": "VariableDeclaration",
       "start": 414,
       "end": 439,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -166,25 +167,25 @@
                 "start": 433,
                 "end": 437,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 434,
                   "end": 437,
                   "value": 0.1,
                   "raw": "0.1"
-                }
+                },
+                "prefix": true
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 440,
       "end": 452,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -210,8 +211,7 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -233,14 +233,14 @@
           "start": 463,
           "end": 467,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 464,
             "end": 467,
             "value": 0.1,
             "raw": "0.1"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 623,
       "end": 641,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 642,
       "end": 755,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -54,7 +55,6 @@
               "end": 680,
               "name": "BindingIdentifier"
             },
-            "expression": false,
             "generator": true,
             "async": false,
             "params": [],
@@ -117,11 +117,11 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -147,8 +147,8 @@
             "end": 770,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -161,9 +161,7 @@
             "type": "ArrowFunctionExpression",
             "start": 782,
             "end": 807,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -202,15 +200,17 @@
                         "end": 802,
                         "name": "next"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -240,8 +240,8 @@
             "end": 826,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

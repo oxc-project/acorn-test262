@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 327,
       "end": 351,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,7 +24,6 @@
             "start": 337,
             "end": 350,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -32,16 +32,17 @@
               "start": 348,
               "end": 350,
               "body": []
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 398,
       "end": 417,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -58,17 +59,16 @@
             "start": 406,
             "end": 416,
             "operator": "delete",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 413,
               "end": 416,
               "name": "foo"
-            }
+            },
+            "prefix": true
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -94,8 +94,8 @@
             "end": 435,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -146,8 +146,8 @@
             "end": 468,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -155,13 +155,13 @@
             "start": 469,
             "end": 479,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 476,
               "end": 479,
               "name": "foo"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

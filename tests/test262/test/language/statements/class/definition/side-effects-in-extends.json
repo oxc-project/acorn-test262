@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 210,
       "end": 224,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -119,8 +119,8 @@
             "end": 284,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -171,8 +171,8 @@
             "end": 343,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -180,13 +180,13 @@
             "start": 344,
             "end": 352,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 351,
               "end": 352,
               "name": "D"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -230,8 +230,8 @@
             "end": 413,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -254,8 +254,8 @@
                 "end": 435,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -308,8 +308,8 @@
             "end": 502,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -328,8 +328,8 @@
               "end": 519,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "CallExpression",
@@ -351,8 +351,8 @@
                 "end": 546,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -371,8 +371,8 @@
                   "end": 558,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             ],
             "optional": false

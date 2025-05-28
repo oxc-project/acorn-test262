@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 414,
       "end": 439,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,13 +26,13 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 440,
       "end": 450,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -45,8 +46,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -58,7 +58,6 @@
         "end": 466,
         "name": "Parent"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -79,7 +78,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ClassDeclaration",
@@ -106,21 +106,17 @@
             "type": "MethodDefinition",
             "start": 531,
             "end": 571,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 531,
               "end": 542,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 542,
               "end": 571,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -159,8 +155,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -206,8 +206,8 @@
             "end": 605,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

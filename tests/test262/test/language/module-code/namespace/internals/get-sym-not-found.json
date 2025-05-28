@@ -27,8 +27,8 @@
         "value": "./get-sym-not-found.js",
         "raw": "'./get-sym-not-found.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -54,8 +54,8 @@
             "end": 513,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -89,8 +89,8 @@
               ],
               "optional": false
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Identifier",

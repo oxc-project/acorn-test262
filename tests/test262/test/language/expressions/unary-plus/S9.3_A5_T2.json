@@ -16,7 +16,6 @@
           "start": 463,
           "end": 478,
           "operator": "+",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 464,
@@ -33,7 +32,8 @@
               },
               "arguments": []
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -85,7 +85,6 @@
                       "start": 554,
                       "end": 569,
                       "operator": "+",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 555,
@@ -102,7 +101,8 @@
                           },
                           "arguments": []
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -126,7 +126,6 @@
           "start": 591,
           "end": 607,
           "operator": "+",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 592,
@@ -151,7 +150,8 @@
                 }
               ]
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -203,7 +203,6 @@
                       "start": 684,
                       "end": 700,
                       "operator": "+",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 685,
@@ -228,7 +227,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -263,7 +263,6 @@
               "start": 728,
               "end": 753,
               "operator": "+",
-              "prefix": true,
               "argument": {
                 "type": "ParenthesizedExpression",
                 "start": 729,
@@ -295,12 +294,13 @@
                         "end": 751,
                         "name": "NaN"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   ]
                 }
-              }
+              },
+              "prefix": true
             },
             "operator": "!==",
             "right": {
@@ -355,7 +355,6 @@
                       "start": 854,
                       "end": 879,
                       "operator": "+",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 855,
@@ -387,12 +386,13 @@
                                 "end": 877,
                                 "name": "NaN"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             }
                           ]
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -416,7 +416,6 @@
           "start": 901,
           "end": 920,
           "operator": "+",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 902,
@@ -441,7 +440,8 @@
                 }
               ]
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -493,7 +493,6 @@
                       "start": 1002,
                       "end": 1021,
                       "operator": "+",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 1003,
@@ -518,7 +517,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -557,7 +557,6 @@
                   "start": 1043,
                   "end": 1062,
                   "operator": "+",
-                  "prefix": true,
                   "argument": {
                     "type": "ParenthesizedExpression",
                     "start": 1044,
@@ -582,7 +581,8 @@
                         }
                       ]
                     }
-                  }
+                  },
+                  "prefix": true
                 }
               },
               "operator": "!==",
@@ -602,8 +602,8 @@
                   "end": 1091,
                   "name": "POSITIVE_INFINITY"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             },
             "consequent": {
@@ -667,7 +667,6 @@
               "start": 1200,
               "end": 1221,
               "operator": "+",
-              "prefix": true,
               "argument": {
                 "type": "ParenthesizedExpression",
                 "start": 1201,
@@ -688,18 +687,19 @@
                       "start": 1213,
                       "end": 1219,
                       "operator": "void",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 1218,
                         "end": 1219,
                         "value": 0,
                         "raw": "0"
-                      }
+                      },
+                      "prefix": true
                     }
                   ]
                 }
-              }
+              },
+              "prefix": true
             },
             "operator": "!==",
             "right": {
@@ -754,7 +754,6 @@
                       "start": 1318,
                       "end": 1339,
                       "operator": "+",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 1319,
@@ -775,18 +774,19 @@
                               "start": 1331,
                               "end": 1337,
                               "operator": "void",
-                              "prefix": true,
                               "argument": {
                                 "type": "Literal",
                                 "start": 1336,
                                 "end": 1337,
                                 "value": 0,
                                 "raw": "0"
-                              }
+                              },
+                              "prefix": true
                             }
                           ]
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -810,7 +810,6 @@
           "start": 1361,
           "end": 1380,
           "operator": "+",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 1362,
@@ -835,7 +834,8 @@
                 }
               ]
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -887,7 +887,6 @@
                       "start": 1460,
                       "end": 1479,
                       "operator": "+",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 1461,
@@ -912,7 +911,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -936,7 +936,6 @@
           "start": 1501,
           "end": 1521,
           "operator": "+",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 1502,
@@ -961,7 +960,8 @@
                 }
               ]
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -969,14 +969,14 @@
           "start": 1526,
           "end": 1528,
           "operator": "+",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 1527,
             "end": 1528,
             "value": 0,
             "raw": "0"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -1020,7 +1020,6 @@
                       "start": 1605,
                       "end": 1625,
                       "operator": "+",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 1606,
@@ -1045,7 +1044,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -1084,7 +1084,6 @@
                   "start": 1646,
                   "end": 1666,
                   "operator": "+",
-                  "prefix": true,
                   "argument": {
                     "type": "ParenthesizedExpression",
                     "start": 1647,
@@ -1109,7 +1108,8 @@
                         }
                       ]
                     }
-                  }
+                  },
+                  "prefix": true
                 }
               },
               "operator": "!==",
@@ -1129,8 +1129,8 @@
                   "end": 1695,
                   "name": "POSITIVE_INFINITY"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             },
             "consequent": {
@@ -1183,7 +1183,6 @@
           "start": 1798,
           "end": 1818,
           "operator": "+",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 1799,
@@ -1208,7 +1207,8 @@
                 }
               ]
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -1260,7 +1260,6 @@
                       "start": 1899,
                       "end": 1919,
                       "operator": "+",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 1900,
@@ -1285,7 +1284,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -1309,7 +1309,6 @@
           "start": 1941,
           "end": 1962,
           "operator": "+",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 1942,
@@ -1334,7 +1333,8 @@
                 }
               ]
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -1342,14 +1342,14 @@
           "start": 1967,
           "end": 1969,
           "operator": "+",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 1968,
             "end": 1969,
             "value": 0,
             "raw": "0"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -1393,7 +1393,6 @@
                       "start": 2047,
                       "end": 2068,
                       "operator": "+",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 2048,
@@ -1418,7 +1417,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -1457,7 +1457,6 @@
                   "start": 2089,
                   "end": 2110,
                   "operator": "+",
-                  "prefix": true,
                   "argument": {
                     "type": "ParenthesizedExpression",
                     "start": 2090,
@@ -1482,7 +1481,8 @@
                         }
                       ]
                     }
-                  }
+                  },
+                  "prefix": true
                 }
               },
               "operator": "!==",
@@ -1502,8 +1502,8 @@
                   "end": 2139,
                   "name": "POSITIVE_INFINITY"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             },
             "consequent": {
@@ -1567,7 +1567,6 @@
               "start": 2250,
               "end": 2275,
               "operator": "+",
-              "prefix": true,
               "argument": {
                 "type": "ParenthesizedExpression",
                 "start": 2251,
@@ -1620,7 +1619,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -1675,7 +1675,6 @@
                       "start": 2377,
                       "end": 2402,
                       "operator": "+",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 2378,
@@ -1728,7 +1727,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -1743,6 +1743,7 @@
       "type": "VariableDeclaration",
       "start": 2421,
       "end": 2626,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1763,9 +1764,7 @@
                 "type": "Property",
                 "start": 2452,
                 "end": 2488,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 2452,
@@ -1777,7 +1776,6 @@
                   "start": 2463,
                   "end": 2488,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -1799,17 +1797,18 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 2507,
                 "end": 2545,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 2507,
@@ -1821,7 +1820,6 @@
                   "start": 2518,
                   "end": 2545,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -1843,17 +1841,18 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 2563,
                 "end": 2610,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 2563,
@@ -1865,7 +1864,6 @@
                   "start": 2574,
                   "end": 2610,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -1887,15 +1885,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -1921,7 +1921,6 @@
               "start": 2638,
               "end": 2647,
               "operator": "+",
-              "prefix": true,
               "argument": {
                 "type": "ParenthesizedExpression",
                 "start": 2639,
@@ -1932,7 +1931,8 @@
                   "end": 2646,
                   "name": "myobj1"
                 }
-              }
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -1987,7 +1987,6 @@
                       "start": 2770,
                       "end": 2779,
                       "operator": "+",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 2771,
@@ -1998,7 +1997,8 @@
                           "end": 2778,
                           "name": "myobj1"
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -2013,6 +2013,7 @@
       "type": "VariableDeclaration",
       "start": 2798,
       "end": 2999,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2033,9 +2034,7 @@
                 "type": "Property",
                 "start": 2829,
                 "end": 2865,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 2829,
@@ -2047,7 +2046,6 @@
                   "start": 2840,
                   "end": 2865,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -2069,17 +2067,18 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 2884,
                 "end": 2922,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 2884,
@@ -2091,7 +2090,6 @@
                   "start": 2895,
                   "end": 2922,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -2113,17 +2111,18 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 2940,
                 "end": 2983,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 2940,
@@ -2135,7 +2134,6 @@
                   "start": 2951,
                   "end": 2983,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -2157,15 +2155,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -2180,7 +2180,6 @@
           "start": 3005,
           "end": 3014,
           "operator": "+",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 3006,
@@ -2191,7 +2190,8 @@
               "end": 3013,
               "name": "myobj2"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -2243,7 +2243,6 @@
                       "start": 3140,
                       "end": 3149,
                       "operator": "+",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 3141,
@@ -2254,7 +2253,8 @@
                           "end": 3148,
                           "name": "myobj2"
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -2269,6 +2269,7 @@
       "type": "VariableDeclaration",
       "start": 3169,
       "end": 3318,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2289,9 +2290,7 @@
                 "type": "Property",
                 "start": 3200,
                 "end": 3236,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 3200,
@@ -2303,7 +2302,6 @@
                   "start": 3211,
                   "end": 3236,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -2325,17 +2323,18 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 3255,
                 "end": 3302,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 3255,
@@ -2347,7 +2346,6 @@
                   "start": 3266,
                   "end": 3302,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -2369,15 +2367,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -2403,7 +2403,6 @@
               "start": 3330,
               "end": 3339,
               "operator": "+",
-              "prefix": true,
               "argument": {
                 "type": "ParenthesizedExpression",
                 "start": 3331,
@@ -2414,7 +2413,8 @@
                   "end": 3338,
                   "name": "myobj3"
                 }
-              }
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -2469,7 +2469,6 @@
                       "start": 3462,
                       "end": 3471,
                       "operator": "+",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 3463,
@@ -2480,7 +2479,8 @@
                           "end": 3470,
                           "name": "myobj3"
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -2495,6 +2495,7 @@
       "type": "VariableDeclaration",
       "start": 3490,
       "end": 3630,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2515,9 +2516,7 @@
                 "type": "Property",
                 "start": 3521,
                 "end": 3557,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 3521,
@@ -2529,7 +2528,6 @@
                   "start": 3532,
                   "end": 3557,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -2551,17 +2549,18 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 3576,
                 "end": 3614,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 3576,
@@ -2573,7 +2572,6 @@
                   "start": 3587,
                   "end": 3614,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -2595,15 +2593,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -2618,7 +2618,6 @@
           "start": 3636,
           "end": 3645,
           "operator": "+",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 3637,
@@ -2629,7 +2628,8 @@
               "end": 3644,
               "name": "myobj4"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -2681,7 +2681,6 @@
                       "start": 3761,
                       "end": 3770,
                       "operator": "+",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 3762,
@@ -2692,7 +2691,8 @@
                           "end": 3769,
                           "name": "myobj4"
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -2707,6 +2707,7 @@
       "type": "VariableDeclaration",
       "start": 3789,
       "end": 3872,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2727,9 +2728,7 @@
                 "type": "Property",
                 "start": 3820,
                 "end": 3856,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 3820,
@@ -2741,7 +2740,6 @@
                   "start": 3831,
                   "end": 3856,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -2763,15 +2761,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -2797,7 +2797,6 @@
               "start": 3884,
               "end": 3893,
               "operator": "+",
-              "prefix": true,
               "argument": {
                 "type": "ParenthesizedExpression",
                 "start": 3885,
@@ -2808,7 +2807,8 @@
                   "end": 3892,
                   "name": "myobj5"
                 }
-              }
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -2863,7 +2863,6 @@
                       "start": 4009,
                       "end": 4018,
                       "operator": "+",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 4010,
@@ -2874,7 +2873,8 @@
                           "end": 4017,
                           "name": "myobj5"
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }

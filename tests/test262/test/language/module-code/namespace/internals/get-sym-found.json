@@ -27,8 +27,8 @@
         "value": "./get-sym-found.js",
         "raw": "'./get-sym-found.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -54,8 +54,8 @@
             "end": 518,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -63,7 +63,6 @@
             "start": 519,
             "end": 548,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 526,
@@ -90,12 +89,13 @@
                   "end": 547,
                   "name": "toStringTag"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
-              "computed": true,
-              "optional": false
-            }
+              "optional": false,
+              "computed": true
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

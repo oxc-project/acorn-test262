@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 868,
       "end": 888,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -32,13 +33,13 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 889,
       "end": 907,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -58,13 +59,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 908,
       "end": 1046,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -85,9 +86,7 @@
                 "type": "Property",
                 "start": 930,
                 "end": 1043,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 930,
@@ -99,7 +98,6 @@
                   "start": 936,
                   "end": 1043,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -190,9 +188,7 @@
                               "type": "Property",
                               "start": 1026,
                               "end": 1036,
-                              "method": false,
-                              "shorthand": false,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1026,
@@ -206,26 +202,31 @@
                                 "value": true,
                                 "raw": "true"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false
                             }
                           ]
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1047,
       "end": 1068,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -244,8 +245,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -282,18 +282,17 @@
               "end": 1096,
               "name": "iterator"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "FunctionExpression",
           "start": 1100,
           "end": 1136,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -314,7 +313,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -328,7 +328,6 @@
         "end": 1149,
         "name": "g"
       },
-      "expression": false,
       "generator": true,
       "async": false,
       "params": [],
@@ -355,12 +354,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 1179,
       "end": 1194,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -386,8 +387,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -413,8 +413,8 @@
             "end": 1205,
             "name": "next"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -452,8 +452,8 @@
             "end": 1230,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -497,8 +497,8 @@
             "end": 1262,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -517,8 +517,8 @@
               "end": 1274,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -555,8 +555,8 @@
             "end": 1296,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -576,8 +576,8 @@
               "value": 0,
               "raw": "0"
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Identifier",
@@ -613,8 +613,8 @@
             "end": 1334,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

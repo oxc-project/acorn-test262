@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 952,
       "end": 990,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -42,8 +43,8 @@
                   "end": 980,
                   "name": "createRealm"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
@@ -54,17 +55,17 @@
               "end": 989,
               "name": "global"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 991,
       "end": 1014,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -90,8 +91,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -121,7 +121,6 @@
               "start": 1028,
               "end": 1065,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -149,14 +148,14 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           },
           "quasi": {
             "type": "TemplateLiteral",
             "start": 1066,
             "end": 1072,
-            "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -168,7 +167,8 @@
                 },
                 "tail": true
               }
-            ]
+            ],
+            "expressions": []
           }
         }
       }
@@ -208,8 +208,8 @@
               "end": 1095,
               "name": "eval"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -248,8 +248,8 @@
             "end": 1166,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

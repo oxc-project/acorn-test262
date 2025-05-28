@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 280,
       "end": 295,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -133,6 +133,7 @@
       "type": "VariableDeclaration",
       "start": 465,
       "end": 493,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -152,8 +153,7 @@
             "raw": "\"MAX_VALUE\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 700,
       "end": 718,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "null"
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -49,35 +49,31 @@
             "type": "PropertyDefinition",
             "start": 732,
             "end": 739,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 732,
               "end": 738,
               "name": "field"
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 743,
             "end": 1241,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 743,
               "end": 754,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 754,
               "end": 1241,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -177,8 +173,12 @@
                     "finalizer": null
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -224,8 +224,8 @@
             "end": 1274,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -269,8 +269,8 @@
             "end": 1306,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -289,8 +289,8 @@
               "end": 1325,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",

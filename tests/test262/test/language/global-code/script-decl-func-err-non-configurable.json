@@ -27,8 +27,8 @@
             "end": 1361,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -52,9 +52,7 @@
                 "type": "Property",
                 "start": 1386,
                 "end": 1405,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1386,
@@ -68,15 +66,15 @@
                   "value": false,
                   "raw": "false"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1407,
                 "end": 1415,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1407,
@@ -90,15 +88,15 @@
                   "value": 0,
                   "raw": "0"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1417,
                 "end": 1431,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1417,
@@ -112,15 +110,15 @@
                   "value": true,
                   "raw": "true"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1433,
                 "end": 1450,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1433,
@@ -134,7 +132,9 @@
                   "value": false,
                   "raw": "false"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -166,8 +166,8 @@
             "end": 1478,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -191,9 +191,7 @@
                 "type": "Property",
                 "start": 1503,
                 "end": 1522,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1503,
@@ -207,15 +205,15 @@
                   "value": false,
                   "raw": "false"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1524,
                 "end": 1532,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1524,
@@ -229,15 +227,15 @@
                   "value": 0,
                   "raw": "0"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1534,
                 "end": 1549,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1534,
@@ -251,15 +249,15 @@
                   "value": false,
                   "raw": "false"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1551,
                 "end": 1567,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1551,
@@ -273,7 +271,9 @@
                   "value": true,
                   "raw": "true"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -305,8 +305,8 @@
             "end": 1595,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -330,9 +330,7 @@
                 "type": "Property",
                 "start": 1620,
                 "end": 1639,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1620,
@@ -346,15 +344,15 @@
                   "value": false,
                   "raw": "false"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1641,
                 "end": 1649,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1641,
@@ -368,15 +366,15 @@
                   "value": 0,
                   "raw": "0"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1651,
                 "end": 1666,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1651,
@@ -390,15 +388,15 @@
                   "value": false,
                   "raw": "false"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1668,
                 "end": 1685,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1668,
@@ -412,7 +410,9 @@
                   "value": false,
                   "raw": "false"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -444,8 +444,8 @@
             "end": 1713,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -469,9 +469,7 @@
                 "type": "Property",
                 "start": 1747,
                 "end": 1766,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1747,
@@ -485,15 +483,15 @@
                   "value": false,
                   "raw": "false"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1772,
                 "end": 1790,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1772,
@@ -505,7 +503,6 @@
                   "start": 1777,
                   "end": 1790,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -514,17 +511,18 @@
                     "start": 1788,
                     "end": 1790,
                     "body": []
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1796,
                 "end": 1814,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1796,
@@ -536,7 +534,6 @@
                   "start": 1801,
                   "end": 1814,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -545,17 +542,18 @@
                     "start": 1812,
                     "end": 1814,
                     "body": []
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1820,
                 "end": 1836,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1820,
@@ -569,7 +567,9 @@
                   "value": true,
                   "raw": "true"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -601,8 +601,8 @@
             "end": 1866,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -626,9 +626,7 @@
                 "type": "Property",
                 "start": 1900,
                 "end": 1919,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1900,
@@ -642,15 +640,15 @@
                   "value": false,
                   "raw": "false"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1925,
                 "end": 1943,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1925,
@@ -662,7 +660,6 @@
                   "start": 1930,
                   "end": 1943,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -671,17 +668,18 @@
                     "start": 1941,
                     "end": 1943,
                     "body": []
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1949,
                 "end": 1967,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1949,
@@ -693,7 +691,6 @@
                   "start": 1954,
                   "end": 1967,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -702,17 +699,18 @@
                     "start": 1965,
                     "end": 1967,
                     "body": []
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1973,
                 "end": 1989,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1973,
@@ -726,7 +724,9 @@
                   "value": true,
                   "raw": "true"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -758,8 +758,8 @@
             "end": 2011,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -773,7 +773,6 @@
             "start": 2023,
             "end": 2086,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -806,8 +805,8 @@
                         "end": 2053,
                         "name": "evalScript"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -822,7 +821,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -859,8 +859,8 @@
             "end": 2144,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -874,7 +874,6 @@
             "start": 2161,
             "end": 2180,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -895,7 +894,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -932,8 +932,8 @@
             "end": 2264,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -947,7 +947,6 @@
             "start": 2276,
             "end": 2339,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -980,8 +979,8 @@
                         "end": 2306,
                         "name": "evalScript"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -996,7 +995,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1033,8 +1033,8 @@
             "end": 2397,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1048,7 +1048,6 @@
             "start": 2414,
             "end": 2433,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1069,7 +1068,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1106,8 +1106,8 @@
             "end": 2517,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1121,7 +1121,6 @@
             "start": 2529,
             "end": 2592,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1154,8 +1153,8 @@
                         "end": 2559,
                         "name": "evalScript"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1170,7 +1169,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1207,8 +1207,8 @@
             "end": 2654,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1222,7 +1222,6 @@
             "start": 2671,
             "end": 2690,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1243,7 +1242,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1280,8 +1280,8 @@
             "end": 2778,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1295,7 +1295,6 @@
             "start": 2790,
             "end": 2857,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1328,8 +1327,8 @@
                         "end": 2820,
                         "name": "evalScript"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1344,7 +1343,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1381,8 +1381,8 @@
             "end": 2905,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1396,7 +1396,6 @@
             "start": 2922,
             "end": 2941,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1417,7 +1416,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1454,8 +1454,8 @@
             "end": 3014,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1469,7 +1469,6 @@
             "start": 3026,
             "end": 3093,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1502,8 +1501,8 @@
                         "end": 3056,
                         "name": "evalScript"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1518,7 +1517,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1555,8 +1555,8 @@
             "end": 3145,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1570,7 +1570,6 @@
             "start": 3162,
             "end": 3181,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1591,7 +1590,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

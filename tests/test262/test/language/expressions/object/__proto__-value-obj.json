@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 658,
       "end": 673,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,13 +26,13 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 675,
       "end": 711,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,9 +53,7 @@
                 "type": "Property",
                 "start": 692,
                 "end": 708,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 692,
@@ -67,13 +66,14 @@
                   "end": 708,
                   "name": "proto"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -99,8 +99,8 @@
             "end": 729,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -123,8 +123,8 @@
                 "end": 751,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -170,8 +170,8 @@
             "end": 785,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -194,8 +194,8 @@
                 "end": 820,
                 "name": "getOwnPropertyDescriptor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

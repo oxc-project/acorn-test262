@@ -128,7 +128,6 @@
         "start": 515,
         "end": 532,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 516,
@@ -153,7 +152,8 @@
               "raw": "false"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -198,7 +198,6 @@
         "start": 601,
         "end": 618,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 602,
@@ -223,7 +222,8 @@
               "raw": "true"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

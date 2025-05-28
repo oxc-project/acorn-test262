@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1627,
       "end": 1645,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1646,
       "end": 1652,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -46,8 +47,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -69,7 +69,6 @@
           "start": 1657,
           "end": 1771,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [
@@ -151,8 +150,8 @@
                           "end": 1704,
                           "name": "isArray"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -192,8 +191,8 @@
                       "end": 1731,
                       "name": "compareArray"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -257,7 +256,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -303,8 +303,8 @@
             "end": 1795,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

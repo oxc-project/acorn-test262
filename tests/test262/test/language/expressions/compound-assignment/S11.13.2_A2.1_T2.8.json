@@ -16,6 +16,7 @@
             "type": "VariableDeclaration",
             "start": 333,
             "end": 343,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -35,13 +36,13 @@
                   "raw": "1"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 346,
             "end": 365,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -77,8 +78,7 @@
                   }
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",

@@ -15,8 +15,8 @@
         "value": "./eval-rqstd-abrupt-err-type_FIXTURE.js",
         "raw": "'./eval-rqstd-abrupt-err-type_FIXTURE.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -30,8 +30,8 @@
         "value": "./eval-rqstd-abrupt-err-uri_FIXTURE.js",
         "raw": "'./eval-rqstd-abrupt-err-uri_FIXTURE.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ThrowStatement",

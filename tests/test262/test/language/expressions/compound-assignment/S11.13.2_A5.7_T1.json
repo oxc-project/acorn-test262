@@ -13,7 +13,6 @@
         "end": 676,
         "name": "testFunction"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -26,6 +25,7 @@
             "type": "VariableDeclaration",
             "start": 683,
             "end": 693,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -45,13 +45,13 @@
                   "raw": "0"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 696,
             "end": 772,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -72,9 +72,7 @@
                       "type": "Property",
                       "start": 714,
                       "end": 767,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "get",
                       "key": {
                         "type": "Identifier",
                         "start": 718,
@@ -86,7 +84,6 @@
                         "start": 719,
                         "end": 767,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -104,7 +101,6 @@
                                 "start": 730,
                                 "end": 743,
                                 "operator": "delete",
-                                "prefix": true,
                                 "argument": {
                                   "type": "MemberExpression",
                                   "start": 737,
@@ -120,9 +116,10 @@
                                     "end": 743,
                                     "name": "x"
                                   },
-                                  "computed": false,
-                                  "optional": false
-                                }
+                                  "optional": false,
+                                  "computed": false
+                                },
+                                "prefix": true
                               }
                             },
                             {
@@ -138,15 +135,17 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       },
-                      "kind": "get"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "WithStatement",
@@ -214,8 +213,8 @@
                   "end": 822,
                   "name": "x"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "operator": "!==",
               "right": {
@@ -278,8 +277,8 @@
                               "end": 899,
                               "name": "x"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           }
                         }
                       }
@@ -365,7 +364,8 @@
             "alternate": null
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

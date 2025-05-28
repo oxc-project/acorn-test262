@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 2552,
       "end": 2570,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -49,21 +49,17 @@
             "type": "MethodDefinition",
             "start": 2583,
             "end": 2696,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 2590,
               "end": 2596,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 2596,
               "end": 2696,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -86,9 +82,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 2606,
                         "end": 2614,
-                        "id": null,
                         "expression": false,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -96,7 +90,9 @@
                           "start": 2612,
                           "end": 2614,
                           "body": []
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       }
                     }
                   ]
@@ -131,8 +127,8 @@
                           "end": 2639,
                           "name": "sameValue"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -151,8 +147,8 @@
                             "end": 2650,
                             "name": "name"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         {
                           "type": "Literal",
@@ -202,8 +198,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           }
         ]
       }
@@ -237,8 +237,8 @@
             "end": 2709,
             "name": "method"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -275,8 +275,8 @@
             "end": 2731,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

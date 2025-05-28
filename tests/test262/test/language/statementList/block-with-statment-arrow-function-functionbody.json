@@ -12,6 +12,12 @@
           "type": "LabeledStatement",
           "start": 1199,
           "end": 1211,
+          "label": {
+            "type": "Identifier",
+            "start": 1199,
+            "end": 1205,
+            "name": "length"
+          },
           "body": {
             "type": "ExpressionStatement",
             "start": 1207,
@@ -23,12 +29,6 @@
               "value": 3000,
               "raw": "3000"
             }
-          },
-          "label": {
-            "type": "Identifier",
-            "start": 1199,
-            "end": 1205,
-            "name": "length"
           }
         }
       ]
@@ -41,9 +41,7 @@
         "type": "ArrowFunctionExpression",
         "start": 1212,
         "end": 1232,
-        "id": null,
         "expression": false,
-        "generator": false,
         "async": false,
         "params": [],
         "body": {
@@ -64,7 +62,9 @@
               }
             }
           ]
-        }
+        },
+        "id": null,
+        "generator": false
       }
     }
   ],

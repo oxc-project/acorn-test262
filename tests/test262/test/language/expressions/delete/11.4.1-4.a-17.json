@@ -13,7 +13,6 @@
         "end": 472,
         "name": "foo"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -39,6 +38,7 @@
             "type": "VariableDeclaration",
             "start": 483,
             "end": 511,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -55,7 +55,6 @@
                   "start": 491,
                   "end": 510,
                   "operator": "delete",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 498,
@@ -73,13 +72,13 @@
                       "value": 0,
                       "raw": "0"
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ReturnStatement",
@@ -130,8 +129,8 @@
                     "value": 0,
                     "raw": "0"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 "operator": "===",
                 "right": {
@@ -144,7 +143,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -170,8 +170,8 @@
             "end": 582,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

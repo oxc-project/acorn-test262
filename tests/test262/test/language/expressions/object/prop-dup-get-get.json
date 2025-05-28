@@ -12,7 +12,6 @@
         "start": 254,
         "end": 293,
         "operator": "void",
-        "prefix": true,
         "argument": {
           "type": "ObjectExpression",
           "start": 259,
@@ -22,9 +21,7 @@
               "type": "Property",
               "start": 263,
               "end": 275,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "get",
               "key": {
                 "type": "Identifier",
                 "start": 267,
@@ -36,7 +33,6 @@
                 "start": 270,
                 "end": 275,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -45,17 +41,18 @@
                   "start": 273,
                   "end": 275,
                   "body": []
-                }
+                },
+                "expression": false
               },
-              "kind": "get"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             },
             {
               "type": "Property",
               "start": 279,
               "end": 291,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "get",
               "key": {
                 "type": "Identifier",
                 "start": 283,
@@ -67,7 +64,6 @@
                 "start": 286,
                 "end": 291,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -76,12 +72,16 @@
                   "start": 289,
                   "end": 291,
                   "body": []
-                }
+                },
+                "expression": false
               },
-              "kind": "get"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             }
           ]
-        }
+        },
+        "prefix": true
       }
     }
   ],

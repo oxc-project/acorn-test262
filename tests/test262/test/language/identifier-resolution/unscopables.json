@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 568,
       "end": 579,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "86"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -63,11 +63,11 @@
               "end": 603,
               "name": "unscopables"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "ObjectExpression",
@@ -78,9 +78,7 @@
               "type": "Property",
               "start": 611,
               "end": 618,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 611,
@@ -94,7 +92,9 @@
                 "value": true,
                 "raw": "true"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             }
           ]
         }
@@ -124,8 +124,8 @@
             "end": 638,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

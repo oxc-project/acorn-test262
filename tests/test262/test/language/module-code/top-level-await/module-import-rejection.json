@@ -33,8 +33,8 @@
         "value": "./module-import-rejection_FIXTURE.js",
         "raw": "'./module-import-rejection_FIXTURE.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ThrowStatement",

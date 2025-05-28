@@ -12,7 +12,6 @@
         "start": 268,
         "end": 330,
         "operator": "void",
-        "prefix": true,
         "argument": {
           "type": "ObjectExpression",
           "start": 273,
@@ -22,9 +21,7 @@
               "type": "Property",
               "start": 277,
               "end": 292,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "set",
               "key": {
                 "type": "Identifier",
                 "start": 281,
@@ -36,7 +33,6 @@
                 "start": 284,
                 "end": 292,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [
@@ -52,17 +48,18 @@
                   "start": 290,
                   "end": 292,
                   "body": []
-                }
+                },
+                "expression": false
               },
-              "kind": "set"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             },
             {
               "type": "Property",
               "start": 296,
               "end": 308,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "get",
               "key": {
                 "type": "Identifier",
                 "start": 300,
@@ -74,7 +71,6 @@
                 "start": 303,
                 "end": 308,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -83,17 +79,18 @@
                   "start": 306,
                   "end": 308,
                   "body": []
-                }
+                },
+                "expression": false
               },
-              "kind": "get"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             },
             {
               "type": "Property",
               "start": 312,
               "end": 328,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "set",
               "key": {
                 "type": "Identifier",
                 "start": 316,
@@ -105,7 +102,6 @@
                 "start": 319,
                 "end": 328,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [
@@ -121,12 +117,16 @@
                   "start": 326,
                   "end": 328,
                   "body": []
-                }
+                },
+                "expression": false
               },
-              "kind": "set"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             }
           ]
-        }
+        },
+        "prefix": true
       }
     }
   ],

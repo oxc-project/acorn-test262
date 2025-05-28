@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1910,
       "end": 1967,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,7 +24,6 @@
             "start": 1918,
             "end": 1966,
             "id": null,
-            "expression": false,
             "generator": true,
             "async": false,
             "params": [
@@ -68,11 +68,11 @@
               "start": 1964,
               "end": 1966,
               "body": []
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -98,8 +98,8 @@
             "end": 1982,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -113,7 +113,6 @@
             "start": 1999,
             "end": 2020,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -141,7 +140,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

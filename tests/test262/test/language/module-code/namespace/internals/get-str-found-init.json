@@ -27,8 +27,8 @@
         "value": "./get-str-found-init.js",
         "raw": "'./get-str-found-init.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -38,6 +38,7 @@
         "type": "VariableDeclaration",
         "start": 554,
         "end": 570,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -57,8 +58,7 @@
               "raw": "23"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "specifiers": [],
       "source": null,
@@ -68,6 +68,7 @@
       "type": "VariableDeclaration",
       "start": 571,
       "end": 587,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -87,8 +88,7 @@
             "raw": "45"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExportNamedDeclaration",
@@ -186,8 +186,8 @@
             "end": 717,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -206,8 +206,8 @@
               "end": 727,
               "name": "local1"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -244,8 +244,8 @@
             "end": 750,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -264,8 +264,8 @@
               "end": 761,
               "name": "renamed"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -302,8 +302,8 @@
             "end": 784,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -322,8 +322,8 @@
               "end": 796,
               "name": "indirect"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -360,8 +360,8 @@
             "end": 819,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -380,8 +380,8 @@
               "end": 830,
               "name": "default"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

@@ -12,7 +12,6 @@
         "start": 268,
         "end": 280,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 269,
@@ -26,14 +25,14 @@
               "start": 270,
               "end": 272,
               "operator": "+",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 271,
                 "end": 272,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             },
             "operator": "===",
             "right": {
@@ -41,17 +40,18 @@
               "start": 277,
               "end": 279,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 278,
                 "end": 279,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -96,7 +96,6 @@
         "start": 344,
         "end": 356,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 345,
@@ -110,14 +109,14 @@
               "start": 346,
               "end": 348,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 347,
                 "end": 348,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             },
             "operator": "===",
             "right": {
@@ -125,17 +124,18 @@
               "start": 353,
               "end": 355,
               "operator": "+",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 354,
                 "end": 355,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

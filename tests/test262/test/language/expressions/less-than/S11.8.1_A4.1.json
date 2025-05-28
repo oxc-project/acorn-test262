@@ -35,8 +35,8 @@
                 "end": 306,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "<",
             "right": {
@@ -123,8 +123,8 @@
                 "end": 406,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "<",
             "right": {
@@ -211,8 +211,8 @@
                 "end": 510,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "<",
             "right": {
@@ -220,14 +220,14 @@
               "start": 513,
               "end": 517,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 514,
                 "end": 517,
                 "value": 1.1,
                 "raw": "1.1"
-              }
+              },
+              "prefix": true
             }
           }
         },
@@ -306,8 +306,8 @@
                 "end": 616,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "<",
             "right": {
@@ -326,8 +326,8 @@
                 "end": 629,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         },
@@ -406,8 +406,8 @@
                 "end": 727,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "<",
             "right": {
@@ -426,8 +426,8 @@
                 "end": 754,
                 "name": "POSITIVE_INFINITY"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         },
@@ -506,8 +506,8 @@
                 "end": 858,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "<",
             "right": {
@@ -526,8 +526,8 @@
                 "end": 885,
                 "name": "NEGATIVE_INFINITY"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         },
@@ -606,8 +606,8 @@
                 "end": 989,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "<",
             "right": {
@@ -626,8 +626,8 @@
                 "end": 1008,
                 "name": "MAX_VALUE"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         },
@@ -706,8 +706,8 @@
                 "end": 1119,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "<",
             "right": {
@@ -726,8 +726,8 @@
                 "end": 1138,
                 "name": "MIN_VALUE"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         },

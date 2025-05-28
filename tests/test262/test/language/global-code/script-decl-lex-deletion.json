@@ -27,8 +27,8 @@
             "end": 734,
             "name": "evalScript"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -51,13 +51,13 @@
         "start": 756,
         "end": 773,
         "operator": "delete",
-        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 763,
           "end": 773,
           "name": "test262let"
-        }
+        },
+        "prefix": true
       }
     },
     {
@@ -95,8 +95,8 @@
             "end": 948,
             "name": "evalScript"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -119,13 +119,13 @@
         "start": 981,
         "end": 1000,
         "operator": "delete",
-        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 988,
           "end": 1000,
           "name": "test262const"
-        }
+        },
+        "prefix": true
       }
     },
     {
@@ -163,8 +163,8 @@
             "end": 1033,
             "name": "evalScript"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -187,13 +187,13 @@
         "start": 1061,
         "end": 1080,
         "operator": "delete",
-        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 1068,
           "end": 1080,
           "name": "test262class"
-        }
+        },
+        "prefix": true
       }
     },
     {

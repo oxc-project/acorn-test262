@@ -45,8 +45,8 @@
         "value": "./instn-star-err-not-found-faulty_FIXTURE.js",
         "raw": "'./instn-star-err-not-found-faulty_FIXTURE.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     }
   ],
   "sourceType": "module",

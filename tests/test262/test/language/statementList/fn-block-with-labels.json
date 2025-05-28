@@ -13,7 +13,6 @@
         "end": 949,
         "name": "fn"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,7 +21,8 @@
         "start": 952,
         "end": 954,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "BlockStatement",
@@ -33,6 +33,12 @@
           "type": "LabeledStatement",
           "start": 955,
           "end": 960,
+          "label": {
+            "type": "Identifier",
+            "start": 955,
+            "end": 956,
+            "name": "x"
+          },
           "body": {
             "type": "ExpressionStatement",
             "start": 958,
@@ -44,12 +50,6 @@
               "value": 42,
               "raw": "42"
             }
-          },
-          "label": {
-            "type": "Identifier",
-            "start": 955,
-            "end": 956,
-            "name": "x"
           }
         }
       ]

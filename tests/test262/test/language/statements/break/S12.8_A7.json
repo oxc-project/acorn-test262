@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 326,
       "end": 338,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -44,8 +45,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -60,6 +60,12 @@
             "type": "LabeledStatement",
             "start": 435,
             "end": 520,
+            "label": {
+              "type": "Identifier",
+              "start": 435,
+              "end": 441,
+              "name": "LABEL1"
+            },
             "body": {
               "type": "DoWhileStatement",
               "start": 444,
@@ -140,12 +146,6 @@
                 "value": 0,
                 "raw": "0"
               }
-            },
-            "label": {
-              "type": "Identifier",
-              "start": 435,
-              "end": 441,
-              "name": "LABEL1"
             }
           },
           {
@@ -199,7 +199,6 @@
                 "start": 626,
                 "end": 653,
                 "operator": "!",
-                "prefix": true,
                 "argument": {
                   "type": "ParenthesizedExpression",
                   "start": 627,
@@ -222,7 +221,8 @@
                       "name": "SyntaxError"
                     }
                   }
-                }
+                },
+                "prefix": true
               },
               "consequent": {
                 "type": "BlockStatement",

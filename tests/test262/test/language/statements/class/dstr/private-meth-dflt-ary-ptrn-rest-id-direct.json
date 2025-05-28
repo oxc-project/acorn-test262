@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 2409,
       "end": 2427,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -49,21 +49,17 @@
             "type": "MethodDefinition",
             "start": 2440,
             "end": 2561,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 2440,
               "end": 2447,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 2447,
               "end": 2561,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -145,8 +141,8 @@
                               "end": 2488,
                               "name": "isArray"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -186,8 +182,8 @@
                           "end": 2517,
                           "name": "compareArray"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -251,28 +247,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 2565,
             "end": 2608,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 2569,
               "end": 2575,
               "name": "method"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 2575,
               "end": 2608,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -300,13 +296,17 @@
                         "end": 2603,
                         "name": "method"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -346,8 +346,8 @@
             "end": 2627,
             "name": "method"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -377,8 +377,8 @@
             "end": 2647,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

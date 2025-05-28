@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 394,
       "end": 413,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 414,
       "end": 438,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,8 +53,7 @@
             "raw": "2"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "BlockStatement",
@@ -64,6 +64,7 @@
           "type": "VariableDeclaration",
           "start": 442,
           "end": 461,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -83,8 +84,7 @@
                 "raw": "3"
               }
             }
-          ],
-          "kind": "let"
+          ]
         }
       ]
     },
@@ -97,6 +97,7 @@
           "type": "VariableDeclaration",
           "start": 466,
           "end": 490,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -116,8 +117,7 @@
                 "raw": "4"
               }
             }
-          ],
-          "kind": "let"
+          ]
         }
       ]
     },
@@ -130,6 +130,7 @@
           "type": "VariableDeclaration",
           "start": 496,
           "end": 517,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -149,8 +150,7 @@
                 "raw": "5"
               }
             }
-          ],
-          "kind": "const"
+          ]
         }
       ]
     },
@@ -163,6 +163,7 @@
           "type": "VariableDeclaration",
           "start": 522,
           "end": 548,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -182,8 +183,7 @@
                 "raw": "6"
               }
             }
-          ],
-          "kind": "const"
+          ]
         }
       ]
     }

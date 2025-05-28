@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1543,
       "end": 1557,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -63,18 +63,17 @@
               "end": 1578,
               "name": "iterator"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "FunctionExpression",
           "start": 1582,
           "end": 1624,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -101,7 +100,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -109,6 +109,7 @@
       "type": "VariableDeclaration",
       "start": 1627,
       "end": 1660,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -125,7 +126,6 @@
             "start": 1635,
             "end": 1659,
             "id": null,
-            "expression": false,
             "generator": true,
             "async": false,
             "params": [
@@ -159,11 +159,11 @@
               "start": 1657,
               "end": 1659,
               "body": []
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -189,8 +189,8 @@
             "end": 1675,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -204,7 +204,6 @@
             "start": 1690,
             "end": 1711,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -232,7 +231,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

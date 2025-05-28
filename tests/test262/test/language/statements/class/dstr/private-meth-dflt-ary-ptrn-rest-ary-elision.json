@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 3146,
       "end": 3160,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 3161,
       "end": 3176,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,8 +53,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -65,7 +65,6 @@
         "end": 3188,
         "name": "g"
       },
-      "expression": false,
       "generator": true,
       "async": false,
       "params": [],
@@ -135,7 +134,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -146,6 +146,7 @@
       "type": "VariableDeclaration",
       "start": 3235,
       "end": 3253,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -165,8 +166,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -188,21 +188,17 @@
             "type": "MethodDefinition",
             "start": 3266,
             "end": 3391,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 3266,
               "end": 3273,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 3273,
               "end": 3391,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -274,8 +270,8 @@
                           "end": 3312,
                           "name": "sameValue"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -319,8 +315,8 @@
                           "end": 3344,
                           "name": "sameValue"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -377,28 +373,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 3395,
             "end": 3438,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 3399,
               "end": 3405,
               "name": "method"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 3405,
               "end": 3438,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -426,13 +422,17 @@
                         "end": 3433,
                         "name": "method"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -472,8 +472,8 @@
             "end": 3457,
             "name": "method"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -503,8 +503,8 @@
             "end": 3477,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -65,6 +65,7 @@
       "type": "VariableDeclaration",
       "start": 349,
       "end": 359,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -84,8 +85,7 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -148,6 +148,7 @@
       "type": "VariableDeclaration",
       "start": 440,
       "end": 450,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -167,8 +168,7 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -231,6 +231,7 @@
       "type": "VariableDeclaration",
       "start": 531,
       "end": 541,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -250,13 +251,13 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 542,
       "end": 552,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -276,8 +277,7 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -339,6 +339,7 @@
       "type": "VariableDeclaration",
       "start": 644,
       "end": 671,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -363,13 +364,13 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 672,
       "end": 699,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -394,8 +395,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -422,8 +422,8 @@
             "end": 712,
             "name": "prop"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -459,8 +459,8 @@
             "end": 730,
             "name": "prop"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -495,8 +495,8 @@
             "end": 752,
             "name": "prop"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -515,8 +515,8 @@
             "end": 769,
             "name": "prop"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "consequent": {

@@ -13,7 +13,6 @@
         "end": 307,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -45,7 +44,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -80,7 +80,6 @@
                 "start": 347,
                 "end": 395,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -129,7 +128,8 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             },
             "arguments": [],

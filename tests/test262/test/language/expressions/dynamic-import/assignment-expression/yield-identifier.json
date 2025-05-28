@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 853,
       "end": 894,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "'./module-code_FIXTURE.js'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -39,7 +39,6 @@
         "end": 913,
         "name": "fn"
       },
-      "expression": false,
       "generator": false,
       "async": true,
       "params": [],
@@ -52,6 +51,7 @@
             "type": "VariableDeclaration",
             "start": 922,
             "end": 954,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -82,8 +82,7 @@
                   }
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -109,8 +108,8 @@
                   "end": 1014,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -129,8 +128,8 @@
                     "end": 1025,
                     "name": "local1"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -167,8 +166,8 @@
                   "end": 1059,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -187,8 +186,8 @@
                     "end": 1071,
                     "name": "default"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -202,7 +201,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

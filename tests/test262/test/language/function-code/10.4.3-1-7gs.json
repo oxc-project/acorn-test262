@@ -13,7 +13,6 @@
         "end": 316,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -31,16 +30,17 @@
               "start": 332,
               "end": 343,
               "operator": "typeof",
-              "prefix": true,
               "argument": {
                 "type": "ThisExpression",
                 "start": 339,
                 "end": 343
-              }
+              },
+              "prefix": true
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",

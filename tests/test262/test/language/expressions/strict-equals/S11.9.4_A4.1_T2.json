@@ -35,8 +35,8 @@
             "end": 260,
             "name": "NaN"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "consequent": {
@@ -86,14 +86,14 @@
           "start": 327,
           "end": 329,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 328,
             "end": 329,
             "value": 1,
             "raw": "1"
-          }
+          },
+          "prefix": true
         },
         "operator": "===",
         "right": {
@@ -112,8 +112,8 @@
             "end": 344,
             "name": "NaN"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "consequent": {
@@ -174,8 +174,8 @@
             "end": 419,
             "name": "NaN"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "===",
         "right": {
@@ -194,8 +194,8 @@
             "end": 434,
             "name": "NaN"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "consequent": {
@@ -256,8 +256,8 @@
             "end": 524,
             "name": "POSITIVE_INFINITY"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "===",
         "right": {
@@ -276,8 +276,8 @@
             "end": 539,
             "name": "NaN"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "consequent": {
@@ -338,8 +338,8 @@
             "end": 635,
             "name": "NEGATIVE_INFINITY"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "===",
         "right": {
@@ -358,8 +358,8 @@
             "end": 650,
             "name": "NaN"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "consequent": {
@@ -420,8 +420,8 @@
             "end": 738,
             "name": "MAX_VALUE"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "===",
         "right": {
@@ -440,8 +440,8 @@
             "end": 753,
             "name": "NaN"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "consequent": {
@@ -502,8 +502,8 @@
             "end": 848,
             "name": "MIN_VALUE"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "===",
         "right": {
@@ -522,8 +522,8 @@
             "end": 863,
             "name": "NaN"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "consequent": {
@@ -592,8 +592,8 @@
             "end": 965,
             "name": "NaN"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "consequent": {
@@ -667,8 +667,8 @@
             "end": 1063,
             "name": "NaN"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "consequent": {

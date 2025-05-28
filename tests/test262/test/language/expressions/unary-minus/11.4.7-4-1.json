@@ -27,8 +27,8 @@
             "end": 215,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,28 +36,28 @@
             "start": 216,
             "end": 219,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 217,
               "end": 219,
               "value": "",
               "raw": "\"\""
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 221,
             "end": 223,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 222,
               "end": 223,
               "value": 0,
               "raw": "0"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

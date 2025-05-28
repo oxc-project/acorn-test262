@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 2023,
       "end": 2036,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,13 +26,13 @@
             "elements": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2037,
       "end": 3655,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,9 +53,7 @@
                 "type": "Property",
                 "start": 2051,
                 "end": 3652,
-                "method": true,
-                "shorthand": false,
-                "computed": true,
+                "kind": "init",
                 "key": {
                   "type": "MemberExpression",
                   "start": 2052,
@@ -71,15 +70,14 @@
                     "end": 2067,
                     "name": "iterator"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "value": {
                   "type": "FunctionExpression",
                   "start": 2068,
                   "end": 3652,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -92,6 +90,7 @@
                         "type": "VariableDeclaration",
                         "start": 2077,
                         "end": 2097,
+                        "kind": "var",
                         "declarations": [
                           {
                             "type": "VariableDeclarator",
@@ -111,8 +110,7 @@
                               "raw": "0"
                             }
                           }
-                        ],
-                        "kind": "var"
+                        ]
                       },
                       {
                         "type": "ReturnStatement",
@@ -127,9 +125,7 @@
                               "type": "Property",
                               "start": 2117,
                               "end": 2137,
-                              "method": false,
-                              "shorthand": false,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 2117,
@@ -143,15 +139,15 @@
                                 "value": "syncIterator",
                                 "raw": "\"syncIterator\""
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false
                             },
                             {
                               "type": "Property",
                               "start": 2145,
                               "end": 2335,
-                              "method": false,
-                              "shorthand": false,
-                              "computed": false,
+                              "kind": "get",
                               "key": {
                                 "type": "Identifier",
                                 "start": 2149,
@@ -163,7 +159,6 @@
                                 "start": 2153,
                                 "end": 2335,
                                 "id": null,
-                                "expression": false,
                                 "generator": false,
                                 "async": false,
                                 "params": [],
@@ -196,8 +191,8 @@
                                             "end": 2174,
                                             "name": "push"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "arguments": [
                                           {
@@ -209,9 +204,7 @@
                                                 "type": "Property",
                                                 "start": 2177,
                                                 "end": 2193,
-                                                "method": false,
-                                                "shorthand": false,
-                                                "computed": false,
+                                                "kind": "init",
                                                 "key": {
                                                   "type": "Identifier",
                                                   "start": 2177,
@@ -225,7 +218,9 @@
                                                   "value": "get next",
                                                   "raw": "\"get next\""
                                                 },
-                                                "kind": "init"
+                                                "method": false,
+                                                "shorthand": false,
+                                                "computed": false
                                               }
                                             ]
                                           }
@@ -242,7 +237,6 @@
                                         "start": 2213,
                                         "end": 2326,
                                         "id": null,
-                                        "expression": false,
                                         "generator": false,
                                         "async": false,
                                         "params": [],
@@ -264,9 +258,7 @@
                                                     "type": "Property",
                                                     "start": 2257,
                                                     "end": 2278,
-                                                    "method": false,
-                                                    "shorthand": false,
-                                                    "computed": false,
+                                                    "kind": "init",
                                                     "key": {
                                                       "type": "Identifier",
                                                       "start": 2257,
@@ -280,15 +272,15 @@
                                                       "value": "next-value-1",
                                                       "raw": "\"next-value-1\""
                                                     },
-                                                    "kind": "init"
+                                                    "method": false,
+                                                    "shorthand": false,
+                                                    "computed": false
                                                   },
                                                   {
                                                     "type": "Property",
                                                     "start": 2292,
                                                     "end": 2303,
-                                                    "method": false,
-                                                    "shorthand": false,
-                                                    "computed": false,
+                                                    "kind": "init",
                                                     "key": {
                                                       "type": "Identifier",
                                                       "start": 2292,
@@ -302,27 +294,31 @@
                                                       "value": false,
                                                       "raw": "false"
                                                     },
-                                                    "kind": "init"
+                                                    "method": false,
+                                                    "shorthand": false,
+                                                    "computed": false
                                                   }
                                                 ]
                                               }
                                             }
                                           ]
-                                        }
+                                        },
+                                        "expression": false
                                       }
                                     }
                                   ]
-                                }
+                                },
+                                "expression": false
                               },
-                              "kind": "get"
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false
                             },
                             {
                               "type": "Property",
                               "start": 2343,
                               "end": 3641,
-                              "method": false,
-                              "shorthand": false,
-                              "computed": false,
+                              "kind": "get",
                               "key": {
                                 "type": "Identifier",
                                 "start": 2347,
@@ -334,7 +330,6 @@
                                 "start": 2353,
                                 "end": 3641,
                                 "id": null,
-                                "expression": false,
                                 "generator": false,
                                 "async": false,
                                 "params": [],
@@ -367,8 +362,8 @@
                                             "end": 2374,
                                             "name": "push"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "arguments": [
                                           {
@@ -380,9 +375,7 @@
                                                 "type": "Property",
                                                 "start": 2387,
                                                 "end": 2405,
-                                                "method": false,
-                                                "shorthand": false,
-                                                "computed": false,
+                                                "kind": "init",
                                                 "key": {
                                                   "type": "Identifier",
                                                   "start": 2387,
@@ -396,15 +389,15 @@
                                                   "value": "get return",
                                                   "raw": "\"get return\""
                                                 },
-                                                "kind": "init"
+                                                "method": false,
+                                                "shorthand": false,
+                                                "computed": false
                                               },
                                               {
                                                 "type": "Property",
                                                 "start": 2417,
                                                 "end": 2432,
-                                                "method": false,
-                                                "shorthand": false,
-                                                "computed": false,
+                                                "kind": "init",
                                                 "key": {
                                                   "type": "Identifier",
                                                   "start": 2417,
@@ -416,7 +409,9 @@
                                                   "start": 2428,
                                                   "end": 2432
                                                 },
-                                                "kind": "init"
+                                                "method": false,
+                                                "shorthand": false,
+                                                "computed": false
                                               }
                                             ]
                                           }
@@ -433,7 +428,6 @@
                                         "start": 2460,
                                         "end": 3632,
                                         "id": null,
-                                        "expression": false,
                                         "generator": false,
                                         "async": false,
                                         "params": [],
@@ -466,8 +460,8 @@
                                                     "end": 2491,
                                                     "name": "push"
                                                   },
-                                                  "computed": false,
-                                                  "optional": false
+                                                  "optional": false,
+                                                  "computed": false
                                                 },
                                                 "arguments": [
                                                   {
@@ -479,9 +473,7 @@
                                                         "type": "Property",
                                                         "start": 2506,
                                                         "end": 2525,
-                                                        "method": false,
-                                                        "shorthand": false,
-                                                        "computed": false,
+                                                        "kind": "init",
                                                         "key": {
                                                           "type": "Identifier",
                                                           "start": 2506,
@@ -495,15 +487,15 @@
                                                           "value": "call return",
                                                           "raw": "\"call return\""
                                                         },
-                                                        "kind": "init"
+                                                        "method": false,
+                                                        "shorthand": false,
+                                                        "computed": false
                                                       },
                                                       {
                                                         "type": "Property",
                                                         "start": 2539,
                                                         "end": 2554,
-                                                        "method": false,
-                                                        "shorthand": false,
-                                                        "computed": false,
+                                                        "kind": "init",
                                                         "key": {
                                                           "type": "Identifier",
                                                           "start": 2539,
@@ -515,15 +507,15 @@
                                                           "start": 2550,
                                                           "end": 2554
                                                         },
-                                                        "kind": "init"
+                                                        "method": false,
+                                                        "shorthand": false,
+                                                        "computed": false
                                                       },
                                                       {
                                                         "type": "Property",
                                                         "start": 2568,
                                                         "end": 2588,
-                                                        "method": false,
-                                                        "shorthand": false,
-                                                        "computed": false,
+                                                        "kind": "init",
                                                         "key": {
                                                           "type": "Identifier",
                                                           "start": 2568,
@@ -548,7 +540,9 @@
                                                             }
                                                           ]
                                                         },
-                                                        "kind": "init"
+                                                        "method": false,
+                                                        "shorthand": false,
+                                                        "computed": false
                                                       }
                                                     ]
                                                   }
@@ -615,9 +609,7 @@
                                                           "type": "Property",
                                                           "start": 2698,
                                                           "end": 2721,
-                                                          "method": false,
-                                                          "shorthand": false,
-                                                          "computed": false,
+                                                          "kind": "init",
                                                           "key": {
                                                             "type": "Identifier",
                                                             "start": 2698,
@@ -631,15 +623,15 @@
                                                             "value": "return-result-1",
                                                             "raw": "\"return-result-1\""
                                                           },
-                                                          "kind": "init"
+                                                          "method": false,
+                                                          "shorthand": false,
+                                                          "computed": false
                                                         },
                                                         {
                                                           "type": "Property",
                                                           "start": 2737,
                                                           "end": 2936,
-                                                          "method": false,
-                                                          "shorthand": false,
-                                                          "computed": false,
+                                                          "kind": "get",
                                                           "key": {
                                                             "type": "Identifier",
                                                             "start": 2741,
@@ -651,7 +643,6 @@
                                                             "start": 2746,
                                                             "end": 2936,
                                                             "id": null,
-                                                            "expression": false,
                                                             "generator": false,
                                                             "async": false,
                                                             "params": [],
@@ -684,8 +675,8 @@
                                                                         "end": 2775,
                                                                         "name": "push"
                                                                       },
-                                                                      "computed": false,
-                                                                      "optional": false
+                                                                      "optional": false,
+                                                                      "computed": false
                                                                     },
                                                                     "arguments": [
                                                                       {
@@ -697,9 +688,7 @@
                                                                             "type": "Property",
                                                                             "start": 2796,
                                                                             "end": 2824,
-                                                                            "method": false,
-                                                                            "shorthand": false,
-                                                                            "computed": false,
+                                                                            "kind": "init",
                                                                             "key": {
                                                                               "type": "Identifier",
                                                                               "start": 2796,
@@ -713,15 +702,15 @@
                                                                               "value": "get return value (1)",
                                                                               "raw": "\"get return value (1)\""
                                                                             },
-                                                                            "kind": "init"
+                                                                            "method": false,
+                                                                            "shorthand": false,
+                                                                            "computed": false
                                                                           },
                                                                           {
                                                                             "type": "Property",
                                                                             "start": 2844,
                                                                             "end": 2859,
-                                                                            "method": false,
-                                                                            "shorthand": false,
-                                                                            "computed": false,
+                                                                            "kind": "init",
                                                                             "key": {
                                                                               "type": "Identifier",
                                                                               "start": 2844,
@@ -733,7 +722,9 @@
                                                                               "start": 2855,
                                                                               "end": 2859
                                                                             },
-                                                                            "kind": "init"
+                                                                            "method": false,
+                                                                            "shorthand": false,
+                                                                            "computed": false
                                                                           }
                                                                         ]
                                                                       }
@@ -754,17 +745,18 @@
                                                                   }
                                                                 }
                                                               ]
-                                                            }
+                                                            },
+                                                            "expression": false
                                                           },
-                                                          "kind": "get"
+                                                          "method": false,
+                                                          "shorthand": false,
+                                                          "computed": false
                                                         },
                                                         {
                                                           "type": "Property",
                                                           "start": 2952,
                                                           "end": 3138,
-                                                          "method": false,
-                                                          "shorthand": false,
-                                                          "computed": false,
+                                                          "kind": "get",
                                                           "key": {
                                                             "type": "Identifier",
                                                             "start": 2956,
@@ -776,7 +768,6 @@
                                                             "start": 2960,
                                                             "end": 3138,
                                                             "id": null,
-                                                            "expression": false,
                                                             "generator": false,
                                                             "async": false,
                                                             "params": [],
@@ -809,8 +800,8 @@
                                                                         "end": 2989,
                                                                         "name": "push"
                                                                       },
-                                                                      "computed": false,
-                                                                      "optional": false
+                                                                      "optional": false,
+                                                                      "computed": false
                                                                     },
                                                                     "arguments": [
                                                                       {
@@ -822,9 +813,7 @@
                                                                             "type": "Property",
                                                                             "start": 3010,
                                                                             "end": 3037,
-                                                                            "method": false,
-                                                                            "shorthand": false,
-                                                                            "computed": false,
+                                                                            "kind": "init",
                                                                             "key": {
                                                                               "type": "Identifier",
                                                                               "start": 3010,
@@ -838,15 +827,15 @@
                                                                               "value": "get return done (1)",
                                                                               "raw": "\"get return done (1)\""
                                                                             },
-                                                                            "kind": "init"
+                                                                            "method": false,
+                                                                            "shorthand": false,
+                                                                            "computed": false
                                                                           },
                                                                           {
                                                                             "type": "Property",
                                                                             "start": 3057,
                                                                             "end": 3072,
-                                                                            "method": false,
-                                                                            "shorthand": false,
-                                                                            "computed": false,
+                                                                            "kind": "init",
                                                                             "key": {
                                                                               "type": "Identifier",
                                                                               "start": 3057,
@@ -858,7 +847,9 @@
                                                                               "start": 3068,
                                                                               "end": 3072
                                                                             },
-                                                                            "kind": "init"
+                                                                            "method": false,
+                                                                            "shorthand": false,
+                                                                            "computed": false
                                                                           }
                                                                         ]
                                                                       }
@@ -879,9 +870,12 @@
                                                                   }
                                                                 }
                                                               ]
-                                                            }
+                                                            },
+                                                            "expression": false
                                                           },
-                                                          "kind": "get"
+                                                          "method": false,
+                                                          "shorthand": false,
+                                                          "computed": false
                                                         }
                                                       ]
                                                     }
@@ -903,9 +897,7 @@
                                                     "type": "Property",
                                                     "start": 3198,
                                                     "end": 3221,
-                                                    "method": false,
-                                                    "shorthand": false,
-                                                    "computed": false,
+                                                    "kind": "init",
                                                     "key": {
                                                       "type": "Identifier",
                                                       "start": 3198,
@@ -919,15 +911,15 @@
                                                       "value": "return-result-2",
                                                       "raw": "\"return-result-2\""
                                                     },
-                                                    "kind": "init"
+                                                    "method": false,
+                                                    "shorthand": false,
+                                                    "computed": false
                                                   },
                                                   {
                                                     "type": "Property",
                                                     "start": 3235,
                                                     "end": 3422,
-                                                    "method": false,
-                                                    "shorthand": false,
-                                                    "computed": false,
+                                                    "kind": "get",
                                                     "key": {
                                                       "type": "Identifier",
                                                       "start": 3239,
@@ -939,7 +931,6 @@
                                                       "start": 3244,
                                                       "end": 3422,
                                                       "id": null,
-                                                      "expression": false,
                                                       "generator": false,
                                                       "async": false,
                                                       "params": [],
@@ -972,8 +963,8 @@
                                                                   "end": 3271,
                                                                   "name": "push"
                                                                 },
-                                                                "computed": false,
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "computed": false
                                                               },
                                                               "arguments": [
                                                                 {
@@ -985,9 +976,7 @@
                                                                       "type": "Property",
                                                                       "start": 3290,
                                                                       "end": 3318,
-                                                                      "method": false,
-                                                                      "shorthand": false,
-                                                                      "computed": false,
+                                                                      "kind": "init",
                                                                       "key": {
                                                                         "type": "Identifier",
                                                                         "start": 3290,
@@ -1001,15 +990,15 @@
                                                                         "value": "get return value (2)",
                                                                         "raw": "\"get return value (2)\""
                                                                       },
-                                                                      "kind": "init"
+                                                                      "method": false,
+                                                                      "shorthand": false,
+                                                                      "computed": false
                                                                     },
                                                                     {
                                                                       "type": "Property",
                                                                       "start": 3336,
                                                                       "end": 3351,
-                                                                      "method": false,
-                                                                      "shorthand": false,
-                                                                      "computed": false,
+                                                                      "kind": "init",
                                                                       "key": {
                                                                         "type": "Identifier",
                                                                         "start": 3336,
@@ -1021,7 +1010,9 @@
                                                                         "start": 3347,
                                                                         "end": 3351
                                                                       },
-                                                                      "kind": "init"
+                                                                      "method": false,
+                                                                      "shorthand": false,
+                                                                      "computed": false
                                                                     }
                                                                   ]
                                                                 }
@@ -1042,17 +1033,18 @@
                                                             }
                                                           }
                                                         ]
-                                                      }
+                                                      },
+                                                      "expression": false
                                                     },
-                                                    "kind": "get"
+                                                    "method": false,
+                                                    "shorthand": false,
+                                                    "computed": false
                                                   },
                                                   {
                                                     "type": "Property",
                                                     "start": 3436,
                                                     "end": 3609,
-                                                    "method": false,
-                                                    "shorthand": false,
-                                                    "computed": false,
+                                                    "kind": "get",
                                                     "key": {
                                                       "type": "Identifier",
                                                       "start": 3440,
@@ -1064,7 +1056,6 @@
                                                       "start": 3444,
                                                       "end": 3609,
                                                       "id": null,
-                                                      "expression": false,
                                                       "generator": false,
                                                       "async": false,
                                                       "params": [],
@@ -1097,8 +1088,8 @@
                                                                   "end": 3471,
                                                                   "name": "push"
                                                                 },
-                                                                "computed": false,
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "computed": false
                                                               },
                                                               "arguments": [
                                                                 {
@@ -1110,9 +1101,7 @@
                                                                       "type": "Property",
                                                                       "start": 3490,
                                                                       "end": 3517,
-                                                                      "method": false,
-                                                                      "shorthand": false,
-                                                                      "computed": false,
+                                                                      "kind": "init",
                                                                       "key": {
                                                                         "type": "Identifier",
                                                                         "start": 3490,
@@ -1126,15 +1115,15 @@
                                                                         "value": "get return done (2)",
                                                                         "raw": "\"get return done (2)\""
                                                                       },
-                                                                      "kind": "init"
+                                                                      "method": false,
+                                                                      "shorthand": false,
+                                                                      "computed": false
                                                                     },
                                                                     {
                                                                       "type": "Property",
                                                                       "start": 3535,
                                                                       "end": 3550,
-                                                                      "method": false,
-                                                                      "shorthand": false,
-                                                                      "computed": false,
+                                                                      "kind": "init",
                                                                       "key": {
                                                                         "type": "Identifier",
                                                                         "start": 3535,
@@ -1146,7 +1135,9 @@
                                                                         "start": 3546,
                                                                         "end": 3550
                                                                       },
-                                                                      "kind": "init"
+                                                                      "method": false,
+                                                                      "shorthand": false,
+                                                                      "computed": false
                                                                     }
                                                                   ]
                                                                 }
@@ -1167,40 +1158,50 @@
                                                             }
                                                           }
                                                         ]
-                                                      }
+                                                      },
+                                                      "expression": false
                                                     },
-                                                    "kind": "get"
+                                                    "method": false,
+                                                    "shorthand": false,
+                                                    "computed": false
                                                   }
                                                 ]
                                               }
                                             }
                                           ]
-                                        }
+                                        },
+                                        "expression": false
                                       }
                                     }
                                   ]
-                                }
+                                },
+                                "expression": false
                               },
-                              "kind": "get"
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false
                             }
                           ]
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": true,
+                "shorthand": false,
+                "computed": true
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 3658,
       "end": 3676,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1220,13 +1221,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 3678,
       "end": 3803,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1251,9 +1252,7 @@
                   "type": "Property",
                   "start": 3692,
                   "end": 3793,
-                  "method": true,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 3699,
@@ -1265,7 +1264,6 @@
                     "start": 3705,
                     "end": 3793,
                     "id": null,
-                    "expression": false,
                     "generator": true,
                     "async": true,
                     "params": [],
@@ -1322,8 +1320,8 @@
                                 "end": 3742,
                                 "name": "push"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -1335,9 +1333,7 @@
                                     "type": "Property",
                                     "start": 3745,
                                     "end": 3766,
-                                    "method": false,
-                                    "shorthand": false,
-                                    "computed": false,
+                                    "kind": "init",
                                     "key": {
                                       "type": "Identifier",
                                       "start": 3745,
@@ -1351,7 +1347,9 @@
                                       "value": "before yield*",
                                       "raw": "\"before yield*\""
                                     },
-                                    "kind": "init"
+                                    "method": false,
+                                    "shorthand": false,
+                                    "computed": false
                                   }
                                 ]
                               }
@@ -1377,9 +1375,12 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   },
-                  "kind": "init"
+                  "method": true,
+                  "shorthand": false,
+                  "computed": false
                 }
               ]
             },
@@ -1389,17 +1390,17 @@
               "end": 3802,
               "name": "method"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 3805,
       "end": 3822,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1425,8 +1426,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1452,8 +1452,8 @@
             "end": 3840,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1472,8 +1472,8 @@
               "end": 3851,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1533,8 +1533,8 @@
                     "end": 3881,
                     "name": "next"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -1545,17 +1545,15 @@
                 "end": 3888,
                 "name": "then"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
                 "type": "ArrowFunctionExpression",
                 "start": 3889,
                 "end": 5969,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": false,
                 "params": [
                   {
@@ -1594,8 +1592,8 @@
                             "end": 3914,
                             "name": "sameValue"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1619,8 +1617,8 @@
                                 "value": 0,
                                 "raw": "0"
                               },
-                              "computed": true,
-                              "optional": false
+                              "optional": false,
+                              "computed": true
                             },
                             "property": {
                               "type": "Identifier",
@@ -1628,8 +1626,8 @@
                               "end": 3926,
                               "name": "name"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           {
                             "type": "Literal",
@@ -1666,8 +1664,8 @@
                             "end": 3965,
                             "name": "sameValue"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1691,8 +1689,8 @@
                                 "value": 1,
                                 "raw": "1"
                               },
-                              "computed": true,
-                              "optional": false
+                              "optional": false,
+                              "computed": true
                             },
                             "property": {
                               "type": "Identifier",
@@ -1700,8 +1698,8 @@
                               "end": 3977,
                               "name": "name"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           {
                             "type": "Literal",
@@ -1738,8 +1736,8 @@
                             "end": 4011,
                             "name": "sameValue"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1758,8 +1756,8 @@
                               "end": 4019,
                               "name": "value"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           {
                             "type": "Literal",
@@ -1796,8 +1794,8 @@
                             "end": 4056,
                             "name": "sameValue"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1816,8 +1814,8 @@
                               "end": 4063,
                               "name": "done"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           {
                             "type": "Literal",
@@ -1854,8 +1852,8 @@
                             "end": 4092,
                             "name": "sameValue"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1874,8 +1872,8 @@
                               "end": 4103,
                               "name": "length"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           {
                             "type": "Literal",
@@ -1935,8 +1933,8 @@
                                     "end": 4137,
                                     "name": "return"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -1955,17 +1953,15 @@
                                 "end": 4158,
                                 "name": "then"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
                                 "type": "ArrowFunctionExpression",
                                 "start": 4159,
                                 "end": 5952,
-                                "id": null,
                                 "expression": false,
-                                "generator": false,
                                 "async": false,
                                 "params": [
                                   {
@@ -2004,8 +2000,8 @@
                                             "end": 4186,
                                             "name": "sameValue"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "arguments": [
                                           {
@@ -2029,8 +2025,8 @@
                                                 "value": 2,
                                                 "raw": "2"
                                               },
-                                              "computed": true,
-                                              "optional": false
+                                              "optional": false,
+                                              "computed": true
                                             },
                                             "property": {
                                               "type": "Identifier",
@@ -2038,8 +2034,8 @@
                                               "end": 4198,
                                               "name": "name"
                                             },
-                                            "computed": false,
-                                            "optional": false
+                                            "optional": false,
+                                            "computed": false
                                           },
                                           {
                                             "type": "Literal",
@@ -2076,8 +2072,8 @@
                                             "end": 4235,
                                             "name": "sameValue"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "arguments": [
                                           {
@@ -2105,8 +2101,8 @@
                                                   "value": 2,
                                                   "raw": "2"
                                                 },
-                                                "computed": true,
-                                                "optional": false
+                                                "optional": false,
+                                                "computed": true
                                               },
                                               "property": {
                                                 "type": "Identifier",
@@ -2114,8 +2110,8 @@
                                                 "end": 4252,
                                                 "name": "thisValue"
                                               },
-                                              "computed": false,
-                                              "optional": false
+                                              "optional": false,
+                                              "computed": false
                                             },
                                             "property": {
                                               "type": "Identifier",
@@ -2123,8 +2119,8 @@
                                               "end": 4257,
                                               "name": "name"
                                             },
-                                            "computed": false,
-                                            "optional": false
+                                            "optional": false,
+                                            "computed": false
                                           },
                                           {
                                             "type": "Literal",
@@ -2168,8 +2164,8 @@
                                             "end": 4321,
                                             "name": "sameValue"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "arguments": [
                                           {
@@ -2193,8 +2189,8 @@
                                                 "value": 3,
                                                 "raw": "3"
                                               },
-                                              "computed": true,
-                                              "optional": false
+                                              "optional": false,
+                                              "computed": true
                                             },
                                             "property": {
                                               "type": "Identifier",
@@ -2202,8 +2198,8 @@
                                               "end": 4333,
                                               "name": "name"
                                             },
-                                            "computed": false,
-                                            "optional": false
+                                            "optional": false,
+                                            "computed": false
                                           },
                                           {
                                             "type": "Literal",
@@ -2240,8 +2236,8 @@
                                             "end": 4371,
                                             "name": "sameValue"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "arguments": [
                                           {
@@ -2269,8 +2265,8 @@
                                                   "value": 3,
                                                   "raw": "3"
                                                 },
-                                                "computed": true,
-                                                "optional": false
+                                                "optional": false,
+                                                "computed": true
                                               },
                                               "property": {
                                                 "type": "Identifier",
@@ -2278,8 +2274,8 @@
                                                 "end": 4388,
                                                 "name": "thisValue"
                                               },
-                                              "computed": false,
-                                              "optional": false
+                                              "optional": false,
+                                              "computed": false
                                             },
                                             "property": {
                                               "type": "Identifier",
@@ -2287,8 +2283,8 @@
                                               "end": 4393,
                                               "name": "name"
                                             },
-                                            "computed": false,
-                                            "optional": false
+                                            "optional": false,
+                                            "computed": false
                                           },
                                           {
                                             "type": "Literal",
@@ -2332,8 +2328,8 @@
                                             "end": 4452,
                                             "name": "sameValue"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "arguments": [
                                           {
@@ -2361,8 +2357,8 @@
                                                   "value": 3,
                                                   "raw": "3"
                                                 },
-                                                "computed": true,
-                                                "optional": false
+                                                "optional": false,
+                                                "computed": true
                                               },
                                               "property": {
                                                 "type": "Identifier",
@@ -2370,8 +2366,8 @@
                                                 "end": 4464,
                                                 "name": "args"
                                               },
-                                              "computed": false,
-                                              "optional": false
+                                              "optional": false,
+                                              "computed": false
                                             },
                                             "property": {
                                               "type": "Identifier",
@@ -2379,8 +2375,8 @@
                                               "end": 4471,
                                               "name": "length"
                                             },
-                                            "computed": false,
-                                            "optional": false
+                                            "optional": false,
+                                            "computed": false
                                           },
                                           {
                                             "type": "Literal",
@@ -2424,8 +2420,8 @@
                                             "end": 4519,
                                             "name": "sameValue"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "arguments": [
                                           {
@@ -2453,8 +2449,8 @@
                                                   "value": 3,
                                                   "raw": "3"
                                                 },
-                                                "computed": true,
-                                                "optional": false
+                                                "optional": false,
+                                                "computed": true
                                               },
                                               "property": {
                                                 "type": "Identifier",
@@ -2462,8 +2458,8 @@
                                                 "end": 4531,
                                                 "name": "args"
                                               },
-                                              "computed": false,
-                                              "optional": false
+                                              "optional": false,
+                                              "computed": false
                                             },
                                             "property": {
                                               "type": "Literal",
@@ -2472,8 +2468,8 @@
                                               "value": 0,
                                               "raw": "0"
                                             },
-                                            "computed": true,
-                                            "optional": false
+                                            "optional": false,
+                                            "computed": true
                                           },
                                           {
                                             "type": "Literal",
@@ -2517,8 +2513,8 @@
                                             "end": 4592,
                                             "name": "sameValue"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "arguments": [
                                           {
@@ -2542,8 +2538,8 @@
                                                 "value": 4,
                                                 "raw": "4"
                                               },
-                                              "computed": true,
-                                              "optional": false
+                                              "optional": false,
+                                              "computed": true
                                             },
                                             "property": {
                                               "type": "Identifier",
@@ -2551,8 +2547,8 @@
                                               "end": 4604,
                                               "name": "name"
                                             },
-                                            "computed": false,
-                                            "optional": false
+                                            "optional": false,
+                                            "computed": false
                                           },
                                           {
                                             "type": "Literal",
@@ -2589,8 +2585,8 @@
                                             "end": 4650,
                                             "name": "sameValue"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "arguments": [
                                           {
@@ -2618,8 +2614,8 @@
                                                   "value": 4,
                                                   "raw": "4"
                                                 },
-                                                "computed": true,
-                                                "optional": false
+                                                "optional": false,
+                                                "computed": true
                                               },
                                               "property": {
                                                 "type": "Identifier",
@@ -2627,8 +2623,8 @@
                                                 "end": 4667,
                                                 "name": "thisValue"
                                               },
-                                              "computed": false,
-                                              "optional": false
+                                              "optional": false,
+                                              "computed": false
                                             },
                                             "property": {
                                               "type": "Identifier",
@@ -2636,8 +2632,8 @@
                                               "end": 4672,
                                               "name": "name"
                                             },
-                                            "computed": false,
-                                            "optional": false
+                                            "optional": false,
+                                            "computed": false
                                           },
                                           {
                                             "type": "Literal",
@@ -2681,8 +2677,8 @@
                                             "end": 4744,
                                             "name": "sameValue"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "arguments": [
                                           {
@@ -2706,8 +2702,8 @@
                                                 "value": 5,
                                                 "raw": "5"
                                               },
-                                              "computed": true,
-                                              "optional": false
+                                              "optional": false,
+                                              "computed": true
                                             },
                                             "property": {
                                               "type": "Identifier",
@@ -2715,8 +2711,8 @@
                                               "end": 4756,
                                               "name": "name"
                                             },
-                                            "computed": false,
-                                            "optional": false
+                                            "optional": false,
+                                            "computed": false
                                           },
                                           {
                                             "type": "Literal",
@@ -2753,8 +2749,8 @@
                                             "end": 4803,
                                             "name": "sameValue"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "arguments": [
                                           {
@@ -2782,8 +2778,8 @@
                                                   "value": 5,
                                                   "raw": "5"
                                                 },
-                                                "computed": true,
-                                                "optional": false
+                                                "optional": false,
+                                                "computed": true
                                               },
                                               "property": {
                                                 "type": "Identifier",
@@ -2791,8 +2787,8 @@
                                                 "end": 4820,
                                                 "name": "thisValue"
                                               },
-                                              "computed": false,
-                                              "optional": false
+                                              "optional": false,
+                                              "computed": false
                                             },
                                             "property": {
                                               "type": "Identifier",
@@ -2800,8 +2796,8 @@
                                               "end": 4825,
                                               "name": "name"
                                             },
-                                            "computed": false,
-                                            "optional": false
+                                            "optional": false,
+                                            "computed": false
                                           },
                                           {
                                             "type": "Literal",
@@ -2845,8 +2841,8 @@
                                             "end": 4898,
                                             "name": "sameValue"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "arguments": [
                                           {
@@ -2865,8 +2861,8 @@
                                               "end": 4906,
                                               "name": "value"
                                             },
-                                            "computed": false,
-                                            "optional": false
+                                            "optional": false,
+                                            "computed": false
                                           },
                                           {
                                             "type": "Literal",
@@ -2903,8 +2899,8 @@
                                             "end": 4947,
                                             "name": "sameValue"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "arguments": [
                                           {
@@ -2923,8 +2919,8 @@
                                               "end": 4954,
                                               "name": "done"
                                             },
-                                            "computed": false,
-                                            "optional": false
+                                            "optional": false,
+                                            "computed": false
                                           },
                                           {
                                             "type": "Literal",
@@ -2961,8 +2957,8 @@
                                             "end": 4985,
                                             "name": "sameValue"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "arguments": [
                                           {
@@ -2981,8 +2977,8 @@
                                               "end": 4996,
                                               "name": "length"
                                             },
-                                            "computed": false,
-                                            "optional": false
+                                            "optional": false,
+                                            "computed": false
                                           },
                                           {
                                             "type": "Literal",
@@ -3042,8 +3038,8 @@
                                                     "end": 5032,
                                                     "name": "return"
                                                   },
-                                                  "computed": false,
-                                                  "optional": false
+                                                  "optional": false,
+                                                  "computed": false
                                                 },
                                                 "arguments": [],
                                                 "optional": false
@@ -3054,17 +3050,15 @@
                                                 "end": 5039,
                                                 "name": "then"
                                               },
-                                              "computed": false,
-                                              "optional": false
+                                              "optional": false,
+                                              "computed": false
                                             },
                                             "arguments": [
                                               {
                                                 "type": "ArrowFunctionExpression",
                                                 "start": 5040,
                                                 "end": 5927,
-                                                "id": null,
                                                 "expression": false,
-                                                "generator": false,
                                                 "async": false,
                                                 "params": [
                                                   {
@@ -3103,8 +3097,8 @@
                                                             "end": 5069,
                                                             "name": "sameValue"
                                                           },
-                                                          "computed": false,
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "computed": false
                                                         },
                                                         "arguments": [
                                                           {
@@ -3128,8 +3122,8 @@
                                                                 "value": 6,
                                                                 "raw": "6"
                                                               },
-                                                              "computed": true,
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "computed": true
                                                             },
                                                             "property": {
                                                               "type": "Identifier",
@@ -3137,8 +3131,8 @@
                                                               "end": 5081,
                                                               "name": "name"
                                                             },
-                                                            "computed": false,
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "computed": false
                                                           },
                                                           {
                                                             "type": "Literal",
@@ -3175,8 +3169,8 @@
                                                             "end": 5120,
                                                             "name": "sameValue"
                                                           },
-                                                          "computed": false,
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "computed": false
                                                         },
                                                         "arguments": [
                                                           {
@@ -3204,8 +3198,8 @@
                                                                   "value": 6,
                                                                   "raw": "6"
                                                                 },
-                                                                "computed": true,
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "computed": true
                                                               },
                                                               "property": {
                                                                 "type": "Identifier",
@@ -3213,8 +3207,8 @@
                                                                 "end": 5137,
                                                                 "name": "thisValue"
                                                               },
-                                                              "computed": false,
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "computed": false
                                                             },
                                                             "property": {
                                                               "type": "Identifier",
@@ -3222,8 +3216,8 @@
                                                               "end": 5142,
                                                               "name": "name"
                                                             },
-                                                            "computed": false,
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "computed": false
                                                           },
                                                           {
                                                             "type": "Literal",
@@ -3267,8 +3261,8 @@
                                                             "end": 5208,
                                                             "name": "sameValue"
                                                           },
-                                                          "computed": false,
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "computed": false
                                                         },
                                                         "arguments": [
                                                           {
@@ -3292,8 +3286,8 @@
                                                                 "value": 7,
                                                                 "raw": "7"
                                                               },
-                                                              "computed": true,
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "computed": true
                                                             },
                                                             "property": {
                                                               "type": "Identifier",
@@ -3301,8 +3295,8 @@
                                                               "end": 5220,
                                                               "name": "name"
                                                             },
-                                                            "computed": false,
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "computed": false
                                                           },
                                                           {
                                                             "type": "Literal",
@@ -3339,8 +3333,8 @@
                                                             "end": 5260,
                                                             "name": "sameValue"
                                                           },
-                                                          "computed": false,
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "computed": false
                                                         },
                                                         "arguments": [
                                                           {
@@ -3368,8 +3362,8 @@
                                                                   "value": 7,
                                                                   "raw": "7"
                                                                 },
-                                                                "computed": true,
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "computed": true
                                                               },
                                                               "property": {
                                                                 "type": "Identifier",
@@ -3377,8 +3371,8 @@
                                                                 "end": 5277,
                                                                 "name": "thisValue"
                                                               },
-                                                              "computed": false,
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "computed": false
                                                             },
                                                             "property": {
                                                               "type": "Identifier",
@@ -3386,8 +3380,8 @@
                                                               "end": 5282,
                                                               "name": "name"
                                                             },
-                                                            "computed": false,
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "computed": false
                                                           },
                                                           {
                                                             "type": "Literal",
@@ -3431,8 +3425,8 @@
                                                             "end": 5347,
                                                             "name": "sameValue"
                                                           },
-                                                          "computed": false,
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "computed": false
                                                         },
                                                         "arguments": [
                                                           {
@@ -3460,8 +3454,8 @@
                                                                   "value": 7,
                                                                   "raw": "7"
                                                                 },
-                                                                "computed": true,
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "computed": true
                                                               },
                                                               "property": {
                                                                 "type": "Identifier",
@@ -3469,8 +3463,8 @@
                                                                 "end": 5359,
                                                                 "name": "args"
                                                               },
-                                                              "computed": false,
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "computed": false
                                                             },
                                                             "property": {
                                                               "type": "Identifier",
@@ -3478,8 +3472,8 @@
                                                               "end": 5366,
                                                               "name": "length"
                                                             },
-                                                            "computed": false,
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "computed": false
                                                           },
                                                           {
                                                             "type": "Literal",
@@ -3523,8 +3517,8 @@
                                                             "end": 5416,
                                                             "name": "sameValue"
                                                           },
-                                                          "computed": false,
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "computed": false
                                                         },
                                                         "arguments": [
                                                           {
@@ -3552,8 +3546,8 @@
                                                                   "value": 7,
                                                                   "raw": "7"
                                                                 },
-                                                                "computed": true,
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "computed": true
                                                               },
                                                               "property": {
                                                                 "type": "Identifier",
@@ -3561,8 +3555,8 @@
                                                                 "end": 5428,
                                                                 "name": "args"
                                                               },
-                                                              "computed": false,
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "computed": false
                                                             },
                                                             "property": {
                                                               "type": "Literal",
@@ -3571,8 +3565,8 @@
                                                               "value": 0,
                                                               "raw": "0"
                                                             },
-                                                            "computed": true,
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "computed": true
                                                           },
                                                           {
                                                             "type": "Identifier",
@@ -3615,8 +3609,8 @@
                                                             "end": 5486,
                                                             "name": "sameValue"
                                                           },
-                                                          "computed": false,
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "computed": false
                                                         },
                                                         "arguments": [
                                                           {
@@ -3640,8 +3634,8 @@
                                                                 "value": 8,
                                                                 "raw": "8"
                                                               },
-                                                              "computed": true,
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "computed": true
                                                             },
                                                             "property": {
                                                               "type": "Identifier",
@@ -3649,8 +3643,8 @@
                                                               "end": 5498,
                                                               "name": "name"
                                                             },
-                                                            "computed": false,
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "computed": false
                                                           },
                                                           {
                                                             "type": "Literal",
@@ -3687,8 +3681,8 @@
                                                             "end": 5546,
                                                             "name": "sameValue"
                                                           },
-                                                          "computed": false,
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "computed": false
                                                         },
                                                         "arguments": [
                                                           {
@@ -3716,8 +3710,8 @@
                                                                   "value": 8,
                                                                   "raw": "8"
                                                                 },
-                                                                "computed": true,
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "computed": true
                                                               },
                                                               "property": {
                                                                 "type": "Identifier",
@@ -3725,8 +3719,8 @@
                                                                 "end": 5563,
                                                                 "name": "thisValue"
                                                               },
-                                                              "computed": false,
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "computed": false
                                                             },
                                                             "property": {
                                                               "type": "Identifier",
@@ -3734,8 +3728,8 @@
                                                               "end": 5568,
                                                               "name": "name"
                                                             },
-                                                            "computed": false,
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "computed": false
                                                           },
                                                           {
                                                             "type": "Literal",
@@ -3779,8 +3773,8 @@
                                                             "end": 5642,
                                                             "name": "sameValue"
                                                           },
-                                                          "computed": false,
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "computed": false
                                                         },
                                                         "arguments": [
                                                           {
@@ -3804,8 +3798,8 @@
                                                                 "value": 9,
                                                                 "raw": "9"
                                                               },
-                                                              "computed": true,
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "computed": true
                                                             },
                                                             "property": {
                                                               "type": "Identifier",
@@ -3813,8 +3807,8 @@
                                                               "end": 5654,
                                                               "name": "name"
                                                             },
-                                                            "computed": false,
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "computed": false
                                                           },
                                                           {
                                                             "type": "Literal",
@@ -3851,8 +3845,8 @@
                                                             "end": 5703,
                                                             "name": "sameValue"
                                                           },
-                                                          "computed": false,
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "computed": false
                                                         },
                                                         "arguments": [
                                                           {
@@ -3880,8 +3874,8 @@
                                                                   "value": 9,
                                                                   "raw": "9"
                                                                 },
-                                                                "computed": true,
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "computed": true
                                                               },
                                                               "property": {
                                                                 "type": "Identifier",
@@ -3889,8 +3883,8 @@
                                                                 "end": 5720,
                                                                 "name": "thisValue"
                                                               },
-                                                              "computed": false,
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "computed": false
                                                             },
                                                             "property": {
                                                               "type": "Identifier",
@@ -3898,8 +3892,8 @@
                                                               "end": 5725,
                                                               "name": "name"
                                                             },
-                                                            "computed": false,
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "computed": false
                                                           },
                                                           {
                                                             "type": "Literal",
@@ -3943,8 +3937,8 @@
                                                             "end": 5800,
                                                             "name": "sameValue"
                                                           },
-                                                          "computed": false,
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "computed": false
                                                         },
                                                         "arguments": [
                                                           {
@@ -3963,8 +3957,8 @@
                                                               "end": 5808,
                                                               "name": "value"
                                                             },
-                                                            "computed": false,
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "computed": false
                                                           },
                                                           {
                                                             "type": "Literal",
@@ -4001,8 +3995,8 @@
                                                             "end": 5851,
                                                             "name": "sameValue"
                                                           },
-                                                          "computed": false,
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "computed": false
                                                         },
                                                         "arguments": [
                                                           {
@@ -4021,8 +4015,8 @@
                                                               "end": 5858,
                                                               "name": "done"
                                                             },
-                                                            "computed": false,
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "computed": false
                                                           },
                                                           {
                                                             "type": "Literal",
@@ -4059,8 +4053,8 @@
                                                             "end": 5890,
                                                             "name": "sameValue"
                                                           },
-                                                          "computed": false,
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "computed": false
                                                         },
                                                         "arguments": [
                                                           {
@@ -4079,8 +4073,8 @@
                                                               "end": 5901,
                                                               "name": "length"
                                                             },
-                                                            "computed": false,
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "computed": false
                                                           },
                                                           {
                                                             "type": "Literal",
@@ -4101,7 +4095,9 @@
                                                       }
                                                     }
                                                   ]
-                                                }
+                                                },
+                                                "id": null,
+                                                "generator": false
                                               }
                                             ],
                                             "optional": false
@@ -4112,8 +4108,8 @@
                                             "end": 5933,
                                             "name": "then"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "arguments": [
                                           {
@@ -4133,7 +4129,9 @@
                                       }
                                     }
                                   ]
-                                }
+                                },
+                                "id": null,
+                                "generator": false
                               }
                             ],
                             "optional": false
@@ -4144,8 +4142,8 @@
                             "end": 5959,
                             "name": "catch"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -4159,7 +4157,9 @@
                       }
                     }
                   ]
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ],
             "optional": false
@@ -4170,8 +4170,8 @@
             "end": 5976,
             "name": "catch"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -4208,8 +4208,8 @@
             "end": 6002,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

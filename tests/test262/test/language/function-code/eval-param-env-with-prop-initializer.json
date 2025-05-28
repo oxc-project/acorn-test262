@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 679,
       "end": 695,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "\"outer\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -39,7 +39,6 @@
         "end": 731,
         "name": "evalInPropertyInitializer"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -52,9 +51,7 @@
               "type": "Property",
               "start": 733,
               "end": 769,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 733,
@@ -93,7 +90,9 @@
                   "optional": false
                 }
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             }
           ]
         }
@@ -127,8 +126,8 @@
                   "end": 792,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -149,7 +148,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

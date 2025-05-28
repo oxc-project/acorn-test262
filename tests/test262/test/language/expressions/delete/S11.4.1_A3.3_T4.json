@@ -13,7 +13,6 @@
         "end": 369,
         "name": "MyFunction"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,12 +21,14 @@
         "start": 372,
         "end": 374,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 375,
       "end": 410,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,8 +53,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -68,13 +68,13 @@
           "start": 415,
           "end": 433,
           "operator": "delete",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 422,
             "end": 433,
             "name": "MyObjectVar"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {

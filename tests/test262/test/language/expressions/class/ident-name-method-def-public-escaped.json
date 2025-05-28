@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 916,
       "end": 964,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -33,21 +34,17 @@
                   "type": "MethodDefinition",
                   "start": 934,
                   "end": 962,
-                  "static": false,
-                  "computed": false,
                   "key": {
                     "type": "Identifier",
                     "start": 934,
                     "end": 945,
                     "name": "public"
                   },
-                  "kind": "method",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 945,
                     "end": 962,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -69,20 +66,24 @@
                           }
                         }
                       ]
-                    }
-                  }
+                    },
+                    "expression": false
+                  },
+                  "kind": "method",
+                  "computed": false,
+                  "static": false
                 }
               ]
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 966,
       "end": 984,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -107,8 +108,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -134,8 +134,8 @@
             "end": 1002,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -159,8 +159,8 @@
                 "value": "public",
                 "raw": "'public'"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "arguments": [],
             "optional": false

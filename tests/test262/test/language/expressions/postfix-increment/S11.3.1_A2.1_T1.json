@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 285,
       "end": 295,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 296,
       "end": 308,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -58,8 +59,7 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -252,8 +252,8 @@
             "end": 546,
             "name": "x"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -268,6 +268,7 @@
       "type": "VariableDeclaration",
       "start": 552,
       "end": 569,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -300,13 +301,12 @@
                 "end": 566,
                 "name": "x"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -408,8 +408,8 @@
                   "end": 694,
                   "name": "x"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "operator": "!==",
               "right": {
@@ -484,8 +484,8 @@
                               "end": 807,
                               "name": "x"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           }
                         }
                       }
@@ -503,6 +503,7 @@
       "type": "VariableDeclaration",
       "start": 829,
       "end": 855,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -527,8 +528,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -555,8 +555,8 @@
             "end": 867,
             "name": "prop"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -571,6 +571,7 @@
       "type": "VariableDeclaration",
       "start": 873,
       "end": 895,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -604,13 +605,12 @@
                 "end": 892,
                 "name": "prop"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -712,8 +712,8 @@
                   "end": 1056,
                   "name": "x"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "operator": "!==",
               "right": {
@@ -789,8 +789,8 @@
                               "end": 1216,
                               "name": "prop"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           }
                         }
                       }

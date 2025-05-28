@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1232,
       "end": 1242,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "WhileStatement",
@@ -38,13 +38,13 @@
         "start": 1250,
         "end": 1252,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 1251,
           "end": 1252,
           "name": "x"
-        }
+        },
+        "prefix": true
       },
       "body": {
         "type": "BlockStatement",
@@ -109,17 +109,15 @@
                       "end": 1310,
                       "name": "catch"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
                       "type": "ArrowFunctionExpression",
                       "start": 1311,
                       "end": 1379,
-                      "id": null,
                       "expression": false,
-                      "generator": false,
                       "async": false,
                       "params": [
                         {
@@ -158,8 +156,8 @@
                                   "end": 1346,
                                   "name": "notSameValue"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [
                                 {
@@ -167,13 +165,13 @@
                                   "start": 1347,
                                   "end": 1359,
                                   "operator": "typeof",
-                                  "prefix": true,
                                   "argument": {
                                     "type": "Identifier",
                                     "start": 1354,
                                     "end": 1359,
                                     "name": "error"
-                                  }
+                                  },
+                                  "prefix": true
                                 },
                                 {
                                   "type": "Literal",
@@ -187,7 +185,9 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "id": null,
+                      "generator": false
                     }
                   ],
                   "optional": false
@@ -198,8 +198,8 @@
                   "end": 1385,
                   "name": "then"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {

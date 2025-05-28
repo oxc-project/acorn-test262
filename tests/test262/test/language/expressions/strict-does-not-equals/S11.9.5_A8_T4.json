@@ -12,7 +12,6 @@
         "start": 277,
         "end": 298,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 278,
@@ -36,7 +35,8 @@
               "raw": "null"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -81,7 +81,6 @@
         "start": 371,
         "end": 392,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 372,
@@ -105,7 +104,8 @@
               "name": "undefined"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -150,7 +150,6 @@
         "start": 465,
         "end": 478,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 466,
@@ -175,7 +174,8 @@
               "raw": "0"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -220,7 +220,6 @@
         "start": 543,
         "end": 556,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 544,
@@ -245,7 +244,8 @@
               "raw": "null"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -290,7 +290,6 @@
         "start": 621,
         "end": 638,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 622,
@@ -315,7 +314,8 @@
               "raw": "false"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -360,7 +360,6 @@
         "start": 707,
         "end": 724,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 708,
@@ -385,7 +384,8 @@
               "raw": "null"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -430,7 +430,6 @@
         "start": 793,
         "end": 815,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 794,
@@ -454,7 +453,8 @@
               "raw": "false"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -499,7 +499,6 @@
         "start": 889,
         "end": 911,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 890,
@@ -523,7 +522,8 @@
               "name": "undefined"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -568,7 +568,6 @@
         "start": 985,
         "end": 1009,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 986,
@@ -598,7 +597,8 @@
               "arguments": []
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -643,7 +643,6 @@
         "start": 1086,
         "end": 1110,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1087,
@@ -673,7 +672,8 @@
               "raw": "null"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -718,7 +718,6 @@
         "start": 1188,
         "end": 1206,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1189,
@@ -743,7 +742,8 @@
               "raw": "\"null\""
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -788,7 +788,6 @@
         "start": 1278,
         "end": 1296,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1279,
@@ -813,7 +812,8 @@
               "raw": "null"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -858,7 +858,6 @@
         "start": 1368,
         "end": 1396,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1369,
@@ -882,7 +881,8 @@
               "raw": "\"undefined\""
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -927,7 +927,6 @@
         "start": 1478,
         "end": 1506,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1479,
@@ -951,7 +950,8 @@
               "name": "undefined"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

@@ -12,7 +12,6 @@
         "start": 240,
         "end": 262,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 241,
@@ -37,8 +36,8 @@
                 "end": 252,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "!==",
             "right": {
@@ -49,7 +48,8 @@
               "raw": "true"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -94,7 +94,6 @@
         "start": 329,
         "end": 348,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 330,
@@ -119,8 +118,8 @@
                 "end": 341,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "!==",
             "right": {
@@ -131,7 +130,8 @@
               "raw": "1"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -176,7 +176,6 @@
         "start": 412,
         "end": 440,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 413,
@@ -201,8 +200,8 @@
                 "end": 424,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "!==",
             "right": {
@@ -221,11 +220,12 @@
                 "end": 439,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -270,7 +270,6 @@
         "start": 506,
         "end": 548,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 507,
@@ -295,8 +294,8 @@
                 "end": 518,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "!==",
             "right": {
@@ -315,11 +314,12 @@
                 "end": 547,
                 "name": "POSITIVE_INFINITY"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -364,7 +364,6 @@
         "start": 620,
         "end": 662,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 621,
@@ -389,8 +388,8 @@
                 "end": 632,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "!==",
             "right": {
@@ -409,11 +408,12 @@
                 "end": 661,
                 "name": "NEGATIVE_INFINITY"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -458,7 +458,6 @@
         "start": 734,
         "end": 768,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 735,
@@ -483,8 +482,8 @@
                 "end": 746,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "!==",
             "right": {
@@ -503,11 +502,12 @@
                 "end": 767,
                 "name": "MAX_VALUE"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -552,7 +552,6 @@
         "start": 847,
         "end": 881,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 848,
@@ -577,8 +576,8 @@
                 "end": 859,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "!==",
             "right": {
@@ -597,11 +596,12 @@
                 "end": 880,
                 "name": "MIN_VALUE"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -646,7 +646,6 @@
         "start": 960,
         "end": 986,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 961,
@@ -671,8 +670,8 @@
                 "end": 972,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "!==",
             "right": {
@@ -683,7 +682,8 @@
               "raw": "\"string\""
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -728,7 +728,6 @@
         "start": 1057,
         "end": 1087,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1058,
@@ -753,8 +752,8 @@
                 "end": 1069,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "!==",
             "right": {
@@ -770,7 +769,8 @@
               "arguments": []
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

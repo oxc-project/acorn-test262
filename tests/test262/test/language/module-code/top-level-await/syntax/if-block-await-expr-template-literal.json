@@ -31,7 +31,6 @@
                 "type": "TemplateLiteral",
                 "start": 1356,
                 "end": 1358,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -43,7 +42,8 @@
                     },
                     "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
             }
           }

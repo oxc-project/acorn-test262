@@ -13,7 +13,6 @@
         "end": 273,
         "name": "foo"
       },
-      "expression": false,
       "generator": false,
       "async": true,
       "params": [],
@@ -22,7 +21,8 @@
         "start": 276,
         "end": 279,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -33,6 +33,7 @@
       "type": "VariableDeclaration",
       "start": 281,
       "end": 295,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -58,8 +59,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",

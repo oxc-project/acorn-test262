@@ -171,8 +171,8 @@
                   "end": 541,
                   "name": "POSITIVE_INFINITY"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             },
             "consequent": {
@@ -229,14 +229,14 @@
             "start": 629,
             "end": 631,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 630,
               "end": 631,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           "operator": "%",
           "right": {
@@ -244,14 +244,14 @@
             "start": 634,
             "end": 636,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 635,
               "end": 636,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           }
         },
         "operator": "!==",
@@ -260,14 +260,14 @@
           "start": 641,
           "end": 643,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 642,
             "end": 643,
             "value": 0,
             "raw": "0"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -315,14 +315,14 @@
                         "start": 707,
                         "end": 709,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 708,
                           "end": 709,
                           "value": 1,
                           "raw": "1"
-                        }
+                        },
+                        "prefix": true
                       },
                       "operator": "%",
                       "right": {
@@ -330,14 +330,14 @@
                         "start": 712,
                         "end": 714,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 713,
                           "end": 714,
                           "value": 1,
                           "raw": "1"
-                        }
+                        },
+                        "prefix": true
                       }
                     }
                   }
@@ -385,14 +385,14 @@
                       "start": 738,
                       "end": 740,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 739,
                         "end": 740,
                         "value": 1,
                         "raw": "1"
-                      }
+                      },
+                      "prefix": true
                     },
                     "operator": "%",
                     "right": {
@@ -400,14 +400,14 @@
                       "start": 743,
                       "end": 745,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 744,
                         "end": 745,
                         "value": 1,
                         "raw": "1"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -429,8 +429,8 @@
                   "end": 775,
                   "name": "NEGATIVE_INFINITY"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             },
             "consequent": {
@@ -487,14 +487,14 @@
             "start": 865,
             "end": 867,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 866,
               "end": 867,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           "operator": "%",
           "right": {
@@ -511,14 +511,14 @@
           "start": 876,
           "end": 878,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 877,
             "end": 878,
             "value": 0,
             "raw": "0"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -566,14 +566,14 @@
                         "start": 941,
                         "end": 943,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 942,
                           "end": 943,
                           "value": 1,
                           "raw": "1"
-                        }
+                        },
+                        "prefix": true
                       },
                       "operator": "%",
                       "right": {
@@ -629,14 +629,14 @@
                       "start": 971,
                       "end": 973,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 972,
                         "end": 973,
                         "value": 1,
                         "raw": "1"
-                      }
+                      },
+                      "prefix": true
                     },
                     "operator": "%",
                     "right": {
@@ -666,8 +666,8 @@
                   "end": 1007,
                   "name": "NEGATIVE_INFINITY"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             },
             "consequent": {
@@ -732,14 +732,14 @@
             "start": 1100,
             "end": 1102,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1101,
               "end": 1102,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           }
         },
         "operator": "!==",
@@ -804,14 +804,14 @@
                         "start": 1175,
                         "end": 1177,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1176,
                           "end": 1177,
                           "value": 1,
                           "raw": "1"
-                        }
+                        },
+                        "prefix": true
                       }
                     }
                   }
@@ -867,14 +867,14 @@
                       "start": 1205,
                       "end": 1207,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 1206,
                         "end": 1207,
                         "value": 1,
                         "raw": "1"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -896,8 +896,8 @@
                   "end": 1237,
                   "name": "POSITIVE_INFINITY"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             },
             "consequent": {
@@ -1064,14 +1064,14 @@
             "start": 1440,
             "end": 1443,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1441,
               "end": 1443,
               "value": 51,
               "raw": "51"
-            }
+            },
+            "prefix": true
           }
         },
         "operator": "!==",
@@ -1136,14 +1136,14 @@
                         "start": 1521,
                         "end": 1524,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1522,
                           "end": 1524,
                           "value": 51,
                           "raw": "51"
-                        }
+                        },
+                        "prefix": true
                       }
                     }
                   }
@@ -1172,14 +1172,14 @@
             "start": 1545,
             "end": 1549,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1546,
               "end": 1549,
               "value": 101,
               "raw": "101"
-            }
+            },
+            "prefix": true
           },
           "operator": "%",
           "right": {
@@ -1196,14 +1196,14 @@
           "start": 1559,
           "end": 1562,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 1560,
             "end": 1562,
             "value": 50,
             "raw": "50"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -1251,14 +1251,14 @@
                         "start": 1628,
                         "end": 1632,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1629,
                           "end": 1632,
                           "value": 101,
                           "raw": "101"
-                        }
+                        },
+                        "prefix": true
                       },
                       "operator": "%",
                       "right": {
@@ -1295,14 +1295,14 @@
             "start": 1658,
             "end": 1662,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1659,
               "end": 1662,
               "value": 101,
               "raw": "101"
-            }
+            },
+            "prefix": true
           },
           "operator": "%",
           "right": {
@@ -1310,14 +1310,14 @@
             "start": 1665,
             "end": 1668,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1666,
               "end": 1668,
               "value": 51,
               "raw": "51"
-            }
+            },
+            "prefix": true
           }
         },
         "operator": "!==",
@@ -1326,14 +1326,14 @@
           "start": 1673,
           "end": 1676,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 1674,
             "end": 1676,
             "value": 50,
             "raw": "50"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -1381,14 +1381,14 @@
                         "start": 1743,
                         "end": 1747,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1744,
                           "end": 1747,
                           "value": 101,
                           "raw": "101"
-                        }
+                        },
+                        "prefix": true
                       },
                       "operator": "%",
                       "right": {
@@ -1396,14 +1396,14 @@
                         "start": 1750,
                         "end": 1753,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1751,
                           "end": 1753,
                           "value": 51,
                           "raw": "51"
-                        }
+                        },
+                        "prefix": true
                       }
                     }
                   }

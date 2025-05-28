@@ -13,7 +13,6 @@
         "end": 3732,
         "name": "fn"
       },
-      "expression": false,
       "generator": false,
       "async": true,
       "params": [],
@@ -26,6 +25,7 @@
             "type": "VariableDeclaration",
             "start": 3741,
             "end": 3793,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -57,8 +57,7 @@
                   }
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -84,8 +83,8 @@
                   "end": 3815,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -116,8 +115,8 @@
                           "end": 3832,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -125,8 +124,8 @@
                         "end": 3847,
                         "name": "hasOwnProperty"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -134,8 +133,8 @@
                       "end": 3852,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -160,8 +159,8 @@
                         "end": 3872,
                         "name": "iterator"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   ],
                   "optional": false
@@ -178,7 +177,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -219,8 +219,8 @@
                 "end": 3895,
                 "name": "then"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -244,8 +244,8 @@
             "end": 3915,
             "name": "catch"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

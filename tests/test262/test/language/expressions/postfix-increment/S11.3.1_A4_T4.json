@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 257,
       "end": 263,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,13 +21,13 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 264,
       "end": 276,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,8 +53,7 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -147,6 +147,7 @@
       "type": "VariableDeclaration",
       "start": 403,
       "end": 416,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -166,13 +167,13 @@
             "raw": "null"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 417,
       "end": 429,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -198,8 +199,7 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 2797,
       "end": 2811,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2812,
       "end": 2827,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,13 +53,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2828,
       "end": 2914,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -79,7 +80,6 @@
               "start": 2839,
               "end": 2911,
               "id": null,
-              "expression": false,
               "generator": true,
               "async": false,
               "params": [],
@@ -154,14 +154,14 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -183,21 +183,17 @@
             "type": "MethodDefinition",
             "start": 2928,
             "end": 2960,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 2936,
               "end": 2942,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 2942,
               "end": 2960,
               "id": null,
-              "expression": false,
               "generator": true,
               "async": false,
               "params": [
@@ -236,8 +232,12 @@
                 "start": 2958,
                 "end": 2960,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           }
         ]
       }
@@ -271,8 +271,8 @@
             "end": 2978,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -286,7 +286,6 @@
             "start": 2993,
             "end": 3021,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -319,15 +318,16 @@
                         "end": 3016,
                         "name": "method"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -357,8 +357,8 @@
             "end": 3034,
             "name": "next"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -388,8 +388,8 @@
             "end": 3054,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -433,8 +433,8 @@
             "end": 3082,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

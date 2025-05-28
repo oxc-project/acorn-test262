@@ -12,7 +12,6 @@
         "start": 285,
         "end": 311,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 286,
@@ -35,7 +34,8 @@
               "name": "undefined"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -80,7 +80,6 @@
         "start": 389,
         "end": 412,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 390,
@@ -94,14 +93,14 @@
               "start": 391,
               "end": 397,
               "operator": "void",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 396,
                 "end": 397,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             },
             "operator": "===",
             "right": {
@@ -111,7 +110,8 @@
               "name": "undefined"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -156,7 +156,6 @@
         "start": 487,
         "end": 517,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 488,
@@ -194,7 +193,8 @@
               "optional": false
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

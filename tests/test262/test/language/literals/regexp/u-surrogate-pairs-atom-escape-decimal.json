@@ -27,8 +27,8 @@
             "end": 1010,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -56,8 +56,8 @@
                 "end": 1027,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

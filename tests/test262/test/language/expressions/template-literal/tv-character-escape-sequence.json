@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 700,
       "end": 710,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -64,7 +64,6 @@
             "start": 724,
             "end": 884,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -122,8 +121,8 @@
                         "end": 767,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -143,8 +142,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -188,8 +187,8 @@
                         "end": 826,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -212,8 +211,8 @@
                             "end": 832,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -222,8 +221,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -244,14 +243,14 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 885,
           "end": 889,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -263,7 +262,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -291,8 +291,8 @@
             "end": 907,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -353,7 +353,6 @@
             "start": 932,
             "end": 1137,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -411,8 +410,8 @@
                         "end": 975,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -432,8 +431,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -477,8 +476,8 @@
                         "end": 1053,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -501,8 +500,8 @@
                             "end": 1064,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -511,8 +510,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -533,14 +532,14 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 1138,
           "end": 1142,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -552,7 +551,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -580,8 +580,8 @@
             "end": 1160,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -642,7 +642,6 @@
             "start": 1185,
             "end": 1384,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -700,8 +699,8 @@
                         "end": 1228,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -721,8 +720,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -766,8 +765,8 @@
                         "end": 1303,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -790,8 +789,8 @@
                             "end": 1314,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -800,8 +799,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -822,14 +821,14 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 1385,
           "end": 1389,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -841,7 +840,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -869,8 +869,8 @@
             "end": 1407,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -931,7 +931,6 @@
             "start": 1432,
             "end": 1626,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -989,8 +988,8 @@
                         "end": 1475,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1010,8 +1009,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -1055,8 +1054,8 @@
                         "end": 1550,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1079,8 +1078,8 @@
                             "end": 1561,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -1089,8 +1088,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -1111,14 +1110,14 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 1627,
           "end": 1631,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -1130,7 +1129,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -1158,8 +1158,8 @@
             "end": 1649,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1220,7 +1220,6 @@
             "start": 1674,
             "end": 1868,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -1278,8 +1277,8 @@
                         "end": 1717,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1299,8 +1298,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -1344,8 +1343,8 @@
                         "end": 1792,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1368,8 +1367,8 @@
                             "end": 1803,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -1378,8 +1377,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -1400,14 +1399,14 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 1869,
           "end": 1873,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -1419,7 +1418,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -1447,8 +1447,8 @@
             "end": 1891,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1509,7 +1509,6 @@
             "start": 1916,
             "end": 2108,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -1567,8 +1566,8 @@
                         "end": 1959,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1588,8 +1587,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -1633,8 +1632,8 @@
                         "end": 2033,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1657,8 +1656,8 @@
                             "end": 2044,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -1667,8 +1666,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -1689,14 +1688,14 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 2109,
           "end": 2113,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -1708,7 +1707,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -1736,8 +1736,8 @@
             "end": 2131,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1798,7 +1798,6 @@
             "start": 2156,
             "end": 2370,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -1856,8 +1855,8 @@
                         "end": 2199,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1877,8 +1876,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -1922,8 +1921,8 @@
                         "end": 2288,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1946,8 +1945,8 @@
                             "end": 2299,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -1956,8 +1955,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -1978,14 +1977,14 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 2371,
           "end": 2375,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -1997,7 +1996,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -2025,8 +2025,8 @@
             "end": 2393,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2087,7 +2087,6 @@
             "start": 2418,
             "end": 2591,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -2145,8 +2144,8 @@
                         "end": 2461,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2166,8 +2165,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -2211,8 +2210,8 @@
                         "end": 2529,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2235,8 +2234,8 @@
                             "end": 2535,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -2245,8 +2244,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -2267,14 +2266,14 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 2592,
           "end": 2596,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -2286,7 +2285,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -2314,8 +2314,8 @@
             "end": 2614,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2376,7 +2376,6 @@
             "start": 2639,
             "end": 2853,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -2434,8 +2433,8 @@
                         "end": 2682,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2455,8 +2454,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -2500,8 +2499,8 @@
                         "end": 2771,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2524,8 +2523,8 @@
                             "end": 2782,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -2534,8 +2533,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -2556,14 +2555,14 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 2854,
           "end": 2858,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -2575,7 +2574,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -2603,8 +2603,8 @@
             "end": 2876,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2665,7 +2665,6 @@
             "start": 2901,
             "end": 3092,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -2723,8 +2722,8 @@
                         "end": 2944,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2744,8 +2743,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -2789,8 +2788,8 @@
                         "end": 3017,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2813,8 +2812,8 @@
                             "end": 3028,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -2823,8 +2822,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -2845,14 +2844,14 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 3093,
           "end": 3097,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -2864,7 +2863,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -2892,8 +2892,8 @@
             "end": 3115,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -16,14 +16,14 @@
           "start": 287,
           "end": 293,
           "operator": "void",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 292,
             "end": 293,
             "value": 0,
             "raw": "0"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -74,14 +74,14 @@
                       "start": 376,
                       "end": 382,
                       "operator": "void",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 381,
                         "end": 382,
                         "value": 0,
                         "raw": "0"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -96,6 +96,7 @@
       "type": "VariableDeclaration",
       "start": 399,
       "end": 409,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -115,8 +116,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -131,13 +131,13 @@
           "start": 414,
           "end": 420,
           "operator": "void",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 419,
             "end": 420,
             "name": "x"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -188,13 +188,13 @@
                       "start": 514,
                       "end": 520,
                       "operator": "void",
-                      "prefix": true,
                       "argument": {
                         "type": "Identifier",
                         "start": 519,
                         "end": 520,
                         "name": "x"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -209,6 +209,7 @@
       "type": "VariableDeclaration",
       "start": 537,
       "end": 558,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -233,8 +234,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -249,13 +249,13 @@
           "start": 563,
           "end": 569,
           "operator": "void",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 568,
             "end": 569,
             "name": "x"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -306,13 +306,13 @@
                       "start": 674,
                       "end": 680,
                       "operator": "void",
-                      "prefix": true,
                       "argument": {
                         "type": "Identifier",
                         "start": 679,
                         "end": 680,
                         "name": "x"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }

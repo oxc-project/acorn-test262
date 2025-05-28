@@ -13,7 +13,6 @@
         "end": 538,
         "name": "f1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -50,7 +49,6 @@
               "end": 568,
               "name": "x"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -72,10 +70,12 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -86,7 +86,6 @@
         "start": 595,
         "end": 647,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 596,
@@ -122,8 +121,8 @@
                   "end": 613,
                   "name": "constructor"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -131,8 +130,8 @@
                 "end": 623,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "===",
             "right": {
@@ -151,11 +150,12 @@
                 "end": 646,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -201,7 +201,6 @@
         "end": 729,
         "name": "f2"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -226,13 +225,13 @@
               "start": 743,
               "end": 751,
               "operator": "typeof",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 750,
                 "end": 751,
                 "name": "x"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -245,7 +244,6 @@
               "end": 766,
               "name": "x"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -267,10 +265,12 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -281,7 +281,6 @@
         "start": 793,
         "end": 815,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 794,
@@ -312,7 +311,8 @@
               "raw": "\"function\""
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -358,7 +358,6 @@
         "end": 895,
         "name": "f3"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -376,13 +375,13 @@
               "start": 909,
               "end": 925,
               "operator": "typeof",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 916,
                 "end": 925,
                 "name": "arguments"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -395,7 +394,6 @@
               "end": 947,
               "name": "arguments"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -417,10 +415,12 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -431,7 +431,6 @@
         "start": 976,
         "end": 998,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 977,
@@ -462,7 +461,8 @@
               "raw": "\"function\""
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

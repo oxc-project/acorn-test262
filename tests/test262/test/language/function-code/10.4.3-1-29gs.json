@@ -13,7 +13,6 @@
         "end": 360,
         "name": "f1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -51,7 +50,6 @@
                         "start": 378,
                         "end": 425,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -69,16 +67,17 @@
                                 "start": 407,
                                 "end": 418,
                                 "operator": "typeof",
-                                "prefix": true,
                                 "argument": {
                                   "type": "ThisExpression",
                                   "start": 414,
                                   "end": 418
-                                }
+                                },
+                                "prefix": true
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     },
                     "arguments": [],
@@ -112,12 +111,12 @@
                       "start": 449,
                       "end": 460,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "ThisExpression",
                         "start": 456,
                         "end": 460
-                      }
+                      },
+                      "prefix": true
                     }
                   },
                   "operator": "===",
@@ -133,7 +132,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -144,7 +144,6 @@
         "start": 484,
         "end": 490,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "CallExpression",
           "start": 486,
@@ -157,7 +156,8 @@
           },
           "arguments": [],
           "optional": false
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 682,
       "end": 691,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,13 +21,13 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 693,
       "end": 754,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -43,7 +44,6 @@
             "start": 701,
             "end": 753,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -86,6 +86,7 @@
                   "type": "VariableDeclaration",
                   "start": 737,
                   "end": 751,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -99,15 +100,14 @@
                       },
                       "init": null
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -151,8 +151,8 @@
             "end": 778,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -160,13 +160,13 @@
             "start": 779,
             "end": 790,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 786,
               "end": 790,
               "name": "args"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -203,8 +203,8 @@
             "end": 819,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -223,8 +223,8 @@
               "end": 831,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

@@ -13,7 +13,6 @@
         "end": 236,
         "name": "af"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -54,12 +53,13 @@
                 "end": 262,
                 "name": "length"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -85,8 +85,8 @@
             "end": 283,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -109,8 +109,8 @@
                 "end": 292,
                 "name": "apply"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -171,8 +171,8 @@
             "end": 360,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -195,8 +195,8 @@
                 "end": 369,
                 "name": "apply"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -265,8 +265,8 @@
             "end": 439,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -289,8 +289,8 @@
                 "end": 448,
                 "name": "apply"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -366,8 +366,8 @@
             "end": 524,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -390,8 +390,8 @@
                 "end": 533,
                 "name": "apply"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 427,
       "end": 437,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 439,
       "end": 463,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -53,9 +54,7 @@
                 "type": "Property",
                 "start": 452,
                 "end": 461,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 452,
@@ -69,13 +68,14 @@
                   "value": "obj",
                   "raw": "\"obj\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -87,7 +87,6 @@
         "end": 476,
         "name": "f1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -106,7 +105,6 @@
               "end": 493,
               "name": "f2"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -145,7 +143,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "EmptyStatement",
@@ -171,7 +170,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -182,7 +182,6 @@
         "start": 562,
         "end": 579,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 563,
@@ -213,7 +212,8 @@
               "raw": "\"obj\""
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

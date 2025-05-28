@@ -50,8 +50,8 @@
             "end": 424,
             "name": "x"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -109,7 +109,6 @@
           "start": 515,
           "end": 528,
           "operator": "delete",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 522,
@@ -125,9 +124,10 @@
               "end": 528,
               "name": "x"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {

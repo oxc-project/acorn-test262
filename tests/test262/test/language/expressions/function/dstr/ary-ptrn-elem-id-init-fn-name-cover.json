@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1843,
       "end": 1861,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1862,
       "end": 1868,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -46,8 +47,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -69,7 +69,6 @@
           "start": 1873,
           "end": 2058,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [
@@ -97,7 +96,6 @@
                       "start": 1892,
                       "end": 1906,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -106,7 +104,8 @@
                         "start": 1904,
                         "end": 1906,
                         "body": []
-                      }
+                      },
+                      "expression": false
                     }
                   }
                 },
@@ -141,7 +140,6 @@
                           "start": 1922,
                           "end": 1935,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -150,7 +148,8 @@
                             "start": 1933,
                             "end": 1935,
                             "body": []
-                          }
+                          },
+                          "expression": false
                         }
                       ]
                     }
@@ -188,8 +187,8 @@
                       "end": 1959,
                       "name": "sameValue"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -208,8 +207,8 @@
                         "end": 1970,
                         "name": "name"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     {
                       "type": "Literal",
@@ -246,8 +245,8 @@
                       "end": 2003,
                       "name": "notSameValue"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -266,8 +265,8 @@
                         "end": 2015,
                         "name": "name"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     {
                       "type": "Literal",
@@ -317,7 +316,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -370,8 +370,8 @@
             "end": 2084,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

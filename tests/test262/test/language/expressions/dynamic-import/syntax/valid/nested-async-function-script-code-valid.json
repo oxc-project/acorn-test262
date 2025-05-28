@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1211,
       "end": 1222,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -33,7 +33,6 @@
         "end": 1238,
         "name": "smoosh"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -42,7 +41,8 @@
         "start": 1241,
         "end": 1243,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -54,7 +54,6 @@
         "end": 1262,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": true,
       "params": [],
@@ -83,7 +82,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

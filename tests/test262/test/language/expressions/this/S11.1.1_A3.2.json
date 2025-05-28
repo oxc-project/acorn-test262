@@ -13,7 +13,6 @@
         "end": 369,
         "name": "SetThis"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -46,8 +45,8 @@
                   "end": 382,
                   "name": "THIS"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "ThisExpression",
@@ -57,7 +56,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -102,8 +102,8 @@
                 "end": 415,
                 "name": "THIS"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -111,8 +111,8 @@
               "end": 424,
               "name": "toString"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [],
           "optional": false
@@ -197,8 +197,8 @@
                             "end": 608,
                             "name": "THIS"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -206,8 +206,8 @@
                           "end": 617,
                           "name": "toString"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [],
                       "optional": false
@@ -231,7 +231,6 @@
         "end": 656,
         "name": "SetEvalThis"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -264,8 +263,8 @@
                   "end": 669,
                   "name": "THIS"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "CallExpression",
@@ -291,7 +290,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -336,8 +336,8 @@
                 "end": 714,
                 "name": "THIS"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -345,8 +345,8 @@
               "end": 723,
               "name": "toString"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [],
           "optional": false
@@ -431,8 +431,8 @@
                             "end": 927,
                             "name": "THIS"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -440,8 +440,8 @@
                           "end": 936,
                           "name": "toString"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [],
                       "optional": false

@@ -27,6 +27,7 @@
         "value": "./json-idempotency_FIXTURE.json",
         "raw": "'./json-idempotency_FIXTURE.json'"
       },
+      "phase": null,
       "attributes": [
         {
           "type": "ImportAttribute",
@@ -46,8 +47,7 @@
             "raw": "'json'"
           }
         }
-      ],
-      "phase": null
+      ]
     },
     {
       "type": "ImportDeclaration",
@@ -79,6 +79,7 @@
         "value": "./json-idempotency_FIXTURE.json",
         "raw": "'./json-idempotency_FIXTURE.json'"
       },
+      "phase": null,
       "attributes": [
         {
           "type": "ImportAttribute",
@@ -98,8 +99,7 @@
             "raw": "'json'"
           }
         }
-      ],
-      "phase": null
+      ]
     },
     {
       "type": "ImportDeclaration",
@@ -113,8 +113,8 @@
         "value": "./json-idempotency-indirect_FIXTURE.js",
         "raw": "'./json-idempotency-indirect_FIXTURE.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -140,8 +140,8 @@
             "end": 601,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -184,8 +184,8 @@
             "end": 655,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -204,8 +204,8 @@
               "end": 682,
               "name": "viaSecondModule"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",
@@ -257,9 +257,7 @@
                       "type": "Property",
                       "start": 748,
                       "end": 770,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 748,
@@ -275,9 +273,7 @@
                             "type": "Property",
                             "start": 756,
                             "end": 768,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 756,
@@ -291,11 +287,15 @@
                               "value": "json",
                               "raw": "'json'"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 },
@@ -307,8 +307,8 @@
                 "end": 781,
                 "name": "then"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -316,7 +316,6 @@
                 "start": 782,
                 "end": 880,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [
@@ -356,8 +355,8 @@
                             "end": 831,
                             "name": "sameValue"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -376,8 +375,8 @@
                               "end": 856,
                               "name": "default"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           {
                             "type": "Identifier",
@@ -390,7 +389,8 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             ],
             "optional": false
@@ -401,8 +401,8 @@
             "end": 889,
             "name": "then"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

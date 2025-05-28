@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1241,
       "end": 1252,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -33,7 +33,6 @@
         "end": 1268,
         "name": "smoosh"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -42,7 +41,8 @@
         "start": 1271,
         "end": 1273,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -92,17 +92,15 @@
                     "end": 1315,
                     "name": "then"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
                     "type": "ArrowFunctionExpression",
                     "start": 1316,
                     "end": 1454,
-                    "id": null,
                     "expression": false,
-                    "generator": false,
                     "async": false,
                     "params": [
                       {
@@ -141,8 +139,8 @@
                                 "end": 1349,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -161,8 +159,8 @@
                                   "end": 1366,
                                   "name": "default"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               {
                                 "type": "Literal",
@@ -199,8 +197,8 @@
                                 "end": 1391,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -219,8 +217,8 @@
                                   "end": 1402,
                                   "name": "x"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               {
                                 "type": "Literal",
@@ -257,8 +255,8 @@
                                 "end": 1434,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -277,8 +275,8 @@
                                   "end": 1445,
                                   "name": "z"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               {
                                 "type": "Literal",
@@ -292,7 +290,9 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "id": null,
+                    "generator": false
                   }
                 ],
                 "optional": false
@@ -303,8 +303,8 @@
                 "end": 1460,
                 "name": "then"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -328,8 +328,8 @@
             "end": 1480,
             "name": "catch"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

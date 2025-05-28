@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1684,
       "end": 1766,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 1702,
                 "end": 1763,
-                "method": true,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1702,
@@ -41,7 +40,6 @@
                   "start": 1710,
                   "end": 1763,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -63,15 +61,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": true,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "BlockStatement",
@@ -125,17 +125,15 @@
                         "end": 1789,
                         "name": "then"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
                         "type": "ArrowFunctionExpression",
                         "start": 1790,
                         "end": 1936,
-                        "id": null,
                         "expression": false,
-                        "generator": false,
                         "async": false,
                         "params": [
                           {
@@ -174,8 +172,8 @@
                                     "end": 1825,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -194,8 +192,8 @@
                                       "end": 1842,
                                       "name": "default"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -232,8 +230,8 @@
                                     "end": 1869,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -252,8 +250,8 @@
                                       "end": 1880,
                                       "name": "x"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -290,8 +288,8 @@
                                     "end": 1914,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -310,8 +308,8 @@
                                       "end": 1925,
                                       "name": "z"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -325,7 +323,9 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       }
                     ],
                     "optional": false
@@ -336,8 +336,8 @@
                     "end": 1942,
                     "name": "then"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -361,8 +361,8 @@
                 "end": 1962,
                 "name": "catch"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

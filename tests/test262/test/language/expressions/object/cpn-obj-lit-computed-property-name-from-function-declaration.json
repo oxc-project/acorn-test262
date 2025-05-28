@@ -13,7 +13,6 @@
         "end": 706,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,12 +21,14 @@
         "start": 709,
         "end": 711,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 714,
       "end": 737,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -48,9 +49,7 @@
                 "type": "Property",
                 "start": 726,
                 "end": 734,
-                "method": false,
-                "shorthand": false,
-                "computed": true,
+                "kind": "init",
                 "key": {
                   "type": "CallExpression",
                   "start": 727,
@@ -71,13 +70,14 @@
                   "value": 1,
                   "raw": "1"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": true
               }
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -103,8 +103,8 @@
             "end": 755,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -130,8 +130,8 @@
               "arguments": [],
               "optional": false
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",
@@ -168,8 +168,8 @@
             "end": 790,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -209,8 +209,8 @@
               ],
               "optional": false
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",

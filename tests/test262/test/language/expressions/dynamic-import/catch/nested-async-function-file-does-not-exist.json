@@ -13,7 +13,6 @@
         "end": 1269,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": true,
       "params": [],
@@ -62,17 +61,15 @@
                       "end": 1321,
                       "name": "catch"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
                       "type": "ArrowFunctionExpression",
                       "start": 1322,
                       "end": 1390,
-                      "id": null,
                       "expression": false,
-                      "generator": false,
                       "async": false,
                       "params": [
                         {
@@ -111,8 +108,8 @@
                                   "end": 1357,
                                   "name": "notSameValue"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [
                                 {
@@ -120,13 +117,13 @@
                                   "start": 1358,
                                   "end": 1370,
                                   "operator": "typeof",
-                                  "prefix": true,
                                   "argument": {
                                     "type": "Identifier",
                                     "start": 1365,
                                     "end": 1370,
                                     "name": "error"
-                                  }
+                                  },
+                                  "prefix": true
                                 },
                                 {
                                   "type": "Literal",
@@ -140,7 +137,9 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "id": null,
+                      "generator": false
                     }
                   ],
                   "optional": false
@@ -151,8 +150,8 @@
                   "end": 1396,
                   "name": "then"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -172,7 +171,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

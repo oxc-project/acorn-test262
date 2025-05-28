@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 329,
       "end": 466,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,7 +24,6 @@
             "start": 338,
             "end": 466,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -61,7 +61,6 @@
                               "start": 365,
                               "end": 412,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [],
@@ -79,16 +78,17 @@
                                       "start": 394,
                                       "end": 405,
                                       "operator": "typeof",
-                                      "prefix": true,
                                       "argument": {
                                         "type": "ThisExpression",
                                         "start": 401,
                                         "end": 405
-                                      }
+                                      },
+                                      "prefix": true
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             }
                           },
                           "arguments": [],
@@ -122,12 +122,12 @@
                             "start": 436,
                             "end": 447,
                             "operator": "typeof",
-                            "prefix": true,
                             "argument": {
                               "type": "ThisExpression",
                               "start": 443,
                               "end": 447
-                            }
+                            },
+                            "prefix": true
                           }
                         },
                         "operator": "===",
@@ -143,11 +143,11 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",

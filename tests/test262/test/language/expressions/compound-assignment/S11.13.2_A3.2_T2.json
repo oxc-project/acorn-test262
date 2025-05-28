@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 283,
       "end": 293,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 294,
       "end": 313,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -64,20 +65,19 @@
                 "start": 309,
                 "end": 311,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 310,
                   "end": 311,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               }
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -99,14 +99,14 @@
           "start": 325,
           "end": 327,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 326,
             "end": 327,
             "value": 1,
             "raw": "1"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -164,6 +164,7 @@
       "type": "VariableDeclaration",
       "start": 435,
       "end": 441,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -177,13 +178,13 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 442,
       "end": 449,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -197,8 +198,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -259,14 +259,14 @@
               "start": 468,
               "end": 470,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 469,
                 "end": 470,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             }
           }
         }
@@ -292,14 +292,14 @@
           "start": 484,
           "end": 486,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 485,
             "end": 486,
             "value": 1,
             "raw": "1"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {

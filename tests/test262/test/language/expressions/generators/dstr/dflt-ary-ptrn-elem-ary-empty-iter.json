@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1833,
       "end": 1851,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1853,
       "end": 1871,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,13 +53,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1872,
       "end": 1878,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -72,8 +73,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -95,7 +95,6 @@
           "start": 1883,
           "end": 2009,
           "id": null,
-          "expression": false,
           "generator": true,
           "async": false,
           "params": [
@@ -127,7 +126,6 @@
                         "start": 1899,
                         "end": 1929,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -161,7 +159,8 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       },
                       "arguments": [],
                       "optional": false
@@ -221,8 +220,8 @@
                       "end": 1963,
                       "name": "sameValue"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -279,7 +278,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -314,8 +314,8 @@
             "end": 2020,
             "name": "next"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -345,8 +345,8 @@
             "end": 2040,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

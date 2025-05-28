@@ -27,8 +27,8 @@
             "end": 1116,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 1133,
             "end": 1159,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -60,17 +59,18 @@
                     "start": 1148,
                     "end": 1156,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 1155,
                       "end": 1156,
                       "name": "C"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -130,8 +130,8 @@
         "value": "./instn-named-bndng-dflt-cls.js",
         "raw": "'./instn-named-bndng-dflt-cls.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     }
   ],
   "sourceType": "module",

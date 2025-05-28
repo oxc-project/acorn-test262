@@ -42,8 +42,8 @@
                 "end": 551,
                 "name": "undeclared"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "right": {
               "type": "Literal",

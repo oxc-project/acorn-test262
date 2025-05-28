@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 2635,
       "end": 2663,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,7 +28,6 @@
               "start": 2646,
               "end": 2660,
               "id": null,
-              "expression": false,
               "generator": true,
               "async": false,
               "params": [],
@@ -36,14 +36,14 @@
                 "start": 2658,
                 "end": 2660,
                 "body": []
-              }
+              },
+              "expression": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -69,8 +69,8 @@
             "end": 2673,
             "name": "next"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -80,6 +80,7 @@
       "type": "VariableDeclaration",
       "start": 2678,
       "end": 2696,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -99,8 +100,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -122,21 +122,17 @@
             "type": "MethodDefinition",
             "start": 2709,
             "end": 2770,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 2717,
               "end": 2723,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 2723,
               "end": 2770,
               "id": null,
-              "expression": false,
               "generator": true,
               "async": false,
               "params": [
@@ -191,8 +187,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           }
         ]
       }
@@ -234,8 +234,8 @@
                 "end": 2783,
                 "name": "method"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -253,8 +253,8 @@
             "end": 2794,
             "name": "next"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -284,8 +284,8 @@
             "end": 2814,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

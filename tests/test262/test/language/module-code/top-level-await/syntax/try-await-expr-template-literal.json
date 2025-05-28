@@ -24,7 +24,6 @@
                 "type": "TemplateLiteral",
                 "start": 1406,
                 "end": 1408,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -36,7 +35,8 @@
                     },
                     "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
             }
           }
@@ -69,7 +69,6 @@
                   "type": "TemplateLiteral",
                   "start": 1431,
                   "end": 1433,
-                  "expressions": [],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -81,7 +80,8 @@
                       },
                       "tail": true
                     }
-                  ]
+                  ],
+                  "expressions": []
                 }
               }
             }
@@ -111,7 +111,6 @@
                 "type": "TemplateLiteral",
                 "start": 1452,
                 "end": 1454,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -123,7 +122,8 @@
                     },
                     "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
             }
           }
@@ -147,7 +147,6 @@
                 "type": "TemplateLiteral",
                 "start": 1476,
                 "end": 1478,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -159,7 +158,8 @@
                     },
                     "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
             }
           }
@@ -187,7 +187,6 @@
                 "type": "TemplateLiteral",
                 "start": 1497,
                 "end": 1499,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -199,7 +198,8 @@
                     },
                     "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
             }
           }
@@ -232,7 +232,6 @@
                   "type": "TemplateLiteral",
                   "start": 1522,
                   "end": 1524,
-                  "expressions": [],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -244,7 +243,8 @@
                       },
                       "tail": true
                     }
-                  ]
+                  ],
+                  "expressions": []
                 }
               }
             }
@@ -268,7 +268,6 @@
                 "type": "TemplateLiteral",
                 "start": 1546,
                 "end": 1548,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -280,7 +279,8 @@
                     },
                     "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
             }
           }

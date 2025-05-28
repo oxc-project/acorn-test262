@@ -27,8 +27,8 @@
             "end": 793,
             "name": "preventExtensions"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -64,8 +64,8 @@
             "end": 817,
             "name": "evalScript"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -127,8 +127,8 @@
             "end": 876,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -179,8 +179,8 @@
             "end": 937,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -202,8 +202,8 @@
                 "end": 960,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -258,8 +258,8 @@
             "end": 1056,
             "name": "evalScript"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -297,8 +297,8 @@
             "end": 1099,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -312,7 +312,6 @@
             "start": 1111,
             "end": 1145,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -346,7 +345,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -383,8 +383,8 @@
             "end": 1205,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -435,8 +435,8 @@
             "end": 1278,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -458,8 +458,8 @@
                 "end": 1301,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -514,8 +514,8 @@
             "end": 1401,
             "name": "evalScript"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -577,8 +577,8 @@
             "end": 1464,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -629,8 +629,8 @@
             "end": 1529,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -652,8 +652,8 @@
                 "end": 1552,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

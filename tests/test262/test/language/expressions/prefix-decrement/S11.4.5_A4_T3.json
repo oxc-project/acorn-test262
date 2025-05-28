@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 277,
       "end": 289,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "\"1\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -134,6 +134,7 @@
       "type": "VariableDeclaration",
       "start": 402,
       "end": 414,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -153,8 +154,7 @@
             "raw": "\"x\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -262,6 +262,7 @@
       "type": "VariableDeclaration",
       "start": 540,
       "end": 565,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -294,8 +295,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -328,14 +328,14 @@
             "start": 579,
             "end": 581,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 580,
               "end": 581,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           "operator": "-",
           "right": {

@@ -7,6 +7,12 @@
       "type": "LabeledStatement",
       "start": 1147,
       "end": 1316,
+      "label": {
+        "type": "Identifier",
+        "start": 1147,
+        "end": 1152,
+        "name": "label"
+      },
       "body": {
         "type": "BlockStatement",
         "start": 1154,
@@ -69,17 +75,15 @@
                               "value": "then",
                               "raw": "'then'"
                             },
-                            "computed": true,
-                            "optional": false
+                            "optional": false,
+                            "computed": true
                           },
                           "arguments": [
                             {
                               "type": "ArrowFunctionExpression",
                               "start": 1211,
                               "end": 1217,
-                              "id": null,
                               "expression": true,
-                              "generator": false,
                               "async": false,
                               "params": [
                                 {
@@ -94,7 +98,9 @@
                                 "start": 1216,
                                 "end": 1217,
                                 "name": "x"
-                              }
+                              },
+                              "id": null,
+                              "generator": false
                             }
                           ],
                           "optional": false
@@ -105,17 +111,15 @@
                           "end": 1223,
                           "name": "then"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
                           "type": "ArrowFunctionExpression",
                           "start": 1224,
                           "end": 1280,
-                          "id": null,
                           "expression": false,
-                          "generator": false,
                           "async": false,
                           "params": [
                             {
@@ -154,8 +158,8 @@
                                       "end": 1259,
                                       "name": "sameValue"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "arguments": [
                                     {
@@ -174,8 +178,8 @@
                                         "end": 1270,
                                         "name": "x"
                                       },
-                                      "computed": false,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": false
                                     },
                                     {
                                       "type": "Literal",
@@ -189,7 +193,9 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "id": null,
+                          "generator": false
                         }
                       ],
                       "optional": false
@@ -200,8 +206,8 @@
                       "end": 1286,
                       "name": "then"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -225,8 +231,8 @@
                   "end": 1306,
                   "name": "catch"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -240,12 +246,6 @@
             }
           }
         ]
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 1147,
-        "end": 1152,
-        "name": "label"
       }
     },
     {

@@ -27,8 +27,8 @@
             "end": 427,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,14 +36,14 @@
             "start": 431,
             "end": 442,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 438,
               "end": 442,
               "value": null,
               "raw": "null"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -87,8 +87,8 @@
             "end": 506,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -96,7 +96,6 @@
             "start": 510,
             "end": 538,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 517,
@@ -132,8 +131,8 @@
                   "end": 533,
                   "name": "exec"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -145,7 +144,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

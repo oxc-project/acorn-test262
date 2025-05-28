@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 504,
       "end": 523,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "null"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 524,
       "end": 595,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -49,7 +50,6 @@
             "start": 533,
             "end": 594,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -67,7 +67,6 @@
                     "start": 555,
                     "end": 591,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -99,15 +98,16 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -134,7 +134,6 @@
           "type": "TemplateLiteral",
           "start": 601,
           "end": 625,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -146,7 +145,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -174,8 +174,8 @@
             "end": 644,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -214,7 +214,6 @@
           "start": 672,
           "end": 722,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -231,9 +230,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 694,
                   "end": 719,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -264,11 +261,14 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -321,7 +321,6 @@
           "type": "TemplateLiteral",
           "start": 745,
           "end": 769,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -333,7 +332,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -361,8 +361,8 @@
             "end": 788,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

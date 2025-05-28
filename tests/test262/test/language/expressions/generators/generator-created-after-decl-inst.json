@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 663,
       "end": 709,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,7 +24,6 @@
             "start": 671,
             "end": 709,
             "id": null,
-            "expression": false,
             "generator": true,
             "async": false,
             "params": [
@@ -62,8 +62,8 @@
                         "end": 697,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "Literal",
@@ -81,16 +81,17 @@
               "start": 707,
               "end": 709,
               "body": []
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 710,
       "end": 741,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -118,17 +119,17 @@
               "end": 740,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 742,
       "end": 755,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -154,8 +155,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -181,8 +181,8 @@
             "end": 776,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -205,8 +205,8 @@
                 "end": 798,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

@@ -27,8 +27,8 @@
         "value": "./instn-star-props-circular-a_FIXTURE.js",
         "raw": "'./instn-star-props-circular-a_FIXTURE.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -54,8 +54,8 @@
         "value": "./instn-star-props-circular-b_FIXTURE.js",
         "raw": "'./instn-star-props-circular-b_FIXTURE.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

@@ -136,14 +136,14 @@
               "start": 368,
               "end": 375,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 369,
                 "end": 375,
                 "value": 5.4321,
                 "raw": "5.4321"
-              }
+              },
+              "prefix": true
             },
             "operator": ">>>",
             "right": {
@@ -213,14 +213,14 @@
                           "start": 477,
                           "end": 484,
                           "operator": "-",
-                          "prefix": true,
                           "argument": {
                             "type": "Literal",
                             "start": 478,
                             "end": 484,
                             "value": 5.4321,
                             "raw": "5.4321"
-                          }
+                          },
+                          "prefix": true
                         },
                         "operator": ">>>",
                         "right": {

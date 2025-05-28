@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 556,
       "end": 588,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -31,13 +32,13 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 589,
       "end": 658,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -58,9 +59,7 @@
                 "type": "Property",
                 "start": 611,
                 "end": 655,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 611,
@@ -72,7 +71,6 @@
                   "start": 621,
                   "end": 655,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -93,20 +91,23 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 659,
       "end": 670,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -120,8 +121,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -143,21 +143,17 @@
             "type": "MethodDefinition",
             "start": 683,
             "end": 779,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 683,
               "end": 689,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 689,
               "end": 779,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -194,8 +190,8 @@
                               "end": 727,
                               "name": "badToString"
                             },
-                            "computed": true,
-                            "optional": false
+                            "optional": false,
+                            "computed": true
                           }
                         }
                       ]
@@ -244,8 +240,12 @@
                     "finalizer": null
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -278,8 +278,8 @@
               "end": 794,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -287,8 +287,8 @@
             "end": 801,
             "name": "method"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -318,8 +318,8 @@
             "end": 822,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

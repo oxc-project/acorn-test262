@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 288,
       "end": 294,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -47,13 +47,13 @@
               "start": 306,
               "end": 312,
               "operator": "void",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 311,
                 "end": 312,
                 "name": "x"
-              }
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -108,13 +108,13 @@
                       "start": 398,
                       "end": 404,
                       "operator": "void",
-                      "prefix": true,
                       "argument": {
                         "type": "Identifier",
                         "start": 403,
                         "end": 404,
                         "name": "x"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -129,6 +129,7 @@
       "type": "VariableDeclaration",
       "start": 421,
       "end": 434,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -148,8 +149,7 @@
             "raw": "null"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -164,13 +164,13 @@
           "start": 439,
           "end": 445,
           "operator": "void",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 444,
             "end": 445,
             "name": "x"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -221,13 +221,13 @@
                       "start": 542,
                       "end": 548,
                       "operator": "void",
-                      "prefix": true,
                       "argument": {
                         "type": "Identifier",
                         "start": 547,
                         "end": 548,
                         "name": "x"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }

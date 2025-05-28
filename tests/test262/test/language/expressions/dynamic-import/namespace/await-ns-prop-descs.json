@@ -13,7 +13,6 @@
         "end": 3702,
         "name": "fn"
       },
-      "expression": false,
       "generator": false,
       "async": true,
       "params": [],
@@ -26,6 +25,7 @@
             "type": "VariableDeclaration",
             "start": 3711,
             "end": 3763,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -57,13 +57,13 @@
                   }
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 4025,
             "end": 4083,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -95,8 +95,8 @@
                       "end": 4067,
                       "name": "getOwnPropertyDescriptor"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -116,8 +116,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -143,8 +142,8 @@
                   "end": 4101,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -163,8 +162,8 @@
                     "end": 4112,
                     "name": "value"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -208,8 +207,8 @@
                   "end": 4159,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -228,8 +227,8 @@
                     "end": 4175,
                     "name": "enumerable"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -273,8 +272,8 @@
                   "end": 4226,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -293,8 +292,8 @@
                     "end": 4240,
                     "name": "writable"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -338,8 +337,8 @@
                   "end": 4289,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -358,8 +357,8 @@
                     "end": 4307,
                     "name": "configurable"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -414,8 +413,8 @@
                     "end": 4388,
                     "name": "getOwnPropertyDescriptor"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -460,8 +459,8 @@
                   "end": 4421,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -480,8 +479,8 @@
                     "end": 4432,
                     "name": "value"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -525,8 +524,8 @@
                   "end": 4492,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -545,8 +544,8 @@
                     "end": 4508,
                     "name": "enumerable"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -590,8 +589,8 @@
                   "end": 4558,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -610,8 +609,8 @@
                     "end": 4572,
                     "name": "writable"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -655,8 +654,8 @@
                   "end": 4620,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -675,8 +674,8 @@
                     "end": 4638,
                     "name": "configurable"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -731,8 +730,8 @@
                     "end": 4718,
                     "name": "getOwnPropertyDescriptor"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -777,8 +776,8 @@
                   "end": 4752,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -797,8 +796,8 @@
                     "end": 4763,
                     "name": "value"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -842,8 +841,8 @@
                   "end": 4817,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -862,8 +861,8 @@
                     "end": 4833,
                     "name": "enumerable"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -907,8 +906,8 @@
                   "end": 4884,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -927,8 +926,8 @@
                     "end": 4898,
                     "name": "writable"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -972,8 +971,8 @@
                   "end": 4947,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -992,8 +991,8 @@
                     "end": 4965,
                     "name": "configurable"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -1048,8 +1047,8 @@
                     "end": 5046,
                     "name": "getOwnPropertyDescriptor"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1094,8 +1093,8 @@
                   "end": 5081,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1114,8 +1113,8 @@
                     "end": 5092,
                     "name": "value"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -1159,8 +1158,8 @@
                   "end": 5153,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1179,8 +1178,8 @@
                     "end": 5169,
                     "name": "enumerable"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -1224,8 +1223,8 @@
                   "end": 5221,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1244,8 +1243,8 @@
                     "end": 5235,
                     "name": "writable"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -1289,8 +1288,8 @@
                   "end": 5285,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1309,8 +1308,8 @@
                     "end": 5303,
                     "name": "configurable"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -1331,7 +1330,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -1372,8 +1372,8 @@
                 "end": 5358,
                 "name": "then"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1397,8 +1397,8 @@
             "end": 5378,
             "name": "catch"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

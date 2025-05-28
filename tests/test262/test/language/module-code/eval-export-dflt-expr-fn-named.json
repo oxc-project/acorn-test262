@@ -21,7 +21,6 @@
             "end": 974,
             "name": "fName"
           },
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -43,7 +42,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -71,8 +71,8 @@
         "value": "./eval-export-dflt-expr-fn-named.js",
         "raw": "'./eval-export-dflt-expr-fn-named.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -98,8 +98,8 @@
             "end": 1063,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -157,8 +157,8 @@
             "end": 1112,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -177,8 +177,8 @@
               "end": 1119,
               "name": "name"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

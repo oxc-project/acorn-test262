@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 290,
       "end": 575,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -257,13 +258,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 576,
       "end": 800,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -514,8 +515,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -525,6 +525,7 @@
         "type": "VariableDeclaration",
         "start": 806,
         "end": 819,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -544,8 +545,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -612,8 +612,8 @@
                     "end": 870,
                     "name": "fromCharCode"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -632,8 +632,8 @@
                       "end": 890,
                       "name": "index"
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   }
                 ],
                 "optional": false
@@ -655,8 +655,8 @@
                   "end": 921,
                   "name": "index"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               }
             },
             "consequent": {
@@ -711,8 +711,8 @@
                               "end": 983,
                               "name": "index"
                             },
-                            "computed": true,
-                            "optional": false
+                            "optional": false,
+                            "computed": true
                           }
                         },
                         "operator": "+",

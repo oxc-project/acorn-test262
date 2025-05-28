@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 272,
       "end": 617,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -257,13 +258,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 618,
       "end": 800,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -514,8 +515,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -525,6 +525,7 @@
         "type": "VariableDeclaration",
         "start": 806,
         "end": 819,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -544,8 +545,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -608,8 +608,8 @@
                   "end": 864,
                   "name": "index"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "operator": "!==",
               "right": {
@@ -628,8 +628,8 @@
                   "end": 885,
                   "name": "index"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               }
             },
             "consequent": {
@@ -684,8 +684,8 @@
                               "end": 938,
                               "name": "index"
                             },
-                            "computed": true,
-                            "optional": false
+                            "optional": false,
+                            "computed": true
                           }
                         },
                         "operator": "+",

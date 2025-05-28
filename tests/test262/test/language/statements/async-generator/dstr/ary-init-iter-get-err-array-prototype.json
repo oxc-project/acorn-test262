@@ -12,7 +12,6 @@
         "start": 1087,
         "end": 1126,
         "operator": "delete",
-        "prefix": true,
         "argument": {
           "type": "MemberExpression",
           "start": 1094,
@@ -33,8 +32,8 @@
               "end": 1109,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "MemberExpression",
@@ -52,12 +51,13 @@
               "end": 1125,
               "name": "iterator"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
-          "computed": true,
-          "optional": false
-        }
+          "optional": false,
+          "computed": true
+        },
+        "prefix": true
       }
     },
     {
@@ -70,7 +70,6 @@
         "end": 1147,
         "name": "f"
       },
-      "expression": false,
       "generator": true,
       "async": true,
       "params": [
@@ -105,7 +104,8 @@
         "start": 1159,
         "end": 1165,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -136,8 +136,8 @@
             "end": 1181,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -151,7 +151,6 @@
             "start": 1193,
             "end": 1223,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -208,7 +207,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

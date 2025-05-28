@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1202,
       "end": 1213,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -33,7 +33,6 @@
         "end": 1229,
         "name": "smoosh"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -42,12 +41,14 @@
         "start": 1232,
         "end": 1234,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 1237,
       "end": 1247,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -67,8 +68,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "WhileStatement",
@@ -79,13 +79,13 @@
         "start": 1255,
         "end": 1257,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 1256,
           "end": 1257,
           "name": "x"
-        }
+        },
+        "prefix": true
       },
       "body": {
         "type": "BlockStatement",

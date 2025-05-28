@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 710,
       "end": 720,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -33,7 +33,6 @@
         "end": 735,
         "name": "await"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -54,7 +53,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ClassDeclaration",
@@ -76,35 +76,31 @@
             "type": "PropertyDefinition",
             "start": 771,
             "end": 778,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 771,
               "end": 777,
               "name": "field"
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 782,
             "end": 839,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 789,
               "end": 797,
               "name": "isNameIn"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 797,
               "end": 839,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -152,8 +148,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           }
         ]
       }
@@ -211,8 +211,8 @@
             "end": 876,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -235,8 +235,8 @@
                 "end": 887,
                 "name": "isNameIn"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -299,8 +299,8 @@
             "end": 927,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -323,8 +323,8 @@
                 "end": 938,
                 "name": "isNameIn"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

@@ -46,8 +46,8 @@
         "value": "./export-star-as-dflt.js",
         "raw": "'./export-star-as-dflt.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -79,8 +79,8 @@
         "value": "./export-star-as-dflt.js",
         "raw": "'./export-star-as-dflt.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -106,8 +106,8 @@
         "value": "./export-star-as-dflt.js",
         "raw": "'./export-star-as-dflt.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -133,8 +133,8 @@
             "end": 954,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -153,8 +153,8 @@
               "end": 961,
               "name": "x"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -198,8 +198,8 @@
             "end": 1034,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -218,8 +218,8 @@
               "end": 1042,
               "name": "x"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -263,8 +263,8 @@
             "end": 1122,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -287,8 +287,8 @@
                 "end": 1133,
                 "name": "default"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -296,8 +296,8 @@
               "end": 1135,
               "name": "x"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

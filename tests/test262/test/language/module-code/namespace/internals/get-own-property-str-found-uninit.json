@@ -27,8 +27,8 @@
         "value": "./get-own-property-str-found-uninit.js",
         "raw": "'./get-own-property-str-found-uninit.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -54,8 +54,8 @@
             "end": 690,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -69,7 +69,6 @@
             "start": 707,
             "end": 775,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -110,8 +109,8 @@
                             "end": 738,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -119,8 +118,8 @@
                           "end": 753,
                           "name": "hasOwnProperty"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -128,8 +127,8 @@
                         "end": 758,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -150,7 +149,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -187,8 +187,8 @@
             "end": 817,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -202,7 +202,6 @@
             "start": 834,
             "end": 897,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -235,8 +234,8 @@
                         "end": 880,
                         "name": "getOwnPropertyDescriptor"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -257,7 +256,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -294,8 +294,8 @@
             "end": 950,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -309,7 +309,6 @@
             "start": 967,
             "end": 1036,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -350,8 +349,8 @@
                             "end": 998,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -359,8 +358,8 @@
                           "end": 1013,
                           "name": "hasOwnProperty"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -368,8 +367,8 @@
                         "end": 1018,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -390,7 +389,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -427,8 +427,8 @@
             "end": 1079,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -442,7 +442,6 @@
             "start": 1096,
             "end": 1160,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -475,8 +474,8 @@
                         "end": 1142,
                         "name": "getOwnPropertyDescriptor"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -497,7 +496,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -534,8 +534,8 @@
             "end": 1214,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -549,7 +549,6 @@
             "start": 1231,
             "end": 1301,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -590,8 +589,8 @@
                             "end": 1262,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -599,8 +598,8 @@
                           "end": 1277,
                           "name": "hasOwnProperty"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -608,8 +607,8 @@
                         "end": 1282,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -630,7 +629,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -667,8 +667,8 @@
             "end": 1345,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -682,7 +682,6 @@
             "start": 1362,
             "end": 1427,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -715,8 +714,8 @@
                         "end": 1408,
                         "name": "getOwnPropertyDescriptor"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -737,7 +736,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -774,8 +774,8 @@
             "end": 1482,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -789,7 +789,6 @@
             "start": 1499,
             "end": 1568,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -830,8 +829,8 @@
                             "end": 1530,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -839,8 +838,8 @@
                           "end": 1545,
                           "name": "hasOwnProperty"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -848,8 +847,8 @@
                         "end": 1550,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -870,7 +869,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -907,8 +907,8 @@
             "end": 1611,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -922,7 +922,6 @@
             "start": 1628,
             "end": 1692,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -955,8 +954,8 @@
                         "end": 1674,
                         "name": "getOwnPropertyDescriptor"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -977,7 +976,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -998,6 +998,7 @@
         "type": "VariableDeclaration",
         "start": 1740,
         "end": 1756,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -1017,8 +1018,7 @@
               "raw": "23"
             }
           }
-        ],
-        "kind": "let"
+        ]
       },
       "specifiers": [],
       "source": null,
@@ -1028,6 +1028,7 @@
       "type": "VariableDeclaration",
       "start": 1757,
       "end": 1773,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1047,8 +1048,7 @@
             "raw": "45"
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExportNamedDeclaration",

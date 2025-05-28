@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 679,
       "end": 695,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "\"outer\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -39,7 +39,6 @@
         "end": 731,
         "name": "evalInComputedPropertyKey"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -52,9 +51,7 @@
               "type": "Property",
               "start": 733,
               "end": 767,
-              "method": false,
-              "shorthand": false,
-              "computed": true,
+              "kind": "init",
               "key": {
                 "type": "CallExpression",
                 "start": 734,
@@ -82,7 +79,9 @@
                 "end": 767,
                 "name": "ignored"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": true
             }
           ]
         }
@@ -116,8 +115,8 @@
                   "end": 790,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -138,7 +137,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

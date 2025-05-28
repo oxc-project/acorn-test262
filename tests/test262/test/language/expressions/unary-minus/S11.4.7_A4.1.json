@@ -27,13 +27,13 @@
               "start": 254,
               "end": 258,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 255,
                 "end": 258,
                 "name": "NaN"
-              }
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -88,13 +88,13 @@
                       "start": 338,
                       "end": 342,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Identifier",
                         "start": 339,
                         "end": 342,
                         "name": "NaN"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -109,6 +109,7 @@
       "type": "VariableDeclaration",
       "start": 359,
       "end": 371,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -127,8 +128,7 @@
             "name": "NaN"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -154,13 +154,13 @@
               "start": 383,
               "end": 385,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 384,
                 "end": 385,
                 "name": "x"
-              }
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -215,13 +215,13 @@
                       "start": 475,
                       "end": 477,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Identifier",
                         "start": 476,
                         "end": 477,
                         "name": "x"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }

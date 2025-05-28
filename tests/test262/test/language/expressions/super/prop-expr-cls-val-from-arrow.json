@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1091,
       "end": 1108,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -32,8 +33,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -101,21 +101,17 @@
             "type": "MethodDefinition",
             "start": 1163,
             "end": 1277,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1163,
               "end": 1169,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1169,
               "end": 1277,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -151,9 +147,7 @@
                             "type": "ArrowFunctionExpression",
                             "start": 1187,
                             "end": 1219,
-                            "id": null,
                             "expression": false,
-                            "generator": false,
                             "async": false,
                             "params": [],
                             "body": {
@@ -181,12 +175,14 @@
                                       "value": "fromA",
                                       "raw": "'fromA'"
                                     },
-                                    "computed": true,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": true
                                   }
                                 }
                               ]
-                            }
+                            },
+                            "id": null,
+                            "generator": false
                           }
                         },
                         "arguments": [],
@@ -221,9 +217,7 @@
                             "type": "ArrowFunctionExpression",
                             "start": 1237,
                             "end": 1269,
-                            "id": null,
                             "expression": false,
-                            "generator": false,
                             "async": false,
                             "params": [],
                             "body": {
@@ -251,12 +245,14 @@
                                       "value": "fromB",
                                       "raw": "'fromB'"
                                     },
-                                    "computed": true,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": true
                                   }
                                 }
                               ]
-                            }
+                            },
+                            "id": null,
+                            "generator": false
                           }
                         },
                         "arguments": [],
@@ -265,8 +261,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -300,8 +300,8 @@
               "end": 1292,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -309,8 +309,8 @@
             "end": 1298,
             "name": "fromA"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -350,8 +350,8 @@
               "end": 1317,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -359,8 +359,8 @@
             "end": 1323,
             "name": "fromB"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -400,8 +400,8 @@
               "end": 1342,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -409,8 +409,8 @@
             "end": 1348,
             "name": "fromB"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -450,8 +450,8 @@
               "end": 1367,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -459,8 +459,8 @@
             "end": 1373,
             "name": "fromA"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -500,8 +500,8 @@
               "end": 1392,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -509,8 +509,8 @@
             "end": 1398,
             "name": "fromB"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -549,8 +549,8 @@
               "end": 1418,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -558,8 +558,8 @@
             "end": 1425,
             "name": "method"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -589,8 +589,8 @@
             "end": 1446,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -634,8 +634,8 @@
             "end": 1476,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 375,
       "end": 387,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -89,14 +89,14 @@
               "start": 450,
               "end": 456,
               "operator": "void",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 455,
                 "end": 456,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             },
             "operator": "instanceof",
             "right": {

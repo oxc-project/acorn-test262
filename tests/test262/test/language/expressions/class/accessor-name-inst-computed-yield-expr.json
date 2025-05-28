@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 785,
       "end": 807,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -44,8 +45,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -57,7 +57,6 @@
         "end": 819,
         "name": "g"
       },
-      "expression": false,
       "generator": true,
       "async": false,
       "params": [],
@@ -96,8 +95,6 @@
                       "type": "MethodDefinition",
                       "start": 842,
                       "end": 879,
-                      "static": false,
-                      "computed": true,
                       "key": {
                         "type": "YieldExpression",
                         "start": 847,
@@ -105,13 +102,11 @@
                         "delegate": false,
                         "argument": null
                       },
-                      "kind": "get",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 853,
                         "end": 879,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -133,15 +128,17 @@
                               }
                             }
                           ]
-                        }
-                      }
+                        },
+                        "expression": false
+                      },
+                      "kind": "get",
+                      "computed": true,
+                      "static": false
                     },
                     {
                       "type": "MethodDefinition",
                       "start": 884,
                       "end": 924,
-                      "static": false,
-                      "computed": true,
                       "key": {
                         "type": "YieldExpression",
                         "start": 889,
@@ -149,13 +146,11 @@
                         "delegate": false,
                         "argument": null
                       },
-                      "kind": "set",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 895,
                         "end": 924,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [
@@ -195,8 +190,12 @@
                               }
                             }
                           ]
-                        }
-                      }
+                        },
+                        "expression": false
+                      },
+                      "kind": "set",
+                      "computed": true,
+                      "static": false
                     }
                   ]
                 }
@@ -204,7 +203,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -260,8 +260,8 @@
             "end": 955,
             "name": "next"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -291,8 +291,8 @@
             "end": 968,
             "name": "next"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -330,8 +330,8 @@
             "end": 988,
             "name": "next"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -369,8 +369,8 @@
             "end": 1017,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -393,8 +393,8 @@
                 "end": 1029,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -402,8 +402,8 @@
               "end": 1035,
               "name": "first"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -445,8 +445,8 @@
               "end": 1063,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -454,8 +454,8 @@
             "end": 1070,
             "name": "second"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -490,8 +490,8 @@
             "end": 1103,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

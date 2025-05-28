@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 552,
       "end": 568,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "null"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -53,8 +53,8 @@
             "end": 583,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -68,7 +68,6 @@
             "start": 595,
             "end": 629,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -86,7 +85,6 @@
                     "start": 610,
                     "end": 626,
                     "operator": "delete",
-                    "prefix": true,
                     "argument": {
                       "type": "MemberExpression",
                       "start": 617,
@@ -103,13 +101,15 @@
                         "end": 626,
                         "name": "prop"
                       },
-                      "computed": false,
-                      "optional": false
-                    }
+                      "optional": false,
+                      "computed": false
+                    },
+                    "prefix": true
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

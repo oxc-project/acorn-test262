@@ -35,8 +35,8 @@
                 "end": 388,
                 "name": "POSITIVE_INFINITY"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "!=",
             "right": {
@@ -55,8 +55,8 @@
                 "end": 416,
                 "name": "POSITIVE_INFINITY"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         },
@@ -135,8 +135,8 @@
                 "end": 541,
                 "name": "NEGATIVE_INFINITY"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "!=",
             "right": {
@@ -155,8 +155,8 @@
                 "end": 569,
                 "name": "NEGATIVE_INFINITY"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         },
@@ -235,8 +235,8 @@
                 "end": 694,
                 "name": "POSITIVE_INFINITY"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "!=",
             "right": {
@@ -244,7 +244,6 @@
               "start": 698,
               "end": 723,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "MemberExpression",
                 "start": 699,
@@ -261,9 +260,10 @@
                   "end": 723,
                   "name": "NEGATIVE_INFINITY"
                 },
-                "computed": false,
-                "optional": false
-              }
+                "optional": false,
+                "computed": false
+              },
+              "prefix": true
             }
           }
         },

@@ -15,8 +15,8 @@
         "value": "./eval-rqstd-once_FIXTURE.js",
         "raw": "'./eval-rqstd-once_FIXTURE.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -30,8 +30,8 @@
         "value": "./eval-rqstd-once_FIXTURE.js",
         "raw": "'./eval-rqstd-once_FIXTURE.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -57,8 +57,8 @@
         "value": "./eval-rqstd-once_FIXTURE.js",
         "raw": "'./eval-rqstd-once_FIXTURE.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -84,8 +84,8 @@
         "value": "./eval-rqstd-once_FIXTURE.js",
         "raw": "'./eval-rqstd-once_FIXTURE.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -126,8 +126,8 @@
         "value": "./eval-rqstd-once_FIXTURE.js",
         "raw": "'./eval-rqstd-once_FIXTURE.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExportAllDeclaration",
@@ -216,8 +216,8 @@
         "value": "./eval-rqstd-once_FIXTURE.js",
         "raw": "'./eval-rqstd-once_FIXTURE.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -235,6 +235,7 @@
       "type": "VariableDeclaration",
       "start": 1204,
       "end": 1234,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -260,8 +261,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -287,8 +287,8 @@
             "end": 1252,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -307,8 +307,8 @@
               "end": 1267,
               "name": "test262"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

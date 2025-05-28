@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 938,
       "end": 946,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,13 +21,13 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 947,
       "end": 963,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -45,8 +46,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -72,9 +72,7 @@
               "type": "Property",
               "start": 975,
               "end": 996,
-              "method": false,
-              "shorthand": false,
-              "computed": true,
+              "kind": "init",
               "key": {
                 "type": "Literal",
                 "start": 976,
@@ -88,7 +86,9 @@
                 "end": 996,
                 "name": "sample"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": true
             }
           ]
         }
@@ -118,8 +118,8 @@
             "end": 1016,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -142,8 +142,8 @@
                 "end": 1041,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -171,8 +171,8 @@
               "end": 1066,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -220,8 +220,8 @@
                 "end": 1158,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -269,8 +269,8 @@
             "end": 1268,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -289,8 +289,8 @@
               "end": 1285,
               "name": "__proto__"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",
@@ -333,9 +333,7 @@
               "type": "Property",
               "start": 1359,
               "end": 1378,
-              "method": false,
-              "shorthand": false,
-              "computed": true,
+              "kind": "init",
               "key": {
                 "type": "Literal",
                 "start": 1360,
@@ -350,7 +348,9 @@
                 "value": null,
                 "raw": "null"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": true
             }
           ]
         }
@@ -380,8 +380,8 @@
             "end": 1398,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -404,8 +404,8 @@
                 "end": 1423,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -433,8 +433,8 @@
               "end": 1448,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -482,8 +482,8 @@
                 "end": 1529,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -531,8 +531,8 @@
             "end": 1628,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -551,8 +551,8 @@
               "end": 1645,
               "name": "__proto__"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -596,9 +596,7 @@
               "type": "Property",
               "start": 1706,
               "end": 1730,
-              "method": false,
-              "shorthand": false,
-              "computed": true,
+              "kind": "init",
               "key": {
                 "type": "Literal",
                 "start": 1707,
@@ -612,7 +610,9 @@
                 "end": 1730,
                 "name": "undefined"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": true
             }
           ]
         }
@@ -642,8 +642,8 @@
             "end": 1750,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -666,8 +666,8 @@
                 "end": 1775,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -695,8 +695,8 @@
               "end": 1800,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -744,8 +744,8 @@
                 "end": 1886,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -793,8 +793,8 @@
             "end": 1990,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -813,8 +813,8 @@
               "end": 2007,
               "name": "__proto__"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",
@@ -837,6 +837,7 @@
       "type": "VariableDeclaration",
       "start": 2068,
       "end": 2093,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -853,7 +854,6 @@
             "start": 2079,
             "end": 2092,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -862,11 +862,11 @@
               "start": 2090,
               "end": 2092,
               "body": []
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -892,9 +892,7 @@
               "type": "Property",
               "start": 2104,
               "end": 2123,
-              "method": false,
-              "shorthand": false,
-              "computed": true,
+              "kind": "init",
               "key": {
                 "type": "Literal",
                 "start": 2105,
@@ -908,7 +906,9 @@
                 "end": 2123,
                 "name": "func"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": true
             }
           ]
         }
@@ -938,8 +938,8 @@
             "end": 2143,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -962,8 +962,8 @@
                 "end": 2168,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -991,8 +991,8 @@
               "end": 2193,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1040,8 +1040,8 @@
                 "end": 2274,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1089,8 +1089,8 @@
             "end": 2373,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1109,8 +1109,8 @@
               "end": 2390,
               "name": "__proto__"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",
@@ -1133,6 +1133,7 @@
       "type": "VariableDeclaration",
       "start": 2441,
       "end": 2468,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1166,8 +1167,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1193,9 +1193,7 @@
               "type": "Property",
               "start": 2479,
               "end": 2500,
-              "method": false,
-              "shorthand": false,
-              "computed": true,
+              "kind": "init",
               "key": {
                 "type": "Literal",
                 "start": 2480,
@@ -1209,7 +1207,9 @@
                 "end": 2500,
                 "name": "symbol"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": true
             }
           ]
         }
@@ -1239,8 +1239,8 @@
             "end": 2520,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1263,8 +1263,8 @@
                 "end": 2545,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1292,8 +1292,8 @@
               "end": 2570,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1341,8 +1341,8 @@
                 "end": 2653,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1390,8 +1390,8 @@
             "end": 2754,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1410,8 +1410,8 @@
               "end": 2771,
               "name": "__proto__"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",
@@ -1454,9 +1454,7 @@
               "type": "Property",
               "start": 2836,
               "end": 2853,
-              "method": false,
-              "shorthand": false,
-              "computed": true,
+              "kind": "init",
               "key": {
                 "type": "Literal",
                 "start": 2837,
@@ -1471,7 +1469,9 @@
                 "value": 42,
                 "raw": "42"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": true
             }
           ]
         }
@@ -1501,8 +1501,8 @@
             "end": 2873,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1525,8 +1525,8 @@
                 "end": 2898,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1554,8 +1554,8 @@
               "end": 2923,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1603,8 +1603,8 @@
                 "end": 3006,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1652,8 +1652,8 @@
             "end": 3107,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1672,8 +1672,8 @@
               "end": 3124,
               "name": "__proto__"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1717,9 +1717,7 @@
               "type": "Property",
               "start": 3185,
               "end": 3202,
-              "method": false,
-              "shorthand": false,
-              "computed": true,
+              "kind": "init",
               "key": {
                 "type": "Literal",
                 "start": 3186,
@@ -1734,7 +1732,9 @@
                 "value": "",
                 "raw": "''"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": true
             }
           ]
         }
@@ -1764,8 +1764,8 @@
             "end": 3222,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1788,8 +1788,8 @@
                 "end": 3247,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1817,8 +1817,8 @@
               "end": 3272,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1866,8 +1866,8 @@
                 "end": 3355,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1915,8 +1915,8 @@
             "end": 3456,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1935,8 +1935,8 @@
               "end": 3473,
               "name": "__proto__"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1980,9 +1980,7 @@
               "type": "Property",
               "start": 3534,
               "end": 3554,
-              "method": false,
-              "shorthand": false,
-              "computed": true,
+              "kind": "init",
               "key": {
                 "type": "Literal",
                 "start": 3535,
@@ -1997,7 +1995,9 @@
                 "value": false,
                 "raw": "false"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": true
             }
           ]
         }
@@ -2027,8 +2027,8 @@
             "end": 3574,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2051,8 +2051,8 @@
                 "end": 3599,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2080,8 +2080,8 @@
               "end": 3624,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -2129,8 +2129,8 @@
                 "end": 3708,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2178,8 +2178,8 @@
             "end": 3810,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2198,8 +2198,8 @@
               "end": 3827,
               "name": "__proto__"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

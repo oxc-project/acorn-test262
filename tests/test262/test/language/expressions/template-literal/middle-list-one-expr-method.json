@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 490,
       "end": 545,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 507,
                 "end": 542,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 507,
@@ -41,7 +40,6 @@
                   "start": 511,
                   "end": 542,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -63,15 +61,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -97,49 +97,14 @@
             "end": 563,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
             "start": 564,
             "end": 589,
-            "expressions": [
-              {
-                "type": "Literal",
-                "start": 567,
-                "end": 568,
-                "value": 0,
-                "raw": "0"
-              },
-              {
-                "type": "CallExpression",
-                "start": 572,
-                "end": 583,
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 572,
-                  "end": 581,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 572,
-                    "end": 578,
-                    "name": "object"
-                  },
-                  "property": {
-                    "type": "Identifier",
-                    "start": 579,
-                    "end": 581,
-                    "name": "fn"
-                  },
-                  "computed": false,
-                  "optional": false
-                },
-                "arguments": [],
-                "optional": false
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -170,6 +135,41 @@
                   "cooked": " bar"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 567,
+                "end": 568,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "CallExpression",
+                "start": 572,
+                "end": 583,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 572,
+                  "end": 581,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 572,
+                    "end": 578,
+                    "name": "object"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 579,
+                    "end": 581,
+                    "name": "fn"
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "arguments": [],
+                "optional": false
               }
             ]
           },

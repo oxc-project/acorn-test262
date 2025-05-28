@@ -27,8 +27,8 @@
             "end": 506,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,12 +36,12 @@
             "start": 510,
             "end": 521,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "ThisExpression",
               "start": 517,
               "end": 521
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -85,8 +85,8 @@
             "end": 585,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -94,7 +94,6 @@
             "start": 589,
             "end": 608,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "NewExpression",
               "start": 596,
@@ -106,7 +105,8 @@
                 "name": "Object"
               },
               "arguments": []
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -150,8 +150,8 @@
             "end": 680,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -159,7 +159,6 @@
             "start": 684,
             "end": 702,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "NewExpression",
               "start": 691,
@@ -171,7 +170,8 @@
                 "name": "Array"
               },
               "arguments": []
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -215,8 +215,8 @@
             "end": 773,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -224,7 +224,6 @@
             "start": 777,
             "end": 796,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "NewExpression",
               "start": 784,
@@ -236,7 +235,8 @@
                 "name": "String"
               },
               "arguments": []
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -280,8 +280,8 @@
             "end": 868,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -289,7 +289,6 @@
             "start": 872,
             "end": 892,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "NewExpression",
               "start": 879,
@@ -301,7 +300,8 @@
                 "name": "Boolean"
               },
               "arguments": []
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -345,8 +345,8 @@
             "end": 965,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -354,7 +354,6 @@
             "start": 969,
             "end": 988,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "NewExpression",
               "start": 976,
@@ -366,7 +365,8 @@
                 "name": "Number"
               },
               "arguments": []
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -410,8 +410,8 @@
             "end": 1060,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -419,7 +419,6 @@
             "start": 1064,
             "end": 1082,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "NewExpression",
               "start": 1071,
@@ -439,7 +438,8 @@
                   "raw": "0"
                 }
               ]
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -483,8 +483,8 @@
             "end": 1153,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -492,7 +492,6 @@
             "start": 1157,
             "end": 1175,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "NewExpression",
               "start": 1164,
@@ -504,7 +503,8 @@
                 "name": "Error"
               },
               "arguments": []
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -548,8 +548,8 @@
             "end": 1247,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -557,7 +557,6 @@
             "start": 1251,
             "end": 1270,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "NewExpression",
               "start": 1258,
@@ -569,7 +568,8 @@
                 "name": "RegExp"
               },
               "arguments": []
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

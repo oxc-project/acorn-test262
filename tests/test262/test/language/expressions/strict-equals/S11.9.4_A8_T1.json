@@ -686,9 +686,7 @@
               "type": "Property",
               "start": 1247,
               "end": 1281,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 1247,
@@ -700,7 +698,6 @@
                 "start": 1256,
                 "end": 1281,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -722,9 +719,12 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             }
           ]
         }

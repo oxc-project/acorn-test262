@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1121,
       "end": 1138,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -32,8 +33,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -101,21 +101,17 @@
             "type": "MethodDefinition",
             "start": 1193,
             "end": 1275,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1193,
               "end": 1199,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1199,
               "end": 1275,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -201,8 +197,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -236,8 +236,8 @@
               "end": 1290,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -245,8 +245,8 @@
             "end": 1296,
             "name": "fromA"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -286,8 +286,8 @@
               "end": 1315,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -295,8 +295,8 @@
             "end": 1321,
             "name": "fromB"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -336,8 +336,8 @@
               "end": 1340,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -345,8 +345,8 @@
             "end": 1346,
             "name": "fromB"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -386,8 +386,8 @@
               "end": 1365,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -395,8 +395,8 @@
             "end": 1371,
             "name": "fromA"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -436,8 +436,8 @@
               "end": 1390,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -445,8 +445,8 @@
             "end": 1396,
             "name": "fromB"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -485,8 +485,8 @@
               "end": 1416,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -494,8 +494,8 @@
             "end": 1423,
             "name": "method"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -525,8 +525,8 @@
             "end": 1444,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -570,8 +570,8 @@
             "end": 1474,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

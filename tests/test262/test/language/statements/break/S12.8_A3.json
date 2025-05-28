@@ -7,10 +7,17 @@
       "type": "LabeledStatement",
       "start": 294,
       "end": 319,
+      "label": {
+        "type": "Identifier",
+        "start": 294,
+        "end": 303,
+        "name": "LABEL_OUT"
+      },
       "body": {
         "type": "VariableDeclaration",
         "start": 306,
         "end": 319,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -48,20 +55,19 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 294,
-        "end": 303,
-        "name": "LABEL_OUT"
+        ]
       }
     },
     {
       "type": "LabeledStatement",
       "start": 321,
       "end": 444,
+      "label": {
+        "type": "Identifier",
+        "start": 321,
+        "end": 334,
+        "name": "LABEL_DO_LOOP"
+      },
       "body": {
         "type": "DoWhileStatement",
         "start": 337,
@@ -75,6 +81,12 @@
               "type": "LabeledStatement",
               "start": 346,
               "end": 361,
+              "label": {
+                "type": "Identifier",
+                "start": 346,
+                "end": 354,
+                "name": "LABEL_IN"
+              },
               "body": {
                 "type": "ExpressionStatement",
                 "start": 357,
@@ -98,12 +110,6 @@
                     "raw": "2"
                   }
                 }
-              },
-              "label": {
-                "type": "Identifier",
-                "start": 346,
-                "end": 354,
-                "name": "LABEL_IN"
               }
             },
             {
@@ -116,10 +122,17 @@
               "type": "LabeledStatement",
               "start": 378,
               "end": 399,
+              "label": {
+                "type": "Identifier",
+                "start": 378,
+                "end": 388,
+                "name": "LABEL_IN_2"
+              },
               "body": {
                 "type": "VariableDeclaration",
                 "start": 391,
                 "end": 399,
+                "kind": "var",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
@@ -139,14 +152,7 @@
                       "raw": "2"
                     }
                   }
-                ],
-                "kind": "var"
-              },
-              "label": {
-                "type": "Identifier",
-                "start": 378,
-                "end": 388,
-                "name": "LABEL_IN_2"
+                ]
               }
             },
             {
@@ -159,7 +165,6 @@
                 "end": 428,
                 "name": "IN_DO_FUNC"
               },
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -168,7 +173,8 @@
                 "start": 430,
                 "end": 432,
                 "body": []
-              }
+              },
+              "expression": false
             }
           ]
         },
@@ -179,18 +185,18 @@
           "value": 0,
           "raw": "0"
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 321,
-        "end": 334,
-        "name": "LABEL_DO_LOOP"
       }
     },
     {
       "type": "LabeledStatement",
       "start": 446,
       "end": 489,
+      "label": {
+        "type": "Identifier",
+        "start": 446,
+        "end": 464,
+        "name": "LABEL_ANOTHER_LOOP"
+      },
       "body": {
         "type": "DoWhileStatement",
         "start": 467,
@@ -214,12 +220,6 @@
           "value": 0,
           "raw": "0"
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 446,
-        "end": 464,
-        "name": "LABEL_ANOTHER_LOOP"
       }
     },
     {
@@ -232,7 +232,6 @@
         "end": 508,
         "name": "OUT_FUNC"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -241,7 +240,8 @@
         "start": 510,
         "end": 512,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",

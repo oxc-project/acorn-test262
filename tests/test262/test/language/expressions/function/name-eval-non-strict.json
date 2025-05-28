@@ -21,7 +21,6 @@
             "end": 290,
             "name": "eval"
           },
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -30,7 +29,8 @@
             "start": 292,
             "end": 294,
             "body": []
-          }
+          },
+          "expression": false
         }
       }
     }

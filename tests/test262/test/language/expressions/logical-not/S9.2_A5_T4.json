@@ -16,7 +16,6 @@
           "start": 403,
           "end": 409,
           "operator": "!",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 404,
@@ -28,7 +27,8 @@
               "value": " ",
               "raw": "\" \""
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -80,7 +80,6 @@
                       "start": 484,
                       "end": 490,
                       "operator": "!",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 485,
@@ -92,7 +91,8 @@
                           "value": " ",
                           "raw": "\" \""
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -116,7 +116,6 @@
           "start": 513,
           "end": 533,
           "operator": "!",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 514,
@@ -128,7 +127,8 @@
               "value": "Nonempty String",
               "raw": "\"Nonempty String\""
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -180,7 +180,6 @@
                       "start": 622,
                       "end": 642,
                       "operator": "!",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 623,
@@ -192,7 +191,8 @@
                           "value": "Nonempty String",
                           "raw": "\"Nonempty String\""
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }

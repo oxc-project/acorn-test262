@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 267,
       "end": 283,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -54,8 +54,8 @@
             "value": "true",
             "raw": "\"true\""
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -152,6 +152,7 @@
       "type": "VariableDeclaration",
       "start": 471,
       "end": 487,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -170,8 +171,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -198,8 +198,8 @@
             "end": 503,
             "name": "Infinity"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -295,6 +295,7 @@
       "type": "VariableDeclaration",
       "start": 693,
       "end": 709,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -313,8 +314,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -341,8 +341,8 @@
             "end": 726,
             "name": "undefined"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -438,6 +438,7 @@
       "type": "VariableDeclaration",
       "start": 921,
       "end": 937,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -456,8 +457,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -485,8 +485,8 @@
             "value": "null",
             "raw": "\"null\""
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",

@@ -43,8 +43,8 @@
                 "end": 800,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

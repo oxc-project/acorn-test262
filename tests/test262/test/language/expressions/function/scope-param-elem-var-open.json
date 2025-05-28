@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 687,
       "end": 705,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "'outside'"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 706,
       "end": 725,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -58,8 +59,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -78,7 +78,6 @@
             "start": 728,
             "end": 860,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -108,7 +107,6 @@
                     "start": 755,
                     "end": 779,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -129,7 +127,8 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   }
                 }
               },
@@ -189,7 +188,6 @@
                           "start": 827,
                           "end": 851,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -210,7 +208,8 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         }
                       }
                     ]
@@ -223,7 +222,8 @@
               "start": 857,
               "end": 860,
               "body": []
-            }
+            },
+            "expression": false
           },
           "arguments": [],
           "optional": false
@@ -254,8 +254,8 @@
             "end": 882,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -306,8 +306,8 @@
             "end": 920,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

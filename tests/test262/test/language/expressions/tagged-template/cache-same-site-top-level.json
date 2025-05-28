@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 420,
       "end": 439,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             "elements": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -38,7 +38,6 @@
         "end": 453,
         "name": "tag"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -78,8 +77,8 @@
                   "end": 488,
                   "name": "push"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -93,12 +92,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 509,
       "end": 519,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -118,8 +119,7 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ForStatement",
@@ -129,6 +129,7 @@
         "type": "VariableDeclaration",
         "start": 525,
         "end": 534,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -148,8 +149,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "let"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -206,14 +206,6 @@
                 "type": "TemplateLiteral",
                 "start": 555,
                 "end": 569,
-                "expressions": [
-                  {
-                    "type": "Identifier",
-                    "start": 562,
-                    "end": 563,
-                    "name": "a"
-                  }
-                ],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -234,6 +226,14 @@
                       "cooked": "tail"
                     },
                     "tail": true
+                  }
+                ],
+                "expressions": [
+                  {
+                    "type": "Identifier",
+                    "start": 562,
+                    "end": 563,
+                    "name": "a"
                   }
                 ]
               }
@@ -266,8 +266,8 @@
             "end": 590,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -286,8 +286,8 @@
               "end": 607,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -324,8 +324,8 @@
             "end": 630,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -345,8 +345,8 @@
               "value": 0,
               "raw": "0"
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "MemberExpression",
@@ -365,8 +365,8 @@
               "value": 1,
               "raw": "1"
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",

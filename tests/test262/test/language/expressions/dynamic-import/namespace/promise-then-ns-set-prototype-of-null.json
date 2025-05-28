@@ -51,17 +51,15 @@
                     "end": 3760,
                     "name": "then"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
                     "type": "ArrowFunctionExpression",
                     "start": 3761,
                     "end": 3895,
-                    "id": null,
                     "expression": false,
-                    "generator": false,
                     "async": false,
                     "params": [
                       {
@@ -100,8 +98,8 @@
                                 "end": 3790,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -109,7 +107,6 @@
                                 "start": 3791,
                                 "end": 3819,
                                 "operator": "typeof",
-                                "prefix": true,
                                 "argument": {
                                   "type": "MemberExpression",
                                   "start": 3798,
@@ -126,9 +123,10 @@
                                     "end": 3819,
                                     "name": "setPrototypeOf"
                                   },
-                                  "computed": false,
-                                  "optional": false
-                                }
+                                  "optional": false,
+                                  "computed": false
+                                },
+                                "prefix": true
                               },
                               {
                                 "type": "Literal",
@@ -165,8 +163,8 @@
                                 "end": 3854,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -195,8 +193,8 @@
                                     "end": 3880,
                                     "name": "setPrototypeOf"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -220,7 +218,9 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "id": null,
+                    "generator": false
                   }
                 ],
                 "optional": false
@@ -231,8 +231,8 @@
                 "end": 3901,
                 "name": "then"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -256,8 +256,8 @@
             "end": 3921,
             "name": "catch"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

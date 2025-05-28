@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 381,
       "end": 391,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,13 +21,13 @@
           },
           "init": null
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 392,
       "end": 414,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -47,9 +48,7 @@
                 "type": "Property",
                 "start": 405,
                 "end": 412,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 405,
@@ -63,13 +62,14 @@
                   "value": true,
                   "raw": "true"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForStatement",
@@ -114,8 +114,8 @@
             "end": 437,
             "name": "a"
           },
-          "computed": false,
-          "optional": true
+          "optional": true,
+          "computed": false
         }
       },
       "update": {
@@ -194,8 +194,8 @@
             "end": 492,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -219,6 +219,7 @@
       "type": "VariableDeclaration",
       "start": 548,
       "end": 563,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -238,13 +239,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 564,
       "end": 587,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -263,8 +264,7 @@
             "name": "undefined"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForStatement",
@@ -290,8 +290,8 @@
             "end": 600,
             "name": "a"
           },
-          "computed": false,
-          "optional": true
+          "optional": true,
+          "computed": false
         }
       },
       "test": {
@@ -314,8 +314,8 @@
             "end": 609,
             "name": "a"
           },
-          "computed": false,
-          "optional": true
+          "optional": true,
+          "computed": false
         }
       },
       "update": {
@@ -338,8 +338,8 @@
             "end": 617,
             "name": "a"
           },
-          "computed": false,
-          "optional": true
+          "optional": true,
+          "computed": false
         }
       },
       "body": {
@@ -392,8 +392,8 @@
             "end": 649,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -437,8 +437,8 @@
             "end": 674,
             "name": "a"
           },
-          "computed": false,
-          "optional": true
+          "optional": true,
+          "computed": false
         }
       },
       "test": {
@@ -461,8 +461,8 @@
             "end": 688,
             "name": "a"
           },
-          "computed": false,
-          "optional": true
+          "optional": true,
+          "computed": false
         }
       },
       "update": {
@@ -485,8 +485,8 @@
             "end": 696,
             "name": "a"
           },
-          "computed": false,
-          "optional": true
+          "optional": true,
+          "computed": false
         }
       },
       "body": {
@@ -539,8 +539,8 @@
             "end": 728,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -564,6 +564,7 @@
       "type": "VariableDeclaration",
       "start": 762,
       "end": 778,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -583,13 +584,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 779,
       "end": 871,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -610,9 +611,7 @@
                 "type": "Property",
                 "start": 796,
                 "end": 868,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "get",
                 "key": {
                   "type": "Identifier",
                   "start": 800,
@@ -624,7 +623,6 @@
                   "start": 801,
                   "end": 868,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -663,15 +661,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "get"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForStatement",
@@ -727,8 +727,8 @@
               "end": 901,
               "name": "a"
             },
-            "computed": false,
-            "optional": true
+            "optional": true,
+            "computed": false
           },
           "property": {
             "type": "UpdateExpression",
@@ -743,8 +743,8 @@
               "name": "touched"
             }
           },
-          "computed": true,
-          "optional": true
+          "optional": true,
+          "computed": true
         }
       },
       "body": {
@@ -817,8 +817,8 @@
             "end": 964,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -862,8 +862,8 @@
             "end": 992,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -27,8 +27,8 @@
             "end": 766,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,13 +36,13 @@
             "start": 770,
             "end": 779,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 777,
               "end": 779,
               "name": "ns"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -66,6 +66,7 @@
       "type": "VariableDeclaration",
       "start": 847,
       "end": 865,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -84,8 +85,7 @@
             "name": "ns"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -111,8 +111,8 @@
             "end": 880,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -126,7 +126,6 @@
             "start": 892,
             "end": 919,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -160,7 +159,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -197,8 +197,8 @@
             "end": 969,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -248,8 +248,8 @@
         "value": "./instn-star-binding.js",
         "raw": "'./instn-star-binding.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     }
   ],
   "sourceType": "module",

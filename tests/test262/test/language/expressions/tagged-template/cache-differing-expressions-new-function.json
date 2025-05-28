@@ -13,7 +13,6 @@
         "end": 439,
         "name": "tag"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -53,12 +52,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 495,
       "end": 505,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -78,13 +79,13 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 506,
       "end": 516,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -104,13 +105,13 @@
             "raw": "2"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 517,
       "end": 540,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -130,13 +131,13 @@
             "raw": "null"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 541,
       "end": 567,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -156,8 +157,7 @@
             "raw": "null"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -177,14 +177,6 @@
           "type": "TemplateLiteral",
           "start": 572,
           "end": 586,
-          "expressions": [
-            {
-              "type": "Identifier",
-              "start": 579,
-              "end": 580,
-              "name": "a"
-            }
-          ],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -205,6 +197,14 @@
                 "cooked": "tail"
               },
               "tail": true
+            }
+          ],
+          "expressions": [
+            {
+              "type": "Identifier",
+              "start": 579,
+              "end": 580,
+              "name": "a"
             }
           ]
         }
@@ -398,8 +398,8 @@
             "end": 764,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

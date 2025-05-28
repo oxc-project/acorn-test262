@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 326,
             "end": 357,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 326,
               "end": 332,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 332,
               "end": 357,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -57,8 +53,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -88,21 +88,17 @@
             "type": "MethodDefinition",
             "start": 383,
             "end": 422,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 383,
               "end": 389,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 389,
               "end": 422,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -120,7 +116,6 @@
                       "start": 398,
                       "end": 417,
                       "operator": "delete",
-                      "prefix": true,
                       "argument": {
                         "type": "MemberExpression",
                         "start": 405,
@@ -136,14 +131,19 @@
                           "end": 417,
                           "name": "method"
                         },
-                        "computed": false,
-                        "optional": false
-                      }
+                        "optional": false,
+                        "computed": false
+                      },
+                      "prefix": true
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -152,6 +152,7 @@
       "type": "VariableDeclaration",
       "start": 426,
       "end": 444,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -176,8 +177,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -203,8 +203,8 @@
             "end": 459,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -217,9 +217,7 @@
             "type": "ArrowFunctionExpression",
             "start": 476,
             "end": 499,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -251,15 +249,17 @@
                         "end": 494,
                         "name": "method"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

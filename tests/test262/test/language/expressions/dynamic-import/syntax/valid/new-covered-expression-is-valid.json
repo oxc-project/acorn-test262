@@ -27,8 +27,8 @@
             "end": 681,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -41,9 +41,7 @@
             "type": "ArrowFunctionExpression",
             "start": 693,
             "end": 723,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -82,7 +80,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -112,8 +112,8 @@
             "end": 740,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -126,9 +126,7 @@
             "type": "ArrowFunctionExpression",
             "start": 752,
             "end": 797,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -158,7 +156,6 @@
                             "start": 769,
                             "end": 782,
                             "id": null,
-                            "expression": false,
                             "generator": false,
                             "async": false,
                             "params": [],
@@ -167,7 +164,8 @@
                               "start": 780,
                               "end": 782,
                               "body": []
-                            }
+                            },
+                            "expression": false
                           },
                           {
                             "type": "ImportExpression",
@@ -190,7 +188,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -220,8 +220,8 @@
             "end": 817,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -229,7 +229,6 @@
             "start": 823,
             "end": 861,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "NewExpression",
               "start": 830,
@@ -262,7 +261,6 @@
                       "start": 847,
                       "end": 860,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -271,13 +269,15 @@
                         "start": 858,
                         "end": 860,
                         "body": []
-                      }
+                      },
+                      "expression": false
                     }
                   ]
                 }
               },
               "arguments": []
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

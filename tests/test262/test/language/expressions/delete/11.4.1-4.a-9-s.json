@@ -27,8 +27,8 @@
             "end": 548,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 560,
             "end": 593,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -60,7 +59,6 @@
                     "start": 575,
                     "end": 590,
                     "operator": "delete",
-                    "prefix": true,
                     "argument": {
                       "type": "MemberExpression",
                       "start": 582,
@@ -77,13 +75,15 @@
                         "end": 590,
                         "name": "LN2"
                       },
-                      "computed": false,
-                      "optional": false
-                    }
+                      "optional": false,
+                      "computed": false
+                    },
+                    "prefix": true
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

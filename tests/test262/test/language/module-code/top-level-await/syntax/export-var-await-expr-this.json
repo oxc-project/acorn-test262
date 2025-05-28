@@ -11,6 +11,7 @@
         "type": "VariableDeclaration",
         "start": 2055,
         "end": 2078,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -33,8 +34,7 @@
               }
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "specifiers": [],
       "source": null,
@@ -48,6 +48,7 @@
         "type": "VariableDeclaration",
         "start": 2086,
         "end": 2114,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -62,9 +63,7 @@
                   "type": "Property",
                   "start": 2092,
                   "end": 2106,
-                  "method": false,
-                  "shorthand": true,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 2092,
@@ -92,7 +91,9 @@
                       }
                     }
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false
                 }
               ]
             },
@@ -103,8 +104,7 @@
               "properties": []
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "specifiers": [],
       "source": null,

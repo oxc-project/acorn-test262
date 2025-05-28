@@ -23,35 +23,31 @@
             "type": "PropertyDefinition",
             "start": 1647,
             "end": 1665,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 1647,
               "end": 1664,
               "name": "setterCalledWith"
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 1668,
             "end": 1705,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 1672,
               "end": 1678,
               "name": "field"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 1678,
               "end": 1705,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -73,28 +69,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 1708,
             "end": 1767,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 1712,
               "end": 1718,
               "name": "field"
             },
-            "kind": "set",
             "value": {
               "type": "FunctionExpression",
               "start": 1718,
               "end": 1767,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -134,8 +130,8 @@
                           "end": 1754,
                           "name": "setterCalledWith"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "right": {
                         "type": "Identifier",
@@ -146,28 +142,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "set",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 1770,
             "end": 1826,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1770,
               "end": 1788,
               "name": "compoundAssignment"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1788,
               "end": 1826,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -200,8 +196,8 @@
                           "end": 1815,
                           "name": "field"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "right": {
                         "type": "Literal",
@@ -213,28 +209,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 1829,
             "end": 1893,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1829,
               "end": 1850,
               "name": "setterCalledWithValue"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1850,
               "end": 1893,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -262,13 +258,17 @@
                         "end": 1888,
                         "name": "setterCalledWith"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -277,6 +277,7 @@
       "type": "VariableDeclaration",
       "start": 1897,
       "end": 1915,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -301,8 +302,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -328,8 +328,8 @@
             "end": 1932,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -352,8 +352,8 @@
                 "end": 1953,
                 "name": "compoundAssignment"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -400,8 +400,8 @@
             "end": 2030,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -424,8 +424,8 @@
                 "end": 2054,
                 "name": "setterCalledWithValue"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

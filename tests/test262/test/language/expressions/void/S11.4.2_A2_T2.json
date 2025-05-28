@@ -27,8 +27,8 @@
             "end": 272,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 289,
             "end": 313,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -60,17 +59,18 @@
                     "start": 304,
                     "end": 310,
                     "operator": "void",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 309,
                       "end": 310,
                       "name": "x"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

@@ -13,7 +13,6 @@
         "end": 4710,
         "name": "hasOwnProperty"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -67,8 +66,8 @@
                       "end": 4755,
                       "name": "prototype"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -76,8 +75,8 @@
                     "end": 4770,
                     "name": "hasOwnProperty"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -85,8 +84,8 @@
                   "end": 4775,
                   "name": "call"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -106,7 +105,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -156,17 +156,15 @@
                     "end": 4857,
                     "name": "then"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
                     "type": "ArrowFunctionExpression",
                     "start": 4858,
                     "end": 6434,
-                    "id": null,
                     "expression": false,
-                    "generator": false,
                     "async": false,
                     "params": [
                       {
@@ -223,8 +221,8 @@
                                       "end": 4970,
                                       "name": "exportns"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -289,8 +287,8 @@
                                       "end": 5045,
                                       "name": "exportns"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -355,8 +353,8 @@
                                       "end": 5120,
                                       "name": "exportns"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -421,8 +419,8 @@
                                       "end": 5199,
                                       "name": "exportns"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -487,8 +485,8 @@
                                       "end": 5276,
                                       "name": "exportns"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -553,8 +551,8 @@
                                       "end": 5351,
                                       "name": "exportns"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -619,8 +617,8 @@
                                       "end": 5430,
                                       "name": "exportns"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -685,8 +683,8 @@
                                       "end": 5509,
                                       "name": "exportns"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -751,8 +749,8 @@
                                       "end": 5578,
                                       "name": "exportns"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -817,8 +815,8 @@
                                       "end": 5667,
                                       "name": "exportns"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -883,8 +881,8 @@
                                       "end": 5758,
                                       "name": "exportns"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -931,8 +929,8 @@
                                 "end": 5878,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -962,8 +960,8 @@
                                       "end": 5905,
                                       "name": "exportns"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -1017,8 +1015,8 @@
                                 "end": 5972,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -1048,8 +1046,8 @@
                                       "end": 5999,
                                       "name": "exportns"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -1103,8 +1101,8 @@
                                 "end": 6066,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -1134,8 +1132,8 @@
                                       "end": 6093,
                                       "name": "exportns"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -1189,8 +1187,8 @@
                                 "end": 6164,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -1220,8 +1218,8 @@
                                       "end": 6191,
                                       "name": "exportns"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -1275,8 +1273,8 @@
                                 "end": 6260,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -1306,8 +1304,8 @@
                                       "end": 6287,
                                       "name": "exportns"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -1361,8 +1359,8 @@
                                 "end": 6354,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -1392,8 +1390,8 @@
                                       "end": 6381,
                                       "name": "exportns"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -1424,7 +1422,9 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "id": null,
+                    "generator": false
                   }
                 ],
                 "optional": false
@@ -1435,8 +1435,8 @@
                 "end": 6440,
                 "name": "then"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1460,8 +1460,8 @@
             "end": 6460,
             "name": "catch"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

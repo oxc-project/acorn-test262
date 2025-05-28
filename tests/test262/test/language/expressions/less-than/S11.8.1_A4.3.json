@@ -176,14 +176,14 @@
               "start": 466,
               "end": 470,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 467,
                 "end": 470,
                 "value": 1.1,
                 "raw": "1.1"
-              }
+              },
+              "prefix": true
             },
             "operator": "<",
             "right": {
@@ -191,14 +191,14 @@
               "start": 473,
               "end": 477,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 474,
                 "end": 477,
                 "value": 1.1,
                 "raw": "1.1"
-              }
+              },
+              "prefix": true
             }
           }
         },
@@ -277,8 +277,8 @@
                 "end": 591,
                 "name": "NEGATIVE_INFINITY"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "<",
             "right": {
@@ -297,8 +297,8 @@
                 "end": 618,
                 "name": "NEGATIVE_INFINITY"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         },
@@ -377,8 +377,8 @@
                 "end": 742,
                 "name": "POSITIVE_INFINITY"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "<",
             "right": {
@@ -397,8 +397,8 @@
                 "end": 769,
                 "name": "POSITIVE_INFINITY"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         },
@@ -477,8 +477,8 @@
                 "end": 885,
                 "name": "MAX_VALUE"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "<",
             "right": {
@@ -497,8 +497,8 @@
                 "end": 904,
                 "name": "MAX_VALUE"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         },
@@ -577,8 +577,8 @@
                 "end": 1034,
                 "name": "MIN_VALUE"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "<",
             "right": {
@@ -597,8 +597,8 @@
                 "end": 1053,
                 "name": "MIN_VALUE"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         },

@@ -27,28 +27,41 @@
             "end": 479,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
             "start": 480,
             "end": 507,
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 481,
+                "end": 485,
+                "value": {
+                  "raw": "foo ",
+                  "cooked": "foo "
+                },
+                "tail": false
+              },
+              {
+                "type": "TemplateElement",
+                "start": 502,
+                "end": 506,
+                "value": {
+                  "raw": " qux",
+                  "cooked": " qux"
+                },
+                "tail": true
+              }
+            ],
             "expressions": [
               {
                 "type": "TemplateLiteral",
                 "start": 487,
                 "end": 501,
-                "expressions": [
-                  {
-                    "type": "Literal",
-                    "start": 494,
-                    "end": 495,
-                    "value": 5,
-                    "raw": "5"
-                  }
-                ],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -70,29 +83,16 @@
                     },
                     "tail": true
                   }
+                ],
+                "expressions": [
+                  {
+                    "type": "Literal",
+                    "start": 494,
+                    "end": 495,
+                    "value": 5,
+                    "raw": "5"
+                  }
                 ]
-              }
-            ],
-            "quasis": [
-              {
-                "type": "TemplateElement",
-                "start": 481,
-                "end": 485,
-                "value": {
-                  "raw": "foo ",
-                  "cooked": "foo "
-                },
-                "tail": false
-              },
-              {
-                "type": "TemplateElement",
-                "start": 502,
-                "end": 506,
-                "value": {
-                  "raw": " qux",
-                  "cooked": " qux"
-                },
-                "tail": true
               }
             ]
           },

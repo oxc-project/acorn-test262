@@ -31,8 +31,8 @@
               "end": 269,
               "name": "fromCharCode"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {

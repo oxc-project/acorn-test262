@@ -27,8 +27,8 @@
             "end": 698,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 699,
             "end": 717,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MetaProperty",
               "start": 706,
@@ -53,7 +52,8 @@
                 "end": 717,
                 "name": "meta"
               }
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -97,8 +97,8 @@
             "end": 800,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -160,8 +160,8 @@
             "end": 919,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -175,7 +175,6 @@
             "start": 931,
             "end": 964,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -214,7 +213,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -251,8 +251,8 @@
             "end": 1012,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -266,7 +266,6 @@
             "start": 1024,
             "end": 1061,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -304,7 +303,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -341,8 +341,8 @@
             "end": 1427,
             "name": "isExtensible"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -394,8 +394,8 @@
                   "end": 1464,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -418,8 +418,8 @@
                       "end": 1496,
                       "name": "getOwnPropertyDescriptor"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -502,8 +502,8 @@
                   "end": 1637,
                   "name": "test262prop"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "Literal",
@@ -538,8 +538,8 @@
                   "end": 1670,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -569,8 +569,8 @@
                     "end": 1694,
                     "name": "test262prop"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -614,8 +614,8 @@
                   "end": 1806,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -623,7 +623,6 @@
                   "start": 1807,
                   "end": 1837,
                   "operator": "delete",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 1814,
@@ -651,9 +650,10 @@
                       "end": 1837,
                       "name": "test262prop"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "Literal",
@@ -697,8 +697,8 @@
                   "end": 1934,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -721,8 +721,8 @@
                       "end": 1966,
                       "name": "getOwnPropertyDescriptor"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -773,6 +773,7 @@
             "type": "VariableDeclaration",
             "start": 2080,
             "end": 2095,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -791,8 +792,7 @@
                   "properties": []
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -818,8 +818,8 @@
                   "end": 2121,
                   "name": "setPrototypeOf"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -873,8 +873,8 @@
                   "end": 2164,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -897,8 +897,8 @@
                       "end": 2186,
                       "name": "getPrototypeOf"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -966,8 +966,8 @@
             "end": 2304,
             "name": "preventExtensions"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1015,8 +1015,8 @@
             "end": 2335,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1039,8 +1039,8 @@
                 "end": 2355,
                 "name": "isExtensible"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1105,8 +1105,8 @@
             "end": 2481,
             "name": "seal"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1154,8 +1154,8 @@
             "end": 2512,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1178,8 +1178,8 @@
                 "end": 2528,
                 "name": "isSealed"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1244,8 +1244,8 @@
             "end": 2634,
             "name": "freeze"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1293,8 +1293,8 @@
             "end": 2665,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1317,8 +1317,8 @@
                 "end": 2681,
                 "name": "isFrozen"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

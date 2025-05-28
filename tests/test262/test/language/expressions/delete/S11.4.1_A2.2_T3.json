@@ -16,7 +16,6 @@
           "start": 338,
           "end": 351,
           "operator": "delete",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 345,
@@ -32,9 +31,10 @@
               "end": 351,
               "name": "x"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {

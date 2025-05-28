@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1862,
       "end": 1919,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -31,7 +32,6 @@
                 "start": 1874,
                 "end": 1915,
                 "id": null,
-                "expression": false,
                 "generator": true,
                 "async": false,
                 "params": [],
@@ -58,20 +58,21 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1921,
       "end": 1959,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -88,7 +89,6 @@
             "start": 1929,
             "end": 1958,
             "id": null,
-            "expression": false,
             "generator": true,
             "async": false,
             "params": [
@@ -128,11 +128,11 @@
               "start": 1956,
               "end": 1958,
               "body": []
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -158,8 +158,8 @@
             "end": 1974,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -173,7 +173,6 @@
             "start": 1989,
             "end": 2010,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -201,7 +200,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

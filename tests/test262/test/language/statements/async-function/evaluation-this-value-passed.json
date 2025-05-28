@@ -13,7 +13,6 @@
         "end": 326,
         "name": "foo"
       },
-      "expression": false,
       "generator": false,
       "async": true,
       "params": [
@@ -53,8 +52,8 @@
                   "end": 350,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -73,12 +72,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 362,
       "end": 375,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -97,8 +98,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -132,8 +132,8 @@
                 "end": 384,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -157,8 +157,8 @@
             "end": 399,
             "name": "then"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

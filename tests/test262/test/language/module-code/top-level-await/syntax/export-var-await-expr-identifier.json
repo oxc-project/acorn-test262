@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 2067,
       "end": 2079,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExportNamedDeclaration",
@@ -37,6 +37,7 @@
         "type": "VariableDeclaration",
         "start": 2089,
         "end": 2111,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -60,8 +61,7 @@
               }
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "specifiers": [],
       "source": null,
@@ -75,6 +75,7 @@
         "type": "VariableDeclaration",
         "start": 2119,
         "end": 2146,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -89,9 +90,7 @@
                   "type": "Property",
                   "start": 2125,
                   "end": 2138,
-                  "method": false,
-                  "shorthand": true,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 2125,
@@ -120,7 +119,9 @@
                       }
                     }
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false
                 }
               ]
             },
@@ -131,8 +132,7 @@
               "properties": []
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "specifiers": [],
       "source": null,

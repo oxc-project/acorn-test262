@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 800,
       "end": 855,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -40,13 +41,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 910,
       "end": 930,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -66,8 +67,7 @@
             "raw": "3000"
           }
         }
-      ],
-      "kind": "var"
+      ]
     }
   ],
   "sourceType": "script",

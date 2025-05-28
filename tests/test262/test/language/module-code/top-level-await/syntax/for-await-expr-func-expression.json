@@ -16,7 +16,6 @@
           "start": 2814,
           "end": 2827,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -25,7 +24,8 @@
             "start": 2825,
             "end": 2827,
             "body": []
-          }
+          },
+          "expression": false
         }
       },
       "test": {
@@ -37,7 +37,6 @@
           "start": 2836,
           "end": 2849,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -46,7 +45,8 @@
             "start": 2847,
             "end": 2849,
             "body": []
-          }
+          },
+          "expression": false
         }
       },
       "update": {
@@ -58,7 +58,6 @@
           "start": 2857,
           "end": 2870,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -67,7 +66,8 @@
             "start": 2868,
             "end": 2870,
             "body": []
-          }
+          },
+          "expression": false
         }
       },
       "body": {
@@ -88,7 +88,6 @@
                 "start": 2883,
                 "end": 2896,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -97,7 +96,8 @@
                   "start": 2894,
                   "end": 2896,
                   "body": []
-                }
+                },
+                "expression": false
               }
             }
           },
@@ -118,6 +118,7 @@
         "type": "VariableDeclaration",
         "start": 3085,
         "end": 3096,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -131,8 +132,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "AwaitExpression",
@@ -143,7 +143,6 @@
           "start": 3104,
           "end": 3117,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -152,7 +151,8 @@
             "start": 3115,
             "end": 3117,
             "body": []
-          }
+          },
+          "expression": false
         }
       },
       "update": {
@@ -164,7 +164,6 @@
           "start": 3125,
           "end": 3138,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -173,7 +172,8 @@
             "start": 3136,
             "end": 3138,
             "body": []
-          }
+          },
+          "expression": false
         }
       },
       "body": {
@@ -194,7 +194,6 @@
                 "start": 3151,
                 "end": 3164,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -203,7 +202,8 @@
                   "start": 3162,
                   "end": 3164,
                   "body": []
-                }
+                },
+                "expression": false
               }
             }
           },
@@ -224,6 +224,7 @@
         "type": "VariableDeclaration",
         "start": 3342,
         "end": 3353,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -237,8 +238,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "test": {
         "type": "AwaitExpression",
@@ -249,7 +249,6 @@
           "start": 3361,
           "end": 3374,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -258,7 +257,8 @@
             "start": 3372,
             "end": 3374,
             "body": []
-          }
+          },
+          "expression": false
         }
       },
       "update": {
@@ -270,7 +270,6 @@
           "start": 3382,
           "end": 3395,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -279,7 +278,8 @@
             "start": 3393,
             "end": 3395,
             "body": []
-          }
+          },
+          "expression": false
         }
       },
       "body": {
@@ -300,7 +300,6 @@
                 "start": 3408,
                 "end": 3421,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -309,7 +308,8 @@
                   "start": 3419,
                   "end": 3421,
                   "body": []
-                }
+                },
+                "expression": false
               }
             }
           },

@@ -27,15 +27,14 @@
             "end": 287,
             "name": "f"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 290,
           "end": 342,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -80,7 +79,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },

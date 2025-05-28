@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1065,
       "end": 1131,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -22,9 +23,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1073,
             "end": 1130,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -66,11 +65,12 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     }
   ],
   "sourceType": "script",

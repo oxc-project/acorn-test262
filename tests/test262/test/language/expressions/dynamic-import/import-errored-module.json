@@ -23,7 +23,6 @@
             "start": 2134,
             "end": 2448,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": true,
             "params": [],
@@ -60,8 +59,8 @@
                           "end": 2180,
                           "name": "throwsAsync"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -74,9 +73,7 @@
                           "type": "ArrowFunctionExpression",
                           "start": 2197,
                           "end": 2247,
-                          "id": null,
                           "expression": true,
-                          "generator": false,
                           "async": false,
                           "params": [],
                           "body": {
@@ -92,7 +89,9 @@
                             },
                             "options": null,
                             "phase": null
-                          }
+                          },
+                          "id": null,
+                          "generator": false
                         },
                         {
                           "type": "Literal",
@@ -134,8 +133,8 @@
                           "end": 2326,
                           "name": "throwsAsync"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -148,9 +147,7 @@
                           "type": "ArrowFunctionExpression",
                           "start": 2343,
                           "end": 2393,
-                          "id": null,
                           "expression": true,
-                          "generator": false,
                           "async": false,
                           "params": [],
                           "body": {
@@ -166,7 +163,9 @@
                             },
                             "options": null,
                             "phase": null
-                          }
+                          },
+                          "id": null,
+                          "generator": false
                         },
                         {
                           "type": "Literal",
@@ -181,7 +180,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

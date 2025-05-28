@@ -13,7 +13,6 @@
         "end": 351,
         "name": "MyFunction"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,7 +21,8 @@
         "start": 354,
         "end": 356,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -49,8 +49,8 @@
             "end": 372,
             "name": "prop"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -70,7 +70,6 @@
         "start": 378,
         "end": 400,
         "operator": "delete",
-        "prefix": true,
         "argument": {
           "type": "MemberExpression",
           "start": 385,
@@ -87,9 +86,10 @@
             "end": 400,
             "name": "prop"
           },
-          "computed": false,
-          "optional": false
-        }
+          "optional": false,
+          "computed": false
+        },
+        "prefix": true
       }
     },
     {
@@ -116,8 +116,8 @@
             "end": 421,
             "name": "prop"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -175,8 +175,8 @@
                       "end": 606,
                       "name": "prop"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]

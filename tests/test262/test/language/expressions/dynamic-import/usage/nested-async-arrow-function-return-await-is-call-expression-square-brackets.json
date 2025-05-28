@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1182,
       "end": 1271,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -22,9 +23,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1192,
             "end": 1270,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": true,
             "params": [],
             "body": {
@@ -60,17 +59,15 @@
                     "value": "then",
                     "raw": "'then'"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 "arguments": [
                   {
                     "type": "ArrowFunctionExpression",
                     "start": 1263,
                     "end": 1269,
-                    "id": null,
                     "expression": true,
-                    "generator": false,
                     "async": false,
                     "params": [
                       {
@@ -85,16 +82,19 @@
                       "start": 1268,
                       "end": 1269,
                       "name": "x"
-                    }
+                    },
+                    "id": null,
+                    "generator": false
                   }
                 ],
                 "optional": false
               }
-            }
+            },
+            "id": null,
+            "generator": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -143,17 +143,15 @@
                     "end": 1281,
                     "name": "then"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
                     "type": "ArrowFunctionExpression",
                     "start": 1282,
                     "end": 1334,
-                    "id": null,
                     "expression": false,
-                    "generator": false,
                     "async": false,
                     "params": [
                       {
@@ -192,8 +190,8 @@
                                 "end": 1315,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -212,8 +210,8 @@
                                   "end": 1326,
                                   "name": "x"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               {
                                 "type": "Literal",
@@ -227,7 +225,9 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "id": null,
+                    "generator": false
                   }
                 ],
                 "optional": false
@@ -238,8 +238,8 @@
                 "end": 1340,
                 "name": "then"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -263,8 +263,8 @@
             "end": 1360,
             "name": "catch"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

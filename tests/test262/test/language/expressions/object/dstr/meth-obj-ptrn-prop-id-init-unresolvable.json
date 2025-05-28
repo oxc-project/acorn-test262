@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1908,
       "end": 1968,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 1922,
                 "end": 1965,
-                "method": true,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1922,
@@ -41,7 +40,6 @@
                   "start": 1928,
                   "end": 1965,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [
@@ -54,9 +52,7 @@
                           "type": "Property",
                           "start": 1931,
                           "end": 1959,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 1931,
@@ -80,7 +76,9 @@
                               "name": "unresolvableReference"
                             }
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }
@@ -90,15 +88,17 @@
                     "start": 1963,
                     "end": 1965,
                     "body": []
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": true,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -124,8 +124,8 @@
             "end": 1983,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -139,7 +139,6 @@
             "start": 2000,
             "end": 2032,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -172,8 +171,8 @@
                         "end": 2025,
                         "name": "method"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -187,7 +186,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

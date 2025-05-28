@@ -13,7 +13,6 @@
         "end": 3745,
         "name": "fn"
       },
-      "expression": false,
       "generator": false,
       "async": true,
       "params": [],
@@ -26,6 +25,7 @@
             "type": "VariableDeclaration",
             "start": 3754,
             "end": 3800,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -57,8 +57,7 @@
                   }
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -84,8 +83,8 @@
                   "end": 3822,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -93,7 +92,6 @@
                   "start": 3823,
                   "end": 3851,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 3830,
@@ -110,9 +108,10 @@
                       "end": 3851,
                       "name": "setPrototypeOf"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "Literal",
@@ -149,8 +148,8 @@
                   "end": 3886,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -179,8 +178,8 @@
                       "end": 3912,
                       "name": "setPrototypeOf"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -204,7 +203,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -245,8 +245,8 @@
                 "end": 3937,
                 "name": "then"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -270,8 +270,8 @@
             "end": 3957,
             "name": "catch"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

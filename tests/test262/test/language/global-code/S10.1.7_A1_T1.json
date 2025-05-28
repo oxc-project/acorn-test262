@@ -16,12 +16,12 @@
           "start": 297,
           "end": 308,
           "operator": "delete",
-          "prefix": true,
           "argument": {
             "type": "ThisExpression",
             "start": 304,
             "end": 308
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {

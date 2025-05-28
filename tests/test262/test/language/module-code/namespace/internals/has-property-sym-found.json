@@ -27,8 +27,8 @@
         "value": "./has-property-sym-found.js",
         "raw": "'./has-property-sym-found.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -65,8 +65,8 @@
                 "end": 523,
                 "name": "toStringTag"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "in",
             "right": {
@@ -122,8 +122,8 @@
                 "end": 576,
                 "name": "has"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -148,8 +148,8 @@
                   "end": 599,
                   "name": "toStringTag"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             ],
             "optional": false

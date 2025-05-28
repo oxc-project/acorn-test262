@@ -41,9 +41,7 @@
                         "type": "Property",
                         "start": 644,
                         "end": 652,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 644,
@@ -57,7 +55,9 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }

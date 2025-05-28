@@ -27,8 +27,8 @@
         "value": "./object-keys-binding-uninit.js",
         "raw": "\"./object-keys-binding-uninit.js\""
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -54,8 +54,8 @@
             "end": 1064,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -69,7 +69,6 @@
             "start": 1081,
             "end": 1116,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -102,8 +101,8 @@
                         "end": 1107,
                         "name": "keys"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -117,7 +116,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

@@ -12,7 +12,6 @@
         "start": 1136,
         "end": 1149,
         "operator": "void",
-        "prefix": true,
         "argument": {
           "type": "AwaitExpression",
           "start": 1141,
@@ -21,7 +20,6 @@
             "type": "TemplateLiteral",
             "start": 1147,
             "end": 1149,
-            "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -33,9 +31,11 @@
                 },
                 "tail": true
               }
-            ]
+            ],
+            "expressions": []
           }
-        }
+        },
+        "prefix": true
       }
     }
   ],

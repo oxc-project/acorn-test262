@@ -13,7 +13,6 @@
         "end": 441,
         "name": "tag"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -53,12 +52,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 497,
       "end": 507,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -78,13 +79,13 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 508,
       "end": 531,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -104,13 +105,13 @@
             "raw": "null"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 532,
       "end": 558,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -130,8 +131,7 @@
             "raw": "null"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -151,14 +151,6 @@
           "type": "TemplateLiteral",
           "start": 563,
           "end": 577,
-          "expressions": [
-            {
-              "type": "Identifier",
-              "start": 570,
-              "end": 571,
-              "name": "a"
-            }
-          ],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -179,6 +171,14 @@
                 "cooked": "tail"
               },
               "tail": true
+            }
+          ],
+          "expressions": [
+            {
+              "type": "Identifier",
+              "start": 570,
+              "end": 571,
+              "name": "a"
             }
           ]
         }
@@ -287,14 +287,6 @@
           "type": "TemplateLiteral",
           "start": 666,
           "end": 680,
-          "expressions": [
-            {
-              "type": "Identifier",
-              "start": 673,
-              "end": 674,
-              "name": "a"
-            }
-          ],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -315,6 +307,14 @@
                 "cooked": "tail"
               },
               "tail": true
+            }
+          ],
+          "expressions": [
+            {
+              "type": "Identifier",
+              "start": 673,
+              "end": 674,
+              "name": "a"
             }
           ]
         }
@@ -344,8 +344,8 @@
             "end": 701,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

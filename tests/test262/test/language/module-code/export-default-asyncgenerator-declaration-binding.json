@@ -17,7 +17,6 @@
           "end": 495,
           "name": "AG"
         },
-        "expression": false,
         "generator": true,
         "async": true,
         "params": [],
@@ -26,7 +25,8 @@
           "start": 498,
           "end": 500,
           "body": []
-        }
+        },
+        "expression": false
       }
     },
     {
@@ -54,8 +54,8 @@
             "end": 507,
             "name": "foo"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",

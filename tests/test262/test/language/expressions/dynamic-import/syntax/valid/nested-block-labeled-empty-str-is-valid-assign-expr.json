@@ -7,6 +7,12 @@
       "type": "LabeledStatement",
       "start": 1041,
       "end": 1065,
+      "label": {
+        "type": "Identifier",
+        "start": 1041,
+        "end": 1046,
+        "name": "label"
+      },
       "body": {
         "type": "BlockStatement",
         "start": 1048,
@@ -32,12 +38,6 @@
             }
           }
         ]
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 1041,
-        "end": 1046,
-        "name": "label"
       }
     },
     {

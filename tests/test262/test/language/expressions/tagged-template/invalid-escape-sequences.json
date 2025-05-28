@@ -19,9 +19,7 @@
             "type": "ArrowFunctionExpression",
             "start": 271,
             "end": 437,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -60,8 +58,8 @@
                         "end": 299,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -81,8 +79,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Identifier",
@@ -125,8 +123,8 @@
                         "end": 413,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -149,8 +147,8 @@
                             "end": 422,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -159,8 +157,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -174,14 +172,15 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 438,
           "end": 443,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -193,7 +192,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -213,9 +213,7 @@
             "type": "ArrowFunctionExpression",
             "start": 447,
             "end": 612,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -254,8 +252,8 @@
                         "end": 475,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -275,8 +273,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Identifier",
@@ -319,8 +317,8 @@
                         "end": 589,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -343,8 +341,8 @@
                             "end": 598,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -353,8 +351,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -368,14 +366,15 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 613,
           "end": 617,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -387,7 +386,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -407,9 +407,7 @@
             "type": "ArrowFunctionExpression",
             "start": 621,
             "end": 786,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -448,8 +446,8 @@
                         "end": 649,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -469,8 +467,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Identifier",
@@ -513,8 +511,8 @@
                         "end": 763,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -537,8 +535,8 @@
                             "end": 772,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -547,8 +545,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -562,14 +560,15 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 787,
           "end": 791,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -581,7 +580,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -601,9 +601,7 @@
             "type": "ArrowFunctionExpression",
             "start": 795,
             "end": 960,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -642,8 +640,8 @@
                         "end": 823,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -663,8 +661,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Identifier",
@@ -707,8 +705,8 @@
                         "end": 937,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -731,8 +729,8 @@
                             "end": 946,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -741,8 +739,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -756,14 +754,15 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 961,
           "end": 965,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -775,7 +774,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -795,9 +795,7 @@
             "type": "ArrowFunctionExpression",
             "start": 969,
             "end": 1135,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -836,8 +834,8 @@
                         "end": 997,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -857,8 +855,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Identifier",
@@ -901,8 +899,8 @@
                         "end": 1111,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -925,8 +923,8 @@
                             "end": 1120,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -935,8 +933,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -950,14 +948,15 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 1136,
           "end": 1141,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -969,7 +968,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -989,9 +989,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1145,
             "end": 1312,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -1030,8 +1028,8 @@
                         "end": 1173,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1051,8 +1049,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Identifier",
@@ -1095,8 +1093,8 @@
                         "end": 1287,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1119,8 +1117,8 @@
                             "end": 1296,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -1129,8 +1127,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -1144,14 +1142,15 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 1313,
           "end": 1319,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -1163,7 +1162,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -1183,9 +1183,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1323,
             "end": 1489,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -1224,8 +1222,8 @@
                         "end": 1351,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1245,8 +1243,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Identifier",
@@ -1289,8 +1287,8 @@
                         "end": 1465,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1313,8 +1311,8 @@
                             "end": 1474,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -1323,8 +1321,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -1338,14 +1336,15 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 1490,
           "end": 1495,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -1357,7 +1356,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -1377,9 +1377,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1499,
             "end": 1666,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -1418,8 +1416,8 @@
                         "end": 1527,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1439,8 +1437,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Identifier",
@@ -1483,8 +1481,8 @@
                         "end": 1641,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1507,8 +1505,8 @@
                             "end": 1650,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -1517,8 +1515,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -1532,14 +1530,15 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 1667,
           "end": 1673,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -1551,7 +1550,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -1571,9 +1571,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1677,
             "end": 1845,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -1612,8 +1610,8 @@
                         "end": 1705,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1633,8 +1631,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Identifier",
@@ -1677,8 +1675,8 @@
                         "end": 1819,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1701,8 +1699,8 @@
                             "end": 1828,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -1711,8 +1709,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -1726,14 +1724,15 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 1846,
           "end": 1853,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -1745,7 +1744,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -1765,9 +1765,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1857,
             "end": 2026,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -1806,8 +1804,8 @@
                         "end": 1885,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1827,8 +1825,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Identifier",
@@ -1871,8 +1869,8 @@
                         "end": 1999,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1895,8 +1893,8 @@
                             "end": 2008,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -1905,8 +1903,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -1920,14 +1918,15 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 2027,
           "end": 2035,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -1939,7 +1938,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -1959,9 +1959,7 @@
             "type": "ArrowFunctionExpression",
             "start": 2039,
             "end": 2206,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -2000,8 +1998,8 @@
                         "end": 2067,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2021,8 +2019,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Identifier",
@@ -2065,8 +2063,8 @@
                         "end": 2181,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2089,8 +2087,8 @@
                             "end": 2190,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -2099,8 +2097,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -2114,14 +2112,15 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 2207,
           "end": 2213,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -2133,7 +2132,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -2153,9 +2153,7 @@
             "type": "ArrowFunctionExpression",
             "start": 2217,
             "end": 2384,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -2194,8 +2192,8 @@
                         "end": 2245,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2215,8 +2213,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Identifier",
@@ -2259,8 +2257,8 @@
                         "end": 2359,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2283,8 +2281,8 @@
                             "end": 2368,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -2293,8 +2291,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -2308,14 +2306,15 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 2385,
           "end": 2391,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -2327,7 +2326,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -2347,9 +2347,7 @@
             "type": "ArrowFunctionExpression",
             "start": 2395,
             "end": 2569,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -2388,8 +2386,8 @@
                         "end": 2423,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2409,8 +2407,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Identifier",
@@ -2453,8 +2451,8 @@
                         "end": 2537,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2477,8 +2475,8 @@
                             "end": 2546,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -2487,8 +2485,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -2502,14 +2500,15 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 2570,
           "end": 2583,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -2521,7 +2520,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -2541,9 +2541,7 @@
             "type": "ArrowFunctionExpression",
             "start": 2587,
             "end": 2883,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -2588,8 +2586,8 @@
                         "end": 2622,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2633,8 +2631,8 @@
                         "end": 2656,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2654,8 +2652,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Identifier",
@@ -2698,8 +2696,8 @@
                         "end": 2770,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2722,8 +2720,8 @@
                             "end": 2779,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -2732,8 +2730,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -2770,8 +2768,8 @@
                         "end": 2820,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2791,8 +2789,8 @@
                           "value": 1,
                           "raw": "1"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -2829,8 +2827,8 @@
                         "end": 2858,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2853,8 +2851,8 @@
                             "end": 2867,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -2863,8 +2861,8 @@
                           "value": 1,
                           "raw": "1"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -2878,22 +2876,15 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 2884,
           "end": 2912,
-          "expressions": [
-            {
-              "type": "Literal",
-              "start": 2898,
-              "end": 2905,
-              "value": "inner",
-              "raw": "'inner'"
-            }
-          ],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -2914,6 +2905,15 @@
                 "cooked": "right"
               },
               "tail": true
+            }
+          ],
+          "expressions": [
+            {
+              "type": "Literal",
+              "start": 2898,
+              "end": 2905,
+              "value": "inner",
+              "raw": "'inner'"
             }
           ]
         }

@@ -13,7 +13,6 @@
         "end": 457,
         "name": "Palette"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,7 +21,8 @@
         "start": 460,
         "end": 462,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -49,8 +49,8 @@
             "end": 480,
             "name": "prototype"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ObjectExpression",
@@ -61,9 +61,7 @@
               "type": "Property",
               "start": 487,
               "end": 500,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 487,
@@ -77,15 +75,15 @@
                 "value": 16711680,
                 "raw": "0xff0000"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             },
             {
               "type": "Property",
               "start": 504,
               "end": 519,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 504,
@@ -99,7 +97,9 @@
                 "value": 65280,
                 "raw": "0x00ff00"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             }
           ]
         }
@@ -109,6 +109,7 @@
       "type": "VariableDeclaration",
       "start": 524,
       "end": 554,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -133,8 +134,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -160,8 +160,8 @@
             "end": 662,
             "name": "red"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -220,8 +220,8 @@
                       "end": 870,
                       "name": "red"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -244,7 +244,6 @@
           "start": 1054,
           "end": 1074,
           "operator": "delete",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 1061,
@@ -261,9 +260,10 @@
               "end": 1074,
               "name": "red"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -311,7 +311,6 @@
                     "start": 1267,
                     "end": 1287,
                     "operator": "delete",
-                    "prefix": true,
                     "argument": {
                       "type": "MemberExpression",
                       "start": 1274,
@@ -328,9 +327,10 @@
                         "end": 1287,
                         "name": "red"
                       },
-                      "computed": false,
-                      "optional": false
-                    }
+                      "optional": false,
+                      "computed": false
+                    },
+                    "prefix": true
                   }
                 }
               ]
@@ -364,8 +364,8 @@
             "end": 1484,
             "name": "red"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -424,8 +424,8 @@
                       "end": 1692,
                       "name": "red"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]

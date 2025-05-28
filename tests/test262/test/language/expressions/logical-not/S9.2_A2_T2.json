@@ -16,7 +16,6 @@
           "start": 302,
           "end": 309,
           "operator": "!",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 303,
@@ -28,7 +27,8 @@
               "value": null,
               "raw": "null"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -80,7 +80,6 @@
                       "start": 383,
                       "end": 390,
                       "operator": "!",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 384,
@@ -92,7 +91,8 @@
                           "value": null,
                           "raw": "null"
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 305,
       "end": 352,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,7 +24,6 @@
             "start": 313,
             "end": 352,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -41,20 +41,20 @@
                     "start": 338,
                     "end": 349,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "ThisExpression",
                       "start": 345,
                       "end": 349
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",

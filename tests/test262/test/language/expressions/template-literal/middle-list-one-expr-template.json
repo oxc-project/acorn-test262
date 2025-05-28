@@ -27,59 +27,14 @@
             "end": 475,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
             "start": 476,
             "end": 504,
-            "expressions": [
-              {
-                "type": "Literal",
-                "start": 479,
-                "end": 480,
-                "value": 0,
-                "raw": "0"
-              },
-              {
-                "type": "TemplateLiteral",
-                "start": 484,
-                "end": 498,
-                "expressions": [
-                  {
-                    "type": "Literal",
-                    "start": 491,
-                    "end": 492,
-                    "value": 5,
-                    "raw": "5"
-                  }
-                ],
-                "quasis": [
-                  {
-                    "type": "TemplateElement",
-                    "start": 485,
-                    "end": 489,
-                    "value": {
-                      "raw": "bar ",
-                      "cooked": "bar "
-                    },
-                    "tail": false
-                  },
-                  {
-                    "type": "TemplateElement",
-                    "start": 493,
-                    "end": 497,
-                    "value": {
-                      "raw": " baz",
-                      "cooked": " baz"
-                    },
-                    "tail": true
-                  }
-                ]
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -110,6 +65,51 @@
                   "cooked": " qux"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 479,
+                "end": 480,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "TemplateLiteral",
+                "start": 484,
+                "end": 498,
+                "quasis": [
+                  {
+                    "type": "TemplateElement",
+                    "start": 485,
+                    "end": 489,
+                    "value": {
+                      "raw": "bar ",
+                      "cooked": "bar "
+                    },
+                    "tail": false
+                  },
+                  {
+                    "type": "TemplateElement",
+                    "start": 493,
+                    "end": 497,
+                    "value": {
+                      "raw": " baz",
+                      "cooked": " baz"
+                    },
+                    "tail": true
+                  }
+                ],
+                "expressions": [
+                  {
+                    "type": "Literal",
+                    "start": 491,
+                    "end": 492,
+                    "value": 5,
+                    "raw": "5"
+                  }
+                ]
               }
             ]
           },

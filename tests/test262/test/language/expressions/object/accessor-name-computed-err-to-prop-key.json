@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1198,
       "end": 1231,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 1224,
                 "name": "create"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -53,8 +54,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -80,8 +80,8 @@
             "end": 1247,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -95,7 +95,6 @@
             "start": 1259,
             "end": 1306,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -121,9 +120,7 @@
                           "type": "Property",
                           "start": 1281,
                           "end": 1298,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": true,
+                          "kind": "get",
                           "key": {
                             "type": "Identifier",
                             "start": 1286,
@@ -135,7 +132,6 @@
                             "start": 1293,
                             "end": 1298,
                             "id": null,
-                            "expression": false,
                             "generator": false,
                             "async": false,
                             "params": [],
@@ -144,16 +140,20 @@
                               "start": 1296,
                               "end": 1298,
                               "body": []
-                            }
+                            },
+                            "expression": false
                           },
-                          "kind": "get"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": true
                         }
                       ]
                     }
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -190,8 +190,8 @@
             "end": 1341,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -205,7 +205,6 @@
             "start": 1353,
             "end": 1401,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -231,9 +230,7 @@
                           "type": "Property",
                           "start": 1375,
                           "end": 1393,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": true,
+                          "kind": "set",
                           "key": {
                             "type": "Identifier",
                             "start": 1380,
@@ -245,7 +242,6 @@
                             "start": 1387,
                             "end": 1393,
                             "id": null,
-                            "expression": false,
                             "generator": false,
                             "async": false,
                             "params": [
@@ -261,16 +257,20 @@
                               "start": 1391,
                               "end": 1393,
                               "body": []
-                            }
+                            },
+                            "expression": false
                           },
-                          "kind": "set"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": true
                         }
                       ]
                     }
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

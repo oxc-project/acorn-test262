@@ -43,8 +43,8 @@
                 "end": 311,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         },
@@ -131,8 +131,8 @@
                 "end": 415,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         },
@@ -200,14 +200,14 @@
               "start": 504,
               "end": 508,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 505,
                 "end": 508,
                 "value": 1.1,
                 "raw": "1.1"
-              }
+              },
+              "prefix": true
             },
             "operator": "<=",
             "right": {
@@ -226,8 +226,8 @@
                 "end": 522,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         },
@@ -306,8 +306,8 @@
                 "end": 622,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "<=",
             "right": {
@@ -326,8 +326,8 @@
                 "end": 636,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         },
@@ -406,8 +406,8 @@
                 "end": 749,
                 "name": "POSITIVE_INFINITY"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "<=",
             "right": {
@@ -426,8 +426,8 @@
                 "end": 763,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         },
@@ -506,8 +506,8 @@
                 "end": 882,
                 "name": "NEGATIVE_INFINITY"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "<=",
             "right": {
@@ -526,8 +526,8 @@
                 "end": 896,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         },
@@ -606,8 +606,8 @@
                 "end": 1007,
                 "name": "MAX_VALUE"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "<=",
             "right": {
@@ -626,8 +626,8 @@
                 "end": 1021,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         },
@@ -706,8 +706,8 @@
                 "end": 1139,
                 "name": "MIN_VALUE"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "<=",
             "right": {
@@ -726,8 +726,8 @@
                 "end": 1153,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         },

@@ -13,7 +13,6 @@
         "end": 562,
         "name": "f1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -59,7 +58,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -70,7 +70,6 @@
         "start": 593,
         "end": 618,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 594,
@@ -115,7 +114,8 @@
               "name": "undefined"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

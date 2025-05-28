@@ -11,6 +11,7 @@
         "type": "VariableDeclaration",
         "start": 1944,
         "end": 2006,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -42,7 +43,6 @@
                     "start": 1974,
                     "end": 2004,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [
@@ -91,14 +91,14 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   }
                 ]
               }
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "specifiers": [],
       "source": null,
@@ -112,6 +112,7 @@
         "type": "VariableDeclaration",
         "start": 2014,
         "end": 2081,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -126,9 +127,7 @@
                   "type": "Property",
                   "start": 2020,
                   "end": 2073,
-                  "method": false,
-                  "shorthand": true,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 2020,
@@ -165,7 +164,6 @@
                             "start": 2042,
                             "end": 2072,
                             "id": null,
-                            "expression": false,
                             "generator": false,
                             "async": false,
                             "params": [
@@ -214,13 +212,16 @@
                                   }
                                 }
                               ]
-                            }
+                            },
+                            "expression": false
                           }
                         ]
                       }
                     }
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false
                 }
               ]
             },
@@ -231,8 +232,7 @@
               "properties": []
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "specifiers": [],
       "source": null,

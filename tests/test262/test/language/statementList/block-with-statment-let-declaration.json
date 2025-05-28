@@ -12,6 +12,12 @@
           "type": "LabeledStatement",
           "start": 789,
           "end": 801,
+          "label": {
+            "type": "Identifier",
+            "start": 789,
+            "end": 795,
+            "name": "length"
+          },
           "body": {
             "type": "ExpressionStatement",
             "start": 797,
@@ -23,12 +29,6 @@
               "value": 3000,
               "raw": "3000"
             }
-          },
-          "label": {
-            "type": "Identifier",
-            "start": 789,
-            "end": 795,
-            "name": "length"
           }
         }
       ]
@@ -37,6 +37,7 @@
       "type": "VariableDeclaration",
       "start": 802,
       "end": 819,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -80,8 +81,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",

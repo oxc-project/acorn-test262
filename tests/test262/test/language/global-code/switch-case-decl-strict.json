@@ -27,8 +27,8 @@
             "end": 497,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 514,
             "end": 533,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -63,7 +62,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -85,6 +85,13 @@
           "type": "SwitchCase",
           "start": 552,
           "end": 581,
+          "test": {
+            "type": "Literal",
+            "start": 557,
+            "end": 558,
+            "value": 1,
+            "raw": "1"
+          },
           "consequent": [
             {
               "type": "FunctionDeclaration",
@@ -96,7 +103,6 @@
                 "end": 574,
                 "name": "f"
               },
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -105,16 +111,10 @@
                 "start": 577,
                 "end": 581,
                 "body": []
-              }
+              },
+              "expression": false
             }
-          ],
-          "test": {
-            "type": "Literal",
-            "start": 557,
-            "end": 558,
-            "value": 1,
-            "raw": "1"
-          }
+          ]
         }
       ]
     },
@@ -142,8 +142,8 @@
             "end": 598,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -157,7 +157,6 @@
             "start": 615,
             "end": 634,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -178,7 +177,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

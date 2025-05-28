@@ -12,7 +12,6 @@
         "start": 363,
         "end": 499,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 365,
@@ -30,7 +29,6 @@
                 "start": 367,
                 "end": 495,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -68,7 +66,6 @@
                                   "start": 394,
                                   "end": 441,
                                   "id": null,
-                                  "expression": false,
                                   "generator": false,
                                   "async": false,
                                   "params": [],
@@ -86,16 +83,17 @@
                                           "start": 423,
                                           "end": 434,
                                           "operator": "typeof",
-                                          "prefix": true,
                                           "argument": {
                                             "type": "ThisExpression",
                                             "start": 430,
                                             "end": 434
-                                          }
+                                          },
+                                          "prefix": true
                                         }
                                       }
                                     ]
-                                  }
+                                  },
+                                  "expression": false
                                 }
                               },
                               "arguments": [],
@@ -129,12 +127,12 @@
                                 "start": 465,
                                 "end": 476,
                                 "operator": "typeof",
-                                "prefix": true,
                                 "argument": {
                                   "type": "ThisExpression",
                                   "start": 472,
                                   "end": 476
-                                }
+                                },
+                                "prefix": true
                               }
                             },
                             "operator": "===",
@@ -150,13 +148,15 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             },
             "arguments": [],
             "optional": false
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

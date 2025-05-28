@@ -12,7 +12,6 @@
         "start": 350,
         "end": 491,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 352,
@@ -30,7 +29,6 @@
                 "start": 354,
                 "end": 487,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -49,7 +47,6 @@
                         "end": 382,
                         "name": "f"
                       },
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -67,16 +64,17 @@
                               "start": 402,
                               "end": 413,
                               "operator": "typeof",
-                              "prefix": true,
                               "argument": {
                                 "type": "ThisExpression",
                                 "start": 409,
                                 "end": 413
-                              }
+                              },
+                              "prefix": true
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     },
                     {
                       "type": "ReturnStatement",
@@ -135,12 +133,12 @@
                                 "start": 457,
                                 "end": 468,
                                 "operator": "typeof",
-                                "prefix": true,
                                 "argument": {
                                   "type": "ThisExpression",
                                   "start": 464,
                                   "end": 468
-                                }
+                                },
+                                "prefix": true
                               }
                             },
                             "operator": "===",
@@ -156,13 +154,15 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             },
             "arguments": [],
             "optional": false
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

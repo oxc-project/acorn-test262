@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 265,
       "end": 288,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,7 +24,6 @@
             "start": 273,
             "end": 287,
             "id": null,
-            "expression": false,
             "generator": true,
             "async": false,
             "params": [],
@@ -32,11 +32,11 @@
               "start": 285,
               "end": 287,
               "body": []
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",

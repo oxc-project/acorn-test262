@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1965,
       "end": 2007,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 1979,
                 "end": 2004,
-                "method": true,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1979,
@@ -41,7 +40,6 @@
                   "start": 1985,
                   "end": 2004,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [
@@ -90,15 +88,17 @@
                     "start": 2002,
                     "end": 2004,
                     "body": []
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": true,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -124,8 +124,8 @@
             "end": 2022,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -139,7 +139,6 @@
             "start": 2034,
             "end": 2064,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -172,15 +171,16 @@
                         "end": 2059,
                         "name": "method"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

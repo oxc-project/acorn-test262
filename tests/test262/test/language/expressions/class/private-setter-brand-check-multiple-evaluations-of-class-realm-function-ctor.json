@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 804,
       "end": 918,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -22,7 +23,6 @@
             "type": "TemplateLiteral",
             "start": 832,
             "end": 917,
-            "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -34,16 +34,17 @@
                 },
                 "tail": true
               }
-            ]
+            ],
+            "expressions": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 920,
       "end": 1181,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -60,7 +61,6 @@
             "start": 952,
             "end": 1180,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -73,6 +73,7 @@
                   "type": "VariableDeclaration",
                   "start": 968,
                   "end": 999,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -104,20 +105,20 @@
                             "end": 996,
                             "name": "createRealm"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [],
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 1002,
                   "end": 1080,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -157,8 +158,8 @@
                                 "end": 1046,
                                 "name": "global"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -166,8 +167,8 @@
                               "end": 1055,
                               "name": "Function"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           }
                         },
                         "arguments": [
@@ -180,13 +181,13 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 1083,
                   "end": 1118,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -212,13 +213,13 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 1121,
                   "end": 1143,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -243,8 +244,7 @@
                         "arguments": []
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -271,8 +271,8 @@
                         "end": 1155,
                         "name": "realm"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "Identifier",
@@ -294,16 +294,17 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1183,
       "end": 1220,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -329,13 +330,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1221,
       "end": 1258,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -361,8 +362,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -388,8 +388,8 @@
             "end": 1269,
             "name": "access"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -433,8 +433,8 @@
             "end": 1302,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -453,8 +453,8 @@
               "end": 1308,
               "name": "_v"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -491,8 +491,8 @@
             "end": 1331,
             "name": "access"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -536,8 +536,8 @@
             "end": 1364,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -556,8 +556,8 @@
               "end": 1370,
               "name": "_v"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -594,8 +594,8 @@
             "end": 1398,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -622,8 +622,8 @@
                   "end": 1407,
                   "name": "realm"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -631,8 +631,8 @@
                 "end": 1414,
                 "name": "global"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -640,15 +640,14 @@
               "end": 1424,
               "name": "TypeError"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "FunctionExpression",
             "start": 1426,
             "end": 1464,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -681,8 +680,8 @@
                         "end": 1450,
                         "name": "access"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -703,7 +702,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -740,8 +740,8 @@
             "end": 1520,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -768,8 +768,8 @@
                   "end": 1529,
                   "name": "realm"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -777,8 +777,8 @@
                 "end": 1536,
                 "name": "global"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -786,15 +786,14 @@
               "end": 1546,
               "name": "TypeError"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "FunctionExpression",
             "start": 1548,
             "end": 1586,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -827,8 +826,8 @@
                         "end": 1572,
                         "name": "access"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -849,7 +848,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

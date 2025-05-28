@@ -32,8 +32,8 @@
             "end": 323,
             "name": "source"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -107,8 +107,8 @@
             "end": 405,
             "name": "source"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -182,8 +182,8 @@
             "end": 484,
             "name": "source"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -257,8 +257,8 @@
             "end": 563,
             "name": "source"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -332,8 +332,8 @@
             "end": 653,
             "name": "source"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {

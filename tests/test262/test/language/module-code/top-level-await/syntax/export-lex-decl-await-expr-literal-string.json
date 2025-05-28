@@ -11,6 +11,7 @@
         "type": "VariableDeclaration",
         "start": 1860,
         "end": 1877,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -35,8 +36,7 @@
               }
             }
           }
-        ],
-        "kind": "let"
+        ]
       },
       "specifiers": [],
       "source": null,
@@ -50,6 +50,7 @@
         "type": "VariableDeclaration",
         "start": 1885,
         "end": 1904,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -74,8 +75,7 @@
               }
             }
           }
-        ],
-        "kind": "const"
+        ]
       },
       "specifiers": [],
       "source": null,

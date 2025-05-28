@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1900,
       "end": 1918,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1919,
       "end": 1994,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -53,7 +54,6 @@
               "start": 1929,
               "end": 1991,
               "id": null,
-              "expression": false,
               "generator": true,
               "async": false,
               "params": [],
@@ -104,19 +104,20 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1996,
       "end": 2028,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -133,7 +134,6 @@
             "start": 2004,
             "end": 2027,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -162,11 +162,11 @@
               "start": 2025,
               "end": 2027,
               "body": []
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -192,8 +192,8 @@
             "end": 2043,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -207,7 +207,6 @@
             "start": 2058,
             "end": 2079,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -235,7 +234,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -265,8 +265,8 @@
             "end": 2092,
             "name": "next"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -296,8 +296,8 @@
             "end": 2112,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

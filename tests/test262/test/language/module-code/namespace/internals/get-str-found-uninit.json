@@ -27,8 +27,8 @@
         "value": "./get-str-found-uninit.js",
         "raw": "'./get-str-found-uninit.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -54,8 +54,8 @@
             "end": 581,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -69,7 +69,6 @@
             "start": 598,
             "end": 625,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -98,12 +97,13 @@
                       "end": 622,
                       "name": "local1"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -133,8 +133,8 @@
             "end": 641,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -148,7 +148,6 @@
             "start": 658,
             "end": 686,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -177,12 +176,13 @@
                       "end": 683,
                       "name": "renamed"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -212,8 +212,8 @@
             "end": 702,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -227,7 +227,6 @@
             "start": 719,
             "end": 748,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -256,12 +255,13 @@
                       "end": 745,
                       "name": "indirect"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -291,8 +291,8 @@
             "end": 764,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -306,7 +306,6 @@
             "start": 781,
             "end": 809,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -335,12 +334,13 @@
                       "end": 806,
                       "name": "default"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -354,6 +354,7 @@
         "type": "VariableDeclaration",
         "start": 820,
         "end": 836,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -373,8 +374,7 @@
               "raw": "23"
             }
           }
-        ],
-        "kind": "let"
+        ]
       },
       "specifiers": [],
       "source": null,
@@ -384,6 +384,7 @@
       "type": "VariableDeclaration",
       "start": 837,
       "end": 853,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -403,8 +404,7 @@
             "raw": "45"
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExportNamedDeclaration",

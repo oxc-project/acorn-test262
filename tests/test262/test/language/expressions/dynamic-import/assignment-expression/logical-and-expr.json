@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 837,
       "end": 874,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "'./module-code_FIXTURE.js'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 875,
       "end": 918,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,8 +53,7 @@
             "raw": "'./module-code-other_FIXTURE.js'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -65,7 +65,6 @@
         "end": 937,
         "name": "fn"
       },
-      "expression": false,
       "generator": false,
       "async": true,
       "params": [],
@@ -78,6 +77,7 @@
             "type": "VariableDeclaration",
             "start": 946,
             "end": 979,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -120,8 +120,7 @@
                   }
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -147,8 +146,8 @@
                   "end": 1039,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -167,8 +166,8 @@
                     "end": 1050,
                     "name": "local1"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -205,8 +204,8 @@
                   "end": 1084,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -225,8 +224,8 @@
                     "end": 1096,
                     "name": "default"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -243,6 +242,7 @@
             "type": "VariableDeclaration",
             "start": 1148,
             "end": 1205,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -271,56 +271,56 @@
                         "start": 1173,
                         "end": 1198,
                         "operator": "delete",
-                        "prefix": true,
                         "argument": {
                           "type": "UnaryExpression",
                           "start": 1180,
                           "end": 1198,
                           "operator": "void",
-                          "prefix": true,
                           "argument": {
                             "type": "UnaryExpression",
                             "start": 1185,
                             "end": 1198,
                             "operator": "typeof",
-                            "prefix": true,
                             "argument": {
                               "type": "UnaryExpression",
                               "start": 1192,
                               "end": 1198,
                               "operator": "+",
-                              "prefix": true,
                               "argument": {
                                 "type": "UnaryExpression",
                                 "start": 1193,
                                 "end": 1198,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "UnaryExpression",
                                   "start": 1194,
                                   "end": 1198,
                                   "operator": "~",
-                                  "prefix": true,
                                   "argument": {
                                     "type": "UnaryExpression",
                                     "start": 1195,
                                     "end": 1198,
                                     "operator": "!",
-                                    "prefix": true,
                                     "argument": {
                                       "type": "Literal",
                                       "start": 1197,
                                       "end": 1198,
                                       "value": 0,
                                       "raw": "0"
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
+                                    },
+                                    "prefix": true
+                                  },
+                                  "prefix": true
+                                },
+                                "prefix": true
+                              },
+                              "prefix": true
+                            },
+                            "prefix": true
+                          },
+                          "prefix": true
+                        },
+                        "prefix": true
                       },
                       "operator": "&&",
                       "right": {
@@ -335,8 +335,7 @@
                   }
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -362,8 +361,8 @@
                   "end": 1271,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -382,8 +381,8 @@
                     "end": 1282,
                     "name": "local1"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -420,8 +419,8 @@
                   "end": 1324,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -440,8 +439,8 @@
                     "end": 1336,
                     "name": "default"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -455,7 +454,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 280,
       "end": 295,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -132,6 +132,7 @@
       "type": "VariableDeclaration",
       "start": 463,
       "end": 479,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -150,8 +151,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",

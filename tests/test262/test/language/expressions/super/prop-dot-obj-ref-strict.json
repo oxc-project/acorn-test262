@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1494,
       "end": 1505,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,13 +21,13 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1506,
       "end": 1653,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -47,9 +48,7 @@
                 "type": "Property",
                 "start": 1520,
                 "end": 1650,
-                "method": true,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1520,
@@ -61,7 +60,6 @@
                   "start": 1526,
                   "end": 1650,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -94,8 +92,8 @@
                               "end": 1542,
                               "name": "x"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "right": {
                             "type": "Literal",
@@ -130,8 +128,8 @@
                               "end": 1565,
                               "name": "freeze"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -177,8 +175,8 @@
                                     "end": 1595,
                                     "name": "y"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "right": {
                                   "type": "Literal",
@@ -235,15 +233,17 @@
                         "finalizer": null
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": true,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -269,8 +269,8 @@
             "end": 1665,
             "name": "method"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -300,8 +300,8 @@
             "end": 1686,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -309,13 +309,13 @@
             "start": 1687,
             "end": 1700,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 1694,
               "end": 1700,
               "name": "caught"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -352,8 +352,8 @@
             "end": 1729,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -372,8 +372,8 @@
               "end": 1748,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",

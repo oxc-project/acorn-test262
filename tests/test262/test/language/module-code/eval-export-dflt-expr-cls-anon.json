@@ -26,21 +26,17 @@
                 "type": "MethodDefinition",
                 "start": 970,
                 "end": 994,
-                "static": false,
-                "computed": false,
                 "key": {
                   "type": "Identifier",
                   "start": 970,
                   "end": 977,
                   "name": "valueOf"
                 },
-                "kind": "method",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 977,
                   "end": 994,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -62,8 +58,12 @@
                         }
                       }
                     ]
-                  }
-                }
+                  },
+                  "expression": false
+                },
+                "kind": "method",
+                "computed": false,
+                "static": false
               }
             ]
           }
@@ -94,8 +94,8 @@
         "value": "./eval-export-dflt-expr-cls-anon.js",
         "raw": "'./eval-export-dflt-expr-cls-anon.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -121,8 +121,8 @@
             "end": 1069,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -151,8 +151,8 @@
                 "end": 1085,
                 "name": "valueOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -199,8 +199,8 @@
             "end": 1133,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -219,8 +219,8 @@
               "end": 1140,
               "name": "name"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

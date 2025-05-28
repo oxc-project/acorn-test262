@@ -12,7 +12,6 @@
         "start": 1136,
         "end": 1150,
         "operator": "typeof",
-        "prefix": true,
         "argument": {
           "type": "AwaitExpression",
           "start": 1143,
@@ -24,7 +23,8 @@
             "value": 1,
             "raw": "1"
           }
-        }
+        },
+        "prefix": true
       }
     }
   ],

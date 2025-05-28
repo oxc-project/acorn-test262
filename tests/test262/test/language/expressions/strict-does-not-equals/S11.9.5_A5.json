@@ -186,7 +186,6 @@
         "start": 610,
         "end": 636,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 611,
@@ -211,7 +210,8 @@
               "raw": "\"string \""
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -256,7 +256,6 @@
         "start": 714,
         "end": 730,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 715,
@@ -281,7 +280,8 @@
               "raw": "\"1\""
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

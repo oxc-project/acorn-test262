@@ -48,8 +48,8 @@
             "end": 399,
             "name": "POSITIVE_INFINITY"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "consequent": {
@@ -277,8 +277,8 @@
             "end": 666,
             "name": "POSITIVE_INFINITY"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "consequent": {

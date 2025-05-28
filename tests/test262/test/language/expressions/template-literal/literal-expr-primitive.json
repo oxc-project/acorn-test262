@@ -27,23 +27,14 @@
             "end": 478,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
             "start": 479,
             "end": 493,
-            "expressions": [
-              {
-                "type": "Literal",
-                "start": 486,
-                "end": 487,
-                "value": 5,
-                "raw": "5"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -64,6 +55,15 @@
                   "cooked": " bar"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 486,
+                "end": 487,
+                "value": 5,
+                "raw": "5"
               }
             ]
           },
@@ -109,23 +109,14 @@
             "end": 541,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
             "start": 542,
             "end": 563,
-            "expressions": [
-              {
-                "type": "Literal",
-                "start": 549,
-                "end": 557,
-                "value": "string",
-                "raw": "'string'"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -146,6 +137,15 @@
                   "cooked": " bar"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 549,
+                "end": 557,
+                "value": "string",
+                "raw": "'string'"
               }
             ]
           },

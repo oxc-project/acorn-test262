@@ -7,6 +7,12 @@
       "type": "LabeledStatement",
       "start": 381,
       "end": 457,
+      "label": {
+        "type": "Identifier",
+        "start": 381,
+        "end": 385,
+        "name": "FOR1"
+      },
       "body": {
         "type": "ForStatement",
         "start": 388,
@@ -15,6 +21,7 @@
           "type": "VariableDeclaration",
           "start": 392,
           "end": 399,
+          "kind": "var",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -34,8 +41,7 @@
                 "raw": "1"
               }
             }
-          ],
-          "kind": "var"
+          ]
         },
         "test": {
           "type": "BinaryExpression",
@@ -78,6 +84,12 @@
               "type": "LabeledStatement",
               "start": 412,
               "end": 455,
+              "label": {
+                "type": "Identifier",
+                "start": 412,
+                "end": 418,
+                "name": "LABEL1"
+              },
               "body": {
                 "type": "DoWhileStatement",
                 "start": 421,
@@ -113,22 +125,10 @@
                   "value": 0,
                   "raw": "0"
                 }
-              },
-              "label": {
-                "type": "Identifier",
-                "start": 412,
-                "end": 418,
-                "name": "LABEL1"
               }
             }
           ]
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 381,
-        "end": 385,
-        "name": "FOR1"
       }
     },
     {
@@ -155,8 +155,8 @@
             "end": 475,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -187,6 +187,12 @@
       "type": "LabeledStatement",
       "start": 591,
       "end": 667,
+      "label": {
+        "type": "Identifier",
+        "start": 591,
+        "end": 595,
+        "name": "FOR2"
+      },
       "body": {
         "type": "ForStatement",
         "start": 598,
@@ -195,6 +201,7 @@
           "type": "VariableDeclaration",
           "start": 602,
           "end": 609,
+          "kind": "var",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -214,8 +221,7 @@
                 "raw": "1"
               }
             }
-          ],
-          "kind": "var"
+          ]
         },
         "test": {
           "type": "BinaryExpression",
@@ -258,6 +264,12 @@
               "type": "LabeledStatement",
               "start": 622,
               "end": 665,
+              "label": {
+                "type": "Identifier",
+                "start": 622,
+                "end": 628,
+                "name": "LABEL2"
+              },
               "body": {
                 "type": "DoWhileStatement",
                 "start": 631,
@@ -293,22 +305,10 @@
                   "value": 0,
                   "raw": "0"
                 }
-              },
-              "label": {
-                "type": "Identifier",
-                "start": 622,
-                "end": 628,
-                "name": "LABEL2"
               }
             }
           ]
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 591,
-        "end": 595,
-        "name": "FOR2"
       }
     },
     {
@@ -335,8 +335,8 @@
             "end": 685,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -367,6 +367,12 @@
       "type": "LabeledStatement",
       "start": 801,
       "end": 877,
+      "label": {
+        "type": "Identifier",
+        "start": 801,
+        "end": 805,
+        "name": "FOR3"
+      },
       "body": {
         "type": "ForStatement",
         "start": 808,
@@ -375,6 +381,7 @@
           "type": "VariableDeclaration",
           "start": 812,
           "end": 819,
+          "kind": "var",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -394,8 +401,7 @@
                 "raw": "1"
               }
             }
-          ],
-          "kind": "var"
+          ]
         },
         "test": {
           "type": "BinaryExpression",
@@ -438,6 +444,12 @@
               "type": "LabeledStatement",
               "start": 832,
               "end": 875,
+              "label": {
+                "type": "Identifier",
+                "start": 832,
+                "end": 838,
+                "name": "LABEL3"
+              },
               "body": {
                 "type": "DoWhileStatement",
                 "start": 841,
@@ -473,22 +485,10 @@
                   "value": 0,
                   "raw": "0"
                 }
-              },
-              "label": {
-                "type": "Identifier",
-                "start": 832,
-                "end": 838,
-                "name": "LABEL3"
               }
             }
           ]
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 801,
-        "end": 805,
-        "name": "FOR3"
       }
     },
     {
@@ -515,8 +515,8 @@
             "end": 895,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -547,6 +547,12 @@
       "type": "LabeledStatement",
       "start": 1011,
       "end": 1087,
+      "label": {
+        "type": "Identifier",
+        "start": 1011,
+        "end": 1015,
+        "name": "FOR4"
+      },
       "body": {
         "type": "ForStatement",
         "start": 1018,
@@ -555,6 +561,7 @@
           "type": "VariableDeclaration",
           "start": 1022,
           "end": 1029,
+          "kind": "var",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -574,8 +581,7 @@
                 "raw": "1"
               }
             }
-          ],
-          "kind": "var"
+          ]
         },
         "test": {
           "type": "BinaryExpression",
@@ -618,6 +624,12 @@
               "type": "LabeledStatement",
               "start": 1042,
               "end": 1085,
+              "label": {
+                "type": "Identifier",
+                "start": 1042,
+                "end": 1048,
+                "name": "LABEL4"
+              },
               "body": {
                 "type": "DoWhileStatement",
                 "start": 1051,
@@ -653,22 +665,10 @@
                   "value": 0,
                   "raw": "0"
                 }
-              },
-              "label": {
-                "type": "Identifier",
-                "start": 1042,
-                "end": 1048,
-                "name": "LABEL4"
               }
             }
           ]
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 1011,
-        "end": 1015,
-        "name": "FOR4"
       }
     },
     {
@@ -695,8 +695,8 @@
             "end": 1105,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

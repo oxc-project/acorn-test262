@@ -13,7 +13,6 @@
         "end": 331,
         "name": "f1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -26,6 +25,7 @@
             "type": "VariableDeclaration",
             "start": 340,
             "end": 395,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -42,7 +42,6 @@
                   "start": 348,
                   "end": 395,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -60,20 +59,20 @@
                           "start": 377,
                           "end": 388,
                           "operator": "typeof",
-                          "prefix": true,
                           "argument": {
                             "type": "ThisExpression",
                             "start": 384,
                             "end": 388
-                          }
+                          },
+                          "prefix": true
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ReturnStatement",
@@ -132,12 +131,12 @@
                       "start": 432,
                       "end": 443,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "ThisExpression",
                         "start": 439,
                         "end": 443
-                      }
+                      },
+                      "prefix": true
                     }
                   },
                   "operator": "===",
@@ -153,7 +152,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

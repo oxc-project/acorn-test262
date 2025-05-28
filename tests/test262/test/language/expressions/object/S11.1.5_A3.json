@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 337,
       "end": 377,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 351,
                 "end": 356,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 351,
@@ -44,15 +43,15 @@
                   "value": 1,
                   "raw": "1"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 358,
                 "end": 367,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 358,
@@ -67,15 +66,15 @@
                   "value": "x",
                   "raw": "\"x\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 369,
                 "end": 375,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 369,
@@ -88,13 +87,14 @@
                   "end": 375,
                   "properties": []
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -121,8 +121,8 @@
             "value": 0,
             "raw": "0"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "operator": "!==",
         "right": {
@@ -186,8 +186,8 @@
                         "value": 0,
                         "raw": "0"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     }
                   }
                 }
@@ -223,8 +223,8 @@
             "value": "1",
             "raw": "\"1\""
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "operator": "!==",
         "right": {
@@ -288,8 +288,8 @@
                         "value": "1",
                         "raw": "\"1\""
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     }
                   }
                 }
@@ -313,7 +313,6 @@
           "start": 703,
           "end": 718,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 710,
@@ -330,9 +329,10 @@
               "end": 718,
               "name": "o"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -384,7 +384,6 @@
                       "start": 849,
                       "end": 864,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "MemberExpression",
                         "start": 856,
@@ -401,9 +400,10 @@
                           "end": 864,
                           "name": "o"
                         },
-                        "computed": false,
-                        "optional": false
-                      }
+                        "optional": false,
+                        "computed": false
+                      },
+                      "prefix": true
                     }
                   }
                 }

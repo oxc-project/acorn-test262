@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1144,
       "end": 1191,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -40,13 +41,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1192,
       "end": 1239,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -80,13 +81,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1241,
       "end": 1300,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -126,13 +127,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1301,
       "end": 1360,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -172,13 +173,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1361,
       "end": 1416,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -220,13 +221,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1418,
       "end": 1438,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -245,13 +246,13 @@
             "elements": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1439,
       "end": 1609,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -289,9 +290,7 @@
                     "type": "Property",
                     "start": 1469,
                     "end": 1549,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1469,
@@ -303,7 +302,6 @@
                       "start": 1495,
                       "end": 1549,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [
@@ -349,8 +347,8 @@
                                   "end": 1539,
                                   "name": "push"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [
                                 {
@@ -364,17 +362,18 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1553,
                     "end": 1604,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1553,
@@ -386,7 +385,6 @@
                       "start": 1562,
                       "end": 1604,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -407,22 +405,25 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1611,
       "end": 1688,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -437,9 +438,7 @@
                 "type": "Property",
                 "start": 1616,
                 "end": 1635,
-                "method": false,
-                "shorthand": false,
-                "computed": true,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1617,
@@ -452,15 +451,15 @@
                   "end": 1635,
                   "name": "_"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": true
               },
               {
                 "type": "Property",
                 "start": 1637,
                 "end": 1651,
-                "method": false,
-                "shorthand": true,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1637,
@@ -473,15 +472,15 @@
                   "end": 1651,
                   "name": "excludedString"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": true,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1653,
                 "end": 1669,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 1653,
@@ -495,7 +494,9 @@
                   "end": 1669,
                   "name": "excludedIndex"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "RestElement",
@@ -517,8 +518,7 @@
             "name": "proxy"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -544,8 +544,8 @@
             "end": 1708,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

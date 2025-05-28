@@ -13,7 +13,6 @@
         "end": 246,
         "name": "testcase"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -48,8 +47,8 @@
                   "value": 1,
                   "raw": "1"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "Literal",
@@ -87,8 +86,8 @@
                   "value": 1,
                   "raw": "1"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               }
             }
           },
@@ -116,8 +115,8 @@
                   "end": 325,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -137,8 +136,8 @@
                     "value": 1,
                     "raw": "1"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 {
                   "type": "Literal",
@@ -159,7 +158,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

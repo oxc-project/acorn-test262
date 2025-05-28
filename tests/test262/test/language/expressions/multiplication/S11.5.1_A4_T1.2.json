@@ -42,8 +42,8 @@
                   "end": 382,
                   "name": "NaN"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "operator": "*",
               "right": {
@@ -62,8 +62,8 @@
                   "end": 395,
                   "name": "NaN"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             }
           ],
@@ -169,14 +169,14 @@
                 "start": 518,
                 "end": 520,
                 "operator": "+",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 519,
                   "end": 520,
                   "value": 0,
                   "raw": "0"
-                }
+                },
+                "prefix": true
               },
               "operator": "*",
               "right": {
@@ -195,8 +195,8 @@
                   "end": 533,
                   "name": "NaN"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             }
           ],
@@ -256,14 +256,14 @@
                         "start": 617,
                         "end": 619,
                         "operator": "+",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 618,
                           "end": 619,
                           "value": 0,
                           "raw": "0"
-                        }
+                        },
+                        "prefix": true
                       },
                       "operator": "*",
                       "right": {
@@ -310,14 +310,14 @@
                 "start": 654,
                 "end": 656,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 655,
                   "end": 656,
                   "value": 0,
                   "raw": "0"
-                }
+                },
+                "prefix": true
               },
               "operator": "*",
               "right": {
@@ -336,8 +336,8 @@
                   "end": 669,
                   "name": "NaN"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             }
           ],
@@ -397,14 +397,14 @@
                         "start": 753,
                         "end": 755,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 754,
                           "end": 755,
                           "value": 0,
                           "raw": "0"
-                        }
+                        },
+                        "prefix": true
                       },
                       "operator": "*",
                       "right": {
@@ -462,8 +462,8 @@
                   "end": 814,
                   "name": "POSITIVE_INFINITY"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "operator": "*",
               "right": {
@@ -482,8 +482,8 @@
                   "end": 827,
                   "name": "NaN"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             }
           ],
@@ -600,8 +600,8 @@
                   "end": 983,
                   "name": "NEGATIVE_INFINITY"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "operator": "*",
               "right": {
@@ -620,8 +620,8 @@
                   "end": 996,
                   "name": "NaN"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             }
           ],
@@ -681,13 +681,13 @@
                         "start": 1089,
                         "end": 1098,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Identifier",
                           "start": 1090,
                           "end": 1098,
                           "name": "Infinity"
-                        }
+                        },
+                        "prefix": true
                       },
                       "operator": "*",
                       "right": {
@@ -745,8 +745,8 @@
                   "end": 1149,
                   "name": "MAX_VALUE"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "operator": "*",
               "right": {
@@ -765,8 +765,8 @@
                   "end": 1162,
                   "name": "NaN"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             }
           ],
@@ -837,8 +837,8 @@
                           "end": 1276,
                           "name": "MAX_VALUE"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "operator": "*",
                       "right": {
@@ -896,8 +896,8 @@
                   "end": 1326,
                   "name": "MIN_VALUE"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "operator": "*",
               "right": {
@@ -916,8 +916,8 @@
                   "end": 1339,
                   "name": "NaN"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             }
           ],
@@ -988,8 +988,8 @@
                           "end": 1453,
                           "name": "MIN_VALUE"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "operator": "*",
                       "right": {
@@ -1055,8 +1055,8 @@
                   "end": 1501,
                   "name": "NaN"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             }
           ],

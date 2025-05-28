@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 332,
       "end": 350,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -24,8 +25,7 @@
             "end": 349
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -37,7 +37,6 @@
         "end": 363,
         "name": "f1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -50,6 +49,7 @@
             "type": "VariableDeclaration",
             "start": 372,
             "end": 449,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -66,7 +66,6 @@
                   "start": 380,
                   "end": 449,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -97,20 +96,20 @@
                           "start": 431,
                           "end": 442,
                           "operator": "typeof",
-                          "prefix": true,
                           "argument": {
                             "type": "ThisExpression",
                             "start": 438,
                             "end": 442
-                          }
+                          },
+                          "prefix": true
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ReturnStatement",
@@ -177,7 +176,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

@@ -16,7 +16,6 @@
           "start": 1523,
           "end": 1536,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -25,7 +24,8 @@
             "start": 1534,
             "end": 1536,
             "body": []
-          }
+          },
+          "expression": false
         }
       },
       "consequent": {

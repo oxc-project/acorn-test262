@@ -27,8 +27,8 @@
             "end": 757,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -95,8 +95,8 @@
             "end": 827,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -163,8 +163,8 @@
             "end": 897,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -176,7 +176,6 @@
               "start": 898,
               "end": 901,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 899,
@@ -184,7 +183,8 @@
                 "value": null,
                 "raw": "1n",
                 "bigint": "1"
-              }
+              },
+              "prefix": true
             },
             "operator": "<=",
             "right": {
@@ -192,7 +192,6 @@
               "start": 905,
               "end": 908,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 906,
@@ -200,7 +199,8 @@
                 "value": null,
                 "raw": "1n",
                 "bigint": "1"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -245,8 +245,8 @@
             "end": 971,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -267,7 +267,6 @@
               "start": 978,
               "end": 981,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 979,
@@ -275,7 +274,8 @@
                 "value": null,
                 "raw": "0n",
                 "bigint": "0"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -320,8 +320,8 @@
             "end": 1043,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -333,7 +333,6 @@
               "start": 1044,
               "end": 1047,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1045,
@@ -341,7 +340,8 @@
                 "value": null,
                 "raw": "0n",
                 "bigint": "0"
-              }
+              },
+              "prefix": true
             },
             "operator": "<=",
             "right": {
@@ -395,8 +395,8 @@
             "end": 1115,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -463,8 +463,8 @@
             "end": 1185,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -531,8 +531,8 @@
             "end": 1257,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -553,7 +553,6 @@
               "start": 1264,
               "end": 1267,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1265,
@@ -561,7 +560,8 @@
                 "value": null,
                 "raw": "1n",
                 "bigint": "1"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -606,8 +606,8 @@
             "end": 1331,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -619,7 +619,6 @@
               "start": 1332,
               "end": 1335,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1333,
@@ -627,7 +626,8 @@
                 "value": null,
                 "raw": "1n",
                 "bigint": "1"
-              }
+              },
+              "prefix": true
             },
             "operator": "<=",
             "right": {
@@ -681,8 +681,8 @@
             "end": 1403,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -703,7 +703,6 @@
               "start": 1410,
               "end": 1413,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1411,
@@ -711,7 +710,8 @@
                 "value": null,
                 "raw": "1n",
                 "bigint": "1"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -756,8 +756,8 @@
             "end": 1477,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -769,7 +769,6 @@
               "start": 1478,
               "end": 1481,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1479,
@@ -777,7 +776,8 @@
                 "value": null,
                 "raw": "1n",
                 "bigint": "1"
-              }
+              },
+              "prefix": true
             },
             "operator": "<=",
             "right": {
@@ -831,8 +831,8 @@
             "end": 1550,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -899,8 +899,8 @@
             "end": 1697,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -967,8 +967,8 @@
             "end": 1846,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -980,7 +980,6 @@
               "start": 1850,
               "end": 1870,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1851,
@@ -988,7 +987,8 @@
                 "value": null,
                 "raw": "0x1fffffffffffff01n",
                 "bigint": "0x1fffffffffffff01"
-              }
+              },
+              "prefix": true
             },
             "operator": "<=",
             "right": {
@@ -996,7 +996,6 @@
               "start": 1874,
               "end": 1894,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1875,
@@ -1004,7 +1003,8 @@
                 "value": null,
                 "raw": "0x1fffffffffffff02n",
                 "bigint": "0x1fffffffffffff02"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -1049,8 +1049,8 @@
             "end": 1999,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1062,7 +1062,6 @@
               "start": 2003,
               "end": 2023,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 2004,
@@ -1070,7 +1069,8 @@
                 "value": null,
                 "raw": "0x1fffffffffffff02n",
                 "bigint": "0x1fffffffffffff02"
-              }
+              },
+              "prefix": true
             },
             "operator": "<=",
             "right": {
@@ -1078,7 +1078,6 @@
               "start": 2027,
               "end": 2047,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 2028,
@@ -1086,7 +1085,8 @@
                 "value": null,
                 "raw": "0x1fffffffffffff01n",
                 "bigint": "0x1fffffffffffff01"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -1131,8 +1131,8 @@
             "end": 2150,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1199,8 +1199,8 @@
             "end": 2267,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1267,8 +1267,8 @@
             "end": 2382,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1335,8 +1335,8 @@
             "end": 2499,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1403,8 +1403,8 @@
             "end": 2614,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1425,7 +1425,6 @@
               "start": 2642,
               "end": 2645,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 2643,
@@ -1433,7 +1432,8 @@
                 "value": null,
                 "raw": "1n",
                 "bigint": "1"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -1478,8 +1478,8 @@
             "end": 2733,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1491,7 +1491,6 @@
               "start": 2737,
               "end": 2740,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 2738,
@@ -1499,7 +1498,8 @@
                 "value": null,
                 "raw": "1n",
                 "bigint": "1"
-              }
+              },
+              "prefix": true
             },
             "operator": "<=",
             "right": {
@@ -1553,8 +1553,8 @@
             "end": 2850,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1621,8 +1621,8 @@
             "end": 2967,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1689,8 +1689,8 @@
             "end": 3082,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1702,7 +1702,6 @@
               "start": 3086,
               "end": 3107,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 3087,
@@ -1710,7 +1709,8 @@
                 "value": null,
                 "raw": "0x10000000000000000n",
                 "bigint": "0x10000000000000000"
-              }
+              },
+              "prefix": true
             },
             "operator": "<=",
             "right": {
@@ -1764,8 +1764,8 @@
             "end": 3199,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1786,7 +1786,6 @@
               "start": 3209,
               "end": 3230,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 3210,
@@ -1794,7 +1793,8 @@
                 "value": null,
                 "raw": "0x10000000000000000n",
                 "bigint": "0x10000000000000000"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -1839,8 +1839,8 @@
             "end": 3318,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1852,7 +1852,6 @@
               "start": 3322,
               "end": 3343,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 3323,
@@ -1860,7 +1859,8 @@
                 "value": null,
                 "raw": "0x10000000000000000n",
                 "bigint": "0x10000000000000000"
-              }
+              },
+              "prefix": true
             },
             "operator": "<=",
             "right": {
@@ -1914,8 +1914,8 @@
             "end": 3435,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1936,7 +1936,6 @@
               "start": 3445,
               "end": 3466,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 3446,
@@ -1944,7 +1943,8 @@
                 "value": null,
                 "raw": "0x10000000000000000n",
                 "bigint": "0x10000000000000000"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -1989,8 +1989,8 @@
             "end": 3554,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2002,7 +2002,6 @@
               "start": 3558,
               "end": 3579,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 3559,
@@ -2010,7 +2009,8 @@
                 "value": null,
                 "raw": "0x10000000000000000n",
                 "bigint": "0x10000000000000000"
-              }
+              },
+              "prefix": true
             },
             "operator": "<=",
             "right": {
@@ -2018,7 +2018,6 @@
               "start": 3583,
               "end": 3586,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 3584,
@@ -2026,7 +2025,8 @@
                 "value": null,
                 "raw": "1n",
                 "bigint": "1"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -2071,8 +2071,8 @@
             "end": 3673,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2084,7 +2084,6 @@
               "start": 3677,
               "end": 3680,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 3678,
@@ -2092,7 +2091,8 @@
                 "value": null,
                 "raw": "1n",
                 "bigint": "1"
-              }
+              },
+              "prefix": true
             },
             "operator": "<=",
             "right": {
@@ -2100,7 +2100,6 @@
               "start": 3684,
               "end": 3705,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 3685,
@@ -2108,7 +2107,8 @@
                 "value": null,
                 "raw": "0x10000000000000000n",
                 "bigint": "0x10000000000000000"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -2153,8 +2153,8 @@
             "end": 3794,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2166,7 +2166,6 @@
               "start": 3798,
               "end": 3819,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 3799,
@@ -2174,7 +2173,8 @@
                 "value": null,
                 "raw": "0x10000000000000001n",
                 "bigint": "0x10000000000000001"
-              }
+              },
+              "prefix": true
             },
             "operator": "<=",
             "right": {
@@ -2228,8 +2228,8 @@
             "end": 3911,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2250,7 +2250,6 @@
               "start": 3921,
               "end": 3942,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 3922,
@@ -2258,7 +2257,8 @@
                 "value": null,
                 "raw": "0x10000000000000001n",
                 "bigint": "0x10000000000000001"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -2303,8 +2303,8 @@
             "end": 4030,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2371,8 +2371,8 @@
             "end": 4167,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 532,
       "end": 560,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 545,
                 "end": 558,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 545,
@@ -43,13 +42,14 @@
                   "value": "avis",
                   "raw": "\"avis\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -60,7 +60,6 @@
         "start": 656,
         "end": 679,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 657,
@@ -84,7 +83,8 @@
               "name": "__proto"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -130,7 +130,6 @@
         "end": 865,
         "name": "Robin"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -163,8 +162,8 @@
                   "end": 877,
                   "name": "name"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "Literal",
@@ -176,7 +175,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -208,8 +208,8 @@
             "end": 903,
             "name": "prototype"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Identifier",
@@ -223,6 +223,7 @@
       "type": "VariableDeclaration",
       "start": 914,
       "end": 942,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -247,8 +248,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -259,7 +259,6 @@
         "start": 1037,
         "end": 1063,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1038,
@@ -283,7 +282,8 @@
               "name": "__my__robin"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -343,8 +343,8 @@
             "end": 1448,
             "name": "hasOwnProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -413,8 +413,8 @@
                           "end": 1699,
                           "name": "hasOwnProperty"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {

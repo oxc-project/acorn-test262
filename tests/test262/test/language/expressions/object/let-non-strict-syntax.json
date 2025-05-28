@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 248,
       "end": 260,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 261,
       "end": 280,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -53,9 +54,7 @@
                 "type": "Property",
                 "start": 275,
                 "end": 278,
-                "method": false,
-                "shorthand": true,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 275,
@@ -68,13 +67,14 @@
                   "end": 278,
                   "name": "let"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": true,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     }
   ],
   "sourceType": "script",

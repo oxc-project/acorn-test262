@@ -25,6 +25,7 @@
       "type": "VariableDeclaration",
       "start": 217,
       "end": 277,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -56,8 +57,8 @@
                 "end": 260,
                 "name": "getOwnPropertyDescriptor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -77,8 +78,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -104,8 +104,8 @@
             "end": 294,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -124,8 +124,8 @@
               "end": 313,
               "name": "configurable"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -169,8 +169,8 @@
             "end": 387,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -189,8 +189,8 @@
               "end": 404,
               "name": "enumerable"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -234,8 +234,8 @@
             "end": 476,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -254,8 +254,8 @@
               "end": 491,
               "name": "writable"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

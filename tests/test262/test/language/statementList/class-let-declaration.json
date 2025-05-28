@@ -25,6 +25,7 @@
       "type": "VariableDeclaration",
       "start": 726,
       "end": 743,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -68,8 +69,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",

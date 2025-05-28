@@ -16,21 +16,21 @@
           "start": 262,
           "end": 269,
           "operator": "!",
-          "prefix": true,
           "argument": {
             "type": "UnaryExpression",
             "start": 263,
             "end": 269,
             "operator": "void",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 268,
               "end": 269,
               "value": 0,
               "raw": "0"
-            }
-          }
+            },
+            "prefix": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -88,14 +88,14 @@
           "start": 349,
           "end": 354,
           "operator": "!",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 350,
             "end": 354,
             "value": null,
             "raw": "null"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {

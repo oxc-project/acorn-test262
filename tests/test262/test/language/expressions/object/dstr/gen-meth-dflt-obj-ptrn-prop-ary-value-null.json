@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1960,
       "end": 2031,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 1974,
                 "end": 2028,
-                "method": true,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1975,
@@ -41,7 +40,6 @@
                   "start": 1981,
                   "end": 2028,
                   "id": null,
-                  "expression": false,
                   "generator": true,
                   "async": false,
                   "params": [
@@ -58,9 +56,7 @@
                             "type": "Property",
                             "start": 1984,
                             "end": 2008,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1984,
@@ -125,7 +121,9 @@
                                 ]
                               }
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -138,9 +136,7 @@
                             "type": "Property",
                             "start": 2015,
                             "end": 2022,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 2015,
@@ -154,7 +150,9 @@
                               "value": null,
                               "raw": "null"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -165,15 +163,17 @@
                     "start": 2026,
                     "end": 2028,
                     "body": []
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": true,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -199,8 +199,8 @@
             "end": 2046,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -214,7 +214,6 @@
             "start": 2058,
             "end": 2088,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -247,15 +246,16 @@
                         "end": 2083,
                         "name": "method"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

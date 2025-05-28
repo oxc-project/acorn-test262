@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 296,
       "end": 337,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -37,13 +38,13 @@
             }
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 339,
       "end": 368,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -75,8 +76,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",

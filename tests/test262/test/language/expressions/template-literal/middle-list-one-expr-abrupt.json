@@ -27,8 +27,8 @@
             "end": 508,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 523,
             "end": 592,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -59,56 +58,6 @@
                     "type": "TemplateLiteral",
                     "start": 538,
                     "end": 589,
-                    "expressions": [
-                      {
-                        "type": "Literal",
-                        "start": 541,
-                        "end": 542,
-                        "value": 0,
-                        "raw": "0"
-                      },
-                      {
-                        "type": "CallExpression",
-                        "start": 545,
-                        "end": 587,
-                        "callee": {
-                          "type": "FunctionExpression",
-                          "start": 545,
-                          "end": 585,
-                          "id": null,
-                          "expression": false,
-                          "generator": false,
-                          "async": false,
-                          "params": [],
-                          "body": {
-                            "type": "BlockStatement",
-                            "start": 556,
-                            "end": 585,
-                            "body": [
-                              {
-                                "type": "ThrowStatement",
-                                "start": 558,
-                                "end": 583,
-                                "argument": {
-                                  "type": "NewExpression",
-                                  "start": 564,
-                                  "end": 582,
-                                  "callee": {
-                                    "type": "Identifier",
-                                    "start": 568,
-                                    "end": 580,
-                                    "name": "Test262Error"
-                                  },
-                                  "arguments": []
-                                }
-                              }
-                            ]
-                          }
-                        },
-                        "arguments": [],
-                        "optional": false
-                      }
-                    ],
                     "quasis": [
                       {
                         "type": "TemplateElement",
@@ -140,11 +89,62 @@
                         },
                         "tail": true
                       }
+                    ],
+                    "expressions": [
+                      {
+                        "type": "Literal",
+                        "start": 541,
+                        "end": 542,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "CallExpression",
+                        "start": 545,
+                        "end": 587,
+                        "callee": {
+                          "type": "FunctionExpression",
+                          "start": 545,
+                          "end": 585,
+                          "id": null,
+                          "generator": false,
+                          "async": false,
+                          "params": [],
+                          "body": {
+                            "type": "BlockStatement",
+                            "start": 556,
+                            "end": 585,
+                            "body": [
+                              {
+                                "type": "ThrowStatement",
+                                "start": 558,
+                                "end": 583,
+                                "argument": {
+                                  "type": "NewExpression",
+                                  "start": 564,
+                                  "end": 582,
+                                  "callee": {
+                                    "type": "Identifier",
+                                    "start": 568,
+                                    "end": 580,
+                                    "name": "Test262Error"
+                                  },
+                                  "arguments": []
+                                }
+                              }
+                            ]
+                          },
+                          "expression": false
+                        },
+                        "arguments": [],
+                        "optional": false
+                      }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

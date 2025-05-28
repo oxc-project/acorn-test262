@@ -109,6 +109,7 @@
       "type": "VariableDeclaration",
       "start": 379,
       "end": 389,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -128,8 +129,7 @@
             "raw": "2"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -235,6 +235,7 @@
       "type": "VariableDeclaration",
       "start": 501,
       "end": 511,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -254,8 +255,7 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -361,6 +361,7 @@
       "type": "VariableDeclaration",
       "start": 623,
       "end": 633,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -380,13 +381,13 @@
             "raw": "2"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 634,
       "end": 644,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -406,8 +407,7 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -511,6 +511,7 @@
       "type": "VariableDeclaration",
       "start": 767,
       "end": 794,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -535,13 +536,13 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 795,
       "end": 822,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -566,8 +567,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -594,8 +594,8 @@
             "end": 835,
             "name": "prop"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -631,8 +631,8 @@
             "end": 853,
             "name": "prop"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -671,8 +671,8 @@
               "end": 875,
               "name": "prop"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "operator": "<<",
           "right": {
@@ -691,8 +691,8 @@
               "end": 891,
               "name": "prop"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         },
         "operator": "!==",
@@ -760,8 +760,8 @@
                           "end": 1084,
                           "name": "prop"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "operator": "<<",
                       "right": {
@@ -780,8 +780,8 @@
                           "end": 1100,
                           "name": "prop"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   }

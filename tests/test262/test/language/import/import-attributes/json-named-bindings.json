@@ -51,6 +51,7 @@
         "value": "./json-named-bindings_FIXTURE.json",
         "raw": "'./json-named-bindings_FIXTURE.json'"
       },
+      "phase": null,
       "attributes": [
         {
           "type": "ImportAttribute",
@@ -70,8 +71,7 @@
             "raw": "'json'"
           }
         }
-      ],
-      "phase": null
+      ]
     }
   ],
   "sourceType": "module",

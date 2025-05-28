@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 328,
       "end": 348,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,13 +26,13 @@
             "name": "undefined"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 349,
       "end": 366,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,9 +53,7 @@
                 "type": "Property",
                 "start": 360,
                 "end": 364,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 360,
@@ -68,18 +67,20 @@
                   "value": 0,
                   "raw": "0"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 367,
       "end": 380,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -98,8 +99,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -126,8 +126,8 @@
             "end": 392,
             "name": "undefined"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -142,6 +142,7 @@
       "type": "VariableDeclaration",
       "start": 400,
       "end": 415,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -168,8 +169,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -195,8 +195,8 @@
             "end": 433,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -239,12 +239,12 @@
                     "end": 453,
                     "name": "b"
                   },
-                  "computed": false,
-                  "optional": true
+                  "optional": true,
+                  "computed": false
                 }
               },
-              "computed": true,
-              "optional": true
+              "optional": true,
+              "computed": true
             }
           }
         ],
@@ -275,8 +275,8 @@
             "end": 473,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -320,12 +320,12 @@
                     "end": 486,
                     "name": "b"
                   },
-                  "computed": false,
-                  "optional": true
+                  "optional": true,
+                  "computed": false
                 }
               },
-              "computed": true,
-              "optional": true
+              "optional": true,
+              "computed": true
             }
           }
         ],
@@ -356,8 +356,8 @@
             "end": 506,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -401,12 +401,12 @@
                     "end": 519,
                     "name": "e"
                   },
-                  "computed": false,
-                  "optional": true
+                  "optional": true,
+                  "computed": false
                 }
               },
-              "computed": true,
-              "optional": true
+              "optional": true,
+              "computed": true
             }
           }
         ],

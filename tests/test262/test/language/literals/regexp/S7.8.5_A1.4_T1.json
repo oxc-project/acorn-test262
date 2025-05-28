@@ -32,8 +32,8 @@
             "end": 398,
             "name": "source"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -107,8 +107,8 @@
             "end": 479,
             "name": "source"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {

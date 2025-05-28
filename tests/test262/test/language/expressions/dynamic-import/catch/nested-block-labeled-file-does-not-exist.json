@@ -7,6 +7,12 @@
       "type": "LabeledStatement",
       "start": 1247,
       "end": 1395,
+      "label": {
+        "type": "Identifier",
+        "start": 1247,
+        "end": 1252,
+        "name": "label"
+      },
       "body": {
         "type": "BlockStatement",
         "start": 1254,
@@ -52,17 +58,15 @@
                       "end": 1303,
                       "name": "catch"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
                       "type": "ArrowFunctionExpression",
                       "start": 1304,
                       "end": 1372,
-                      "id": null,
                       "expression": false,
-                      "generator": false,
                       "async": false,
                       "params": [
                         {
@@ -101,8 +105,8 @@
                                   "end": 1339,
                                   "name": "notSameValue"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [
                                 {
@@ -110,13 +114,13 @@
                                   "start": 1340,
                                   "end": 1352,
                                   "operator": "typeof",
-                                  "prefix": true,
                                   "argument": {
                                     "type": "Identifier",
                                     "start": 1347,
                                     "end": 1352,
                                     "name": "error"
-                                  }
+                                  },
+                                  "prefix": true
                                 },
                                 {
                                   "type": "Literal",
@@ -130,7 +134,9 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "id": null,
+                      "generator": false
                     }
                   ],
                   "optional": false
@@ -141,8 +147,8 @@
                   "end": 1378,
                   "name": "then"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -162,12 +168,6 @@
             }
           }
         ]
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 1247,
-        "end": 1252,
-        "name": "label"
       }
     },
     {

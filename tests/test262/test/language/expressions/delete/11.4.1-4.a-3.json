@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 504,
       "end": 515,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,13 +26,13 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 516,
       "end": 566,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,9 +53,7 @@
                 "type": "Property",
                 "start": 531,
                 "end": 539,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 531,
@@ -68,15 +67,15 @@
                   "value": 1,
                   "raw": "1"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 543,
                 "end": 562,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 543,
@@ -90,13 +89,14 @@
                   "value": false,
                   "raw": "false"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -122,8 +122,8 @@
             "end": 629,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -153,6 +153,7 @@
       "type": "VariableDeclaration",
       "start": 725,
       "end": 746,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -169,7 +170,6 @@
             "start": 733,
             "end": 745,
             "operator": "delete",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 740,
@@ -186,13 +186,13 @@
                 "end": 745,
                 "name": "foo"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -218,8 +218,8 @@
             "end": 764,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -270,8 +270,8 @@
             "end": 797,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -294,8 +294,8 @@
                 "end": 814,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

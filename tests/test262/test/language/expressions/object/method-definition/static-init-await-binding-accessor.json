@@ -41,9 +41,7 @@
                         "type": "Property",
                         "start": 524,
                         "end": 546,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "set",
                         "key": {
                           "type": "Identifier",
                           "start": 528,
@@ -55,7 +53,6 @@
                           "start": 536,
                           "end": 546,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [
@@ -71,9 +68,12 @@
                             "start": 544,
                             "end": 546,
                             "body": []
-                          }
+                          },
+                          "expression": false
                         },
-                        "kind": "set"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }

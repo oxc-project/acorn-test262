@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 218,
       "end": 250,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -31,7 +32,6 @@
                 "start": 229,
                 "end": 242,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -40,7 +40,8 @@
                   "start": 240,
                   "end": 242,
                   "body": []
-                }
+                },
+                "expression": false
               },
               "property": {
                 "type": "Identifier",
@@ -48,15 +49,14 @@
                 "end": 247,
                 "name": "bind"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -82,8 +82,8 @@
             "end": 264,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -97,7 +97,6 @@
             "start": 276,
             "end": 316,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -130,7 +129,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

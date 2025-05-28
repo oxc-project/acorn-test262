@@ -13,7 +13,6 @@
         "end": 1308,
         "name": "f"
       },
-      "expression": false,
       "generator": true,
       "async": true,
       "params": [
@@ -35,9 +34,7 @@
                     "type": "Property",
                     "start": 1312,
                     "end": 1313,
-                    "method": false,
-                    "shorthand": true,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1312,
@@ -50,7 +47,9 @@
                       "end": 1313,
                       "name": "x"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": true,
+                    "computed": false
                   }
                 ]
               }
@@ -77,7 +76,8 @@
         "start": 1327,
         "end": 1333,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -108,8 +108,8 @@
             "end": 1349,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -123,7 +123,6 @@
             "start": 1361,
             "end": 1382,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -151,7 +150,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

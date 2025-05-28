@@ -13,7 +13,6 @@
         "end": 518,
         "name": "f1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -47,7 +46,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -58,7 +58,6 @@
         "start": 544,
         "end": 561,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 545,
@@ -104,7 +103,8 @@
               "raw": "2"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -150,7 +150,6 @@
         "end": 637,
         "name": "f2"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -214,7 +213,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -225,7 +225,6 @@
         "start": 669,
         "end": 690,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 670,
@@ -278,7 +277,8 @@
               "raw": "27"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -324,7 +324,6 @@
         "end": 765,
         "name": "f3"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -371,7 +370,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -382,7 +382,6 @@
         "start": 797,
         "end": 817,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 798,
@@ -428,7 +427,8 @@
               "raw": "'a2'"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

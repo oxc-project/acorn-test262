@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1203,
       "end": 1236,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 1229,
                 "name": "create"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -53,8 +54,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -80,8 +80,8 @@
             "end": 1252,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -95,7 +95,6 @@
             "start": 1264,
             "end": 1316,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -124,21 +123,17 @@
                         "type": "MethodDefinition",
                         "start": 1293,
                         "end": 1310,
-                        "static": false,
-                        "computed": true,
                         "key": {
                           "type": "Identifier",
                           "start": 1298,
                           "end": 1304,
                           "name": "badKey"
                         },
-                        "kind": "get",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 1305,
                           "end": 1310,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -147,14 +142,19 @@
                             "start": 1308,
                             "end": 1310,
                             "body": []
-                          }
-                        }
+                          },
+                          "expression": false
+                        },
+                        "kind": "get",
+                        "computed": true,
+                        "static": false
                       }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -191,8 +191,8 @@
             "end": 1351,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -206,7 +206,6 @@
             "start": 1363,
             "end": 1416,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -235,21 +234,17 @@
                         "type": "MethodDefinition",
                         "start": 1392,
                         "end": 1410,
-                        "static": false,
-                        "computed": true,
                         "key": {
                           "type": "Identifier",
                           "start": 1397,
                           "end": 1403,
                           "name": "badKey"
                         },
-                        "kind": "set",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 1404,
                           "end": 1410,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [
@@ -265,14 +260,19 @@
                             "start": 1408,
                             "end": 1410,
                             "body": []
-                          }
-                        }
+                          },
+                          "expression": false
+                        },
+                        "kind": "set",
+                        "computed": true,
+                        "static": false
                       }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

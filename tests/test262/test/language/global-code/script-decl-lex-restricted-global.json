@@ -27,8 +27,8 @@
             "end": 727,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -52,9 +52,7 @@
                 "type": "Property",
                 "start": 759,
                 "end": 777,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 759,
@@ -68,7 +66,9 @@
                   "value": true,
                   "raw": "true"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -100,8 +100,8 @@
             "end": 803,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -125,9 +125,7 @@
                 "type": "Property",
                 "start": 838,
                 "end": 857,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 838,
@@ -141,7 +139,9 @@
                   "value": false,
                   "raw": "false"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -173,8 +173,8 @@
             "end": 878,
             "name": "evalScript"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -212,8 +212,8 @@
             "end": 922,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -227,7 +227,6 @@
             "start": 936,
             "end": 1007,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -260,8 +259,8 @@
                         "end": 966,
                         "name": "evalScript"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -276,7 +275,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -306,8 +306,8 @@
             "end": 1024,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -321,7 +321,6 @@
             "start": 1041,
             "end": 1060,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -342,7 +341,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

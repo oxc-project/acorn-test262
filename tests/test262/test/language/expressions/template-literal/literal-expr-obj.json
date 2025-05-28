@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 463,
       "end": 478,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,13 +26,13 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 479,
       "end": 554,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,9 +53,7 @@
                 "type": "Property",
                 "start": 496,
                 "end": 551,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 496,
@@ -66,7 +65,6 @@
                   "start": 506,
                   "end": 551,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -88,15 +86,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -122,22 +122,14 @@
             "end": 572,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
             "start": 573,
             "end": 583,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 576,
-                "end": 581,
-                "name": "plain"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -158,6 +150,14 @@
                   "cooked": ""
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 576,
+                "end": 581,
+                "name": "plain"
               }
             ]
           },
@@ -196,22 +196,14 @@
             "end": 621,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
             "start": 622,
             "end": 633,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 626,
-                "end": 631,
-                "name": "plain"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -232,6 +224,14 @@
                   "cooked": ""
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 626,
+                "end": 631,
+                "name": "plain"
               }
             ]
           },
@@ -270,22 +270,14 @@
             "end": 672,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
             "start": 673,
             "end": 684,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 676,
-                "end": 681,
-                "name": "plain"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -306,6 +298,14 @@
                   "cooked": "2"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 676,
+                "end": 681,
+                "name": "plain"
               }
             ]
           },
@@ -344,22 +344,14 @@
             "end": 723,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
             "start": 724,
             "end": 736,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 728,
-                "end": 733,
-                "name": "plain"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -380,6 +372,14 @@
                   "cooked": "2"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 728,
+                "end": 733,
+                "name": "plain"
               }
             ]
           },
@@ -418,22 +418,14 @@
             "end": 777,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
             "start": 778,
             "end": 789,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 781,
-                "end": 787,
-                "name": "custom"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -454,6 +446,14 @@
                   "cooked": ""
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 781,
+                "end": 787,
+                "name": "custom"
               }
             ]
           },
@@ -492,22 +492,14 @@
             "end": 826,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
             "start": 827,
             "end": 839,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 831,
-                "end": 837,
-                "name": "custom"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -528,6 +520,14 @@
                   "cooked": ""
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 831,
+                "end": 837,
+                "name": "custom"
               }
             ]
           },
@@ -566,22 +566,14 @@
             "end": 877,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
             "start": 878,
             "end": 890,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 881,
-                "end": 887,
-                "name": "custom"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -602,6 +594,14 @@
                   "cooked": "2"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 881,
+                "end": 887,
+                "name": "custom"
               }
             ]
           },
@@ -640,22 +640,14 @@
             "end": 928,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
             "start": 929,
             "end": 942,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 933,
-                "end": 939,
-                "name": "custom"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -676,6 +668,14 @@
                   "cooked": "2"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 933,
+                "end": 939,
+                "name": "custom"
               }
             ]
           },

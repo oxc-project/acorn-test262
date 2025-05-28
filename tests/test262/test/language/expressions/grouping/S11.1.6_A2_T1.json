@@ -16,7 +16,6 @@
           "start": 431,
           "end": 441,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 438,
@@ -27,7 +26,8 @@
               "end": 440,
               "name": "x"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -79,7 +79,6 @@
                       "start": 532,
                       "end": 542,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 539,
@@ -90,7 +89,8 @@
                           "end": 541,
                           "name": "x"
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -105,6 +105,7 @@
       "type": "VariableDeclaration",
       "start": 549,
       "end": 565,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -123,8 +124,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -139,7 +139,6 @@
           "start": 580,
           "end": 600,
           "operator": "delete",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 587,
@@ -160,10 +159,11 @@
                 "end": 599,
                 "name": "prop"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -221,7 +221,6 @@
           "start": 710,
           "end": 730,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 717,
@@ -242,10 +241,11 @@
                 "end": 729,
                 "name": "prop"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -297,7 +297,6 @@
                       "start": 848,
                       "end": 868,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 855,
@@ -318,10 +317,11 @@
                             "end": 867,
                             "name": "prop"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }

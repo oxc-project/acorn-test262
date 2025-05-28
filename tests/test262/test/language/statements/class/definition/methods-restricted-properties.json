@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 350,
             "end": 361,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 350,
               "end": 356,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 356,
               "end": 361,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -46,28 +42,28 @@
                 "start": 359,
                 "end": 361,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 364,
             "end": 381,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 368,
               "end": 376,
               "name": "accessor"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 376,
               "end": 381,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -76,28 +72,28 @@
                 "start": 379,
                 "end": 381,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 384,
             "end": 402,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 388,
               "end": 396,
               "name": "accessor"
             },
-            "kind": "set",
             "value": {
               "type": "FunctionExpression",
               "start": 396,
               "end": 402,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -113,8 +109,12 @@
                 "start": 400,
                 "end": 402,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "set",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -128,6 +128,7 @@
       "type": "VariableDeclaration",
       "start": 407,
       "end": 432,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -152,13 +153,13 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 433,
       "end": 509,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -190,8 +191,8 @@
                 "end": 479,
                 "name": "getOwnPropertyDescriptor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -210,8 +211,8 @@
                   "end": 495,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               {
                 "type": "Literal",
@@ -224,8 +225,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -251,8 +251,8 @@
             "end": 527,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -279,8 +279,8 @@
                   "end": 546,
                   "name": "method"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -288,8 +288,8 @@
                 "end": 561,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -344,8 +344,8 @@
             "end": 639,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -372,8 +372,8 @@
                   "end": 658,
                   "name": "method"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -381,8 +381,8 @@
                 "end": 673,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -437,8 +437,8 @@
             "end": 757,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -465,8 +465,8 @@
                   "end": 773,
                   "name": "get"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -474,8 +474,8 @@
                 "end": 788,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -530,8 +530,8 @@
             "end": 874,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -558,8 +558,8 @@
                   "end": 890,
                   "name": "get"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -567,8 +567,8 @@
                 "end": 905,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -623,8 +623,8 @@
             "end": 997,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -651,8 +651,8 @@
                   "end": 1013,
                   "name": "set"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -660,8 +660,8 @@
                 "end": 1028,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -716,8 +716,8 @@
             "end": 1114,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -744,8 +744,8 @@
                   "end": 1130,
                   "name": "set"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -753,8 +753,8 @@
                 "end": 1145,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -809,8 +809,8 @@
             "end": 1283,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -824,7 +824,6 @@
             "start": 1295,
             "end": 1342,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -857,8 +856,8 @@
                         "end": 1332,
                         "name": "method"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -866,12 +865,13 @@
                       "end": 1339,
                       "name": "caller"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -901,8 +901,8 @@
             "end": 1359,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -916,7 +916,6 @@
             "start": 1371,
             "end": 1416,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -954,8 +953,8 @@
                           "end": 1401,
                           "name": "method"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -963,8 +962,8 @@
                         "end": 1408,
                         "name": "caller"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "ObjectExpression",
@@ -975,7 +974,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -1005,8 +1005,8 @@
             "end": 1433,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1020,7 +1020,6 @@
             "start": 1445,
             "end": 1495,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1053,8 +1052,8 @@
                         "end": 1482,
                         "name": "method"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1062,12 +1061,13 @@
                       "end": 1492,
                       "name": "arguments"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -1097,8 +1097,8 @@
             "end": 1512,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1112,7 +1112,6 @@
             "start": 1524,
             "end": 1572,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1150,8 +1149,8 @@
                           "end": 1554,
                           "name": "method"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1159,8 +1158,8 @@
                         "end": 1564,
                         "name": "arguments"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "ObjectExpression",
@@ -1171,7 +1170,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -1201,8 +1201,8 @@
             "end": 1637,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1216,7 +1216,6 @@
             "start": 1649,
             "end": 1693,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1249,8 +1248,8 @@
                         "end": 1683,
                         "name": "get"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1258,12 +1257,13 @@
                       "end": 1690,
                       "name": "caller"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -1293,8 +1293,8 @@
             "end": 1710,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1308,7 +1308,6 @@
             "start": 1722,
             "end": 1764,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1346,8 +1345,8 @@
                           "end": 1749,
                           "name": "get"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1355,8 +1354,8 @@
                         "end": 1756,
                         "name": "caller"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "ObjectExpression",
@@ -1367,7 +1366,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -1397,8 +1397,8 @@
             "end": 1781,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1412,7 +1412,6 @@
             "start": 1793,
             "end": 1840,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1445,8 +1444,8 @@
                         "end": 1827,
                         "name": "get"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1454,12 +1453,13 @@
                       "end": 1837,
                       "name": "arguments"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -1489,8 +1489,8 @@
             "end": 1857,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1504,7 +1504,6 @@
             "start": 1869,
             "end": 1914,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1542,8 +1541,8 @@
                           "end": 1896,
                           "name": "get"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1551,8 +1550,8 @@
                         "end": 1906,
                         "name": "arguments"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "ObjectExpression",
@@ -1563,7 +1562,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -1593,8 +1593,8 @@
             "end": 1979,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1608,7 +1608,6 @@
             "start": 1991,
             "end": 2035,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1641,8 +1640,8 @@
                         "end": 2025,
                         "name": "set"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1650,12 +1649,13 @@
                       "end": 2032,
                       "name": "caller"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -1685,8 +1685,8 @@
             "end": 2052,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1700,7 +1700,6 @@
             "start": 2064,
             "end": 2106,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1738,8 +1737,8 @@
                           "end": 2091,
                           "name": "set"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1747,8 +1746,8 @@
                         "end": 2098,
                         "name": "caller"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "ObjectExpression",
@@ -1759,7 +1758,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -1789,8 +1789,8 @@
             "end": 2123,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1804,7 +1804,6 @@
             "start": 2135,
             "end": 2182,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1837,8 +1836,8 @@
                         "end": 2169,
                         "name": "set"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1846,12 +1845,13 @@
                       "end": 2179,
                       "name": "arguments"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -1881,8 +1881,8 @@
             "end": 2199,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1896,7 +1896,6 @@
             "start": 2211,
             "end": 2256,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1934,8 +1933,8 @@
                           "end": 2238,
                           "name": "set"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1943,8 +1942,8 @@
                         "end": 2248,
                         "name": "arguments"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "ObjectExpression",
@@ -1955,7 +1954,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

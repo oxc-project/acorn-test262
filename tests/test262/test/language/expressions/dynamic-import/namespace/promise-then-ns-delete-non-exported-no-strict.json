@@ -51,17 +51,15 @@
                     "end": 3981,
                     "name": "then"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
                     "type": "ArrowFunctionExpression",
                     "start": 3982,
                     "end": 4661,
-                    "id": null,
                     "expression": false,
-                    "generator": false,
                     "async": false,
                     "params": [
                       {
@@ -96,7 +94,6 @@
                                 "start": 4002,
                                 "end": 4017,
                                 "operator": "delete",
-                                "prefix": true,
                                 "argument": {
                                   "type": "MemberExpression",
                                   "start": 4009,
@@ -113,9 +110,10 @@
                                     "end": 4017,
                                     "name": "undef"
                                   },
-                                  "computed": false,
-                                  "optional": false
-                                }
+                                  "optional": false,
+                                  "computed": false
+                                },
+                                "prefix": true
                               },
                               {
                                 "type": "Literal",
@@ -163,8 +161,8 @@
                                     "end": 4070,
                                     "name": "deleteProperty"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -214,7 +212,6 @@
                                 "start": 4131,
                                 "end": 4148,
                                 "operator": "delete",
-                                "prefix": true,
                                 "argument": {
                                   "type": "MemberExpression",
                                   "start": 4138,
@@ -231,9 +228,10 @@
                                     "end": 4148,
                                     "name": "default"
                                   },
-                                  "computed": false,
-                                  "optional": false
-                                }
+                                  "optional": false,
+                                  "computed": false
+                                },
+                                "prefix": true
                               },
                               {
                                 "type": "Literal",
@@ -281,8 +279,8 @@
                                     "end": 4210,
                                     "name": "deleteProperty"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -336,8 +334,8 @@
                                 "end": 4289,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -345,7 +343,6 @@
                                 "start": 4290,
                                 "end": 4319,
                                 "operator": "delete",
-                                "prefix": true,
                                 "argument": {
                                   "type": "MemberExpression",
                                   "start": 4297,
@@ -372,12 +369,13 @@
                                       "end": 4318,
                                       "name": "toStringTag"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
-                                  "computed": true,
-                                  "optional": false
-                                }
+                                  "optional": false,
+                                  "computed": true
+                                },
+                                "prefix": true
                               },
                               {
                                 "type": "Literal",
@@ -421,8 +419,8 @@
                                 "end": 4379,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -445,8 +443,8 @@
                                     "end": 4409,
                                     "name": "deleteProperty"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -471,8 +469,8 @@
                                       "end": 4432,
                                       "name": "toStringTag"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   }
                                 ],
                                 "optional": false
@@ -499,6 +497,7 @@
                           "type": "VariableDeclaration",
                           "start": 4505,
                           "end": 4533,
+                          "kind": "var",
                           "declarations": [
                             {
                               "type": "VariableDeclarator",
@@ -532,8 +531,7 @@
                                 "optional": false
                               }
                             }
-                          ],
-                          "kind": "var"
+                          ]
                         },
                         {
                           "type": "ExpressionStatement",
@@ -555,7 +553,6 @@
                                 "start": 4545,
                                 "end": 4559,
                                 "operator": "delete",
-                                "prefix": true,
                                 "argument": {
                                   "type": "MemberExpression",
                                   "start": 4552,
@@ -572,9 +569,10 @@
                                     "end": 4558,
                                     "name": "sym"
                                   },
-                                  "computed": true,
-                                  "optional": false
-                                }
+                                  "optional": false,
+                                  "computed": true
+                                },
+                                "prefix": true
                               },
                               {
                                 "type": "Literal",
@@ -622,8 +620,8 @@
                                     "end": 4613,
                                     "name": "deleteProperty"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -653,7 +651,9 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "id": null,
+                    "generator": false
                   }
                 ],
                 "optional": false
@@ -664,8 +664,8 @@
                 "end": 4667,
                 "name": "then"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -689,8 +689,8 @@
             "end": 4687,
             "name": "catch"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

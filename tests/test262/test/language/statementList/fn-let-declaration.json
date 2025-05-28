@@ -13,7 +13,6 @@
         "end": 815,
         "name": "fn"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,12 +21,14 @@
         "start": 818,
         "end": 820,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 820,
       "end": 837,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -71,8 +72,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",

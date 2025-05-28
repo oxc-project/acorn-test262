@@ -13,7 +13,6 @@
         "end": 2414,
         "name": "thrower"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -40,7 +39,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ClassDeclaration",
@@ -62,21 +62,17 @@
             "type": "MethodDefinition",
             "start": 2462,
             "end": 2499,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 2470,
               "end": 2476,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 2476,
               "end": 2499,
               "id": null,
-              "expression": false,
               "generator": true,
               "async": false,
               "params": [
@@ -89,9 +85,7 @@
                       "type": "Property",
                       "start": 2479,
                       "end": 2493,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": true,
+                      "kind": "init",
                       "key": {
                         "type": "CallExpression",
                         "start": 2480,
@@ -111,7 +105,9 @@
                         "end": 2493,
                         "name": "x"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": true
                     }
                   ]
                 }
@@ -121,8 +117,12 @@
                 "start": 2497,
                 "end": 2499,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           }
         ]
       }
@@ -156,8 +156,8 @@
             "end": 2517,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -171,7 +171,6 @@
             "start": 2532,
             "end": 2562,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -204,8 +203,8 @@
                         "end": 2555,
                         "name": "method"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -219,7 +218,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

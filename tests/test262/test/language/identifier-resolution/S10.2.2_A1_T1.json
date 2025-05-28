@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 398,
       "end": 408,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -39,7 +39,6 @@
         "end": 421,
         "name": "f1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -52,6 +51,7 @@
             "type": "VariableDeclaration",
             "start": 427,
             "end": 437,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -71,8 +71,7 @@
                   "raw": "1"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "FunctionDeclaration",
@@ -84,7 +83,6 @@
               "end": 451,
               "name": "f2"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -105,7 +103,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "EmptyStatement",
@@ -131,7 +130,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -142,7 +142,6 @@
         "start": 495,
         "end": 508,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 496,
@@ -173,7 +172,8 @@
               "raw": "1"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

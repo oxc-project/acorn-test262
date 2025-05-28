@@ -13,7 +13,6 @@
         "end": 608,
         "name": "testCompoundAssignment"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -26,6 +25,7 @@
             "type": "VariableDeclaration",
             "start": 615,
             "end": 625,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -45,13 +45,13 @@
                   "raw": "5"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 628,
             "end": 710,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -76,7 +76,6 @@
                       "start": 642,
                       "end": 706,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -154,15 +153,15 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     }
                   },
                   "arguments": [],
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "IfStatement",
@@ -313,7 +312,8 @@
             "alternate": null
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

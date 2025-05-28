@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 2794,
             "end": 2820,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 2795,
               "end": 2801,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 2801,
               "end": 2820,
               "id": null,
-              "expression": false,
               "generator": true,
               "async": false,
               "params": [
@@ -86,8 +82,12 @@
                 "start": 2818,
                 "end": 2820,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -101,6 +101,7 @@
       "type": "VariableDeclaration",
       "start": 2824,
       "end": 2840,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -125,8 +126,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -152,8 +152,8 @@
             "end": 2855,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -167,7 +167,6 @@
             "start": 2867,
             "end": 2895,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -200,15 +199,16 @@
                         "end": 2890,
                         "name": "method"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

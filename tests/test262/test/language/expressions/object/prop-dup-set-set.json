@@ -12,7 +12,6 @@
         "start": 254,
         "end": 300,
         "operator": "void",
-        "prefix": true,
         "argument": {
           "type": "ObjectExpression",
           "start": 259,
@@ -22,9 +21,7 @@
               "type": "Property",
               "start": 263,
               "end": 278,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "set",
               "key": {
                 "type": "Identifier",
                 "start": 267,
@@ -36,7 +33,6 @@
                 "start": 270,
                 "end": 278,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [
@@ -52,17 +48,18 @@
                   "start": 276,
                   "end": 278,
                   "body": []
-                }
+                },
+                "expression": false
               },
-              "kind": "set"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             },
             {
               "type": "Property",
               "start": 282,
               "end": 298,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "set",
               "key": {
                 "type": "Identifier",
                 "start": 286,
@@ -74,7 +71,6 @@
                 "start": 289,
                 "end": 298,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [
@@ -90,12 +86,16 @@
                   "start": 296,
                   "end": 298,
                   "body": []
-                }
+                },
+                "expression": false
               },
-              "kind": "set"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             }
           ]
-        }
+        },
+        "prefix": true
       }
     }
   ],

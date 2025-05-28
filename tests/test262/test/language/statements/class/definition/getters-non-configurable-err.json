@@ -27,8 +27,8 @@
             "end": 529,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 541,
             "end": 599,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -71,8 +70,6 @@
                         "type": "MethodDefinition",
                         "start": 566,
                         "end": 595,
-                        "static": true,
-                        "computed": true,
                         "key": {
                           "type": "Literal",
                           "start": 578,
@@ -80,13 +77,11 @@
                           "value": "prototype",
                           "raw": "'prototype'"
                         },
-                        "kind": "get",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 590,
                           "end": 595,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -95,14 +90,19 @@
                             "start": 593,
                             "end": 595,
                             "body": []
-                          }
-                        }
+                          },
+                          "expression": false
+                        },
+                        "kind": "get",
+                        "computed": true,
+                        "static": true
                       }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

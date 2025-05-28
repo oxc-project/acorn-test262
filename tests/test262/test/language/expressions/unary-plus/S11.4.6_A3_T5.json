@@ -27,13 +27,13 @@
               "start": 281,
               "end": 284,
               "operator": "+",
-              "prefix": true,
               "argument": {
                 "type": "ObjectExpression",
                 "start": 282,
                 "end": 284,
                 "properties": []
-              }
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -88,13 +88,13 @@
                       "start": 363,
                       "end": 366,
                       "operator": "+",
-                      "prefix": true,
                       "argument": {
                         "type": "ObjectExpression",
                         "start": 364,
                         "end": 366,
                         "properties": []
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -129,13 +129,11 @@
               "start": 395,
               "end": 416,
               "operator": "+",
-              "prefix": true,
               "argument": {
                 "type": "FunctionExpression",
                 "start": 396,
                 "end": 416,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -157,8 +155,10 @@
                       }
                     }
                   ]
-                }
-              }
+                },
+                "expression": false
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -213,13 +213,11 @@
                       "start": 513,
                       "end": 534,
                       "operator": "+",
-                      "prefix": true,
                       "argument": {
                         "type": "FunctionExpression",
                         "start": 514,
                         "end": 534,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -241,8 +239,10 @@
                               }
                             }
                           ]
-                        }
-                      }
+                        },
+                        "expression": false
+                      },
+                      "prefix": true
                     }
                   }
                 }

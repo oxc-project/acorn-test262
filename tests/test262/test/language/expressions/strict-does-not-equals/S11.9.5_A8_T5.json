@@ -50,7 +50,6 @@
                 "start": 386,
                 "end": 398,
                 "operator": "!",
-                "prefix": true,
                 "argument": {
                   "type": "ParenthesizedExpression",
                   "start": 387,
@@ -74,7 +73,8 @@
                       "raw": "\"1\""
                     }
                   }
-                }
+                },
+                "prefix": true
               },
               "consequent": {
                 "type": "BlockStatement",
@@ -162,7 +162,6 @@
                 "start": 508,
                 "end": 518,
                 "operator": "!",
-                "prefix": true,
                 "argument": {
                   "type": "ParenthesizedExpression",
                   "start": 509,
@@ -186,7 +185,8 @@
                       "name": "e"
                     }
                   }
-                }
+                },
+                "prefix": true
               },
               "consequent": {
                 "type": "BlockStatement",

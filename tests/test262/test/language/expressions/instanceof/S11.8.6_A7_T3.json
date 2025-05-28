@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 332,
       "end": 358,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -31,8 +32,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -43,7 +43,6 @@
         "start": 374,
         "end": 403,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 375,
@@ -66,7 +65,8 @@
               "name": "Function"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -126,8 +126,8 @@
             "end": 574,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {

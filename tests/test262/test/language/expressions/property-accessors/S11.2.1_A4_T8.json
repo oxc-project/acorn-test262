@@ -16,7 +16,6 @@
           "start": 274,
           "end": 287,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 281,
@@ -33,9 +32,10 @@
               "end": 287,
               "name": "E"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -82,7 +82,6 @@
                   "start": 372,
                   "end": 385,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 379,
@@ -99,9 +98,10 @@
                       "end": 385,
                       "name": "E"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -123,7 +123,6 @@
           "start": 394,
           "end": 410,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 401,
@@ -141,9 +140,10 @@
               "value": "E",
               "raw": "'E'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -190,7 +190,6 @@
                   "start": 498,
                   "end": 514,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 505,
@@ -208,9 +207,10 @@
                       "value": "E",
                       "raw": "\"E\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -232,7 +232,6 @@
           "start": 523,
           "end": 539,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 530,
@@ -249,9 +248,10 @@
               "end": 539,
               "name": "LN10"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -298,7 +298,6 @@
                   "start": 627,
                   "end": 643,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 634,
@@ -315,9 +314,10 @@
                       "end": 643,
                       "name": "LN10"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -339,7 +339,6 @@
           "start": 652,
           "end": 671,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 659,
@@ -357,9 +356,10 @@
               "value": "LN10",
               "raw": "'LN10'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -406,7 +406,6 @@
                   "start": 762,
                   "end": 781,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 769,
@@ -424,9 +423,10 @@
                       "value": "LN10",
                       "raw": "\"LN10\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -448,7 +448,6 @@
           "start": 790,
           "end": 805,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 797,
@@ -465,9 +464,10 @@
               "end": 805,
               "name": "LN2"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -514,7 +514,6 @@
                   "start": 892,
                   "end": 907,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 899,
@@ -531,9 +530,10 @@
                       "end": 907,
                       "name": "LN2"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -555,7 +555,6 @@
           "start": 916,
           "end": 934,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 923,
@@ -573,9 +572,10 @@
               "value": "LN2",
               "raw": "'LN2'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -622,7 +622,6 @@
                   "start": 1024,
                   "end": 1042,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 1031,
@@ -640,9 +639,10 @@
                       "value": "LN2",
                       "raw": "\"LN2\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -664,7 +664,6 @@
           "start": 1051,
           "end": 1068,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 1058,
@@ -681,9 +680,10 @@
               "end": 1068,
               "name": "LOG2E"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -730,7 +730,6 @@
                   "start": 1157,
                   "end": 1174,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 1164,
@@ -747,9 +746,10 @@
                       "end": 1174,
                       "name": "LOG2E"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -771,7 +771,6 @@
           "start": 1183,
           "end": 1203,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 1190,
@@ -789,9 +788,10 @@
               "value": "LOG2E",
               "raw": "'LOG2E'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -838,7 +838,6 @@
                   "start": 1295,
                   "end": 1315,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 1302,
@@ -856,9 +855,10 @@
                       "value": "LOG2E",
                       "raw": "\"LOG2E\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -880,7 +880,6 @@
           "start": 1324,
           "end": 1342,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 1331,
@@ -897,9 +896,10 @@
               "end": 1342,
               "name": "LOG10E"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -946,7 +946,6 @@
                   "start": 1432,
                   "end": 1450,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 1439,
@@ -963,9 +962,10 @@
                       "end": 1450,
                       "name": "LOG10E"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -987,7 +987,6 @@
           "start": 1459,
           "end": 1480,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 1466,
@@ -1005,9 +1004,10 @@
               "value": "LOG10E",
               "raw": "'LOG10E'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -1054,7 +1054,6 @@
                   "start": 1574,
                   "end": 1595,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 1581,
@@ -1072,9 +1071,10 @@
                       "value": "LOG10E",
                       "raw": "\"LOG10E\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -1096,7 +1096,6 @@
           "start": 1604,
           "end": 1618,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 1611,
@@ -1113,9 +1112,10 @@
               "end": 1618,
               "name": "PI"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -1162,7 +1162,6 @@
                   "start": 1705,
                   "end": 1719,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 1712,
@@ -1179,9 +1178,10 @@
                       "end": 1719,
                       "name": "PI"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -1203,7 +1203,6 @@
           "start": 1728,
           "end": 1745,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 1735,
@@ -1221,9 +1220,10 @@
               "value": "PI",
               "raw": "'PI'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -1270,7 +1270,6 @@
                   "start": 1835,
                   "end": 1852,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 1842,
@@ -1288,9 +1287,10 @@
                       "value": "PI",
                       "raw": "\"PI\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -1312,7 +1312,6 @@
           "start": 1861,
           "end": 1880,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 1868,
@@ -1329,9 +1328,10 @@
               "end": 1880,
               "name": "SQRT1_2"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -1378,7 +1378,6 @@
                   "start": 1972,
                   "end": 1991,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 1979,
@@ -1395,9 +1394,10 @@
                       "end": 1991,
                       "name": "SQRT1_2"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -1419,7 +1419,6 @@
           "start": 2000,
           "end": 2022,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 2007,
@@ -1437,9 +1436,10 @@
               "value": "SQRT1_2",
               "raw": "'SQRT1_2'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -1486,7 +1486,6 @@
                   "start": 2117,
                   "end": 2139,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 2124,
@@ -1504,9 +1503,10 @@
                       "value": "SQRT1_2",
                       "raw": "\"SQRT1_2\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -1528,7 +1528,6 @@
           "start": 2148,
           "end": 2165,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 2155,
@@ -1545,9 +1544,10 @@
               "end": 2165,
               "name": "SQRT2"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -1594,7 +1594,6 @@
                   "start": 2255,
                   "end": 2272,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 2262,
@@ -1611,9 +1610,10 @@
                       "end": 2272,
                       "name": "SQRT2"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -1635,7 +1635,6 @@
           "start": 2281,
           "end": 2301,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 2288,
@@ -1653,9 +1652,10 @@
               "value": "SQRT2",
               "raw": "'SQRT2'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -1702,7 +1702,6 @@
                   "start": 2394,
                   "end": 2414,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 2401,
@@ -1720,9 +1719,10 @@
                       "value": "SQRT2",
                       "raw": "\"SQRT2\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -1744,7 +1744,6 @@
           "start": 2423,
           "end": 2438,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 2430,
@@ -1761,9 +1760,10 @@
               "end": 2438,
               "name": "abs"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -1810,7 +1810,6 @@
                   "start": 2530,
                   "end": 2545,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 2537,
@@ -1827,9 +1826,10 @@
                       "end": 2545,
                       "name": "abs"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -1851,7 +1851,6 @@
           "start": 2554,
           "end": 2572,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 2561,
@@ -1869,9 +1868,10 @@
               "value": "abs",
               "raw": "'abs'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -1918,7 +1918,6 @@
                   "start": 2667,
                   "end": 2685,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 2674,
@@ -1936,9 +1935,10 @@
                       "value": "abs",
                       "raw": "\"abs\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -1960,7 +1960,6 @@
           "start": 2694,
           "end": 2710,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 2701,
@@ -1977,9 +1976,10 @@
               "end": 2710,
               "name": "acos"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -2026,7 +2026,6 @@
                   "start": 2803,
                   "end": 2819,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 2810,
@@ -2043,9 +2042,10 @@
                       "end": 2819,
                       "name": "acos"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -2067,7 +2067,6 @@
           "start": 2828,
           "end": 2847,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 2835,
@@ -2085,9 +2084,10 @@
               "value": "acos",
               "raw": "'acos'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -2134,7 +2134,6 @@
                   "start": 2943,
                   "end": 2962,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 2950,
@@ -2152,9 +2151,10 @@
                       "value": "acos",
                       "raw": "\"acos\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -2176,7 +2176,6 @@
           "start": 2971,
           "end": 2987,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 2978,
@@ -2193,9 +2192,10 @@
               "end": 2987,
               "name": "asin"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -2242,7 +2242,6 @@
                   "start": 3080,
                   "end": 3096,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 3087,
@@ -2259,9 +2258,10 @@
                       "end": 3096,
                       "name": "asin"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -2283,7 +2283,6 @@
           "start": 3105,
           "end": 3124,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 3112,
@@ -2301,9 +2300,10 @@
               "value": "asin",
               "raw": "'asin'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -2350,7 +2350,6 @@
                   "start": 3220,
                   "end": 3239,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 3227,
@@ -2368,9 +2367,10 @@
                       "value": "asin",
                       "raw": "\"asin\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -2392,7 +2392,6 @@
           "start": 3248,
           "end": 3264,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 3255,
@@ -2409,9 +2408,10 @@
               "end": 3264,
               "name": "atan"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -2458,7 +2458,6 @@
                   "start": 3357,
                   "end": 3373,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 3364,
@@ -2475,9 +2474,10 @@
                       "end": 3373,
                       "name": "atan"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -2499,7 +2499,6 @@
           "start": 3382,
           "end": 3401,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 3389,
@@ -2517,9 +2516,10 @@
               "value": "atan",
               "raw": "'atan'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -2566,7 +2566,6 @@
                   "start": 3497,
                   "end": 3516,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 3504,
@@ -2584,9 +2583,10 @@
                       "value": "atan",
                       "raw": "\"atan\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -2608,7 +2608,6 @@
           "start": 3525,
           "end": 3542,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 3532,
@@ -2625,9 +2624,10 @@
               "end": 3542,
               "name": "atan2"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -2674,7 +2674,6 @@
                   "start": 3636,
                   "end": 3653,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 3643,
@@ -2691,9 +2690,10 @@
                       "end": 3653,
                       "name": "atan2"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -2715,7 +2715,6 @@
           "start": 3662,
           "end": 3682,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 3669,
@@ -2733,9 +2732,10 @@
               "value": "atan2",
               "raw": "'atan2'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -2782,7 +2782,6 @@
                   "start": 3779,
                   "end": 3799,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 3786,
@@ -2800,9 +2799,10 @@
                       "value": "atan2",
                       "raw": "\"atan2\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -2824,7 +2824,6 @@
           "start": 3808,
           "end": 3824,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 3815,
@@ -2841,9 +2840,10 @@
               "end": 3824,
               "name": "ceil"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -2890,7 +2890,6 @@
                   "start": 3917,
                   "end": 3933,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 3924,
@@ -2907,9 +2906,10 @@
                       "end": 3933,
                       "name": "ceil"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -2931,7 +2931,6 @@
           "start": 3942,
           "end": 3961,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 3949,
@@ -2949,9 +2948,10 @@
               "value": "ceil",
               "raw": "'ceil'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -2998,7 +2998,6 @@
                   "start": 4057,
                   "end": 4076,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 4064,
@@ -3016,9 +3015,10 @@
                       "value": "ceil",
                       "raw": "\"ceil\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -3040,7 +3040,6 @@
           "start": 4085,
           "end": 4100,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 4092,
@@ -3057,9 +3056,10 @@
               "end": 4100,
               "name": "cos"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -3106,7 +3106,6 @@
                   "start": 4192,
                   "end": 4207,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 4199,
@@ -3123,9 +3122,10 @@
                       "end": 4207,
                       "name": "cos"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -3147,7 +3147,6 @@
           "start": 4216,
           "end": 4234,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 4223,
@@ -3165,9 +3164,10 @@
               "value": "cos",
               "raw": "'cos'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -3214,7 +3214,6 @@
                   "start": 4329,
                   "end": 4347,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 4336,
@@ -3232,9 +3231,10 @@
                       "value": "cos",
                       "raw": "\"cos\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -3256,7 +3256,6 @@
           "start": 4356,
           "end": 4371,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 4363,
@@ -3273,9 +3272,10 @@
               "end": 4371,
               "name": "exp"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -3322,7 +3322,6 @@
                   "start": 4463,
                   "end": 4478,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 4470,
@@ -3339,9 +3338,10 @@
                       "end": 4478,
                       "name": "exp"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -3363,7 +3363,6 @@
           "start": 4487,
           "end": 4505,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 4494,
@@ -3381,9 +3380,10 @@
               "value": "exp",
               "raw": "'exp'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -3430,7 +3430,6 @@
                   "start": 4600,
                   "end": 4618,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 4607,
@@ -3448,9 +3447,10 @@
                       "value": "exp",
                       "raw": "\"exp\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -3472,7 +3472,6 @@
           "start": 4627,
           "end": 4644,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 4634,
@@ -3489,9 +3488,10 @@
               "end": 4644,
               "name": "floor"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -3538,7 +3538,6 @@
                   "start": 4738,
                   "end": 4755,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 4745,
@@ -3555,9 +3554,10 @@
                       "end": 4755,
                       "name": "floor"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -3579,7 +3579,6 @@
           "start": 4764,
           "end": 4784,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 4771,
@@ -3597,9 +3596,10 @@
               "value": "floor",
               "raw": "'floor'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -3646,7 +3646,6 @@
                   "start": 4881,
                   "end": 4901,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 4888,
@@ -3664,9 +3663,10 @@
                       "value": "floor",
                       "raw": "\"floor\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -3688,7 +3688,6 @@
           "start": 4910,
           "end": 4925,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 4917,
@@ -3705,9 +3704,10 @@
               "end": 4925,
               "name": "log"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -3754,7 +3754,6 @@
                   "start": 5017,
                   "end": 5032,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 5024,
@@ -3771,9 +3770,10 @@
                       "end": 5032,
                       "name": "log"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -3795,7 +3795,6 @@
           "start": 5041,
           "end": 5059,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 5048,
@@ -3813,9 +3812,10 @@
               "value": "log",
               "raw": "'log'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -3862,7 +3862,6 @@
                   "start": 5154,
                   "end": 5172,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 5161,
@@ -3880,9 +3879,10 @@
                       "value": "log",
                       "raw": "\"log\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -3904,7 +3904,6 @@
           "start": 5181,
           "end": 5196,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 5188,
@@ -3921,9 +3920,10 @@
               "end": 5196,
               "name": "max"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -3970,7 +3970,6 @@
                   "start": 5288,
                   "end": 5303,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 5295,
@@ -3987,9 +3986,10 @@
                       "end": 5303,
                       "name": "max"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -4011,7 +4011,6 @@
           "start": 5312,
           "end": 5330,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 5319,
@@ -4029,9 +4028,10 @@
               "value": "max",
               "raw": "'max'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -4078,7 +4078,6 @@
                   "start": 5425,
                   "end": 5443,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 5432,
@@ -4096,9 +4095,10 @@
                       "value": "max",
                       "raw": "\"max\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -4120,7 +4120,6 @@
           "start": 5452,
           "end": 5467,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 5459,
@@ -4137,9 +4136,10 @@
               "end": 5467,
               "name": "min"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -4186,7 +4186,6 @@
                   "start": 5559,
                   "end": 5574,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 5566,
@@ -4203,9 +4202,10 @@
                       "end": 5574,
                       "name": "min"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -4227,7 +4227,6 @@
           "start": 5583,
           "end": 5601,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 5590,
@@ -4245,9 +4244,10 @@
               "value": "min",
               "raw": "'min'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -4294,7 +4294,6 @@
                   "start": 5696,
                   "end": 5714,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 5703,
@@ -4312,9 +4311,10 @@
                       "value": "min",
                       "raw": "\"min\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -4336,7 +4336,6 @@
           "start": 5723,
           "end": 5738,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 5730,
@@ -4353,9 +4352,10 @@
               "end": 5738,
               "name": "pow"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -4402,7 +4402,6 @@
                   "start": 5830,
                   "end": 5845,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 5837,
@@ -4419,9 +4418,10 @@
                       "end": 5845,
                       "name": "pow"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -4443,7 +4443,6 @@
           "start": 5854,
           "end": 5872,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 5861,
@@ -4461,9 +4460,10 @@
               "value": "pow",
               "raw": "'pow'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -4510,7 +4510,6 @@
                   "start": 5967,
                   "end": 5985,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 5974,
@@ -4528,9 +4527,10 @@
                       "value": "pow",
                       "raw": "\"pow\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -4552,7 +4552,6 @@
           "start": 5994,
           "end": 6012,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 6001,
@@ -4569,9 +4568,10 @@
               "end": 6012,
               "name": "random"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -4618,7 +4618,6 @@
                   "start": 6107,
                   "end": 6125,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 6114,
@@ -4635,9 +4634,10 @@
                       "end": 6125,
                       "name": "random"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -4659,7 +4659,6 @@
           "start": 6134,
           "end": 6155,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 6141,
@@ -4677,9 +4676,10 @@
               "value": "random",
               "raw": "'random'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -4726,7 +4726,6 @@
                   "start": 6253,
                   "end": 6274,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 6260,
@@ -4744,9 +4743,10 @@
                       "value": "random",
                       "raw": "\"random\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -4768,7 +4768,6 @@
           "start": 6283,
           "end": 6300,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 6290,
@@ -4785,9 +4784,10 @@
               "end": 6300,
               "name": "round"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -4834,7 +4834,6 @@
                   "start": 6394,
                   "end": 6411,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 6401,
@@ -4851,9 +4850,10 @@
                       "end": 6411,
                       "name": "round"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -4875,7 +4875,6 @@
           "start": 6420,
           "end": 6440,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 6427,
@@ -4893,9 +4892,10 @@
               "value": "round",
               "raw": "'round'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -4942,7 +4942,6 @@
                   "start": 6537,
                   "end": 6557,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 6544,
@@ -4960,9 +4959,10 @@
                       "value": "round",
                       "raw": "\"round\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -4984,7 +4984,6 @@
           "start": 6566,
           "end": 6581,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 6573,
@@ -5001,9 +5000,10 @@
               "end": 6581,
               "name": "sin"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -5050,7 +5050,6 @@
                   "start": 6673,
                   "end": 6688,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 6680,
@@ -5067,9 +5066,10 @@
                       "end": 6688,
                       "name": "sin"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -5091,7 +5091,6 @@
           "start": 6697,
           "end": 6715,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 6704,
@@ -5109,9 +5108,10 @@
               "value": "sin",
               "raw": "'sin'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -5158,7 +5158,6 @@
                   "start": 6810,
                   "end": 6828,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 6817,
@@ -5176,9 +5175,10 @@
                       "value": "sin",
                       "raw": "\"sin\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -5200,7 +5200,6 @@
           "start": 6837,
           "end": 6853,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 6844,
@@ -5217,9 +5216,10 @@
               "end": 6853,
               "name": "sqrt"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -5266,7 +5266,6 @@
                   "start": 6946,
                   "end": 6962,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 6953,
@@ -5283,9 +5282,10 @@
                       "end": 6962,
                       "name": "sqrt"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -5307,7 +5307,6 @@
           "start": 6971,
           "end": 6990,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 6978,
@@ -5325,9 +5324,10 @@
               "value": "sqrt",
               "raw": "'sqrt'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -5374,7 +5374,6 @@
                   "start": 7086,
                   "end": 7105,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 7093,
@@ -5392,9 +5391,10 @@
                       "value": "sqrt",
                       "raw": "\"sqrt\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -5416,7 +5416,6 @@
           "start": 7114,
           "end": 7129,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 7121,
@@ -5433,9 +5432,10 @@
               "end": 7129,
               "name": "tan"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -5482,7 +5482,6 @@
                   "start": 7221,
                   "end": 7236,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 7228,
@@ -5499,9 +5498,10 @@
                       "end": 7236,
                       "name": "tan"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -5523,7 +5523,6 @@
           "start": 7245,
           "end": 7263,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 7252,
@@ -5541,9 +5540,10 @@
               "value": "tan",
               "raw": "'tan'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -5590,7 +5590,6 @@
                   "start": 7358,
                   "end": 7376,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 7365,
@@ -5608,9 +5607,10 @@
                       "value": "tan",
                       "raw": "\"tan\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }

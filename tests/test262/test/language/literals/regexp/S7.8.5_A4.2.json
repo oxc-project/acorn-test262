@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 417,
       "end": 438,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -30,13 +31,13 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 439,
       "end": 460,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -60,8 +61,7 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -87,8 +87,8 @@
             "end": 480,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

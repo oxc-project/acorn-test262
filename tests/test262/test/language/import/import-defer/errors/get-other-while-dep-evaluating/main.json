@@ -15,8 +15,8 @@
         "value": "./dep-1_FIXTURE.js",
         "raw": "\"./dep-1_FIXTURE.js\""
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -54,8 +54,8 @@
                 "value": "evaluating dep2.foo error",
                 "raw": "\"evaluating dep2.foo error\""
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "operator": "instanceof",
             "right": {
@@ -96,7 +96,6 @@
             "start": 1680,
             "end": 1729,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 1681,
@@ -114,9 +113,10 @@
                 "value": "evaluating dep2.foo evaluates dep3",
                 "raw": "\"evaluating dep2.foo evaluates dep3\""
               },
-              "computed": true,
-              "optional": false
-            }
+              "optional": false,
+              "computed": true
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -149,7 +149,6 @@
             "start": 1785,
             "end": 1810,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 1786,
@@ -166,9 +165,10 @@
                 "end": 1810,
                 "name": "dep3evaluated"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

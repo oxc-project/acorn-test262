@@ -32,8 +32,8 @@
               "end": 395,
               "name": "toString"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [],
           "optional": false
@@ -104,8 +104,8 @@
                           "end": 496,
                           "name": "toString"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [],
                       "optional": false
@@ -149,8 +149,8 @@
               "value": "toString",
               "raw": "\"toString\""
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           "arguments": [],
           "optional": false
@@ -222,8 +222,8 @@
                           "value": "toString",
                           "raw": "\"toString\""
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       "arguments": [],
                       "optional": false
@@ -279,8 +279,8 @@
               "end": 696,
               "name": "toString"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [],
           "optional": false
@@ -364,8 +364,8 @@
                           "end": 823,
                           "name": "toString"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [],
                       "optional": false
@@ -422,8 +422,8 @@
               "value": "toString",
               "raw": "\"toString\""
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           "arguments": [],
           "optional": false
@@ -508,8 +508,8 @@
                           "value": "toString",
                           "raw": "\"toString\""
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       "arguments": [],
                       "optional": false

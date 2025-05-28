@@ -45,6 +45,7 @@
         "value": "./json-invalid_FIXTURE.json",
         "raw": "'./json-invalid_FIXTURE.json'"
       },
+      "phase": null,
       "attributes": [
         {
           "type": "ImportAttribute",
@@ -64,8 +65,7 @@
             "raw": "'json'"
           }
         }
-      ],
-      "phase": null
+      ]
     }
   ],
   "sourceType": "module",

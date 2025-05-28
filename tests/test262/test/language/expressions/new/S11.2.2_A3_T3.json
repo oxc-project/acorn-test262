@@ -164,6 +164,7 @@
             "type": "VariableDeclaration",
             "start": 533,
             "end": 545,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -183,8 +184,7 @@
                   "raw": "\"1\""
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -337,6 +337,7 @@
             "type": "VariableDeclaration",
             "start": 777,
             "end": 789,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -356,8 +357,7 @@
                   "raw": "\"1\""
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",

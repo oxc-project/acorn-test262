@@ -13,7 +13,6 @@
         "end": 387,
         "name": "f1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -38,13 +37,13 @@
               "start": 394,
               "end": 402,
               "operator": "delete",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 401,
                 "end": 402,
                 "name": "a"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -59,7 +58,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",

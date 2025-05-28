@@ -27,21 +27,21 @@
               "start": 267,
               "end": 274,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "UnaryExpression",
                 "start": 268,
                 "end": 274,
                 "operator": "void",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 273,
                   "end": 274,
                   "value": 0,
                   "raw": "0"
-                }
-              }
+                },
+                "prefix": true
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -96,21 +96,21 @@
                       "start": 357,
                       "end": 364,
                       "operator": "+",
-                      "prefix": true,
                       "argument": {
                         "type": "UnaryExpression",
                         "start": 358,
                         "end": 364,
                         "operator": "void",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 363,
                           "end": 364,
                           "value": 0,
                           "raw": "0"
-                        }
-                      }
+                        },
+                        "prefix": true
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -134,14 +134,14 @@
           "start": 385,
           "end": 390,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 386,
             "end": 390,
             "value": null,
             "raw": "null"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -193,14 +193,14 @@
                       "start": 456,
                       "end": 461,
                       "operator": "+",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 457,
                         "end": 461,
                         "value": null,
                         "raw": "null"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }

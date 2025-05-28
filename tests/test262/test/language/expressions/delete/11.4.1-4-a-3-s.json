@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 287,
       "end": 300,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -52,8 +52,8 @@
             "end": 322,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -78,9 +78,7 @@
                 "type": "Property",
                 "start": 340,
                 "end": 352,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 340,
@@ -94,15 +92,15 @@
                   "value": "abc",
                   "raw": "'abc'"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 356,
                 "end": 374,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 356,
@@ -116,7 +114,9 @@
                   "value": true,
                   "raw": "true"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -133,7 +133,6 @@
         "start": 381,
         "end": 396,
         "operator": "delete",
-        "prefix": true,
         "argument": {
           "type": "MemberExpression",
           "start": 388,
@@ -150,9 +149,10 @@
             "end": 396,
             "name": "prop"
           },
-          "computed": false,
-          "optional": false
-        }
+          "optional": false,
+          "computed": false
+        },
+        "prefix": true
       }
     },
     {
@@ -179,8 +179,8 @@
             "end": 415,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -203,8 +203,8 @@
                 "end": 437,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

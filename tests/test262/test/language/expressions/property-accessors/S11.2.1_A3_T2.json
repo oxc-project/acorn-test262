@@ -32,8 +32,8 @@
               "end": 392,
               "name": "toString"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [],
           "optional": false
@@ -104,8 +104,8 @@
                           "end": 483,
                           "name": "toString"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [],
                       "optional": false
@@ -148,8 +148,8 @@
               "end": 517,
               "name": "toFixed"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -228,8 +228,8 @@
                           "end": 622,
                           "name": "toFixed"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -281,8 +281,8 @@
               "value": "toString",
               "raw": "\"toString\""
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           "arguments": [],
           "optional": false
@@ -354,8 +354,8 @@
                           "value": "toString",
                           "raw": "\"toString\""
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       "arguments": [],
                       "optional": false
@@ -399,8 +399,8 @@
               "value": "toFixed",
               "raw": "\"toFixed\""
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           "arguments": [
             {
@@ -480,8 +480,8 @@
                           "value": "toFixed",
                           "raw": "\"toFixed\""
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       "arguments": [
                         {
@@ -545,8 +545,8 @@
               "end": 945,
               "name": "toString"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [],
           "optional": false
@@ -630,8 +630,8 @@
                           "end": 1058,
                           "name": "toString"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [],
                       "optional": false
@@ -688,8 +688,8 @@
               "value": "toFixed",
               "raw": "\"toFixed\""
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           "arguments": [
             {
@@ -782,8 +782,8 @@
                           "value": "toFixed",
                           "raw": "\"toFixed\""
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       "arguments": [
                         {

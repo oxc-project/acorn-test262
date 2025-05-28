@@ -16,7 +16,6 @@
           "start": 291,
           "end": 301,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 298,
@@ -27,7 +26,8 @@
               "end": 300,
               "name": "x"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -79,7 +79,6 @@
                       "start": 392,
                       "end": 402,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 399,
@@ -90,7 +89,8 @@
                           "end": 401,
                           "name": "x"
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }

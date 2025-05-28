@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 914,
             "end": 1021,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 921,
               "end": 927,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 927,
               "end": 1021,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -72,28 +68,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           },
           {
             "type": "MethodDefinition",
             "start": 1024,
             "end": 1129,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1031,
               "end": 1035,
               "name": "name"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1035,
               "end": 1129,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -128,8 +124,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           }
         ]
       }
@@ -158,8 +158,8 @@
             "end": 1152,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -182,8 +182,8 @@
                 "end": 1179,
                 "name": "getOwnPropertyNames"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -238,6 +238,7 @@
       "type": "VariableDeclaration",
       "start": 1228,
       "end": 1246,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -257,8 +258,7 @@
             "raw": "'name'"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -280,21 +280,17 @@
             "type": "MethodDefinition",
             "start": 1259,
             "end": 1419,
-            "static": true,
-            "computed": true,
             "key": {
               "type": "Identifier",
               "start": 1267,
               "end": 1271,
               "name": "attr"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1272,
               "end": 1419,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -342,8 +338,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": true,
+            "static": true
           }
         ]
       }
@@ -372,8 +372,8 @@
             "end": 1442,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -396,8 +396,8 @@
                 "end": 1469,
                 "name": "getOwnPropertyNames"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -461,21 +461,17 @@
             "type": "MethodDefinition",
             "start": 1520,
             "end": 1637,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1531,
               "end": 1535,
               "name": "name"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 1535,
               "end": 1637,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -510,8 +506,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": true
           }
         ]
       }
@@ -540,8 +540,8 @@
             "end": 1660,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -564,8 +564,8 @@
                 "end": 1687,
                 "name": "getOwnPropertyNames"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -629,21 +629,17 @@
             "type": "MethodDefinition",
             "start": 1738,
             "end": 1856,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1749,
               "end": 1753,
               "name": "name"
             },
-            "kind": "set",
             "value": {
               "type": "FunctionExpression",
               "start": 1753,
               "end": 1856,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -685,8 +681,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "set",
+            "computed": false,
+            "static": true
           }
         ]
       }
@@ -715,8 +715,8 @@
             "end": 1879,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -739,8 +739,8 @@
                 "end": 1906,
                 "name": "getOwnPropertyNames"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -804,21 +804,17 @@
             "type": "MethodDefinition",
             "start": 1957,
             "end": 2072,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1965,
               "end": 1969,
               "name": "name"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1969,
               "end": 2072,
               "id": null,
-              "expression": false,
               "generator": true,
               "async": false,
               "params": [],
@@ -853,8 +849,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           }
         ]
       }
@@ -883,8 +883,8 @@
             "end": 2095,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -907,8 +907,8 @@
                 "end": 2122,
                 "name": "getOwnPropertyNames"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

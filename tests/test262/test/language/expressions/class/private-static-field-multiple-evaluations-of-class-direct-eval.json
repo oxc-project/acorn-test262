@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1615,
       "end": 1729,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -22,7 +23,6 @@
             "type": "TemplateLiteral",
             "start": 1643,
             "end": 1728,
-            "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -34,16 +34,17 @@
                 },
                 "tail": true
               }
-            ]
+            ],
+            "expressions": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1731,
       "end": 1801,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -60,7 +61,6 @@
             "start": 1747,
             "end": 1800,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -95,16 +95,17 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1803,
       "end": 1824,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -130,13 +131,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1825,
       "end": 1846,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -162,8 +163,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -189,8 +189,8 @@
             "end": 1864,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -213,8 +213,8 @@
                 "end": 1874,
                 "name": "access"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -254,8 +254,8 @@
             "end": 1906,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -278,8 +278,8 @@
                 "end": 1916,
                 "name": "access"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -319,8 +319,8 @@
             "end": 1946,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -334,7 +334,6 @@
             "start": 1958,
             "end": 1994,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -371,8 +370,8 @@
                           "end": 1982,
                           "name": "access"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -380,8 +379,8 @@
                         "end": 1987,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -395,7 +394,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -432,8 +432,8 @@
             "end": 2056,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -447,7 +447,6 @@
             "start": 2068,
             "end": 2104,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -484,8 +483,8 @@
                           "end": 2092,
                           "name": "access"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -493,8 +492,8 @@
                         "end": 2097,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -508,7 +507,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

@@ -16,14 +16,14 @@
           "start": 277,
           "end": 281,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 278,
             "end": 281,
             "value": "1",
             "raw": "\"1\""
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -31,14 +31,14 @@
           "start": 286,
           "end": 288,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 287,
             "end": 288,
             "value": 1,
             "raw": "1"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -82,14 +82,14 @@
                       "start": 348,
                       "end": 352,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 349,
                         "end": 352,
                         "value": "1",
                         "raw": "\"1\""
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -124,14 +124,14 @@
               "start": 379,
               "end": 383,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 380,
                 "end": 383,
                 "value": "x",
                 "raw": "\"x\""
-              }
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -186,14 +186,14 @@
                       "start": 463,
                       "end": 467,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 464,
                         "end": 467,
                         "value": "x",
                         "raw": "\"x\""
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -217,7 +217,6 @@
           "start": 488,
           "end": 505,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "NewExpression",
             "start": 489,
@@ -237,7 +236,8 @@
                 "raw": "\"-1\""
               }
             ]
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -289,7 +289,6 @@
                       "start": 583,
                       "end": 600,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "NewExpression",
                         "start": 584,
@@ -309,7 +308,8 @@
                             "raw": "\"-1\""
                           }
                         ]
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }

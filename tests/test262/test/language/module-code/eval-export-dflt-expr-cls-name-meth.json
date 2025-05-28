@@ -26,21 +26,17 @@
                 "type": "MethodDefinition",
                 "start": 1073,
                 "end": 1112,
-                "static": true,
-                "computed": false,
                 "key": {
                   "type": "Identifier",
                   "start": 1080,
                   "end": 1084,
                   "name": "name"
                 },
-                "kind": "method",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1084,
                   "end": 1112,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -62,8 +58,12 @@
                         }
                       }
                     ]
-                  }
-                }
+                  },
+                  "expression": false
+                },
+                "kind": "method",
+                "computed": false,
+                "static": true
               }
             ]
           }
@@ -94,8 +94,8 @@
         "value": "./eval-export-dflt-expr-cls-name-meth.js",
         "raw": "'./eval-export-dflt-expr-cls-name-meth.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -121,8 +121,8 @@
             "end": 1192,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -145,8 +145,8 @@
                 "end": 1202,
                 "name": "name"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

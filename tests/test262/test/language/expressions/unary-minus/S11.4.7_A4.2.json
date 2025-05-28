@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 261,
       "end": 271,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -49,13 +49,13 @@
           "start": 277,
           "end": 279,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 278,
             "end": 279,
             "name": "x"
-          }
+          },
+          "prefix": true
         }
       }
     },
@@ -79,14 +79,14 @@
           "start": 291,
           "end": 293,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 292,
             "end": 293,
             "value": 0,
             "raw": "0"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -187,8 +187,8 @@
                   "end": 422,
                   "name": "NEGATIVE_INFINITY"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             },
             "consequent": {
@@ -232,6 +232,7 @@
       "type": "VariableDeclaration",
       "start": 521,
       "end": 532,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -248,18 +249,17 @@
             "start": 529,
             "end": 531,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 530,
               "end": 531,
               "value": 0,
               "raw": "0"
-            }
+            },
+            "prefix": true
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -281,13 +281,13 @@
           "start": 538,
           "end": 540,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 539,
             "end": 540,
             "name": "x"
-          }
+          },
+          "prefix": true
         }
       }
     },
@@ -412,8 +412,8 @@
                   "end": 683,
                   "name": "POSITIVE_INFINITY"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             },
             "consequent": {

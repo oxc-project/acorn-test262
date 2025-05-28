@@ -15,8 +15,8 @@
         "value": "./dep_FIXTURE.js",
         "raw": "\"./dep_FIXTURE.js\""
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -54,8 +54,8 @@
                 "value": "error on main.foo",
                 "raw": "\"error on main.foo\""
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "operator": "instanceof",
             "right": {

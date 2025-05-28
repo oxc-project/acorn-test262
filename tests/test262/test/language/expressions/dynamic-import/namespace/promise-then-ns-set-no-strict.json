@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 3781,
       "end": 3809,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -40,8 +41,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -91,17 +91,15 @@
                     "end": 3851,
                     "name": "then"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
                     "type": "ArrowFunctionExpression",
                     "start": 3852,
                     "end": 5048,
-                    "id": null,
                     "expression": false,
-                    "generator": false,
                     "async": false,
                     "params": [
                       {
@@ -140,8 +138,8 @@
                                 "end": 3881,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -164,8 +162,8 @@
                                     "end": 3893,
                                     "name": "set"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -226,8 +224,8 @@
                                 "end": 3960,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -251,8 +249,8 @@
                                     "end": 3970,
                                     "name": "local1"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "right": {
                                   "type": "Literal",
@@ -304,8 +302,8 @@
                                 "end": 4039,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -328,8 +326,8 @@
                                     "end": 4051,
                                     "name": "set"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -390,8 +388,8 @@
                                 "end": 4118,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -415,8 +413,8 @@
                                     "end": 4128,
                                     "name": "local2"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "right": {
                                   "type": "Literal",
@@ -468,8 +466,8 @@
                                 "end": 4197,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -492,8 +490,8 @@
                                     "end": 4209,
                                     "name": "set"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -554,8 +552,8 @@
                                 "end": 4278,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -579,8 +577,8 @@
                                     "end": 4289,
                                     "name": "renamed"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "right": {
                                   "type": "Literal",
@@ -632,8 +630,8 @@
                                 "end": 4359,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -656,8 +654,8 @@
                                     "end": 4371,
                                     "name": "set"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -718,8 +716,8 @@
                                 "end": 4442,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -743,8 +741,8 @@
                                     "end": 4454,
                                     "name": "indirect"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "right": {
                                   "type": "Literal",
@@ -796,8 +794,8 @@
                                 "end": 4525,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -820,8 +818,8 @@
                                     "end": 4537,
                                     "name": "set"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -882,8 +880,8 @@
                                 "end": 4606,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -907,8 +905,8 @@
                                     "end": 4617,
                                     "name": "default"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "right": {
                                   "type": "Literal",
@@ -960,8 +958,8 @@
                                 "end": 4687,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -984,8 +982,8 @@
                                     "end": 4706,
                                     "name": "set"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -1010,8 +1008,8 @@
                                       "end": 4729,
                                       "name": "toStringTag"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -1065,8 +1063,8 @@
                                 "end": 4818,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -1100,11 +1098,11 @@
                                       "end": 4840,
                                       "name": "toStringTag"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
-                                  "computed": true,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": true
                                 },
                                 "right": {
                                   "type": "Literal",
@@ -1156,8 +1154,8 @@
                                 "end": 4922,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -1180,8 +1178,8 @@
                                     "end": 4934,
                                     "name": "set"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -1241,8 +1239,8 @@
                                 "end": 4993,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -1266,8 +1264,8 @@
                                     "end": 5000,
                                     "name": "sym"
                                   },
-                                  "computed": true,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": true
                                 },
                                 "right": {
                                   "type": "Literal",
@@ -1296,7 +1294,9 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "id": null,
+                    "generator": false
                   }
                 ],
                 "optional": false
@@ -1307,8 +1307,8 @@
                 "end": 5054,
                 "name": "then"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1332,8 +1332,8 @@
             "end": 5074,
             "name": "catch"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

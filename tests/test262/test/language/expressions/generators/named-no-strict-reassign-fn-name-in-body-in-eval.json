@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 630,
       "end": 648,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 649,
       "end": 770,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -54,7 +55,6 @@
               "end": 687,
               "name": "BindingIdentifier"
             },
-            "expression": false,
             "generator": true,
             "async": false,
             "params": [],
@@ -119,11 +119,11 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -149,8 +149,8 @@
             "end": 788,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -184,8 +184,8 @@
                   "end": 799,
                   "name": "next"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
@@ -196,8 +196,8 @@
               "end": 807,
               "name": "value"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",
@@ -233,8 +233,8 @@
             "end": 831,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

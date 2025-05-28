@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 350,
       "end": 368,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -24,8 +25,7 @@
             "end": 367
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -37,7 +37,6 @@
         "end": 379,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -57,7 +56,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -85,7 +85,6 @@
               "start": 404,
               "end": 455,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -131,8 +130,8 @@
                           "end": 445,
                           "name": "apply"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -146,7 +145,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           },
           "arguments": [],

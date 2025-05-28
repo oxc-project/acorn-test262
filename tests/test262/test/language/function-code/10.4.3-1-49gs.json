@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 350,
       "end": 368,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -24,13 +25,13 @@
             "end": 367
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 370,
       "end": 527,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -47,7 +48,6 @@
             "start": 379,
             "end": 527,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -60,6 +60,7 @@
                   "type": "VariableDeclaration",
                   "start": 397,
                   "end": 474,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -76,7 +77,6 @@
                         "start": 405,
                         "end": 474,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -107,20 +107,20 @@
                                 "start": 456,
                                 "end": 467,
                                 "operator": "typeof",
-                                "prefix": true,
                                 "argument": {
                                   "type": "ThisExpression",
                                   "start": 463,
                                   "end": 467
-                                }
+                                },
+                                "prefix": true
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ReturnStatement",
@@ -187,11 +187,11 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -202,7 +202,6 @@
         "start": 532,
         "end": 538,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "CallExpression",
           "start": 534,
@@ -215,7 +214,8 @@
           },
           "arguments": [],
           "optional": false
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

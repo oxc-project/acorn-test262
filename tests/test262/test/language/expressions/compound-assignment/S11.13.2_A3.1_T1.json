@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 293,
       "end": 303,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -49,14 +49,14 @@
           "start": 309,
           "end": 311,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 310,
             "end": 311,
             "value": 1,
             "raw": "1"
-          }
+          },
+          "prefix": true
         }
       }
     },
@@ -80,14 +80,14 @@
           "start": 324,
           "end": 326,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 325,
             "end": 326,
             "value": 1,
             "raw": "1"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -145,6 +145,7 @@
       "type": "VariableDeclaration",
       "start": 421,
       "end": 427,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -158,8 +159,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -205,14 +205,14 @@
           "start": 440,
           "end": 442,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 441,
             "end": 442,
             "value": 1,
             "raw": "1"
-          }
+          },
+          "prefix": true
         }
       }
     },
@@ -236,14 +236,14 @@
           "start": 454,
           "end": 456,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 455,
             "end": 456,
             "value": 1,
             "raw": "1"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {

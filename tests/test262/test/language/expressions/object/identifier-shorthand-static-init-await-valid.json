@@ -36,9 +36,7 @@
                     "type": "ArrowFunctionExpression",
                     "start": 522,
                     "end": 539,
-                    "id": null,
                     "expression": true,
-                    "generator": false,
                     "async": false,
                     "params": [],
                     "body": {
@@ -54,9 +52,7 @@
                             "type": "Property",
                             "start": 531,
                             "end": 536,
-                            "method": false,
-                            "shorthand": true,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 531,
@@ -69,11 +65,15 @@
                               "end": 536,
                               "name": "await"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false
                           }
                         ]
                       }
-                    }
+                    },
+                    "id": null,
+                    "generator": false
                   }
                 }
               }

@@ -13,7 +13,6 @@
         "end": 498,
         "name": "checkAssertions"
       },
-      "expression": false,
       "generator": false,
       "async": true,
       "params": [],
@@ -46,8 +45,8 @@
                   "end": 521,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -83,8 +82,8 @@
                         "value": 0,
                         "raw": "0"
                       },
-                      "computed": true,
-                      "optional": true
+                      "optional": true,
+                      "computed": true
                     }
                   }
                 },
@@ -123,8 +122,8 @@
                   "end": 562,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -180,8 +179,8 @@
                             "end": 595,
                             "name": "resolve"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -195,8 +194,8 @@
                         "optional": false
                       }
                     },
-                    "computed": true,
-                    "optional": true
+                    "optional": true,
+                    "computed": true
                   }
                 },
                 {
@@ -234,8 +233,8 @@
                   "end": 624,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -282,8 +281,8 @@
                                 "end": 651,
                                 "name": "resolve"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -306,8 +305,8 @@
                       "value": 1,
                       "raw": "1"
                     },
-                    "computed": true,
-                    "optional": true
+                    "optional": true,
+                    "computed": true
                   }
                 },
                 {
@@ -345,8 +344,8 @@
                   "end": 686,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -387,8 +386,8 @@
                             "end": 724,
                             "name": "reject"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -415,8 +414,8 @@
                         "optional": false
                       }
                     },
-                    "computed": true,
-                    "optional": true
+                    "optional": true,
+                    "computed": true
                   }
                 },
                 {
@@ -430,7 +429,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
