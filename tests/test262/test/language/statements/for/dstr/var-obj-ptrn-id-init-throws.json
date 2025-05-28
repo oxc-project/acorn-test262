@@ -13,7 +13,6 @@
         "end": 1491,
         "name": "thrower"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -40,7 +39,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -66,8 +66,8 @@
             "end": 1540,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -81,7 +81,6 @@
             "start": 1555,
             "end": 1639,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -98,6 +97,7 @@
                     "type": "VariableDeclaration",
                     "start": 1575,
                     "end": 1601,
+                    "kind": "var",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
@@ -112,9 +112,7 @@
                               "type": "Property",
                               "start": 1581,
                               "end": 1594,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1581,
@@ -145,7 +143,9 @@
                                   "optional": false
                                 }
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         },
@@ -156,8 +156,7 @@
                           "properties": []
                         }
                       }
-                    ],
-                    "kind": "var"
+                    ]
                   },
                   "test": {
                     "type": "BinaryExpression",
@@ -194,7 +193,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

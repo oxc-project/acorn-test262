@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1111,
       "end": 1124,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "null"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1126,
       "end": 1142,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,8 +53,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -69,9 +69,7 @@
             "type": "Property",
             "start": 1151,
             "end": 1152,
-            "method": false,
-            "shorthand": true,
-            "computed": false,
+            "kind": "init",
             "key": {
               "type": "Identifier",
               "start": 1151,
@@ -84,7 +82,9 @@
               "end": 1152,
               "name": "x"
             },
-            "kind": "init"
+            "method": false,
+            "shorthand": true,
+            "computed": false
           }
         ]
       },
@@ -102,9 +102,7 @@
                 "type": "Property",
                 "start": 1161,
                 "end": 1165,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1161,
@@ -118,7 +116,9 @@
                   "value": 1,
                   "raw": "1"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -153,8 +153,8 @@
                   "end": 1190,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -225,8 +225,8 @@
             "end": 1233,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

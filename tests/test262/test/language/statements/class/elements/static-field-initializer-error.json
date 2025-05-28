@@ -13,7 +13,6 @@
         "end": 1905,
         "name": "initThrows"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -40,7 +39,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -66,8 +66,8 @@
             "end": 1954,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -81,7 +81,6 @@
             "start": 1969,
             "end": 2090,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -110,8 +109,6 @@
                         "type": "PropertyDefinition",
                         "start": 1998,
                         "end": 2022,
-                        "static": true,
-                        "computed": false,
                         "key": {
                           "type": "Identifier",
                           "start": 2005,
@@ -130,21 +127,23 @@
                           },
                           "arguments": [],
                           "optional": false
-                        }
+                        },
+                        "computed": false,
+                        "static": true
                       },
                       {
                         "type": "PropertyDefinition",
                         "start": 2027,
                         "end": 2036,
-                        "static": true,
-                        "computed": false,
                         "key": {
                           "type": "Identifier",
                           "start": 2034,
                           "end": 2035,
                           "name": "g"
                         },
-                        "value": null
+                        "value": null,
+                        "computed": false,
+                        "static": true
                       }
                     ]
                   }
@@ -188,7 +187,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

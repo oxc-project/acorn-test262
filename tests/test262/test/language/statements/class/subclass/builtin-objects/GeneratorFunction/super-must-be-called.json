@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 719,
       "end": 794,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -42,8 +43,8 @@
                   "end": 764,
                   "name": "getPrototypeOf"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -51,7 +52,6 @@
                   "start": 765,
                   "end": 780,
                   "id": null,
-                  "expression": false,
                   "generator": true,
                   "async": false,
                   "params": [],
@@ -60,7 +60,8 @@
                     "start": 778,
                     "end": 780,
                     "body": []
-                  }
+                  },
+                  "expression": false
                 }
               ],
               "optional": false
@@ -71,12 +72,11 @@
               "end": 793,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -103,21 +103,17 @@
             "type": "MethodDefinition",
             "start": 837,
             "end": 853,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 837,
               "end": 848,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 848,
               "end": 853,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -126,8 +122,12 @@
                 "start": 851,
                 "end": 853,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -156,8 +156,8 @@
             "end": 870,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -171,7 +171,6 @@
             "start": 887,
             "end": 915,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -198,7 +197,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -229,21 +229,17 @@
             "type": "MethodDefinition",
             "start": 960,
             "end": 992,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 960,
               "end": 971,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 971,
               "end": 992,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -270,8 +266,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -280,6 +280,7 @@
       "type": "VariableDeclaration",
       "start": 996,
       "end": 1016,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -304,8 +305,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",

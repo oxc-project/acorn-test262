@@ -23,105 +23,101 @@
             "type": "PropertyDefinition",
             "start": 1399,
             "end": 1401,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1399,
               "end": 1400,
               "name": "$"
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false
           },
           {
             "type": "PropertyDefinition",
             "start": 1402,
             "end": 1404,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1402,
               "end": 1403,
               "name": "_"
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false
           },
           {
             "type": "PropertyDefinition",
             "start": 1405,
             "end": 1412,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1405,
               "end": 1411,
               "name": "o"
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false
           },
           {
             "type": "PropertyDefinition",
             "start": 1413,
             "end": 1420,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1413,
               "end": 1419,
               "name": "℘"
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false
           },
           {
             "type": "PropertyDefinition",
             "start": 1421,
             "end": 1434,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1421,
               "end": 1433,
               "name": "ZW_‌_NJ"
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false
           },
           {
             "type": "PropertyDefinition",
             "start": 1435,
             "end": 1447,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1435,
               "end": 1446,
               "name": "ZW_‍_J"
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 1450,
             "end": 1468,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1450,
               "end": 1451,
               "name": "m"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1451,
               "end": 1468,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -143,8 +139,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -153,6 +153,7 @@
       "type": "VariableDeclaration",
       "start": 1475,
       "end": 1491,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -177,8 +178,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -204,8 +204,8 @@
             "end": 1509,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -228,8 +228,8 @@
                 "end": 1513,
                 "name": "m"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -269,8 +269,8 @@
             "end": 1538,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -289,8 +289,8 @@
               "end": 1542,
               "name": "m"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -312,8 +312,8 @@
                 "end": 1555,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -321,8 +321,8 @@
               "end": 1557,
               "name": "m"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         ],
         "optional": false
@@ -348,7 +348,6 @@
             "start": 1570,
             "end": 1615,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 1571,
@@ -377,8 +376,8 @@
                       "end": 1587,
                       "name": "prototype"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -386,8 +385,8 @@
                     "end": 1602,
                     "name": "hasOwnProperty"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -395,8 +394,8 @@
                   "end": 1607,
                   "name": "call"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -414,7 +413,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -458,8 +458,8 @@
               "end": 1705,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -477,9 +477,7 @@
                 "type": "Property",
                 "start": 1716,
                 "end": 1733,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1716,
@@ -493,15 +491,15 @@
                   "value": false,
                   "raw": "false"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1737,
                 "end": 1755,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1737,
@@ -515,15 +513,15 @@
                   "value": true,
                   "raw": "true"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1759,
                 "end": 1773,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1759,
@@ -537,7 +535,9 @@
                   "value": true,
                   "raw": "true"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -570,8 +570,8 @@
             "end": 1783,
             "name": "$"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -607,8 +607,8 @@
             "end": 1792,
             "name": "_"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -644,8 +644,8 @@
             "end": 1806,
             "name": "o"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -681,8 +681,8 @@
             "end": 1820,
             "name": "℘"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -718,8 +718,8 @@
             "end": 1840,
             "name": "ZW_‌_NJ"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -755,8 +755,8 @@
             "end": 1859,
             "name": "ZW_‍_J"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -791,8 +791,8 @@
             "end": 1882,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -811,8 +811,8 @@
               "end": 1886,
               "name": "$"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -849,8 +849,8 @@
             "end": 1908,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -869,8 +869,8 @@
               "end": 1912,
               "name": "_"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -907,8 +907,8 @@
             "end": 1934,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -927,8 +927,8 @@
               "end": 1943,
               "name": "o"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -965,8 +965,8 @@
             "end": 1965,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -985,8 +985,8 @@
               "end": 1974,
               "name": "℘"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1023,8 +1023,8 @@
             "end": 1996,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1043,8 +1043,8 @@
               "end": 2011,
               "name": "ZW_‌_NJ"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1081,8 +1081,8 @@
             "end": 2033,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1101,8 +1101,8 @@
               "end": 2047,
               "name": "ZW_‍_J"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

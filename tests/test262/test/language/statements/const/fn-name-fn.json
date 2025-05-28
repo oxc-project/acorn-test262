@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 608,
       "end": 636,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -28,7 +29,6 @@
               "end": 630,
               "name": "x"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -37,16 +37,17 @@
               "start": 633,
               "end": 635,
               "body": []
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 637,
       "end": 662,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -63,7 +64,6 @@
             "start": 648,
             "end": 661,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -72,11 +72,11 @@
               "start": 659,
               "end": 661,
               "body": []
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -113,8 +113,8 @@
                 "end": 679,
                 "name": "name"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "!==",
             "right": {
@@ -166,9 +166,7 @@
                 "type": "Property",
                 "start": 724,
                 "end": 735,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 724,
@@ -182,15 +180,15 @@
                   "value": "fn",
                   "raw": "'fn'"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 739,
                 "end": 754,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 739,
@@ -204,15 +202,15 @@
                   "value": false,
                   "raw": "false"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 758,
                 "end": 775,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 758,
@@ -226,15 +224,15 @@
                   "value": false,
                   "raw": "false"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 779,
                 "end": 797,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 779,
@@ -248,7 +246,9 @@
                   "value": true,
                   "raw": "true"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }

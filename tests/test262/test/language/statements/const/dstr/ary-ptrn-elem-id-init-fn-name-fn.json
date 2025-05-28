@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1300,
       "end": 1356,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -32,7 +33,6 @@
                   "start": 1312,
                   "end": 1326,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -41,7 +41,8 @@
                     "start": 1324,
                     "end": 1326,
                     "body": []
-                  }
+                  },
+                  "expression": false
                 }
               },
               {
@@ -64,7 +65,6 @@
                     "end": 1344,
                     "name": "x"
                   },
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -73,7 +73,8 @@
                     "start": 1347,
                     "end": 1349,
                     "body": []
-                  }
+                  },
+                  "expression": false
                 }
               }
             ]
@@ -85,8 +86,7 @@
             "elements": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -112,8 +112,8 @@
             "end": 1374,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -132,8 +132,8 @@
               "end": 1382,
               "name": "name"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -170,8 +170,8 @@
             "end": 1410,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -190,8 +190,8 @@
               "end": 1419,
               "name": "name"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

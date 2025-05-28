@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 1056,
             "end": 1086,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 1060,
               "end": 1062,
               "name": "m"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 1062,
               "end": 1086,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -59,28 +55,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 1090,
             "end": 1336,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1090,
               "end": 1108,
               "name": "checkPrivateGetter"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1108,
               "end": 1336,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -113,8 +109,8 @@
                           "end": 1133,
                           "name": "sameValue"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -136,8 +132,8 @@
                               "end": 1153,
                               "name": "hasOwnProperty"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -185,8 +181,8 @@
                           "end": 1189,
                           "name": "sameValue"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -242,8 +238,8 @@
                           "end": 1233,
                           "name": "sameValue"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -265,8 +261,8 @@
                               "end": 1255,
                               "name": "__lookupGetter__"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -313,8 +309,8 @@
                           "end": 1296,
                           "name": "sameValue"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -332,8 +328,8 @@
                             "end": 1304,
                             "name": "m"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         {
                           "type": "Literal",
@@ -359,8 +355,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -369,6 +369,7 @@
       "type": "VariableDeclaration",
       "start": 1340,
       "end": 1356,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -393,8 +394,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -420,8 +420,8 @@
             "end": 1373,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -444,8 +444,8 @@
                 "end": 1394,
                 "name": "checkPrivateGetter"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1479,
       "end": 1493,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -63,18 +63,17 @@
               "end": 1514,
               "name": "iterator"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "FunctionExpression",
           "start": 1518,
           "end": 1560,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -101,7 +100,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -129,8 +129,8 @@
             "end": 1576,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -144,7 +144,6 @@
             "start": 1591,
             "end": 1650,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -161,6 +160,7 @@
                     "type": "VariableDeclaration",
                     "start": 1611,
                     "end": 1625,
+                    "kind": "let",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
@@ -186,8 +186,7 @@
                           "name": "iter"
                         }
                       }
-                    ],
-                    "kind": "let"
+                    ]
                   },
                   "test": null,
                   "update": null,
@@ -206,7 +205,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

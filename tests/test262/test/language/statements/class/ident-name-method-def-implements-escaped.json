@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 935,
             "end": 967,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 935,
               "end": 950,
               "name": "implements"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 950,
               "end": 967,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -59,8 +55,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -69,6 +69,7 @@
       "type": "VariableDeclaration",
       "start": 971,
       "end": 989,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -93,8 +94,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -120,8 +120,8 @@
             "end": 1007,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -145,8 +145,8 @@
                 "value": "implements",
                 "raw": "'implements'"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "arguments": [],
             "optional": false

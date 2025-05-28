@@ -28,21 +28,17 @@
             "type": "MethodDefinition",
             "start": 726,
             "end": 742,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 726,
               "end": 737,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 737,
               "end": 742,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -51,8 +47,12 @@
                 "start": 740,
                 "end": 742,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -81,8 +81,8 @@
             "end": 759,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -96,7 +96,6 @@
             "start": 776,
             "end": 802,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -123,7 +122,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -154,21 +154,17 @@
             "type": "MethodDefinition",
             "start": 835,
             "end": 867,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 835,
               "end": 846,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 846,
               "end": 867,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -195,8 +191,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           }
         ]
       }

@@ -27,8 +27,8 @@
             "end": 1882,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 1894,
             "end": 1957,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -59,6 +58,7 @@
                     "type": "VariableDeclaration",
                     "start": 1914,
                     "end": 1932,
+                    "kind": "const",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
@@ -78,9 +78,7 @@
                                   "type": "Property",
                                   "start": 1923,
                                   "end": 1924,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 1923,
@@ -93,7 +91,9 @@
                                     "end": 1924,
                                     "name": "x"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 }
                               ]
                             }
@@ -106,8 +106,7 @@
                           "elements": []
                         }
                       }
-                    ],
-                    "kind": "const"
+                    ]
                   },
                   "test": null,
                   "update": null,
@@ -126,7 +125,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 233,
       "end": 247,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -76,8 +76,8 @@
               "end": 270,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -85,8 +85,8 @@
             "end": 272,
             "name": "x"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -122,21 +122,17 @@
             "type": "MethodDefinition",
             "start": 302,
             "end": 416,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 302,
               "end": 313,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 313,
               "end": 416,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -204,8 +200,8 @@
                           "end": 364,
                           "name": "sameValue"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -223,8 +219,8 @@
                             "end": 372,
                             "name": "x"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         {
                           "type": "Literal",
@@ -245,8 +241,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -292,8 +292,8 @@
             "end": 443,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -27,8 +27,8 @@
             "end": 1651,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 1666,
             "end": 1779,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -59,6 +58,7 @@
                     "type": "VariableDeclaration",
                     "start": 1686,
                     "end": 1754,
+                    "kind": "let",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
@@ -92,7 +92,6 @@
                                     "start": 1696,
                                     "end": 1736,
                                     "id": null,
-                                    "expression": false,
                                     "generator": false,
                                     "async": false,
                                     "params": [],
@@ -119,7 +118,8 @@
                                           }
                                         }
                                       ]
-                                    }
+                                    },
+                                    "expression": false
                                   }
                                 },
                                 "arguments": [],
@@ -142,8 +142,7 @@
                           ]
                         }
                       }
-                    ],
-                    "kind": "let"
+                    ]
                   },
                   "test": null,
                   "update": null,
@@ -162,7 +161,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

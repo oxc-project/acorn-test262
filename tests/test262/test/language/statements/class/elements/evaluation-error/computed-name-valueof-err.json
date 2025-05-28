@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1747,
       "end": 1842,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 1761,
                 "end": 1780,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1761,
@@ -42,15 +41,15 @@
                   "end": 1780,
                   "name": "undefined"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1784,
                 "end": 1839,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1784,
@@ -62,7 +61,6 @@
                   "start": 1793,
                   "end": 1839,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -89,15 +87,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -109,7 +109,6 @@
         "end": 1863,
         "name": "evaluate"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -138,21 +137,22 @@
                   "type": "PropertyDefinition",
                   "start": 1884,
                   "end": 1889,
-                  "static": false,
-                  "computed": true,
                   "key": {
                     "type": "Identifier",
                     "start": 1885,
                     "end": 1888,
                     "name": "obj"
                   },
-                  "value": null
+                  "value": null,
+                  "computed": true,
+                  "static": false
                 }
               ]
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -178,8 +178,8 @@
             "end": 1910,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

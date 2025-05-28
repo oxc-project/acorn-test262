@@ -13,7 +13,6 @@
         "end": 1508,
         "name": "thrower"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -40,7 +39,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -66,8 +66,8 @@
             "end": 1557,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -81,7 +81,6 @@
             "start": 1572,
             "end": 1644,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -98,6 +97,7 @@
                     "type": "VariableDeclaration",
                     "start": 1592,
                     "end": 1619,
+                    "kind": "let",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
@@ -112,9 +112,7 @@
                               "type": "Property",
                               "start": 1598,
                               "end": 1612,
-                              "method": false,
-                              "shorthand": false,
-                              "computed": true,
+                              "kind": "init",
                               "key": {
                                 "type": "CallExpression",
                                 "start": 1599,
@@ -134,7 +132,9 @@
                                 "end": 1612,
                                 "name": "x"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": false,
+                              "computed": true
                             }
                           ]
                         },
@@ -145,8 +145,7 @@
                           "properties": []
                         }
                       }
-                    ],
-                    "kind": "let"
+                    ]
                   },
                   "test": null,
                   "update": null,
@@ -165,7 +164,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

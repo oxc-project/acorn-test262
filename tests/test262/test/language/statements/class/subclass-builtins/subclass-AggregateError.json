@@ -30,6 +30,7 @@
       "type": "VariableDeclaration",
       "start": 365,
       "end": 394,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -61,8 +62,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",

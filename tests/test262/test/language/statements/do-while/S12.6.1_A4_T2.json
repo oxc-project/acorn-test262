@@ -7,6 +7,12 @@
       "type": "LabeledStatement",
       "start": 347,
       "end": 615,
+      "label": {
+        "type": "Identifier",
+        "start": 347,
+        "end": 353,
+        "name": "do_out"
+      },
       "body": {
         "type": "DoWhileStatement",
         "start": 356,
@@ -20,6 +26,7 @@
               "type": "VariableDeclaration",
               "start": 365,
               "end": 401,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -39,13 +46,18 @@
                     "raw": "\"black\""
                   }
                 }
-              ],
-              "kind": "var"
+              ]
             },
             {
               "type": "LabeledStatement",
               "start": 406,
               "end": 551,
+              "label": {
+                "type": "Identifier",
+                "start": 406,
+                "end": 411,
+                "name": "do_in"
+              },
               "body": {
                 "type": "DoWhileStatement",
                 "start": 414,
@@ -59,6 +71,7 @@
                       "type": "VariableDeclaration",
                       "start": 427,
                       "end": 466,
+                      "kind": "var",
                       "declarations": [
                         {
                           "type": "VariableDeclarator",
@@ -78,8 +91,7 @@
                             "raw": "\"hole\""
                           }
                         }
-                      ],
-                      "kind": "var"
+                      ]
                     },
                     {
                       "type": "BreakStatement",
@@ -96,6 +108,7 @@
                       "type": "VariableDeclaration",
                       "start": 497,
                       "end": 534,
+                      "kind": "var",
                       "declarations": [
                         {
                           "type": "VariableDeclarator",
@@ -115,8 +128,7 @@
                             "raw": "\"sun\""
                           }
                         }
-                      ],
-                      "kind": "var"
+                      ]
                     }
                   ]
                 },
@@ -127,18 +139,13 @@
                   "value": 0,
                   "raw": "0"
                 }
-              },
-              "label": {
-                "type": "Identifier",
-                "start": 406,
-                "end": 411,
-                "name": "do_in"
               }
             },
             {
               "type": "VariableDeclaration",
               "start": 556,
               "end": 600,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -158,8 +165,7 @@
                     "raw": "\"won't you come\""
                   }
                 }
-              ],
-              "kind": "var"
+              ]
             }
           ]
         },
@@ -183,12 +189,6 @@
             "raw": "1"
           }
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 347,
-        "end": 353,
-        "name": "do_out"
       }
     },
     {
@@ -200,7 +200,6 @@
         "start": 710,
         "end": 818,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 711,
@@ -237,13 +236,13 @@
                 "start": 766,
                 "end": 793,
                 "operator": "!",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 767,
                   "end": 793,
                   "name": "__in__do__IN__after__break"
-                }
+                },
+                "prefix": true
               }
             },
             "operator": "&&",
@@ -254,7 +253,8 @@
               "name": "__in__do__after__break"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -324,13 +324,13 @@
                           "start": 1144,
                           "end": 1171,
                           "operator": "!",
-                          "prefix": true,
                           "argument": {
                             "type": "Identifier",
                             "start": 1145,
                             "end": 1171,
                             "name": "__in__do__IN__after__break"
-                          }
+                          },
+                          "prefix": true
                         }
                       },
                       "operator": "&&",

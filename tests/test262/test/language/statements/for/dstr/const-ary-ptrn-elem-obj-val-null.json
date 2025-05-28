@@ -27,8 +27,8 @@
             "end": 1871,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 1883,
             "end": 1950,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -59,6 +58,7 @@
                     "type": "VariableDeclaration",
                     "start": 1903,
                     "end": 1925,
+                    "kind": "const",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
@@ -78,9 +78,7 @@
                                   "type": "Property",
                                   "start": 1912,
                                   "end": 1913,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 1912,
@@ -93,7 +91,9 @@
                                     "end": 1913,
                                     "name": "x"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 }
                               ]
                             }
@@ -114,8 +114,7 @@
                           ]
                         }
                       }
-                    ],
-                    "kind": "const"
+                    ]
                   },
                   "test": null,
                   "update": null,
@@ -134,7 +133,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

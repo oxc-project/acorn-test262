@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 346,
       "end": 380,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -56,8 +57,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -130,7 +130,6 @@
         "start": 571,
         "end": 705,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 572,
@@ -175,8 +174,8 @@
                           "end": 594,
                           "name": "indexOf"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -195,14 +194,14 @@
                       "start": 602,
                       "end": 604,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 603,
                         "end": 604,
                         "value": 1,
                         "raw": "1"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 },
@@ -235,8 +234,8 @@
                           "end": 627,
                           "name": "indexOf"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -255,14 +254,14 @@
                       "start": 635,
                       "end": 637,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 636,
                         "end": 637,
                         "value": 1,
                         "raw": "1"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -296,8 +295,8 @@
                         "end": 660,
                         "name": "indexOf"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -316,14 +315,14 @@
                     "start": 668,
                     "end": 670,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 669,
                       "end": 670,
                       "value": 1,
                       "raw": "1"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               }
@@ -357,8 +356,8 @@
                       "end": 692,
                       "name": "indexOf"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -377,19 +376,20 @@
                   "start": 700,
                   "end": 702,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 701,
                     "end": 702,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               }
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

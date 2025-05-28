@@ -27,8 +27,8 @@
             "end": 245,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 262,
             "end": 302,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -85,7 +84,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

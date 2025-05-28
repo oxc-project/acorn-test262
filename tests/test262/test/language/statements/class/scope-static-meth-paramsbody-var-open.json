@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 892,
       "end": 910,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "'outside'"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 911,
       "end": 938,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -58,8 +59,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -81,21 +81,17 @@
             "type": "MethodDefinition",
             "start": 952,
             "end": 1074,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 959,
               "end": 960,
               "name": "m"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 960,
               "end": 1074,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -125,7 +121,6 @@
                       "start": 979,
                       "end": 1003,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -146,7 +141,8 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     }
                   }
                 }
@@ -160,6 +156,7 @@
                     "type": "VariableDeclaration",
                     "start": 1011,
                     "end": 1028,
+                    "kind": "var",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
@@ -179,8 +176,7 @@
                           "raw": "'inside'"
                         }
                       }
-                    ],
-                    "kind": "var"
+                    ]
                   },
                   {
                     "type": "ExpressionStatement",
@@ -202,7 +198,6 @@
                         "start": 1045,
                         "end": 1069,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -223,13 +218,18 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           }
         ]
       }
@@ -258,8 +258,8 @@
             "end": 1080,
             "name": "m"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -289,8 +289,8 @@
             "end": 1101,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -341,8 +341,8 @@
             "end": 1145,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

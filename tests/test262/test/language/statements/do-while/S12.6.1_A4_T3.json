@@ -7,6 +7,12 @@
       "type": "LabeledStatement",
       "start": 347,
       "end": 607,
+      "label": {
+        "type": "Identifier",
+        "start": 347,
+        "end": 353,
+        "name": "do_out"
+      },
       "body": {
         "type": "DoWhileStatement",
         "start": 356,
@@ -20,6 +26,7 @@
               "type": "VariableDeclaration",
               "start": 365,
               "end": 400,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -39,13 +46,18 @@
                     "raw": "\"once\""
                   }
                 }
-              ],
-              "kind": "var"
+              ]
             },
             {
               "type": "LabeledStatement",
               "start": 405,
               "end": 548,
+              "label": {
+                "type": "Identifier",
+                "start": 405,
+                "end": 410,
+                "name": "do_in"
+              },
               "body": {
                 "type": "DoWhileStatement",
                 "start": 413,
@@ -59,6 +71,7 @@
                       "type": "VariableDeclaration",
                       "start": 426,
                       "end": 463,
+                      "kind": "var",
                       "declarations": [
                         {
                           "type": "VariableDeclarator",
@@ -78,8 +91,7 @@
                             "raw": "\"in\""
                           }
                         }
-                      ],
-                      "kind": "var"
+                      ]
                     },
                     {
                       "type": "BreakStatement",
@@ -96,6 +108,7 @@
                       "type": "VariableDeclaration",
                       "start": 494,
                       "end": 531,
+                      "kind": "var",
                       "declarations": [
                         {
                           "type": "VariableDeclarator",
@@ -115,8 +128,7 @@
                             "raw": "\"the\""
                           }
                         }
-                      ],
-                      "kind": "var"
+                      ]
                     }
                   ]
                 },
@@ -127,18 +139,13 @@
                   "value": 0,
                   "raw": "0"
                 }
-              },
-              "label": {
-                "type": "Identifier",
-                "start": 405,
-                "end": 410,
-                "name": "do_in"
               }
             },
             {
               "type": "VariableDeclaration",
               "start": 553,
               "end": 591,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -158,8 +165,7 @@
                     "raw": "\"lifetime\""
                   }
                 }
-              ],
-              "kind": "var"
+              ]
             }
           ]
         },
@@ -183,12 +189,6 @@
             "raw": "1"
           }
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 347,
-        "end": 353,
-        "name": "do_out"
       }
     },
     {
@@ -200,7 +200,6 @@
         "start": 702,
         "end": 811,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 703,
@@ -237,13 +236,13 @@
                 "start": 758,
                 "end": 785,
                 "operator": "!",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 759,
                   "end": 785,
                   "name": "__in__do__IN__after__break"
-                }
+                },
+                "prefix": true
               }
             },
             "operator": "&&",
@@ -252,16 +251,17 @@
               "start": 787,
               "end": 810,
               "operator": "!",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 788,
                 "end": 810,
                 "name": "__in__do__after__break"
-              }
+              },
+              "prefix": true
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -331,13 +331,13 @@
                           "start": 1139,
                           "end": 1166,
                           "operator": "!",
-                          "prefix": true,
                           "argument": {
                             "type": "Identifier",
                             "start": 1140,
                             "end": 1166,
                             "name": "__in__do__IN__after__break"
-                          }
+                          },
+                          "prefix": true
                         }
                       },
                       "operator": "&&",
@@ -346,13 +346,13 @@
                         "start": 1168,
                         "end": 1191,
                         "operator": "!",
-                        "prefix": true,
                         "argument": {
                           "type": "Identifier",
                           "start": 1169,
                           "end": 1191,
                           "name": "__in__do__after__break"
-                        }
+                        },
+                        "prefix": true
                       }
                     }
                   }

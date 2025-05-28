@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1068,
       "end": 1084,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -53,8 +53,8 @@
             "end": 1099,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -68,7 +68,6 @@
             "start": 1116,
             "end": 1192,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -165,7 +164,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -195,8 +195,8 @@
             "end": 1212,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -220,6 +220,7 @@
       "type": "VariableDeclaration",
       "start": 1227,
       "end": 1233,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -233,8 +234,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "let"
+      ]
     }
   ],
   "sourceType": "script",

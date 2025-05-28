@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 208,
       "end": 222,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "5"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -37,6 +37,7 @@
         "type": "VariableDeclaration",
         "start": 228,
         "end": 239,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -56,8 +57,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": null,
       "update": null,

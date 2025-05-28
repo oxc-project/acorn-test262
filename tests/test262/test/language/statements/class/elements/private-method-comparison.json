@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 1265,
             "end": 1291,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 1265,
               "end": 1267,
               "name": "m"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1267,
               "end": 1291,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -59,28 +55,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 1299,
             "end": 1345,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1299,
               "end": 1315,
               "name": "getPrivateMethod"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1315,
               "end": 1345,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -108,13 +104,17 @@
                         "end": 1340,
                         "name": "m"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -123,6 +123,7 @@
       "type": "VariableDeclaration",
       "start": 1350,
       "end": 1367,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -147,13 +148,13 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1368,
       "end": 1385,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -178,8 +179,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -205,8 +205,8 @@
             "end": 1403,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -229,8 +229,8 @@
                 "end": 1423,
                 "name": "getPrivateMethod"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -255,8 +255,8 @@
                 "end": 1446,
                 "name": "getPrivateMethod"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

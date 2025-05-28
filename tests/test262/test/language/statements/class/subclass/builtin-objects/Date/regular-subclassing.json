@@ -30,6 +30,7 @@
       "type": "VariableDeclaration",
       "start": 748,
       "end": 783,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -83,8 +84,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -110,8 +110,8 @@
             "end": 800,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -134,8 +134,8 @@
                 "end": 815,
                 "name": "getFullYear"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -175,8 +175,8 @@
             "end": 842,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -199,8 +199,8 @@
                 "end": 854,
                 "name": "getMonth"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -240,8 +240,8 @@
             "end": 879,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -264,8 +264,8 @@
                 "end": 890,
                 "name": "getDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -285,6 +285,7 @@
       "type": "VariableDeclaration",
       "start": 900,
       "end": 931,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -312,20 +313,19 @@
                 "start": 915,
                 "end": 929,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 916,
                   "end": 929,
                   "value": 3474558000000,
                   "raw": "3474558000000"
-                }
+                },
+                "prefix": true
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -351,8 +351,8 @@
             "end": 948,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -375,8 +375,8 @@
                 "end": 966,
                 "name": "getUTCFullYear"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -416,8 +416,8 @@
             "end": 993,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -440,8 +440,8 @@
                 "end": 1008,
                 "name": "getUTCMonth"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -481,8 +481,8 @@
             "end": 1033,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -505,8 +505,8 @@
                 "end": 1047,
                 "name": "getUTCDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -526,6 +526,7 @@
       "type": "VariableDeclaration",
       "start": 1057,
       "end": 1074,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -550,13 +551,13 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1075,
       "end": 1095,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -581,8 +582,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -608,8 +608,8 @@
             "end": 1112,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -632,8 +632,8 @@
                 "end": 1127,
                 "name": "getFullYear"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -658,8 +658,8 @@
                 "end": 1145,
                 "name": "getFullYear"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -692,8 +692,8 @@
             "end": 1166,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -716,8 +716,8 @@
                 "end": 1178,
                 "name": "getMonth"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -742,8 +742,8 @@
                 "end": 1193,
                 "name": "getMonth"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -776,8 +776,8 @@
             "end": 1214,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -800,8 +800,8 @@
                 "end": 1225,
                 "name": "getDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -826,8 +826,8 @@
                 "end": 1239,
                 "name": "getDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

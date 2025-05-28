@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 226,
       "end": 240,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,18 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "LabeledStatement",
       "start": 241,
       "end": 369,
+      "label": {
+        "type": "Identifier",
+        "start": 241,
+        "end": 246,
+        "name": "outer"
+      },
       "body": {
         "type": "ForStatement",
         "start": 248,
@@ -41,6 +47,7 @@
           "type": "VariableDeclaration",
           "start": 253,
           "end": 262,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -60,8 +67,7 @@
                 "raw": "0"
               }
             }
-          ],
-          "kind": "let"
+          ]
         },
         "test": {
           "type": "BinaryExpression",
@@ -114,6 +120,7 @@
                 "type": "VariableDeclaration",
                 "start": 289,
                 "end": 298,
+                "kind": "let",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
@@ -133,8 +140,7 @@
                       "raw": "0"
                     }
                   }
-                ],
-                "kind": "let"
+                ]
               },
               "test": {
                 "type": "BinaryExpression",
@@ -238,12 +244,6 @@
             }
           ]
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 241,
-        "end": 246,
-        "name": "outer"
       }
     },
     {
@@ -270,8 +270,8 @@
             "end": 386,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

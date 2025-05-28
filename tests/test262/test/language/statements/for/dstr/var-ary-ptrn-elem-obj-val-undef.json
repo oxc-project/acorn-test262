@@ -27,8 +27,8 @@
             "end": 1735,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 1747,
             "end": 1821,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -59,6 +58,7 @@
                     "type": "VariableDeclaration",
                     "start": 1767,
                     "end": 1783,
+                    "kind": "var",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
@@ -78,9 +78,7 @@
                                   "type": "Property",
                                   "start": 1774,
                                   "end": 1775,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 1774,
@@ -93,7 +91,9 @@
                                     "end": 1775,
                                     "name": "x"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 }
                               ]
                             }
@@ -106,8 +106,7 @@
                           "elements": []
                         }
                       }
-                    ],
-                    "kind": "var"
+                    ]
                   },
                   "test": {
                     "type": "BinaryExpression",
@@ -144,7 +143,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

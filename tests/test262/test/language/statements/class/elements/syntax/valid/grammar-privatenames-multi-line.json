@@ -23,29 +23,29 @@
             "type": "PropertyDefinition",
             "start": 640,
             "end": 642,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 640,
               "end": 642,
               "name": "x"
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false
           },
           {
             "type": "PropertyDefinition",
             "start": 645,
             "end": 647,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 645,
               "end": 647,
               "name": "y"
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false
           }
         ]
       }

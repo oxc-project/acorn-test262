@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1735,
       "end": 1753,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -38,6 +38,7 @@
         "type": "VariableDeclaration",
         "start": 1760,
         "end": 1819,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -67,7 +68,6 @@
                       "start": 1774,
                       "end": 1788,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -76,7 +76,8 @@
                         "start": 1786,
                         "end": 1788,
                         "body": []
-                      }
+                      },
+                      "expression": false
                     }
                   }
                 },
@@ -111,7 +112,6 @@
                           "start": 1804,
                           "end": 1817,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -120,7 +120,8 @@
                             "start": 1815,
                             "end": 1817,
                             "body": []
-                          }
+                          },
+                          "expression": false
                         }
                       ]
                     }
@@ -130,8 +131,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -175,8 +175,8 @@
                   "end": 1849,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -195,8 +195,8 @@
                     "end": 1860,
                     "name": "name"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -233,8 +233,8 @@
                   "end": 1893,
                   "name": "notSameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -253,8 +253,8 @@
                     "end": 1905,
                     "name": "name"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -318,8 +318,8 @@
             "end": 1956,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

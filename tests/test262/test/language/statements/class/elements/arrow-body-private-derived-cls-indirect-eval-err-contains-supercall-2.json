@@ -46,8 +46,6 @@
             "type": "PropertyDefinition",
             "start": 818,
             "end": 853,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 818,
@@ -93,7 +91,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -122,8 +122,8 @@
             "end": 870,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -137,7 +137,6 @@
             "start": 884,
             "end": 913,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -176,15 +175,16 @@
                         "end": 908,
                         "name": "x"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

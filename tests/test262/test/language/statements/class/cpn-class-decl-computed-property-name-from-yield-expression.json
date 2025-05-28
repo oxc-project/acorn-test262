@@ -13,7 +13,6 @@
         "end": 891,
         "name": "g"
       },
-      "expression": false,
       "generator": true,
       "async": false,
       "params": [],
@@ -42,8 +41,6 @@
                   "type": "MethodDefinition",
                   "start": 910,
                   "end": 941,
-                  "static": false,
-                  "computed": true,
                   "key": {
                     "type": "YieldExpression",
                     "start": 911,
@@ -57,13 +54,11 @@
                       "raw": "9"
                     }
                   },
-                  "kind": "method",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 919,
                     "end": 941,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -85,15 +80,17 @@
                           }
                         }
                       ]
-                    }
-                  }
+                    },
+                    "expression": false
+                  },
+                  "kind": "method",
+                  "computed": true,
+                  "static": false
                 },
                 {
                   "type": "MethodDefinition",
                   "start": 944,
                   "end": 982,
-                  "static": true,
-                  "computed": true,
                   "key": {
                     "type": "YieldExpression",
                     "start": 952,
@@ -107,13 +104,11 @@
                       "raw": "9"
                     }
                   },
-                  "kind": "method",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 960,
                     "end": 982,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -135,8 +130,12 @@
                           }
                         }
                       ]
-                    }
-                  }
+                    },
+                    "expression": false
+                  },
+                  "kind": "method",
+                  "computed": true,
+                  "static": true
                 }
               ]
             }
@@ -150,6 +149,7 @@
             "type": "VariableDeclaration",
             "start": 987,
             "end": 1003,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -174,8 +174,7 @@
                   "arguments": []
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -201,8 +200,8 @@
                   "end": 1021,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -232,8 +231,8 @@
                         "raw": "9"
                       }
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   },
                   "arguments": [],
                   "optional": false
@@ -273,8 +272,8 @@
                   "end": 1062,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -304,8 +303,8 @@
                         "raw": "9"
                       }
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   },
                   "arguments": [],
                   "optional": false
@@ -345,8 +344,8 @@
                   "end": 1103,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -390,8 +389,8 @@
                       ],
                       "optional": false
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   },
                   "arguments": [],
                   "optional": false
@@ -431,8 +430,8 @@
                   "end": 1152,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -476,8 +475,8 @@
                       ],
                       "optional": false
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   },
                   "arguments": [],
                   "optional": false
@@ -494,12 +493,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 1188,
       "end": 1203,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -525,8 +526,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "WhileStatement",
@@ -560,8 +560,8 @@
                 "end": 1220,
                 "name": "next"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -572,8 +572,8 @@
             "end": 1227,
             "name": "done"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "===",
         "right": {

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1038,
       "end": 1059,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -72,8 +72,6 @@
             "type": "PropertyDefinition",
             "start": 1093,
             "end": 1138,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 1093,
@@ -100,27 +98,25 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 1141,
             "end": 1165,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1141,
               "end": 1142,
               "name": "x"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1142,
               "end": 1165,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -152,16 +148,20 @@
                           "end": 1158,
                           "name": "x"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [],
                       "optional": false
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -196,8 +196,8 @@
             "end": 1178,
             "name": "x"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -227,8 +227,8 @@
             "end": 1199,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

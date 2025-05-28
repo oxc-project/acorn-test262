@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 830,
       "end": 840,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -43,21 +43,17 @@
             "type": "MethodDefinition",
             "start": 949,
             "end": 1037,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 960,
               "end": 961,
               "name": "a"
             },
-            "kind": "set",
             "value": {
               "type": "FunctionExpression",
               "start": 961,
               "end": 1037,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -89,6 +85,7 @@
                     "type": "VariableDeclaration",
                     "start": 978,
                     "end": 995,
+                    "kind": "var",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
@@ -108,8 +105,7 @@
                           "raw": "'inside'"
                         }
                       }
-                    ],
-                    "kind": "var"
+                    ]
                   },
                   {
                     "type": "ExpressionStatement",
@@ -131,7 +127,6 @@
                         "start": 1008,
                         "end": 1032,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -152,13 +147,18 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "set",
+            "computed": false,
+            "static": true
           }
         ]
       }
@@ -188,8 +188,8 @@
             "end": 1043,
             "name": "a"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -204,6 +204,7 @@
       "type": "VariableDeclaration",
       "start": 1053,
       "end": 1071,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -223,8 +224,7 @@
             "raw": "'outside'"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -250,8 +250,8 @@
             "end": 1089,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -302,8 +302,8 @@
             "end": 1126,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

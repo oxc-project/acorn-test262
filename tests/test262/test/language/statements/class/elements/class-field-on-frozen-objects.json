@@ -23,8 +23,6 @@
             "type": "PropertyDefinition",
             "start": 624,
             "end": 648,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 624,
@@ -51,8 +49,8 @@
                   "end": 641,
                   "name": "freeze"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -62,14 +60,14 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "computed": false,
+            "static": false
           },
           {
             "type": "PropertyDefinition",
             "start": 651,
             "end": 665,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 651,
@@ -82,7 +80,9 @@
               "end": 664,
               "value": "Test262",
               "raw": "\"Test262\""
-            }
+            },
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -111,8 +111,8 @@
             "end": 682,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -126,7 +126,6 @@
             "start": 694,
             "end": 722,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -153,7 +152,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

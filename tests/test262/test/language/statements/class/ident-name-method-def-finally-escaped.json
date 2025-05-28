@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 915,
             "end": 944,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 915,
               "end": 927,
               "name": "finally"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 927,
               "end": 944,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -59,8 +55,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -69,6 +69,7 @@
       "type": "VariableDeclaration",
       "start": 948,
       "end": 966,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -93,8 +94,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -120,8 +120,8 @@
             "end": 984,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -145,8 +145,8 @@
                 "value": "finally",
                 "raw": "'finally'"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "arguments": [],
             "optional": false

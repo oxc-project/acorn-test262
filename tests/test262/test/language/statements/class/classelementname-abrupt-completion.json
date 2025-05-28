@@ -13,7 +13,6 @@
         "end": 1413,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -40,7 +39,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -66,8 +66,8 @@
             "end": 1462,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -81,7 +81,6 @@
             "start": 1477,
             "end": 1517,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -110,8 +109,6 @@
                         "type": "PropertyDefinition",
                         "start": 1506,
                         "end": 1511,
-                        "static": false,
-                        "computed": true,
                         "key": {
                           "type": "CallExpression",
                           "start": 1507,
@@ -125,13 +122,16 @@
                           "arguments": [],
                           "optional": false
                         },
-                        "value": null
+                        "value": null,
+                        "computed": true,
+                        "static": false
                       }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

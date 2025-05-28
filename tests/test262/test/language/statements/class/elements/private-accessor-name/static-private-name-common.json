@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1334,
       "end": 1348,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -43,21 +43,17 @@
             "type": "MethodDefinition",
             "start": 1362,
             "end": 1408,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 1373,
               "end": 1381,
               "name": "test262"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 1381,
               "end": 1408,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -79,28 +75,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": true
           },
           {
             "type": "MethodDefinition",
             "start": 1411,
             "end": 1460,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 1422,
               "end": 1430,
               "name": "test262"
             },
-            "kind": "set",
             "value": {
               "type": "FunctionExpression",
               "start": 1430,
               "end": 1460,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -140,28 +136,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "set",
+            "computed": false,
+            "static": true
           },
           {
             "type": "MethodDefinition",
             "start": 1464,
             "end": 1524,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1471,
               "end": 1490,
               "name": "getPrivateReference"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1490,
               "end": 1524,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -189,33 +185,33 @@
                         "end": 1519,
                         "name": "test262"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           },
           {
             "type": "MethodDefinition",
             "start": 1528,
             "end": 1594,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1535,
               "end": 1554,
               "name": "setPrivateReference"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1554,
               "end": 1594,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -255,8 +251,8 @@
                           "end": 1581,
                           "name": "test262"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "right": {
                         "type": "Identifier",
@@ -267,8 +263,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           }
         ]
       }
@@ -297,8 +297,8 @@
             "end": 1614,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -321,8 +321,8 @@
                 "end": 1636,
                 "name": "getPrivateReference"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -362,8 +362,8 @@
             "end": 1677,
             "name": "setPrivateReference"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -401,8 +401,8 @@
             "end": 1709,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

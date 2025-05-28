@@ -19,11 +19,19 @@
           "type": "SwitchCase",
           "start": 294,
           "end": 317,
+          "test": {
+            "type": "Literal",
+            "start": 299,
+            "end": 303,
+            "value": true,
+            "raw": "true"
+          },
           "consequent": [
             {
               "type": "VariableDeclaration",
               "start": 305,
               "end": 317,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -43,17 +51,9 @@
                     "raw": "1"
                   }
                 }
-              ],
-              "kind": "const"
+              ]
             }
-          ],
-          "test": {
-            "type": "Literal",
-            "start": 299,
-            "end": 303,
-            "value": true,
-            "raw": "true"
-          }
+          ]
         }
       ]
     }

@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 1751,
             "end": 1777,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 1751,
               "end": 1753,
               "name": "m"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1753,
               "end": 1777,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -59,28 +55,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 1782,
             "end": 1831,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1782,
               "end": 1793,
               "name": "getWithEval"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1793,
               "end": 1831,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -116,8 +112,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -142,21 +142,17 @@
             "type": "MethodDefinition",
             "start": 1847,
             "end": 1881,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 1847,
               "end": 1849,
               "name": "m"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1849,
               "end": 1881,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -183,8 +179,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -193,6 +193,7 @@
       "type": "VariableDeclaration",
       "start": 1886,
       "end": 1902,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -217,8 +218,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -244,8 +244,8 @@
             "end": 1919,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -268,8 +268,8 @@
                 "end": 1933,
                 "name": "getWithEval"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -289,6 +289,7 @@
       "type": "VariableDeclaration",
       "start": 1950,
       "end": 1966,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -313,8 +314,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -340,8 +340,8 @@
             "end": 1980,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -355,7 +355,6 @@
             "start": 1992,
             "end": 2031,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -392,8 +391,8 @@
                           "end": 2020,
                           "name": "getWithEval"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -401,8 +400,8 @@
                         "end": 2025,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -416,7 +415,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

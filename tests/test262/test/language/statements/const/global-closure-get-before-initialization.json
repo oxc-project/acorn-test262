@@ -13,7 +13,6 @@
         "end": 275,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -47,7 +46,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -73,8 +73,8 @@
             "end": 310,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -88,7 +88,6 @@
             "start": 327,
             "end": 348,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -116,7 +115,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -126,6 +126,7 @@
       "type": "VariableDeclaration",
       "start": 352,
       "end": 364,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -145,8 +146,7 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "const"
+      ]
     }
   ],
   "sourceType": "script",

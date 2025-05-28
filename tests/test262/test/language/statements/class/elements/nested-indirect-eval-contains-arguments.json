@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 592,
       "end": 610,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -49,8 +49,6 @@
             "type": "PropertyDefinition",
             "start": 623,
             "end": 697,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 623,
@@ -61,9 +59,7 @@
               "type": "ArrowFunctionExpression",
               "start": 627,
               "end": 697,
-              "id": null,
               "expression": false,
-              "generator": false,
               "async": false,
               "params": [],
               "body": {
@@ -75,6 +71,7 @@
                     "type": "VariableDeclaration",
                     "start": 639,
                     "end": 677,
+                    "kind": "var",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
@@ -90,9 +87,7 @@
                           "type": "ArrowFunctionExpression",
                           "start": 647,
                           "end": 676,
-                          "id": null,
                           "expression": true,
-                          "generator": false,
                           "async": false,
                           "params": [],
                           "body": {
@@ -134,11 +129,12 @@
                               }
                             ],
                             "optional": false
-                          }
+                          },
+                          "id": null,
+                          "generator": false
                         }
                       }
-                    ],
-                    "kind": "var"
+                    ]
                   },
                   {
                     "type": "ReturnStatement",
@@ -159,8 +155,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "id": null,
+              "generator": false
+            },
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -189,8 +189,8 @@
             "end": 716,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -219,8 +219,8 @@
                 "end": 726,
                 "name": "x"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

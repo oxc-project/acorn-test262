@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 705,
             "end": 716,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 709,
               "end": 711,
               "name": "m"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 711,
               "end": 716,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -46,28 +42,28 @@
                 "start": 714,
                 "end": 716,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 719,
             "end": 731,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 723,
               "end": 725,
               "name": "m"
             },
-            "kind": "set",
             "value": {
               "type": "FunctionExpression",
               "start": 725,
               "end": 731,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -83,8 +79,12 @@
                 "start": 729,
                 "end": 731,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "set",
+            "computed": false,
+            "static": false
           }
         ]
       }

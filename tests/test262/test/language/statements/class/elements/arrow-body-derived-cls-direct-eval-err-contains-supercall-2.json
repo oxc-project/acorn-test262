@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 744,
       "end": 765,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -72,8 +72,6 @@
             "type": "PropertyDefinition",
             "start": 799,
             "end": 845,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 799,
@@ -100,7 +98,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -129,8 +129,8 @@
             "end": 862,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -144,7 +144,6 @@
             "start": 876,
             "end": 905,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -183,15 +182,16 @@
                         "end": 900,
                         "name": "x"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -221,8 +221,8 @@
             "end": 925,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

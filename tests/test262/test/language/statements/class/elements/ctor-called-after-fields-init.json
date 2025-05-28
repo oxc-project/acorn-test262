@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 711,
       "end": 720,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -43,21 +43,17 @@
             "type": "MethodDefinition",
             "start": 735,
             "end": 775,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 735,
               "end": 746,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 746,
               "end": 775,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -96,21 +92,23 @@
                           "end": 770,
                           "name": "foo"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           },
           {
             "type": "PropertyDefinition",
             "start": 778,
             "end": 787,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 778,
@@ -123,7 +121,9 @@
               "end": 786,
               "value": 42,
               "raw": "42"
-            }
+            },
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -132,6 +132,7 @@
       "type": "VariableDeclaration",
       "start": 791,
       "end": 807,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -156,8 +157,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -183,8 +183,8 @@
             "end": 825,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

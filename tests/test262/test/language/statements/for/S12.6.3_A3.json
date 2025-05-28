@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 420,
       "end": 485,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -44,8 +45,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -73,7 +73,6 @@
                   "start": 588,
                   "end": 672,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -131,7 +130,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               },
               "arguments": [],
@@ -150,7 +150,6 @@
                   "start": 678,
                   "end": 713,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -172,7 +171,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               },
               "arguments": [],
@@ -191,7 +191,6 @@
                   "start": 719,
                   "end": 755,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -213,7 +212,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               },
               "arguments": [],
@@ -460,13 +460,13 @@
           "start": 1652,
           "end": 1668,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 1659,
             "end": 1668,
             "name": "__in__for"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -514,13 +514,13 @@
                     "start": 1783,
                     "end": 1799,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 1790,
                       "end": 1799,
                       "name": "__in__for"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]

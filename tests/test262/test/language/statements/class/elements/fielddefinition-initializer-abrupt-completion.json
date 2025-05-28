@@ -13,7 +13,6 @@
         "end": 1546,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -40,7 +39,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ClassDeclaration",
@@ -62,8 +62,6 @@
             "type": "PropertyDefinition",
             "start": 1594,
             "end": 1602,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1594,
@@ -82,7 +80,9 @@
               },
               "arguments": [],
               "optional": false
-            }
+            },
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -111,8 +111,8 @@
             "end": 1619,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -126,7 +126,6 @@
             "start": 1634,
             "end": 1659,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -153,7 +152,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

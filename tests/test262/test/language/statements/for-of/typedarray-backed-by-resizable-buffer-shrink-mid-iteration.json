@@ -13,7 +13,6 @@
         "end": 435,
         "name": "CreateRab"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -39,6 +38,7 @@
             "type": "VariableDeclaration",
             "start": 466,
             "end": 549,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -90,13 +90,13 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 552,
             "end": 581,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -128,8 +128,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ForStatement",
@@ -139,6 +138,7 @@
               "type": "VariableDeclaration",
               "start": 589,
               "end": 598,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -158,8 +158,7 @@
                     "raw": "0"
                   }
                 }
-              ],
-              "kind": "let"
+              ]
             },
             "test": {
               "type": "BinaryExpression",
@@ -199,8 +198,8 @@
                     "end": 647,
                     "name": "BYTES_PER_ELEMENT"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               }
             },
@@ -247,8 +246,8 @@
                         "end": 670,
                         "name": "i"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "right": {
                       "type": "CallExpression",
@@ -306,7 +305,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ForOfStatement",
@@ -317,6 +317,7 @@
         "type": "VariableDeclaration",
         "start": 734,
         "end": 742,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -330,8 +331,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -348,6 +348,7 @@
             "type": "VariableDeclaration",
             "start": 757,
             "end": 780,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -367,13 +368,13 @@
                   "raw": "10"
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 783,
             "end": 800,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -393,13 +394,13 @@
                   "raw": "2"
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 803,
             "end": 867,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -438,18 +439,18 @@
                       "end": 866,
                       "name": "BYTES_PER_ELEMENT"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 870,
             "end": 922,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -488,18 +489,18 @@
                       "end": 921,
                       "name": "BYTES_PER_ELEMENT"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 1168,
             "end": 1214,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -538,13 +539,13 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 1217,
             "end": 1249,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -590,8 +591,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -725,6 +725,7 @@
             "type": "VariableDeclaration",
             "start": 1387,
             "end": 1419,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -770,8 +771,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -797,8 +797,8 @@
                   "end": 1435,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -811,9 +811,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1447,
                   "end": 1508,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -874,7 +872,9 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
@@ -927,6 +927,7 @@
             "type": "VariableDeclaration",
             "start": 1558,
             "end": 1612,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -971,8 +972,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -1106,6 +1106,7 @@
             "type": "VariableDeclaration",
             "start": 1762,
             "end": 1816,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1150,8 +1151,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -1177,8 +1177,8 @@
                   "end": 1832,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1191,9 +1191,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1844,
                   "end": 1917,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -1254,7 +1252,9 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
@@ -1307,6 +1307,7 @@
             "type": "VariableDeclaration",
             "start": 2065,
             "end": 2106,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1338,8 +1339,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -1487,6 +1487,7 @@
             "type": "VariableDeclaration",
             "start": 2366,
             "end": 2432,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1524,8 +1525,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -1551,8 +1551,8 @@
                   "end": 2448,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1565,9 +1565,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 2460,
                   "end": 2562,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -1640,7 +1638,9 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
@@ -1693,6 +1693,7 @@
             "type": "VariableDeclaration",
             "start": 2727,
             "end": 2794,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1730,8 +1731,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",

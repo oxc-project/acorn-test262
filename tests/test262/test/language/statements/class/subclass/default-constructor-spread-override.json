@@ -32,8 +32,8 @@
               "end": 317,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "MemberExpression",
@@ -51,18 +51,17 @@
               "end": 333,
               "name": "iterator"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "FunctionExpression",
           "start": 337,
           "end": 399,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -97,7 +96,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -121,21 +121,17 @@
             "type": "MethodDefinition",
             "start": 417,
             "end": 465,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 417,
               "end": 428,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 428,
               "end": 465,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -175,8 +171,8 @@
                           "end": 452,
                           "name": "value"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "right": {
                         "type": "Identifier",
@@ -187,8 +183,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -220,6 +220,7 @@
       "type": "VariableDeclaration",
       "start": 500,
       "end": 532,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -252,8 +253,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -279,8 +279,8 @@
             "end": 550,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -299,8 +299,8 @@
               "end": 565,
               "name": "value"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

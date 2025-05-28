@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 1768,
             "end": 1803,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1775,
               "end": 1781,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1781,
               "end": 1803,
               "id": null,
-              "expression": false,
               "generator": true,
               "async": true,
               "params": [
@@ -65,8 +61,12 @@
                 "start": 1793,
                 "end": 1803,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -80,6 +80,7 @@
       "type": "VariableDeclaration",
       "start": 1808,
       "end": 1840,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -111,8 +112,8 @@
                 "end": 1832,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -120,12 +121,11 @@
               "end": 1839,
               "name": "method"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -151,8 +151,8 @@
             "end": 1855,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -166,7 +166,6 @@
             "start": 1867,
             "end": 1893,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -194,7 +193,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

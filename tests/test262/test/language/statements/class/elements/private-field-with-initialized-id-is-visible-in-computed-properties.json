@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 2692,
       "end": 2710,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -24,8 +25,7 @@
             "end": 2709
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -51,8 +51,8 @@
             "end": 2724,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -66,7 +66,6 @@
             "start": 2736,
             "end": 2809,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -95,8 +94,6 @@
                         "type": "PropertyDefinition",
                         "start": 2765,
                         "end": 2776,
-                        "static": false,
-                        "computed": false,
                         "key": {
                           "type": "PrivateIdentifier",
                           "start": 2765,
@@ -109,14 +106,14 @@
                           "end": 2775,
                           "value": "foo",
                           "raw": "'foo'"
-                        }
+                        },
+                        "computed": false,
+                        "static": false
                       },
                       {
                         "type": "PropertyDefinition",
                         "start": 2781,
                         "end": 2803,
-                        "static": false,
-                        "computed": true,
                         "key": {
                           "type": "MemberExpression",
                           "start": 2782,
@@ -133,8 +130,8 @@
                             "end": 2789,
                             "name": "f"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "value": {
                           "type": "Literal",
@@ -142,13 +139,16 @@
                           "end": 2802,
                           "value": "Test262",
                           "raw": "'Test262'"
-                        }
+                        },
+                        "computed": true,
+                        "static": false
                       }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1820,
       "end": 1838,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1839,
       "end": 1857,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,13 +53,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1858,
       "end": 1903,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -79,7 +80,6 @@
               "start": 1869,
               "end": 1900,
               "id": null,
-              "expression": false,
               "generator": true,
               "async": false,
               "params": [],
@@ -113,19 +113,20 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1905,
       "end": 1923,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -145,8 +146,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -156,6 +156,7 @@
         "type": "VariableDeclaration",
         "start": 1930,
         "end": 1991,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -185,7 +186,6 @@
                       "start": 1940,
                       "end": 1983,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -230,7 +230,8 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     },
                     "arguments": [],
                     "optional": false
@@ -245,8 +246,7 @@
               "elements": []
             }
           }
-        ],
-        "kind": "let"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -297,8 +297,8 @@
                   "end": 2030,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -342,8 +342,8 @@
                   "end": 2064,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -414,8 +414,8 @@
             "end": 2118,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

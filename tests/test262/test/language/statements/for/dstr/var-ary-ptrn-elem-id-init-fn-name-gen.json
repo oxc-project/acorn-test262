@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1722,
       "end": 1740,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -37,6 +37,7 @@
         "type": "VariableDeclaration",
         "start": 1747,
         "end": 1804,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -62,7 +63,6 @@
                     "start": 1758,
                     "end": 1773,
                     "id": null,
-                    "expression": false,
                     "generator": true,
                     "async": false,
                     "params": [],
@@ -71,7 +71,8 @@
                       "start": 1771,
                       "end": 1773,
                       "body": []
-                    }
+                    },
+                    "expression": false
                   }
                 },
                 {
@@ -94,7 +95,6 @@
                       "end": 1793,
                       "name": "x"
                     },
-                    "expression": false,
                     "generator": true,
                     "async": false,
                     "params": [],
@@ -103,7 +103,8 @@
                       "start": 1796,
                       "end": 1798,
                       "body": []
-                    }
+                    },
+                    "expression": false
                   }
                 }
               ]
@@ -115,8 +116,7 @@
               "elements": []
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -167,8 +167,8 @@
                   "end": 1843,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -187,8 +187,8 @@
                     "end": 1852,
                     "name": "name"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -225,8 +225,8 @@
                   "end": 1883,
                   "name": "notSameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -245,8 +245,8 @@
                     "end": 1893,
                     "name": "name"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -310,8 +310,8 @@
             "end": 1941,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 1056,
             "end": 1082,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 1056,
               "end": 1058,
               "name": "m"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1058,
               "end": 1082,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -59,28 +55,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 1086,
             "end": 1275,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1086,
               "end": 1104,
               "name": "checkPrivateMethod"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1104,
               "end": 1275,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -113,8 +109,8 @@
                           "end": 1129,
                           "name": "sameValue"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -136,8 +132,8 @@
                               "end": 1149,
                               "name": "hasOwnProperty"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -185,8 +181,8 @@
                           "end": 1185,
                           "name": "sameValue"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -242,8 +238,8 @@
                           "end": 1229,
                           "name": "sameValue"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -265,8 +261,8 @@
                               "end": 1237,
                               "name": "m"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [],
                           "optional": false
@@ -295,8 +291,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -305,6 +305,7 @@
       "type": "VariableDeclaration",
       "start": 1279,
       "end": 1295,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -329,8 +330,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -356,8 +356,8 @@
             "end": 1312,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -380,8 +380,8 @@
                 "end": 1333,
                 "name": "checkPrivateMethod"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

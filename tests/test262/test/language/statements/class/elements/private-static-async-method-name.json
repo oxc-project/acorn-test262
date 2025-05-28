@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 2198,
             "end": 2223,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 2211,
               "end": 2218,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 2218,
               "end": 2223,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": true,
               "params": [],
@@ -46,28 +42,28 @@
                 "start": 2221,
                 "end": 2223,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           },
           {
             "type": "MethodDefinition",
             "start": 2228,
             "end": 2284,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 2235,
               "end": 2251,
               "name": "getPrivateMethod"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 2251,
               "end": 2284,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -95,13 +91,17 @@
                         "end": 2279,
                         "name": "method"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           }
         ]
       }
@@ -130,8 +130,8 @@
             "end": 2304,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -158,8 +158,8 @@
                   "end": 2323,
                   "name": "getPrivateMethod"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
@@ -170,8 +170,8 @@
               "end": 2330,
               "name": "name"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

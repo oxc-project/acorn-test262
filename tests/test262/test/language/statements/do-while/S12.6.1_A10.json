@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 363,
       "end": 377,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "DoWhileStatement",
@@ -51,7 +51,6 @@
                 "start": 392,
                 "end": 401,
                 "operator": "typeof",
-                "prefix": true,
                 "argument": {
                   "type": "ParenthesizedExpression",
                   "start": 398,
@@ -62,7 +61,8 @@
                     "end": 400,
                     "name": "f"
                   }
-                }
+                },
+                "prefix": true
               },
               "operator": "===",
               "right": {
@@ -98,14 +98,14 @@
                       "start": 431,
                       "end": 433,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 432,
                         "end": 433,
                         "value": 1,
                         "raw": "1"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 },
@@ -167,7 +167,6 @@
           "end": 523,
           "name": "f"
         },
-        "expression": false,
         "generator": false,
         "async": false,
         "params": [],
@@ -176,7 +175,8 @@
           "start": 525,
           "end": 527,
           "body": []
-        }
+        },
+        "expression": false
       }
     },
     {

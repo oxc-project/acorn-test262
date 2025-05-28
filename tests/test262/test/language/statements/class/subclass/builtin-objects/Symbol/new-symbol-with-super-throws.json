@@ -50,8 +50,8 @@
             "end": 697,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -65,7 +65,6 @@
             "start": 709,
             "end": 735,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -92,7 +91,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -123,21 +123,17 @@
             "type": "MethodDefinition",
             "start": 767,
             "end": 799,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 767,
               "end": 778,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 778,
               "end": 799,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -164,8 +160,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -194,8 +194,8 @@
             "end": 816,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -209,7 +209,6 @@
             "start": 828,
             "end": 854,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -236,7 +235,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

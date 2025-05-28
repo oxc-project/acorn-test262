@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1817,
       "end": 1835,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -37,6 +37,7 @@
         "type": "VariableDeclaration",
         "start": 1842,
         "end": 1909,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -51,9 +52,7 @@
                   "type": "Property",
                   "start": 1848,
                   "end": 1872,
-                  "method": false,
-                  "shorthand": true,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 1848,
@@ -79,7 +78,6 @@
                         "start": 1857,
                         "end": 1871,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -88,19 +86,20 @@
                           "start": 1869,
                           "end": 1871,
                           "body": []
-                        }
+                        },
+                        "expression": false
                       }
                     }
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false
                 },
                 {
                   "type": "Property",
                   "start": 1874,
                   "end": 1901,
-                  "method": false,
-                  "shorthand": true,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 1874,
@@ -138,7 +137,6 @@
                             "start": 1887,
                             "end": 1900,
                             "id": null,
-                            "expression": false,
                             "generator": false,
                             "async": false,
                             "params": [],
@@ -147,13 +145,16 @@
                               "start": 1898,
                               "end": 1900,
                               "body": []
-                            }
+                            },
+                            "expression": false
                           }
                         ]
                       }
                     }
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false
                 }
               ]
             },
@@ -164,8 +165,7 @@
               "properties": []
             }
           }
-        ],
-        "kind": "let"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -216,8 +216,8 @@
                   "end": 1948,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -236,8 +236,8 @@
                     "end": 1959,
                     "name": "name"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -274,8 +274,8 @@
                   "end": 1992,
                   "name": "notSameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -294,8 +294,8 @@
                     "end": 2004,
                     "name": "name"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -359,8 +359,8 @@
             "end": 2055,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

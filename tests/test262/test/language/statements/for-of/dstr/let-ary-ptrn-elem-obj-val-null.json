@@ -27,8 +27,8 @@
             "end": 1838,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 1850,
             "end": 1914,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -60,6 +59,7 @@
                     "type": "VariableDeclaration",
                     "start": 1870,
                     "end": 1881,
+                    "kind": "let",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
@@ -79,9 +79,7 @@
                                   "type": "Property",
                                   "start": 1877,
                                   "end": 1878,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 1877,
@@ -94,7 +92,9 @@
                                     "end": 1878,
                                     "name": "x"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 }
                               ]
                             }
@@ -102,8 +102,7 @@
                         },
                         "init": null
                       }
-                    ],
-                    "kind": "let"
+                    ]
                   },
                   "right": {
                     "type": "ArrayExpression",
@@ -141,7 +140,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

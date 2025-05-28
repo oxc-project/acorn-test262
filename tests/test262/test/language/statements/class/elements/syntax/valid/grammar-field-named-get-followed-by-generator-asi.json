@@ -23,35 +23,31 @@
             "type": "PropertyDefinition",
             "start": 909,
             "end": 912,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 909,
               "end": 912,
               "name": "get"
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 915,
             "end": 922,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 916,
               "end": 917,
               "name": "a"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 917,
               "end": 922,
               "id": null,
-              "expression": false,
               "generator": true,
               "async": false,
               "params": [],
@@ -60,8 +56,12 @@
                 "start": 920,
                 "end": 922,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -86,35 +86,31 @@
             "type": "PropertyDefinition",
             "start": 938,
             "end": 948,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 945,
               "end": 948,
               "name": "get"
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": true
           },
           {
             "type": "MethodDefinition",
             "start": 951,
             "end": 958,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 952,
               "end": 953,
               "name": "a"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 953,
               "end": 958,
               "id": null,
-              "expression": false,
               "generator": true,
               "async": false,
               "params": [],
@@ -123,8 +119,12 @@
                 "start": 956,
                 "end": 958,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -168,8 +168,8 @@
                   "end": 983,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -177,8 +177,8 @@
                 "end": 998,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -243,8 +243,8 @@
                 "end": 1092,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -307,8 +307,8 @@
                   "end": 1175,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -316,8 +316,8 @@
                 "end": 1190,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -376,8 +376,8 @@
                 "end": 1278,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

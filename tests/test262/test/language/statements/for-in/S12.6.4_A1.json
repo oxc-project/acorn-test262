@@ -37,6 +37,7 @@
                   "type": "VariableDeclaration",
                   "start": 413,
                   "end": 427,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -55,8 +56,7 @@
                         "name": "__key"
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 }
               ]
             }

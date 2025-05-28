@@ -13,7 +13,6 @@
         "end": 1045,
         "name": "abruptCompletion"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -40,12 +39,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 1081,
       "end": 1107,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -65,8 +66,7 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -92,8 +92,8 @@
             "end": 1122,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -107,7 +107,6 @@
             "start": 1137,
             "end": 1221,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -136,8 +135,6 @@
                         "type": "PropertyDefinition",
                         "start": 1166,
                         "end": 1187,
-                        "static": false,
-                        "computed": true,
                         "key": {
                           "type": "CallExpression",
                           "start": 1167,
@@ -151,14 +148,14 @@
                           "arguments": [],
                           "optional": false
                         },
-                        "value": null
+                        "value": null,
+                        "computed": true,
+                        "static": false
                       },
                       {
                         "type": "PropertyDefinition",
                         "start": 1192,
                         "end": 1215,
-                        "static": false,
-                        "computed": true,
                         "key": {
                           "type": "AssignmentExpression",
                           "start": 1193,
@@ -178,13 +175,16 @@
                             "raw": "true"
                           }
                         },
-                        "value": null
+                        "value": null,
+                        "computed": true,
+                        "static": false
                       }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -221,8 +221,8 @@
             "end": 1291,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -266,8 +266,8 @@
             "end": 1329,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -281,7 +281,6 @@
             "start": 1344,
             "end": 1435,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -310,8 +309,6 @@
                         "type": "PropertyDefinition",
                         "start": 1373,
                         "end": 1401,
-                        "static": true,
-                        "computed": true,
                         "key": {
                           "type": "CallExpression",
                           "start": 1381,
@@ -325,14 +322,14 @@
                           "arguments": [],
                           "optional": false
                         },
-                        "value": null
+                        "value": null,
+                        "computed": true,
+                        "static": true
                       },
                       {
                         "type": "PropertyDefinition",
                         "start": 1406,
                         "end": 1429,
-                        "static": false,
-                        "computed": true,
                         "key": {
                           "type": "AssignmentExpression",
                           "start": 1407,
@@ -352,13 +349,16 @@
                             "raw": "true"
                           }
                         },
-                        "value": null
+                        "value": null,
+                        "computed": true,
+                        "static": false
                       }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -395,8 +395,8 @@
             "end": 1512,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

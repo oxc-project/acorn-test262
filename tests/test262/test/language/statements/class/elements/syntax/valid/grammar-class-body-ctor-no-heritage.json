@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 722,
             "end": 738,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 722,
               "end": 733,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 733,
               "end": 738,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -46,8 +42,12 @@
                 "start": 736,
                 "end": 738,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           }
         ]
       }

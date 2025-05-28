@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 1016,
             "end": 1061,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 1020,
               "end": 1022,
               "name": "m"
             },
-            "kind": "set",
             "value": {
               "type": "FunctionExpression",
               "start": 1022,
               "end": 1061,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -71,28 +67,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "set",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 1065,
             "end": 1104,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1065,
               "end": 1071,
               "name": "access"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1071,
               "end": 1104,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -125,8 +121,8 @@
                           "end": 1087,
                           "name": "m"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "right": {
                         "type": "Literal",
@@ -138,8 +134,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -148,6 +148,7 @@
       "type": "VariableDeclaration",
       "start": 1108,
       "end": 1124,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -172,8 +173,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -199,8 +199,8 @@
             "end": 1138,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -214,7 +214,6 @@
             "start": 1153,
             "end": 1181,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -247,15 +246,16 @@
                         "end": 1176,
                         "name": "access"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

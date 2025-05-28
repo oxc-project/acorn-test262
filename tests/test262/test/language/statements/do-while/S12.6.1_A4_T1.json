@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 318,
       "end": 370,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -32,8 +33,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "DoWhileStatement",
@@ -203,13 +203,13 @@
           "start": 934,
           "end": 963,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 941,
             "end": 963,
             "name": "__in__do__after__break"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -257,13 +257,13 @@
                     "start": 1104,
                     "end": 1133,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 1111,
                       "end": 1133,
                       "name": "__in__do__after__break"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]
