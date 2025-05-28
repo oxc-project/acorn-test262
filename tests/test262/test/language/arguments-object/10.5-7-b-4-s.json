@@ -13,7 +13,6 @@
         "end": 283,
         "name": "_10_5_7_b_4_fun"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -26,6 +25,7 @@
             "type": "VariableDeclaration",
             "start": 292,
             "end": 355,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -62,8 +62,8 @@
                         "value": 0,
                         "raw": "0"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "operator": "===",
                     "right": {
@@ -96,8 +96,8 @@
                         "value": 1,
                         "raw": "1"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "operator": "===",
                     "right": {
@@ -110,8 +110,7 @@
                   }
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -122,7 +121,6 @@
               "start": 360,
               "end": 379,
               "operator": "delete",
-              "prefix": true,
               "argument": {
                 "type": "MemberExpression",
                 "start": 367,
@@ -140,15 +138,17 @@
                   "value": 1,
                   "raw": "1"
                 },
-                "computed": true,
-                "optional": false
-              }
+                "optional": false,
+                "computed": true
+              },
+              "prefix": true
             }
           },
           {
             "type": "VariableDeclaration",
             "start": 385,
             "end": 464,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -185,8 +185,8 @@
                         "value": 0,
                         "raw": "0"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "operator": "===",
                     "right": {
@@ -207,7 +207,6 @@
                       "start": 428,
                       "end": 447,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "MemberExpression",
                         "start": 435,
@@ -225,9 +224,10 @@
                           "value": 1,
                           "raw": "1"
                         },
-                        "computed": true,
-                        "optional": false
-                      }
+                        "optional": false,
+                        "computed": true
+                      },
+                      "prefix": true
                     },
                     "operator": "===",
                     "right": {
@@ -240,8 +240,7 @@
                   }
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ReturnStatement",
@@ -267,7 +266,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",

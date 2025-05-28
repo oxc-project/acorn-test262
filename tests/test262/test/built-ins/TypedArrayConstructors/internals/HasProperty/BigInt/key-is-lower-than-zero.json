@@ -32,25 +32,25 @@
               "end": 729,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "UnaryExpression",
             "start": 730,
             "end": 732,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 731,
               "end": 732,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -81,7 +81,6 @@
             "start": 785,
             "end": 929,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -101,6 +100,7 @@
                   "type": "VariableDeclaration",
                   "start": 802,
                   "end": 825,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -133,8 +133,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -160,8 +159,8 @@
                         "end": 845,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -184,8 +183,8 @@
                             "end": 857,
                             "name": "has"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -223,7 +222,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

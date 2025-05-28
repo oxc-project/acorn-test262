@@ -13,7 +13,6 @@
         "end": 242,
         "name": "foo"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -26,6 +25,7 @@
             "type": "VariableDeclaration",
             "start": 251,
             "end": 268,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -46,9 +46,7 @@
                       "type": "Property",
                       "start": 260,
                       "end": 266,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 260,
@@ -62,13 +60,14 @@
                         "value": 10,
                         "raw": "10"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "WithStatement",
@@ -93,9 +92,7 @@
                     "type": "ArrowFunctionExpression",
                     "start": 299,
                     "end": 306,
-                    "id": null,
                     "expression": true,
-                    "generator": false,
                     "async": false,
                     "params": [],
                     "body": {
@@ -103,14 +100,17 @@
                       "start": 305,
                       "end": 306,
                       "name": "a"
-                    }
+                    },
+                    "id": null,
+                    "generator": false
                   }
                 }
               ]
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -136,8 +136,8 @@
             "end": 338,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

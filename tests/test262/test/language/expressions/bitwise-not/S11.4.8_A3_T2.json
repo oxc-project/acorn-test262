@@ -16,14 +16,14 @@
           "start": 276,
           "end": 280,
           "operator": "~",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 277,
             "end": 280,
             "value": 0.1,
             "raw": "0.1"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -31,14 +31,14 @@
           "start": 285,
           "end": 287,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 286,
             "end": 287,
             "value": 1,
             "raw": "1"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -82,14 +82,14 @@
                       "start": 347,
                       "end": 351,
                       "operator": "~",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 348,
                         "end": 351,
                         "value": 0.1,
                         "raw": "0.1"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -113,7 +113,6 @@
           "start": 372,
           "end": 389,
           "operator": "~",
-          "prefix": true,
           "argument": {
             "type": "NewExpression",
             "start": 373,
@@ -130,17 +129,18 @@
                 "start": 384,
                 "end": 388,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 385,
                   "end": 388,
                   "value": 0.1,
                   "raw": "0.1"
-                }
+                },
+                "prefix": true
               }
             ]
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -148,14 +148,14 @@
           "start": 394,
           "end": 396,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 395,
             "end": 396,
             "value": 1,
             "raw": "1"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -199,7 +199,6 @@
                       "start": 469,
                       "end": 486,
                       "operator": "~",
-                      "prefix": true,
                       "argument": {
                         "type": "NewExpression",
                         "start": 470,
@@ -216,17 +215,18 @@
                             "start": 481,
                             "end": 485,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 482,
                               "end": 485,
                               "value": 0.1,
                               "raw": "0.1"
-                            }
+                            },
+                            "prefix": true
                           }
                         ]
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -250,13 +250,13 @@
           "start": 507,
           "end": 511,
           "operator": "~",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 508,
             "end": 511,
             "name": "NaN"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -264,14 +264,14 @@
           "start": 516,
           "end": 518,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 517,
             "end": 518,
             "value": 1,
             "raw": "1"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -315,13 +315,13 @@
                       "start": 578,
                       "end": 582,
                       "operator": "~",
-                      "prefix": true,
                       "argument": {
                         "type": "Identifier",
                         "start": 579,
                         "end": 582,
                         "name": "NaN"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -345,7 +345,6 @@
           "start": 603,
           "end": 619,
           "operator": "~",
-          "prefix": true,
           "argument": {
             "type": "NewExpression",
             "start": 604,
@@ -364,7 +363,8 @@
                 "name": "NaN"
               }
             ]
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -372,14 +372,14 @@
           "start": 624,
           "end": 626,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 625,
             "end": 626,
             "value": 1,
             "raw": "1"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -423,7 +423,6 @@
                       "start": 698,
                       "end": 714,
                       "operator": "~",
-                      "prefix": true,
                       "argument": {
                         "type": "NewExpression",
                         "start": 699,
@@ -442,7 +441,8 @@
                             "name": "NaN"
                           }
                         ]
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -466,14 +466,14 @@
           "start": 735,
           "end": 737,
           "operator": "~",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 736,
             "end": 737,
             "value": 1,
             "raw": "1"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -481,14 +481,14 @@
           "start": 742,
           "end": 744,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 743,
             "end": 744,
             "value": 2,
             "raw": "2"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -532,14 +532,14 @@
                       "start": 802,
                       "end": 804,
                       "operator": "~",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 803,
                         "end": 804,
                         "value": 1,
                         "raw": "1"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -563,7 +563,6 @@
           "start": 825,
           "end": 840,
           "operator": "~",
-          "prefix": true,
           "argument": {
             "type": "NewExpression",
             "start": 826,
@@ -580,17 +579,18 @@
                 "start": 837,
                 "end": 839,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 838,
                   "end": 839,
                   "value": 2,
                   "raw": "2"
-                }
+                },
+                "prefix": true
               }
             ]
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -642,7 +642,6 @@
                       "start": 916,
                       "end": 931,
                       "operator": "~",
-                      "prefix": true,
                       "argument": {
                         "type": "NewExpression",
                         "start": 917,
@@ -659,17 +658,18 @@
                             "start": 928,
                             "end": 930,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 929,
                               "end": 930,
                               "value": 2,
                               "raw": "2"
-                            }
+                            },
+                            "prefix": true
                           }
                         ]
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -693,13 +693,13 @@
           "start": 952,
           "end": 961,
           "operator": "~",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 953,
             "end": 961,
             "name": "Infinity"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -707,14 +707,14 @@
           "start": 966,
           "end": 968,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 967,
             "end": 968,
             "value": 1,
             "raw": "1"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -758,13 +758,13 @@
                       "start": 1033,
                       "end": 1042,
                       "operator": "~",
-                      "prefix": true,
                       "argument": {
                         "type": "Identifier",
                         "start": 1034,
                         "end": 1042,
                         "name": "Infinity"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }

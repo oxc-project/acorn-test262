@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 3592,
       "end": 5090,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -173,8 +174,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -185,6 +185,7 @@
         "type": "VariableDeclaration",
         "start": 5097,
         "end": 5125,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -211,8 +212,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -229,6 +229,7 @@
             "type": "VariableDeclaration",
             "start": 5144,
             "end": 5196,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -260,8 +261,8 @@
                       "end": 5181,
                       "name": "ZonedDateTime"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -281,13 +282,13 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 5199,
             "end": 5253,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -319,8 +320,8 @@
                       "end": 5236,
                       "name": "ZonedDateTime"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -340,8 +341,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -378,8 +378,8 @@
                       "end": 5277,
                       "name": "equals"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {

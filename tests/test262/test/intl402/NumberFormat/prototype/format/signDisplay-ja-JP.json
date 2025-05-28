@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 325,
       "end": 801,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -334,8 +335,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -346,6 +346,7 @@
         "type": "VariableDeclaration",
         "start": 808,
         "end": 840,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -377,8 +378,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -395,6 +395,7 @@
             "type": "VariableDeclaration",
             "start": 855,
             "end": 912,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -426,8 +427,8 @@
                       "end": 887,
                       "name": "NumberFormat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -446,9 +447,7 @@
                           "type": "Property",
                           "start": 898,
                           "end": 909,
-                          "method": false,
-                          "shorthand": true,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 898,
@@ -461,15 +460,16 @@
                             "end": 909,
                             "name": "signDisplay"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false
                         }
                       ]
                     }
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -495,8 +495,8 @@
                   "end": 931,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -519,8 +519,8 @@
                       "end": 941,
                       "name": "format"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -528,13 +528,13 @@
                       "start": 942,
                       "end": 951,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Identifier",
                         "start": 943,
                         "end": 951,
                         "name": "Infinity"
-                      }
+                      },
+                      "prefix": true
                     }
                   ],
                   "optional": false
@@ -556,21 +556,13 @@
                     "value": 0,
                     "raw": "0"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 967,
                   "end": 995,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 981,
-                      "end": 992,
-                      "name": "signDisplay"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -591,6 +583,14 @@
                         "cooked": ")"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 981,
+                      "end": 992,
+                      "name": "signDisplay"
                     }
                   ]
                 }
@@ -622,8 +622,8 @@
                   "end": 1016,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -646,8 +646,8 @@
                       "end": 1026,
                       "name": "format"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -655,14 +655,14 @@
                       "start": 1027,
                       "end": 1031,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 1028,
                         "end": 1031,
                         "value": 987,
                         "raw": "987"
-                      }
+                      },
+                      "prefix": true
                     }
                   ],
                   "optional": false
@@ -684,21 +684,13 @@
                     "value": 1,
                     "raw": "1"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1047,
                   "end": 1070,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1056,
-                      "end": 1067,
-                      "name": "signDisplay"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -719,6 +711,14 @@
                         "cooked": ")"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1056,
+                      "end": 1067,
+                      "name": "signDisplay"
                     }
                   ]
                 }
@@ -750,8 +750,8 @@
                   "end": 1091,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -774,8 +774,8 @@
                       "end": 1101,
                       "name": "format"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -783,14 +783,14 @@
                       "start": 1102,
                       "end": 1109,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 1103,
                         "end": 1109,
                         "value": 0.0001,
                         "raw": "0.0001"
-                      }
+                      },
+                      "prefix": true
                     }
                   ],
                   "optional": false
@@ -812,21 +812,13 @@
                     "value": 2,
                     "raw": "2"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1125,
                   "end": 1151,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1137,
-                      "end": 1148,
-                      "name": "signDisplay"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -847,6 +839,14 @@
                         "cooked": ")"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1137,
+                      "end": 1148,
+                      "name": "signDisplay"
                     }
                   ]
                 }
@@ -878,8 +878,8 @@
                   "end": 1172,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -902,8 +902,8 @@
                       "end": 1182,
                       "name": "format"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -911,14 +911,14 @@
                       "start": 1183,
                       "end": 1185,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 1184,
                         "end": 1185,
                         "value": 0,
                         "raw": "0"
-                      }
+                      },
+                      "prefix": true
                     }
                   ],
                   "optional": false
@@ -940,21 +940,13 @@
                     "value": 3,
                     "raw": "3"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1201,
                   "end": 1222,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1208,
-                      "end": 1219,
-                      "name": "signDisplay"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -975,6 +967,14 @@
                         "cooked": ")"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1208,
+                      "end": 1219,
+                      "name": "signDisplay"
                     }
                   ]
                 }
@@ -1006,8 +1006,8 @@
                   "end": 1243,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1030,8 +1030,8 @@
                       "end": 1253,
                       "name": "format"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1061,21 +1061,13 @@
                     "value": 4,
                     "raw": "4"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1271,
                   "end": 1291,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1277,
-                      "end": 1288,
-                      "name": "signDisplay"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -1096,6 +1088,14 @@
                         "cooked": ")"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1277,
+                      "end": 1288,
+                      "name": "signDisplay"
                     }
                   ]
                 }
@@ -1127,8 +1127,8 @@
                   "end": 1312,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1151,8 +1151,8 @@
                       "end": 1322,
                       "name": "format"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1182,21 +1182,13 @@
                     "value": 5,
                     "raw": "5"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1345,
                   "end": 1370,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1356,
-                      "end": 1367,
-                      "name": "signDisplay"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -1217,6 +1209,14 @@
                         "cooked": ")"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1356,
+                      "end": 1367,
+                      "name": "signDisplay"
                     }
                   ]
                 }
@@ -1248,8 +1248,8 @@
                   "end": 1391,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1272,8 +1272,8 @@
                       "end": 1401,
                       "name": "format"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1303,21 +1303,13 @@
                     "value": 6,
                     "raw": "6"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1421,
                   "end": 1443,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1429,
-                      "end": 1440,
-                      "name": "signDisplay"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -1338,6 +1330,14 @@
                         "cooked": ")"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1429,
+                      "end": 1440,
+                      "name": "signDisplay"
                     }
                   ]
                 }
@@ -1369,8 +1369,8 @@
                   "end": 1464,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1393,8 +1393,8 @@
                       "end": 1474,
                       "name": "format"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1423,21 +1423,13 @@
                     "value": 7,
                     "raw": "7"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1499,
                   "end": 1526,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1512,
-                      "end": 1523,
-                      "name": "signDisplay"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -1458,6 +1450,14 @@
                         "cooked": ")"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1512,
+                      "end": 1523,
+                      "name": "signDisplay"
                     }
                   ]
                 }
@@ -1489,8 +1489,8 @@
                   "end": 1547,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1513,8 +1513,8 @@
                       "end": 1557,
                       "name": "format"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1543,21 +1543,13 @@
                     "value": 8,
                     "raw": "8"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1577,
                   "end": 1599,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1585,
-                      "end": 1596,
-                      "name": "signDisplay"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -1578,6 +1570,14 @@
                         "cooked": ")"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1585,
+                      "end": 1596,
+                      "name": "signDisplay"
                     }
                   ]
                 }

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 431,
       "end": 657,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -282,13 +283,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 659,
       "end": 729,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -320,8 +321,8 @@
                 "end": 695,
                 "name": "Segmenter"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -340,9 +341,7 @@
                     "type": "Property",
                     "start": 704,
                     "end": 725,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Literal",
                       "start": 704,
@@ -357,15 +356,16 @@
                       "value": "word",
                       "raw": "\"word\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -376,6 +376,7 @@
         "type": "VariableDeclaration",
         "start": 735,
         "end": 757,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -402,8 +403,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -420,6 +420,7 @@
             "type": "VariableDeclaration",
             "start": 772,
             "end": 816,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -451,8 +452,8 @@
                       "end": 806,
                       "name": "segment"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -470,13 +471,13 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 819,
             "end": 859,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -521,8 +522,8 @@
                       "value": 0,
                       "raw": "0"
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   },
                   "property": {
                     "type": "Identifier",
@@ -530,12 +531,11 @@
                     "end": 858,
                     "name": "segment"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -561,8 +561,8 @@
                   "end": 878,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -581,26 +581,6 @@
                   "type": "TemplateLiteral",
                   "start": 897,
                   "end": 970,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 918,
-                      "end": 926,
-                      "name": "expected"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 939,
-                      "end": 945,
-                      "name": "actual"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 964,
-                      "end": 968,
-                      "name": "args"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -642,6 +622,26 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 918,
+                      "end": 926,
+                      "name": "expected"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 939,
+                      "end": 945,
+                      "name": "actual"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 964,
+                      "end": 968,
+                      "name": "args"
+                    }
                   ]
                 }
               ],
@@ -655,6 +655,7 @@
       "type": "VariableDeclaration",
       "start": 976,
       "end": 1000,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -680,8 +681,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -707,8 +707,8 @@
             "end": 1014,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -721,9 +721,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1026,
             "end": 1057,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -746,8 +744,8 @@
                   "end": 1049,
                   "name": "segment"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -758,7 +756,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

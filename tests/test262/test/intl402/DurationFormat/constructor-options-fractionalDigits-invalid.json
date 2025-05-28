@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 463,
       "end": 502,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -28,14 +29,14 @@
                 "start": 490,
                 "end": 493,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 491,
                   "end": 493,
                   "value": 10,
                   "raw": "10"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -47,8 +48,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -59,6 +59,7 @@
         "type": "VariableDeclaration",
         "start": 509,
         "end": 531,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -72,8 +73,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -110,8 +110,8 @@
                   "end": 568,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -125,7 +125,6 @@
                   "start": 581,
                   "end": 654,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -158,8 +157,8 @@
                               "end": 621,
                               "name": "DurationFormat"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -178,9 +177,7 @@
                                   "type": "Property",
                                   "start": 630,
                                   "end": 646,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 630,
@@ -193,7 +190,9 @@
                                     "end": 646,
                                     "name": "fractionalDigits"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 }
                               ]
                             }
@@ -201,20 +200,13 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 656,
                   "end": 748,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 709,
-                      "end": 725,
-                      "name": "fractionalDigits"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -235,6 +227,14 @@
                         "cooked": "\"}) throws RangeError"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 709,
+                      "end": 725,
+                      "name": "fractionalDigits"
                     }
                   ]
                 }

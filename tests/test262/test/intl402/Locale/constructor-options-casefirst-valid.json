@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1330,
       "end": 1442,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -60,9 +61,7 @@
                     "type": "Property",
                     "start": 1408,
                     "end": 1436,
-                    "method": true,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1408,
@@ -74,7 +73,6 @@
                       "start": 1416,
                       "end": 1436,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -96,17 +94,19 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -117,6 +117,7 @@
         "type": "VariableDeclaration",
         "start": 1448,
         "end": 1463,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -130,8 +131,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -148,6 +148,7 @@
             "type": "VariableDeclaration",
             "start": 1494,
             "end": 1529,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -180,13 +181,13 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 1532,
             "end": 1567,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -218,8 +219,7 @@
                   }
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -245,8 +245,8 @@
                   "end": 1586,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -277,8 +277,8 @@
                           "end": 1607,
                           "name": "Locale"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -297,9 +297,7 @@
                               "type": "Property",
                               "start": 1616,
                               "end": 1625,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1616,
@@ -312,7 +310,9 @@
                                 "end": 1625,
                                 "name": "caseFirst"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -324,8 +324,8 @@
                       "end": 1637,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -340,20 +340,6 @@
                   "type": "TemplateLiteral",
                   "start": 1657,
                   "end": 1742,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1696,
-                      "end": 1705,
-                      "name": "caseFirst"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 1733,
-                      "end": 1739,
-                      "name": "expect"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -384,6 +370,20 @@
                         "cooked": "\""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1696,
+                      "end": 1705,
+                      "name": "caseFirst"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 1733,
+                      "end": 1739,
+                      "name": "expect"
                     }
                   ]
                 }
@@ -451,8 +451,8 @@
                   "end": 1801,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -483,8 +483,8 @@
                           "end": 1822,
                           "name": "Locale"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -503,9 +503,7 @@
                               "type": "Property",
                               "start": 1842,
                               "end": 1851,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1842,
@@ -518,7 +516,9 @@
                                 "end": 1851,
                                 "name": "caseFirst"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -530,8 +530,8 @@
                       "end": 1863,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -546,20 +546,6 @@
                   "type": "TemplateLiteral",
                   "start": 1883,
                   "end": 1979,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1933,
-                      "end": 1942,
-                      "name": "caseFirst"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 1970,
-                      "end": 1976,
-                      "name": "expect"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -591,6 +577,20 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1933,
+                      "end": 1942,
+                      "name": "caseFirst"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 1970,
+                      "end": 1976,
+                      "name": "expect"
+                    }
                   ]
                 }
               ],
@@ -621,8 +621,8 @@
                   "end": 2004,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -649,8 +649,8 @@
                         "end": 2025,
                         "name": "Locale"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -669,9 +669,7 @@
                             "type": "Property",
                             "start": 2045,
                             "end": 2054,
-                            "method": false,
-                            "shorthand": true,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 2045,
@@ -684,7 +682,9 @@
                               "end": 2054,
                               "name": "caseFirst"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false
                           }
                         ]
                       }
@@ -696,8 +696,8 @@
                     "end": 2067,
                     "name": "caseFirst"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Identifier",
@@ -709,14 +709,6 @@
                   "type": "TemplateLiteral",
                   "start": 2087,
                   "end": 2167,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 2156,
-                      "end": 2164,
-                      "name": "expected"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -737,6 +729,14 @@
                         "cooked": "\""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 2156,
+                      "end": 2164,
+                      "name": "expected"
                     }
                   ]
                 }

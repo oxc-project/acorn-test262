@@ -27,8 +27,8 @@
             "end": 584,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 585,
             "end": 634,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 592,
@@ -57,8 +56,8 @@
                   "end": 615,
                   "name": "RelativeTimeFormat"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -66,9 +65,10 @@
                 "end": 634,
                 "name": "supportedLocalesOf"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -92,6 +92,7 @@
       "type": "VariableDeclaration",
       "start": 729,
       "end": 860,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -174,8 +175,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -186,6 +186,7 @@
         "type": "VariableDeclaration",
         "start": 867,
         "end": 886,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -199,8 +200,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -237,8 +237,8 @@
                   "end": 923,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -252,7 +252,6 @@
                   "start": 936,
                   "end": 1038,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -289,8 +288,8 @@
                                 "end": 976,
                                 "name": "RelativeTimeFormat"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -298,8 +297,8 @@
                               "end": 995,
                               "name": "supportedLocalesOf"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -317,9 +316,7 @@
                                   "type": "Property",
                                   "start": 1001,
                                   "end": 1031,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Literal",
                                     "start": 1001,
@@ -333,7 +330,9 @@
                                     "end": 1031,
                                     "name": "invalidOption"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 }
                               ]
                             }
@@ -342,20 +341,13 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1040,
                   "end": 1099,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1043,
-                      "end": 1056,
-                      "name": "invalidOption"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -376,6 +368,14 @@
                         "cooked": " is an invalid localeMatcher option value"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1043,
+                      "end": 1056,
+                      "name": "invalidOption"
                     }
                   ]
                 }

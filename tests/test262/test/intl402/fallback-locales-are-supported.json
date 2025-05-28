@@ -23,7 +23,6 @@
             "start": 370,
             "end": 1393,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -43,6 +42,7 @@
                   "type": "VariableDeclaration",
                   "start": 458,
                   "end": 530,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -80,9 +80,7 @@
                                 "type": "Property",
                                 "start": 504,
                                 "end": 527,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 504,
@@ -96,7 +94,9 @@
                                   "value": "lookup",
                                   "raw": "\"lookup\""
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               }
                             ]
                           }
@@ -104,8 +104,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ForOfStatement",
@@ -116,6 +115,7 @@
                     "type": "VariableDeclaration",
                     "start": 540,
                     "end": 550,
+                    "kind": "var",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
@@ -129,8 +129,7 @@
                         },
                         "init": null
                       }
-                    ],
-                    "kind": "var"
+                    ]
                   },
                   "right": {
                     "type": "MemberExpression",
@@ -148,8 +147,8 @@
                       "end": 568,
                       "name": "supported"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "body": {
                     "type": "BlockStatement",
@@ -160,6 +159,7 @@
                         "type": "VariableDeclaration",
                         "start": 580,
                         "end": 664,
+                        "kind": "var",
                         "declarations": [
                           {
                             "type": "VariableDeclarator",
@@ -196,8 +196,8 @@
                                   "end": 655,
                                   "name": "exec"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [
                                 {
@@ -210,8 +210,7 @@
                               "optional": false
                             }
                           }
-                        ],
-                        "kind": "var"
+                        ]
                       },
                       {
                         "type": "ExpressionStatement",
@@ -237,8 +236,8 @@
                               "end": 692,
                               "name": "notSameValue"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -294,6 +293,7 @@
                         "type": "VariableDeclaration",
                         "start": 775,
                         "end": 823,
+                        "kind": "var",
                         "declarations": [
                           {
                             "type": "VariableDeclarator",
@@ -344,8 +344,8 @@
                                   "end": 819,
                                   "name": "slice"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [
                                 {
@@ -359,8 +359,7 @@
                               "optional": false
                             }
                           }
-                        ],
-                        "kind": "var"
+                        ]
                       },
                       {
                         "type": "IfStatement",
@@ -393,6 +392,7 @@
                               "type": "VariableDeclaration",
                               "start": 873,
                               "end": 906,
+                              "kind": "var",
                               "declarations": [
                                 {
                                   "type": "VariableDeclarator",
@@ -423,8 +423,7 @@
                                     }
                                   }
                                 }
-                              ],
-                              "kind": "var"
+                              ]
                             },
                             {
                               "type": "ExpressionStatement",
@@ -469,8 +468,8 @@
                                             "end": 940,
                                             "name": "supported"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "property": {
                                           "type": "Identifier",
@@ -478,8 +477,8 @@
                                           "end": 949,
                                           "name": "includes"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -516,8 +515,8 @@
                                             "end": 978,
                                             "name": "byFallback"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "property": {
                                           "type": "Identifier",
@@ -525,8 +524,8 @@
                                           "end": 987,
                                           "name": "includes"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -635,6 +634,7 @@
                               "type": "VariableDeclaration",
                               "start": 1154,
                               "end": 1187,
+                              "kind": "var",
                               "declarations": [
                                 {
                                   "type": "VariableDeclarator",
@@ -665,8 +665,7 @@
                                     }
                                   }
                                 }
-                              ],
-                              "kind": "var"
+                              ]
                             },
                             {
                               "type": "ExpressionStatement",
@@ -711,8 +710,8 @@
                                             "end": 1221,
                                             "name": "supported"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "property": {
                                           "type": "Identifier",
@@ -720,8 +719,8 @@
                                           "end": 1230,
                                           "name": "includes"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -758,8 +757,8 @@
                                             "end": 1259,
                                             "name": "byFallback"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "property": {
                                           "type": "Identifier",
@@ -767,8 +766,8 @@
                                           "end": 1268,
                                           "name": "includes"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -850,7 +849,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

@@ -31,7 +31,6 @@
               "start": 479,
               "end": 499,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -53,7 +52,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           }
         },
@@ -86,8 +86,8 @@
                   "end": 517,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
@@ -106,7 +106,6 @@
                   "start": 522,
                   "end": 542,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -128,7 +127,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -136,8 +136,8 @@
                   "end": 551,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
@@ -201,7 +201,6 @@
                           "start": 690,
                           "end": 710,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -223,7 +222,8 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         }
                       }
                     }
@@ -257,7 +257,6 @@
               "start": 733,
               "end": 753,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -279,7 +278,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             },
             "operator": "+",
             "right": {
@@ -312,7 +312,6 @@
                   "start": 765,
                   "end": 785,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -334,7 +333,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -342,8 +342,8 @@
                   "end": 794,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
@@ -369,8 +369,8 @@
                   "end": 810,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
@@ -427,7 +427,6 @@
                           "start": 944,
                           "end": 964,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -449,7 +448,8 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         },
                         "operator": "+",
                         "right": {
@@ -490,7 +490,6 @@
               "start": 992,
               "end": 1012,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -512,7 +511,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             },
             "operator": "+",
             "right": {
@@ -520,7 +520,6 @@
               "start": 1015,
               "end": 1035,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -542,7 +541,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           }
         },
@@ -568,7 +568,6 @@
                   "start": 1042,
                   "end": 1062,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -590,7 +589,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -598,8 +598,8 @@
                   "end": 1071,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
@@ -618,7 +618,6 @@
                   "start": 1076,
                   "end": 1096,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -640,7 +639,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -648,8 +648,8 @@
                   "end": 1105,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
@@ -706,7 +706,6 @@
                           "start": 1275,
                           "end": 1295,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -728,7 +727,8 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         },
                         "operator": "+",
                         "right": {
@@ -736,7 +736,6 @@
                           "start": 1298,
                           "end": 1318,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -758,7 +757,8 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         }
                       }
                     }
@@ -831,8 +831,8 @@
                   "end": 1366,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
@@ -858,8 +858,8 @@
                   "end": 1382,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false

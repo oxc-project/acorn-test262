@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 474,
       "end": 540,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -53,13 +54,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 608,
       "end": 1554,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -254,8 +255,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -281,8 +281,8 @@
             "end": 1577,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -290,7 +290,6 @@
             "start": 1583,
             "end": 2049,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -310,6 +309,7 @@
                   "type": "VariableDeclaration",
                   "start": 1613,
                   "end": 1676,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -341,8 +341,8 @@
                             "end": 1649,
                             "name": "Segmenter"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -360,9 +360,7 @@
                                 "type": "Property",
                                 "start": 1662,
                                 "end": 1673,
-                                "method": false,
-                                "shorthand": true,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 1662,
@@ -375,15 +373,16 @@
                                   "end": 1673,
                                   "name": "granularity"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": true,
+                                "computed": false
                               }
                             ]
                           }
                         ]
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -409,8 +408,8 @@
                         "end": 1697,
                         "name": "forEach"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -418,7 +417,6 @@
                         "start": 1698,
                         "end": 2041,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [
@@ -438,6 +436,7 @@
                               "type": "VariableDeclaration",
                               "start": 1724,
                               "end": 1765,
+                              "kind": "const",
                               "declarations": [
                                 {
                                   "type": "VariableDeclarator",
@@ -469,8 +468,8 @@
                                         "end": 1757,
                                         "name": "segment"
                                       },
-                                      "computed": false,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": false
                                     },
                                     "arguments": [
                                       {
@@ -483,8 +482,7 @@
                                     "optional": false
                                   }
                                 }
-                              ],
-                              "kind": "const"
+                              ]
                             },
                             {
                               "type": "ForStatement",
@@ -494,6 +492,7 @@
                                 "type": "VariableDeclaration",
                                 "start": 1779,
                                 "end": 1792,
+                                "kind": "let",
                                 "declarations": [
                                   {
                                     "type": "VariableDeclarator",
@@ -513,8 +512,7 @@
                                       "raw": "0"
                                     }
                                   }
-                                ],
-                                "kind": "let"
+                                ]
                               },
                               "test": {
                                 "type": "BinaryExpression",
@@ -543,8 +541,8 @@
                                     "end": 1814,
                                     "name": "length"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 }
                               },
                               "update": {
@@ -569,6 +567,7 @@
                                     "type": "VariableDeclaration",
                                     "start": 1837,
                                     "end": 1878,
+                                    "kind": "const",
                                     "declarations": [
                                       {
                                         "type": "VariableDeclarator",
@@ -600,8 +599,8 @@
                                               "end": 1870,
                                               "name": "containing"
                                             },
-                                            "computed": false,
-                                            "optional": false
+                                            "optional": false,
+                                            "computed": false
                                           },
                                           "arguments": [
                                             {
@@ -614,8 +613,7 @@
                                           "optional": false
                                         }
                                       }
-                                    ],
-                                    "kind": "const"
+                                    ]
                                   },
                                   {
                                     "type": "ExpressionStatement",
@@ -641,8 +639,8 @@
                                           "end": 1905,
                                           "name": "sameValue"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -668,8 +666,8 @@
                                             "end": 1921,
                                             "name": "index"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         }
                                       ],
                                       "optional": false
@@ -699,8 +697,8 @@
                                           "end": 1950,
                                           "name": "sameValue"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -725,8 +723,8 @@
                                             "end": 1970,
                                             "name": "input"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         }
                                       ],
                                       "optional": false
@@ -756,8 +754,8 @@
                                           "end": 1999,
                                           "name": "sameValue"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -782,8 +780,8 @@
                                             "end": 2021,
                                             "name": "segment"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         }
                                       ],
                                       "optional": false
@@ -793,14 +791,16 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 481,
       "end": 537,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -40,13 +41,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 538,
       "end": 607,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -78,8 +79,8 @@
                 "end": 570,
                 "name": "Collator"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -97,9 +98,7 @@
                     "type": "Property",
                     "start": 581,
                     "end": 604,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 581,
@@ -113,15 +112,16 @@
                       "value": "lookup",
                       "raw": "\"lookup\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -151,8 +151,8 @@
               "end": 627,
               "name": "indexOf"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -179,8 +179,8 @@
                     "end": 652,
                     "name": "resolvedOptions"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -191,8 +191,8 @@
                 "end": 661,
                 "name": "locale"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           ],
           "optional": false
@@ -203,14 +203,14 @@
           "start": 667,
           "end": 669,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 668,
             "end": 669,
             "value": 1,
             "raw": "1"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -222,6 +222,7 @@
             "type": "VariableDeclaration",
             "start": 677,
             "end": 731,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -297,8 +298,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -324,8 +324,8 @@
                   "end": 742,
                   "name": "sort"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -344,8 +344,8 @@
                     "end": 759,
                     "name": "compare"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               ],
               "optional": false
@@ -355,6 +355,7 @@
             "type": "VariableDeclaration",
             "start": 766,
             "end": 827,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -430,8 +431,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -457,8 +457,8 @@
                   "end": 851,
                   "name": "compareArray"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {

@@ -13,7 +13,6 @@
         "end": 466,
         "name": "fn1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -26,9 +25,7 @@
               "type": "Property",
               "start": 468,
               "end": 469,
-              "method": false,
-              "shorthand": true,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 468,
@@ -41,7 +38,9 @@
                 "end": 469,
                 "name": "x"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": true,
+              "computed": false
             }
           ]
         }
@@ -51,7 +50,8 @@
         "start": 473,
         "end": 475,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -63,7 +63,6 @@
         "end": 489,
         "name": "fn2"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -76,9 +75,7 @@
               "type": "Property",
               "start": 491,
               "end": 502,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 491,
@@ -94,9 +91,7 @@
                     "type": "Property",
                     "start": 495,
                     "end": 499,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 495,
@@ -109,11 +104,15 @@
                       "end": 499,
                       "name": "q"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             }
           ]
         }
@@ -123,7 +122,8 @@
         "start": 507,
         "end": 509,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -135,7 +135,6 @@
         "end": 523,
         "name": "fn3"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -148,9 +147,7 @@
               "type": "Property",
               "start": 525,
               "end": 526,
-              "method": false,
-              "shorthand": true,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 525,
@@ -163,7 +160,9 @@
                 "end": 526,
                 "name": "x"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": true,
+              "computed": false
             }
           ]
         }
@@ -173,7 +172,8 @@
         "start": 530,
         "end": 532,
         "body": []
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

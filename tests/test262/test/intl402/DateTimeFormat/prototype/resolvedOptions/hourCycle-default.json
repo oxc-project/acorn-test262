@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 929,
       "end": 992,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -82,8 +83,7 @@
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -94,6 +94,7 @@
         "type": "VariableDeclaration",
         "start": 999,
         "end": 1009,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -107,8 +108,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -125,6 +125,7 @@
             "type": "VariableDeclaration",
             "start": 1026,
             "end": 1121,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -168,8 +169,8 @@
                             "end": 1065,
                             "name": "DateTimeFormat"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -187,9 +188,7 @@
                                 "type": "Property",
                                 "start": 1075,
                                 "end": 1090,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 1075,
@@ -203,7 +202,9 @@
                                   "value": "numeric",
                                   "raw": "\"numeric\""
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               }
                             ]
                           }
@@ -215,8 +216,8 @@
                         "end": 1108,
                         "name": "resolvedOptions"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
@@ -227,12 +228,11 @@
                     "end": 1120,
                     "name": "hourCycle"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -358,6 +358,7 @@
             "type": "VariableDeclaration",
             "start": 1281,
             "end": 1387,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -401,8 +402,8 @@
                             "end": 1317,
                             "name": "DateTimeFormat"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -420,9 +421,7 @@
                                 "type": "Property",
                                 "start": 1327,
                                 "end": 1342,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 1327,
@@ -436,15 +435,15 @@
                                   "value": "numeric",
                                   "raw": "\"numeric\""
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               },
                               {
                                 "type": "Property",
                                 "start": 1344,
                                 "end": 1356,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 1344,
@@ -458,7 +457,9 @@
                                   "value": true,
                                   "raw": "true"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               }
                             ]
                           }
@@ -470,8 +471,8 @@
                         "end": 1374,
                         "name": "resolvedOptions"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
@@ -482,12 +483,11 @@
                     "end": 1386,
                     "name": "hourCycle"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -563,6 +563,7 @@
             "type": "VariableDeclaration",
             "start": 1470,
             "end": 1577,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -606,8 +607,8 @@
                             "end": 1506,
                             "name": "DateTimeFormat"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -625,9 +626,7 @@
                                 "type": "Property",
                                 "start": 1516,
                                 "end": 1531,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 1516,
@@ -641,15 +640,15 @@
                                   "value": "numeric",
                                   "raw": "\"numeric\""
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               },
                               {
                                 "type": "Property",
                                 "start": 1533,
                                 "end": 1546,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 1533,
@@ -663,7 +662,9 @@
                                   "value": false,
                                   "raw": "false"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               }
                             ]
                           }
@@ -675,8 +676,8 @@
                         "end": 1564,
                         "name": "resolvedOptions"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
@@ -687,12 +688,11 @@
                     "end": 1576,
                     "name": "hourCycle"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -841,8 +841,8 @@
                         "end": 1730,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -899,8 +899,8 @@
                         "end": 1810,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -953,8 +953,8 @@
                   "end": 1939,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -998,8 +998,8 @@
                   "end": 2044,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {

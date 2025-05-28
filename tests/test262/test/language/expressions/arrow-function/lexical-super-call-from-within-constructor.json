@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 509,
       "end": 523,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -49,21 +49,17 @@
             "type": "MethodDefinition",
             "start": 537,
             "end": 569,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 537,
               "end": 548,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 548,
               "end": 569,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -91,8 +87,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -122,21 +122,17 @@
             "type": "MethodDefinition",
             "start": 595,
             "end": 708,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 595,
               "end": 606,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 606,
               "end": 708,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -186,16 +182,14 @@
                           "end": 688,
                           "name": "af"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "right": {
                         "type": "ArrowFunctionExpression",
                         "start": 691,
                         "end": 703,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [
                           {
@@ -216,13 +210,19 @@
                           },
                           "arguments": [],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       }
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -231,6 +231,7 @@
       "type": "VariableDeclaration",
       "start": 712,
       "end": 728,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -255,8 +256,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -282,8 +282,8 @@
             "end": 743,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -297,7 +297,6 @@
             "start": 760,
             "end": 784,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -330,15 +329,16 @@
                         "end": 779,
                         "name": "af"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -368,8 +368,8 @@
             "end": 805,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

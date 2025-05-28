@@ -20,7 +20,6 @@
             "start": 399,
             "end": 416,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 400,
@@ -37,9 +36,10 @@
                 "end": 416,
                 "name": "MIN_VALUE"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           "operator": "+",
           "right": {
@@ -58,8 +58,8 @@
               "end": 435,
               "name": "MIN_VALUE"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         },
         "operator": "!==",
@@ -68,14 +68,14 @@
           "start": 440,
           "end": 442,
           "operator": "+",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 441,
             "end": 442,
             "value": 0,
             "raw": "0"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -123,7 +123,6 @@
                         "start": 537,
                         "end": 554,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "MemberExpression",
                           "start": 538,
@@ -140,9 +139,10 @@
                             "end": 554,
                             "name": "MIN_VALUE"
                           },
-                          "computed": false,
-                          "optional": false
-                        }
+                          "optional": false,
+                          "computed": false
+                        },
+                        "prefix": true
                       },
                       "operator": "+",
                       "right": {
@@ -161,8 +161,8 @@
                           "end": 573,
                           "name": "MIN_VALUE"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   }
@@ -210,7 +210,6 @@
                       "start": 597,
                       "end": 614,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "MemberExpression",
                         "start": 598,
@@ -227,9 +226,10 @@
                           "end": 614,
                           "name": "MIN_VALUE"
                         },
-                        "computed": false,
-                        "optional": false
-                      }
+                        "optional": false,
+                        "computed": false
+                      },
+                      "prefix": true
                     },
                     "operator": "+",
                     "right": {
@@ -248,8 +248,8 @@
                         "end": 633,
                         "name": "MIN_VALUE"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 }
@@ -271,8 +271,8 @@
                   "end": 663,
                   "name": "POSITIVE_INFINITY"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             },
             "consequent": {
@@ -329,7 +329,6 @@
             "start": 782,
             "end": 799,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 783,
@@ -346,9 +345,10 @@
                 "end": 799,
                 "name": "MAX_VALUE"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           "operator": "+",
           "right": {
@@ -367,8 +367,8 @@
               "end": 818,
               "name": "MAX_VALUE"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         },
         "operator": "!==",
@@ -377,14 +377,14 @@
           "start": 823,
           "end": 825,
           "operator": "+",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 824,
             "end": 825,
             "value": 0,
             "raw": "0"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -432,7 +432,6 @@
                         "start": 920,
                         "end": 937,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "MemberExpression",
                           "start": 921,
@@ -449,9 +448,10 @@
                             "end": 937,
                             "name": "MAX_VALUE"
                           },
-                          "computed": false,
-                          "optional": false
-                        }
+                          "optional": false,
+                          "computed": false
+                        },
+                        "prefix": true
                       },
                       "operator": "+",
                       "right": {
@@ -470,8 +470,8 @@
                           "end": 956,
                           "name": "MAX_VALUE"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   }
@@ -519,7 +519,6 @@
                       "start": 980,
                       "end": 997,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "MemberExpression",
                         "start": 981,
@@ -536,9 +535,10 @@
                           "end": 997,
                           "name": "MAX_VALUE"
                         },
-                        "computed": false,
-                        "optional": false
-                      }
+                        "optional": false,
+                        "computed": false
+                      },
+                      "prefix": true
                     },
                     "operator": "+",
                     "right": {
@@ -557,8 +557,8 @@
                         "end": 1016,
                         "name": "MAX_VALUE"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 }
@@ -580,8 +580,8 @@
                   "end": 1046,
                   "name": "POSITIVE_INFINITY"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             },
             "consequent": {
@@ -642,14 +642,14 @@
               "start": 1165,
               "end": 1167,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1166,
                 "end": 1167,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             },
             "operator": "/",
             "right": {
@@ -668,8 +668,8 @@
                 "end": 1186,
                 "name": "MAX_VALUE"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           },
           "operator": "+",
@@ -701,8 +701,8 @@
                 "end": 1209,
                 "name": "MAX_VALUE"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         },
@@ -712,14 +712,14 @@
           "start": 1214,
           "end": 1216,
           "operator": "+",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 1215,
             "end": 1216,
             "value": 0,
             "raw": "0"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -771,14 +771,14 @@
                           "start": 1319,
                           "end": 1321,
                           "operator": "-",
-                          "prefix": true,
                           "argument": {
                             "type": "Literal",
                             "start": 1320,
                             "end": 1321,
                             "value": 1,
                             "raw": "1"
-                          }
+                          },
+                          "prefix": true
                         },
                         "operator": "/",
                         "right": {
@@ -797,8 +797,8 @@
                             "end": 1340,
                             "name": "MAX_VALUE"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         }
                       },
                       "operator": "+",
@@ -830,8 +830,8 @@
                             "end": 1363,
                             "name": "MAX_VALUE"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         }
                       }
                     }
@@ -884,14 +884,14 @@
                         "start": 1387,
                         "end": 1389,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1388,
                           "end": 1389,
                           "value": 1,
                           "raw": "1"
-                        }
+                        },
+                        "prefix": true
                       },
                       "operator": "/",
                       "right": {
@@ -910,8 +910,8 @@
                           "end": 1408,
                           "name": "MAX_VALUE"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     },
                     "operator": "+",
@@ -943,8 +943,8 @@
                           "end": 1431,
                           "name": "MAX_VALUE"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   }
@@ -967,8 +967,8 @@
                   "end": 1461,
                   "name": "POSITIVE_INFINITY"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             },
             "consequent": {

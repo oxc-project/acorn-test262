@@ -13,7 +13,6 @@
         "end": 1139,
         "name": "body"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -33,6 +32,7 @@
             "type": "VariableDeclaration",
             "start": 1156,
             "end": 1191,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -64,13 +64,13 @@
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 1194,
             "end": 1232,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -108,8 +108,7 @@
                 },
                 "init": null
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -146,8 +145,8 @@
                     "end": 1258,
                     "name": "slice"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -196,8 +195,8 @@
                       "end": 1309,
                       "name": "buffer"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 ]
               }
@@ -245,8 +244,8 @@
                       "end": 1356,
                       "name": "buffer"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 ]
               }
@@ -298,7 +297,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

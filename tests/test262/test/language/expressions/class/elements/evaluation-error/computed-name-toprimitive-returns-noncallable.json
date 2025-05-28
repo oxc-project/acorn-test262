@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1786,
       "end": 1827,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 1800,
                 "end": 1824,
-                "method": false,
-                "shorthand": false,
-                "computed": true,
+                "kind": "init",
                 "key": {
                   "type": "MemberExpression",
                   "start": 1801,
@@ -46,8 +45,8 @@
                     "end": 1819,
                     "name": "toPrimitive"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -55,13 +54,14 @@
                   "end": 1824,
                   "properties": []
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": true
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -73,7 +73,6 @@
         "end": 1848,
         "name": "evaluate"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -86,6 +85,7 @@
             "type": "VariableDeclaration",
             "start": 1855,
             "end": 1908,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -112,8 +112,6 @@
                         "type": "PropertyDefinition",
                         "start": 1875,
                         "end": 1903,
-                        "static": false,
-                        "computed": true,
                         "key": {
                           "type": "Identifier",
                           "start": 1876,
@@ -125,17 +123,19 @@
                           "start": 1883,
                           "end": 1902,
                           "name": "refErrorIfEvaluated"
-                        }
+                        },
+                        "computed": true,
+                        "static": false
                       }
                     ]
                   }
                 }
               }
-            ],
-            "kind": "var"
+            ]
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -161,8 +161,8 @@
             "end": 1925,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 339,
       "end": 370,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -32,13 +33,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 371,
       "end": 405,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -85,13 +86,13 @@
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 406,
       "end": 429,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -116,8 +117,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -129,7 +129,6 @@
         "end": 537,
         "name": "serializeTypesAndLiteral"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -149,6 +148,7 @@
             "type": "VariableDeclaration",
             "start": 549,
             "end": 692,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -180,17 +180,15 @@
                       "end": 570,
                       "name": "map"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
                       "type": "ArrowFunctionExpression",
                       "start": 571,
                       "end": 690,
-                      "id": null,
                       "expression": false,
-                      "generator": false,
                       "async": false,
                       "params": [
                         {
@@ -229,8 +227,8 @@
                                   "end": 598,
                                   "name": "type"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "operator": "==",
                               "right": {
@@ -254,46 +252,6 @@
                                     "type": "TemplateLiteral",
                                     "start": 628,
                                     "end": 657,
-                                    "expressions": [
-                                      {
-                                        "type": "MemberExpression",
-                                        "start": 631,
-                                        "end": 640,
-                                        "object": {
-                                          "type": "Identifier",
-                                          "start": 631,
-                                          "end": 635,
-                                          "name": "part"
-                                        },
-                                        "property": {
-                                          "type": "Identifier",
-                                          "start": 636,
-                                          "end": 640,
-                                          "name": "type"
-                                        },
-                                        "computed": false,
-                                        "optional": false
-                                      },
-                                      {
-                                        "type": "MemberExpression",
-                                        "start": 644,
-                                        "end": 654,
-                                        "object": {
-                                          "type": "Identifier",
-                                          "start": 644,
-                                          "end": 648,
-                                          "name": "part"
-                                        },
-                                        "property": {
-                                          "type": "Identifier",
-                                          "start": 649,
-                                          "end": 654,
-                                          "name": "value"
-                                        },
-                                        "computed": false,
-                                        "optional": false
-                                      }
-                                    ],
                                     "quasis": [
                                       {
                                         "type": "TemplateElement",
@@ -325,6 +283,46 @@
                                         },
                                         "tail": true
                                       }
+                                    ],
+                                    "expressions": [
+                                      {
+                                        "type": "MemberExpression",
+                                        "start": 631,
+                                        "end": 640,
+                                        "object": {
+                                          "type": "Identifier",
+                                          "start": 631,
+                                          "end": 635,
+                                          "name": "part"
+                                        },
+                                        "property": {
+                                          "type": "Identifier",
+                                          "start": 636,
+                                          "end": 640,
+                                          "name": "type"
+                                        },
+                                        "optional": false,
+                                        "computed": false
+                                      },
+                                      {
+                                        "type": "MemberExpression",
+                                        "start": 644,
+                                        "end": 654,
+                                        "object": {
+                                          "type": "Identifier",
+                                          "start": 644,
+                                          "end": 648,
+                                          "name": "part"
+                                        },
+                                        "property": {
+                                          "type": "Identifier",
+                                          "start": 649,
+                                          "end": 654,
+                                          "name": "value"
+                                        },
+                                        "optional": false,
+                                        "computed": false
+                                      }
                                     ]
                                   }
                                 }
@@ -352,19 +350,20 @@
                                 "end": 685,
                                 "name": "type"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             }
                           }
                         ]
-                      }
+                      },
+                      "id": null,
+                      "generator": false
                     }
                   ],
                   "optional": false
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ReturnStatement",
@@ -390,8 +389,8 @@
                   "end": 712,
                   "name": "join"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -406,12 +405,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 722,
       "end": 761,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -443,8 +444,8 @@
                 "end": 754,
                 "name": "DateTimeFormat"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -457,13 +458,13 @@
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 762,
       "end": 836,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -506,8 +507,8 @@
                     "end": 820,
                     "name": "formatRangeToParts"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -529,13 +530,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 838,
       "end": 1048,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -567,8 +568,8 @@
                 "end": 882,
                 "name": "some"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -576,7 +577,6 @@
                 "start": 883,
                 "end": 1046,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [
@@ -596,6 +596,7 @@
                       "type": "VariableDeclaration",
                       "start": 906,
                       "end": 963,
+                      "kind": "let",
                       "declarations": [
                         {
                           "type": "VariableDeclarator",
@@ -627,8 +628,8 @@
                                 "end": 939,
                                 "name": "DateTimeFormat"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -653,8 +654,7 @@
                             ]
                           }
                         }
-                      ],
-                      "kind": "let"
+                      ]
                     },
                     {
                       "type": "ReturnStatement",
@@ -702,8 +702,8 @@
                                   "end": 1028,
                                   "name": "formatRangeToParts"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [
                                 {
@@ -727,14 +727,14 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             ],
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -760,8 +760,8 @@
             "end": 1122,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

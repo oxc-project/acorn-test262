@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 291,
       "end": 2116,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -187,8 +188,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -199,6 +199,7 @@
         "type": "VariableDeclaration",
         "start": 2123,
         "end": 2129,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -212,8 +213,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -230,6 +230,7 @@
             "type": "VariableDeclaration",
             "start": 2148,
             "end": 2200,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -261,8 +262,8 @@
                       "end": 2191,
                       "name": "ZonedDateTime"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -282,8 +283,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -309,8 +309,8 @@
                   "end": 2219,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -329,8 +329,8 @@
                     "end": 2239,
                     "name": "timeZoneId"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Identifier",

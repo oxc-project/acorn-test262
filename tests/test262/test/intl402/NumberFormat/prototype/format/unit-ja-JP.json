@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 285,
       "end": 1005,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -33,14 +34,14 @@
                     "start": 309,
                     "end": 313,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 310,
                       "end": 313,
                       "value": 987,
                       "raw": "987"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "ObjectExpression",
@@ -51,9 +52,7 @@
                         "type": "Property",
                         "start": 327,
                         "end": 347,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Literal",
                           "start": 327,
@@ -68,15 +67,15 @@
                           "value": "-987 km/h",
                           "raw": "\"-987 km/h\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       },
                       {
                         "type": "Property",
                         "start": 355,
                         "end": 375,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Literal",
                           "start": 355,
@@ -91,15 +90,15 @@
                           "value": "-987km/h",
                           "raw": "\"-987km/h\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       },
                       {
                         "type": "Property",
                         "start": 383,
                         "end": 407,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Literal",
                           "start": 383,
@@ -114,7 +113,9 @@
                           "value": "時速 -987 キロメートル",
                           "raw": "\"時速 -987 キロメートル\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -130,14 +131,14 @@
                     "start": 428,
                     "end": 434,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 429,
                       "end": 434,
                       "value": 0.001,
                       "raw": "0.001"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "ObjectExpression",
@@ -148,9 +149,7 @@
                         "type": "Property",
                         "start": 448,
                         "end": 470,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Literal",
                           "start": 448,
@@ -165,15 +164,15 @@
                           "value": "-0.001 km/h",
                           "raw": "\"-0.001 km/h\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       },
                       {
                         "type": "Property",
                         "start": 478,
                         "end": 500,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Literal",
                           "start": 478,
@@ -188,15 +187,15 @@
                           "value": "-0.001km/h",
                           "raw": "\"-0.001km/h\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       },
                       {
                         "type": "Property",
                         "start": 508,
                         "end": 534,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Literal",
                           "start": 508,
@@ -211,7 +210,9 @@
                           "value": "時速 -0.001 キロメートル",
                           "raw": "\"時速 -0.001 キロメートル\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -227,14 +228,14 @@
                     "start": 555,
                     "end": 557,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 556,
                       "end": 557,
                       "value": 0,
                       "raw": "0"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "ObjectExpression",
@@ -245,9 +246,7 @@
                         "type": "Property",
                         "start": 571,
                         "end": 589,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Literal",
                           "start": 571,
@@ -262,15 +261,15 @@
                           "value": "-0 km/h",
                           "raw": "\"-0 km/h\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       },
                       {
                         "type": "Property",
                         "start": 597,
                         "end": 615,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Literal",
                           "start": 597,
@@ -285,15 +284,15 @@
                           "value": "-0km/h",
                           "raw": "\"-0km/h\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       },
                       {
                         "type": "Property",
                         "start": 623,
                         "end": 645,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Literal",
                           "start": 623,
@@ -308,7 +307,9 @@
                           "value": "時速 -0 キロメートル",
                           "raw": "\"時速 -0 キロメートル\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -335,9 +336,7 @@
                         "type": "Property",
                         "start": 681,
                         "end": 698,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Literal",
                           "start": 681,
@@ -352,15 +351,15 @@
                           "value": "0 km/h",
                           "raw": "\"0 km/h\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       },
                       {
                         "type": "Property",
                         "start": 706,
                         "end": 723,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Literal",
                           "start": 706,
@@ -375,15 +374,15 @@
                           "value": "0km/h",
                           "raw": "\"0km/h\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       },
                       {
                         "type": "Property",
                         "start": 731,
                         "end": 752,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Literal",
                           "start": 731,
@@ -398,7 +397,9 @@
                           "value": "時速 0 キロメートル",
                           "raw": "\"時速 0 キロメートル\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -425,9 +426,7 @@
                         "type": "Property",
                         "start": 792,
                         "end": 813,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Literal",
                           "start": 792,
@@ -442,15 +441,15 @@
                           "value": "0.001 km/h",
                           "raw": "\"0.001 km/h\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       },
                       {
                         "type": "Property",
                         "start": 821,
                         "end": 842,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Literal",
                           "start": 821,
@@ -465,15 +464,15 @@
                           "value": "0.001km/h",
                           "raw": "\"0.001km/h\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       },
                       {
                         "type": "Property",
                         "start": 850,
                         "end": 875,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Literal",
                           "start": 850,
@@ -488,7 +487,9 @@
                           "value": "時速 0.001 キロメートル",
                           "raw": "\"時速 0.001 キロメートル\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -515,9 +516,7 @@
                         "type": "Property",
                         "start": 913,
                         "end": 932,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Literal",
                           "start": 913,
@@ -532,15 +531,15 @@
                           "value": "987 km/h",
                           "raw": "\"987 km/h\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       },
                       {
                         "type": "Property",
                         "start": 940,
                         "end": 959,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Literal",
                           "start": 940,
@@ -555,15 +554,15 @@
                           "value": "987km/h",
                           "raw": "\"987km/h\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       },
                       {
                         "type": "Property",
                         "start": 967,
                         "end": 990,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Literal",
                           "start": 967,
@@ -578,7 +577,9 @@
                           "value": "時速 987 キロメートル",
                           "raw": "\"時速 987 キロメートル\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -587,8 +588,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -599,6 +599,7 @@
         "type": "VariableDeclaration",
         "start": 1012,
         "end": 1040,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -625,8 +626,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -648,6 +648,7 @@
               "type": "VariableDeclaration",
               "start": 1060,
               "end": 1089,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -674,8 +675,7 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "const"
+              ]
             },
             "right": {
               "type": "CallExpression",
@@ -697,8 +697,8 @@
                   "end": 1107,
                   "name": "entries"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -719,6 +719,7 @@
                   "type": "VariableDeclaration",
                   "start": 1129,
                   "end": 1231,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -750,8 +751,8 @@
                             "end": 1161,
                             "name": "NumberFormat"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -770,9 +771,7 @@
                                 "type": "Property",
                                 "start": 1173,
                                 "end": 1186,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 1173,
@@ -786,15 +785,15 @@
                                   "value": "unit",
                                   "raw": "\"unit\""
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               },
                               {
                                 "type": "Property",
                                 "start": 1188,
                                 "end": 1214,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 1188,
@@ -808,15 +807,15 @@
                                   "value": "kilometer-per-hour",
                                   "raw": "\"kilometer-per-hour\""
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               },
                               {
                                 "type": "Property",
                                 "start": 1216,
                                 "end": 1227,
-                                "method": false,
-                                "shorthand": true,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 1216,
@@ -829,15 +828,16 @@
                                   "end": 1227,
                                   "name": "unitDisplay"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": true,
+                                "computed": false
                               }
                             ]
                           }
                         ]
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -863,8 +863,8 @@
                         "end": 1252,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -887,8 +887,8 @@
                             "end": 1262,
                             "name": "format"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {

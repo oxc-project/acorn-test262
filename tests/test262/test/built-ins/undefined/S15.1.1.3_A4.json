@@ -11,6 +11,7 @@
         "type": "VariableDeclaration",
         "start": 248,
         "end": 256,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -24,8 +25,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "ThisExpression",

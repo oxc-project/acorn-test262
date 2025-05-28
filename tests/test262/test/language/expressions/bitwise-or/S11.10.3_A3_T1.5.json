@@ -31,7 +31,6 @@
               "start": 324,
               "end": 344,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -53,7 +52,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           }
         },
@@ -122,7 +122,6 @@
                           "start": 439,
                           "end": 459,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -144,7 +143,8 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         }
                       }
                     }
@@ -178,7 +178,6 @@
               "start": 482,
               "end": 502,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -200,7 +199,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             },
             "operator": "|",
             "right": {
@@ -269,7 +269,6 @@
                           "start": 597,
                           "end": 617,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -291,7 +290,8 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         },
                         "operator": "|",
                         "right": {
@@ -332,7 +332,6 @@
               "start": 645,
               "end": 665,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -354,7 +353,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             },
             "operator": "|",
             "right": {
@@ -362,7 +362,6 @@
               "start": 668,
               "end": 688,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -384,7 +383,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           }
         },
@@ -446,7 +446,6 @@
                           "start": 796,
                           "end": 816,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -468,7 +467,8 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         },
                         "operator": "|",
                         "right": {
@@ -476,7 +476,6 @@
                           "start": 819,
                           "end": 839,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -498,7 +497,8 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         }
                       }
                     }

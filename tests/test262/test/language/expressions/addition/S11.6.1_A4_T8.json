@@ -31,8 +31,8 @@
               "end": 455,
               "name": "MAX_VALUE"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "operator": "+",
           "right": {
@@ -51,8 +51,8 @@
               "end": 474,
               "name": "MAX_VALUE"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         },
         "operator": "!==",
@@ -72,8 +72,8 @@
             "end": 503,
             "name": "POSITIVE_INFINITY"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "consequent": {
@@ -132,8 +132,8 @@
                           "end": 632,
                           "name": "MAX_VALUE"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "operator": "+",
                       "right": {
@@ -152,8 +152,8 @@
                           "end": 651,
                           "name": "MAX_VALUE"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   }
@@ -182,7 +182,6 @@
             "start": 672,
             "end": 689,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 673,
@@ -199,9 +198,10 @@
                 "end": 689,
                 "name": "MAX_VALUE"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           "operator": "-",
           "right": {
@@ -220,8 +220,8 @@
               "end": 708,
               "name": "MAX_VALUE"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         },
         "operator": "!==",
@@ -241,8 +241,8 @@
             "end": 737,
             "name": "NEGATIVE_INFINITY"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "consequent": {
@@ -290,7 +290,6 @@
                         "start": 851,
                         "end": 868,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "MemberExpression",
                           "start": 852,
@@ -307,9 +306,10 @@
                             "end": 868,
                             "name": "MAX_VALUE"
                           },
-                          "computed": false,
-                          "optional": false
-                        }
+                          "optional": false,
+                          "computed": false
+                        },
+                        "prefix": true
                       },
                       "operator": "-",
                       "right": {
@@ -328,8 +328,8 @@
                           "end": 887,
                           "name": "MAX_VALUE"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   }
@@ -386,8 +386,8 @@
             "end": 952,
             "name": "POSITIVE_INFINITY"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "consequent": {
@@ -472,14 +472,14 @@
             "start": 1081,
             "end": 1091,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1082,
               "end": 1091,
               "value": 8.99e+307,
               "raw": "8.99e+307"
-            }
+            },
+            "prefix": true
           },
           "operator": "-",
           "right": {
@@ -507,8 +507,8 @@
             "end": 1132,
             "name": "NEGATIVE_INFINITY"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "consequent": {
@@ -556,14 +556,14 @@
                         "start": 1232,
                         "end": 1242,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1233,
                           "end": 1242,
                           "value": 8.99e+307,
                           "raw": "8.99e+307"
-                        }
+                        },
+                        "prefix": true
                       },
                       "operator": "-",
                       "right": {

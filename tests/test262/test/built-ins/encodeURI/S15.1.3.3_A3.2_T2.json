@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 325,
       "end": 395,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -96,8 +97,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -107,6 +107,7 @@
         "type": "VariableDeclaration",
         "start": 401,
         "end": 415,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -126,8 +127,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -156,8 +156,8 @@
             "end": 445,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "update": {
@@ -182,6 +182,7 @@
             "type": "VariableDeclaration",
             "start": 461,
             "end": 492,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -209,12 +210,11 @@
                     "end": 490,
                     "name": "indexC"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "IfStatement",

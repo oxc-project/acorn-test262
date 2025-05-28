@@ -13,7 +13,6 @@
         "end": 638,
         "name": "testFunction"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -26,6 +25,7 @@
             "type": "VariableDeclaration",
             "start": 645,
             "end": 655,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -45,13 +45,13 @@
                   "raw": "0"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 658,
             "end": 677,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -72,9 +72,7 @@
                       "type": "Property",
                       "start": 671,
                       "end": 675,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 671,
@@ -88,13 +86,14 @@
                         "value": 1,
                         "raw": "1"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "WithStatement",
@@ -140,7 +139,6 @@
                             "start": 705,
                             "end": 719,
                             "operator": "delete",
-                            "prefix": true,
                             "argument": {
                               "type": "MemberExpression",
                               "start": 712,
@@ -157,9 +155,10 @@
                                 "end": 719,
                                 "name": "x"
                               },
-                              "computed": false,
-                              "optional": false
-                            }
+                              "optional": false,
+                              "computed": false
+                            },
+                            "prefix": true
                           },
                           {
                             "type": "Literal",
@@ -200,8 +199,8 @@
                   "end": 743,
                   "name": "x"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "operator": "!==",
               "right": {
@@ -264,8 +263,8 @@
                               "end": 820,
                               "name": "x"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           }
                         }
                       }
@@ -351,7 +350,8 @@
             "alternate": null
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

@@ -13,7 +13,6 @@
         "end": 866,
         "name": "body"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -33,6 +32,7 @@
             "type": "VariableDeclaration",
             "start": 875,
             "end": 901,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -64,13 +64,13 @@
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 904,
             "end": 937,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -109,19 +109,19 @@
                         "end": 935,
                         "name": "length"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 940,
             "end": 969,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -147,8 +147,7 @@
                 },
                 "init": null
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -174,8 +173,8 @@
                   "end": 983,
                   "name": "set"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -230,8 +229,8 @@
                       "end": 1038,
                       "name": "buffer"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 ]
               }
@@ -279,8 +278,8 @@
                       "end": 1085,
                       "name": "buffer"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 ]
               }
@@ -332,7 +331,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

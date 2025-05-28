@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 532,
       "end": 623,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -68,8 +69,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -80,6 +80,7 @@
         "type": "VariableDeclaration",
         "start": 629,
         "end": 644,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -93,8 +94,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -131,8 +131,8 @@
                   "end": 681,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -146,7 +146,6 @@
                   "start": 694,
                   "end": 760,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -179,8 +178,8 @@
                               "end": 734,
                               "name": "DateTimeFormat"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -199,9 +198,7 @@
                                   "type": "Property",
                                   "start": 743,
                                   "end": 752,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 743,
@@ -214,7 +211,9 @@
                                     "end": 752,
                                     "name": "timeStyle"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 }
                               ]
                             }
@@ -222,20 +221,13 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 762,
                   "end": 842,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 809,
-                      "end": 818,
-                      "name": "timeStyle"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -256,6 +248,14 @@
                         "cooked": "\" }) throws RangeError"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 809,
+                      "end": 818,
+                      "name": "timeStyle"
                     }
                   ]
                 }

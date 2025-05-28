@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 309,
       "end": 340,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "1735213600_321"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 370,
       "end": 407,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -64,13 +65,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 408,
       "end": 465,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -102,8 +103,8 @@
                 "end": 456,
                 "name": "PlainMonthDay"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -123,8 +124,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -135,6 +135,7 @@
         "type": "VariableDeclaration",
         "start": 472,
         "end": 485,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -148,8 +149,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -165,9 +165,7 @@
                 "type": "Property",
                 "start": 495,
                 "end": 510,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 495,
@@ -182,7 +180,9 @@
                   "value": "long",
                   "raw": "\"long\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           },
@@ -195,9 +195,7 @@
                 "type": "Property",
                 "start": 518,
                 "end": 534,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 518,
@@ -212,7 +210,9 @@
                   "value": "numeric",
                   "raw": "\"numeric\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -227,6 +227,7 @@
             "type": "VariableDeclaration",
             "start": 545,
             "end": 630,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -258,8 +259,8 @@
                       "end": 601,
                       "name": "toLocaleString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -279,13 +280,13 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 633,
             "end": 712,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -317,8 +318,8 @@
                       "end": 683,
                       "name": "toLocaleString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -338,8 +339,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -365,8 +365,8 @@
                   "end": 731,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -385,6 +385,28 @@
                   "type": "TemplateLiteral",
                   "start": 771,
                   "end": 854,
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 772,
+                      "end": 827,
+                      "value": {
+                        "raw": "PlainMonthDay.toLocaleString should format lone option ",
+                        "cooked": "PlainMonthDay.toLocaleString should format lone option "
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 853,
+                      "end": 853,
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true
+                    }
+                  ],
                   "expressions": [
                     {
                       "type": "CallExpression",
@@ -406,8 +428,8 @@
                           "end": 843,
                           "name": "stringify"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -418,28 +440,6 @@
                         }
                       ],
                       "optional": false
-                    }
-                  ],
-                  "quasis": [
-                    {
-                      "type": "TemplateElement",
-                      "start": 772,
-                      "end": 827,
-                      "value": {
-                        "raw": "PlainMonthDay.toLocaleString should format lone option ",
-                        "cooked": "PlainMonthDay.toLocaleString should format lone option "
-                      },
-                      "tail": false
-                    },
-                    {
-                      "type": "TemplateElement",
-                      "start": 853,
-                      "end": 853,
-                      "value": {
-                        "raw": "",
-                        "cooked": ""
-                      },
-                      "tail": true
                     }
                   ]
                 }

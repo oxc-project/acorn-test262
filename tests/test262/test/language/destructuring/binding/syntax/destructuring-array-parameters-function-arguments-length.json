@@ -27,8 +27,8 @@
             "end": 755,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -43,9 +43,7 @@
                 "type": "ArrowFunctionExpression",
                 "start": 757,
                 "end": 770,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": false,
                 "params": [
                   {
@@ -73,7 +71,9 @@
                   "start": 768,
                   "end": 770,
                   "body": []
-                }
+                },
+                "id": null,
+                "generator": false
               }
             },
             "property": {
@@ -82,8 +82,8 @@
               "end": 778,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -120,8 +120,8 @@
             "end": 800,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -137,7 +137,6 @@
                 "start": 802,
                 "end": 820,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [
@@ -166,7 +165,8 @@
                   "start": 818,
                   "end": 820,
                   "body": []
-                }
+                },
+                "expression": false
               }
             },
             "property": {
@@ -175,8 +175,8 @@
               "end": 828,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -213,8 +213,8 @@
             "end": 850,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -230,7 +230,6 @@
                 "start": 852,
                 "end": 873,
                 "id": null,
-                "expression": false,
                 "generator": true,
                 "async": false,
                 "params": [
@@ -259,7 +258,8 @@
                   "start": 871,
                   "end": 873,
                   "body": []
-                }
+                },
+                "expression": false
               }
             },
             "property": {
@@ -268,8 +268,8 @@
               "end": 881,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -306,8 +306,8 @@
             "end": 903,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -322,9 +322,7 @@
                 "type": "ArrowFunctionExpression",
                 "start": 905,
                 "end": 924,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": true,
                 "params": [
                   {
@@ -352,7 +350,9 @@
                   "start": 922,
                   "end": 924,
                   "body": []
-                }
+                },
+                "id": null,
+                "generator": false
               }
             },
             "property": {
@@ -361,8 +361,8 @@
               "end": 932,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -399,8 +399,8 @@
             "end": 954,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -416,7 +416,6 @@
                 "start": 956,
                 "end": 980,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": true,
                 "params": [
@@ -445,7 +444,8 @@
                   "start": 978,
                   "end": 980,
                   "body": []
-                }
+                },
+                "expression": false
               }
             },
             "property": {
@@ -454,8 +454,8 @@
               "end": 988,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -492,8 +492,8 @@
             "end": 1010,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -509,7 +509,6 @@
                 "start": 1012,
                 "end": 1039,
                 "id": null,
-                "expression": false,
                 "generator": true,
                 "async": true,
                 "params": [
@@ -538,7 +537,8 @@
                   "start": 1037,
                   "end": 1039,
                   "body": []
-                }
+                },
+                "expression": false
               }
             },
             "property": {
@@ -547,8 +547,8 @@
               "end": 1047,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

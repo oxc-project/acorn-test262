@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 728,
       "end": 781,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -46,8 +47,8 @@
                     "end": 758,
                     "name": "Locale"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -65,15 +66,14 @@
                 "end": 778,
                 "name": "getHourCycles"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -110,8 +110,8 @@
                 "end": 802,
                 "name": "length"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": ">",
             "right": {
@@ -157,17 +157,15 @@
             "end": 857,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 858,
             "end": 946,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -191,7 +189,6 @@
                     "start": 871,
                     "end": 913,
                     "operator": "!",
-                    "prefix": true,
                     "argument": {
                       "type": "CallExpression",
                       "start": 872,
@@ -241,8 +238,8 @@
                           "end": 909,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -253,7 +250,8 @@
                         }
                       ],
                       "optional": false
-                    }
+                    },
+                    "prefix": true
                   },
                   "consequent": {
                     "type": "ThrowStatement",
@@ -275,7 +273,9 @@
                   "alternate": null
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

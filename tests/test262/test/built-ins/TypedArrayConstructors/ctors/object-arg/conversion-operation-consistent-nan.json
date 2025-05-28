@@ -13,7 +13,6 @@
         "end": 2798,
         "name": "body"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -33,6 +32,7 @@
             "type": "VariableDeclaration",
             "start": 2815,
             "end": 2848,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -64,13 +64,13 @@
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 2851,
             "end": 2885,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -102,13 +102,13 @@
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 2888,
             "end": 2934,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -147,19 +147,19 @@
                         "end": 2932,
                         "name": "buffer"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 2937,
             "end": 2985,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -198,14 +198,13 @@
                         "end": 2983,
                         "name": "buffer"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -253,7 +252,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

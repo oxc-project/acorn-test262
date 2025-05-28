@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1350,
       "end": 1698,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -215,8 +216,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -227,6 +227,7 @@
         "type": "VariableDeclaration",
         "start": 1704,
         "end": 1737,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -253,8 +254,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -291,8 +291,8 @@
                   "end": 1790,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -323,8 +323,8 @@
                           "end": 1811,
                           "name": "Locale"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -343,9 +343,7 @@
                               "type": "Property",
                               "start": 1820,
                               "end": 1835,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1820,
@@ -358,7 +356,9 @@
                                 "end": 1835,
                                 "name": "numberingSystem"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -370,8 +370,8 @@
                       "end": 1847,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -386,20 +386,6 @@
                   "type": "TemplateLiteral",
                   "start": 1869,
                   "end": 1966,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1913,
-                      "end": 1928,
-                      "name": "numberingSystem"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 1955,
-                      "end": 1963,
-                      "name": "expected"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -431,6 +417,20 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1913,
+                      "end": 1928,
+                      "name": "numberingSystem"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 1955,
+                      "end": 1963,
+                      "name": "expected"
+                    }
                   ]
                 }
               ],
@@ -461,8 +461,8 @@
                   "end": 1990,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -493,8 +493,8 @@
                           "end": 2011,
                           "name": "Locale"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -513,9 +513,7 @@
                               "type": "Property",
                               "start": 2030,
                               "end": 2045,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 2030,
@@ -528,7 +526,9 @@
                                 "end": 2045,
                                 "name": "numberingSystem"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -540,8 +540,8 @@
                       "end": 2057,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -556,20 +556,6 @@
                   "type": "TemplateLiteral",
                   "start": 2079,
                   "end": 2186,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 2133,
-                      "end": 2148,
-                      "name": "numberingSystem"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 2175,
-                      "end": 2183,
-                      "name": "expected"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -600,6 +586,20 @@
                         "cooked": "\""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 2133,
+                      "end": 2148,
+                      "name": "numberingSystem"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 2175,
+                      "end": 2183,
+                      "name": "expected"
                     }
                   ]
                 }

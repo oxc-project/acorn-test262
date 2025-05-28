@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 526,
       "end": 748,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -145,8 +146,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -157,6 +157,7 @@
         "type": "VariableDeclaration",
         "start": 755,
         "end": 772,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -170,8 +171,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -208,8 +208,8 @@
                   "end": 809,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -223,7 +223,6 @@
                   "start": 822,
                   "end": 883,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -256,8 +255,8 @@
                               "end": 857,
                               "name": "Segmenter"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -275,9 +274,7 @@
                                   "type": "Property",
                                   "start": 864,
                                   "end": 875,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 864,
@@ -290,7 +287,9 @@
                                     "end": 875,
                                     "name": "granularity"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 }
                               ]
                             }
@@ -298,20 +297,13 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 885,
                   "end": 934,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 888,
-                      "end": 899,
-                      "name": "granularity"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -332,6 +324,14 @@
                         "cooked": " is an invalid style option value"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 888,
+                      "end": 899,
+                      "name": "granularity"
                     }
                   ]
                 }

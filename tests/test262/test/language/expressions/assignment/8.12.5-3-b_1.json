@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 299,
       "end": 373,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 345,
                 "name": "getOwnPropertyDescriptor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -58,8 +59,8 @@
                   "end": 361,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               {
                 "type": "Literal",
@@ -72,13 +73,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 378,
       "end": 390,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -92,8 +93,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -124,8 +124,8 @@
               "end": 415,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -133,15 +133,14 @@
             "end": 422,
             "name": "reduce"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 425,
           "end": 440,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -156,7 +155,8 @@
                 "end": 439
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -195,8 +195,8 @@
               "end": 491,
               "name": "getOwnPropertyDescriptor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -215,8 +215,8 @@
                 "end": 507,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             {
               "type": "Literal",
@@ -234,6 +234,7 @@
       "type": "VariableDeclaration",
       "start": 528,
       "end": 564,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -265,8 +266,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForInStatement",
@@ -276,6 +276,7 @@
         "type": "VariableDeclaration",
         "start": 587,
         "end": 592,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -289,8 +290,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -311,6 +311,7 @@
               "type": "VariableDeclaration",
               "start": 681,
               "end": 686,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -324,8 +325,7 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "var"
+              ]
             },
             "right": {
               "type": "MemberExpression",
@@ -343,8 +343,8 @@
                 "end": 701,
                 "name": "j"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "body": {
               "type": "BlockStatement",
@@ -403,8 +403,8 @@
                               "end": 780,
                               "name": "notSameValue"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -423,8 +423,8 @@
                                 "end": 791,
                                 "name": "i"
                               },
-                              "computed": true,
-                              "optional": false
+                              "optional": false,
+                              "computed": true
                             },
                             {
                               "type": "MemberExpression",
@@ -442,8 +442,8 @@
                                 "end": 803,
                                 "name": "i"
                               },
-                              "computed": true,
-                              "optional": false
+                              "optional": false,
+                              "computed": true
                             },
                             {
                               "type": "Literal",
@@ -487,8 +487,8 @@
                               "end": 899,
                               "name": "sameValue"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -507,8 +507,8 @@
                                 "end": 910,
                                 "name": "i"
                               },
-                              "computed": true,
-                              "optional": false
+                              "optional": false,
+                              "computed": true
                             },
                             {
                               "type": "MemberExpression",
@@ -526,8 +526,8 @@
                                 "end": 922,
                                 "name": "i"
                               },
-                              "computed": true,
-                              "optional": false
+                              "optional": false,
+                              "computed": true
                             },
                             {
                               "type": "Literal",

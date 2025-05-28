@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 693,
       "end": 1679,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -215,8 +216,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -227,6 +227,7 @@
         "type": "VariableDeclaration",
         "start": 1686,
         "end": 1693,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -240,8 +241,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -278,8 +278,8 @@
                   "end": 1767,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -369,8 +369,8 @@
                   "end": 1921,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -383,9 +383,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1934,
                   "end": 1969,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -408,8 +406,8 @@
                         "end": 1964,
                         "name": "getCanonicalLocales"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -420,20 +418,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1971,
                   "end": 1979,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1974,
-                      "end": 1977,
-                      "name": "tag"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -454,6 +446,14 @@
                         "cooked": ""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1974,
+                      "end": 1977,
+                      "name": "tag"
                     }
                   ]
                 }

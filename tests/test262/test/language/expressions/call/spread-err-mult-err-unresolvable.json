@@ -27,8 +27,8 @@
             "end": 1224,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 1241,
             "end": 1303,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -68,7 +67,6 @@
                         "start": 1257,
                         "end": 1270,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -77,7 +75,8 @@
                           "start": 1268,
                           "end": 1270,
                           "body": []
-                        }
+                        },
+                        "expression": false
                       },
                       "arguments": [
                         {
@@ -104,7 +103,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

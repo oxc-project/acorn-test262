@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 500,
       "end": 813,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -509,8 +510,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -521,6 +521,7 @@
         "type": "VariableDeclaration",
         "start": 819,
         "end": 851,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -547,8 +548,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -585,8 +585,8 @@
                   "end": 903,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -621,8 +621,8 @@
                             "end": 924,
                             "name": "Locale"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -641,9 +641,7 @@
                                 "type": "Property",
                                 "start": 933,
                                 "end": 947,
-                                "method": false,
-                                "shorthand": true,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 933,
@@ -656,7 +654,9 @@
                                   "end": 947,
                                   "name": "firstDayOfWeek"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": true,
+                                "computed": false
                               }
                             ]
                           }
@@ -668,8 +668,8 @@
                         "end": 962,
                         "name": "getWeekInfo"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
@@ -680,8 +680,8 @@
                     "end": 973,
                     "name": "firstDay"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Identifier",
@@ -693,20 +693,6 @@
                   "type": "TemplateLiteral",
                   "start": 993,
                   "end": 1100,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1036,
-                      "end": 1050,
-                      "name": "firstDayOfWeek"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 1089,
-                      "end": 1097,
-                      "name": "expected"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -738,6 +724,20 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1036,
+                      "end": 1050,
+                      "name": "firstDayOfWeek"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 1089,
+                      "end": 1097,
+                      "name": "expected"
+                    }
                   ]
                 }
               ],
@@ -768,8 +768,8 @@
                   "end": 1124,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -804,8 +804,8 @@
                             "end": 1145,
                             "name": "Locale"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -824,9 +824,7 @@
                                 "type": "Property",
                                 "start": 1163,
                                 "end": 1177,
-                                "method": false,
-                                "shorthand": true,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 1163,
@@ -839,7 +837,9 @@
                                   "end": 1177,
                                   "name": "firstDayOfWeek"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": true,
+                                "computed": false
                               }
                             ]
                           }
@@ -851,8 +851,8 @@
                         "end": 1192,
                         "name": "getWeekInfo"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
@@ -863,8 +863,8 @@
                     "end": 1203,
                     "name": "firstDay"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Identifier",
@@ -876,20 +876,6 @@
                   "type": "TemplateLiteral",
                   "start": 1223,
                   "end": 1331,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1275,
-                      "end": 1289,
-                      "name": "firstDayOfWeek"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 1320,
-                      "end": 1328,
-                      "name": "expected"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -920,6 +906,20 @@
                         "cooked": "\""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1275,
+                      "end": 1289,
+                      "name": "firstDayOfWeek"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 1320,
+                      "end": 1328,
+                      "name": "expected"
                     }
                   ]
                 }

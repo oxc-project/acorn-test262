@@ -13,7 +13,6 @@
         "end": 335,
         "name": "test"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -45,6 +44,7 @@
             "type": "VariableDeclaration",
             "start": 363,
             "end": 420,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -76,8 +76,8 @@
                       "end": 406,
                       "name": "ZonedDateTime"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -95,13 +95,13 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 423,
             "end": 461,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -133,15 +133,14 @@
                       "end": 458,
                       "name": "toPlainDateTime"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -167,8 +166,8 @@
                   "end": 499,
                   "name": "assertPlainDateTime"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -192,40 +191,6 @@
                   "type": "TemplateLiteral",
                   "start": 517,
                   "end": 565,
-                  "expressions": [
-                    {
-                      "type": "CallExpression",
-                      "start": 534,
-                      "end": 554,
-                      "callee": {
-                        "type": "MemberExpression",
-                        "start": 534,
-                        "end": 552,
-                        "object": {
-                          "type": "Identifier",
-                          "start": 534,
-                          "end": 542,
-                          "name": "instance"
-                        },
-                        "property": {
-                          "type": "Identifier",
-                          "start": 543,
-                          "end": 552,
-                          "name": "toInstant"
-                        },
-                        "computed": false,
-                        "optional": false
-                      },
-                      "arguments": [],
-                      "optional": false
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 561,
-                      "end": 563,
-                      "name": "id"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -257,6 +222,40 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "CallExpression",
+                      "start": 534,
+                      "end": 554,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 534,
+                        "end": 552,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 534,
+                          "end": 542,
+                          "name": "instance"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 543,
+                          "end": 552,
+                          "name": "toInstant"
+                        },
+                        "optional": false,
+                        "computed": false
+                      },
+                      "arguments": [],
+                      "optional": false
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 561,
+                      "end": 563,
+                      "name": "id"
+                    }
                   ]
                 }
               ],
@@ -264,7 +263,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

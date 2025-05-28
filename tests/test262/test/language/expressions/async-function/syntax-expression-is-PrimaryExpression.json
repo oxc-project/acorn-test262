@@ -25,7 +25,6 @@
               "end": 292,
               "name": "foo"
             },
-            "expression": false,
             "generator": false,
             "async": true,
             "params": [],
@@ -34,7 +33,8 @@
               "start": 295,
               "end": 298,
               "body": []
-            }
+            },
+            "expression": false
           },
           "property": {
             "type": "Identifier",
@@ -42,8 +42,8 @@
             "end": 308,
             "name": "prototype"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       }
     }

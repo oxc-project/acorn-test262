@@ -12,6 +12,7 @@
           "type": "VariableDeclaration",
           "start": 361,
           "end": 367,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
               },
               "init": null
             }
-          ],
-          "kind": "let"
+          ]
         },
         {
           "type": "BlockStatement",

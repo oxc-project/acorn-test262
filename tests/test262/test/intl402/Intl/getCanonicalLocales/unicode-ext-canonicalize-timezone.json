@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1125,
       "end": 2126,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 1333,
                 "end": 1349,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 1333,
@@ -44,15 +43,15 @@
                   "value": "cnsha",
                   "raw": "\"cnsha\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1462,
                 "end": 1477,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 1462,
@@ -67,15 +66,15 @@
                   "value": "iedub",
                   "raw": "\"iedub\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1589,
                 "end": 1603,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 1589,
@@ -90,15 +89,15 @@
                   "value": "papty",
                   "raw": "\"papty\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1777,
                 "end": 1790,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 1777,
@@ -113,15 +112,15 @@
                   "value": "gmt",
                   "raw": "\"gmt\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1943,
                 "end": 1955,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 1943,
@@ -136,15 +135,15 @@
                   "value": "utc",
                   "raw": "\"utc\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 2109,
                 "end": 2122,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 2109,
@@ -159,13 +158,14 @@
                   "value": "utc",
                   "raw": "\"utc\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -176,6 +176,7 @@
         "type": "VariableDeclaration",
         "start": 2133,
         "end": 2150,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -202,8 +203,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "CallExpression",
@@ -225,8 +225,8 @@
             "end": 2168,
             "name": "entries"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -247,6 +247,7 @@
             "type": "VariableDeclaration",
             "start": 2184,
             "end": 2214,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -278,13 +279,13 @@
                   }
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 2217,
             "end": 2252,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -316,8 +317,7 @@
                   }
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -343,8 +343,8 @@
                   "end": 2313,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -485,6 +485,7 @@
             "type": "VariableDeclaration",
             "start": 2597,
             "end": 2640,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -516,8 +517,8 @@
                       "end": 2634,
                       "name": "getCanonicalLocales"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -530,8 +531,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -557,8 +557,8 @@
                   "end": 2659,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -577,8 +577,8 @@
                     "end": 2673,
                     "name": "length"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -615,8 +615,8 @@
                   "end": 2697,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -636,8 +636,8 @@
                     "value": 0,
                     "raw": "0"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 {
                   "type": "Identifier",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 354,
       "end": 401,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 388,
                 "name": "supportedValuesOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -53,13 +54,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 403,
       "end": 586,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -75,9 +76,7 @@
             "type": "ArrowFunctionExpression",
             "start": 431,
             "end": 585,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -106,6 +105,7 @@
                     "type": "VariableDeclaration",
                     "start": 457,
                     "end": 466,
+                    "kind": "let",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
@@ -125,8 +125,7 @@
                           "raw": "0"
                         }
                       }
-                    ],
-                    "kind": "let"
+                    ]
                   },
                   "test": {
                     "type": "BinaryExpression",
@@ -155,8 +154,8 @@
                         "end": 484,
                         "name": "length"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   },
                   "update": {
@@ -185,6 +184,7 @@
                           "type": "VariableDeclaration",
                           "start": 502,
                           "end": 515,
+                          "kind": "let",
                           "declarations": [
                             {
                               "type": "VariableDeclarator",
@@ -216,8 +216,7 @@
                                 }
                               }
                             }
-                          ],
-                          "kind": "let"
+                          ]
                         },
                         "test": {
                           "type": "BinaryExpression",
@@ -246,8 +245,8 @@
                               "end": 533,
                               "name": "length"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           }
                         },
                         "update": {
@@ -299,8 +298,8 @@
                                       "end": 560,
                                       "name": "i"
                                     },
-                                    "computed": true,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": true
                                   },
                                   {
                                     "type": "MemberExpression",
@@ -318,8 +317,8 @@
                                       "end": 570,
                                       "name": "j"
                                     },
-                                    "computed": true,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": true
                                   }
                                 ],
                                 "optional": false
@@ -332,11 +331,12 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -363,9 +363,7 @@
             "type": "ArrowFunctionExpression",
             "start": 613,
             "end": 774,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -390,6 +388,7 @@
                   "type": "VariableDeclaration",
                   "start": 631,
                   "end": 684,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -421,8 +420,8 @@
                             "end": 674,
                             "name": "ZonedDateTime"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -442,8 +441,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -465,7 +463,6 @@
                         "start": 694,
                         "end": 738,
                         "operator": "!",
-                        "prefix": true,
                         "argument": {
                           "type": "CallExpression",
                           "start": 695,
@@ -486,8 +483,8 @@
                               "end": 710,
                               "name": "equals"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -510,8 +507,8 @@
                                   "end": 732,
                                   "name": "withTimeZone"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [
                                 {
@@ -525,26 +522,13 @@
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 740,
                         "end": 770,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 743,
-                            "end": 746,
-                            "name": "id1"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 765,
-                            "end": 768,
-                            "name": "id2"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -576,6 +560,20 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 743,
+                            "end": 746,
+                            "name": "id1"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 765,
+                            "end": 768,
+                            "name": "id2"
+                          }
                         ]
                       }
                     ],
@@ -583,7 +581,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

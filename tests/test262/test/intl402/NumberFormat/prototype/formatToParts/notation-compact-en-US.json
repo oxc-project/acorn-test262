@@ -13,7 +13,6 @@
         "end": 360,
         "name": "verifyFormatParts"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -65,8 +64,8 @@
                   "end": 408,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -89,8 +88,8 @@
                       "end": 422,
                       "name": "isArray"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -113,14 +112,6 @@
                   "type": "TemplateLiteral",
                   "start": 440,
                   "end": 471,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 443,
-                      "end": 450,
-                      "name": "message"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -141,6 +132,14 @@
                         "cooked": ": expected is Array"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 443,
+                      "end": 450,
+                      "name": "message"
                     }
                   ]
                 }
@@ -172,8 +171,8 @@
                   "end": 492,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -196,8 +195,8 @@
                       "end": 506,
                       "name": "isArray"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -220,14 +219,6 @@
                   "type": "TemplateLiteral",
                   "start": 522,
                   "end": 551,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 525,
-                      "end": 532,
-                      "name": "message"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -248,6 +239,14 @@
                         "cooked": ": actual is Array"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 525,
+                      "end": 532,
+                      "name": "message"
                     }
                   ]
                 }
@@ -279,8 +278,8 @@
                   "end": 572,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -299,8 +298,8 @@
                     "end": 586,
                     "name": "length"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "MemberExpression",
@@ -318,21 +317,13 @@
                     "end": 603,
                     "name": "length"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 605,
                   "end": 625,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 608,
-                      "end": 615,
-                      "name": "message"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -354,6 +345,14 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 608,
+                      "end": 615,
+                      "name": "message"
+                    }
                   ]
                 }
               ],
@@ -368,6 +367,7 @@
               "type": "VariableDeclaration",
               "start": 636,
               "end": 645,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -387,8 +387,7 @@
                     "raw": "0"
                   }
                 }
-              ],
-              "kind": "let"
+              ]
             },
             "test": {
               "type": "BinaryExpression",
@@ -417,8 +416,8 @@
                   "end": 664,
                   "name": "length"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             },
             "update": {
@@ -463,8 +462,8 @@
                         "end": 693,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -487,8 +486,8 @@
                             "end": 702,
                             "name": "i"
                           },
-                          "computed": true,
-                          "optional": false
+                          "optional": false,
+                          "computed": true
                         },
                         "property": {
                           "type": "Identifier",
@@ -496,8 +495,8 @@
                           "end": 708,
                           "name": "type"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       {
                         "type": "MemberExpression",
@@ -519,8 +518,8 @@
                             "end": 720,
                             "name": "i"
                           },
-                          "computed": true,
-                          "optional": false
+                          "optional": false,
+                          "computed": true
                         },
                         "property": {
                           "type": "Identifier",
@@ -528,27 +527,13 @@
                           "end": 726,
                           "name": "type"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 728,
                         "end": 758,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 731,
-                            "end": 738,
-                            "name": "message"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 749,
-                            "end": 750,
-                            "name": "i"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -580,6 +565,20 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 731,
+                            "end": 738,
+                            "name": "message"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 749,
+                            "end": 750,
+                            "name": "i"
+                          }
                         ]
                       }
                     ],
@@ -610,8 +609,8 @@
                         "end": 781,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -634,8 +633,8 @@
                             "end": 790,
                             "name": "i"
                           },
-                          "computed": true,
-                          "optional": false
+                          "optional": false,
+                          "computed": true
                         },
                         "property": {
                           "type": "Identifier",
@@ -643,8 +642,8 @@
                           "end": 797,
                           "name": "value"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       {
                         "type": "MemberExpression",
@@ -666,8 +665,8 @@
                             "end": 809,
                             "name": "i"
                           },
-                          "computed": true,
-                          "optional": false
+                          "optional": false,
+                          "computed": true
                         },
                         "property": {
                           "type": "Identifier",
@@ -675,27 +674,13 @@
                           "end": 816,
                           "name": "value"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 818,
                         "end": 849,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 821,
-                            "end": 828,
-                            "name": "message"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 839,
-                            "end": 840,
-                            "name": "i"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -727,6 +712,20 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 821,
+                            "end": 828,
+                            "name": "message"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 839,
+                            "end": 840,
+                            "name": "i"
+                          }
                         ]
                       }
                     ],
@@ -737,12 +736,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 858,
       "end": 2618,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -785,9 +786,7 @@
                             "type": "Property",
                             "start": 899,
                             "end": 915,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 899,
@@ -802,15 +801,15 @@
                               "value": "integer",
                               "raw": "\"integer\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 916,
                             "end": 929,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 916,
@@ -825,7 +824,9 @@
                               "value": "988",
                               "raw": "\"988\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -838,9 +839,7 @@
                             "type": "Property",
                             "start": 932,
                             "end": 948,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 932,
@@ -855,15 +854,15 @@
                               "value": "compact",
                               "raw": "\"compact\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 949,
                             "end": 960,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 949,
@@ -878,7 +877,9 @@
                               "value": "M",
                               "raw": "\"M\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -898,9 +899,7 @@
                             "type": "Property",
                             "start": 970,
                             "end": 986,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 970,
@@ -915,15 +914,15 @@
                               "value": "integer",
                               "raw": "\"integer\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 987,
                             "end": 1000,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 987,
@@ -938,7 +937,9 @@
                               "value": "988",
                               "raw": "\"988\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -951,9 +952,7 @@
                             "type": "Property",
                             "start": 1003,
                             "end": 1019,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1003,
@@ -968,15 +967,15 @@
                               "value": "literal",
                               "raw": "\"literal\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1020,
                             "end": 1031,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1020,
@@ -991,7 +990,9 @@
                               "value": " ",
                               "raw": "\" \""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -1004,9 +1005,7 @@
                             "type": "Property",
                             "start": 1034,
                             "end": 1050,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1034,
@@ -1021,15 +1020,15 @@
                               "value": "compact",
                               "raw": "\"compact\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1051,
                             "end": 1068,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1051,
@@ -1044,7 +1043,9 @@
                               "value": "million",
                               "raw": "\"million\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -1078,9 +1079,7 @@
                             "type": "Property",
                             "start": 1101,
                             "end": 1117,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1101,
@@ -1095,15 +1094,15 @@
                               "value": "integer",
                               "raw": "\"integer\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1118,
                             "end": 1130,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1118,
@@ -1118,7 +1117,9 @@
                               "value": "99",
                               "raw": "\"99\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -1131,9 +1132,7 @@
                             "type": "Property",
                             "start": 1133,
                             "end": 1149,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1133,
@@ -1148,15 +1147,15 @@
                               "value": "compact",
                               "raw": "\"compact\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1150,
                             "end": 1161,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1150,
@@ -1171,7 +1170,9 @@
                               "value": "M",
                               "raw": "\"M\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -1191,9 +1192,7 @@
                             "type": "Property",
                             "start": 1171,
                             "end": 1187,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1171,
@@ -1208,15 +1207,15 @@
                               "value": "integer",
                               "raw": "\"integer\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1188,
                             "end": 1200,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1188,
@@ -1231,7 +1230,9 @@
                               "value": "99",
                               "raw": "\"99\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -1244,9 +1245,7 @@
                             "type": "Property",
                             "start": 1203,
                             "end": 1219,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1203,
@@ -1261,15 +1260,15 @@
                               "value": "literal",
                               "raw": "\"literal\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1220,
                             "end": 1231,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1220,
@@ -1284,7 +1283,9 @@
                               "value": " ",
                               "raw": "\" \""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -1297,9 +1298,7 @@
                             "type": "Property",
                             "start": 1234,
                             "end": 1250,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1234,
@@ -1314,15 +1313,15 @@
                               "value": "compact",
                               "raw": "\"compact\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1251,
                             "end": 1268,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1251,
@@ -1337,7 +1336,9 @@
                               "value": "million",
                               "raw": "\"million\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -1371,9 +1372,7 @@
                             "type": "Property",
                             "start": 1298,
                             "end": 1314,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1298,
@@ -1388,15 +1387,15 @@
                               "value": "integer",
                               "raw": "\"integer\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1315,
                             "end": 1327,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1315,
@@ -1411,7 +1410,9 @@
                               "value": "99",
                               "raw": "\"99\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -1424,9 +1425,7 @@
                             "type": "Property",
                             "start": 1330,
                             "end": 1346,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1330,
@@ -1441,15 +1440,15 @@
                               "value": "compact",
                               "raw": "\"compact\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1347,
                             "end": 1358,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1347,
@@ -1464,7 +1463,9 @@
                               "value": "K",
                               "raw": "\"K\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -1484,9 +1485,7 @@
                             "type": "Property",
                             "start": 1368,
                             "end": 1384,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1368,
@@ -1501,15 +1500,15 @@
                               "value": "integer",
                               "raw": "\"integer\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1385,
                             "end": 1397,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1385,
@@ -1524,7 +1523,9 @@
                               "value": "99",
                               "raw": "\"99\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -1537,9 +1538,7 @@
                             "type": "Property",
                             "start": 1400,
                             "end": 1416,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1400,
@@ -1554,15 +1553,15 @@
                               "value": "literal",
                               "raw": "\"literal\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1417,
                             "end": 1428,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1417,
@@ -1577,7 +1576,9 @@
                               "value": " ",
                               "raw": "\" \""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -1590,9 +1591,7 @@
                             "type": "Property",
                             "start": 1431,
                             "end": 1447,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1431,
@@ -1607,15 +1606,15 @@
                               "value": "compact",
                               "raw": "\"compact\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1448,
                             "end": 1466,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1448,
@@ -1630,7 +1629,9 @@
                               "value": "thousand",
                               "raw": "\"thousand\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -1664,9 +1665,7 @@
                             "type": "Property",
                             "start": 1495,
                             "end": 1511,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1495,
@@ -1681,15 +1680,15 @@
                               "value": "integer",
                               "raw": "\"integer\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1512,
                             "end": 1523,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1512,
@@ -1704,7 +1703,9 @@
                               "value": "9",
                               "raw": "\"9\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -1717,9 +1718,7 @@
                             "type": "Property",
                             "start": 1526,
                             "end": 1542,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1526,
@@ -1734,15 +1733,15 @@
                               "value": "decimal",
                               "raw": "\"decimal\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1543,
                             "end": 1554,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1543,
@@ -1757,7 +1756,9 @@
                               "value": ".",
                               "raw": "\".\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -1770,9 +1771,7 @@
                             "type": "Property",
                             "start": 1557,
                             "end": 1574,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1557,
@@ -1787,15 +1786,15 @@
                               "value": "fraction",
                               "raw": "\"fraction\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1575,
                             "end": 1586,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1575,
@@ -1810,7 +1809,9 @@
                               "value": "9",
                               "raw": "\"9\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -1823,9 +1824,7 @@
                             "type": "Property",
                             "start": 1589,
                             "end": 1605,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1589,
@@ -1840,15 +1839,15 @@
                               "value": "compact",
                               "raw": "\"compact\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1606,
                             "end": 1617,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1606,
@@ -1863,7 +1862,9 @@
                               "value": "K",
                               "raw": "\"K\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -1883,9 +1884,7 @@
                             "type": "Property",
                             "start": 1627,
                             "end": 1643,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1627,
@@ -1900,15 +1899,15 @@
                               "value": "integer",
                               "raw": "\"integer\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1644,
                             "end": 1655,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1644,
@@ -1923,7 +1922,9 @@
                               "value": "9",
                               "raw": "\"9\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -1936,9 +1937,7 @@
                             "type": "Property",
                             "start": 1658,
                             "end": 1674,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1658,
@@ -1953,15 +1952,15 @@
                               "value": "decimal",
                               "raw": "\"decimal\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1675,
                             "end": 1686,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1675,
@@ -1976,7 +1975,9 @@
                               "value": ".",
                               "raw": "\".\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -1989,9 +1990,7 @@
                             "type": "Property",
                             "start": 1689,
                             "end": 1706,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1689,
@@ -2006,15 +2005,15 @@
                               "value": "fraction",
                               "raw": "\"fraction\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1707,
                             "end": 1718,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1707,
@@ -2029,7 +2028,9 @@
                               "value": "9",
                               "raw": "\"9\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -2042,9 +2043,7 @@
                             "type": "Property",
                             "start": 1721,
                             "end": 1737,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1721,
@@ -2059,15 +2058,15 @@
                               "value": "literal",
                               "raw": "\"literal\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1738,
                             "end": 1749,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1738,
@@ -2082,7 +2081,9 @@
                               "value": " ",
                               "raw": "\" \""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -2095,9 +2096,7 @@
                             "type": "Property",
                             "start": 1752,
                             "end": 1768,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1752,
@@ -2112,15 +2111,15 @@
                               "value": "compact",
                               "raw": "\"compact\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1769,
                             "end": 1787,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1769,
@@ -2135,7 +2134,9 @@
                               "value": "thousand",
                               "raw": "\"thousand\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -2169,9 +2170,7 @@
                             "type": "Property",
                             "start": 1815,
                             "end": 1831,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1815,
@@ -2186,15 +2185,15 @@
                               "value": "integer",
                               "raw": "\"integer\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1832,
                             "end": 1845,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1832,
@@ -2209,7 +2208,9 @@
                               "value": "159",
                               "raw": "\"159\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -2243,9 +2244,7 @@
                             "type": "Property",
                             "start": 1874,
                             "end": 1890,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1874,
@@ -2260,15 +2259,15 @@
                               "value": "integer",
                               "raw": "\"integer\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1891,
                             "end": 1903,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1891,
@@ -2283,7 +2282,9 @@
                               "value": "16",
                               "raw": "\"16\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -2317,9 +2318,7 @@
                             "type": "Property",
                             "start": 1932,
                             "end": 1948,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1932,
@@ -2334,15 +2333,15 @@
                               "value": "integer",
                               "raw": "\"integer\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1949,
                             "end": 1960,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1949,
@@ -2357,7 +2356,9 @@
                               "value": "1",
                               "raw": "\"1\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -2370,9 +2371,7 @@
                             "type": "Property",
                             "start": 1963,
                             "end": 1979,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1963,
@@ -2387,15 +2386,15 @@
                               "value": "decimal",
                               "raw": "\"decimal\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1980,
                             "end": 1991,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1980,
@@ -2410,7 +2409,9 @@
                               "value": ".",
                               "raw": "\".\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -2423,9 +2424,7 @@
                             "type": "Property",
                             "start": 1994,
                             "end": 2011,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 1994,
@@ -2440,15 +2439,15 @@
                               "value": "fraction",
                               "raw": "\"fraction\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 2012,
                             "end": 2023,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2012,
@@ -2463,7 +2462,9 @@
                               "value": "6",
                               "raw": "\"6\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -2497,9 +2498,7 @@
                             "type": "Property",
                             "start": 2053,
                             "end": 2069,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2053,
@@ -2514,15 +2513,15 @@
                               "value": "integer",
                               "raw": "\"integer\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 2070,
                             "end": 2081,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2070,
@@ -2537,7 +2536,9 @@
                               "value": "0",
                               "raw": "\"0\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -2550,9 +2551,7 @@
                             "type": "Property",
                             "start": 2084,
                             "end": 2100,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2084,
@@ -2567,15 +2566,15 @@
                               "value": "decimal",
                               "raw": "\"decimal\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 2101,
                             "end": 2112,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2101,
@@ -2590,7 +2589,9 @@
                               "value": ".",
                               "raw": "\".\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -2603,9 +2604,7 @@
                             "type": "Property",
                             "start": 2115,
                             "end": 2132,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2115,
@@ -2620,15 +2619,15 @@
                               "value": "fraction",
                               "raw": "\"fraction\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 2133,
                             "end": 2145,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2133,
@@ -2643,7 +2642,9 @@
                               "value": "16",
                               "raw": "\"16\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -2677,9 +2678,7 @@
                             "type": "Property",
                             "start": 2176,
                             "end": 2192,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2176,
@@ -2694,15 +2693,15 @@
                               "value": "integer",
                               "raw": "\"integer\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 2193,
                             "end": 2204,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2193,
@@ -2717,7 +2716,9 @@
                               "value": "0",
                               "raw": "\"0\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -2730,9 +2731,7 @@
                             "type": "Property",
                             "start": 2207,
                             "end": 2223,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2207,
@@ -2747,15 +2746,15 @@
                               "value": "decimal",
                               "raw": "\"decimal\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 2224,
                             "end": 2235,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2224,
@@ -2770,7 +2769,9 @@
                               "value": ".",
                               "raw": "\".\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -2783,9 +2784,7 @@
                             "type": "Property",
                             "start": 2238,
                             "end": 2255,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2238,
@@ -2800,15 +2799,15 @@
                               "value": "fraction",
                               "raw": "\"fraction\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 2256,
                             "end": 2269,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2256,
@@ -2823,7 +2822,9 @@
                               "value": "016",
                               "raw": "\"016\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -2857,9 +2858,7 @@
                             "type": "Property",
                             "start": 2301,
                             "end": 2317,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2301,
@@ -2874,15 +2873,15 @@
                               "value": "integer",
                               "raw": "\"integer\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 2318,
                             "end": 2329,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2318,
@@ -2897,7 +2896,9 @@
                               "value": "0",
                               "raw": "\"0\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -2910,9 +2911,7 @@
                             "type": "Property",
                             "start": 2332,
                             "end": 2348,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2332,
@@ -2927,15 +2926,15 @@
                               "value": "decimal",
                               "raw": "\"decimal\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 2349,
                             "end": 2360,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2349,
@@ -2950,7 +2949,9 @@
                               "value": ".",
                               "raw": "\".\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -2963,9 +2964,7 @@
                             "type": "Property",
                             "start": 2363,
                             "end": 2380,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2363,
@@ -2980,15 +2979,15 @@
                               "value": "fraction",
                               "raw": "\"fraction\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 2381,
                             "end": 2395,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2381,
@@ -3003,7 +3002,9 @@
                               "value": "0016",
                               "raw": "\"0016\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -3021,13 +3022,13 @@
                     "start": 2412,
                     "end": 2421,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 2413,
                       "end": 2421,
                       "name": "Infinity"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "ArrayExpression",
@@ -3043,9 +3044,7 @@
                             "type": "Property",
                             "start": 2429,
                             "end": 2447,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2429,
@@ -3060,15 +3059,15 @@
                               "value": "minusSign",
                               "raw": "\"minusSign\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 2448,
                             "end": 2459,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2448,
@@ -3083,7 +3082,9 @@
                               "value": "-",
                               "raw": "\"-\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -3096,9 +3097,7 @@
                             "type": "Property",
                             "start": 2462,
                             "end": 2479,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2462,
@@ -3113,15 +3112,15 @@
                               "value": "infinity",
                               "raw": "\"infinity\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 2480,
                             "end": 2491,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2480,
@@ -3136,7 +3135,9 @@
                               "value": "∞",
                               "raw": "\"∞\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -3169,9 +3170,7 @@
                             "type": "Property",
                             "start": 2524,
                             "end": 2541,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2524,
@@ -3186,15 +3185,15 @@
                               "value": "infinity",
                               "raw": "\"infinity\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 2542,
                             "end": 2553,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2542,
@@ -3209,7 +3208,9 @@
                               "value": "∞",
                               "raw": "\"∞\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -3242,9 +3243,7 @@
                             "type": "Property",
                             "start": 2581,
                             "end": 2593,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2581,
@@ -3259,15 +3258,15 @@
                               "value": "nan",
                               "raw": "\"nan\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 2594,
                             "end": 2607,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 2594,
@@ -3282,7 +3281,9 @@
                               "value": "NaN",
                               "raw": "\"NaN\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -3293,8 +3294,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -3305,6 +3305,7 @@
         "type": "VariableDeclaration",
         "start": 2625,
         "end": 2660,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -3348,8 +3349,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -3366,6 +3366,7 @@
             "type": "VariableDeclaration",
             "start": 2675,
             "end": 2783,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -3397,8 +3398,8 @@
                       "end": 2712,
                       "name": "NumberFormat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -3417,9 +3418,7 @@
                           "type": "Property",
                           "start": 2728,
                           "end": 2747,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 2728,
@@ -3433,15 +3432,15 @@
                             "value": "compact",
                             "raw": "\"compact\""
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         },
                         {
                           "type": "Property",
                           "start": 2753,
                           "end": 2776,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 2753,
@@ -3455,15 +3454,16 @@
                             "value": "short",
                             "raw": "\"short\""
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -3500,8 +3500,8 @@
                       "end": 2825,
                       "name": "formatToParts"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -3523,14 +3523,6 @@
                   "type": "TemplateLiteral",
                   "start": 2842,
                   "end": 2868,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 2860,
-                      "end": 2866,
-                      "name": "number"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -3552,6 +3544,14 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 2860,
+                      "end": 2866,
+                      "name": "number"
+                    }
                   ]
                 }
               ],
@@ -3562,6 +3562,7 @@
             "type": "VariableDeclaration",
             "start": 2874,
             "end": 2980,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -3593,8 +3594,8 @@
                       "end": 2910,
                       "name": "NumberFormat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -3613,9 +3614,7 @@
                           "type": "Property",
                           "start": 2926,
                           "end": 2945,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 2926,
@@ -3629,15 +3628,15 @@
                             "value": "compact",
                             "raw": "\"compact\""
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         },
                         {
                           "type": "Property",
                           "start": 2951,
                           "end": 2973,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 2951,
@@ -3651,15 +3650,16 @@
                             "value": "long",
                             "raw": "\"long\""
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -3696,8 +3696,8 @@
                       "end": 3021,
                       "name": "formatToParts"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -3719,14 +3719,6 @@
                   "type": "TemplateLiteral",
                   "start": 3037,
                   "end": 3062,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 3054,
-                      "end": 3060,
-                      "name": "number"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -3747,6 +3739,14 @@
                         "cooked": ""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 3054,
+                      "end": 3060,
+                      "name": "number"
                     }
                   ]
                 }

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 508,
       "end": 639,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -89,8 +90,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -101,6 +101,7 @@
         "type": "VariableDeclaration",
         "start": 646,
         "end": 665,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -114,8 +115,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -152,8 +152,8 @@
                   "end": 702,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -167,7 +167,6 @@
                   "start": 715,
                   "end": 802,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -200,8 +199,8 @@
                               "end": 759,
                               "name": "RelativeTimeFormat"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -219,9 +218,7 @@
                                   "type": "Property",
                                   "start": 765,
                                   "end": 795,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Literal",
                                     "start": 765,
@@ -235,7 +232,9 @@
                                     "end": 795,
                                     "name": "invalidOption"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 }
                               ]
                             }
@@ -243,20 +242,13 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 804,
                   "end": 863,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 807,
-                      "end": 820,
-                      "name": "invalidOption"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -277,6 +269,14 @@
                         "cooked": " is an invalid localeMatcher option value"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 807,
+                      "end": 820,
+                      "name": "invalidOption"
                     }
                   ]
                 }

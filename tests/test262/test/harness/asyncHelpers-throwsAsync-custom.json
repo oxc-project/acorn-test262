@@ -13,7 +13,6 @@
         "end": 317,
         "name": "MyError"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,7 +21,8 @@
         "start": 320,
         "end": 322,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -44,7 +44,6 @@
             "start": 334,
             "end": 500,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": true,
             "params": [],
@@ -57,6 +56,7 @@
                   "type": "VariableDeclaration",
                   "start": 356,
                   "end": 455,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -88,8 +88,8 @@
                             "end": 384,
                             "name": "throwsAsync"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -103,7 +103,6 @@
                             "start": 394,
                             "end": 453,
                             "id": null,
-                            "expression": false,
                             "generator": false,
                             "async": false,
                             "params": [],
@@ -136,8 +135,8 @@
                                         "end": 433,
                                         "name": "reject"
                                       },
-                                      "computed": false,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": false
                                     },
                                     "arguments": [
                                       {
@@ -157,14 +156,14 @@
                                   }
                                 }
                               ]
-                            }
+                            },
+                            "expression": false
                           }
                         ],
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -220,7 +219,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

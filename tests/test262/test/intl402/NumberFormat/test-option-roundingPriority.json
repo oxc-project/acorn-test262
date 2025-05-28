@@ -34,8 +34,8 @@
               "end": 339,
               "name": "NumberFormat"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

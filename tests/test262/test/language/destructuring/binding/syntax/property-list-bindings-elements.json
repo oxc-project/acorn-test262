@@ -13,7 +13,6 @@
         "end": 906,
         "name": "fna"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -26,9 +25,7 @@
               "type": "Property",
               "start": 908,
               "end": 912,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 908,
@@ -41,7 +38,9 @@
                 "end": 912,
                 "name": "y"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             }
           ]
         }
@@ -51,7 +50,8 @@
         "start": 915,
         "end": 917,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -63,7 +63,6 @@
         "end": 987,
         "name": "fnb"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -76,9 +75,7 @@
               "type": "Property",
               "start": 989,
               "end": 998,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 989,
@@ -103,7 +100,9 @@
                   "raw": "42"
                 }
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             }
           ]
         }
@@ -113,7 +112,8 @@
         "start": 1001,
         "end": 1003,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -125,7 +125,6 @@
         "end": 1053,
         "name": "fnc"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -138,9 +137,7 @@
               "type": "Property",
               "start": 1055,
               "end": 1060,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 1055,
@@ -153,7 +150,9 @@
                 "end": 1060,
                 "properties": []
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             }
           ]
         }
@@ -163,7 +162,8 @@
         "start": 1063,
         "end": 1065,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -175,7 +175,6 @@
         "end": 1078,
         "name": "fnd"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -188,9 +187,7 @@
               "type": "Property",
               "start": 1080,
               "end": 1086,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 1080,
@@ -206,9 +203,7 @@
                     "type": "Property",
                     "start": 1084,
                     "end": 1085,
-                    "method": false,
-                    "shorthand": true,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1084,
@@ -221,11 +216,15 @@
                       "end": 1085,
                       "name": "y"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": true,
+                    "computed": false
                   }
                 ]
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             }
           ]
         }
@@ -235,7 +234,8 @@
         "start": 1089,
         "end": 1091,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -247,7 +247,6 @@
         "end": 1156,
         "name": "fne"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -260,9 +259,7 @@
               "type": "Property",
               "start": 1158,
               "end": 1168,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 1158,
@@ -287,7 +284,9 @@
                   "raw": "42"
                 }
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             }
           ]
         }
@@ -297,7 +296,8 @@
         "start": 1171,
         "end": 1173,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -309,7 +309,6 @@
         "end": 1186,
         "name": "fnf"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -322,9 +321,7 @@
               "type": "Property",
               "start": 1188,
               "end": 1199,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 1188,
@@ -344,9 +341,7 @@
                       "type": "Property",
                       "start": 1192,
                       "end": 1193,
-                      "method": false,
-                      "shorthand": true,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1192,
@@ -359,7 +354,9 @@
                         "end": 1193,
                         "name": "y"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false
                     }
                   ]
                 },
@@ -371,7 +368,9 @@
                   "raw": "42"
                 }
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             }
           ]
         }
@@ -381,7 +380,8 @@
         "start": 1202,
         "end": 1204,
         "body": []
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

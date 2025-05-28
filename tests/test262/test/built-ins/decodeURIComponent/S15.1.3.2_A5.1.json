@@ -31,8 +31,8 @@
               "end": 378,
               "name": "propertyIsEnumerable"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -110,8 +110,8 @@
                           "end": 547,
                           "name": "propertyIsEnumerable"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -137,6 +137,7 @@
       "type": "VariableDeclaration",
       "start": 574,
       "end": 592,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -156,8 +157,7 @@
             "raw": "true"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForInStatement",
@@ -167,6 +167,7 @@
         "type": "VariableDeclaration",
         "start": 598,
         "end": 603,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -180,8 +181,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "Identifier",

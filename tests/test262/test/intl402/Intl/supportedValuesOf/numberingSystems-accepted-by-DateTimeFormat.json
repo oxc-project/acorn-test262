@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1142,
       "end": 1209,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 1189,
                 "name": "supportedValuesOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -53,8 +54,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -65,6 +65,7 @@
         "type": "VariableDeclaration",
         "start": 1216,
         "end": 1235,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -78,8 +79,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -96,6 +96,7 @@
             "type": "VariableDeclaration",
             "start": 1261,
             "end": 1320,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -127,8 +128,8 @@
                       "end": 1294,
                       "name": "DateTimeFormat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -147,9 +148,7 @@
                           "type": "Property",
                           "start": 1302,
                           "end": 1317,
-                          "method": false,
-                          "shorthand": true,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 1302,
@@ -162,15 +161,16 @@
                             "end": 1317,
                             "name": "numberingSystem"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false
                         }
                       ]
                     }
                   ]
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -196,8 +196,8 @@
                   "end": 1339,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -224,8 +224,8 @@
                         "end": 1359,
                         "name": "resolvedOptions"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
@@ -236,8 +236,8 @@
                     "end": 1377,
                     "name": "numberingSystem"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Identifier",
@@ -249,14 +249,6 @@
                   "type": "TemplateLiteral",
                   "start": 1415,
                   "end": 1466,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1418,
-                      "end": 1433,
-                      "name": "numberingSystem"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -278,6 +270,14 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1418,
+                      "end": 1433,
+                      "name": "numberingSystem"
+                    }
                   ]
                 }
               ],
@@ -296,6 +296,7 @@
         "type": "VariableDeclaration",
         "start": 1477,
         "end": 1496,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -309,8 +310,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "CallExpression",
@@ -334,6 +334,7 @@
             "type": "VariableDeclaration",
             "start": 1527,
             "end": 1586,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -365,8 +366,8 @@
                       "end": 1560,
                       "name": "DateTimeFormat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -385,9 +386,7 @@
                           "type": "Property",
                           "start": 1568,
                           "end": 1583,
-                          "method": false,
-                          "shorthand": true,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 1568,
@@ -400,15 +399,16 @@
                             "end": 1583,
                             "name": "numberingSystem"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false
                         }
                       ]
                     }
                   ]
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "IfStatement",
@@ -442,8 +442,8 @@
                       "end": 1612,
                       "name": "resolvedOptions"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -454,8 +454,8 @@
                   "end": 1630,
                   "name": "numberingSystem"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "operator": "===",
               "right": {
@@ -505,8 +505,8 @@
                             "end": 1690,
                             "name": "includes"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -522,14 +522,6 @@
                         "type": "TemplateLiteral",
                         "start": 1720,
                         "end": 1788,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1723,
-                            "end": 1738,
-                            "name": "numberingSystem"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -550,6 +542,14 @@
                               "cooked": " supported but not returned by supportedValuesOf"
                             },
                             "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1723,
+                            "end": 1738,
+                            "name": "numberingSystem"
                           }
                         ]
                       }
@@ -584,7 +584,6 @@
                         "start": 1813,
                         "end": 1856,
                         "operator": "!",
-                        "prefix": true,
                         "argument": {
                           "type": "CallExpression",
                           "start": 1814,
@@ -605,8 +604,8 @@
                               "end": 1839,
                               "name": "includes"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -617,20 +616,13 @@
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 1869,
                         "end": 1937,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1872,
-                            "end": 1887,
-                            "name": "numberingSystem"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -651,6 +643,14 @@
                               "cooked": " not supported but returned by supportedValuesOf"
                             },
                             "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1872,
+                            "end": 1887,
+                            "name": "numberingSystem"
                           }
                         ]
                       }

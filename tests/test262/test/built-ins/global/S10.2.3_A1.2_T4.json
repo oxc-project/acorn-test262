@@ -13,7 +13,6 @@
         "end": 352,
         "name": "test"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -80,7 +79,8 @@
             "alternate": null
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

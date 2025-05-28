@@ -27,8 +27,8 @@
             "end": 334,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 335,
             "end": 365,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 342,
@@ -53,9 +52,10 @@
                 "end": 365,
                 "name": "RelativeTimeFormat"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -72,6 +72,7 @@
       "type": "VariableDeclaration",
       "start": 381,
       "end": 539,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -154,8 +155,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -166,6 +166,7 @@
         "type": "VariableDeclaration",
         "start": 546,
         "end": 567,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -179,8 +180,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -197,6 +197,7 @@
             "type": "VariableDeclaration",
             "start": 604,
             "end": 669,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -228,8 +229,8 @@
                       "end": 643,
                       "name": "RelativeTimeFormat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -248,9 +249,7 @@
                           "type": "Property",
                           "start": 651,
                           "end": 666,
-                          "method": false,
-                          "shorthand": true,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 651,
@@ -263,15 +262,16 @@
                             "end": 666,
                             "name": "numberingSystem"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false
                         }
                       ]
                     }
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -297,8 +297,8 @@
                   "end": 688,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -325,8 +325,8 @@
                         "end": 708,
                         "name": "resolvedOptions"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
@@ -337,8 +337,8 @@
                     "end": 726,
                     "name": "numberingSystem"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",

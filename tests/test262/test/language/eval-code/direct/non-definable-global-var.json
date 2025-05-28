@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 825,
       "end": 843,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -56,8 +56,8 @@
                   "end": 876,
                   "name": "preventExtensions"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -89,7 +89,6 @@
                 "start": 902,
                 "end": 928,
                 "operator": "!",
-                "prefix": true,
                 "argument": {
                   "type": "CallExpression",
                   "start": 903,
@@ -110,8 +109,8 @@
                       "end": 922,
                       "name": "isExtensible"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -121,7 +120,8 @@
                     }
                   ],
                   "optional": false
-                }
+                },
+                "prefix": true
               }
             }
           }
@@ -190,6 +190,7 @@
             "type": "VariableDeclaration",
             "start": 1043,
             "end": 1053,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -203,8 +204,7 @@
                 },
                 "init": null
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "TryStatement",

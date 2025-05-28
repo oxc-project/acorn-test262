@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1217,
       "end": 1223,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -43,7 +43,6 @@
           "start": 1228,
           "end": 1284,
           "id": null,
-          "expression": false,
           "generator": true,
           "async": true,
           "params": [
@@ -56,9 +55,7 @@
                   "type": "Property",
                   "start": 1246,
                   "end": 1274,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 1246,
@@ -82,7 +79,9 @@
                       "name": "unresolvableReference"
                     }
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 }
               ]
             }
@@ -92,7 +91,8 @@
             "start": 1278,
             "end": 1284,
             "body": []
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -120,8 +120,8 @@
             "end": 1300,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -135,7 +135,6 @@
             "start": 1317,
             "end": 1340,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -170,7 +169,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

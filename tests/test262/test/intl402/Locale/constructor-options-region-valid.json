@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1140,
       "end": 1254,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -108,8 +109,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -120,6 +120,7 @@
         "type": "VariableDeclaration",
         "start": 1260,
         "end": 1284,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -146,8 +147,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -164,6 +164,7 @@
             "type": "VariableDeclaration",
             "start": 1312,
             "end": 1337,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -184,9 +185,7 @@
                       "type": "Property",
                       "start": 1328,
                       "end": 1334,
-                      "method": false,
-                      "shorthand": true,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1328,
@@ -199,18 +198,20 @@
                         "end": 1334,
                         "name": "region"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false
                     }
                   ]
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 1340,
             "end": 1370,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -242,8 +243,7 @@
                   }
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -269,8 +269,8 @@
                   "end": 1390,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -301,8 +301,8 @@
                           "end": 1411,
                           "name": "Locale"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -326,8 +326,8 @@
                       "end": 1435,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -342,20 +342,6 @@
                   "type": "TemplateLiteral",
                   "start": 1455,
                   "end": 1532,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1490,
-                      "end": 1496,
-                      "name": "region"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 1523,
-                      "end": 1529,
-                      "name": "expect"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -386,6 +372,20 @@
                         "cooked": "\""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1490,
+                      "end": 1496,
+                      "name": "region"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 1523,
+                      "end": 1529,
+                      "name": "expect"
                     }
                   ]
                 }
@@ -453,8 +453,8 @@
                   "end": 1589,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -485,8 +485,8 @@
                           "end": 1610,
                           "name": "Locale"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -510,8 +510,8 @@
                       "end": 1637,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -526,20 +526,6 @@
                   "type": "TemplateLiteral",
                   "start": 1657,
                   "end": 1737,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1695,
-                      "end": 1701,
-                      "name": "region"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 1728,
-                      "end": 1734,
-                      "name": "expect"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -570,6 +556,20 @@
                         "cooked": "\""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1695,
+                      "end": 1701,
+                      "name": "region"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 1728,
+                      "end": 1734,
+                      "name": "expect"
                     }
                   ]
                 }
@@ -655,8 +655,8 @@
                   "end": 1811,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -687,8 +687,8 @@
                           "end": 1832,
                           "name": "Locale"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -712,8 +712,8 @@
                       "end": 1869,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -728,20 +728,6 @@
                   "type": "TemplateLiteral",
                   "start": 1889,
                   "end": 1979,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1937,
-                      "end": 1943,
-                      "name": "region"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 1970,
-                      "end": 1976,
-                      "name": "expect"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -772,6 +758,20 @@
                         "cooked": "\""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1937,
+                      "end": 1943,
+                      "name": "region"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 1970,
+                      "end": 1976,
+                      "name": "expect"
                     }
                   ]
                 }
@@ -857,8 +857,8 @@
                   "end": 2056,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -889,8 +889,8 @@
                           "end": 2077,
                           "name": "Locale"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -914,8 +914,8 @@
                       "end": 2117,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -930,20 +930,6 @@
                   "type": "TemplateLiteral",
                   "start": 2137,
                   "end": 2230,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 2188,
-                      "end": 2194,
-                      "name": "region"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 2221,
-                      "end": 2227,
-                      "name": "expect"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -974,6 +960,20 @@
                         "cooked": "\""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 2188,
+                      "end": 2194,
+                      "name": "region"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 2221,
+                      "end": 2227,
+                      "name": "expect"
                     }
                   ]
                 }

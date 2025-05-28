@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 895,
       "end": 1338,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -215,13 +216,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1340,
       "end": 1402,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -253,8 +254,8 @@
                 "end": 1389,
                 "name": "supportedValuesOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -268,8 +269,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -280,6 +280,7 @@
         "type": "VariableDeclaration",
         "start": 1409,
         "end": 1417,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -293,8 +294,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -342,8 +342,8 @@
                       "end": 1489,
                       "name": "includes"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -359,14 +359,6 @@
                   "type": "TemplateLiteral",
                   "start": 1499,
                   "end": 1548,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1527,
-                      "end": 1529,
-                      "name": "tz"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -387,6 +379,14 @@
                         "cooked": " is not supported"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1527,
+                      "end": 1529,
+                      "name": "tz"
                     }
                   ]
                 }

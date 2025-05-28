@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 559,
       "end": 575,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,13 +26,13 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 576,
       "end": 605,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -63,8 +64,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -90,8 +90,8 @@
             "end": 626,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -141,8 +141,8 @@
             "end": 691,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -190,6 +190,7 @@
         "type": "VariableDeclaration",
         "start": 742,
         "end": 749,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -203,8 +204,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "CallExpression",
@@ -226,8 +226,8 @@
             "end": 779,
             "name": "getOwnPropertyNames"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -270,14 +270,6 @@
                   "type": "TemplateLiteral",
                   "start": 803,
                   "end": 852,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 847,
-                      "end": 850,
-                      "name": "key"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -299,6 +291,14 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 847,
+                      "end": 850,
+                      "name": "key"
+                    }
                   ]
                 }
               ],
@@ -317,6 +317,7 @@
         "type": "VariableDeclaration",
         "start": 863,
         "end": 870,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -330,8 +331,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "CallExpression",
@@ -353,8 +353,8 @@
             "end": 902,
             "name": "getOwnPropertySymbols"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -397,28 +397,6 @@
                   "type": "TemplateLiteral",
                   "start": 926,
                   "end": 984,
-                  "expressions": [
-                    {
-                      "type": "CallExpression",
-                      "start": 971,
-                      "end": 982,
-                      "callee": {
-                        "type": "Identifier",
-                        "start": 971,
-                        "end": 977,
-                        "name": "String"
-                      },
-                      "arguments": [
-                        {
-                          "type": "Identifier",
-                          "start": 978,
-                          "end": 981,
-                          "name": "key"
-                        }
-                      ],
-                      "optional": false
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -439,6 +417,28 @@
                         "cooked": ""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "CallExpression",
+                      "start": 971,
+                      "end": 982,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 971,
+                        "end": 977,
+                        "name": "String"
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 978,
+                          "end": 981,
+                          "name": "key"
+                        }
+                      ],
+                      "optional": false
                     }
                   ]
                 }
@@ -473,8 +473,8 @@
             "end": 1006,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -497,8 +497,8 @@
                 "end": 1028,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -526,8 +526,8 @@
               "end": 1051,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         ],
         "optional": false

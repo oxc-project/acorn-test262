@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 866,
       "end": 923,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,7 +24,6 @@
             "start": 880,
             "end": 922,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -50,11 +50,11 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -80,8 +80,8 @@
             "end": 939,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -95,7 +95,6 @@
             "start": 954,
             "end": 1018,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -135,8 +134,6 @@
                               "type": "MethodDefinition",
                               "start": 984,
                               "end": 1011,
-                              "static": true,
-                              "computed": true,
                               "key": {
                                 "type": "CallExpression",
                                 "start": 996,
@@ -150,13 +147,11 @@
                                 "arguments": [],
                                 "optional": false
                               },
-                              "kind": "get",
                               "value": {
                                 "type": "FunctionExpression",
                                 "start": 1006,
                                 "end": 1011,
                                 "id": null,
-                                "expression": false,
                                 "generator": false,
                                 "async": false,
                                 "params": [],
@@ -165,8 +160,12 @@
                                   "start": 1009,
                                   "end": 1011,
                                   "body": []
-                                }
-                              }
+                                },
+                                "expression": false
+                              },
+                              "kind": "get",
+                              "computed": true,
+                              "static": true
                             }
                           ]
                         }
@@ -175,7 +174,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -212,8 +212,8 @@
             "end": 1053,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -227,7 +227,6 @@
             "start": 1068,
             "end": 1133,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -267,8 +266,6 @@
                               "type": "MethodDefinition",
                               "start": 1098,
                               "end": 1126,
-                              "static": true,
-                              "computed": true,
                               "key": {
                                 "type": "CallExpression",
                                 "start": 1110,
@@ -282,13 +279,11 @@
                                 "arguments": [],
                                 "optional": false
                               },
-                              "kind": "set",
                               "value": {
                                 "type": "FunctionExpression",
                                 "start": 1120,
                                 "end": 1126,
                                 "id": null,
-                                "expression": false,
                                 "generator": false,
                                 "async": false,
                                 "params": [
@@ -304,8 +299,12 @@
                                   "start": 1124,
                                   "end": 1126,
                                   "body": []
-                                }
-                              }
+                                },
+                                "expression": false
+                              },
+                              "kind": "set",
+                              "computed": true,
+                              "static": true
                             }
                           ]
                         }
@@ -314,7 +313,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

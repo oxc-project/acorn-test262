@@ -12,6 +12,7 @@
         "type": "VariableDeclaration",
         "start": 463,
         "end": 493,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -38,8 +39,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "CallExpression",
@@ -83,8 +83,8 @@
                   "end": 545,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -98,7 +98,6 @@
                   "start": 561,
                   "end": 608,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -131,8 +130,8 @@
                               "end": 597,
                               "name": "DurationFormat"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -145,7 +144,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               ],
               "optional": false

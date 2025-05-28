@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 448,
       "end": 505,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 478,
                 "name": "Segmenter"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -57,9 +58,7 @@
                     "type": "Property",
                     "start": 484,
                     "end": 503,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 484,
@@ -73,15 +72,16 @@
                       "value": "word",
                       "raw": "\"word\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -92,6 +92,7 @@
         "type": "VariableDeclaration",
         "start": 511,
         "end": 521,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -105,8 +106,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -236,6 +236,7 @@
             "type": "VariableDeclaration",
             "start": 1582,
             "end": 1600,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -254,8 +255,7 @@
                   "elements": []
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ForOfStatement",
@@ -266,6 +266,7 @@
               "type": "VariableDeclaration",
               "start": 1608,
               "end": 1615,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -279,8 +280,7 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "const"
+              ]
             },
             "right": {
               "type": "CallExpression",
@@ -302,8 +302,8 @@
                   "end": 1630,
                   "name": "segment"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -344,8 +344,8 @@
                         "end": 1660,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -360,7 +360,6 @@
                         "start": 1671,
                         "end": 1687,
                         "operator": "typeof",
-                        "prefix": true,
                         "argument": {
                           "type": "MemberExpression",
                           "start": 1678,
@@ -377,9 +376,10 @@
                             "end": 1687,
                             "name": "segment"
                           },
-                          "computed": false,
-                          "optional": false
-                        }
+                          "optional": false,
+                          "computed": false
+                        },
+                        "prefix": true
                       }
                     ],
                     "optional": false
@@ -409,8 +409,8 @@
                         "end": 1710,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -444,8 +444,8 @@
                               "end": 1726,
                               "name": "segment"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "property": {
                             "type": "Identifier",
@@ -453,8 +453,8 @@
                             "end": 1733,
                             "name": "length"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "operator": ">",
                         "right": {
@@ -500,8 +500,8 @@
                         "end": 1775,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -516,7 +516,6 @@
                         "start": 1786,
                         "end": 1800,
                         "operator": "typeof",
-                        "prefix": true,
                         "argument": {
                           "type": "MemberExpression",
                           "start": 1793,
@@ -533,9 +532,10 @@
                             "end": 1800,
                             "name": "index"
                           },
-                          "computed": false,
-                          "optional": false
-                        }
+                          "optional": false,
+                          "computed": false
+                        },
+                        "prefix": true
                       }
                     ],
                     "optional": false
@@ -565,8 +565,8 @@
                         "end": 1823,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -596,8 +596,8 @@
                             "end": 1837,
                             "name": "index"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "operator": ">=",
                         "right": {
@@ -643,8 +643,8 @@
                         "end": 1879,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -674,8 +674,8 @@
                             "end": 1893,
                             "name": "index"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "operator": "<",
                         "right": {
@@ -694,8 +694,8 @@
                             "end": 1907,
                             "name": "length"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         }
                       },
                       {
@@ -733,8 +733,8 @@
                         "end": 1955,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -749,7 +749,6 @@
                         "start": 1966,
                         "end": 1980,
                         "operator": "typeof",
-                        "prefix": true,
                         "argument": {
                           "type": "MemberExpression",
                           "start": 1973,
@@ -766,9 +765,10 @@
                             "end": 1980,
                             "name": "input"
                           },
-                          "computed": false,
-                          "optional": false
-                        }
+                          "optional": false,
+                          "computed": false
+                        },
+                        "prefix": true
                       }
                     ],
                     "optional": false
@@ -798,8 +798,8 @@
                         "end": 2003,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -824,8 +824,8 @@
                           "end": 2017,
                           "name": "input"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     ],
                     "optional": false
@@ -855,8 +855,8 @@
                         "end": 2041,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -871,7 +871,6 @@
                         "start": 2053,
                         "end": 2072,
                         "operator": "typeof",
-                        "prefix": true,
                         "argument": {
                           "type": "MemberExpression",
                           "start": 2060,
@@ -888,9 +887,10 @@
                             "end": 2072,
                             "name": "isWordLike"
                           },
-                          "computed": false,
-                          "optional": false
-                        }
+                          "optional": false,
+                          "computed": false
+                        },
+                        "prefix": true
                       }
                     ],
                     "optional": false
@@ -920,8 +920,8 @@
                         "end": 2095,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -951,8 +951,8 @@
                             "end": 2118,
                             "name": "hasOwnProperty"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -993,8 +993,8 @@
                         "end": 2156,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1017,8 +1017,8 @@
                             "end": 2167,
                             "name": "slice"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1037,8 +1037,8 @@
                               "end": 2175,
                               "name": "index"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           {
                             "type": "BinaryExpression",
@@ -1060,8 +1060,8 @@
                                 "end": 2184,
                                 "name": "index"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "operator": "+",
                             "right": {
@@ -1084,8 +1084,8 @@
                                   "end": 2196,
                                   "name": "segment"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "property": {
                                 "type": "Identifier",
@@ -1093,8 +1093,8 @@
                                 "end": 2203,
                                 "name": "length"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             }
                           }
                         ],
@@ -1116,8 +1116,8 @@
                           "end": 2215,
                           "name": "segment"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     ],
                     "optional": false
@@ -1147,8 +1147,8 @@
                         "end": 2241,
                         "name": "compareArray"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1171,8 +1171,8 @@
                             "end": 2268,
                             "name": "getOwnPropertyNames"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1247,8 +1247,8 @@
                         "end": 2337,
                         "name": "push"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1267,8 +1267,8 @@
                           "end": 2347,
                           "name": "segment"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     ],
                     "optional": false
@@ -1301,8 +1301,8 @@
                   "end": 2372,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1331,8 +1331,8 @@
                       "end": 2392,
                       "name": "join"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {

@@ -13,7 +13,6 @@
         "end": 851,
         "name": "fn1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -42,7 +41,8 @@
         "start": 860,
         "end": 862,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -54,7 +54,6 @@
         "end": 876,
         "name": "fn2"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -83,7 +82,8 @@
         "start": 886,
         "end": 888,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -95,7 +95,6 @@
         "end": 902,
         "name": "fn3"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -125,7 +124,8 @@
         "start": 913,
         "end": 915,
         "body": []
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

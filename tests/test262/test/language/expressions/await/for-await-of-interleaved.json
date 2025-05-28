@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 464,
       "end": 482,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,13 +26,13 @@
             "elements": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 483,
       "end": 657,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -121,13 +122,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 658,
       "end": 679,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -147,8 +148,7 @@
             "raw": "3"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -160,7 +160,6 @@
         "end": 711,
         "name": "naturalNumbers"
       },
-      "expression": false,
       "generator": true,
       "async": true,
       "params": [
@@ -180,6 +179,7 @@
             "type": "VariableDeclaration",
             "start": 723,
             "end": 743,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -198,8 +198,7 @@
                   "name": "start"
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "WhileStatement",
@@ -258,8 +257,8 @@
                           "end": 793,
                           "name": "resolve"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -284,7 +283,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -296,7 +296,6 @@
         "end": 835,
         "name": "trigger"
       },
-      "expression": false,
       "generator": false,
       "async": true,
       "params": [],
@@ -314,6 +313,7 @@
               "type": "VariableDeclaration",
               "start": 853,
               "end": 862,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -327,8 +327,7 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "const"
+              ]
             },
             "right": {
               "type": "CallExpression",
@@ -379,8 +378,8 @@
                         "end": 911,
                         "name": "push"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -410,7 +409,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -422,7 +422,6 @@
         "end": 967,
         "name": "checkAssertions"
       },
-      "expression": false,
       "generator": false,
       "async": true,
       "params": [],
@@ -455,8 +454,8 @@
                   "end": 993,
                   "name": "compareArray"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -483,7 +482,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -495,7 +495,6 @@
         "end": 1088,
         "name": "countdown"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -535,8 +534,8 @@
                   "end": 1113,
                   "name": "push"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -622,8 +621,8 @@
                             "end": 1185,
                             "name": "resolve"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -654,8 +653,8 @@
                         "end": 1203,
                         "name": "then"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -706,8 +705,8 @@
                         "end": 1253,
                         "name": "then"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -730,7 +729,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

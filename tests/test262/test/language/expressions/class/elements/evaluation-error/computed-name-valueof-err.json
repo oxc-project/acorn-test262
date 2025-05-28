@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1746,
       "end": 1841,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 1760,
                 "end": 1779,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1760,
@@ -42,15 +41,15 @@
                   "end": 1779,
                   "name": "undefined"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1783,
                 "end": 1838,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1783,
@@ -62,7 +61,6 @@
                   "start": 1792,
                   "end": 1838,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -89,15 +87,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -109,7 +109,6 @@
         "end": 1862,
         "name": "evaluate"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -122,6 +121,7 @@
             "type": "VariableDeclaration",
             "start": 1869,
             "end": 1899,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -148,25 +148,25 @@
                         "type": "PropertyDefinition",
                         "start": 1889,
                         "end": 1894,
-                        "static": false,
-                        "computed": true,
                         "key": {
                           "type": "Identifier",
                           "start": 1890,
                           "end": 1893,
                           "name": "obj"
                         },
-                        "value": null
+                        "value": null,
+                        "computed": true,
+                        "static": false
                       }
                     ]
                   }
                 }
               }
-            ],
-            "kind": "var"
+            ]
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -192,8 +192,8 @@
             "end": 1916,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

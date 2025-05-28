@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 276,
       "end": 295,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -47,6 +47,7 @@
                 "type": "VariableDeclaration",
                 "start": 310,
                 "end": 322,
+                "kind": "let",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
@@ -66,8 +67,7 @@
                       "raw": "18"
                     }
                   }
-                ],
-                "kind": "let"
+                ]
               },
               {
                 "type": "ThrowStatement",
@@ -148,8 +148,8 @@
                     "end": 390,
                     "name": "sameValue"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -186,7 +186,6 @@
                     "start": 402,
                     "end": 714,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -228,8 +227,8 @@
                                       "end": 560,
                                       "name": "sameValue"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "arguments": [
                                     {
@@ -360,7 +359,8 @@
                           "finalizer": null
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   }
                 },
                 "arguments": [],

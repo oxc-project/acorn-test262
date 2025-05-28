@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 558,
       "end": 781,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -58,8 +59,8 @@
                           "end": 610,
                           "name": "DateTimeFormat"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -78,9 +79,7 @@
                               "type": "Property",
                               "start": 622,
                               "end": 640,
-                              "method": false,
-                              "shorthand": false,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 622,
@@ -94,7 +93,9 @@
                                 "value": "short",
                                 "raw": "\"short\""
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false
                             }
                           ]
                         }
@@ -106,8 +107,8 @@
                       "end": 665,
                       "name": "formatRangeToParts"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -185,17 +186,15 @@
                   "end": 711,
                   "name": "find"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
                   "type": "ArrowFunctionExpression",
                   "start": 712,
                   "end": 773,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [
                     {
@@ -229,8 +228,8 @@
                           "end": 731,
                           "name": "type"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "operator": "===",
                       "right": {
@@ -262,8 +261,8 @@
                           "end": 760,
                           "name": "source"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "operator": "===",
                       "right": {
@@ -274,7 +273,9 @@
                         "raw": "\"shared\""
                       }
                     }
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
@@ -285,17 +286,17 @@
               "end": 780,
               "name": "value"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 783,
       "end": 831,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -370,13 +371,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 832,
       "end": 880,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -451,13 +452,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 881,
       "end": 930,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -532,13 +533,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 932,
       "end": 1053,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -570,8 +571,8 @@
                 "end": 965,
                 "name": "DateTimeFormat"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -590,9 +591,7 @@
                     "type": "Property",
                     "start": 979,
                     "end": 996,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 979,
@@ -606,15 +605,15 @@
                       "value": "numeric",
                       "raw": "\"numeric\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 998,
                     "end": 1015,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 998,
@@ -628,15 +627,15 @@
                       "value": "numeric",
                       "raw": "\"numeric\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1017,
                     "end": 1050,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1017,
@@ -649,15 +648,16 @@
                       "end": 1050,
                       "name": "undefined"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -683,8 +683,8 @@
             "end": 1070,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -707,8 +707,8 @@
                 "end": 1086,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -768,8 +768,8 @@
             "end": 1151,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -792,8 +792,8 @@
                 "end": 1167,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -815,14 +815,6 @@
             "type": "TemplateLiteral",
             "start": 1177,
             "end": 1212,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 1185,
-                "end": 1205,
-                "name": "usDateRangeSeparator"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -843,6 +835,14 @@
                   "cooked": "02:13"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 1185,
+                "end": 1205,
+                "name": "usDateRangeSeparator"
               }
             ]
           },
@@ -892,8 +892,8 @@
               "end": 1274,
               "name": "DateTimeFormat"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -912,9 +912,7 @@
                   "type": "Property",
                   "start": 1288,
                   "end": 1305,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 1288,
@@ -928,15 +926,15 @@
                     "value": "numeric",
                     "raw": "\"numeric\""
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 },
                 {
                   "type": "Property",
                   "start": 1307,
                   "end": 1324,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 1307,
@@ -950,15 +948,15 @@
                     "value": "numeric",
                     "raw": "\"numeric\""
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 },
                 {
                   "type": "Property",
                   "start": 1326,
                   "end": 1351,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 1326,
@@ -972,7 +970,9 @@
                     "value": 1,
                     "raw": "1"
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 }
               ]
             }
@@ -1004,8 +1004,8 @@
             "end": 1371,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1028,8 +1028,8 @@
                 "end": 1387,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1051,14 +1051,6 @@
             "type": "TemplateLiteral",
             "start": 1397,
             "end": 1436,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 1407,
-                "end": 1427,
-                "name": "usDateRangeSeparator"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -1079,6 +1071,14 @@
                   "cooked": "02:03.5"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 1407,
+                "end": 1427,
+                "name": "usDateRangeSeparator"
               }
             ]
           },
@@ -1117,8 +1117,8 @@
             "end": 1494,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1141,8 +1141,8 @@
                 "end": 1510,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1164,14 +1164,6 @@
             "type": "TemplateLiteral",
             "start": 1520,
             "end": 1559,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 1530,
-                "end": 1550,
-                "name": "usDateRangeSeparator"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -1192,6 +1184,14 @@
                   "cooked": "02:13.9"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 1530,
+                "end": 1550,
+                "name": "usDateRangeSeparator"
               }
             ]
           },
@@ -1241,8 +1241,8 @@
               "end": 1631,
               "name": "DateTimeFormat"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1261,9 +1261,7 @@
                   "type": "Property",
                   "start": 1645,
                   "end": 1662,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 1645,
@@ -1277,15 +1275,15 @@
                     "value": "numeric",
                     "raw": "\"numeric\""
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 },
                 {
                   "type": "Property",
                   "start": 1664,
                   "end": 1681,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 1664,
@@ -1299,15 +1297,15 @@
                     "value": "numeric",
                     "raw": "\"numeric\""
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 },
                 {
                   "type": "Property",
                   "start": 1683,
                   "end": 1708,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 1683,
@@ -1321,7 +1319,9 @@
                     "value": 2,
                     "raw": "2"
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 }
               ]
             }
@@ -1353,8 +1353,8 @@
             "end": 1728,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1377,8 +1377,8 @@
                 "end": 1744,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1400,14 +1400,6 @@
             "type": "TemplateLiteral",
             "start": 1754,
             "end": 1795,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 1765,
-                "end": 1785,
-                "name": "usDateRangeSeparator"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -1428,6 +1420,14 @@
                   "cooked": "02:03.56"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 1765,
+                "end": 1785,
+                "name": "usDateRangeSeparator"
               }
             ]
           },
@@ -1466,8 +1466,8 @@
             "end": 1853,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1490,8 +1490,8 @@
                 "end": 1869,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1513,14 +1513,6 @@
             "type": "TemplateLiteral",
             "start": 1879,
             "end": 1920,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 1890,
-                "end": 1910,
-                "name": "usDateRangeSeparator"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -1541,6 +1533,14 @@
                   "cooked": "02:13.98"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 1890,
+                "end": 1910,
+                "name": "usDateRangeSeparator"
               }
             ]
           },
@@ -1590,8 +1590,8 @@
               "end": 1992,
               "name": "DateTimeFormat"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1610,9 +1610,7 @@
                   "type": "Property",
                   "start": 2006,
                   "end": 2023,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 2006,
@@ -1626,15 +1624,15 @@
                     "value": "numeric",
                     "raw": "\"numeric\""
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 },
                 {
                   "type": "Property",
                   "start": 2025,
                   "end": 2042,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 2025,
@@ -1648,15 +1646,15 @@
                     "value": "numeric",
                     "raw": "\"numeric\""
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 },
                 {
                   "type": "Property",
                   "start": 2044,
                   "end": 2069,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 2044,
@@ -1670,7 +1668,9 @@
                     "value": 3,
                     "raw": "3"
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 }
               ]
             }
@@ -1702,8 +1702,8 @@
             "end": 2089,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1726,8 +1726,8 @@
                 "end": 2105,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1749,14 +1749,6 @@
             "type": "TemplateLiteral",
             "start": 2115,
             "end": 2158,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 2127,
-                "end": 2147,
-                "name": "usDateRangeSeparator"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -1777,6 +1769,14 @@
                   "cooked": "02:03.567"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 2127,
+                "end": 2147,
+                "name": "usDateRangeSeparator"
               }
             ]
           },
@@ -1815,8 +1815,8 @@
             "end": 2216,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1839,8 +1839,8 @@
                 "end": 2232,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1862,14 +1862,6 @@
             "type": "TemplateLiteral",
             "start": 2242,
             "end": 2285,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 2254,
-                "end": 2274,
-                "name": "usDateRangeSeparator"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -1890,6 +1882,14 @@
                   "cooked": "02:13.987"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 2254,
+                "end": 2274,
+                "name": "usDateRangeSeparator"
               }
             ]
           },

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 352,
       "end": 1116,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 423,
                 "end": 471,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 423,
@@ -44,15 +43,15 @@
                   "value": "da-u-ca-gregory",
                   "raw": "\"da-u-ca-gregory\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 556,
                 "end": 608,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 556,
@@ -67,15 +66,15 @@
                   "value": "zh-u-ca-chinese-nu-hans",
                   "raw": "\"zh-u-ca-chinese-nu-hans\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 614,
                 "end": 666,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 614,
@@ -90,15 +89,15 @@
                   "value": "zh-u-ca-chinese-nu-hans",
                   "raw": "\"zh-u-ca-chinese-nu-hans\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 760,
                 "end": 804,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 760,
@@ -113,15 +112,15 @@
                   "value": "de-u-cu-eur-nu-latn",
                   "raw": "\"de-u-cu-eur-nu-latn\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 810,
                 "end": 854,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 810,
@@ -136,15 +135,15 @@
                   "value": "de-u-cu-eur-nu-latn",
                   "raw": "\"de-u-cu-eur-nu-latn\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 934,
                 "end": 980,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 934,
@@ -159,15 +158,15 @@
                   "value": "pt-u-attr-ca-gregory",
                   "raw": "\"pt-u-attr-ca-gregory\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 986,
                 "end": 1046,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 986,
@@ -182,15 +181,15 @@
                   "value": "pt-u-attr1-attr2-ca-gregory",
                   "raw": "\"pt-u-attr1-attr2-ca-gregory\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1052,
                 "end": 1112,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 1052,
@@ -205,13 +204,14 @@
                   "value": "pt-u-attr1-attr2-ca-gregory",
                   "raw": "\"pt-u-attr1-attr2-ca-gregory\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -222,6 +222,7 @@
         "type": "VariableDeclaration",
         "start": 1123,
         "end": 1149,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -248,8 +249,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "CallExpression",
@@ -271,8 +271,8 @@
             "end": 1167,
             "name": "entries"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -313,8 +313,8 @@
                   "end": 1210,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -345,8 +345,8 @@
                           "end": 1233,
                           "name": "Locale"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -363,8 +363,8 @@
                       "end": 1251,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -379,20 +379,6 @@
                   "type": "TemplateLiteral",
                   "start": 1278,
                   "end": 1343,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1298,
-                      "end": 1305,
-                      "name": "langtag"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 1331,
-                      "end": 1340,
-                      "name": "canonical"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -423,6 +409,20 @@
                         "cooked": "\""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1298,
+                      "end": 1305,
+                      "name": "langtag"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 1331,
+                      "end": 1340,
+                      "name": "canonical"
                     }
                   ]
                 }

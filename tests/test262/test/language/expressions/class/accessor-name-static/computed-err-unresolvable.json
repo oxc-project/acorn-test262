@@ -27,8 +27,8 @@
             "end": 897,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 914,
             "end": 988,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -82,21 +81,17 @@
                               "type": "MethodDefinition",
                               "start": 944,
                               "end": 981,
-                              "static": true,
-                              "computed": true,
                               "key": {
                                 "type": "Identifier",
                                 "start": 956,
                                 "end": 975,
                                 "name": "test262unresolvable"
                               },
-                              "kind": "get",
                               "value": {
                                 "type": "FunctionExpression",
                                 "start": 976,
                                 "end": 981,
                                 "id": null,
-                                "expression": false,
                                 "generator": false,
                                 "async": false,
                                 "params": [],
@@ -105,8 +100,12 @@
                                   "start": 979,
                                   "end": 981,
                                   "body": []
-                                }
-                              }
+                                },
+                                "expression": false
+                              },
+                              "kind": "get",
+                              "computed": true,
+                              "static": true
                             }
                           ]
                         }
@@ -115,7 +114,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -152,8 +152,8 @@
             "end": 1023,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -167,7 +167,6 @@
             "start": 1040,
             "end": 1115,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -207,21 +206,17 @@
                               "type": "MethodDefinition",
                               "start": 1070,
                               "end": 1108,
-                              "static": true,
-                              "computed": true,
                               "key": {
                                 "type": "Identifier",
                                 "start": 1082,
                                 "end": 1101,
                                 "name": "test262unresolvable"
                               },
-                              "kind": "set",
                               "value": {
                                 "type": "FunctionExpression",
                                 "start": 1102,
                                 "end": 1108,
                                 "id": null,
-                                "expression": false,
                                 "generator": false,
                                 "async": false,
                                 "params": [
@@ -237,8 +232,12 @@
                                   "start": 1106,
                                   "end": 1108,
                                   "body": []
-                                }
-                              }
+                                },
+                                "expression": false
+                              },
+                              "kind": "set",
+                              "computed": true,
+                              "static": true
                             }
                           ]
                         }
@@ -247,7 +246,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

@@ -27,8 +27,8 @@
             "end": 1066,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 1083,
             "end": 1120,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -70,9 +69,7 @@
                     "type": "ArrowFunctionExpression",
                     "start": 1111,
                     "end": 1118,
-                    "id": null,
                     "expression": false,
-                    "generator": false,
                     "async": false,
                     "params": [
                       {
@@ -87,11 +84,14 @@
                       "start": 1116,
                       "end": 1118,
                       "body": []
-                    }
+                    },
+                    "id": null,
+                    "generator": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

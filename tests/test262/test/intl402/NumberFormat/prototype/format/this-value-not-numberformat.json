@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 367,
       "end": 451,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -85,13 +86,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 452,
       "end": 538,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -127,8 +128,8 @@
                   "end": 494,
                   "name": "getOwnPropertyDescriptor"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -151,8 +152,8 @@
                       "end": 512,
                       "name": "NumberFormat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -160,8 +161,8 @@
                     "end": 522,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -179,12 +180,11 @@
               "end": 537,
               "name": "get"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -210,17 +210,15 @@
             "end": 562,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 563,
             "end": 715,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -259,8 +257,8 @@
                         "end": 590,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -273,9 +271,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 611,
                         "end": 632,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -298,8 +294,8 @@
                               "end": 624,
                               "name": "call"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -310,34 +306,14 @@
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 638,
                         "end": 708,
-                        "expressions": [
-                          {
-                            "type": "CallExpression",
-                            "start": 666,
-                            "end": 680,
-                            "callee": {
-                              "type": "Identifier",
-                              "start": 666,
-                              "end": 672,
-                              "name": "String"
-                            },
-                            "arguments": [
-                              {
-                                "type": "Identifier",
-                                "start": 673,
-                                "end": 679,
-                                "name": "target"
-                              }
-                            ],
-                            "optional": false
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -359,6 +335,28 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "CallExpression",
+                            "start": 666,
+                            "end": 680,
+                            "callee": {
+                              "type": "Identifier",
+                              "start": 666,
+                              "end": 672,
+                              "name": "String"
+                            },
+                            "arguments": [
+                              {
+                                "type": "Identifier",
+                                "start": 673,
+                                "end": 679,
+                                "name": "target"
+                              }
+                            ],
+                            "optional": false
+                          }
                         ]
                       }
                     ],
@@ -366,7 +364,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

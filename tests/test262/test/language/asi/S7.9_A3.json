@@ -13,7 +13,6 @@
         "end": 299,
         "name": "f1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -35,7 +34,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -111,7 +111,6 @@
         "end": 450,
         "name": "f2"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -139,7 +138,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",

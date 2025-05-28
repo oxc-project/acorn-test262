@@ -13,7 +13,6 @@
         "end": 415,
         "name": "fn1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -36,7 +35,8 @@
         "start": 422,
         "end": 424,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -48,7 +48,6 @@
         "end": 438,
         "name": "fn2"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -66,9 +65,7 @@
                   "type": "Property",
                   "start": 441,
                   "end": 448,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 441,
@@ -88,7 +85,9 @@
                       }
                     ]
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 }
               ]
             }
@@ -100,7 +99,8 @@
         "start": 452,
         "end": 454,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -112,7 +112,6 @@
         "end": 468,
         "name": "fn3"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -125,9 +124,7 @@
               "type": "Property",
               "start": 470,
               "end": 483,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 470,
@@ -156,7 +153,9 @@
                   "raw": "42"
                 }
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             }
           ]
         }
@@ -166,7 +165,8 @@
         "start": 486,
         "end": 488,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -178,7 +178,6 @@
         "end": 502,
         "name": "fn4"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -276,7 +275,8 @@
         "start": 534,
         "end": 536,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -288,7 +288,6 @@
         "end": 550,
         "name": "fn4"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -335,7 +334,8 @@
         "start": 567,
         "end": 569,
         "body": []
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

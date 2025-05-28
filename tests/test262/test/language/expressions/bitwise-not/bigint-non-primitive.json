@@ -27,8 +27,8 @@
             "end": 565,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 566,
             "end": 577,
             "operator": "~",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 567,
@@ -58,14 +57,14 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 579,
             "end": 582,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 580,
@@ -73,7 +72,8 @@
               "value": null,
               "raw": "2n",
               "bigint": "2"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -96,7 +96,6 @@
         "end": 633,
         "name": "err"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -123,7 +122,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -149,8 +149,8 @@
             "end": 685,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -158,7 +158,6 @@
             "start": 686,
             "end": 780,
             "operator": "~",
-            "prefix": true,
             "argument": {
               "type": "ObjectExpression",
               "start": 687,
@@ -168,9 +167,7 @@
                   "type": "Property",
                   "start": 691,
                   "end": 744,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": true,
+                  "kind": "init",
                   "key": {
                     "type": "MemberExpression",
                     "start": 692,
@@ -187,15 +184,14 @@
                       "end": 710,
                       "name": "toPrimitive"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "value": {
                     "type": "FunctionExpression",
                     "start": 713,
                     "end": 744,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -218,17 +214,18 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": true
                 },
                 {
                   "type": "Property",
                   "start": 749,
                   "end": 761,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 749,
@@ -241,15 +238,15 @@
                     "end": 761,
                     "name": "err"
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 },
                 {
                   "type": "Property",
                   "start": 765,
                   "end": 778,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 765,
@@ -262,17 +259,19 @@
                     "end": 778,
                     "name": "err"
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 }
               ]
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 782,
             "end": 785,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 783,
@@ -280,7 +279,8 @@
               "value": null,
               "raw": "2n",
               "bigint": "2"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -317,8 +317,8 @@
             "end": 906,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -326,7 +326,6 @@
             "start": 907,
             "end": 972,
             "operator": "~",
-            "prefix": true,
             "argument": {
               "type": "ObjectExpression",
               "start": 908,
@@ -336,9 +335,7 @@
                   "type": "Property",
                   "start": 912,
                   "end": 952,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 912,
@@ -350,7 +347,6 @@
                     "start": 921,
                     "end": 952,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -373,17 +369,18 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 },
                 {
                   "type": "Property",
                   "start": 957,
                   "end": 970,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 957,
@@ -396,17 +393,19 @@
                     "end": 970,
                     "name": "err"
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 }
               ]
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 974,
             "end": 977,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 975,
@@ -414,7 +413,8 @@
               "value": null,
               "raw": "2n",
               "bigint": "2"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -451,8 +451,8 @@
             "end": 1071,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -460,7 +460,6 @@
             "start": 1072,
             "end": 1120,
             "operator": "~",
-            "prefix": true,
             "argument": {
               "type": "ObjectExpression",
               "start": 1073,
@@ -470,9 +469,7 @@
                   "type": "Property",
                   "start": 1077,
                   "end": 1118,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 1077,
@@ -484,7 +481,6 @@
                     "start": 1087,
                     "end": 1118,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -507,19 +503,22 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 }
               ]
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 1122,
             "end": 1125,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1123,
@@ -527,7 +526,8 @@
               "value": null,
               "raw": "2n",
               "bigint": "2"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

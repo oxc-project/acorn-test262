@@ -13,7 +13,6 @@
         "end": 579,
         "name": "x"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -31,6 +30,7 @@
                 "type": "VariableDeclaration",
                 "start": 588,
                 "end": 594,
+                "kind": "var",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
@@ -44,13 +44,13 @@
                     },
                     "init": null
                   }
-                ],
-                "kind": "var"
+                ]
               },
               {
                 "type": "VariableDeclaration",
                 "start": 595,
                 "end": 600,
+                "kind": "var",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
@@ -64,13 +64,13 @@
                     },
                     "init": null
                   }
-                ],
-                "kind": "var"
+                ]
               }
             ]
           }
         ]
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

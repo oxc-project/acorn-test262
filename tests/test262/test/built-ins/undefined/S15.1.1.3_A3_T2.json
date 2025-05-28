@@ -16,13 +16,13 @@
           "start": 257,
           "end": 273,
           "operator": "delete",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 264,
             "end": 273,
             "name": "undefined"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -74,13 +74,13 @@
                       "start": 358,
                       "end": 374,
                       "operator": "delete",
-                      "prefix": true,
                       "argument": {
                         "type": "Identifier",
                         "start": 365,
                         "end": 374,
                         "name": "undefined"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }

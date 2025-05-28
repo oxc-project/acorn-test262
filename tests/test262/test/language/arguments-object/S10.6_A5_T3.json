@@ -13,7 +13,6 @@
         "end": 358,
         "name": "f1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -35,7 +34,6 @@
                 "start": 372,
                 "end": 395,
                 "operator": "delete",
-                "prefix": true,
                 "argument": {
                   "type": "MemberExpression",
                   "start": 379,
@@ -52,14 +50,16 @@
                     "end": 395,
                     "name": "length"
                   },
-                  "computed": false,
-                  "optional": false
-                }
+                  "optional": false,
+                  "computed": false
+                },
+                "prefix": true
               }
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "TryStatement",
@@ -79,7 +79,6 @@
               "start": 411,
               "end": 416,
               "operator": "!",
-              "prefix": true,
               "argument": {
                 "type": "CallExpression",
                 "start": 412,
@@ -92,7 +91,8 @@
                 },
                 "arguments": [],
                 "optional": false
-              }
+              },
+              "prefix": true
             },
             "consequent": {
               "type": "BlockStatement",
@@ -179,6 +179,7 @@
       "type": "VariableDeclaration",
       "start": 594,
       "end": 652,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -195,7 +196,6 @@
             "start": 603,
             "end": 652,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -217,7 +217,6 @@
                       "start": 625,
                       "end": 648,
                       "operator": "delete",
-                      "prefix": true,
                       "argument": {
                         "type": "MemberExpression",
                         "start": 632,
@@ -234,18 +233,19 @@
                           "end": 648,
                           "name": "length"
                         },
-                        "computed": false,
-                        "optional": false
-                      }
+                        "optional": false,
+                        "computed": false
+                      },
+                      "prefix": true
                     }
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -265,7 +265,6 @@
               "start": 664,
               "end": 669,
               "operator": "!",
-              "prefix": true,
               "argument": {
                 "type": "CallExpression",
                 "start": 665,
@@ -278,7 +277,8 @@
                 },
                 "arguments": [],
                 "optional": false
-              }
+              },
+              "prefix": true
             },
             "consequent": {
               "type": "BlockStatement",

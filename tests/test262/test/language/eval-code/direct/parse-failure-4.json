@@ -225,6 +225,7 @@
               "type": "VariableDeclaration",
               "start": 620,
               "end": 629,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -244,8 +245,7 @@
                     "raw": "0"
                   }
                 }
-              ],
-              "kind": "var"
+              ]
             },
             "test": {
               "type": "BinaryExpression",
@@ -292,6 +292,7 @@
                     "type": "VariableDeclaration",
                     "start": 655,
                     "end": 664,
+                    "kind": "var",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
@@ -311,8 +312,7 @@
                           "raw": "0"
                         }
                       }
-                    ],
-                    "kind": "var"
+                    ]
                   },
                   "test": {
                     "type": "BinaryExpression",

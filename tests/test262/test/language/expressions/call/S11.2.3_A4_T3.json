@@ -233,6 +233,7 @@
             "type": "VariableDeclaration",
             "start": 617,
             "end": 641,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -265,8 +266,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",

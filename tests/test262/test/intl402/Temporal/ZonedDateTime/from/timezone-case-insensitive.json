@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 270,
       "end": 12473,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -4191,13 +4192,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 12934,
       "end": 13024,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -4269,8 +4270,8 @@
                                 "end": 13008,
                                 "name": "supportedValuesOf"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -4292,8 +4293,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -4304,6 +4304,7 @@
         "type": "VariableDeclaration",
         "start": 13030,
         "end": 13038,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -4317,8 +4318,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -4335,6 +4335,7 @@
             "type": "VariableDeclaration",
             "start": 13051,
             "end": 13082,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -4366,20 +4367,20 @@
                       "end": 13079,
                       "name": "toLowerCase"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 13085,
             "end": 13116,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -4411,15 +4412,14 @@
                       "end": 13113,
                       "name": "toUpperCase"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ForOfStatement",
@@ -4430,6 +4430,7 @@
               "type": "VariableDeclaration",
               "start": 13124,
               "end": 13138,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -4443,8 +4444,7 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "const"
+              ]
             },
             "right": {
               "type": "ArrayExpression",
@@ -4480,6 +4480,7 @@
                   "type": "VariableDeclaration",
                   "start": 13168,
                   "end": 13212,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -4495,14 +4496,6 @@
                         "type": "TemplateLiteral",
                         "start": 13186,
                         "end": 13211,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 13200,
-                            "end": 13208,
-                            "name": "idToTest"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -4524,16 +4517,24 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 13200,
+                            "end": 13208,
+                            "name": "idToTest"
+                          }
                         ]
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 13217,
                   "end": 13268,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -4569,8 +4570,8 @@
                               "end": 13251,
                               "name": "ZonedDateTime"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "property": {
                             "type": "Identifier",
@@ -4578,8 +4579,8 @@
                             "end": 13256,
                             "name": "from"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -4592,8 +4593,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -4619,8 +4619,8 @@
                         "end": 13289,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -4639,8 +4639,8 @@
                           "end": 13304,
                           "name": "timeZoneId"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       {
                         "type": "Identifier",
@@ -4652,14 +4652,6 @@
                         "type": "TemplateLiteral",
                         "start": 13310,
                         "end": 13356,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 13344,
-                            "end": 13353,
-                            "name": "isoString"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -4680,6 +4672,14 @@
                               "cooked": "\""
                             },
                             "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 13344,
+                            "end": 13353,
+                            "name": "isoString"
                           }
                         ]
                       }

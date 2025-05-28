@@ -12,6 +12,7 @@
         "type": "VariableDeclaration",
         "start": 785,
         "end": 807,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -58,6 +58,7 @@
             "type": "VariableDeclaration",
             "start": 838,
             "end": 922,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -97,8 +98,8 @@
                           "end": 872,
                           "name": "DurationFormat"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -116,9 +117,7 @@
                               "type": "Property",
                               "start": 878,
                               "end": 901,
-                              "method": false,
-                              "shorthand": false,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 878,
@@ -131,7 +130,9 @@
                                 "end": 901,
                                 "name": "numericLikeStyle"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false
                             }
                           ]
                         }
@@ -143,15 +144,14 @@
                       "end": 919,
                       "name": "resolvedOptions"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -177,8 +177,8 @@
                   "end": 942,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -197,8 +197,8 @@
                     "end": 955,
                     "name": "minutes"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -211,14 +211,6 @@
                   "type": "TemplateLiteral",
                   "start": 968,
                   "end": 1062,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1032,
-                      "end": 1048,
-                      "name": "numericLikeStyle"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -239,6 +231,14 @@
                         "cooked": "-styled unit"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1032,
+                      "end": 1048,
+                      "name": "numericLikeStyle"
                     }
                   ]
                 }
@@ -270,8 +270,8 @@
                   "end": 1083,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -290,8 +290,8 @@
                     "end": 1096,
                     "name": "seconds"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -304,14 +304,6 @@
                   "type": "TemplateLiteral",
                   "start": 1109,
                   "end": 1203,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1173,
-                      "end": 1189,
-                      "name": "numericLikeStyle"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -332,6 +324,14 @@
                         "cooked": "-styled unit"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1173,
+                      "end": 1189,
+                      "name": "numericLikeStyle"
                     }
                   ]
                 }
@@ -363,8 +363,8 @@
                   "end": 1224,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -383,8 +383,8 @@
                     "end": 1242,
                     "name": "milliseconds"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -397,14 +397,6 @@
                   "type": "TemplateLiteral",
                   "start": 1255,
                   "end": 1354,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1324,
-                      "end": 1340,
-                      "name": "numericLikeStyle"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -425,6 +417,14 @@
                         "cooked": "-styled unit"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1324,
+                      "end": 1340,
+                      "name": "numericLikeStyle"
                     }
                   ]
                 }
@@ -456,8 +456,8 @@
                   "end": 1375,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -476,8 +476,8 @@
                     "end": 1393,
                     "name": "microseconds"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -490,14 +490,6 @@
                   "type": "TemplateLiteral",
                   "start": 1406,
                   "end": 1505,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1475,
-                      "end": 1491,
-                      "name": "numericLikeStyle"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -518,6 +510,14 @@
                         "cooked": "-styled unit"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1475,
+                      "end": 1491,
+                      "name": "numericLikeStyle"
                     }
                   ]
                 }
@@ -549,8 +549,8 @@
                   "end": 1526,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -569,8 +569,8 @@
                     "end": 1543,
                     "name": "nanoseconds"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -583,14 +583,6 @@
                   "type": "TemplateLiteral",
                   "start": 1556,
                   "end": 1654,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1624,
-                      "end": 1640,
-                      "name": "numericLikeStyle"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -611,6 +603,14 @@
                         "cooked": "-styled unit"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1624,
+                      "end": 1640,
+                      "name": "numericLikeStyle"
                     }
                   ]
                 }

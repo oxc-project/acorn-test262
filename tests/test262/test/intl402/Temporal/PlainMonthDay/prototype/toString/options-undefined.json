@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 280,
       "end": 360,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -74,8 +75,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -86,6 +86,7 @@
         "type": "VariableDeclaration",
         "start": 367,
         "end": 389,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -112,8 +113,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -130,6 +130,7 @@
             "type": "VariableDeclaration",
             "start": 404,
             "end": 463,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -161,8 +162,8 @@
                       "end": 447,
                       "name": "PlainMonthDay"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -193,13 +194,13 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 466,
             "end": 512,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -231,8 +232,8 @@
                       "end": 500,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -245,8 +246,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -272,8 +272,8 @@
                   "end": 531,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -303,6 +303,7 @@
             "type": "VariableDeclaration",
             "start": 595,
             "end": 632,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -334,15 +335,14 @@
                       "end": 629,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -368,8 +368,8 @@
                   "end": 651,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
