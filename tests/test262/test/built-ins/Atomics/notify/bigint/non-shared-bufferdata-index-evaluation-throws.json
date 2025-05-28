@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 545,
       "end": 634,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -60,8 +61,8 @@
                         "end": 626,
                         "name": "BYTES_PER_ELEMENT"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "operator": "*",
                     "right": {
@@ -77,13 +78,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 636,
       "end": 705,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -104,9 +105,7 @@
                 "type": "Property",
                 "start": 657,
                 "end": 702,
-                "method": true,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 657,
@@ -118,7 +117,6 @@
                   "start": 664,
                   "end": 702,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -145,15 +143,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": true,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -179,8 +179,8 @@
             "end": 720,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -194,7 +194,6 @@
             "start": 735,
             "end": 786,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -227,8 +226,8 @@
                         "end": 764,
                         "name": "notify"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -255,7 +254,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

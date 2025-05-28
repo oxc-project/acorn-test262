@@ -20,7 +20,6 @@
             "start": 480,
             "end": 946,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -38,7 +37,6 @@
                     "start": 495,
                     "end": 514,
                     "operator": "delete",
-                    "prefix": true,
                     "argument": {
                       "type": "MemberExpression",
                       "start": 502,
@@ -56,9 +54,10 @@
                         "value": 0,
                         "raw": "0"
                       },
-                      "computed": true,
-                      "optional": false
-                    }
+                      "optional": false,
+                      "computed": true
+                    },
+                    "prefix": true
                   }
                 },
                 {
@@ -71,7 +70,6 @@
                     "end": 535,
                     "name": "getFunc"
                   },
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -93,7 +91,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "FunctionDeclaration",
@@ -105,7 +104,6 @@
                     "end": 578,
                     "name": "setFunc"
                   },
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [
@@ -145,8 +143,8 @@
                               "end": 614,
                               "name": "setVerifyHelpProp"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "right": {
                             "type": "Identifier",
@@ -157,7 +155,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "ExpressionStatement",
@@ -183,8 +182,8 @@
                         "end": 651,
                         "name": "defineProperty"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -209,9 +208,7 @@
                             "type": "Property",
                             "start": 674,
                             "end": 686,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 674,
@@ -224,15 +221,15 @@
                               "end": 686,
                               "name": "getFunc"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 692,
                             "end": 704,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 692,
@@ -245,15 +242,15 @@
                               "end": 704,
                               "name": "setFunc"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 710,
                             "end": 726,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 710,
@@ -267,15 +264,15 @@
                               "value": true,
                               "raw": "true"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 732,
                             "end": 750,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 732,
@@ -289,7 +286,9 @@
                               "value": true,
                               "raw": "true"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -418,9 +417,7 @@
                             "type": "Property",
                             "start": 897,
                             "end": 913,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 897,
@@ -434,15 +431,15 @@
                               "value": true,
                               "raw": "true"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 919,
                             "end": 937,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 919,
@@ -456,7 +453,9 @@
                               "value": true,
                               "raw": "true"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -465,7 +464,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           "arguments": [
             {

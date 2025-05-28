@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 274,
       "end": 287,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,13 +26,13 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 289,
       "end": 329,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -63,8 +64,8 @@
                 "end": 323,
                 "name": "isExtensible"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -77,8 +78,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -104,8 +104,8 @@
             "end": 342,
             "name": "seal"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -174,8 +174,8 @@
             "end": 405,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -198,8 +198,8 @@
                 "end": 425,
                 "name": "isExtensible"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 353,
       "end": 386,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,13 +40,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 387,
       "end": 424,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -84,8 +85,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -111,8 +111,8 @@
             "end": 440,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -157,8 +157,8 @@
             "end": 466,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -203,8 +203,8 @@
             "end": 492,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -249,8 +249,8 @@
             "end": 518,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -295,8 +295,8 @@
             "end": 544,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -341,8 +341,8 @@
             "end": 570,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -387,8 +387,8 @@
             "end": 596,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -433,8 +433,8 @@
             "end": 622,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -479,8 +479,8 @@
             "end": 648,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -525,8 +525,8 @@
             "end": 674,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -571,8 +571,8 @@
             "end": 700,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -617,8 +617,8 @@
             "end": 727,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -663,8 +663,8 @@
             "end": 753,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -678,7 +678,6 @@
             "start": 766,
             "end": 807,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -711,8 +710,8 @@
                         "end": 800,
                         "name": "getBigUint64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -720,21 +719,22 @@
                         "start": 801,
                         "end": 803,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 802,
                           "end": 803,
                           "value": 1,
                           "raw": "1"
-                        }
+                        },
+                        "prefix": true
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -771,8 +771,8 @@
             "end": 863,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -786,7 +786,6 @@
             "start": 876,
             "end": 919,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -819,8 +818,8 @@
                         "end": 910,
                         "name": "getBigUint64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -828,21 +827,22 @@
                         "start": 911,
                         "end": 915,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 912,
                           "end": 915,
                           "value": 2.5,
                           "raw": "2.5"
-                        }
+                        },
+                        "prefix": true
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -879,8 +879,8 @@
             "end": 975,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -894,7 +894,6 @@
             "start": 988,
             "end": 1033,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -927,8 +926,8 @@
                         "end": 1022,
                         "name": "getBigUint64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -943,7 +942,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -980,8 +980,8 @@
             "end": 1105,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -995,7 +995,6 @@
             "start": 1118,
             "end": 1166,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1028,8 +1027,8 @@
                         "end": 1152,
                         "name": "getBigUint64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1037,20 +1036,21 @@
                         "start": 1153,
                         "end": 1162,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Identifier",
                           "start": 1154,
                           "end": 1162,
                           "name": "Infinity"
-                        }
+                        },
+                        "prefix": true
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1087,8 +1087,8 @@
             "end": 1222,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1102,7 +1102,6 @@
             "start": 1235,
             "end": 1290,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1135,8 +1134,8 @@
                         "end": 1269,
                         "name": "getBigUint64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1151,7 +1150,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1188,8 +1188,8 @@
             "end": 1352,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1203,7 +1203,6 @@
             "start": 1365,
             "end": 1412,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1236,8 +1235,8 @@
                         "end": 1399,
                         "name": "getBigUint64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1251,7 +1250,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1288,8 +1288,8 @@
             "end": 1474,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1303,7 +1303,6 @@
             "start": 1486,
             "end": 1527,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1336,8 +1335,8 @@
                         "end": 1520,
                         "name": "getBigUint64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1353,7 +1352,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1390,8 +1390,8 @@
             "end": 1575,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1405,7 +1405,6 @@
             "start": 1587,
             "end": 1636,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1438,8 +1437,8 @@
                         "end": 1621,
                         "name": "getBigUint64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1469,7 +1468,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1506,8 +1506,8 @@
             "end": 1719,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1521,7 +1521,6 @@
             "start": 1731,
             "end": 1837,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1554,8 +1553,8 @@
                         "end": 1765,
                         "name": "getBigUint64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1567,9 +1566,7 @@
                             "type": "Property",
                             "start": 1772,
                             "end": 1829,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": true,
+                            "kind": "init",
                             "key": {
                               "type": "MemberExpression",
                               "start": 1773,
@@ -1586,15 +1583,14 @@
                                 "end": 1791,
                                 "name": "toPrimitive"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "value": {
                               "type": "FunctionExpression",
                               "start": 1794,
                               "end": 1829,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [],
@@ -1617,9 +1613,12 @@
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": true
                           }
                         ]
                       }
@@ -1628,7 +1627,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1665,8 +1665,8 @@
             "end": 1902,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1680,7 +1680,6 @@
             "start": 1914,
             "end": 2007,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1713,8 +1712,8 @@
                         "end": 1948,
                         "name": "getBigUint64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1726,9 +1725,7 @@
                             "type": "Property",
                             "start": 1955,
                             "end": 1999,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1955,
@@ -1740,7 +1737,6 @@
                               "start": 1964,
                               "end": 1999,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [],
@@ -1763,9 +1759,12 @@
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -1774,7 +1773,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1811,8 +1811,8 @@
             "end": 2066,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1826,7 +1826,6 @@
             "start": 2078,
             "end": 2172,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1859,8 +1858,8 @@
                         "end": 2112,
                         "name": "getBigUint64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1872,9 +1871,7 @@
                             "type": "Property",
                             "start": 2119,
                             "end": 2164,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 2119,
@@ -1886,7 +1883,6 @@
                               "start": 2129,
                               "end": 2164,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [],
@@ -1909,9 +1905,12 @@
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -1920,7 +1919,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1957,8 +1957,8 @@
             "end": 2232,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1972,7 +1972,6 @@
             "start": 2244,
             "end": 2294,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -2005,8 +2004,8 @@
                         "end": 2278,
                         "name": "getBigUint64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2035,7 +2034,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -2072,8 +2072,8 @@
             "end": 2342,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2087,7 +2087,6 @@
             "start": 2354,
             "end": 2412,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -2120,8 +2119,8 @@
                         "end": 2388,
                         "name": "getBigUint64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2164,7 +2163,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -2201,8 +2201,8 @@
             "end": 2495,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2216,7 +2216,6 @@
             "start": 2507,
             "end": 2622,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -2249,8 +2248,8 @@
                         "end": 2541,
                         "name": "getBigUint64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2262,9 +2261,7 @@
                             "type": "Property",
                             "start": 2548,
                             "end": 2614,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": true,
+                            "kind": "init",
                             "key": {
                               "type": "MemberExpression",
                               "start": 2549,
@@ -2281,15 +2278,14 @@
                                 "end": 2567,
                                 "name": "toPrimitive"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "value": {
                               "type": "FunctionExpression",
                               "start": 2570,
                               "end": 2614,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [],
@@ -2325,9 +2321,12 @@
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": true
                           }
                         ]
                       }
@@ -2336,7 +2335,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -2373,8 +2373,8 @@
             "end": 2687,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2388,7 +2388,6 @@
             "start": 2699,
             "end": 2801,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -2421,8 +2420,8 @@
                         "end": 2733,
                         "name": "getBigUint64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2434,9 +2433,7 @@
                             "type": "Property",
                             "start": 2740,
                             "end": 2793,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 2740,
@@ -2448,7 +2445,6 @@
                               "start": 2749,
                               "end": 2793,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [],
@@ -2484,9 +2480,12 @@
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -2495,7 +2494,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -2532,8 +2532,8 @@
             "end": 2860,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2547,7 +2547,6 @@
             "start": 2872,
             "end": 2975,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -2580,8 +2579,8 @@
                         "end": 2906,
                         "name": "getBigUint64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2593,9 +2592,7 @@
                             "type": "Property",
                             "start": 2913,
                             "end": 2967,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 2913,
@@ -2607,7 +2604,6 @@
                               "start": 2923,
                               "end": 2967,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [],
@@ -2643,9 +2639,12 @@
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -2654,7 +2653,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

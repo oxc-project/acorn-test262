@@ -16,6 +16,7 @@
             "type": "VariableDeclaration",
             "start": 857,
             "end": 881,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -48,8 +49,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           }
         ]
       },
@@ -134,8 +134,8 @@
             "end": 976,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -154,8 +154,8 @@
               "end": 990,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",
@@ -198,8 +198,8 @@
             "end": 1092,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

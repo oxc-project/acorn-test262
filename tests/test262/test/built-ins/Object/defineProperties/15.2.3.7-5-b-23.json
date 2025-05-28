@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 341,
       "end": 354,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,13 +26,13 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 355,
       "end": 384,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -59,25 +60,25 @@
                 "start": 380,
                 "end": 382,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 381,
                   "end": 382,
                   "value": 9,
                   "raw": "9"
-                }
+                },
+                "prefix": true
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 385,
       "end": 406,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -97,8 +98,7 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -125,8 +125,8 @@
             "end": 426,
             "name": "enumerable"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -161,8 +161,8 @@
             "end": 459,
             "name": "defineProperties"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -180,9 +180,7 @@
                 "type": "Property",
                 "start": 469,
                 "end": 482,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 469,
@@ -195,7 +193,9 @@
                   "end": 482,
                   "name": "descObj"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -211,6 +211,7 @@
         "type": "VariableDeclaration",
         "start": 492,
         "end": 504,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -224,8 +225,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "Identifier",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 297,
       "end": 365,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -49,8 +50,8 @@
                     "end": 359,
                     "name": "BYTES_PER_ELEMENT"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "operator": "*",
                 "right": {
@@ -64,13 +65,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 367,
       "end": 477,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -91,9 +92,7 @@
                 "type": "Property",
                 "start": 388,
                 "end": 474,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 388,
@@ -105,7 +104,6 @@
                   "start": 397,
                   "end": 474,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -140,15 +138,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -174,8 +174,8 @@
             "end": 492,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -189,7 +189,6 @@
             "start": 504,
             "end": 577,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -222,8 +221,8 @@
                         "end": 533,
                         "name": "notify"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -262,7 +261,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -292,8 +292,8 @@
             "end": 594,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -307,7 +307,6 @@
             "start": 606,
             "end": 678,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -340,8 +339,8 @@
                         "end": 635,
                         "name": "notify"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -380,7 +379,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -410,8 +410,8 @@
             "end": 695,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -425,7 +425,6 @@
             "start": 707,
             "end": 782,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -458,8 +457,8 @@
                         "end": 736,
                         "name": "notify"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -498,7 +497,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -528,8 +528,8 @@
             "end": 799,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -543,7 +543,6 @@
             "start": 811,
             "end": 885,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -576,8 +575,8 @@
                         "end": 840,
                         "name": "notify"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -616,7 +615,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -646,8 +646,8 @@
             "end": 902,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -661,7 +661,6 @@
             "start": 914,
             "end": 987,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -694,8 +693,8 @@
                         "end": 943,
                         "name": "notify"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -734,7 +733,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -764,8 +764,8 @@
             "end": 1004,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -779,7 +779,6 @@
             "start": 1016,
             "end": 1096,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -812,8 +811,8 @@
                         "end": 1045,
                         "name": "notify"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -852,7 +851,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

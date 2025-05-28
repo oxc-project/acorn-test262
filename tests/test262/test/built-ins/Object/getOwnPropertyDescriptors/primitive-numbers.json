@@ -27,8 +27,8 @@
             "end": 299,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -55,8 +55,8 @@
                   "end": 311,
                   "name": "keys"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -79,8 +79,8 @@
                       "end": 344,
                       "name": "getOwnPropertyDescriptors"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -102,8 +102,8 @@
               "end": 355,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -147,8 +147,8 @@
             "end": 403,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -175,8 +175,8 @@
                   "end": 415,
                   "name": "keys"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -199,8 +199,8 @@
                       "end": 448,
                       "name": "getOwnPropertyDescriptors"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -208,14 +208,14 @@
                       "start": 449,
                       "end": 451,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 450,
                         "end": 451,
                         "value": 0,
                         "raw": "0"
-                      }
+                      },
+                      "prefix": true
                     }
                   ],
                   "optional": false
@@ -229,8 +229,8 @@
               "end": 460,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -274,8 +274,8 @@
             "end": 509,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -302,8 +302,8 @@
                   "end": 521,
                   "name": "keys"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -326,8 +326,8 @@
                       "end": 554,
                       "name": "getOwnPropertyDescriptors"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -348,8 +348,8 @@
               "end": 572,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -393,8 +393,8 @@
             "end": 627,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -421,8 +421,8 @@
                   "end": 639,
                   "name": "keys"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -445,8 +445,8 @@
                       "end": 672,
                       "name": "getOwnPropertyDescriptors"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -454,13 +454,13 @@
                       "start": 673,
                       "end": 682,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Identifier",
                         "start": 674,
                         "end": 682,
                         "name": "Infinity"
-                      }
+                      },
+                      "prefix": true
                     }
                   ],
                   "optional": false
@@ -474,8 +474,8 @@
               "end": 691,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -519,8 +519,8 @@
             "end": 747,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -547,8 +547,8 @@
                   "end": 759,
                   "name": "keys"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -571,8 +571,8 @@
                       "end": 792,
                       "name": "getOwnPropertyDescriptors"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -593,8 +593,8 @@
               "end": 805,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -638,8 +638,8 @@
             "end": 855,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -666,8 +666,8 @@
                   "end": 867,
                   "name": "keys"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -690,8 +690,8 @@
                       "end": 900,
                       "name": "getOwnPropertyDescriptors"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -710,8 +710,8 @@
                         "end": 908,
                         "name": "PI"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   ],
                   "optional": false
@@ -725,8 +725,8 @@
               "end": 917,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

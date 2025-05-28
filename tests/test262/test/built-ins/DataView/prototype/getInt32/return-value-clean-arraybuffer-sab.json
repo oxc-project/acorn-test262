@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 981,
       "end": 1019,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,13 +40,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1020,
       "end": 1057,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -84,8 +85,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -111,8 +111,8 @@
             "end": 1075,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -135,8 +135,8 @@
                 "end": 1091,
                 "name": "getInt32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -198,8 +198,8 @@
             "end": 1150,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -222,8 +222,8 @@
                 "end": 1166,
                 "name": "getInt32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -285,8 +285,8 @@
             "end": 1225,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -309,8 +309,8 @@
                 "end": 1241,
                 "name": "getInt32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -372,8 +372,8 @@
             "end": 1300,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -396,8 +396,8 @@
                 "end": 1316,
                 "name": "getInt32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -459,8 +459,8 @@
             "end": 1375,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -483,8 +483,8 @@
                 "end": 1391,
                 "name": "getInt32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -546,8 +546,8 @@
             "end": 1450,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -570,8 +570,8 @@
                 "end": 1466,
                 "name": "getInt32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -633,8 +633,8 @@
             "end": 1527,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -657,8 +657,8 @@
                 "end": 1543,
                 "name": "getInt32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -720,8 +720,8 @@
             "end": 1604,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -744,8 +744,8 @@
                 "end": 1620,
                 "name": "getInt32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -807,8 +807,8 @@
             "end": 1681,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -831,8 +831,8 @@
                 "end": 1697,
                 "name": "getInt32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -894,8 +894,8 @@
             "end": 1758,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -918,8 +918,8 @@
                 "end": 1774,
                 "name": "getInt32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

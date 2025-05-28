@@ -27,8 +27,8 @@
             "end": 317,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 329,
             "end": 404,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -75,8 +74,8 @@
                         "end": 357,
                         "name": "create"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -94,9 +93,7 @@
                             "type": "Property",
                             "start": 368,
                             "end": 396,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 368,
@@ -112,9 +109,7 @@
                                   "type": "Property",
                                   "start": 382,
                                   "end": 390,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 382,
@@ -128,11 +123,15 @@
                                     "value": 123,
                                     "raw": "123"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 }
                               ]
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -141,7 +140,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 849,
       "end": 863,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,13 +26,13 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 864,
       "end": 903,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -63,8 +64,8 @@
                 "end": 896,
                 "name": "create"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -77,13 +78,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 904,
       "end": 943,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -115,8 +116,8 @@
                 "end": 928,
                 "name": "create"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -129,8 +130,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -156,8 +156,8 @@
             "end": 958,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -171,7 +171,6 @@
             "start": 970,
             "end": 1009,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -205,8 +204,8 @@
                         "end": 999,
                         "name": "__proto__"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "Identifier",
@@ -217,7 +216,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -247,8 +247,8 @@
             "end": 1029,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -271,8 +271,8 @@
                 "end": 1051,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -300,8 +300,8 @@
               "end": 1075,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         ],
         "optional": false

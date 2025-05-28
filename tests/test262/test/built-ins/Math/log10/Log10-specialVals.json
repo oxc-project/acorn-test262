@@ -27,8 +27,8 @@
             "end": 220,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -51,8 +51,8 @@
                 "end": 231,
                 "name": "log10"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -60,14 +60,14 @@
                 "start": 232,
                 "end": 234,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 233,
                   "end": 234,
                   "value": 0,
                   "raw": "0"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -88,8 +88,8 @@
               "end": 261,
               "name": "NEGATIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -126,8 +126,8 @@
             "end": 329,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -150,8 +150,8 @@
                 "end": 340,
                 "name": "log10"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -159,14 +159,14 @@
                 "start": 341,
                 "end": 343,
                 "operator": "+",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 342,
                   "end": 343,
                   "value": 0,
                   "raw": "0"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -187,8 +187,8 @@
               "end": 370,
               "name": "NEGATIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -225,8 +225,8 @@
             "end": 438,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -249,8 +249,8 @@
                 "end": 449,
                 "name": "log10"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -258,14 +258,14 @@
                 "start": 450,
                 "end": 454,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 451,
                   "end": 454,
                   "value": 0.9,
                   "raw": "0.9"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -286,8 +286,8 @@
               "end": 467,
               "name": "NaN"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -324,8 +324,8 @@
             "end": 537,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -348,8 +348,8 @@
                 "end": 548,
                 "name": "log10"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -377,8 +377,8 @@
               "end": 565,
               "name": "NaN"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -415,8 +415,8 @@
             "end": 634,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -439,8 +439,8 @@
                 "end": 645,
                 "name": "log10"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -448,14 +448,14 @@
                 "start": 646,
                 "end": 649,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 647,
                   "end": 649,
                   "value": 10,
                   "raw": "10"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -476,8 +476,8 @@
               "end": 662,
               "name": "NaN"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -514,8 +514,8 @@
             "end": 731,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -538,8 +538,8 @@
                 "end": 742,
                 "name": "log10"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -568,8 +568,8 @@
               "end": 774,
               "name": "NEGATIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -606,8 +606,8 @@
             "end": 844,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -630,8 +630,8 @@
                 "end": 855,
                 "name": "log10"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -659,8 +659,8 @@
               "end": 878,
               "name": "NaN"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -697,8 +697,8 @@
             "end": 953,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -721,8 +721,8 @@
                 "end": 964,
                 "name": "log10"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -741,8 +741,8 @@
                   "end": 989,
                   "name": "POSITIVE_INFINITY"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             ],
             "optional": false
@@ -763,8 +763,8 @@
               "end": 1016,
               "name": "POSITIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -801,8 +801,8 @@
             "end": 1106,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -825,8 +825,8 @@
                 "end": 1117,
                 "name": "log10"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -881,8 +881,8 @@
             "end": 1190,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -905,8 +905,8 @@
                 "end": 1201,
                 "name": "log10"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -961,8 +961,8 @@
             "end": 1282,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -985,8 +985,8 @@
                 "end": 1293,
                 "name": "log10"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1041,8 +1041,8 @@
             "end": 1376,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1065,8 +1065,8 @@
                 "end": 1387,
                 "name": "log10"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

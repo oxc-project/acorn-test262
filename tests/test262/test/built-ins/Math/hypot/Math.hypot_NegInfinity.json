@@ -27,8 +27,8 @@
             "end": 296,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -51,8 +51,8 @@
                 "end": 307,
                 "name": "hypot"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -67,13 +67,13 @@
                 "start": 311,
                 "end": 320,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 312,
                   "end": 320,
                   "name": "Infinity"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false

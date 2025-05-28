@@ -13,7 +13,6 @@
         "end": 309,
         "name": "cb"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,7 +21,8 @@
         "start": 312,
         "end": 314,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -48,8 +48,8 @@
             "end": 328,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -63,7 +63,6 @@
             "start": 340,
             "end": 376,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -96,8 +95,8 @@
                         "end": 369,
                         "name": "reduceRight"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -111,7 +110,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

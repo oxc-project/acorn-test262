@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 302,
       "end": 314,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "\"h\""
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -49,21 +49,17 @@
             "type": "MethodDefinition",
             "start": 325,
             "end": 391,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 350,
               "end": 351,
               "name": "f"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 360,
               "end": 391,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": true,
               "params": [],
@@ -72,8 +68,12 @@
                 "start": 380,
                 "end": 391,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           }
         ]
       }
@@ -98,8 +98,6 @@
             "type": "MethodDefinition",
             "start": 415,
             "end": 511,
-            "static": true,
-            "computed": true,
             "key": {
               "type": "Literal",
               "start": 458,
@@ -107,13 +105,11 @@
               "value": "g",
               "raw": "\"g\""
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 480,
               "end": 511,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": true,
               "params": [],
@@ -122,8 +118,12 @@
                 "start": 500,
                 "end": 511,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": true,
+            "static": true
           }
         ]
       }
@@ -148,21 +148,17 @@
             "type": "MethodDefinition",
             "start": 535,
             "end": 629,
-            "static": true,
-            "computed": true,
             "key": {
               "type": "Identifier",
               "start": 578,
               "end": 579,
               "name": "x"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 598,
               "end": 629,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": true,
               "params": [],
@@ -171,8 +167,12 @@
                 "start": 618,
                 "end": 629,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": true,
+            "static": true
           }
         ]
       }
@@ -181,6 +181,7 @@
       "type": "VariableDeclaration",
       "start": 644,
       "end": 656,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -208,17 +209,17 @@
               "end": 655,
               "name": "f"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 657,
       "end": 669,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -246,17 +247,17 @@
               "end": 668,
               "name": "g"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 670,
       "end": 682,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -284,12 +285,11 @@
               "end": 681,
               "name": "h"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",

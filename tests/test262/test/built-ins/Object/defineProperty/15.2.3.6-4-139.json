@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 412,
       "end": 428,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             "elements": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -52,8 +52,8 @@
             "end": 442,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -67,7 +67,6 @@
             "start": 455,
             "end": 539,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -100,8 +99,8 @@
                         "end": 491,
                         "name": "defineProperty"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -126,9 +125,7 @@
                             "type": "Property",
                             "start": 516,
                             "end": 531,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 516,
@@ -142,7 +139,9 @@
                               "value": "200.59",
                               "raw": "\"200.59\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -151,7 +150,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 454,
       "end": 504,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -81,8 +82,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -108,8 +108,8 @@
             "end": 522,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -117,7 +117,6 @@
             "start": 526,
             "end": 558,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 533,
@@ -138,8 +137,8 @@
                   "end": 548,
                   "name": "constructor"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -147,9 +146,10 @@
                 "end": 558,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -173,6 +173,7 @@
       "type": "VariableDeclaration",
       "start": 655,
       "end": 705,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -247,8 +248,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -289,8 +289,8 @@
                   "end": 727,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -298,8 +298,8 @@
                 "end": 741,
                 "name": "isPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -326,6 +326,7 @@
       "type": "VariableDeclaration",
       "start": 804,
       "end": 854,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -400,8 +401,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -427,8 +427,8 @@
             "end": 872,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -447,8 +447,8 @@
               "end": 890,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -470,8 +470,8 @@
                 "end": 909,
                 "name": "constructor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -479,8 +479,8 @@
               "end": 919,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -497,6 +497,7 @@
       "type": "VariableDeclaration",
       "start": 1017,
       "end": 1061,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -571,8 +572,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -598,8 +598,8 @@
             "end": 1079,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -607,7 +607,6 @@
             "start": 1083,
             "end": 1115,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 1090,
@@ -628,8 +627,8 @@
                   "end": 1105,
                   "name": "constructor"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -637,9 +636,10 @@
                 "end": 1115,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -663,6 +663,7 @@
       "type": "VariableDeclaration",
       "start": 1212,
       "end": 1256,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -737,8 +738,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -779,8 +779,8 @@
                   "end": 1278,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -788,8 +788,8 @@
                 "end": 1292,
                 "name": "isPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -816,6 +816,7 @@
       "type": "VariableDeclaration",
       "start": 1355,
       "end": 1399,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -890,8 +891,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -917,8 +917,8 @@
             "end": 1417,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -937,8 +937,8 @@
               "end": 1435,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -960,8 +960,8 @@
                 "end": 1454,
                 "name": "constructor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -969,8 +969,8 @@
               "end": 1464,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -987,6 +987,7 @@
       "type": "VariableDeclaration",
       "start": 1562,
       "end": 1605,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1061,8 +1062,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1088,8 +1088,8 @@
             "end": 1623,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1097,7 +1097,6 @@
             "start": 1627,
             "end": 1659,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 1634,
@@ -1118,8 +1117,8 @@
                   "end": 1649,
                   "name": "constructor"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -1127,9 +1126,10 @@
                 "end": 1659,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1153,6 +1153,7 @@
       "type": "VariableDeclaration",
       "start": 1756,
       "end": 1799,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1227,8 +1228,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1269,8 +1269,8 @@
                   "end": 1821,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -1278,8 +1278,8 @@
                 "end": 1835,
                 "name": "isPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1306,6 +1306,7 @@
       "type": "VariableDeclaration",
       "start": 1898,
       "end": 1941,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1380,8 +1381,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1407,8 +1407,8 @@
             "end": 1959,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1427,8 +1427,8 @@
               "end": 1977,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -1450,8 +1450,8 @@
                 "end": 1996,
                 "name": "constructor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -1459,8 +1459,8 @@
               "end": 2006,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1477,6 +1477,7 @@
       "type": "VariableDeclaration",
       "start": 2104,
       "end": 2154,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1551,8 +1552,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1578,8 +1578,8 @@
             "end": 2172,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1587,7 +1587,6 @@
             "start": 2176,
             "end": 2208,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 2183,
@@ -1608,8 +1607,8 @@
                   "end": 2198,
                   "name": "constructor"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -1617,9 +1616,10 @@
                 "end": 2208,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1643,6 +1643,7 @@
       "type": "VariableDeclaration",
       "start": 2305,
       "end": 2355,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1717,8 +1718,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1759,8 +1759,8 @@
                   "end": 2377,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -1768,8 +1768,8 @@
                 "end": 2391,
                 "name": "isPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1796,6 +1796,7 @@
       "type": "VariableDeclaration",
       "start": 2454,
       "end": 2504,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1870,8 +1871,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1897,8 +1897,8 @@
             "end": 2522,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1917,8 +1917,8 @@
               "end": 2540,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -1940,8 +1940,8 @@
                 "end": 2559,
                 "name": "constructor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -1949,8 +1949,8 @@
               "end": 2569,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1967,6 +1967,7 @@
       "type": "VariableDeclaration",
       "start": 2667,
       "end": 2711,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2041,8 +2042,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -2068,8 +2068,8 @@
             "end": 2729,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2077,7 +2077,6 @@
             "start": 2733,
             "end": 2765,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 2740,
@@ -2098,8 +2097,8 @@
                   "end": 2755,
                   "name": "constructor"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -2107,9 +2106,10 @@
                 "end": 2765,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -2133,6 +2133,7 @@
       "type": "VariableDeclaration",
       "start": 2862,
       "end": 2906,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2207,8 +2208,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -2249,8 +2249,8 @@
                   "end": 2928,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -2258,8 +2258,8 @@
                 "end": 2942,
                 "name": "isPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2286,6 +2286,7 @@
       "type": "VariableDeclaration",
       "start": 3005,
       "end": 3049,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2360,8 +2361,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -2387,8 +2387,8 @@
             "end": 3067,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2407,8 +2407,8 @@
               "end": 3085,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -2430,8 +2430,8 @@
                 "end": 3104,
                 "name": "constructor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -2439,8 +2439,8 @@
               "end": 3114,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -2457,6 +2457,7 @@
       "type": "VariableDeclaration",
       "start": 3212,
       "end": 3255,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2531,8 +2532,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -2558,8 +2558,8 @@
             "end": 3273,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2567,7 +2567,6 @@
             "start": 3277,
             "end": 3309,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 3284,
@@ -2588,8 +2587,8 @@
                   "end": 3299,
                   "name": "constructor"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -2597,9 +2596,10 @@
                 "end": 3309,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -2623,6 +2623,7 @@
       "type": "VariableDeclaration",
       "start": 3406,
       "end": 3449,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2697,8 +2698,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -2739,8 +2739,8 @@
                   "end": 3471,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -2748,8 +2748,8 @@
                 "end": 3485,
                 "name": "isPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2776,6 +2776,7 @@
       "type": "VariableDeclaration",
       "start": 3548,
       "end": 3591,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2850,8 +2851,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -2877,8 +2877,8 @@
             "end": 3609,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2897,8 +2897,8 @@
               "end": 3627,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -2920,8 +2920,8 @@
                 "end": 3646,
                 "name": "constructor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -2929,8 +2929,8 @@
               "end": 3656,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -2947,6 +2947,7 @@
       "type": "VariableDeclaration",
       "start": 3754,
       "end": 3804,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -3021,8 +3022,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -3048,8 +3048,8 @@
             "end": 3822,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3057,7 +3057,6 @@
             "start": 3826,
             "end": 3858,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 3833,
@@ -3078,8 +3077,8 @@
                   "end": 3848,
                   "name": "constructor"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -3087,9 +3086,10 @@
                 "end": 3858,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -3113,6 +3113,7 @@
       "type": "VariableDeclaration",
       "start": 3955,
       "end": 4005,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -3187,8 +3188,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -3229,8 +3229,8 @@
                   "end": 4027,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -3238,8 +3238,8 @@
                 "end": 4041,
                 "name": "isPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -3266,6 +3266,7 @@
       "type": "VariableDeclaration",
       "start": 4104,
       "end": 4154,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -3340,8 +3341,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -3367,8 +3367,8 @@
             "end": 4172,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3387,8 +3387,8 @@
               "end": 4190,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -3410,8 +3410,8 @@
                 "end": 4209,
                 "name": "constructor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -3419,8 +3419,8 @@
               "end": 4219,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -3437,6 +3437,7 @@
       "type": "VariableDeclaration",
       "start": 4317,
       "end": 4361,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -3511,8 +3512,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -3538,8 +3538,8 @@
             "end": 4379,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3547,7 +3547,6 @@
             "start": 4383,
             "end": 4415,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 4390,
@@ -3568,8 +3567,8 @@
                   "end": 4405,
                   "name": "constructor"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -3577,9 +3576,10 @@
                 "end": 4415,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -3603,6 +3603,7 @@
       "type": "VariableDeclaration",
       "start": 4512,
       "end": 4556,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -3677,8 +3678,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -3719,8 +3719,8 @@
                   "end": 4578,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -3728,8 +3728,8 @@
                 "end": 4592,
                 "name": "isPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -3756,6 +3756,7 @@
       "type": "VariableDeclaration",
       "start": 4655,
       "end": 4699,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -3830,8 +3831,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -3857,8 +3857,8 @@
             "end": 4717,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3877,8 +3877,8 @@
               "end": 4735,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -3900,8 +3900,8 @@
                 "end": 4754,
                 "name": "constructor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -3909,8 +3909,8 @@
               "end": 4764,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -3927,6 +3927,7 @@
       "type": "VariableDeclaration",
       "start": 4862,
       "end": 4905,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -4001,8 +4002,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -4028,8 +4028,8 @@
             "end": 4923,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -4037,7 +4037,6 @@
             "start": 4927,
             "end": 4959,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 4934,
@@ -4058,8 +4057,8 @@
                   "end": 4949,
                   "name": "constructor"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -4067,9 +4066,10 @@
                 "end": 4959,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -4093,6 +4093,7 @@
       "type": "VariableDeclaration",
       "start": 5056,
       "end": 5099,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -4167,8 +4168,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -4209,8 +4209,8 @@
                   "end": 5121,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -4218,8 +4218,8 @@
                 "end": 5135,
                 "name": "isPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -4246,6 +4246,7 @@
       "type": "VariableDeclaration",
       "start": 5198,
       "end": 5241,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -4320,8 +4321,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -4347,8 +4347,8 @@
             "end": 5259,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -4367,8 +4367,8 @@
               "end": 5277,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -4390,8 +4390,8 @@
                 "end": 5296,
                 "name": "constructor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -4399,8 +4399,8 @@
               "end": 5306,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -4417,6 +4417,7 @@
       "type": "VariableDeclaration",
       "start": 5404,
       "end": 5455,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -4491,8 +4492,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -4518,8 +4518,8 @@
             "end": 5473,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -4527,7 +4527,6 @@
             "start": 5477,
             "end": 5510,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 5484,
@@ -4548,8 +4547,8 @@
                   "end": 5500,
                   "name": "constructor"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -4557,9 +4556,10 @@
                 "end": 5510,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -4583,6 +4583,7 @@
       "type": "VariableDeclaration",
       "start": 5608,
       "end": 5659,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -4657,8 +4658,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -4699,8 +4699,8 @@
                   "end": 5681,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -4708,8 +4708,8 @@
                 "end": 5695,
                 "name": "isPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -4736,6 +4736,7 @@
       "type": "VariableDeclaration",
       "start": 5760,
       "end": 5811,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -4810,8 +4811,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -4837,8 +4837,8 @@
             "end": 5829,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -4857,8 +4857,8 @@
               "end": 5847,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -4880,8 +4880,8 @@
                 "end": 5867,
                 "name": "constructor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -4889,8 +4889,8 @@
               "end": 5877,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -4907,6 +4907,7 @@
       "type": "VariableDeclaration",
       "start": 5976,
       "end": 6021,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -4981,8 +4982,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -5008,8 +5008,8 @@
             "end": 6039,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -5017,7 +5017,6 @@
             "start": 6043,
             "end": 6076,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 6050,
@@ -5038,8 +5037,8 @@
                   "end": 6066,
                   "name": "constructor"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -5047,9 +5046,10 @@
                 "end": 6076,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -5073,6 +5073,7 @@
       "type": "VariableDeclaration",
       "start": 6174,
       "end": 6219,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -5147,8 +5148,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -5189,8 +5189,8 @@
                   "end": 6241,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -5198,8 +5198,8 @@
                 "end": 6255,
                 "name": "isPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -5226,6 +5226,7 @@
       "type": "VariableDeclaration",
       "start": 6320,
       "end": 6365,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -5300,8 +5301,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -5327,8 +5327,8 @@
             "end": 6383,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -5347,8 +5347,8 @@
               "end": 6401,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -5370,8 +5370,8 @@
                 "end": 6421,
                 "name": "constructor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -5379,8 +5379,8 @@
               "end": 6431,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -5397,6 +5397,7 @@
       "type": "VariableDeclaration",
       "start": 6530,
       "end": 6574,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -5471,8 +5472,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -5498,8 +5498,8 @@
             "end": 6592,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -5507,7 +5507,6 @@
             "start": 6596,
             "end": 6629,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 6603,
@@ -5528,8 +5527,8 @@
                   "end": 6619,
                   "name": "constructor"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -5537,9 +5536,10 @@
                 "end": 6629,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -5563,6 +5563,7 @@
       "type": "VariableDeclaration",
       "start": 6727,
       "end": 6771,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -5637,8 +5638,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -5679,8 +5679,8 @@
                   "end": 6793,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -5688,8 +5688,8 @@
                 "end": 6807,
                 "name": "isPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -5716,6 +5716,7 @@
       "type": "VariableDeclaration",
       "start": 6872,
       "end": 6916,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -5790,8 +5791,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -5817,8 +5817,8 @@
             "end": 6934,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -5837,8 +5837,8 @@
               "end": 6952,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -5860,8 +5860,8 @@
                 "end": 6972,
                 "name": "constructor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -5869,8 +5869,8 @@
               "end": 6982,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

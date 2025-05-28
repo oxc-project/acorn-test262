@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 292,
       "end": 313,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -39,7 +39,6 @@
         "end": 334,
         "name": "callbackfn"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -130,12 +129,14 @@
             "alternate": null
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 410,
       "end": 427,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -169,8 +170,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -196,8 +196,8 @@
             "end": 450,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -222,9 +222,7 @@
                 "type": "Property",
                 "start": 465,
                 "end": 553,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 465,
@@ -236,7 +234,6 @@
                   "start": 470,
                   "end": 553,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -271,17 +268,18 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 557,
                 "end": 575,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 557,
@@ -295,7 +293,9 @@
                   "value": true,
                   "raw": "true"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -327,8 +327,8 @@
             "end": 593,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -342,7 +342,6 @@
             "start": 606,
             "end": 651,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -375,8 +374,8 @@
                         "end": 636,
                         "name": "reduceRight"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -390,7 +389,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -420,8 +420,8 @@
             "end": 670,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

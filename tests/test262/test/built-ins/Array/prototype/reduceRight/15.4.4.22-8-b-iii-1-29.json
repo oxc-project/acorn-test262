@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 310,
       "end": 333,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -39,7 +39,6 @@
         "end": 354,
         "name": "callbackfn"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -147,12 +146,14 @@
             "alternate": null
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 444,
       "end": 496,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -169,7 +170,6 @@
             "start": 454,
             "end": 495,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -233,11 +233,11 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -265,8 +265,8 @@
             "value": 0,
             "raw": "0"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -303,8 +303,8 @@
             "value": 1,
             "raw": "1"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -341,8 +341,8 @@
             "value": 2,
             "raw": "2"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -385,8 +385,8 @@
                 "end": 550,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -394,8 +394,8 @@
               "end": 562,
               "name": "reduceRight"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -403,8 +403,8 @@
             "end": 567,
             "name": "call"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

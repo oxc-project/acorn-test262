@@ -27,8 +27,8 @@
             "end": 424,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -41,9 +41,7 @@
             "type": "ArrowFunctionExpression",
             "start": 436,
             "end": 491,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -83,8 +81,8 @@
                             "end": 461,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -92,8 +90,8 @@
                           "end": 471,
                           "name": "toSpliced"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -101,8 +99,8 @@
                         "end": 476,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -131,7 +129,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -168,8 +168,8 @@
             "end": 567,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -182,9 +182,7 @@
             "type": "ArrowFunctionExpression",
             "start": 579,
             "end": 639,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -224,8 +222,8 @@
                             "end": 604,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -233,8 +231,8 @@
                           "end": 614,
                           "name": "toSpliced"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -242,8 +240,8 @@
                         "end": 619,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -271,7 +269,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",

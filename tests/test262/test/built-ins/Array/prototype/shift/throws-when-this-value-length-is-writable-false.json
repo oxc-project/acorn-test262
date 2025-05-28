@@ -27,8 +27,8 @@
             "end": 641,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -41,9 +41,7 @@
             "type": "ArrowFunctionExpression",
             "start": 653,
             "end": 696,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -83,8 +81,8 @@
                             "end": 678,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -92,8 +90,8 @@
                           "end": 684,
                           "name": "shift"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -101,8 +99,8 @@
                         "end": 689,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -117,7 +115,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -154,8 +154,8 @@
             "end": 747,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -168,9 +168,7 @@
             "type": "ArrowFunctionExpression",
             "start": 759,
             "end": 805,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -210,8 +208,8 @@
                             "end": 784,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -219,8 +217,8 @@
                           "end": 790,
                           "name": "shift"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -228,8 +226,8 @@
                         "end": 795,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -244,7 +242,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -281,8 +281,8 @@
             "end": 859,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -295,9 +295,7 @@
             "type": "ArrowFunctionExpression",
             "start": 871,
             "end": 925,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -337,8 +335,8 @@
                             "end": 896,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -346,8 +344,8 @@
                           "end": 902,
                           "name": "shift"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -355,8 +353,8 @@
                         "end": 907,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -364,7 +362,6 @@
                         "start": 908,
                         "end": 921,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -373,14 +370,17 @@
                           "start": 919,
                           "end": 921,
                           "body": []
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -417,8 +417,8 @@
             "end": 987,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -431,9 +431,7 @@
             "type": "ArrowFunctionExpression",
             "start": 999,
             "end": 1094,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -473,8 +471,8 @@
                             "end": 1024,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -482,8 +480,8 @@
                           "end": 1030,
                           "name": "shift"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -491,8 +489,8 @@
                         "end": 1035,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -515,8 +513,8 @@
                             "end": 1057,
                             "name": "defineProperty"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -541,9 +539,7 @@
                                 "type": "Property",
                                 "start": 1073,
                                 "end": 1088,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 1073,
@@ -557,7 +553,9 @@
                                   "value": false,
                                   "raw": "false"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               }
                             ]
                           }
@@ -569,7 +567,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",

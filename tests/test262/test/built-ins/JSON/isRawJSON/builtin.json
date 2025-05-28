@@ -38,8 +38,8 @@
                 "end": 1263,
                 "name": "isExtensible"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -58,8 +58,8 @@
                   "end": 1278,
                   "name": "isRawJSON"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             ],
             "optional": false
@@ -99,8 +99,8 @@
             "end": 1330,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -108,7 +108,6 @@
             "start": 1334,
             "end": 1355,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 1341,
@@ -125,9 +124,10 @@
                 "end": 1355,
                 "name": "isRawJSON"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -171,8 +171,8 @@
             "end": 1445,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -195,8 +195,8 @@
                 "end": 1470,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -215,8 +215,8 @@
                   "end": 1485,
                   "name": "isRawJSON"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             ],
             "optional": false
@@ -237,8 +237,8 @@
               "end": 1508,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -275,8 +275,8 @@
             "end": 1618,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -299,8 +299,8 @@
                 "end": 1653,
                 "name": "getOwnPropertyDescriptor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -319,8 +319,8 @@
                   "end": 1668,
                   "name": "isRawJSON"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               {
                 "type": "Literal",

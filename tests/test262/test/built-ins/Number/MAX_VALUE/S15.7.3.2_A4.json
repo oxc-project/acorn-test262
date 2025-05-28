@@ -11,6 +11,7 @@
         "type": "VariableDeclaration",
         "start": 280,
         "end": 285,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -24,8 +25,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -62,8 +62,8 @@
                   "end": 320,
                   "name": "notSameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -113,7 +113,6 @@
             "start": 388,
             "end": 429,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 389,
@@ -134,8 +133,8 @@
                   "end": 416,
                   "name": "propertyIsEnumerable"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -147,7 +146,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

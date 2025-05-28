@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 330,
       "end": 353,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -39,7 +39,6 @@
         "end": 374,
         "name": "callbackfn"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -129,13 +128,13 @@
                           "start": 441,
                           "end": 455,
                           "operator": "typeof",
-                          "prefix": true,
                           "argument": {
                             "type": "Identifier",
                             "start": 448,
                             "end": 455,
                             "name": "prevVal"
-                          }
+                          },
+                          "prefix": true
                         },
                         "operator": "===",
                         "right": {
@@ -154,7 +153,8 @@
             "alternate": null
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -180,8 +180,8 @@
             "end": 502,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -200,8 +200,8 @@
               "end": 518,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -219,9 +219,7 @@
                 "type": "Property",
                 "start": 529,
                 "end": 547,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 529,
@@ -233,7 +231,6 @@
                   "start": 534,
                   "end": 547,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -242,17 +239,18 @@
                     "start": 545,
                     "end": 547,
                     "body": []
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 551,
                 "end": 569,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 551,
@@ -266,7 +264,9 @@
                   "value": true,
                   "raw": "true"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -278,6 +278,7 @@
       "type": "VariableDeclaration",
       "start": 575,
       "end": 596,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -312,8 +313,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -339,8 +339,8 @@
             "end": 613,
             "name": "reduceRight"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

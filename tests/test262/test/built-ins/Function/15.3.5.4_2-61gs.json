@@ -13,7 +13,6 @@
         "end": 379,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -54,7 +53,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -85,8 +85,8 @@
             "end": 433,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -100,7 +100,6 @@
             "start": 445,
             "end": 476,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -133,8 +132,8 @@
                         "end": 467,
                         "name": "apply"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -149,7 +148,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -165,7 +165,6 @@
         "end": 499,
         "name": "gNonStrict"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -198,8 +197,8 @@
                   "end": 530,
                   "name": "caller"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "operator": "||",
               "right": {
@@ -222,8 +221,8 @@
                     "end": 551,
                     "name": "caller"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -231,13 +230,14 @@
                   "end": 566,
                   "name": "throwTypeError"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             }
           }
         ]
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

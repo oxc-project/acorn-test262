@@ -27,8 +27,8 @@
             "end": 529,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -51,8 +51,8 @@
                 "end": 544,
                 "name": "stringify"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -60,7 +60,6 @@
                 "start": 545,
                 "end": 558,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -69,7 +68,8 @@
                   "start": 556,
                   "end": 558,
                   "body": []
-                }
+                },
+                "expression": false
               }
             ],
             "optional": false
@@ -108,8 +108,8 @@
             "end": 589,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -132,8 +132,8 @@
                 "end": 604,
                 "name": "stringify"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -146,7 +146,6 @@
                     "start": 606,
                     "end": 619,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -155,7 +154,8 @@
                       "start": 617,
                       "end": 619,
                       "body": []
-                    }
+                    },
+                    "expression": false
                   }
                 ]
               }
@@ -197,8 +197,8 @@
             "end": 650,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -221,8 +221,8 @@
                 "end": 665,
                 "name": "stringify"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -234,9 +234,7 @@
                     "type": "Property",
                     "start": 667,
                     "end": 685,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 667,
@@ -248,7 +246,6 @@
                       "start": 672,
                       "end": 685,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -257,9 +254,12 @@
                         "start": 683,
                         "end": 685,
                         "body": []
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }

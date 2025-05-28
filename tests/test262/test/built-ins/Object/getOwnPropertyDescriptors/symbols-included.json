@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 297,
       "end": 312,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,13 +26,13 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 313,
       "end": 342,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -65,13 +66,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 343,
       "end": 378,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -105,13 +106,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 379,
       "end": 410,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -145,13 +146,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 412,
       "end": 442,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -172,9 +173,7 @@
                 "type": "Property",
                 "start": 426,
                 "end": 439,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 426,
@@ -187,13 +186,14 @@
                   "end": 439,
                   "name": "symValue"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -220,8 +220,8 @@
             "end": 454,
             "name": "enumSym"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Identifier",
@@ -255,8 +255,8 @@
             "end": 486,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -280,9 +280,7 @@
                 "type": "Property",
                 "start": 508,
                 "end": 522,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 508,
@@ -296,15 +294,15 @@
                   "value": true,
                   "raw": "true"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 526,
                 "end": 543,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 526,
@@ -318,15 +316,15 @@
                   "value": false,
                   "raw": "false"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 547,
                 "end": 565,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 547,
@@ -340,15 +338,15 @@
                   "value": true,
                   "raw": "true"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 569,
                 "end": 581,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 569,
@@ -361,7 +359,9 @@
                   "end": 581,
                   "name": "value"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -373,6 +373,7 @@
       "type": "VariableDeclaration",
       "start": 587,
       "end": 638,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -404,8 +405,8 @@
                 "end": 632,
                 "name": "getOwnPropertyDescriptors"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -418,8 +419,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -445,8 +445,8 @@
             "end": 656,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -473,8 +473,8 @@
                   "end": 668,
                   "name": "keys"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -492,8 +492,8 @@
               "end": 683,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -537,8 +537,8 @@
             "end": 742,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -565,8 +565,8 @@
                   "end": 771,
                   "name": "getOwnPropertySymbols"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -584,8 +584,8 @@
               "end": 786,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -629,8 +629,8 @@
             "end": 847,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -653,8 +653,8 @@
                 "end": 858,
                 "name": "key"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -662,8 +662,8 @@
               "end": 871,
               "name": "configurable"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -707,8 +707,8 @@
             "end": 926,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -731,8 +731,8 @@
                 "end": 937,
                 "name": "key"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -740,8 +740,8 @@
               "end": 948,
               "name": "enumerable"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -785,8 +785,8 @@
             "end": 1001,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -809,8 +809,8 @@
                 "end": 1012,
                 "name": "key"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -818,8 +818,8 @@
               "end": 1021,
               "name": "writable"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -863,8 +863,8 @@
             "end": 1072,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -887,8 +887,8 @@
                 "end": 1083,
                 "name": "key"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -896,8 +896,8 @@
               "end": 1089,
               "name": "value"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",
@@ -940,8 +940,8 @@
             "end": 1152,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -964,8 +964,8 @@
                 "end": 1167,
                 "name": "enumSym"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "property": {
               "type": "Identifier",
@@ -973,8 +973,8 @@
               "end": 1181,
               "name": "configurable"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1018,8 +1018,8 @@
             "end": 1241,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1042,8 +1042,8 @@
                 "end": 1256,
                 "name": "enumSym"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "property": {
               "type": "Identifier",
@@ -1051,8 +1051,8 @@
               "end": 1268,
               "name": "enumerable"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1096,8 +1096,8 @@
             "end": 1326,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1120,8 +1120,8 @@
                 "end": 1341,
                 "name": "enumSym"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "property": {
               "type": "Identifier",
@@ -1129,8 +1129,8 @@
               "end": 1351,
               "name": "writable"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1174,8 +1174,8 @@
             "end": 1407,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1198,8 +1198,8 @@
                 "end": 1422,
                 "name": "enumSym"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "property": {
               "type": "Identifier",
@@ -1207,8 +1207,8 @@
               "end": 1429,
               "name": "value"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",
@@ -1251,8 +1251,8 @@
             "end": 1493,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1275,8 +1275,8 @@
                 "end": 1511,
                 "name": "nonEnumSym"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "property": {
               "type": "Identifier",
@@ -1284,8 +1284,8 @@
               "end": 1525,
               "name": "configurable"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1329,8 +1329,8 @@
             "end": 1588,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1353,8 +1353,8 @@
                 "end": 1606,
                 "name": "nonEnumSym"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "property": {
               "type": "Identifier",
@@ -1362,8 +1362,8 @@
               "end": 1618,
               "name": "enumerable"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1407,8 +1407,8 @@
             "end": 1684,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1431,8 +1431,8 @@
                 "end": 1702,
                 "name": "nonEnumSym"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "property": {
               "type": "Identifier",
@@ -1440,8 +1440,8 @@
               "end": 1712,
               "name": "writable"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1485,8 +1485,8 @@
             "end": 1771,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1509,8 +1509,8 @@
                 "end": 1789,
                 "name": "nonEnumSym"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "property": {
               "type": "Identifier",
@@ -1518,8 +1518,8 @@
               "end": 1796,
               "name": "value"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",

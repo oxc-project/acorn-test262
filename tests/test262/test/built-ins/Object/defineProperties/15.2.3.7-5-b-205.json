@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 335,
       "end": 348,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,13 +26,13 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 350,
       "end": 363,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -50,8 +51,7 @@
             "elements": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -78,15 +78,14 @@
             "end": 372,
             "name": "get"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 375,
           "end": 407,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -108,7 +107,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -136,8 +136,8 @@
             "end": 433,
             "name": "defineProperties"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -155,9 +155,7 @@
                 "type": "Property",
                 "start": 443,
                 "end": 456,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 443,
@@ -170,7 +168,9 @@
                   "end": 456,
                   "name": "arr"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -202,8 +202,8 @@
             "end": 478,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -222,8 +222,8 @@
               "end": 491,
               "name": "property"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

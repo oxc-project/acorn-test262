@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 335,
       "end": 380,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -46,8 +47,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -84,8 +84,8 @@
                 "end": 405,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -117,6 +117,7 @@
         "type": "VariableDeclaration",
         "start": 473,
         "end": 480,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -130,8 +131,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -176,6 +176,7 @@
                   "type": "VariableDeclaration",
                   "start": 518,
                   "end": 542,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -195,8 +196,7 @@
                         "raw": "true"
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 }
               ]
             },
@@ -225,13 +225,13 @@
             "start": 556,
             "end": 569,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 557,
               "end": 569,
               "name": "lengthenumed"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

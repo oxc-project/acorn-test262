@@ -27,8 +27,8 @@
             "end": 363,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -79,8 +79,8 @@
                 "end": 392,
                 "name": "getDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -127,8 +127,8 @@
             "end": 437,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -197,14 +197,14 @@
                     "start": 471,
                     "end": 473,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 472,
                       "end": 473,
                       "value": 1,
                       "raw": "1"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               },
@@ -214,8 +214,8 @@
                 "end": 482,
                 "name": "getDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -262,8 +262,8 @@
             "end": 531,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -342,8 +342,8 @@
                 "end": 580,
                 "name": "getDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -390,8 +390,8 @@
             "end": 626,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -470,8 +470,8 @@
                 "end": 676,
                 "name": "getDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -518,8 +518,8 @@
             "end": 728,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -570,8 +570,8 @@
                 "end": 761,
                 "name": "getDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -618,8 +618,8 @@
             "end": 825,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -688,14 +688,14 @@
                     "start": 860,
                     "end": 862,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 861,
                       "end": 862,
                       "value": 1,
                       "raw": "1"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               },
@@ -705,8 +705,8 @@
                 "end": 871,
                 "name": "getDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -753,8 +753,8 @@
             "end": 942,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -833,8 +833,8 @@
                 "end": 992,
                 "name": "getDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -881,8 +881,8 @@
             "end": 1060,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -961,8 +961,8 @@
                 "end": 1111,
                 "name": "getDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

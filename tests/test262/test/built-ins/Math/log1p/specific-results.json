@@ -27,8 +27,8 @@
             "end": 463,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -51,8 +51,8 @@
                 "end": 474,
                 "name": "log1p"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -105,8 +105,8 @@
             "end": 510,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -129,8 +129,8 @@
                 "end": 521,
                 "name": "log1p"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -138,14 +138,14 @@
                 "start": 522,
                 "end": 531,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 523,
                   "end": 531,
                   "value": 1.000001,
                   "raw": "1.000001"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -191,8 +191,8 @@
             "end": 569,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -215,8 +215,8 @@
                 "end": 580,
                 "name": "log1p"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -224,14 +224,14 @@
                 "start": 581,
                 "end": 583,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 582,
                   "end": 583,
                   "value": 2,
                   "raw": "2"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -277,8 +277,8 @@
             "end": 614,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -301,8 +301,8 @@
                 "end": 625,
                 "name": "log1p"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -310,13 +310,13 @@
                 "start": 626,
                 "end": 635,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 627,
                   "end": 635,
                   "name": "Infinity"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -362,8 +362,8 @@
             "end": 673,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -386,8 +386,8 @@
                 "end": 684,
                 "name": "log1p"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -395,14 +395,14 @@
                 "start": 685,
                 "end": 687,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 686,
                   "end": 687,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -412,13 +412,13 @@
             "start": 690,
             "end": 699,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 691,
               "end": 699,
               "name": "Infinity"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -455,8 +455,8 @@
             "end": 724,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -479,8 +479,8 @@
                 "end": 735,
                 "name": "log1p"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -535,8 +535,8 @@
             "end": 765,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -559,8 +559,8 @@
                 "end": 776,
                 "name": "log1p"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -568,14 +568,14 @@
                 "start": 777,
                 "end": 779,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 778,
                   "end": 779,
                   "value": 0,
                   "raw": "0"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -585,14 +585,14 @@
             "start": 782,
             "end": 784,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 783,
               "end": 784,
               "value": 0,
               "raw": "0"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -629,8 +629,8 @@
             "end": 809,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -653,8 +653,8 @@
                 "end": 820,
                 "name": "log1p"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

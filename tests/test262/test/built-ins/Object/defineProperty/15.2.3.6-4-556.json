@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 372,
       "end": 385,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,13 +26,13 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 387,
       "end": 431,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -48,7 +49,6 @@
             "start": 401,
             "end": 430,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -70,16 +70,17 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 433,
       "end": 460,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -99,13 +100,13 @@
             "raw": "\"data\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 461,
       "end": 520,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -122,7 +123,6 @@
             "start": 475,
             "end": 519,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -162,11 +162,11 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -192,8 +192,8 @@
             "end": 543,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -218,9 +218,7 @@
                 "type": "Property",
                 "start": 561,
                 "end": 573,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 561,
@@ -233,15 +231,15 @@
                   "end": 573,
                   "name": "getFunc"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 577,
                 "end": 589,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 577,
@@ -254,15 +252,15 @@
                   "end": 589,
                   "name": "setFunc"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 593,
                 "end": 610,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 593,
@@ -276,15 +274,15 @@
                   "value": false,
                   "raw": "false"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 614,
                 "end": 632,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 614,
@@ -298,7 +296,9 @@
                   "value": true,
                   "raw": "true"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -310,6 +310,7 @@
       "type": "VariableDeclaration",
       "start": 638,
       "end": 695,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -341,8 +342,8 @@
                 "end": 681,
                 "name": "getOwnPropertyDescriptor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -362,8 +363,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -389,8 +389,8 @@
             "end": 718,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -415,9 +415,7 @@
                 "type": "Property",
                 "start": 736,
                 "end": 747,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 736,
@@ -431,7 +429,9 @@
                   "value": 1001,
                   "raw": "1001"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -443,6 +443,7 @@
       "type": "VariableDeclaration",
       "start": 752,
       "end": 809,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -474,8 +475,8 @@
                 "end": 795,
                 "name": "getOwnPropertyDescriptor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -495,8 +496,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -533,8 +533,8 @@
                 "end": 838,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -593,8 +593,8 @@
                 "end": 915,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

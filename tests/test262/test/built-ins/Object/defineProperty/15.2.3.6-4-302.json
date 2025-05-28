@@ -20,7 +20,6 @@
             "start": 509,
             "end": 979,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -38,7 +37,6 @@
                     "start": 524,
                     "end": 543,
                     "operator": "delete",
-                    "prefix": true,
                     "argument": {
                       "type": "MemberExpression",
                       "start": 531,
@@ -56,9 +54,10 @@
                         "value": 0,
                         "raw": "0"
                       },
-                      "computed": true,
-                      "optional": false
-                    }
+                      "optional": false,
+                      "computed": true
+                    },
+                    "prefix": true
                   }
                 },
                 {
@@ -71,7 +70,6 @@
                     "end": 564,
                     "name": "getFunc"
                   },
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -93,7 +91,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "FunctionDeclaration",
@@ -105,7 +104,6 @@
                     "end": 607,
                     "name": "setFunc"
                   },
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [
@@ -145,8 +143,8 @@
                               "end": 643,
                               "name": "setVerifyHelpProp"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "right": {
                             "type": "Identifier",
@@ -157,7 +155,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "ExpressionStatement",
@@ -183,8 +182,8 @@
                         "end": 680,
                         "name": "defineProperty"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -209,9 +208,7 @@
                             "type": "Property",
                             "start": 703,
                             "end": 715,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 703,
@@ -224,15 +221,15 @@
                               "end": 715,
                               "name": "getFunc"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 721,
                             "end": 733,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 721,
@@ -245,15 +242,15 @@
                               "end": 733,
                               "name": "setFunc"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 739,
                             "end": 756,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 739,
@@ -267,15 +264,15 @@
                               "value": false,
                               "raw": "false"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 762,
                             "end": 781,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 762,
@@ -289,7 +286,9 @@
                               "value": false,
                               "raw": "false"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -418,9 +417,7 @@
                             "type": "Property",
                             "start": 928,
                             "end": 945,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 928,
@@ -434,15 +431,15 @@
                               "value": false,
                               "raw": "false"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 951,
                             "end": 970,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 951,
@@ -456,7 +453,9 @@
                               "value": false,
                               "raw": "false"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -465,7 +464,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           "arguments": [
             {

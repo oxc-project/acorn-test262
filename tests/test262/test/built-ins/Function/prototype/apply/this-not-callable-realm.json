@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 486,
       "end": 524,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -42,8 +43,8 @@
                   "end": 514,
                   "name": "createRealm"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
@@ -54,17 +55,17 @@
               "end": 523,
               "name": "global"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 525,
       "end": 573,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -100,8 +101,8 @@
                   "end": 556,
                   "name": "Function"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -109,8 +110,8 @@
                 "end": 566,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -118,12 +119,11 @@
               "end": 572,
               "name": "apply"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -149,8 +149,8 @@
             "end": 588,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -169,15 +169,14 @@
               "end": 604,
               "name": "TypeError"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "FunctionExpression",
             "start": 606,
             "end": 658,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -210,8 +209,8 @@
                         "end": 636,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -237,7 +236,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -267,8 +267,8 @@
             "end": 675,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -287,15 +287,14 @@
               "end": 691,
               "name": "TypeError"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "FunctionExpression",
             "start": 693,
             "end": 740,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -328,8 +327,8 @@
                         "end": 723,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -356,7 +355,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -386,8 +386,8 @@
             "end": 757,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -406,15 +406,14 @@
               "end": 773,
               "name": "TypeError"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "FunctionExpression",
             "start": 775,
             "end": 820,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -447,8 +446,8 @@
                         "end": 805,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -474,7 +473,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -504,8 +504,8 @@
             "end": 837,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -524,15 +524,14 @@
               "end": 853,
               "name": "TypeError"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "FunctionExpression",
             "start": 855,
             "end": 902,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -565,8 +564,8 @@
                         "end": 885,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -597,7 +596,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

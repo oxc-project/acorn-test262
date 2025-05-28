@@ -27,8 +27,8 @@
             "end": 732,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -62,8 +62,8 @@
                     "end": 762,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -71,8 +71,8 @@
                   "end": 771,
                   "name": "findLast"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             ],
             "optional": false
@@ -119,8 +119,8 @@
             "end": 857,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -133,9 +133,7 @@
             "type": "ArrowFunctionExpression",
             "start": 869,
             "end": 920,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -171,8 +169,8 @@
                           "end": 898,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -180,17 +178,15 @@
                         "end": 907,
                         "name": "findLast"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
                         "type": "ArrowFunctionExpression",
                         "start": 908,
                         "end": 916,
-                        "id": null,
                         "expression": false,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -198,13 +194,17 @@
                           "start": 914,
                           "end": 916,
                           "body": []
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

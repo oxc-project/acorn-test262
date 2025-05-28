@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 307,
       "end": 356,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 323,
                 "end": 353,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 323,
@@ -43,18 +42,20 @@
                   "value": "inheritedDataProperty",
                   "raw": "\"inheritedDataProperty\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 358,
       "end": 391,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -71,7 +72,6 @@
             "start": 377,
             "end": 390,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -80,11 +80,11 @@
               "start": 388,
               "end": 390,
               "body": []
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -111,8 +111,8 @@
             "end": 414,
             "name": "prototype"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Identifier",
@@ -126,6 +126,7 @@
       "type": "VariableDeclaration",
       "start": 425,
       "end": 458,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -150,13 +151,13 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 460,
       "end": 512,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -188,8 +189,8 @@
                 "end": 486,
                 "name": "create"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -207,9 +208,7 @@
                     "type": "Property",
                     "start": 495,
                     "end": 508,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 495,
@@ -222,7 +221,9 @@
                       "end": 508,
                       "name": "descObj"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -230,8 +231,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -257,8 +257,8 @@
             "end": 530,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -277,8 +277,8 @@
               "end": 542,
               "name": "prop"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

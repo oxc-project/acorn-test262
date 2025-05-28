@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 738,
       "end": 777,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -49,8 +50,8 @@
                     "end": 766,
                     "name": "UTC"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -73,13 +74,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 778,
       "end": 804,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -105,8 +106,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -143,8 +143,8 @@
               "end": 836,
               "name": "setUTCMonth"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -201,8 +201,8 @@
               "end": 864,
               "name": "UTC"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -255,8 +255,8 @@
             "end": 894,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -306,8 +306,8 @@
             "end": 983,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -330,8 +330,8 @@
                 "end": 999,
                 "name": "getTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -388,8 +388,8 @@
               "end": 1096,
               "name": "setUTCMonth"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -446,8 +446,8 @@
               "end": 1124,
               "name": "UTC"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -500,8 +500,8 @@
             "end": 1155,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -551,8 +551,8 @@
             "end": 1249,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -575,8 +575,8 @@
                 "end": 1265,
                 "name": "getTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -633,8 +633,8 @@
               "end": 1371,
               "name": "setUTCMonth"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -691,8 +691,8 @@
               "end": 1400,
               "name": "UTC"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -745,8 +745,8 @@
             "end": 1430,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -796,8 +796,8 @@
             "end": 1523,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -820,8 +820,8 @@
                 "end": 1539,
                 "name": "getTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

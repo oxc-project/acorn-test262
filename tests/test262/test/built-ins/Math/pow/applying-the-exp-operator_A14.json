@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 281,
       "end": 302,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,22 +24,22 @@
             "start": 292,
             "end": 301,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 293,
               "end": 301,
               "name": "Infinity"
-            }
+            },
+            "prefix": true
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 303,
       "end": 330,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -63,8 +64,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -92,8 +92,8 @@
             "value": 0,
             "raw": "0"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -130,8 +130,8 @@
             "value": 1,
             "raw": "1"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -168,8 +168,8 @@
             "value": 2,
             "raw": "2"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "MemberExpression",
@@ -187,8 +187,8 @@
             "end": 402,
             "name": "PI"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       }
     },
@@ -218,8 +218,8 @@
             "value": 3,
             "raw": "3"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -256,21 +256,21 @@
             "value": 4,
             "raw": "4"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "UnaryExpression",
           "start": 480,
           "end": 489,
           "operator": "+",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 481,
             "end": 489,
             "name": "Infinity"
-          }
+          },
+          "prefix": true
         }
       }
     },
@@ -278,6 +278,7 @@
       "type": "VariableDeclaration",
       "start": 491,
       "end": 511,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -297,8 +298,7 @@
             "raw": "5"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -308,6 +308,7 @@
         "type": "VariableDeclaration",
         "start": 518,
         "end": 527,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -327,8 +328,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -394,8 +394,8 @@
                     "end": 567,
                     "name": "pow"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -420,8 +420,8 @@
                       "end": 584,
                       "name": "i"
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   }
                 ],
                 "optional": false
@@ -432,13 +432,13 @@
                 "start": 591,
                 "end": 600,
                 "operator": "+",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 592,
                   "end": 600,
                   "name": "Infinity"
-                }
+                },
+                "prefix": true
               }
             },
             "consequent": {
@@ -518,8 +518,8 @@
                               "end": 673,
                               "name": "i"
                             },
-                            "computed": true,
-                            "optional": false
+                            "optional": false,
+                            "computed": true
                           }
                         },
                         "operator": "+",

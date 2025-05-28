@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 337,
       "end": 348,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -52,8 +52,8 @@
             "end": 370,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -78,9 +78,7 @@
                 "type": "Property",
                 "start": 385,
                 "end": 424,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 385,
@@ -92,7 +90,6 @@
                   "start": 390,
                   "end": 424,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -120,9 +117,12 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -154,8 +154,8 @@
             "end": 443,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -169,7 +169,6 @@
             "start": 455,
             "end": 478,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -198,12 +197,13 @@
                       "end": 475,
                       "name": "foo"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -219,7 +219,6 @@
         "end": 501,
         "name": "gNonStrict"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -248,12 +247,13 @@
                 "end": 532,
                 "name": "caller"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         ]
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

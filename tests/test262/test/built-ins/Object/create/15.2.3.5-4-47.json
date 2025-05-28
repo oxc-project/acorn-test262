@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 295,
       "end": 316,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 318,
       "end": 365,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -64,8 +65,8 @@
                 "end": 344,
                 "name": "create"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -83,9 +84,7 @@
                     "type": "Property",
                     "start": 353,
                     "end": 361,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 353,
@@ -98,7 +97,9 @@
                       "end": 361,
                       "properties": []
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -106,8 +107,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForInStatement",
@@ -117,6 +117,7 @@
         "type": "VariableDeclaration",
         "start": 371,
         "end": 383,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -130,8 +131,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -227,8 +227,8 @@
             "end": 470,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -27,8 +27,8 @@
             "end": 228,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,13 +36,13 @@
             "start": 229,
             "end": 244,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 236,
               "end": 244,
               "name": "URIError"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

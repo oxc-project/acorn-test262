@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 292,
       "end": 464,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -41,21 +42,17 @@
                       "type": "MethodDefinition",
                       "start": 327,
                       "end": 369,
-                      "static": false,
-                      "computed": false,
                       "key": {
                         "type": "PrivateIdentifier",
                         "start": 327,
                         "end": 329,
                         "name": "f"
                       },
-                      "kind": "method",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 338,
                         "end": 369,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -64,28 +61,28 @@
                           "start": 358,
                           "end": 369,
                           "body": []
-                        }
-                      }
+                        },
+                        "expression": false
+                      },
+                      "kind": "method",
+                      "computed": false,
+                      "static": false
                     },
                     {
                       "type": "MethodDefinition",
                       "start": 383,
                       "end": 460,
-                      "static": false,
-                      "computed": false,
                       "key": {
                         "type": "Identifier",
                         "start": 383,
                         "end": 389,
                         "name": "assert"
                       },
-                      "kind": "method",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 389,
                         "end": 460,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [
@@ -131,8 +128,8 @@
                                       "end": 444,
                                       "name": "f"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Identifier",
@@ -145,8 +142,12 @@
                               }
                             }
                           ]
-                        }
-                      }
+                        },
+                        "expression": false
+                      },
+                      "kind": "method",
+                      "computed": false,
+                      "static": false
                     }
                   ]
                 }
@@ -155,8 +156,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -182,8 +182,8 @@
             "end": 474,
             "name": "assert"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

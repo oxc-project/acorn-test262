@@ -38,8 +38,8 @@
                 "end": 279,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "==",
             "right": {

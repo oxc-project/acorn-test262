@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 648,
       "end": 680,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,13 +40,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 681,
       "end": 718,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -84,13 +85,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 720,
       "end": 740,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -124,8 +125,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -151,8 +151,8 @@
             "end": 755,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -166,7 +166,6 @@
             "start": 767,
             "end": 803,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -199,8 +198,8 @@
                         "end": 797,
                         "name": "getInt32"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -214,7 +213,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

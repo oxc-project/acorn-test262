@@ -46,8 +46,8 @@
                 "end": 241,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           },
           {

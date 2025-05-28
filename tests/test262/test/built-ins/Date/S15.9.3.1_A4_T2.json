@@ -13,7 +13,6 @@
         "end": 665,
         "name": "PoisonedValueOf"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -53,8 +52,8 @@
                   "end": 685,
                   "name": "value"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "Identifier",
@@ -88,15 +87,14 @@
                   "end": 707,
                   "name": "valueOf"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "FunctionExpression",
                 "start": 710,
                 "end": 756,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -123,7 +121,8 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             }
           },
@@ -151,15 +150,14 @@
                   "end": 773,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "FunctionExpression",
                 "start": 776,
                 "end": 789,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -168,12 +166,14 @@
                   "start": 787,
                   "end": 789,
                   "body": []
-                }
+                },
+                "expression": false
               }
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -199,8 +199,8 @@
             "end": 807,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -213,9 +213,7 @@
             "type": "ArrowFunctionExpression",
             "start": 822,
             "end": 915,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -302,7 +300,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -339,8 +339,8 @@
             "end": 1050,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -353,9 +353,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1065,
             "end": 1137,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -429,7 +427,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -466,8 +466,8 @@
             "end": 1251,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -480,9 +480,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1266,
             "end": 1317,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -543,7 +541,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",

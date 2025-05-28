@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 816,
       "end": 854,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,8 +40,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -66,8 +66,8 @@
             "end": 869,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -81,7 +81,6 @@
             "start": 882,
             "end": 927,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -123,20 +122,21 @@
                         "start": 921,
                         "end": 923,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 922,
                           "end": 923,
                           "value": 1,
                           "raw": "1"
-                        }
+                        },
+                        "prefix": true
                       }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -173,8 +173,8 @@
             "end": 976,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -188,7 +188,6 @@
             "start": 989,
             "end": 1041,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -230,19 +229,20 @@
                         "start": 1028,
                         "end": 1037,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Identifier",
                           "start": 1029,
                           "end": 1037,
                           "name": "Infinity"
-                        }
+                        },
+                        "prefix": true
                       }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -279,8 +279,8 @@
             "end": 1097,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -294,7 +294,6 @@
             "start": 1110,
             "end": 1155,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -336,20 +335,21 @@
                         "start": 1149,
                         "end": 1151,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1150,
                           "end": 1151,
                           "value": 1,
                           "raw": "1"
-                        }
+                        },
+                        "prefix": true
                       }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -386,8 +386,8 @@
             "end": 1204,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -401,7 +401,6 @@
             "start": 1217,
             "end": 1269,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -443,19 +442,20 @@
                         "start": 1256,
                         "end": 1265,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Identifier",
                           "start": 1257,
                           "end": 1265,
                           "name": "Infinity"
-                        }
+                        },
+                        "prefix": true
                       }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 908,
       "end": 940,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,13 +40,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 941,
       "end": 978,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -84,8 +85,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -111,8 +111,8 @@
             "end": 995,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -157,8 +157,8 @@
             "end": 1019,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -203,8 +203,8 @@
             "end": 1043,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -249,8 +249,8 @@
             "end": 1066,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -295,8 +295,8 @@
             "end": 1089,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -341,8 +341,8 @@
             "end": 1113,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -387,8 +387,8 @@
             "end": 1138,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -433,8 +433,8 @@
             "end": 1161,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -479,8 +479,8 @@
             "end": 1186,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -503,8 +503,8 @@
                 "end": 1204,
                 "name": "getFloat32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -566,8 +566,8 @@
             "end": 1249,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -590,8 +590,8 @@
                 "end": 1267,
                 "name": "getFloat32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -653,8 +653,8 @@
             "end": 1331,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -677,8 +677,8 @@
                 "end": 1349,
                 "name": "getFloat32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -740,8 +740,8 @@
             "end": 1413,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -764,8 +764,8 @@
                 "end": 1431,
                 "name": "getFloat32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -827,8 +827,8 @@
             "end": 1494,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -851,8 +851,8 @@
                 "end": 1512,
                 "name": "getFloat32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -914,8 +914,8 @@
             "end": 1557,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -938,8 +938,8 @@
                 "end": 1575,
                 "name": "getFloat32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1001,8 +1001,8 @@
             "end": 1638,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1025,8 +1025,8 @@
                 "end": 1656,
                 "name": "getFloat32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1088,8 +1088,8 @@
             "end": 1714,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1112,8 +1112,8 @@
                 "end": 1732,
                 "name": "getFloat32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1138,14 +1138,14 @@
             "start": 1743,
             "end": 1764,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1744,
               "end": 1764,
               "value": 55340232221128655000,
               "raw": "55340232221128655000"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1182,8 +1182,8 @@
             "end": 1794,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1206,8 +1206,8 @@
                 "end": 1812,
                 "name": "getFloat32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1269,8 +1269,8 @@
             "end": 1874,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1293,8 +1293,8 @@
                 "end": 1892,
                 "name": "getFloat32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1356,8 +1356,8 @@
             "end": 1953,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1402,8 +1402,8 @@
             "end": 1977,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1448,8 +1448,8 @@
             "end": 2001,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1494,8 +1494,8 @@
             "end": 2025,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1540,8 +1540,8 @@
             "end": 2049,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1586,8 +1586,8 @@
             "end": 2073,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1632,8 +1632,8 @@
             "end": 2097,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1678,8 +1678,8 @@
             "end": 2121,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1724,8 +1724,8 @@
             "end": 2147,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1748,8 +1748,8 @@
                 "end": 2165,
                 "name": "getFloat32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1811,8 +1811,8 @@
             "end": 2216,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1835,8 +1835,8 @@
                 "end": 2234,
                 "name": "getFloat32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1898,8 +1898,8 @@
             "end": 2285,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1922,8 +1922,8 @@
                 "end": 2303,
                 "name": "getFloat32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1985,8 +1985,8 @@
             "end": 2354,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2009,8 +2009,8 @@
                 "end": 2372,
                 "name": "getFloat32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2072,8 +2072,8 @@
             "end": 2423,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2096,8 +2096,8 @@
                 "end": 2441,
                 "name": "getFloat32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2159,8 +2159,8 @@
             "end": 2492,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2183,8 +2183,8 @@
                 "end": 2510,
                 "name": "getFloat32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2246,8 +2246,8 @@
             "end": 2559,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2270,8 +2270,8 @@
                 "end": 2577,
                 "name": "getFloat32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2333,8 +2333,8 @@
             "end": 2626,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2357,8 +2357,8 @@
                 "end": 2644,
                 "name": "getFloat32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2420,8 +2420,8 @@
             "end": 2693,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2444,8 +2444,8 @@
                 "end": 2711,
                 "name": "getFloat32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2507,8 +2507,8 @@
             "end": 2760,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2531,8 +2531,8 @@
                 "end": 2778,
                 "name": "getFloat32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

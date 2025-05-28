@@ -28,21 +28,17 @@
             "type": "MethodDefinition",
             "start": 465,
             "end": 507,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 465,
               "end": 469,
               "name": "next"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 469,
               "end": 507,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -69,8 +65,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -79,6 +79,7 @@
       "type": "VariableDeclaration",
       "start": 511,
       "end": 557,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -116,8 +117,8 @@
                 "end": 553,
                 "name": "drop"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -131,8 +132,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -158,8 +158,8 @@
             "end": 572,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -173,7 +173,6 @@
             "start": 587,
             "end": 621,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -206,15 +205,16 @@
                         "end": 616,
                         "name": "next"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -261,8 +261,8 @@
               "end": 663,
               "name": "drop"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -301,8 +301,8 @@
             "end": 682,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -316,7 +316,6 @@
             "start": 697,
             "end": 731,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -349,15 +348,16 @@
                         "end": 726,
                         "name": "next"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

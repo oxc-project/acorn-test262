@@ -23,7 +23,6 @@
             "start": 384,
             "end": 475,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -63,8 +62,8 @@
                         "end": 416,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -78,7 +77,6 @@
                         "start": 428,
                         "end": 471,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -111,8 +109,8 @@
                                     "end": 457,
                                     "name": "load"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -133,14 +131,16 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

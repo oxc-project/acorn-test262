@@ -13,7 +13,6 @@
         "end": 735,
         "name": "newTarget"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,7 +21,8 @@
         "start": 738,
         "end": 740,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -49,8 +49,8 @@
             "end": 761,
             "name": "prototype"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Identifier",
@@ -64,6 +64,7 @@
       "type": "VariableDeclaration",
       "start": 775,
       "end": 840,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -95,8 +96,8 @@
                 "end": 810,
                 "name": "construct"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -129,8 +130,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -156,8 +156,8 @@
             "end": 857,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -180,8 +180,8 @@
                 "end": 879,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -209,8 +209,8 @@
               "end": 915,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -248,8 +248,8 @@
             "end": 974,
             "name": "prototype"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -264,6 +264,7 @@
       "type": "VariableDeclaration",
       "start": 983,
       "end": 1048,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -295,8 +296,8 @@
                 "end": 1018,
                 "name": "construct"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -329,8 +330,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -356,8 +356,8 @@
             "end": 1065,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -380,8 +380,8 @@
                 "end": 1087,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -409,8 +409,8 @@
               "end": 1123,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -448,8 +448,8 @@
             "end": 1177,
             "name": "prototype"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -464,6 +464,7 @@
       "type": "VariableDeclaration",
       "start": 1186,
       "end": 1251,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -495,8 +496,8 @@
                 "end": 1221,
                 "name": "construct"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -529,8 +530,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -556,8 +556,8 @@
             "end": 1268,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -580,8 +580,8 @@
                 "end": 1290,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -609,8 +609,8 @@
               "end": 1326,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -648,8 +648,8 @@
             "end": 1385,
             "name": "prototype"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -664,6 +664,7 @@
       "type": "VariableDeclaration",
       "start": 1392,
       "end": 1457,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -695,8 +696,8 @@
                 "end": 1427,
                 "name": "construct"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -729,8 +730,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -756,8 +756,8 @@
             "end": 1474,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -780,8 +780,8 @@
                 "end": 1496,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -809,8 +809,8 @@
               "end": 1532,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -848,8 +848,8 @@
             "end": 1590,
             "name": "prototype"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "CallExpression",
@@ -870,6 +870,7 @@
       "type": "VariableDeclaration",
       "start": 1603,
       "end": 1668,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -901,8 +902,8 @@
                 "end": 1638,
                 "name": "construct"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -935,8 +936,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -962,8 +962,8 @@
             "end": 1685,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -986,8 +986,8 @@
                 "end": 1707,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1015,8 +1015,8 @@
               "end": 1743,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1054,8 +1054,8 @@
             "end": 1801,
             "name": "prototype"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -1070,6 +1070,7 @@
       "type": "VariableDeclaration",
       "start": 1807,
       "end": 1872,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1101,8 +1102,8 @@
                 "end": 1842,
                 "name": "construct"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1135,8 +1136,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1162,8 +1162,8 @@
             "end": 1889,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1186,8 +1186,8 @@
                 "end": 1911,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1215,8 +1215,8 @@
               "end": 1947,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

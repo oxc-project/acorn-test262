@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 460,
       "end": 471,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -53,8 +53,8 @@
             "end": 481,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "CallExpression",
@@ -103,8 +103,8 @@
             "end": 559,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -118,7 +118,6 @@
             "start": 571,
             "end": 628,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -155,8 +154,8 @@
                           "end": 602,
                           "name": "findLastIndex"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -164,8 +163,8 @@
                         "end": 607,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -179,7 +178,6 @@
                         "start": 611,
                         "end": 624,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -188,14 +186,16 @@
                           "start": 622,
                           "end": 624,
                           "body": []
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

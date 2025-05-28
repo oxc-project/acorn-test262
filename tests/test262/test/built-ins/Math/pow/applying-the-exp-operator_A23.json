@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 301,
       "end": 328,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -31,13 +32,13 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 329,
       "end": 352,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -62,8 +63,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -91,22 +91,22 @@
             "value": 0,
             "raw": "0"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "UnaryExpression",
           "start": 363,
           "end": 386,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 364,
             "end": 386,
             "value": 1.7976931348623157e+308,
             "raw": "1.7976931348623157E308"
-          }
+          },
+          "prefix": true
         }
       }
     },
@@ -136,15 +136,14 @@
             "value": 1,
             "raw": "1"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "UnaryExpression",
           "start": 434,
           "end": 442,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 435,
@@ -161,9 +160,10 @@
               "end": 442,
               "name": "PI"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         }
       }
     },
@@ -193,22 +193,22 @@
             "value": 2,
             "raw": "2"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "UnaryExpression",
           "start": 454,
           "end": 456,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 455,
             "end": 456,
             "value": 1,
             "raw": "1"
-          }
+          },
+          "prefix": true
         }
       }
     },
@@ -238,22 +238,22 @@
             "value": 3,
             "raw": "3"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "UnaryExpression",
           "start": 468,
           "end": 486,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 469,
             "end": 486,
             "value": 1e-15,
             "raw": "0.000000000000001"
-          }
+          },
+          "prefix": true
         }
       }
     },
@@ -261,6 +261,7 @@
       "type": "VariableDeclaration",
       "start": 488,
       "end": 504,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -280,8 +281,7 @@
             "raw": "4"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -309,15 +309,14 @@
             "value": 0,
             "raw": "0"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "UnaryExpression",
           "start": 520,
           "end": 528,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 521,
@@ -334,9 +333,10 @@
               "end": 528,
               "name": "PI"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         }
       }
     },
@@ -366,15 +366,14 @@
             "value": 1,
             "raw": "1"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "UnaryExpression",
           "start": 544,
           "end": 551,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 545,
@@ -391,9 +390,10 @@
               "end": 551,
               "name": "E"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         }
       }
     },
@@ -423,22 +423,22 @@
             "value": 2,
             "raw": "2"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "UnaryExpression",
           "start": 567,
           "end": 585,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 568,
             "end": 585,
             "value": 1.000000000000001,
             "raw": "1.000000000000001"
-          }
+          },
+          "prefix": true
         }
       }
     },
@@ -468,22 +468,22 @@
             "value": 3,
             "raw": "3"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "UnaryExpression",
           "start": 601,
           "end": 619,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 602,
             "end": 619,
             "value": 1e-15,
             "raw": "0.000000000000001"
-          }
+          },
+          "prefix": true
         }
       }
     },
@@ -513,8 +513,8 @@
             "value": 4,
             "raw": "4"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -551,8 +551,8 @@
             "value": 5,
             "raw": "5"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -589,8 +589,8 @@
             "value": 6,
             "raw": "6"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "MemberExpression",
@@ -608,8 +608,8 @@
             "end": 707,
             "name": "E"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       }
     },
@@ -639,8 +639,8 @@
             "value": 7,
             "raw": "7"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "MemberExpression",
@@ -658,8 +658,8 @@
             "end": 730,
             "name": "PI"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       }
     },
@@ -667,6 +667,7 @@
       "type": "VariableDeclaration",
       "start": 733,
       "end": 753,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -686,8 +687,7 @@
             "raw": "8"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -697,6 +697,7 @@
         "type": "VariableDeclaration",
         "start": 760,
         "end": 769,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -716,8 +717,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -763,6 +763,7 @@
               "type": "VariableDeclaration",
               "start": 798,
               "end": 807,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -782,8 +783,7 @@
                     "raw": "0"
                   }
                 }
-              ],
-              "kind": "var"
+              ]
             },
             "test": {
               "type": "BinaryExpression",
@@ -845,8 +845,8 @@
                         "end": 853,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -869,8 +869,8 @@
                             "end": 869,
                             "name": "pow"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -889,8 +889,8 @@
                               "end": 876,
                               "name": "i"
                             },
-                            "computed": true,
-                            "optional": false
+                            "optional": false,
+                            "computed": true
                           },
                           {
                             "type": "MemberExpression",
@@ -908,8 +908,8 @@
                               "end": 889,
                               "name": "j"
                             },
-                            "computed": true,
-                            "optional": false
+                            "optional": false,
+                            "computed": true
                           }
                         ],
                         "optional": false
@@ -960,8 +960,8 @@
                                   "end": 922,
                                   "name": "i"
                                 },
-                                "computed": true,
-                                "optional": false
+                                "optional": false,
+                                "computed": true
                               }
                             },
                             "operator": "+",
@@ -990,8 +990,8 @@
                               "end": 943,
                               "name": "j"
                             },
-                            "computed": true,
-                            "optional": false
+                            "optional": false,
+                            "computed": true
                           }
                         },
                         "operator": "+",

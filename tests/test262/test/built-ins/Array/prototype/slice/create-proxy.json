@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 809,
       "end": 824,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,13 +26,13 @@
             "elements": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 825,
       "end": 873,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -88,13 +89,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 874,
       "end": 899,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -111,7 +112,6 @@
             "start": 885,
             "end": 898,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -120,16 +120,17 @@
               "start": 896,
               "end": 898,
               "body": []
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 900,
       "end": 911,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -143,8 +144,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -171,15 +171,14 @@
             "end": 930,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 933,
           "end": 946,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -188,7 +187,8 @@
             "start": 944,
             "end": 946,
             "body": []
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -221,8 +221,8 @@
               "end": 965,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "MemberExpression",
@@ -240,11 +240,11 @@
               "end": 980,
               "name": "species"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Identifier",
@@ -297,8 +297,8 @@
                   "end": 1015,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -306,8 +306,8 @@
                 "end": 1021,
                 "name": "slice"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -315,8 +315,8 @@
               "end": 1026,
               "name": "call"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -354,8 +354,8 @@
             "end": 1052,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -378,8 +378,8 @@
                 "end": 1074,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -407,8 +407,8 @@
               "end": 1098,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         ],
         "optional": false

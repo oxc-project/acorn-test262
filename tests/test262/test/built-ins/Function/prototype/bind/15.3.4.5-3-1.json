@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 247,
       "end": 394,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,7 +24,6 @@
             "start": 257,
             "end": 393,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -130,8 +130,8 @@
                                   "value": 0,
                                   "raw": "0"
                                 },
-                                "computed": true,
-                                "optional": false
+                                "optional": false,
+                                "computed": true
                               },
                               "operator": "===",
                               "right": {
@@ -165,8 +165,8 @@
                                 "value": 1,
                                 "raw": "1"
                               },
-                              "computed": true,
-                              "optional": false
+                              "optional": false,
+                              "computed": true
                             },
                             "operator": "===",
                             "right": {
@@ -199,8 +199,8 @@
                               "end": 383,
                               "name": "length"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "operator": "===",
                           "right": {
@@ -216,16 +216,17 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 396,
       "end": 429,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -257,8 +258,8 @@
                 "end": 414,
                 "name": "bind"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -285,8 +286,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",

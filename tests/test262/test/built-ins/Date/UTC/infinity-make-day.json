@@ -27,8 +27,8 @@
             "end": 466,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -51,8 +51,8 @@
                 "end": 475,
                 "name": "UTC"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -105,8 +105,8 @@
             "end": 540,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -129,8 +129,8 @@
                 "end": 549,
                 "name": "UTC"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -138,13 +138,13 @@
                 "start": 550,
                 "end": 559,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 551,
                   "end": 559,
                   "name": "Infinity"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -190,8 +190,8 @@
             "end": 617,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -214,8 +214,8 @@
                 "end": 626,
                 "name": "UTC"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -275,8 +275,8 @@
             "end": 681,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -299,8 +299,8 @@
                 "end": 690,
                 "name": "UTC"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -308,13 +308,13 @@
                 "start": 691,
                 "end": 700,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 692,
                   "end": 700,
                   "name": "Infinity"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -367,8 +367,8 @@
             "end": 748,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -391,8 +391,8 @@
                 "end": 757,
                 "name": "UTC"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -452,8 +452,8 @@
             "end": 813,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -476,8 +476,8 @@
                 "end": 822,
                 "name": "UTC"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -492,13 +492,13 @@
                 "start": 826,
                 "end": 835,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 827,
                   "end": 835,
                   "name": "Infinity"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -544,8 +544,8 @@
             "end": 881,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -568,8 +568,8 @@
                 "end": 890,
                 "name": "UTC"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -636,8 +636,8 @@
             "end": 948,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -660,8 +660,8 @@
                 "end": 957,
                 "name": "UTC"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -683,13 +683,13 @@
                 "start": 964,
                 "end": 973,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 965,
                   "end": 973,
                   "name": "Infinity"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false

@@ -27,8 +27,8 @@
             "end": 260,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 272,
             "end": 323,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -75,8 +74,8 @@
                         "end": 310,
                         "name": "defineProperties"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -97,7 +96,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

@@ -43,7 +43,6 @@
                       "start": 383,
                       "end": 398,
                       "id": null,
-                      "expression": false,
                       "generator": true,
                       "async": false,
                       "params": [],
@@ -52,7 +51,8 @@
                         "start": 396,
                         "end": 398,
                         "body": []
-                      }
+                      },
+                      "expression": false
                     }
                   },
                   "arguments": [],
@@ -64,17 +64,15 @@
                   "end": 408,
                   "name": "filter"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
                   "type": "ArrowFunctionExpression",
                   "start": 409,
                   "end": 419,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -83,7 +81,9 @@
                     "end": 419,
                     "value": true,
                     "raw": "true"
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false

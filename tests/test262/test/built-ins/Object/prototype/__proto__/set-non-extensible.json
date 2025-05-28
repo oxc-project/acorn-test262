@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 695,
       "end": 710,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,13 +26,13 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 711,
       "end": 746,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -63,8 +64,8 @@
                 "end": 738,
                 "name": "create"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -77,8 +78,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -104,8 +104,8 @@
             "end": 772,
             "name": "preventExtensions"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -143,8 +143,8 @@
             "end": 801,
             "name": "__proto__"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Identifier",
@@ -178,8 +178,8 @@
             "end": 825,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -193,7 +193,6 @@
             "start": 837,
             "end": 877,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -227,8 +226,8 @@
                         "end": 869,
                         "name": "__proto__"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "ObjectExpression",
@@ -239,7 +238,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -269,8 +269,8 @@
             "end": 897,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -293,8 +293,8 @@
                 "end": 919,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

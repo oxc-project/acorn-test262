@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 402,
       "end": 437,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -31,7 +32,6 @@
                 "start": 418,
                 "end": 433,
                 "id": null,
-                "expression": false,
                 "generator": true,
                 "async": false,
                 "params": [],
@@ -40,20 +40,21 @@
                   "start": 431,
                   "end": 433,
                   "body": []
-                }
+                },
+                "expression": false
               }
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 439,
       "end": 477,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -68,9 +69,7 @@
                 "type": "Property",
                 "start": 445,
                 "end": 450,
-                "method": false,
-                "shorthand": true,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 445,
@@ -83,15 +82,15 @@
                   "end": 450,
                   "name": "value"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": true,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 452,
                 "end": 456,
-                "method": false,
-                "shorthand": true,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 452,
@@ -104,7 +103,9 @@
                   "end": 456,
                   "name": "done"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": true,
+                "computed": false
               }
             ]
           },
@@ -128,15 +129,14 @@
                 "end": 474,
                 "name": "next"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -162,8 +162,8 @@
             "end": 494,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -206,8 +206,8 @@
             "end": 530,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -231,6 +231,7 @@
       "type": "VariableDeclaration",
       "start": 545,
       "end": 577,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -262,15 +263,14 @@
                 "end": 574,
                 "name": "toArray"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -296,8 +296,8 @@
             "end": 597,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -351,8 +351,8 @@
               "end": 637,
               "name": "toArray"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [],
           "optional": false
@@ -383,8 +383,8 @@
             "end": 660,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

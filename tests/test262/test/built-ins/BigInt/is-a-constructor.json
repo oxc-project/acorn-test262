@@ -27,8 +27,8 @@
             "end": 738,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -93,8 +93,8 @@
             "end": 833,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -107,9 +107,7 @@
             "type": "ArrowFunctionExpression",
             "start": 845,
             "end": 923,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -141,9 +139,7 @@
                             "type": "Property",
                             "start": 872,
                             "end": 915,
-                            "method": true,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 872,
@@ -155,7 +151,6 @@
                               "start": 879,
                               "end": 915,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [],
@@ -182,9 +177,12 @@
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             },
-                            "kind": "init"
+                            "method": true,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -192,7 +190,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",

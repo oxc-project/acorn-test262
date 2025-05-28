@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 638,
       "end": 684,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -74,8 +75,8 @@
                 "end": 676,
                 "name": "toSpliced"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -83,14 +84,14 @@
                 "start": 677,
                 "end": 679,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 678,
                   "end": 679,
                   "value": 3,
                   "raw": "3"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -103,8 +104,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -130,8 +130,8 @@
             "end": 704,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

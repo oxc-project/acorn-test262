@@ -59,8 +59,8 @@
             "end": 418,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -73,9 +73,7 @@
             "type": "ArrowFunctionExpression",
             "start": 430,
             "end": 467,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -92,7 +90,6 @@
                     "start": 440,
                     "end": 464,
                     "operator": "delete",
-                    "prefix": true,
                     "argument": {
                       "type": "MemberExpression",
                       "start": 447,
@@ -109,13 +106,16 @@
                         "end": 464,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
-                    }
+                      "optional": false,
+                      "computed": false
+                    },
+                    "prefix": true
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

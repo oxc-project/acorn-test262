@@ -13,7 +13,6 @@
         "end": 385,
         "name": "g"
       },
-      "expression": false,
       "generator": true,
       "async": false,
       "params": [],
@@ -77,12 +76,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 432,
       "end": 447,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -108,13 +109,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 449,
       "end": 472,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -134,13 +135,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 473,
       "end": 495,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -159,13 +160,13 @@
             "properties": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 496,
       "end": 946,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -197,17 +198,15 @@
                 "end": 520,
                 "name": "reduce"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
                 "type": "ArrowFunctionExpression",
                 "start": 521,
                 "end": 930,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": false,
                 "params": [
                   {
@@ -249,6 +248,13 @@
                           "type": "SwitchCase",
                           "start": 562,
                           "end": 662,
+                          "test": {
+                            "type": "Literal",
+                            "start": 567,
+                            "end": 570,
+                            "value": "a",
+                            "raw": "'a'"
+                          },
                           "consequent": [
                             {
                               "type": "ExpressionStatement",
@@ -274,8 +280,8 @@
                                     "end": 594,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -318,8 +324,8 @@
                                     "end": 638,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -345,19 +351,19 @@
                               "end": 662,
                               "label": null
                             }
-                          ],
-                          "test": {
-                            "type": "Literal",
-                            "start": 567,
-                            "end": 570,
-                            "value": "a",
-                            "raw": "'a'"
-                          }
+                          ]
                         },
                         {
                           "type": "SwitchCase",
                           "start": 667,
                           "end": 758,
+                          "test": {
+                            "type": "Literal",
+                            "start": 672,
+                            "end": 675,
+                            "value": "b",
+                            "raw": "'b'"
+                          },
                           "consequent": [
                             {
                               "type": "ExpressionStatement",
@@ -383,8 +389,8 @@
                                     "end": 699,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -428,8 +434,8 @@
                                     "end": 734,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -455,19 +461,19 @@
                               "end": 758,
                               "label": null
                             }
-                          ],
-                          "test": {
-                            "type": "Literal",
-                            "start": 672,
-                            "end": 675,
-                            "value": "b",
-                            "raw": "'b'"
-                          }
+                          ]
                         },
                         {
                           "type": "SwitchCase",
                           "start": 763,
                           "end": 854,
+                          "test": {
+                            "type": "Literal",
+                            "start": 768,
+                            "end": 771,
+                            "value": "c",
+                            "raw": "'c'"
+                          },
                           "consequent": [
                             {
                               "type": "ExpressionStatement",
@@ -493,8 +499,8 @@
                                     "end": 795,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -538,8 +544,8 @@
                                     "end": 830,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -565,19 +571,13 @@
                               "end": 854,
                               "label": null
                             }
-                          ],
-                          "test": {
-                            "type": "Literal",
-                            "start": 768,
-                            "end": 771,
-                            "value": "c",
-                            "raw": "'c'"
-                          }
+                          ]
                         },
                         {
                           "type": "SwitchCase",
                           "start": 859,
                           "end": 892,
+                          "test": null,
                           "consequent": [
                             {
                               "type": "ThrowStatement",
@@ -596,8 +596,7 @@
                                 "arguments": []
                               }
                             }
-                          ],
-                          "test": null
+                          ]
                         }
                       ]
                     },
@@ -631,7 +630,9 @@
                       }
                     }
                   ]
-                }
+                },
+                "id": null,
+                "generator": false
               },
               {
                 "type": "Identifier",
@@ -643,8 +644,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -670,8 +670,8 @@
             "end": 964,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -715,8 +715,8 @@
             "end": 995,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

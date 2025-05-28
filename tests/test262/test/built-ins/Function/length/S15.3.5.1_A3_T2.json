@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 361,
       "end": 402,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -47,8 +48,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -85,8 +85,8 @@
                 "end": 427,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -107,6 +107,7 @@
       "type": "VariableDeclaration",
       "start": 441,
       "end": 464,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -134,12 +135,11 @@
               "end": 463,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -181,7 +181,6 @@
             "start": 503,
             "end": 516,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -190,7 +189,8 @@
               "start": 514,
               "end": 516,
               "body": []
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -220,8 +220,8 @@
             "end": 536,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -240,8 +240,8 @@
               "end": 545,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",
@@ -286,8 +286,8 @@
                   "end": 574,
                   "name": "length"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
@@ -406,8 +406,8 @@
             "end": 749,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {

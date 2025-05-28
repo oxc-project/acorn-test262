@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 351,
       "end": 372,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -53,8 +53,8 @@
             "end": 389,
             "name": "enumerable"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -69,6 +69,7 @@
       "type": "VariableDeclaration",
       "start": 399,
       "end": 448,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -100,8 +101,8 @@
                 "end": 425,
                 "name": "create"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -119,9 +120,7 @@
                     "type": "Property",
                     "start": 434,
                     "end": 444,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 434,
@@ -133,7 +132,9 @@
                       "start": 440,
                       "end": 444
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -141,8 +142,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForInStatement",
@@ -152,6 +152,7 @@
         "type": "VariableDeclaration",
         "start": 454,
         "end": 466,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -165,8 +166,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "Identifier",

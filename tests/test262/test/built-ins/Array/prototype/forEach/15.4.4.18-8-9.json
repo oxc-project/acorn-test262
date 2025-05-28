@@ -28,8 +28,8 @@
             "end": 330,
             "name": "prototype"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "NewExpression",
@@ -77,7 +77,6 @@
         "end": 366,
         "name": "foo"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -86,12 +85,14 @@
         "start": 369,
         "end": 371,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 372,
       "end": 390,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -116,8 +117,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -144,8 +144,8 @@
             "end": 400,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ArrayExpression",
@@ -167,6 +167,7 @@
       "type": "VariableDeclaration",
       "start": 1243,
       "end": 1259,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -186,8 +187,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -199,7 +199,6 @@
         "end": 1272,
         "name": "cb"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -227,12 +226,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 1291,
       "end": 1313,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -264,8 +265,8 @@
                 "end": 1308,
                 "name": "forEach"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -278,8 +279,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -305,8 +305,8 @@
             "end": 1331,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

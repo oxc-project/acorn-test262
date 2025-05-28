@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 768,
       "end": 780,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,13 +26,13 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 781,
       "end": 823,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -63,8 +64,8 @@
                 "end": 818,
                 "name": "MAX_SAFE_INTEGER"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "-",
             "right": {
@@ -76,13 +77,13 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 824,
       "end": 868,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -114,8 +115,8 @@
                 "end": 863,
                 "name": "MAX_SAFE_INTEGER"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "-",
             "right": {
@@ -127,13 +128,13 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 869,
       "end": 924,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -154,9 +155,7 @@
                 "type": "Property",
                 "start": 889,
                 "end": 920,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 889,
@@ -179,16 +178,17 @@
                     "end": 920,
                     "name": "MAX_SAFE_INTEGER"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -215,8 +215,8 @@
             "end": 943,
             "name": "elIndex"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Identifier",
@@ -230,6 +230,7 @@
       "type": "VariableDeclaration",
       "start": 952,
       "end": 1021,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -269,8 +270,8 @@
                     "end": 977,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -278,8 +279,8 @@
                   "end": 989,
                   "name": "lastIndexOf"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -287,8 +288,8 @@
                 "end": 994,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -313,8 +314,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -340,8 +340,8 @@
             "end": 1039,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

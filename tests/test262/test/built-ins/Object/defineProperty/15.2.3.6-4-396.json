@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 245,
       "end": 258,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -52,8 +52,8 @@
             "end": 281,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -78,9 +78,7 @@
                 "type": "Property",
                 "start": 299,
                 "end": 309,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 299,
@@ -93,7 +91,9 @@
                   "end": 309,
                   "name": "NaN"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -105,6 +105,7 @@
       "type": "VariableDeclaration",
       "start": 315,
       "end": 371,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -136,8 +137,8 @@
                 "end": 357,
                 "name": "getOwnPropertyDescriptor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -157,8 +158,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -195,8 +195,8 @@
                 "end": 388,
                 "name": "prop"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "!==",
             "right": {
@@ -215,8 +215,8 @@
                 "end": 401,
                 "name": "prop"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           },
           {
@@ -265,8 +265,8 @@
                 "end": 455,
                 "name": "value"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "!==",
             "right": {
@@ -285,8 +285,8 @@
                 "end": 470,
                 "name": "value"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           },
           {

@@ -27,8 +27,8 @@
             "end": 999,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 1000,
             "end": 1024,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 1007,
@@ -53,9 +52,10 @@
                 "end": 1024,
                 "name": "waitAsync"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -79,6 +79,7 @@
       "type": "VariableDeclaration",
       "start": 1097,
       "end": 1186,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -132,8 +133,8 @@
                         "end": 1178,
                         "name": "BYTES_PER_ELEMENT"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "operator": "*",
                     "right": {
@@ -149,13 +150,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1188,
       "end": 1242,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -170,9 +171,7 @@
                 "type": "Property",
                 "start": 1193,
                 "end": 1198,
-                "method": false,
-                "shorthand": true,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1193,
@@ -185,15 +184,15 @@
                   "end": 1198,
                   "name": "async"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": true,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1200,
                 "end": 1205,
-                "method": false,
-                "shorthand": true,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1200,
@@ -206,7 +205,9 @@
                   "end": 1205,
                   "name": "value"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": true,
+                "computed": false
               }
             ]
           },
@@ -230,8 +231,8 @@
                 "end": 1226,
                 "name": "waitAsync"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -265,13 +266,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1243,
       "end": 1262,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -291,13 +292,13 @@
             "raw": "null"
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1263,
       "end": 1283,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -317,13 +318,13 @@
             "raw": "1000"
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1284,
       "end": 1322,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -359,8 +360,8 @@
                   "end": 1306,
                   "name": "agent"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -368,15 +369,14 @@
                 "end": 1319,
                 "name": "monotonicNow"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -388,7 +388,6 @@
         "end": 1337,
         "name": "wait"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -401,6 +400,7 @@
             "type": "VariableDeclaration",
             "start": 1344,
             "end": 1392,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -440,8 +440,8 @@
                           "end": 1368,
                           "name": "agent"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -449,8 +449,8 @@
                         "end": 1381,
                         "name": "monotonicNow"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
@@ -464,8 +464,7 @@
                   }
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "IfStatement",
@@ -614,8 +613,8 @@
                     "end": 1541,
                     "name": "agent"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -623,8 +622,8 @@
                   "end": 1552,
                   "name": "setTimeout"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -645,7 +644,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -689,17 +689,15 @@
             "end": 1585,
             "name": "then"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 1586,
             "end": 1614,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -731,7 +729,9 @@
                   "name": "result"
                 }
               }
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Identifier",

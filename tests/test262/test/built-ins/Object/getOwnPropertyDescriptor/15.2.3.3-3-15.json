@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 299,
       "end": 344,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,7 +24,6 @@
             "start": 309,
             "end": 343,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -69,11 +69,11 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -101,8 +101,8 @@
             "value": 1,
             "raw": "1"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -117,6 +117,7 @@
       "type": "VariableDeclaration",
       "start": 370,
       "end": 423,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -148,8 +149,8 @@
                 "end": 412,
                 "name": "getOwnPropertyDescriptor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -169,8 +170,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -196,8 +196,8 @@
             "end": 441,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -216,8 +216,8 @@
               "end": 452,
               "name": "value"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

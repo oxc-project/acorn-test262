@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 892,
       "end": 924,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,13 +40,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 925,
       "end": 962,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -84,8 +85,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -111,8 +111,8 @@
             "end": 979,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -157,8 +157,8 @@
             "end": 1004,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -203,8 +203,8 @@
             "end": 1027,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -249,8 +249,8 @@
             "end": 1050,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -275,6 +275,7 @@
       "type": "VariableDeclaration",
       "start": 1059,
       "end": 1093,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -306,8 +307,8 @@
                 "end": 1089,
                 "name": "getFloat32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -321,8 +322,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -348,8 +348,8 @@
             "end": 1110,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -363,14 +363,14 @@
             "start": 1119,
             "end": 1121,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1120,
               "end": 1121,
               "value": 0,
               "raw": "0"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false

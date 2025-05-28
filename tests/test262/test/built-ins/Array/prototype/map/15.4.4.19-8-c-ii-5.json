@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 304,
       "end": 320,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             "elements": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -38,7 +38,6 @@
         "end": 471,
         "name": "callbackfn"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -79,7 +78,6 @@
                 "start": 595,
                 "end": 613,
                 "operator": "typeof",
-                "prefix": true,
                 "argument": {
                   "type": "MemberExpression",
                   "start": 602,
@@ -96,9 +94,10 @@
                     "end": 612,
                     "name": "idx"
                   },
-                  "computed": true,
-                  "optional": false
-                }
+                  "optional": false,
+                  "computed": true
+                },
+                "prefix": true
               },
               "operator": "===",
               "right": {
@@ -151,7 +150,6 @@
                         "start": 738,
                         "end": 760,
                         "operator": "typeof",
-                        "prefix": true,
                         "argument": {
                           "type": "MemberExpression",
                           "start": 745,
@@ -181,9 +179,10 @@
                               "raw": "1"
                             }
                           },
-                          "computed": true,
-                          "optional": false
-                        }
+                          "optional": false,
+                          "computed": true
+                        },
+                        "prefix": true
                       },
                       "operator": "===",
                       "right": {
@@ -241,8 +240,8 @@
                         "end": 819,
                         "name": "idx"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "right": {
                       "type": "Literal",
@@ -288,12 +287,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 879,
       "end": 929,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -354,8 +355,8 @@
                 "end": 916,
                 "name": "map"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -368,8 +369,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -395,8 +395,8 @@
             "end": 947,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -415,8 +415,8 @@
               "end": 965,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -460,8 +460,8 @@
             "end": 1008,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -481,8 +481,8 @@
               "value": 0,
               "raw": "0"
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",
@@ -526,8 +526,8 @@
             "end": 1065,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -547,8 +547,8 @@
               "value": 1,
               "raw": "1"
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",
@@ -592,8 +592,8 @@
             "end": 1122,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -613,8 +613,8 @@
               "value": 2,
               "raw": "2"
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",
@@ -658,8 +658,8 @@
             "end": 1179,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -679,8 +679,8 @@
               "value": 3,
               "raw": "3"
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",

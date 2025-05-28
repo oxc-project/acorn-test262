@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 285,
       "end": 364,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -31,9 +32,7 @@
                   "type": "Property",
                   "start": 307,
                   "end": 348,
-                  "method": true,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 307,
@@ -45,7 +44,6 @@
                     "start": 317,
                     "end": 348,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -54,9 +52,12 @@
                       "start": 337,
                       "end": 348,
                       "body": []
-                    }
+                    },
+                    "expression": false
                   },
-                  "kind": "init"
+                  "method": true,
+                  "shorthand": false,
+                  "computed": false
                 }
               ]
             },
@@ -66,12 +67,11 @@
               "end": 363,
               "name": "f"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 265,
       "end": 330,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 279,
                 "end": 327,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 279,
@@ -41,7 +40,6 @@
                   "start": 289,
                   "end": 327,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -62,20 +60,23 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 331,
       "end": 359,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -94,13 +95,13 @@
             "name": "undefined"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 360,
       "end": 376,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -114,13 +115,13 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 377,
       "end": 478,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -219,8 +220,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -246,8 +246,8 @@
             "end": 496,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -270,8 +270,8 @@
                 "end": 510,
                 "name": "lastIndexOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

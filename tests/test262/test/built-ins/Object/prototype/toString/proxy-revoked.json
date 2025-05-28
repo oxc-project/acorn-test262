@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 720,
       "end": 757,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 748,
                 "name": "revocable"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -58,8 +59,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -85,8 +85,8 @@
             "end": 772,
             "name": "revoke"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -116,8 +116,8 @@
             "end": 790,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -131,7 +131,6 @@
             "start": 802,
             "end": 864,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -172,8 +171,8 @@
                             "end": 833,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -181,8 +180,8 @@
                           "end": 842,
                           "name": "toString"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -190,8 +189,8 @@
                         "end": 847,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -210,15 +209,16 @@
                           "end": 860,
                           "name": "proxy"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

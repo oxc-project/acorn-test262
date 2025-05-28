@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 329,
       "end": 352,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -47,13 +48,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 353,
       "end": 375,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -73,13 +74,13 @@
             "raw": "true"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 376,
       "end": 395,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -99,13 +100,13 @@
             "raw": "6.99"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 396,
       "end": 420,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -124,8 +125,7 @@
             "name": "initVal"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -137,7 +137,6 @@
         "end": 441,
         "name": "callbackfn"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -261,7 +260,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -287,8 +287,8 @@
             "end": 587,
             "name": "reduceRight"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

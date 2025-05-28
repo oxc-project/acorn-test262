@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 555,
       "end": 575,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -31,8 +32,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -58,8 +58,8 @@
             "end": 593,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -82,8 +82,8 @@
                 "end": 609,
                 "name": "getOrInsert"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -138,8 +138,8 @@
             "end": 642,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -162,8 +162,8 @@
                 "end": 658,
                 "name": "getOrInsert"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -218,8 +218,8 @@
             "end": 689,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -242,8 +242,8 @@
                 "end": 705,
                 "name": "getOrInsert"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -277,6 +277,7 @@
       "type": "VariableDeclaration",
       "start": 720,
       "end": 734,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -295,8 +296,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -322,8 +322,8 @@
             "end": 751,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -346,8 +346,8 @@
                 "end": 767,
                 "name": "getOrInsert"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -424,8 +424,8 @@
             "end": 810,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -448,8 +448,8 @@
                 "end": 826,
                 "name": "getOrInsert"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -541,8 +541,8 @@
             "end": 881,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -565,8 +565,8 @@
                 "end": 897,
                 "name": "getOrInsert"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -644,8 +644,8 @@
             "end": 942,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -668,8 +668,8 @@
                 "end": 958,
                 "name": "getOrInsert"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -746,8 +746,8 @@
             "end": 1008,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -770,8 +770,8 @@
                 "end": 1024,
                 "name": "getOrInsert"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

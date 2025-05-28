@@ -27,8 +27,8 @@
             "end": 717,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 729,
             "end": 771,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -79,8 +78,8 @@
                           "end": 758,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -88,15 +87,16 @@
                         "end": 766,
                         "name": "getTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

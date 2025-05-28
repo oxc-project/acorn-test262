@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 406,
       "end": 424,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -24,8 +25,7 @@
             "end": 423
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -37,7 +37,6 @@
         "end": 436,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -65,7 +64,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -89,7 +89,6 @@
             "start": 468,
             "end": 516,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -135,8 +134,8 @@
                         "end": 505,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -150,7 +149,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         },
         "arguments": [],
@@ -167,7 +167,6 @@
         "end": 542,
         "name": "gNonStrict"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -196,12 +195,13 @@
                 "end": 573,
                 "name": "caller"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         ]
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

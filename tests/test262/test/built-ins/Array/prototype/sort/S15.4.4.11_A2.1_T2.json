@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 399,
       "end": 581,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -257,13 +258,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 582,
       "end": 763,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -514,8 +515,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -541,8 +541,8 @@
             "end": 779,
             "name": "sort"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -552,6 +552,7 @@
       "type": "VariableDeclaration",
       "start": 783,
       "end": 801,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -571,8 +572,7 @@
             "raw": "true"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -582,6 +582,7 @@
         "type": "VariableDeclaration",
         "start": 807,
         "end": 816,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -601,8 +602,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -665,8 +665,8 @@
                   "end": 850,
                   "name": "i"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "operator": "!==",
               "right": {
@@ -685,8 +685,8 @@
                   "end": 866,
                   "name": "i"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               }
             },
             "consequent": {

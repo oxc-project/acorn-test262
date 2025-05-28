@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 311,
       "end": 322,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -40,7 +40,6 @@
             "start": 324,
             "end": 360,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -73,7 +72,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           "arguments": [],
           "optional": false
@@ -115,8 +115,8 @@
                 "end": 392,
                 "name": "isExtensible"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -156,8 +156,8 @@
             "end": 427,
             "name": "preventExtensions"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -190,7 +190,6 @@
             "start": 444,
             "end": 472,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 445,
@@ -211,8 +210,8 @@
                   "end": 464,
                   "name": "isExtensible"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -223,7 +222,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -288,7 +288,6 @@
             "start": 527,
             "end": 554,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 528,
@@ -309,8 +308,8 @@
                   "end": 549,
                   "name": "hasOwnProperty"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -322,7 +321,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false

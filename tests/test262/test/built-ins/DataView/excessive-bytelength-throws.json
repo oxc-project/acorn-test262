@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 554,
       "end": 586,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,8 +40,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -66,8 +66,8 @@
             "end": 601,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -81,7 +81,6 @@
             "start": 614,
             "end": 658,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -129,7 +128,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -166,8 +166,8 @@
             "end": 698,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -181,7 +181,6 @@
             "start": 711,
             "end": 755,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -229,7 +228,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -266,8 +266,8 @@
             "end": 796,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -281,7 +281,6 @@
             "start": 809,
             "end": 853,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -329,7 +328,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -366,8 +366,8 @@
             "end": 894,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -381,7 +381,6 @@
             "start": 907,
             "end": 951,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -429,7 +428,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -466,8 +466,8 @@
             "end": 992,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -481,7 +481,6 @@
             "start": 1005,
             "end": 1049,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -529,7 +528,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -566,8 +566,8 @@
             "end": 1090,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -581,7 +581,6 @@
             "start": 1103,
             "end": 1148,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -623,20 +622,21 @@
                         "start": 1142,
                         "end": 1144,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1143,
                           "end": 1144,
                           "value": 1,
                           "raw": "1"
-                        }
+                        },
+                        "prefix": true
                       }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -673,8 +673,8 @@
             "end": 1190,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -688,7 +688,6 @@
             "start": 1203,
             "end": 1255,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -730,19 +729,20 @@
                         "start": 1242,
                         "end": 1251,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Identifier",
                           "start": 1243,
                           "end": 1251,
                           "name": "Infinity"
-                        }
+                        },
+                        "prefix": true
                       }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -779,8 +779,8 @@
             "end": 1304,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -794,7 +794,6 @@
             "start": 1317,
             "end": 1368,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -841,7 +840,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 373,
       "end": 396,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -39,7 +39,6 @@
         "end": 417,
         "name": "callbackfn"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -141,12 +140,14 @@
             "alternate": null
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 492,
       "end": 584,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -163,7 +164,6 @@
             "start": 503,
             "end": 583,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -217,8 +217,8 @@
                             "end": 544,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -226,8 +226,8 @@
                           "end": 552,
                           "name": "forEach"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -235,8 +235,8 @@
                         "end": 557,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -256,11 +256,11 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",

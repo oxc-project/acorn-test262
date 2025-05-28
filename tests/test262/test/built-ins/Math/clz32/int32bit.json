@@ -27,8 +27,8 @@
             "end": 640,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -51,8 +51,8 @@
                 "end": 651,
                 "name": "clz32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -107,8 +107,8 @@
             "end": 696,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -131,8 +131,8 @@
                 "end": 707,
                 "name": "clz32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -187,8 +187,8 @@
             "end": 751,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -211,8 +211,8 @@
                 "end": 762,
                 "name": "clz32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -267,8 +267,8 @@
             "end": 809,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -291,8 +291,8 @@
                 "end": 820,
                 "name": "clz32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -347,8 +347,8 @@
             "end": 861,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -371,8 +371,8 @@
                 "end": 872,
                 "name": "clz32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -427,8 +427,8 @@
             "end": 911,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -451,8 +451,8 @@
                 "end": 922,
                 "name": "clz32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -507,8 +507,8 @@
             "end": 964,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -531,8 +531,8 @@
                 "end": 975,
                 "name": "clz32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -587,8 +587,8 @@
             "end": 1013,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -611,8 +611,8 @@
                 "end": 1024,
                 "name": "clz32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -667,8 +667,8 @@
             "end": 1060,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -691,8 +691,8 @@
                 "end": 1071,
                 "name": "clz32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -747,8 +747,8 @@
             "end": 1110,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -771,8 +771,8 @@
                 "end": 1121,
                 "name": "clz32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -780,14 +780,14 @@
                 "start": 1122,
                 "end": 1133,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1123,
                   "end": 1133,
                   "value": 4294967295,
                   "raw": "4294967295"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -834,8 +834,8 @@
             "end": 1171,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -858,8 +858,8 @@
                 "end": 1182,
                 "name": "clz32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -867,14 +867,14 @@
                 "start": 1183,
                 "end": 1194,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1184,
                   "end": 1194,
                   "value": 4294967296,
                   "raw": "4294967296"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -921,8 +921,8 @@
             "end": 1230,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -945,8 +945,8 @@
                 "end": 1241,
                 "name": "clz32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -954,14 +954,14 @@
                 "start": 1242,
                 "end": 1253,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1243,
                   "end": 1253,
                   "value": 4294967297,
                   "raw": "4294967297"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -1008,8 +1008,8 @@
             "end": 1291,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1032,8 +1032,8 @@
                 "end": 1302,
                 "name": "clz32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1041,14 +1041,14 @@
                 "start": 1303,
                 "end": 1309,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1304,
                   "end": 1309,
                   "value": 65535,
                   "raw": "65535"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -1095,8 +1095,8 @@
             "end": 1346,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1119,8 +1119,8 @@
                 "end": 1357,
                 "name": "clz32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1128,14 +1128,14 @@
                 "start": 1358,
                 "end": 1364,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1359,
                   "end": 1364,
                   "value": 65536,
                   "raw": "65536"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -1182,8 +1182,8 @@
             "end": 1399,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1206,8 +1206,8 @@
                 "end": 1410,
                 "name": "clz32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1215,14 +1215,14 @@
                 "start": 1411,
                 "end": 1417,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1412,
                   "end": 1417,
                   "value": 65537,
                   "raw": "65537"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -1269,8 +1269,8 @@
             "end": 1455,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1293,8 +1293,8 @@
                 "end": 1466,
                 "name": "clz32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1302,14 +1302,14 @@
                 "start": 1467,
                 "end": 1471,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1468,
                   "end": 1471,
                   "value": 255,
                   "raw": "255"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -1356,8 +1356,8 @@
             "end": 1507,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1380,8 +1380,8 @@
                 "end": 1518,
                 "name": "clz32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1389,14 +1389,14 @@
                 "start": 1519,
                 "end": 1523,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1520,
                   "end": 1523,
                   "value": 256,
                   "raw": "256"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -1443,8 +1443,8 @@
             "end": 1557,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1467,8 +1467,8 @@
                 "end": 1568,
                 "name": "clz32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1476,14 +1476,14 @@
                 "start": 1569,
                 "end": 1573,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1570,
                   "end": 1573,
                   "value": 257,
                   "raw": "257"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false

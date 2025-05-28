@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 512,
       "end": 601,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -60,8 +61,8 @@
                         "end": 593,
                         "name": "BYTES_PER_ELEMENT"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "operator": "*",
                     "right": {
@@ -77,13 +78,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 603,
       "end": 713,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -104,9 +105,7 @@
                 "type": "Property",
                 "start": 624,
                 "end": 710,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 624,
@@ -118,7 +117,6 @@
                   "start": 633,
                   "end": 710,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -153,15 +151,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -187,8 +187,8 @@
             "end": 728,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -202,7 +202,6 @@
             "start": 741,
             "end": 800,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -235,8 +234,8 @@
                         "end": 770,
                         "name": "notify"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -250,13 +249,13 @@
                         "start": 777,
                         "end": 786,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Identifier",
                           "start": 778,
                           "end": 786,
                           "name": "Infinity"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "Identifier",
@@ -269,7 +268,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -299,8 +299,8 @@
             "end": 816,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -314,7 +314,6 @@
             "start": 829,
             "end": 885,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -347,8 +346,8 @@
                         "end": 858,
                         "name": "notify"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -362,14 +361,14 @@
                         "start": 865,
                         "end": 871,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 866,
                           "end": 871,
                           "value": 7.999,
                           "raw": "7.999"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "Identifier",
@@ -382,7 +381,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -412,8 +412,8 @@
             "end": 901,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -427,7 +427,6 @@
             "start": 914,
             "end": 966,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -460,8 +459,8 @@
                         "end": 943,
                         "name": "notify"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -475,14 +474,14 @@
                         "start": 950,
                         "end": 952,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 951,
                           "end": 952,
                           "value": 1,
                           "raw": "1"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "Identifier",
@@ -495,7 +494,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -525,8 +525,8 @@
             "end": 982,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -540,7 +540,6 @@
             "start": 995,
             "end": 1049,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -573,8 +572,8 @@
                         "end": 1024,
                         "name": "notify"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -588,14 +587,14 @@
                         "start": 1031,
                         "end": 1035,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1032,
                           "end": 1035,
                           "value": 300,
                           "raw": "300"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "Identifier",
@@ -608,7 +607,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

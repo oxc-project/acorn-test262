@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 262,
       "end": 275,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -53,8 +53,8 @@
             "end": 284,
             "name": "join"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "MemberExpression",
@@ -76,8 +76,8 @@
               "end": 302,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -85,8 +85,8 @@
             "end": 307,
             "name": "join"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       }
     },
@@ -116,8 +116,8 @@
             "value": 0,
             "raw": "0"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -154,8 +154,8 @@
             "value": 1,
             "raw": "1"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -192,8 +192,8 @@
             "value": 2,
             "raw": "2"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -229,22 +229,22 @@
             "end": 361,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "UnaryExpression",
           "start": 364,
           "end": 375,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 365,
             "end": 375,
             "value": 4294967294,
             "raw": "4294967294"
-          }
+          },
+          "prefix": true
         }
       }
     },
@@ -276,8 +276,8 @@
               "end": 390,
               "name": "join"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -355,8 +355,8 @@
                           "end": 592,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -402,8 +402,8 @@
             "end": 617,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -411,14 +411,14 @@
           "start": 622,
           "end": 633,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 623,
             "end": 633,
             "value": 4294967294,
             "raw": "4294967294"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -473,8 +473,8 @@
                         "end": 847,
                         "name": "length"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 }

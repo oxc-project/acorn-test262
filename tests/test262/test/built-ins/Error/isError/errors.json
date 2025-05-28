@@ -27,8 +27,8 @@
             "end": 279,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -51,8 +51,8 @@
                 "end": 293,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -105,8 +105,8 @@
             "end": 331,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -129,8 +129,8 @@
                 "end": 345,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -183,8 +183,8 @@
             "end": 387,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -207,8 +207,8 @@
                 "end": 401,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -261,8 +261,8 @@
             "end": 444,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -285,8 +285,8 @@
                 "end": 458,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -339,8 +339,8 @@
             "end": 505,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -363,8 +363,8 @@
                 "end": 519,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -417,8 +417,8 @@
             "end": 563,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -441,8 +441,8 @@
                 "end": 577,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -495,8 +495,8 @@
             "end": 619,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -519,8 +519,8 @@
                 "end": 633,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -562,13 +562,13 @@
           "start": 663,
           "end": 684,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 670,
             "end": 684,
             "name": "AggregateError"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -608,8 +608,8 @@
                   "end": 722,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -632,8 +632,8 @@
                       "end": 736,
                       "name": "isError"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -686,13 +686,13 @@
           "start": 775,
           "end": 797,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 782,
             "end": 797,
             "name": "SuppressedError"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -732,8 +732,8 @@
                   "end": 835,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -756,8 +756,8 @@
                       "end": 849,
                       "name": "isError"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {

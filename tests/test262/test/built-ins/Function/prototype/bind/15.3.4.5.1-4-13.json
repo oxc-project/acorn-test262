@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 322,
       "end": 350,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 336,
                 "end": 347,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 336,
@@ -43,18 +42,20 @@
                   "value": "abc",
                   "raw": "\"abc\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 352,
       "end": 488,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -71,7 +72,6 @@
             "start": 363,
             "end": 487,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -167,8 +167,8 @@
                               "value": 0,
                               "raw": "0"
                             },
-                            "computed": true,
-                            "optional": false
+                            "optional": false,
+                            "computed": true
                           },
                           "operator": "===",
                           "right": {
@@ -201,8 +201,8 @@
                             "end": 455,
                             "name": "length"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "operator": "===",
                         "right": {
@@ -234,8 +234,8 @@
                           "end": 474,
                           "name": "prop"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "operator": "===",
                       "right": {
@@ -249,16 +249,17 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 490,
       "end": 547,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -298,8 +299,8 @@
                     "end": 522,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -307,8 +308,8 @@
                   "end": 527,
                   "name": "bind"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -316,8 +317,8 @@
                 "end": 532,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -343,8 +344,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",

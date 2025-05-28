@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 319,
       "end": 343,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,8 +40,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -81,8 +81,8 @@
             "end": 382,
             "name": "apply"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -126,8 +126,8 @@
               "end": 408,
               "name": "touched"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 392,
       "end": 403,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,13 +26,13 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 404,
       "end": 415,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -45,8 +46,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -91,8 +91,8 @@
               "end": 437,
               "name": "flatMap"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -100,7 +100,6 @@
               "start": 438,
               "end": 469,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -127,7 +126,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             },
             {
               "type": "Literal",
@@ -165,8 +165,8 @@
             "end": 505,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -243,8 +243,8 @@
               "end": 608,
               "name": "flatMap"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -252,7 +252,6 @@
               "start": 609,
               "end": 640,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -279,7 +278,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             },
             {
               "type": "Literal",
@@ -317,8 +317,8 @@
             "end": 665,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -395,8 +395,8 @@
               "end": 746,
               "name": "flatMap"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -404,7 +404,6 @@
               "start": 747,
               "end": 778,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -431,7 +430,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             },
             {
               "type": "Literal",
@@ -469,8 +469,8 @@
             "end": 806,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -547,8 +547,8 @@
               "end": 893,
               "name": "flatMap"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -556,7 +556,6 @@
               "start": 894,
               "end": 925,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -583,7 +582,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             },
             {
               "type": "Literal",
@@ -621,8 +621,8 @@
             "end": 953,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -699,8 +699,8 @@
               "end": 1040,
               "name": "flatMap"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -708,7 +708,6 @@
               "start": 1041,
               "end": 1072,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -735,7 +734,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             },
             {
               "type": "Identifier",
@@ -772,8 +772,8 @@
             "end": 1097,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -849,8 +849,8 @@
               "end": 1178,
               "name": "flatMap"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -858,7 +858,6 @@
               "start": 1179,
               "end": 1210,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -885,21 +884,22 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             },
             {
               "type": "UnaryExpression",
               "start": 1212,
               "end": 1218,
               "operator": "void",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1217,
                 "end": 1218,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -930,8 +930,8 @@
             "end": 1240,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

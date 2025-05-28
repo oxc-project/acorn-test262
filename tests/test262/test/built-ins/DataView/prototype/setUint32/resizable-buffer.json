@@ -27,8 +27,8 @@
             "end": 322,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 326,
             "end": 361,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 333,
@@ -57,8 +56,8 @@
                   "end": 354,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -66,9 +65,10 @@
                 "end": 361,
                 "name": "resize"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -92,6 +92,7 @@
       "type": "VariableDeclaration",
       "start": 425,
       "end": 479,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -130,9 +131,7 @@
                     "type": "Property",
                     "start": 459,
                     "end": 476,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 459,
@@ -146,20 +145,22 @@
                       "value": 32,
                       "raw": "32"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 480,
       "end": 521,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -205,8 +206,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -241,8 +241,8 @@
                   "end": 544,
                   "name": "resize"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -301,8 +301,8 @@
             "end": 582,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -325,8 +325,8 @@
                 "end": 599,
                 "name": "setUint32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -396,8 +396,8 @@
                   "end": 660,
                   "name": "resize"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -456,8 +456,8 @@
             "end": 698,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -480,8 +480,8 @@
                 "end": 715,
                 "name": "setUint32"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -522,6 +522,7 @@
       "type": "VariableDeclaration",
       "start": 773,
       "end": 791,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -535,8 +536,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -571,8 +571,8 @@
                   "end": 813,
                   "name": "resize"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -678,8 +678,8 @@
             "end": 909,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -693,7 +693,6 @@
             "start": 925,
             "end": 1032,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -726,8 +725,8 @@
                         "end": 956,
                         "name": "setUint32"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -774,7 +773,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

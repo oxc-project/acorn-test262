@@ -27,8 +27,8 @@
             "end": 923,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 924,
             "end": 948,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 931,
@@ -53,9 +52,10 @@
                 "end": 948,
                 "name": "waitAsync"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -79,6 +79,7 @@
       "type": "VariableDeclaration",
       "start": 1020,
       "end": 1103,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -132,8 +133,8 @@
                         "end": 1095,
                         "name": "BYTES_PER_ELEMENT"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "operator": "*",
                     "right": {
@@ -149,13 +150,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1105,
       "end": 1205,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -176,9 +177,7 @@
                 "type": "Property",
                 "start": 1126,
                 "end": 1202,
-                "method": true,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1126,
@@ -190,7 +189,6 @@
                   "start": 1133,
                   "end": 1202,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -225,15 +223,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": true,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "TryStatement",
@@ -275,8 +275,8 @@
                     "end": 1240,
                     "name": "buffer"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               ],
               "optional": false
@@ -318,27 +318,6 @@
                     "type": "TemplateLiteral",
                     "start": 1367,
                     "end": 1442,
-                    "expressions": [
-                      {
-                        "type": "MemberExpression",
-                        "start": 1427,
-                        "end": 1440,
-                        "object": {
-                          "type": "Identifier",
-                          "start": 1427,
-                          "end": 1432,
-                          "name": "error"
-                        },
-                        "property": {
-                          "type": "Identifier",
-                          "start": 1433,
-                          "end": 1440,
-                          "name": "message"
-                        },
-                        "computed": false,
-                        "optional": false
-                      }
-                    ],
                     "quasis": [
                       {
                         "type": "TemplateElement",
@@ -359,6 +338,27 @@
                           "cooked": ""
                         },
                         "tail": true
+                      }
+                    ],
+                    "expressions": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 1427,
+                        "end": 1440,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1427,
+                          "end": 1432,
+                          "name": "error"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1433,
+                          "end": 1440,
+                          "name": "message"
+                        },
+                        "optional": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -394,8 +394,8 @@
             "end": 1461,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -409,7 +409,6 @@
             "start": 1473,
             "end": 1544,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -442,8 +441,8 @@
                         "end": 1505,
                         "name": "waitAsync"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -475,7 +474,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

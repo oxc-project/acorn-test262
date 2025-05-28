@@ -27,8 +27,8 @@
             "end": 253,
             "name": "parse"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

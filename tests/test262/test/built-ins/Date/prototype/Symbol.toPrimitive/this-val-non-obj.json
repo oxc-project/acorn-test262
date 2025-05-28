@@ -27,8 +27,8 @@
             "end": 396,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 397,
             "end": 438,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 404,
@@ -57,8 +56,8 @@
                   "end": 418,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "MemberExpression",
@@ -76,12 +75,13 @@
                   "end": 437,
                   "name": "toPrimitive"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
-              "computed": true,
-              "optional": false
-            }
+              "optional": false,
+              "computed": true
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -118,8 +118,8 @@
             "end": 467,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -133,7 +133,6 @@
             "start": 479,
             "end": 557,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -174,8 +173,8 @@
                             "end": 508,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "MemberExpression",
@@ -193,11 +192,11 @@
                             "end": 527,
                             "name": "toPrimitive"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       "property": {
                         "type": "Identifier",
@@ -205,8 +204,8 @@
                         "end": 533,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -227,7 +226,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -257,8 +257,8 @@
             "end": 574,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -272,7 +272,6 @@
             "start": 586,
             "end": 659,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -313,8 +312,8 @@
                             "end": 615,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "MemberExpression",
@@ -332,11 +331,11 @@
                             "end": 634,
                             "name": "toPrimitive"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       "property": {
                         "type": "Identifier",
@@ -344,8 +343,8 @@
                         "end": 640,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -367,7 +366,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -397,8 +397,8 @@
             "end": 676,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -412,7 +412,6 @@
             "start": 688,
             "end": 759,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -453,8 +452,8 @@
                             "end": 717,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "MemberExpression",
@@ -472,11 +471,11 @@
                             "end": 736,
                             "name": "toPrimitive"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       "property": {
                         "type": "Identifier",
@@ -484,8 +483,8 @@
                         "end": 742,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -507,7 +506,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -537,8 +537,8 @@
             "end": 776,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -552,7 +552,6 @@
             "start": 788,
             "end": 859,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -593,8 +592,8 @@
                             "end": 817,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "MemberExpression",
@@ -612,11 +611,11 @@
                             "end": 836,
                             "name": "toPrimitive"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       "property": {
                         "type": "Identifier",
@@ -624,8 +623,8 @@
                         "end": 842,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -647,7 +646,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -677,8 +677,8 @@
             "end": 876,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -692,7 +692,6 @@
             "start": 888,
             "end": 961,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -733,8 +732,8 @@
                             "end": 917,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "MemberExpression",
@@ -752,11 +751,11 @@
                             "end": 936,
                             "name": "toPrimitive"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       "property": {
                         "type": "Identifier",
@@ -764,8 +763,8 @@
                         "end": 942,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -787,7 +786,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

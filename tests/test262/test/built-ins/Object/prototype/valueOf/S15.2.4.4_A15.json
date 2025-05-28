@@ -27,8 +27,8 @@
             "end": 356,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 368,
             "end": 439,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -55,6 +54,7 @@
                   "type": "VariableDeclaration",
                   "start": 383,
                   "end": 424,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -86,8 +86,8 @@
                             "end": 415,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -95,12 +95,11 @@
                           "end": 423,
                           "name": "valueOf"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -121,7 +120,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

@@ -12,6 +12,7 @@
           "type": "VariableDeclaration",
           "start": 364,
           "end": 377,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -30,13 +31,13 @@
                 "elements": []
               }
             }
-          ],
-          "kind": "let"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 380,
           "end": 603,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -68,8 +69,8 @@
                     "end": 400,
                     "name": "parse"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -89,7 +90,6 @@
                       "end": 427,
                       "name": "reviver"
                     },
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [
@@ -114,9 +114,7 @@
                             "type": "Property",
                             "start": 436,
                             "end": 442,
-                            "method": false,
-                            "shorthand": true,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 436,
@@ -129,7 +127,9 @@
                               "end": 442,
                               "name": "source"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false
                           }
                         ]
                       }
@@ -163,61 +163,14 @@
                                 "end": 460,
                                 "name": "push"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
                                 "type": "TemplateLiteral",
                                 "start": 461,
                                 "end": 522,
-                                "expressions": [
-                                  {
-                                    "type": "Identifier",
-                                    "start": 470,
-                                    "end": 471,
-                                    "name": "k"
-                                  },
-                                  {
-                                    "type": "CallExpression",
-                                    "start": 483,
-                                    "end": 500,
-                                    "callee": {
-                                      "type": "MemberExpression",
-                                      "start": 483,
-                                      "end": 497,
-                                      "object": {
-                                        "type": "Identifier",
-                                        "start": 483,
-                                        "end": 487,
-                                        "name": "JSON"
-                                      },
-                                      "property": {
-                                        "type": "Identifier",
-                                        "start": 488,
-                                        "end": 497,
-                                        "name": "stringify"
-                                      },
-                                      "computed": false,
-                                      "optional": false
-                                    },
-                                    "arguments": [
-                                      {
-                                        "type": "Identifier",
-                                        "start": 498,
-                                        "end": 499,
-                                        "name": "v"
-                                      }
-                                    ],
-                                    "optional": false
-                                  },
-                                  {
-                                    "type": "Identifier",
-                                    "start": 513,
-                                    "end": 519,
-                                    "name": "source"
-                                  }
-                                ],
                                 "quasis": [
                                   {
                                     "type": "TemplateElement",
@@ -258,6 +211,53 @@
                                       "cooked": "|"
                                     },
                                     "tail": true
+                                  }
+                                ],
+                                "expressions": [
+                                  {
+                                    "type": "Identifier",
+                                    "start": 470,
+                                    "end": 471,
+                                    "name": "k"
+                                  },
+                                  {
+                                    "type": "CallExpression",
+                                    "start": 483,
+                                    "end": 500,
+                                    "callee": {
+                                      "type": "MemberExpression",
+                                      "start": 483,
+                                      "end": 497,
+                                      "object": {
+                                        "type": "Identifier",
+                                        "start": 483,
+                                        "end": 487,
+                                        "name": "JSON"
+                                      },
+                                      "property": {
+                                        "type": "Identifier",
+                                        "start": 488,
+                                        "end": 497,
+                                        "name": "stringify"
+                                      },
+                                      "optional": false,
+                                      "computed": false
+                                    },
+                                    "arguments": [
+                                      {
+                                        "type": "Identifier",
+                                        "start": 498,
+                                        "end": 499,
+                                        "name": "v"
+                                      }
+                                    ],
+                                    "optional": false
+                                  },
+                                  {
+                                    "type": "Identifier",
+                                    "start": 513,
+                                    "end": 519,
+                                    "name": "source"
                                   }
                                 ]
                               }
@@ -321,8 +321,8 @@
                                         "value": 1,
                                         "raw": "1"
                                       },
-                                      "computed": true,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": true
                                     },
                                     "property": {
                                       "type": "Identifier",
@@ -330,8 +330,8 @@
                                       "end": 562,
                                       "name": "push"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "arguments": [
                                     {
@@ -368,19 +368,19 @@
                               "end": 595,
                               "name": "k"
                             },
-                            "computed": true,
-                            "optional": false
+                            "optional": false,
+                            "computed": true
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   }
                 ],
                 "optional": false
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -406,8 +406,8 @@
                 "end": 625,
                 "name": "compareArray"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -466,6 +466,7 @@
           "type": "VariableDeclaration",
           "start": 868,
           "end": 881,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -484,13 +485,13 @@
                 "elements": []
               }
             }
-          ],
-          "kind": "let"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 884,
           "end": 1109,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -522,8 +523,8 @@
                     "end": 904,
                     "name": "parse"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -538,7 +539,6 @@
                     "start": 923,
                     "end": 1107,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [
@@ -563,9 +563,7 @@
                             "type": "Property",
                             "start": 941,
                             "end": 947,
-                            "method": false,
-                            "shorthand": true,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 941,
@@ -578,7 +576,9 @@
                               "end": 947,
                               "name": "source"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false
                           }
                         ]
                       }
@@ -612,61 +612,14 @@
                                 "end": 965,
                                 "name": "push"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
                                 "type": "TemplateLiteral",
                                 "start": 966,
                                 "end": 1027,
-                                "expressions": [
-                                  {
-                                    "type": "Identifier",
-                                    "start": 975,
-                                    "end": 976,
-                                    "name": "k"
-                                  },
-                                  {
-                                    "type": "CallExpression",
-                                    "start": 988,
-                                    "end": 1005,
-                                    "callee": {
-                                      "type": "MemberExpression",
-                                      "start": 988,
-                                      "end": 1002,
-                                      "object": {
-                                        "type": "Identifier",
-                                        "start": 988,
-                                        "end": 992,
-                                        "name": "JSON"
-                                      },
-                                      "property": {
-                                        "type": "Identifier",
-                                        "start": 993,
-                                        "end": 1002,
-                                        "name": "stringify"
-                                      },
-                                      "computed": false,
-                                      "optional": false
-                                    },
-                                    "arguments": [
-                                      {
-                                        "type": "Identifier",
-                                        "start": 1003,
-                                        "end": 1004,
-                                        "name": "v"
-                                      }
-                                    ],
-                                    "optional": false
-                                  },
-                                  {
-                                    "type": "Identifier",
-                                    "start": 1018,
-                                    "end": 1024,
-                                    "name": "source"
-                                  }
-                                ],
                                 "quasis": [
                                   {
                                     "type": "TemplateElement",
@@ -707,6 +660,53 @@
                                       "cooked": "|"
                                     },
                                     "tail": true
+                                  }
+                                ],
+                                "expressions": [
+                                  {
+                                    "type": "Identifier",
+                                    "start": 975,
+                                    "end": 976,
+                                    "name": "k"
+                                  },
+                                  {
+                                    "type": "CallExpression",
+                                    "start": 988,
+                                    "end": 1005,
+                                    "callee": {
+                                      "type": "MemberExpression",
+                                      "start": 988,
+                                      "end": 1002,
+                                      "object": {
+                                        "type": "Identifier",
+                                        "start": 988,
+                                        "end": 992,
+                                        "name": "JSON"
+                                      },
+                                      "property": {
+                                        "type": "Identifier",
+                                        "start": 993,
+                                        "end": 1002,
+                                        "name": "stringify"
+                                      },
+                                      "optional": false,
+                                      "computed": false
+                                    },
+                                    "arguments": [
+                                      {
+                                        "type": "Identifier",
+                                        "start": 1003,
+                                        "end": 1004,
+                                        "name": "v"
+                                      }
+                                    ],
+                                    "optional": false
+                                  },
+                                  {
+                                    "type": "Identifier",
+                                    "start": 1018,
+                                    "end": 1024,
+                                    "name": "source"
                                   }
                                 ]
                               }
@@ -770,8 +770,8 @@
                                         "end": 1061,
                                         "name": "q"
                                       },
-                                      "computed": false,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": false
                                     },
                                     "property": {
                                       "type": "Identifier",
@@ -779,8 +779,8 @@
                                       "end": 1067,
                                       "name": "added"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "right": {
                                     "type": "Literal",
@@ -814,19 +814,19 @@
                               "end": 1101,
                               "name": "k"
                             },
-                            "computed": true,
-                            "optional": false
+                            "optional": false,
+                            "computed": true
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   }
                 ],
                 "optional": false
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -852,8 +852,8 @@
                 "end": 1131,
                 "name": "compareArray"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

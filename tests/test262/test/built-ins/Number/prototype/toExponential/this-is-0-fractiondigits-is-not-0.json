@@ -27,8 +27,8 @@
             "end": 922,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -57,8 +57,8 @@
                 "end": 940,
                 "name": "toExponential"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -113,8 +113,8 @@
             "end": 983,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -143,8 +143,8 @@
                 "end": 1001,
                 "name": "toExponential"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -199,8 +199,8 @@
             "end": 1045,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -229,8 +229,8 @@
                 "end": 1063,
                 "name": "toExponential"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -285,8 +285,8 @@
             "end": 1112,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -315,8 +315,8 @@
                 "end": 1130,
                 "name": "toExponential"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -371,8 +371,8 @@
             "end": 1195,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -392,14 +392,14 @@
                   "start": 1197,
                   "end": 1199,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1198,
                     "end": 1199,
                     "value": 0,
                     "raw": "0"
-                  }
+                  },
+                  "prefix": true
                 }
               },
               "property": {
@@ -408,8 +408,8 @@
                 "end": 1214,
                 "name": "toExponential"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -464,8 +464,8 @@
             "end": 1258,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -485,14 +485,14 @@
                   "start": 1260,
                   "end": 1262,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1261,
                     "end": 1262,
                     "value": 0,
                     "raw": "0"
-                  }
+                  },
+                  "prefix": true
                 }
               },
               "property": {
@@ -501,8 +501,8 @@
                 "end": 1277,
                 "name": "toExponential"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -557,8 +557,8 @@
             "end": 1322,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -578,14 +578,14 @@
                   "start": 1324,
                   "end": 1326,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1325,
                     "end": 1326,
                     "value": 0,
                     "raw": "0"
-                  }
+                  },
+                  "prefix": true
                 }
               },
               "property": {
@@ -594,8 +594,8 @@
                 "end": 1341,
                 "name": "toExponential"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -650,8 +650,8 @@
             "end": 1391,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -671,14 +671,14 @@
                   "start": 1393,
                   "end": 1395,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1394,
                     "end": 1395,
                     "value": 0,
                     "raw": "0"
-                  }
+                  },
+                  "prefix": true
                 }
               },
               "property": {
@@ -687,8 +687,8 @@
                 "end": 1410,
                 "name": "toExponential"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -743,8 +743,8 @@
             "end": 1476,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -773,8 +773,8 @@
                 "end": 1496,
                 "name": "toExponential"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -829,8 +829,8 @@
             "end": 1544,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -850,14 +850,14 @@
                   "start": 1546,
                   "end": 1550,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1547,
                     "end": 1550,
                     "value": 0,
                     "raw": "0.0"
-                  }
+                  },
+                  "prefix": true
                 }
               },
               "property": {
@@ -866,8 +866,8 @@
                 "end": 1565,
                 "name": "toExponential"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

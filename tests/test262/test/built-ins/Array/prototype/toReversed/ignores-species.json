@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 365,
       "end": 376,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             "elements": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -53,8 +53,8 @@
             "end": 390,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ObjectExpression",
@@ -93,8 +93,8 @@
               "end": 410,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "MemberExpression",
@@ -112,18 +112,17 @@
               "end": 425,
               "name": "species"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "FunctionExpression",
           "start": 429,
           "end": 443,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -132,7 +131,8 @@
             "start": 441,
             "end": 443,
             "body": []
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -160,8 +160,8 @@
             "end": 461,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -184,8 +184,8 @@
                 "end": 483,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -208,8 +208,8 @@
                     "end": 496,
                     "name": "toReversed"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -233,8 +233,8 @@
               "end": 516,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         ],
         "optional": false
@@ -244,6 +244,7 @@
       "type": "VariableDeclaration",
       "start": 520,
       "end": 531,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -262,8 +263,7 @@
             "elements": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -289,8 +289,8 @@
             "end": 554,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -315,9 +315,7 @@
                 "type": "Property",
                 "start": 577,
                 "end": 647,
-                "method": true,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 577,
@@ -329,7 +327,6 @@
                   "start": 580,
                   "end": 647,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -364,9 +361,12 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": true,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -398,8 +398,8 @@
             "end": 665,
             "name": "toReversed"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false

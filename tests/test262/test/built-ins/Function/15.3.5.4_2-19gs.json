@@ -27,8 +27,8 @@
             "end": 386,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 398,
             "end": 465,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -55,6 +54,7 @@
                   "type": "VariableDeclaration",
                   "start": 413,
                   "end": 463,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -79,7 +79,6 @@
                             "start": 427,
                             "end": 461,
                             "id": null,
-                            "expression": false,
                             "generator": false,
                             "async": false,
                             "params": [],
@@ -107,17 +106,18 @@
                                   }
                                 }
                               ]
-                            }
+                            },
+                            "expression": false
                           }
                         },
                         "arguments": []
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -133,7 +133,6 @@
         "end": 488,
         "name": "gNonStrict"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -162,12 +161,13 @@
                 "end": 519,
                 "name": "caller"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         ]
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

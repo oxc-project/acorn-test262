@@ -27,8 +27,8 @@
             "end": 403,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 407,
             "end": 437,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "NewExpression",
               "start": 414,
@@ -55,7 +54,8 @@
                   "name": "date_1899_end"
                 }
               ]
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -99,8 +99,8 @@
             "end": 551,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -143,6 +143,7 @@
       "type": "VariableDeclaration",
       "start": 656,
       "end": 690,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -174,8 +175,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -201,8 +201,8 @@
             "end": 707,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -210,13 +210,13 @@
             "start": 708,
             "end": 718,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 715,
               "end": 718,
               "name": "x13"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -240,6 +240,7 @@
       "type": "VariableDeclaration",
       "start": 788,
       "end": 822,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -271,8 +272,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -298,8 +298,8 @@
             "end": 842,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -349,8 +349,8 @@
             "end": 936,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -358,7 +358,6 @@
             "start": 940,
             "end": 972,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "NewExpression",
               "start": 947,
@@ -377,7 +376,8 @@
                   "name": "date_1900_start"
                 }
               ]
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -421,8 +421,8 @@
             "end": 1088,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -465,6 +465,7 @@
       "type": "VariableDeclaration",
       "start": 1205,
       "end": 1241,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -496,8 +497,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -523,8 +523,8 @@
             "end": 1258,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -532,13 +532,13 @@
             "start": 1259,
             "end": 1269,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 1266,
               "end": 1269,
               "name": "x23"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -562,6 +562,7 @@
       "type": "VariableDeclaration",
       "start": 1339,
       "end": 1375,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -593,8 +594,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -620,8 +620,8 @@
             "end": 1395,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -671,8 +671,8 @@
             "end": 1489,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -680,7 +680,6 @@
             "start": 1493,
             "end": 1523,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "NewExpression",
               "start": 1500,
@@ -699,7 +698,8 @@
                   "name": "date_1969_end"
                 }
               ]
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -743,8 +743,8 @@
             "end": 1637,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -787,6 +787,7 @@
       "type": "VariableDeclaration",
       "start": 1742,
       "end": 1776,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -818,8 +819,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -845,8 +845,8 @@
             "end": 1793,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -854,13 +854,13 @@
             "start": 1794,
             "end": 1804,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 1801,
               "end": 1804,
               "name": "x33"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -884,6 +884,7 @@
       "type": "VariableDeclaration",
       "start": 1874,
       "end": 1908,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -915,8 +916,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -942,8 +942,8 @@
             "end": 1928,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -993,8 +993,8 @@
             "end": 2022,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1002,7 +1002,6 @@
             "start": 2026,
             "end": 2058,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "NewExpression",
               "start": 2033,
@@ -1021,7 +1020,8 @@
                   "name": "date_1970_start"
                 }
               ]
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1065,8 +1065,8 @@
             "end": 2174,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1109,6 +1109,7 @@
       "type": "VariableDeclaration",
       "start": 2291,
       "end": 2327,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1140,8 +1141,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1167,8 +1167,8 @@
             "end": 2344,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1176,13 +1176,13 @@
             "start": 2345,
             "end": 2355,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 2352,
               "end": 2355,
               "name": "x43"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1206,6 +1206,7 @@
       "type": "VariableDeclaration",
       "start": 2425,
       "end": 2461,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1237,8 +1238,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1264,8 +1264,8 @@
             "end": 2481,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1315,8 +1315,8 @@
             "end": 2575,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1324,7 +1324,6 @@
             "start": 2579,
             "end": 2609,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "NewExpression",
               "start": 2586,
@@ -1343,7 +1342,8 @@
                   "name": "date_1999_end"
                 }
               ]
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1387,8 +1387,8 @@
             "end": 2723,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1431,6 +1431,7 @@
       "type": "VariableDeclaration",
       "start": 2828,
       "end": 2862,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1462,8 +1463,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1489,8 +1489,8 @@
             "end": 2879,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1498,13 +1498,13 @@
             "start": 2880,
             "end": 2890,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 2887,
               "end": 2890,
               "name": "x53"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1528,6 +1528,7 @@
       "type": "VariableDeclaration",
       "start": 2960,
       "end": 2994,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1559,8 +1560,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1586,8 +1586,8 @@
             "end": 3014,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1637,8 +1637,8 @@
             "end": 3108,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1646,7 +1646,6 @@
             "start": 3112,
             "end": 3144,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "NewExpression",
               "start": 3119,
@@ -1665,7 +1664,8 @@
                   "name": "date_2000_start"
                 }
               ]
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1709,8 +1709,8 @@
             "end": 3260,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1753,6 +1753,7 @@
       "type": "VariableDeclaration",
       "start": 3377,
       "end": 3413,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1784,8 +1785,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1811,8 +1811,8 @@
             "end": 3430,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1820,13 +1820,13 @@
             "start": 3431,
             "end": 3441,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 3438,
               "end": 3441,
               "name": "x63"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1850,6 +1850,7 @@
       "type": "VariableDeclaration",
       "start": 3511,
       "end": 3547,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1881,8 +1882,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1908,8 +1908,8 @@
             "end": 3567,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1959,8 +1959,8 @@
             "end": 3661,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1968,7 +1968,6 @@
             "start": 3665,
             "end": 3695,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "NewExpression",
               "start": 3672,
@@ -1987,7 +1986,8 @@
                   "name": "date_2099_end"
                 }
               ]
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -2031,8 +2031,8 @@
             "end": 3809,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2075,6 +2075,7 @@
       "type": "VariableDeclaration",
       "start": 3914,
       "end": 3948,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2106,8 +2107,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -2133,8 +2133,8 @@
             "end": 3965,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2142,13 +2142,13 @@
             "start": 3966,
             "end": 3976,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 3973,
               "end": 3976,
               "name": "x73"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -2172,6 +2172,7 @@
       "type": "VariableDeclaration",
       "start": 4046,
       "end": 4080,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2203,8 +2204,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -2230,8 +2230,8 @@
             "end": 4100,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2281,8 +2281,8 @@
             "end": 4194,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2290,7 +2290,6 @@
             "start": 4198,
             "end": 4230,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "NewExpression",
               "start": 4205,
@@ -2309,7 +2308,8 @@
                   "name": "date_2100_start"
                 }
               ]
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -2353,8 +2353,8 @@
             "end": 4346,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2397,6 +2397,7 @@
       "type": "VariableDeclaration",
       "start": 4463,
       "end": 4499,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2428,8 +2429,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -2455,8 +2455,8 @@
             "end": 4516,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2464,13 +2464,13 @@
             "start": 4517,
             "end": 4527,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 4524,
               "end": 4527,
               "name": "x83"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -2494,6 +2494,7 @@
       "type": "VariableDeclaration",
       "start": 4597,
       "end": 4633,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2525,8 +2526,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -2552,8 +2552,8 @@
             "end": 4653,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

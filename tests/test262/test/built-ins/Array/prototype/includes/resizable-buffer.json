@@ -12,6 +12,7 @@
         "type": "VariableDeclaration",
         "start": 385,
         "end": 393,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -43,6 +43,7 @@
             "type": "VariableDeclaration",
             "start": 408,
             "end": 503,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -93,8 +94,8 @@
                           "end": 473,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     },
                     {
@@ -125,21 +126,21 @@
                           "end": 501,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   ],
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 506,
             "end": 546,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -185,13 +186,13 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 549,
             "end": 624,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -248,8 +249,8 @@
                           "end": 619,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     },
                     {
@@ -262,13 +263,13 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 627,
             "end": 667,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -307,13 +308,13 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 670,
             "end": 745,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -370,20 +371,20 @@
                           "end": 743,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 786,
             "end": 816,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -415,8 +416,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ForStatement",
@@ -426,6 +426,7 @@
               "type": "VariableDeclaration",
               "start": 824,
               "end": 833,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -445,8 +446,7 @@
                     "raw": "0"
                   }
                 }
-              ],
-              "kind": "let"
+              ]
             },
             "test": {
               "type": "BinaryExpression",
@@ -510,8 +510,8 @@
                         "end": 862,
                         "name": "i"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "right": {
                       "type": "CallExpression",
@@ -561,6 +561,7 @@
             "type": "VariableDeclaration",
             "start": 1223,
             "end": 1262,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -600,13 +601,13 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 1265,
             "end": 1304,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -646,8 +647,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -692,8 +692,8 @@
                           "end": 1330,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -701,8 +701,8 @@
                         "end": 1339,
                         "name": "includes"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -710,8 +710,8 @@
                       "end": 1344,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -753,7 +753,6 @@
                   "start": 1373,
                   "end": 1427,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 1374,
@@ -782,8 +781,8 @@
                             "end": 1389,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -791,8 +790,8 @@
                           "end": 1398,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -800,8 +799,8 @@
                         "end": 1403,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -818,7 +817,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -867,8 +867,8 @@
                           "end": 1454,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -876,8 +876,8 @@
                         "end": 1463,
                         "name": "includes"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -885,8 +885,8 @@
                       "end": 1468,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -935,7 +935,6 @@
                   "start": 1500,
                   "end": 1550,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 1501,
@@ -964,8 +963,8 @@
                             "end": 1516,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -973,8 +972,8 @@
                           "end": 1525,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -982,8 +981,8 @@
                         "end": 1530,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1007,7 +1006,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -1056,8 +1056,8 @@
                           "end": 1577,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1065,8 +1065,8 @@
                         "end": 1586,
                         "name": "includes"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1074,8 +1074,8 @@
                       "end": 1591,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1095,14 +1095,14 @@
                       "start": 1609,
                       "end": 1611,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 1610,
                         "end": 1611,
                         "value": 3,
                         "raw": "3"
-                      }
+                      },
+                      "prefix": true
                     }
                   ],
                   "optional": false
@@ -1131,7 +1131,6 @@
                   "start": 1624,
                   "end": 1675,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 1625,
@@ -1160,8 +1159,8 @@
                             "end": 1640,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -1169,8 +1168,8 @@
                           "end": 1649,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1178,8 +1177,8 @@
                         "end": 1654,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1199,18 +1198,19 @@
                         "start": 1672,
                         "end": 1674,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1673,
                           "end": 1674,
                           "value": 2,
                           "raw": "2"
-                        }
+                        },
+                        "prefix": true
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -1236,7 +1236,6 @@
                   "start": 1687,
                   "end": 1744,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 1688,
@@ -1265,8 +1264,8 @@
                             "end": 1703,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -1274,8 +1273,8 @@
                           "end": 1712,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1283,8 +1282,8 @@
                         "end": 1717,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1301,7 +1300,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -1350,8 +1350,8 @@
                           "end": 1771,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1359,8 +1359,8 @@
                         "end": 1780,
                         "name": "includes"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1368,8 +1368,8 @@
                       "end": 1785,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1411,7 +1411,6 @@
                   "start": 1824,
                   "end": 1888,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 1825,
@@ -1440,8 +1439,8 @@
                             "end": 1840,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -1449,8 +1448,8 @@
                           "end": 1849,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1458,8 +1457,8 @@
                         "end": 1854,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1476,7 +1475,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -1525,8 +1525,8 @@
                           "end": 1915,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1534,8 +1534,8 @@
                         "end": 1924,
                         "name": "includes"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1543,8 +1543,8 @@
                       "end": 1929,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1593,7 +1593,6 @@
                   "start": 1971,
                   "end": 2031,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 1972,
@@ -1622,8 +1621,8 @@
                             "end": 1987,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -1631,8 +1630,8 @@
                           "end": 1996,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1640,8 +1639,8 @@
                         "end": 2001,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1665,7 +1664,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -1714,8 +1714,8 @@
                           "end": 2058,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1723,8 +1723,8 @@
                         "end": 2067,
                         "name": "includes"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1732,8 +1732,8 @@
                       "end": 2072,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1753,14 +1753,14 @@
                       "start": 2100,
                       "end": 2102,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 2101,
                         "end": 2102,
                         "value": 2,
                         "raw": "2"
-                      }
+                      },
+                      "prefix": true
                     }
                   ],
                   "optional": false
@@ -1789,7 +1789,6 @@
                   "start": 2115,
                   "end": 2176,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 2116,
@@ -1818,8 +1817,8 @@
                             "end": 2131,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -1827,8 +1826,8 @@
                           "end": 2140,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1836,8 +1835,8 @@
                         "end": 2145,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1857,18 +1856,19 @@
                         "start": 2173,
                         "end": 2175,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 2174,
                           "end": 2175,
                           "value": 1,
                           "raw": "1"
-                        }
+                        },
+                        "prefix": true
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -1917,8 +1917,8 @@
                           "end": 2203,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1926,8 +1926,8 @@
                         "end": 2212,
                         "name": "includes"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1935,8 +1935,8 @@
                       "end": 2217,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1978,7 +1978,6 @@
                   "start": 2249,
                   "end": 2306,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 2250,
@@ -2007,8 +2006,8 @@
                             "end": 2265,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -2016,8 +2015,8 @@
                           "end": 2274,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -2025,8 +2024,8 @@
                         "end": 2279,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2043,7 +2042,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -2092,8 +2092,8 @@
                           "end": 2333,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -2101,8 +2101,8 @@
                         "end": 2342,
                         "name": "includes"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -2110,8 +2110,8 @@
                       "end": 2347,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -2160,7 +2160,6 @@
                   "start": 2382,
                   "end": 2435,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 2383,
@@ -2189,8 +2188,8 @@
                             "end": 2398,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -2198,8 +2197,8 @@
                           "end": 2407,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -2207,8 +2206,8 @@
                         "end": 2412,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2232,7 +2231,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -2281,8 +2281,8 @@
                           "end": 2462,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -2290,8 +2290,8 @@
                         "end": 2471,
                         "name": "includes"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -2299,8 +2299,8 @@
                       "end": 2476,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -2320,14 +2320,14 @@
                       "start": 2497,
                       "end": 2499,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 2498,
                         "end": 2499,
                         "value": 3,
                         "raw": "3"
-                      }
+                      },
+                      "prefix": true
                     }
                   ],
                   "optional": false
@@ -2356,7 +2356,6 @@
                   "start": 2512,
                   "end": 2566,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 2513,
@@ -2385,8 +2384,8 @@
                             "end": 2528,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -2394,8 +2393,8 @@
                           "end": 2537,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -2403,8 +2402,8 @@
                         "end": 2542,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2424,18 +2423,19 @@
                         "start": 2563,
                         "end": 2565,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 2564,
                           "end": 2565,
                           "value": 2,
                           "raw": "2"
-                        }
+                        },
+                        "prefix": true
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -2461,7 +2461,6 @@
                   "start": 2578,
                   "end": 2638,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 2579,
@@ -2490,8 +2489,8 @@
                             "end": 2594,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -2499,8 +2498,8 @@
                           "end": 2603,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -2508,8 +2507,8 @@
                         "end": 2608,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2526,7 +2525,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -2575,8 +2575,8 @@
                           "end": 2665,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -2584,8 +2584,8 @@
                         "end": 2674,
                         "name": "includes"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -2593,8 +2593,8 @@
                       "end": 2679,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -2636,7 +2636,6 @@
                   "start": 2721,
                   "end": 2788,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 2722,
@@ -2665,8 +2664,8 @@
                             "end": 2737,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -2674,8 +2673,8 @@
                           "end": 2746,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -2683,8 +2682,8 @@
                         "end": 2751,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2701,7 +2700,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -2750,8 +2750,8 @@
                           "end": 2815,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -2759,8 +2759,8 @@
                         "end": 2824,
                         "name": "includes"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -2768,8 +2768,8 @@
                       "end": 2829,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -2818,7 +2818,6 @@
                   "start": 2874,
                   "end": 2937,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 2875,
@@ -2847,8 +2846,8 @@
                             "end": 2890,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -2856,8 +2855,8 @@
                           "end": 2899,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -2865,8 +2864,8 @@
                         "end": 2904,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2890,7 +2889,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -2939,8 +2939,8 @@
                           "end": 2964,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -2948,8 +2948,8 @@
                         "end": 2973,
                         "name": "includes"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -2957,8 +2957,8 @@
                       "end": 2978,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -2978,14 +2978,14 @@
                       "start": 3009,
                       "end": 3011,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 3010,
                         "end": 3011,
                         "value": 2,
                         "raw": "2"
-                      }
+                      },
+                      "prefix": true
                     }
                   ],
                   "optional": false
@@ -3014,7 +3014,6 @@
                   "start": 3024,
                   "end": 3088,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 3025,
@@ -3043,8 +3042,8 @@
                             "end": 3040,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -3052,8 +3051,8 @@
                           "end": 3049,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -3061,8 +3060,8 @@
                         "end": 3054,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3082,18 +3081,19 @@
                         "start": 3085,
                         "end": 3087,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 3086,
                           "end": 3087,
                           "value": 1,
                           "raw": "1"
-                        }
+                        },
+                        "prefix": true
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -3123,8 +3123,8 @@
                   "end": 3159,
                   "name": "resize"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -3155,8 +3155,8 @@
                       "end": 3186,
                       "name": "BYTES_PER_ELEMENT"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ],
@@ -3183,7 +3183,6 @@
                   "start": 3340,
                   "end": 3387,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 3341,
@@ -3212,8 +3211,8 @@
                             "end": 3356,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -3221,8 +3220,8 @@
                           "end": 3365,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -3230,8 +3229,8 @@
                         "end": 3370,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3248,7 +3247,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -3274,7 +3274,6 @@
                   "start": 3399,
                   "end": 3456,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 3400,
@@ -3303,8 +3302,8 @@
                             "end": 3415,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -3312,8 +3311,8 @@
                           "end": 3424,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -3321,8 +3320,8 @@
                         "end": 3429,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3339,7 +3338,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -3388,8 +3388,8 @@
                           "end": 3484,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -3397,8 +3397,8 @@
                         "end": 3493,
                         "name": "includes"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -3406,8 +3406,8 @@
                       "end": 3498,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -3449,7 +3449,6 @@
                   "start": 3530,
                   "end": 3587,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 3531,
@@ -3478,8 +3477,8 @@
                             "end": 3546,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -3487,8 +3486,8 @@
                           "end": 3555,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -3496,8 +3495,8 @@
                         "end": 3560,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3514,7 +3513,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -3540,7 +3540,6 @@
                   "start": 3599,
                   "end": 3659,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 3600,
@@ -3569,8 +3568,8 @@
                             "end": 3615,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -3578,8 +3577,8 @@
                           "end": 3624,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -3587,8 +3586,8 @@
                         "end": 3629,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3605,7 +3604,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -3654,8 +3654,8 @@
                           "end": 3686,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -3663,8 +3663,8 @@
                         "end": 3695,
                         "name": "includes"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -3672,8 +3672,8 @@
                       "end": 3700,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -3715,7 +3715,6 @@
                   "start": 3742,
                   "end": 3809,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 3743,
@@ -3744,8 +3743,8 @@
                             "end": 3758,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -3753,8 +3752,8 @@
                           "end": 3767,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -3762,8 +3761,8 @@
                         "end": 3772,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3780,7 +3779,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -3810,8 +3810,8 @@
                   "end": 3883,
                   "name": "resize"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -3842,8 +3842,8 @@
                       "end": 3910,
                       "name": "BYTES_PER_ELEMENT"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ],
@@ -3870,7 +3870,6 @@
                   "start": 3922,
                   "end": 3969,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 3923,
@@ -3899,8 +3898,8 @@
                             "end": 3938,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -3908,8 +3907,8 @@
                           "end": 3947,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -3917,8 +3916,8 @@
                         "end": 3952,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3935,7 +3934,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -3961,7 +3961,6 @@
                   "start": 3981,
                   "end": 4038,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 3982,
@@ -3990,8 +3989,8 @@
                             "end": 3997,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -3999,8 +3998,8 @@
                           "end": 4006,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -4008,8 +4007,8 @@
                         "end": 4011,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -4026,7 +4025,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -4052,7 +4052,6 @@
                   "start": 4050,
                   "end": 4110,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 4051,
@@ -4081,8 +4080,8 @@
                             "end": 4066,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -4090,8 +4089,8 @@
                           "end": 4075,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -4099,8 +4098,8 @@
                         "end": 4080,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -4117,7 +4116,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -4147,8 +4147,8 @@
                   "end": 4147,
                   "name": "resize"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -4182,7 +4182,6 @@
                   "start": 4161,
                   "end": 4208,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 4162,
@@ -4211,8 +4210,8 @@
                             "end": 4177,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -4220,8 +4219,8 @@
                           "end": 4186,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -4229,8 +4228,8 @@
                         "end": 4191,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -4247,7 +4246,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -4273,7 +4273,6 @@
                   "start": 4220,
                   "end": 4277,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 4221,
@@ -4302,8 +4301,8 @@
                             "end": 4236,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -4311,8 +4310,8 @@
                           "end": 4245,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -4320,8 +4319,8 @@
                         "end": 4250,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -4338,7 +4337,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -4364,7 +4364,6 @@
                   "start": 4289,
                   "end": 4349,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 4290,
@@ -4393,8 +4392,8 @@
                             "end": 4305,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -4402,8 +4401,8 @@
                           "end": 4314,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -4411,8 +4410,8 @@
                         "end": 4319,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -4429,7 +4428,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -4455,7 +4455,6 @@
                   "start": 4362,
                   "end": 4412,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 4363,
@@ -4484,8 +4483,8 @@
                             "end": 4378,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -4493,8 +4492,8 @@
                           "end": 4387,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -4502,8 +4501,8 @@
                         "end": 4392,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -4520,7 +4519,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -4546,7 +4546,6 @@
                   "start": 4424,
                   "end": 4481,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 4425,
@@ -4575,8 +4574,8 @@
                             "end": 4440,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -4584,8 +4583,8 @@
                           "end": 4449,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -4593,8 +4592,8 @@
                         "end": 4454,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -4611,7 +4610,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -4641,8 +4641,8 @@
                   "end": 4543,
                   "name": "resize"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -4673,8 +4673,8 @@
                       "end": 4570,
                       "name": "BYTES_PER_ELEMENT"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ],
@@ -4689,6 +4689,7 @@
               "type": "VariableDeclaration",
               "start": 4580,
               "end": 4589,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -4708,8 +4709,7 @@
                     "raw": "0"
                   }
                 }
-              ],
-              "kind": "let"
+              ]
             },
             "test": {
               "type": "BinaryExpression",
@@ -4773,8 +4773,8 @@
                         "end": 4618,
                         "name": "i"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "right": {
                       "type": "CallExpression",
@@ -4824,6 +4824,7 @@
             "type": "VariableDeclaration",
             "start": 4933,
             "end": 4972,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -4863,8 +4864,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -4909,8 +4909,8 @@
                           "end": 4998,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -4918,8 +4918,8 @@
                         "end": 5007,
                         "name": "includes"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -4927,8 +4927,8 @@
                       "end": 5012,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -4970,7 +4970,6 @@
                   "start": 5041,
                   "end": 5095,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 5042,
@@ -4999,8 +4998,8 @@
                             "end": 5057,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -5008,8 +5007,8 @@
                           "end": 5066,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -5017,8 +5016,8 @@
                         "end": 5071,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -5035,7 +5034,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -5061,7 +5061,6 @@
                   "start": 5107,
                   "end": 5154,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 5108,
@@ -5090,8 +5089,8 @@
                             "end": 5123,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -5099,8 +5098,8 @@
                           "end": 5132,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -5108,8 +5107,8 @@
                         "end": 5137,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -5126,7 +5125,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -5152,7 +5152,6 @@
                   "start": 5166,
                   "end": 5223,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 5167,
@@ -5181,8 +5180,8 @@
                             "end": 5182,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -5190,8 +5189,8 @@
                           "end": 5191,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -5199,8 +5198,8 @@
                         "end": 5196,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -5217,7 +5216,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -5266,8 +5266,8 @@
                           "end": 5250,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -5275,8 +5275,8 @@
                         "end": 5259,
                         "name": "includes"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -5284,8 +5284,8 @@
                       "end": 5264,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -5327,7 +5327,6 @@
                   "start": 5303,
                   "end": 5367,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 5304,
@@ -5356,8 +5355,8 @@
                             "end": 5319,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -5365,8 +5364,8 @@
                           "end": 5328,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -5374,8 +5373,8 @@
                         "end": 5333,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -5392,7 +5391,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -5418,7 +5418,6 @@
                   "start": 5379,
                   "end": 5436,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 5380,
@@ -5447,8 +5446,8 @@
                             "end": 5395,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -5456,8 +5455,8 @@
                           "end": 5404,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -5465,8 +5464,8 @@
                         "end": 5409,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -5483,7 +5482,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -5532,8 +5532,8 @@
                           "end": 5463,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -5541,8 +5541,8 @@
                         "end": 5472,
                         "name": "includes"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -5550,8 +5550,8 @@
                       "end": 5477,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -5593,7 +5593,6 @@
                   "start": 5509,
                   "end": 5566,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 5510,
@@ -5622,8 +5621,8 @@
                             "end": 5525,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -5631,8 +5630,8 @@
                           "end": 5534,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -5640,8 +5639,8 @@
                         "end": 5539,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -5658,7 +5657,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -5707,8 +5707,8 @@
                           "end": 5593,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -5716,8 +5716,8 @@
                         "end": 5602,
                         "name": "includes"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -5725,8 +5725,8 @@
                       "end": 5607,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -5768,7 +5768,6 @@
                   "start": 5639,
                   "end": 5699,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 5640,
@@ -5797,8 +5796,8 @@
                             "end": 5655,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -5806,8 +5805,8 @@
                           "end": 5664,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -5815,8 +5814,8 @@
                         "end": 5669,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -5833,7 +5832,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -5882,8 +5882,8 @@
                           "end": 5726,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -5891,8 +5891,8 @@
                         "end": 5735,
                         "name": "includes"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -5900,8 +5900,8 @@
                       "end": 5740,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -5943,7 +5943,6 @@
                   "start": 5782,
                   "end": 5849,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 5783,
@@ -5972,8 +5971,8 @@
                             "end": 5798,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -5981,8 +5980,8 @@
                           "end": 5807,
                           "name": "includes"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -5990,8 +5989,8 @@
                         "end": 5812,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -6008,7 +6007,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -6057,8 +6057,8 @@
                           "end": 5876,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -6066,8 +6066,8 @@
                         "end": 5885,
                         "name": "includes"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -6075,8 +6075,8 @@
                       "end": 5890,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {

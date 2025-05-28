@@ -27,8 +27,8 @@
             "end": 537,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -40,7 +40,6 @@
               "start": 538,
               "end": 548,
               "operator": "+",
-              "prefix": true,
               "argument": {
                 "type": "ParenthesizedExpression",
                 "start": 539,
@@ -52,7 +51,8 @@
                   "value": "12345",
                   "raw": "'12345'"
                 }
-              }
+              },
+              "prefix": true
             },
             "operator": "*",
             "right": {
@@ -98,8 +98,8 @@
             "end": 583,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

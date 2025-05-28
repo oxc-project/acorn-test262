@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 283,
       "end": 339,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -32,7 +33,6 @@
                 "end": 321,
                 "name": "foo"
               },
-              "expression": false,
               "generator": false,
               "async": true,
               "params": [],
@@ -41,7 +41,8 @@
                 "start": 324,
                 "end": 326,
                 "body": []
-              }
+              },
+              "expression": false
             },
             "property": {
               "type": "Identifier",
@@ -49,12 +50,11 @@
               "end": 338,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -80,8 +80,8 @@
             "end": 356,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -89,13 +89,13 @@
             "start": 357,
             "end": 377,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 364,
               "end": 377,
               "name": "AsyncFunction"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

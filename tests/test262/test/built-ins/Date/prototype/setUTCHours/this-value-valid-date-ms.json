@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 920,
       "end": 962,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -49,8 +50,8 @@
                     "end": 948,
                     "name": "UTC"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -80,13 +81,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 963,
       "end": 989,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -112,8 +113,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -150,8 +150,8 @@
               "end": 1021,
               "name": "setUTCHours"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -222,8 +222,8 @@
               "end": 1057,
               "name": "UTC"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -304,8 +304,8 @@
             "end": 1101,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -355,8 +355,8 @@
             "end": 1197,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -379,8 +379,8 @@
                 "end": 1213,
                 "name": "getTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -437,8 +437,8 @@
               "end": 1321,
               "name": "setUTCHours"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -467,14 +467,14 @@
               "start": 1331,
               "end": 1333,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1332,
                 "end": 1333,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -516,8 +516,8 @@
               "end": 1356,
               "name": "UTC"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -598,8 +598,8 @@
             "end": 1404,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -649,8 +649,8 @@
             "end": 1505,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -673,8 +673,8 @@
                 "end": 1521,
                 "name": "getTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -731,8 +731,8 @@
               "end": 1634,
               "name": "setUTCHours"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -803,8 +803,8 @@
               "end": 1671,
               "name": "UTC"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -878,8 +878,8 @@
             "end": 1711,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -929,8 +929,8 @@
             "end": 1811,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -953,8 +953,8 @@
                 "end": 1827,
                 "name": "getTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

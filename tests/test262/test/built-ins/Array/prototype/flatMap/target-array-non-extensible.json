@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 999,
       "end": 1082,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,7 +24,6 @@
             "start": 1007,
             "end": 1081,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -63,8 +63,8 @@
                         "end": 1040,
                         "name": "length"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "Literal",
@@ -99,8 +99,8 @@
                         "end": 1072,
                         "name": "preventExtensions"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -113,16 +113,17 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1084,
       "end": 1100,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -156,8 +157,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -184,8 +184,8 @@
             "end": 1116,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ObjectExpression",
@@ -224,8 +224,8 @@
               "end": 1138,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "MemberExpression",
@@ -243,11 +243,11 @@
               "end": 1153,
               "name": "species"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Identifier",
@@ -281,8 +281,8 @@
             "end": 1174,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -296,7 +296,6 @@
             "start": 1186,
             "end": 1254,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -329,8 +328,8 @@
                         "end": 1212,
                         "name": "flatMap"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -338,7 +337,6 @@
                         "start": 1213,
                         "end": 1250,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [
@@ -366,14 +364,16 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

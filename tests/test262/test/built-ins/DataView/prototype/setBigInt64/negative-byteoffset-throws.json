@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 277,
       "end": 310,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,13 +40,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 311,
       "end": 348,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -84,8 +85,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -111,8 +111,8 @@
             "end": 363,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -126,7 +126,6 @@
             "start": 376,
             "end": 421,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -159,8 +158,8 @@
                         "end": 409,
                         "name": "setBigInt64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -168,14 +167,14 @@
                         "start": 410,
                         "end": 412,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 411,
                           "end": 412,
                           "value": 1,
                           "raw": "1"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "Literal",
@@ -190,7 +189,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -227,8 +227,8 @@
             "end": 484,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -251,8 +251,8 @@
                 "end": 503,
                 "name": "getBigInt64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -308,8 +308,8 @@
             "end": 552,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -323,7 +323,6 @@
             "start": 565,
             "end": 617,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -356,8 +355,8 @@
                         "end": 598,
                         "name": "setBigInt64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -365,13 +364,13 @@
                         "start": 599,
                         "end": 608,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Identifier",
                           "start": 600,
                           "end": 608,
                           "name": "Infinity"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "Literal",
@@ -386,7 +385,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -423,8 +423,8 @@
             "end": 687,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -447,8 +447,8 @@
                 "end": 706,
                 "name": "getBigInt64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

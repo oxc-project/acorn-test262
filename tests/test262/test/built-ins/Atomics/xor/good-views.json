@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 369,
       "end": 407,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,13 +40,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 408,
       "end": 437,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -78,13 +79,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 438,
       "end": 489,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -116,15 +117,14 @@
                 "end": 486,
                 "name": "slice"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -146,7 +146,6 @@
             "start": 522,
             "end": 2653,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -166,6 +165,7 @@
                   "type": "VariableDeclaration",
                   "start": 614,
                   "end": 645,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -211,13 +211,13 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 648,
                   "end": 679,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -263,8 +263,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -292,8 +291,8 @@
                         "value": 8,
                         "raw": "8"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "right": {
                       "type": "Literal",
@@ -330,8 +329,8 @@
                         "value": 0,
                         "raw": "0"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "right": {
                       "type": "Literal",
@@ -366,8 +365,8 @@
                         "end": 750,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -390,8 +389,8 @@
                             "end": 762,
                             "name": "xor"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -434,8 +433,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -474,8 +473,8 @@
                         "value": 0,
                         "raw": "0"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "right": {
                       "type": "Literal",
@@ -510,8 +509,8 @@
                         "end": 931,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -531,8 +530,8 @@
                           "value": 8,
                           "raw": "8"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "MemberExpression",
@@ -551,8 +550,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -589,8 +588,8 @@
                         "end": 1058,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -613,8 +612,8 @@
                             "end": 1070,
                             "name": "xor"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -657,8 +656,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -697,8 +696,8 @@
                         "value": 0,
                         "raw": "0"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "right": {
                       "type": "Literal",
@@ -733,8 +732,8 @@
                         "end": 1239,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -754,8 +753,8 @@
                           "value": 8,
                           "raw": "8"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "MemberExpression",
@@ -774,8 +773,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -814,22 +813,22 @@
                         "value": 3,
                         "raw": "3"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "right": {
                       "type": "UnaryExpression",
                       "start": 1361,
                       "end": 1363,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 1362,
                         "end": 1363,
                         "value": 5,
                         "raw": "5"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 },
@@ -859,22 +858,22 @@
                         "value": 0,
                         "raw": "0"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "right": {
                       "type": "UnaryExpression",
                       "start": 1380,
                       "end": 1382,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 1381,
                         "end": 1382,
                         "value": 5,
                         "raw": "5"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 },
@@ -902,8 +901,8 @@
                         "end": 1402,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -926,8 +925,8 @@
                             "end": 1414,
                             "name": "xor"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -970,8 +969,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -1008,8 +1007,8 @@
                         "end": 1529,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1029,8 +1028,8 @@
                           "value": 3,
                           "raw": "3"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "MemberExpression",
@@ -1049,8 +1048,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -1089,8 +1088,8 @@
                         "value": 0,
                         "raw": "0"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "right": {
                       "type": "Literal",
@@ -1127,8 +1126,8 @@
                         "value": 3,
                         "raw": "3"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "right": {
                       "type": "Literal",
@@ -1163,8 +1162,8 @@
                         "end": 1690,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1187,8 +1186,8 @@
                             "end": 1702,
                             "name": "xor"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1231,8 +1230,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -1269,8 +1268,8 @@
                         "end": 1820,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1290,8 +1289,8 @@
                           "value": 3,
                           "raw": "3"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "MemberExpression",
@@ -1310,8 +1309,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -1350,8 +1349,8 @@
                         "value": 0,
                         "raw": "0"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "right": {
                       "type": "Literal",
@@ -1388,8 +1387,8 @@
                         "value": 3,
                         "raw": "3"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "right": {
                       "type": "Literal",
@@ -1424,8 +1423,8 @@
                         "end": 2007,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1448,8 +1447,8 @@
                             "end": 2019,
                             "name": "xor"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1492,8 +1491,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -1530,8 +1529,8 @@
                         "end": 2141,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1551,8 +1550,8 @@
                           "value": 3,
                           "raw": "3"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "MemberExpression",
@@ -1571,8 +1570,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -1605,7 +1604,6 @@
                         "start": 2326,
                         "end": 2649,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [
@@ -1625,6 +1623,7 @@
                               "type": "VariableDeclaration",
                               "start": 2349,
                               "end": 2372,
+                              "kind": "let",
                               "declarations": [
                                 {
                                   "type": "VariableDeclarator",
@@ -1657,8 +1656,7 @@
                                     "optional": false
                                   }
                                 }
-                              ],
-                              "kind": "let"
+                              ]
                             },
                             {
                               "type": "ExpressionStatement",
@@ -1684,8 +1682,8 @@
                                     "end": 2386,
                                     "name": "fill"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -1723,8 +1721,8 @@
                                     "end": 2536,
                                     "name": "store"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -1774,8 +1772,8 @@
                                     "end": 2573,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -1798,8 +1796,8 @@
                                         "end": 2585,
                                         "name": "xor"
                                       },
-                                      "computed": false,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": false
                                     },
                                     "arguments": [
                                       {
@@ -1843,14 +1841,16 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Identifier",

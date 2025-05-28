@@ -27,8 +27,8 @@
             "end": 336,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 348,
             "end": 387,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -78,7 +77,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -94,7 +94,6 @@
         "end": 411,
         "name": "gNonStrict"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -123,12 +122,13 @@
                 "end": 442,
                 "name": "caller"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         ]
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

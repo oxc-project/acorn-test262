@@ -27,8 +27,8 @@
             "end": 425,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -57,8 +57,8 @@
                 "end": 441,
                 "name": "toPrecision"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -106,8 +106,8 @@
             "end": 465,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -120,9 +120,7 @@
             "type": "ArrowFunctionExpression",
             "start": 478,
             "end": 502,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -151,8 +149,8 @@
                   "end": 499,
                   "name": "toPrecision"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -164,7 +162,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -194,8 +194,8 @@
             "end": 518,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -208,9 +208,7 @@
             "type": "ArrowFunctionExpression",
             "start": 531,
             "end": 557,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -239,8 +237,8 @@
                   "end": 552,
                   "name": "toPrecision"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -248,18 +246,20 @@
                   "start": 553,
                   "end": 556,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 554,
                     "end": 556,
                     "value": 10,
                     "raw": "10"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -289,8 +289,8 @@
             "end": 577,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -319,8 +319,8 @@
                 "end": 593,
                 "name": "toPrecision"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -368,8 +368,8 @@
             "end": 719,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -382,9 +382,7 @@
             "type": "ArrowFunctionExpression",
             "start": 732,
             "end": 758,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -413,8 +411,8 @@
                   "end": 753,
                   "name": "toPrecision"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -426,7 +424,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

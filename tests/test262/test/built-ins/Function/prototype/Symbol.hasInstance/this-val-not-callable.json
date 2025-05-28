@@ -27,8 +27,8 @@
             "end": 422,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -59,8 +59,8 @@
                     "end": 441,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "MemberExpression",
@@ -78,11 +78,11 @@
                     "end": 460,
                     "name": "hasInstance"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "property": {
                 "type": "Identifier",
@@ -90,8 +90,8 @@
                 "end": 466,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -131,8 +131,8 @@
             "end": 494,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -163,8 +163,8 @@
                     "end": 513,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "MemberExpression",
@@ -182,11 +182,11 @@
                     "end": 532,
                     "name": "hasInstance"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "property": {
                 "type": "Identifier",
@@ -194,8 +194,8 @@
                 "end": 538,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

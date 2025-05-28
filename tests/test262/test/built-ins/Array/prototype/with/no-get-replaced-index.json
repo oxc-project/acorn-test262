@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 609,
       "end": 632,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -54,8 +55,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -81,8 +81,8 @@
             "end": 654,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -107,9 +107,7 @@
                 "type": "Property",
                 "start": 669,
                 "end": 730,
-                "method": true,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 669,
@@ -121,7 +119,6 @@
                   "start": 672,
                   "end": 730,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -156,9 +153,12 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": true,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -170,6 +170,7 @@
       "type": "VariableDeclaration",
       "start": 736,
       "end": 764,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -201,8 +202,8 @@
                 "end": 757,
                 "name": "with"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -223,8 +224,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -250,8 +250,8 @@
             "end": 784,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

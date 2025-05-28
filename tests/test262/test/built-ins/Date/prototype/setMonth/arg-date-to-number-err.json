@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 453,
       "end": 476,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,13 +40,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 477,
       "end": 512,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -77,20 +78,20 @@
                 "end": 509,
                 "name": "getTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 513,
       "end": 585,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -111,9 +112,7 @@
                 "type": "Property",
                 "start": 527,
                 "end": 582,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 527,
@@ -125,7 +124,6 @@
                   "start": 536,
                   "end": 582,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -152,15 +150,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -186,8 +186,8 @@
             "end": 600,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -201,7 +201,6 @@
             "start": 615,
             "end": 654,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -234,8 +233,8 @@
                         "end": 643,
                         "name": "setMonth"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -256,7 +255,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -286,8 +286,8 @@
             "end": 674,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -310,8 +310,8 @@
                 "end": 687,
                 "name": "getTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

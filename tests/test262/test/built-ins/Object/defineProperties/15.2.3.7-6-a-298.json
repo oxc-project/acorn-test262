@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 526,
       "end": 534,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -45,7 +45,6 @@
               "end": 549,
               "name": "fun"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -78,7 +77,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           "arguments": [],
           "optional": false
@@ -95,7 +95,6 @@
         "end": 598,
         "name": "get_func1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -117,7 +116,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -143,8 +143,8 @@
             "end": 639,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -169,9 +169,7 @@
                 "type": "Property",
                 "start": 654,
                 "end": 668,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 654,
@@ -184,15 +182,15 @@
                   "end": 668,
                   "name": "get_func1"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 672,
                 "end": 689,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 672,
@@ -206,15 +204,15 @@
                   "value": false,
                   "raw": "false"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 693,
                 "end": 712,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 693,
@@ -228,7 +226,9 @@
                   "value": false,
                   "raw": "false"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -246,7 +246,6 @@
         "end": 736,
         "name": "get_func2"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -268,7 +267,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "TryStatement",
@@ -303,8 +303,8 @@
                   "end": 787,
                   "name": "defineProperties"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -322,9 +322,7 @@
                       "type": "Property",
                       "start": 799,
                       "end": 832,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Literal",
                         "start": 799,
@@ -341,9 +339,7 @@
                             "type": "Property",
                             "start": 812,
                             "end": 826,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 812,
@@ -356,11 +352,15 @@
                               "end": 826,
                               "name": "get_func2"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -464,7 +464,6 @@
                 "start": 952,
                 "end": 977,
                 "operator": "!",
-                "prefix": true,
                 "argument": {
                   "type": "ParenthesizedExpression",
                   "start": 953,
@@ -487,7 +486,8 @@
                       "name": "TypeError"
                     }
                   }
-                }
+                },
+                "prefix": true
               },
               "consequent": {
                 "type": "BlockStatement",
@@ -577,9 +577,7 @@
                 "type": "Property",
                 "start": 1077,
                 "end": 1094,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1077,
@@ -593,15 +591,15 @@
                   "value": false,
                   "raw": "false"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1098,
                 "end": 1117,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1098,
@@ -615,7 +613,9 @@
                   "value": false,
                   "raw": "false"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }

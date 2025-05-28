@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 343,
       "end": 356,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,13 +26,13 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 357,
       "end": 375,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -51,13 +52,13 @@
             "raw": "\"data\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 376,
       "end": 403,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -74,7 +75,6 @@
             "start": 389,
             "end": 402,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -83,11 +83,11 @@
               "start": 400,
               "end": 402,
               "body": []
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -114,15 +114,14 @@
             "end": 415,
             "name": "set"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 418,
           "end": 453,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [
@@ -162,7 +161,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -190,8 +190,8 @@
             "end": 477,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -242,8 +242,8 @@
             "end": 516,
             "name": "property"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -289,8 +289,8 @@
                 "end": 561,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -338,8 +338,8 @@
             "end": 635,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -51,8 +51,8 @@
             "end": 290,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -60,7 +60,6 @@
             "start": 291,
             "end": 302,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "ParenthesizedExpression",
               "start": 297,
@@ -71,7 +70,8 @@
                 "end": 301,
                 "name": "NaN"
               }
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

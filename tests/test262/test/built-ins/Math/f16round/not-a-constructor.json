@@ -23,7 +23,6 @@
             "start": 351,
             "end": 380,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 352,
@@ -51,12 +50,13 @@
                     "end": 379,
                     "name": "f16round"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -93,8 +93,8 @@
             "end": 435,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -108,7 +108,6 @@
             "start": 447,
             "end": 485,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -141,14 +140,15 @@
                         "end": 480,
                         "name": "f16round"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": []
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

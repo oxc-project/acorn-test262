@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 343,
       "end": 377,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -31,13 +32,13 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 378,
       "end": 420,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -58,9 +59,7 @@
                 "type": "Property",
                 "start": 395,
                 "end": 417,
-                "method": true,
-                "shorthand": false,
-                "computed": true,
+                "kind": "init",
                 "key": {
                   "type": "MemberExpression",
                   "start": 396,
@@ -77,15 +76,14 @@
                     "end": 410,
                     "name": "dispose"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "value": {
                   "type": "FunctionExpression",
                   "start": 411,
                   "end": 417,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -94,15 +92,17 @@
                     "start": 414,
                     "end": 417,
                     "body": []
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": true,
+                "shorthand": false,
+                "computed": true
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -128,8 +128,8 @@
             "end": 437,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -152,8 +152,8 @@
                 "end": 447,
                 "name": "use"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -199,8 +199,8 @@
             "end": 486,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -223,8 +223,8 @@
                 "end": 496,
                 "name": "use"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -272,8 +272,8 @@
             "end": 527,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -296,8 +296,8 @@
                 "end": 537,
                 "name": "use"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

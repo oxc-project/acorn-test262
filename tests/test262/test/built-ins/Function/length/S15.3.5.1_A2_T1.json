@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 347,
       "end": 392,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -46,8 +47,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -84,8 +84,8 @@
                 "end": 417,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -129,7 +129,6 @@
             "start": 486,
             "end": 501,
             "operator": "delete",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 493,
@@ -146,9 +145,10 @@
                 "end": 501,
                 "name": "length"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -181,7 +181,6 @@
             "start": 566,
             "end": 593,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 567,
@@ -202,8 +201,8 @@
                   "end": 583,
                   "name": "hasOwnProperty"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -215,7 +214,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -252,8 +252,8 @@
             "end": 684,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -272,8 +272,8 @@
               "end": 693,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

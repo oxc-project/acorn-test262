@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 236,
       "end": 252,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -39,7 +39,6 @@
         "end": 273,
         "name": "callbackfn"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -86,12 +85,13 @@
                 "end": 308,
                 "name": "res"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -103,7 +103,6 @@
         "end": 325,
         "name": "foo"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -112,7 +111,8 @@
         "start": 328,
         "end": 330,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -139,8 +139,8 @@
             "end": 338,
             "name": "res"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -155,6 +155,7 @@
       "type": "VariableDeclaration",
       "start": 347,
       "end": 361,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -181,8 +182,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -208,8 +208,8 @@
             "end": 379,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -232,8 +232,8 @@
                 "end": 388,
                 "name": "some"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

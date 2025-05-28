@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 285,
       "end": 386,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -31,9 +32,7 @@
                   "type": "Property",
                   "start": 307,
                   "end": 370,
-                  "method": true,
-                  "shorthand": false,
-                  "computed": true,
+                  "kind": "init",
                   "key": {
                     "type": "Literal",
                     "start": 317,
@@ -46,7 +45,6 @@
                     "start": 339,
                     "end": 370,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -55,9 +53,12 @@
                       "start": 359,
                       "end": 370,
                       "body": []
-                    }
+                    },
+                    "expression": false
                   },
-                  "kind": "init"
+                  "method": true,
+                  "shorthand": false,
+                  "computed": true
                 }
               ]
             },
@@ -67,17 +68,17 @@
               "end": 385,
               "name": "f"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 387,
       "end": 429,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -102,9 +103,7 @@
                   "type": "Property",
                   "start": 397,
                   "end": 417,
-                  "method": true,
-                  "shorthand": false,
-                  "computed": true,
+                  "kind": "init",
                   "key": {
                     "type": "MemberExpression",
                     "start": 399,
@@ -118,9 +117,7 @@
                           "type": "Property",
                           "start": 401,
                           "end": 406,
-                          "method": true,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 401,
@@ -132,7 +129,6 @@
                             "start": 402,
                             "end": 406,
                             "id": null,
-                            "expression": false,
                             "generator": false,
                             "async": false,
                             "params": [],
@@ -141,9 +137,12 @@
                               "start": 404,
                               "end": 406,
                               "body": []
-                            }
+                            },
+                            "expression": false
                           },
-                          "kind": "init"
+                          "method": true,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     },
@@ -153,15 +152,14 @@
                       "end": 410,
                       "name": "a"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "value": {
                     "type": "FunctionExpression",
                     "start": 412,
                     "end": 417,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -170,9 +168,12 @@
                       "start": 414,
                       "end": 417,
                       "body": []
-                    }
+                    },
+                    "expression": false
                   },
-                  "kind": "init"
+                  "method": true,
+                  "shorthand": false,
+                  "computed": true
                 }
               ]
             },
@@ -183,12 +184,11 @@
               "value": "a(){}",
               "raw": "\"a(){}\""
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",

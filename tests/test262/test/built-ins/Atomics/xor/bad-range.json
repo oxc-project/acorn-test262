@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 391,
       "end": 457,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -49,8 +50,8 @@
                     "end": 451,
                     "name": "BYTES_PER_ELEMENT"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "operator": "*",
                 "right": {
@@ -64,13 +65,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 458,
       "end": 509,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -102,15 +103,14 @@
                 "end": 506,
                 "name": "slice"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -132,7 +132,6 @@
             "start": 542,
             "end": 738,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -152,6 +151,7 @@
                   "type": "VariableDeclaration",
                   "start": 559,
                   "end": 582,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -183,8 +183,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -206,7 +205,6 @@
                         "start": 619,
                         "end": 734,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [
@@ -246,8 +244,8 @@
                                     "end": 655,
                                     "name": "throws"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -261,7 +259,6 @@
                                     "start": 668,
                                     "end": 728,
                                     "id": null,
-                                    "expression": false,
                                     "generator": false,
                                     "async": false,
                                     "params": [],
@@ -294,8 +291,8 @@
                                                 "end": 698,
                                                 "name": "xor"
                                               },
-                                              "computed": false,
-                                              "optional": false
+                                              "optional": false,
+                                              "computed": false
                                             },
                                             "arguments": [
                                               {
@@ -336,21 +333,24 @@
                                           }
                                         }
                                       ]
-                                    }
+                                    },
+                                    "expression": false
                                   }
                                 ],
                                 "optional": false
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Identifier",

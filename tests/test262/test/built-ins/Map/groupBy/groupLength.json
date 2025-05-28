@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 367,
       "end": 406,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -47,13 +48,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 408,
       "end": 472,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -85,8 +86,8 @@
                 "end": 431,
                 "name": "groupBy"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -100,7 +101,6 @@
                 "start": 437,
                 "end": 470,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [
@@ -136,19 +136,19 @@
                           "end": 467,
                           "name": "length"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             ],
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -174,8 +174,8 @@
             "end": 493,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -198,8 +198,8 @@
                 "end": 504,
                 "name": "from"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -222,8 +222,8 @@
                     "end": 513,
                     "name": "keys"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -280,8 +280,8 @@
             "end": 546,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -304,8 +304,8 @@
                 "end": 554,
                 "name": "get"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -367,8 +367,8 @@
             "end": 599,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -391,8 +391,8 @@
                 "end": 607,
                 "name": "get"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

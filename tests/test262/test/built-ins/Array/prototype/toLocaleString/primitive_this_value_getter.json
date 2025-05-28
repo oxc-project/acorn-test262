@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 629,
       "end": 675,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -53,15 +54,14 @@
                 "end": 672,
                 "name": "toLocaleString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -87,8 +87,8 @@
             "end": 698,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -107,8 +107,8 @@
               "end": 716,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -126,9 +126,7 @@
                 "type": "Property",
                 "start": 734,
                 "end": 827,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 734,
@@ -140,7 +138,6 @@
                   "start": 739,
                   "end": 827,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -153,6 +150,7 @@
                         "type": "VariableDeclaration",
                         "start": 756,
                         "end": 776,
+                        "kind": "var",
                         "declarations": [
                           {
                             "type": "VariableDeclarator",
@@ -169,16 +167,15 @@
                               "start": 764,
                               "end": 775,
                               "operator": "typeof",
-                              "prefix": true,
                               "argument": {
                                 "type": "ThisExpression",
                                 "start": 771,
                                 "end": 775
-                              }
+                              },
+                              "prefix": true
                             }
                           }
-                        ],
-                        "kind": "var"
+                        ]
                       },
                       {
                         "type": "ReturnStatement",
@@ -189,7 +186,6 @@
                           "start": 788,
                           "end": 822,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -210,13 +206,17 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -248,8 +248,8 @@
             "end": 849,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -287,8 +287,8 @@
                 "end": 878,
                 "name": "toLocaleString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

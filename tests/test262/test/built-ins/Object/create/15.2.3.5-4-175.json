@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 355,
       "end": 407,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -31,7 +32,6 @@
                 "start": 369,
                 "end": 403,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -52,15 +52,15 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -87,8 +87,8 @@
             "end": 421,
             "name": "value"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -103,6 +103,7 @@
       "type": "VariableDeclaration",
       "start": 437,
       "end": 488,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -134,8 +135,8 @@
                 "end": 463,
                 "name": "create"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -153,9 +154,7 @@
                     "type": "Property",
                     "start": 472,
                     "end": 484,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 472,
@@ -168,7 +167,9 @@
                       "end": 484,
                       "name": "argObj"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -176,8 +177,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -203,8 +203,8 @@
             "end": 506,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -223,8 +223,8 @@
               "end": 518,
               "name": "prop"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

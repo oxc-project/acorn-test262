@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 286,
       "end": 313,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 300,
                 "end": 310,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 300,
@@ -43,18 +42,20 @@
                   "value": 100,
                   "raw": "100"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 315,
       "end": 344,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -86,8 +87,8 @@
                 "end": 338,
                 "name": "keys"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -100,13 +101,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 345,
       "end": 400,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -138,8 +139,8 @@
                 "end": 387,
                 "name": "getOwnPropertyDescriptor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -159,8 +160,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -171,7 +171,6 @@
         "start": 402,
         "end": 417,
         "operator": "delete",
-        "prefix": true,
         "argument": {
           "type": "MemberExpression",
           "start": 409,
@@ -189,9 +188,10 @@
             "value": 0,
             "raw": "0"
           },
-          "computed": true,
-          "optional": false
-        }
+          "optional": false,
+          "computed": true
+        },
+        "prefix": true
       }
     },
     {
@@ -218,8 +218,8 @@
             "end": 436,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -227,7 +227,6 @@
             "start": 437,
             "end": 452,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 444,
@@ -245,9 +244,10 @@
                 "value": 0,
                 "raw": "0"
               },
-              "computed": true,
-              "optional": false
-            }
+              "optional": false,
+              "computed": true
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -302,8 +302,8 @@
                 "end": 513,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -351,8 +351,8 @@
             "end": 596,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -371,8 +371,8 @@
               "end": 614,
               "name": "configurable"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

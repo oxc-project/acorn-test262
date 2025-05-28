@@ -12,6 +12,7 @@
           "type": "VariableDeclaration",
           "start": 341,
           "end": 398,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -50,9 +51,7 @@
                         "type": "Property",
                         "start": 375,
                         "end": 394,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 375,
@@ -66,20 +65,22 @@
                           "value": 1024,
                           "raw": "1024"
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 401,
           "end": 420,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -99,8 +100,7 @@
                 "raw": "false"
               }
             }
-          ],
-          "kind": "let"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -126,8 +126,8 @@
                 "end": 436,
                 "name": "throws"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -140,9 +140,7 @@
                 "type": "ArrowFunctionExpression",
                 "start": 448,
                 "end": 527,
-                "id": null,
                 "expression": true,
-                "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
@@ -165,8 +163,8 @@
                       "end": 464,
                       "name": "resize"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -178,9 +176,7 @@
                           "type": "Property",
                           "start": 467,
                           "end": 525,
-                          "method": true,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 467,
@@ -192,7 +188,6 @@
                             "start": 474,
                             "end": 525,
                             "id": null,
-                            "expression": false,
                             "generator": false,
                             "async": false,
                             "params": [],
@@ -251,15 +246,20 @@
                                   }
                                 }
                               ]
-                            }
+                            },
+                            "expression": false
                           },
-                          "kind": "init"
+                          "method": true,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }
                   ],
                   "optional": false
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ],
             "optional": false
@@ -301,6 +301,7 @@
           "type": "VariableDeclaration",
           "start": 555,
           "end": 612,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -339,9 +340,7 @@
                         "type": "Property",
                         "start": 589,
                         "end": 608,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 589,
@@ -355,15 +354,16 @@
                           "value": 1024,
                           "raw": "1024"
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -394,6 +394,7 @@
           "type": "VariableDeclaration",
           "start": 637,
           "end": 656,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -413,8 +414,7 @@
                 "raw": "false"
               }
             }
-          ],
-          "kind": "let"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -440,8 +440,8 @@
                 "end": 672,
                 "name": "throws"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -454,9 +454,7 @@
                 "type": "ArrowFunctionExpression",
                 "start": 684,
                 "end": 739,
-                "id": null,
                 "expression": true,
-                "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
@@ -479,8 +477,8 @@
                       "end": 700,
                       "name": "resize"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -492,9 +490,7 @@
                           "type": "Property",
                           "start": 703,
                           "end": 737,
-                          "method": true,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 703,
@@ -506,7 +502,6 @@
                             "start": 710,
                             "end": 737,
                             "id": null,
-                            "expression": false,
                             "generator": false,
                             "async": false,
                             "params": [],
@@ -540,15 +535,20 @@
                                   }
                                 }
                               ]
-                            }
+                            },
+                            "expression": false
                           },
-                          "kind": "init"
+                          "method": true,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }
                   ],
                   "optional": false
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ],
             "optional": false

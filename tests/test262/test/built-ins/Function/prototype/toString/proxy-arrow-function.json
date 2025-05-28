@@ -33,9 +33,7 @@
                 "type": "ArrowFunctionExpression",
                 "start": 695,
                 "end": 703,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
@@ -43,7 +41,9 @@
                   "start": 701,
                   "end": 703,
                   "body": []
-                }
+                },
+                "id": null,
+                "generator": false
               },
               {
                 "type": "ObjectExpression",
@@ -91,9 +91,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 742,
                   "end": 750,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -101,7 +99,9 @@
                     "start": 748,
                     "end": 750,
                     "body": []
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "ObjectExpression",
@@ -112,9 +112,7 @@
                       "type": "Property",
                       "start": 754,
                       "end": 764,
-                      "method": true,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 754,
@@ -126,7 +124,6 @@
                         "start": 759,
                         "end": 764,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -135,9 +132,12 @@
                           "start": 762,
                           "end": 764,
                           "body": []
-                        }
+                        },
+                        "expression": false
                       },
-                      "kind": "init"
+                      "method": true,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -149,8 +149,8 @@
               "end": 773,
               "name": "apply"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         ],
         "optional": false

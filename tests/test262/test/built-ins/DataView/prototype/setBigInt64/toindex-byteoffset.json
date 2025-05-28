@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 275,
       "end": 308,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,13 +40,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 309,
       "end": 346,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -84,13 +85,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 348,
       "end": 395,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -111,9 +112,7 @@
                 "type": "Property",
                 "start": 363,
                 "end": 392,
-                "method": true,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 363,
@@ -125,7 +124,6 @@
                   "start": 370,
                   "end": 392,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -147,20 +145,23 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": true,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 396,
       "end": 444,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -181,9 +182,7 @@
                 "type": "Property",
                 "start": 411,
                 "end": 441,
-                "method": true,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 411,
@@ -195,7 +194,6 @@
                   "start": 419,
                   "end": 441,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -217,15 +215,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": true,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -251,8 +251,8 @@
             "end": 464,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -298,8 +298,8 @@
             "end": 491,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -307,14 +307,14 @@
             "start": 492,
             "end": 494,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 493,
               "end": 494,
               "value": 0,
               "raw": "0"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -352,8 +352,8 @@
             "end": 518,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -376,8 +376,8 @@
                 "end": 537,
                 "name": "getBigInt64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -433,8 +433,8 @@
             "end": 573,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -480,8 +480,8 @@
             "end": 600,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -526,8 +526,8 @@
             "end": 629,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -550,8 +550,8 @@
                 "end": 648,
                 "name": "getBigInt64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -607,8 +607,8 @@
             "end": 698,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -654,8 +654,8 @@
             "end": 725,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -700,8 +700,8 @@
             "end": 754,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -724,8 +724,8 @@
                 "end": 773,
                 "name": "getBigInt64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -781,8 +781,8 @@
             "end": 824,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -828,8 +828,8 @@
             "end": 851,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -875,8 +875,8 @@
             "end": 878,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -899,8 +899,8 @@
                 "end": 897,
                 "name": "getBigInt64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -956,8 +956,8 @@
             "end": 947,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1003,8 +1003,8 @@
             "end": 974,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1050,8 +1050,8 @@
             "end": 1002,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1074,8 +1074,8 @@
                 "end": 1021,
                 "name": "getBigInt64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1131,8 +1131,8 @@
             "end": 1065,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1178,8 +1178,8 @@
             "end": 1092,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1225,8 +1225,8 @@
             "end": 1120,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1249,8 +1249,8 @@
                 "end": 1139,
                 "name": "getBigInt64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1306,8 +1306,8 @@
             "end": 1183,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1353,8 +1353,8 @@
             "end": 1210,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1400,8 +1400,8 @@
             "end": 1239,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1424,8 +1424,8 @@
                 "end": 1258,
                 "name": "getBigInt64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1481,8 +1481,8 @@
             "end": 1296,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1528,8 +1528,8 @@
             "end": 1323,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1575,8 +1575,8 @@
             "end": 1353,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1599,8 +1599,8 @@
                 "end": 1372,
                 "name": "getBigInt64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1656,8 +1656,8 @@
             "end": 1411,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1703,8 +1703,8 @@
             "end": 1438,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1749,8 +1749,8 @@
             "end": 1466,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1773,8 +1773,8 @@
                 "end": 1485,
                 "name": "getBigInt64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1830,8 +1830,8 @@
             "end": 1522,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1877,8 +1877,8 @@
             "end": 1549,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1924,8 +1924,8 @@
             "end": 1578,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1948,8 +1948,8 @@
                 "end": 1597,
                 "name": "getBigInt64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2005,8 +2005,8 @@
             "end": 1635,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2052,8 +2052,8 @@
             "end": 1662,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2099,8 +2099,8 @@
             "end": 1690,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2123,8 +2123,8 @@
                 "end": 1709,
                 "name": "getBigInt64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2180,8 +2180,8 @@
             "end": 1746,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2227,8 +2227,8 @@
             "end": 1773,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2274,8 +2274,8 @@
             "end": 1801,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2298,8 +2298,8 @@
                 "end": 1820,
                 "name": "getBigInt64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2355,8 +2355,8 @@
             "end": 1857,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2402,8 +2402,8 @@
             "end": 1884,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2449,8 +2449,8 @@
             "end": 1912,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2473,8 +2473,8 @@
                 "end": 1931,
                 "name": "getBigInt64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2530,8 +2530,8 @@
             "end": 1968,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2577,8 +2577,8 @@
             "end": 1995,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2624,8 +2624,8 @@
             "end": 2023,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2648,8 +2648,8 @@
                 "end": 2042,
                 "name": "getBigInt64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2705,8 +2705,8 @@
             "end": 2079,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2752,8 +2752,8 @@
             "end": 2106,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2761,14 +2761,14 @@
             "start": 2107,
             "end": 2111,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2108,
               "end": 2111,
               "value": 0.1,
               "raw": "0.1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -2806,8 +2806,8 @@
             "end": 2135,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2830,8 +2830,8 @@
                 "end": 2154,
                 "name": "getBigInt64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2887,8 +2887,8 @@
             "end": 2192,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2934,8 +2934,8 @@
             "end": 2219,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2943,14 +2943,14 @@
             "start": 2220,
             "end": 2228,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2221,
               "end": 2228,
               "value": 0.99999,
               "raw": "0.99999"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -2988,8 +2988,8 @@
             "end": 2252,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3012,8 +3012,8 @@
                 "end": 2271,
                 "name": "getBigInt64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -3069,8 +3069,8 @@
             "end": 2313,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3116,8 +3116,8 @@
             "end": 2340,
             "name": "setBigInt64"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3162,8 +3162,8 @@
             "end": 2374,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3186,8 +3186,8 @@
                 "end": 2393,
                 "name": "getBigInt64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

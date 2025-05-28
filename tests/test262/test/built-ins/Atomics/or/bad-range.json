@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 389,
       "end": 458,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -49,8 +50,8 @@
                     "end": 452,
                     "name": "BYTES_PER_ELEMENT"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "operator": "*",
                 "right": {
@@ -64,13 +65,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 459,
       "end": 510,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -102,15 +103,14 @@
                 "end": 507,
                 "name": "slice"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -132,7 +132,6 @@
             "start": 543,
             "end": 742,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -152,6 +151,7 @@
                   "type": "VariableDeclaration",
                   "start": 560,
                   "end": 586,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -183,8 +183,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -206,7 +205,6 @@
                         "start": 623,
                         "end": 738,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [
@@ -246,8 +244,8 @@
                                     "end": 659,
                                     "name": "throws"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -261,7 +259,6 @@
                                     "start": 672,
                                     "end": 732,
                                     "id": null,
-                                    "expression": false,
                                     "generator": false,
                                     "async": false,
                                     "params": [],
@@ -294,8 +291,8 @@
                                                 "end": 701,
                                                 "name": "or"
                                               },
-                                              "computed": false,
-                                              "optional": false
+                                              "optional": false,
+                                              "computed": false
                                             },
                                             "arguments": [
                                               {
@@ -336,21 +333,24 @@
                                           }
                                         }
                                       ]
-                                    }
+                                    },
+                                    "expression": false
                                   }
                                 ],
                                 "optional": false
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Identifier",

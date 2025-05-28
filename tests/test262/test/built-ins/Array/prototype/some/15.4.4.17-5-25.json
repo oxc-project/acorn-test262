@@ -13,7 +13,6 @@
         "end": 270,
         "name": "innerObj"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -46,8 +45,8 @@
                   "end": 297,
                   "name": "_15_4_4_17_5_25"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "Literal",
@@ -62,6 +61,7 @@
             "type": "VariableDeclaration",
             "start": 308,
             "end": 336,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -81,8 +81,7 @@
                   "raw": "false"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "FunctionDeclaration",
@@ -94,7 +93,6 @@
               "end": 359,
               "name": "callbackfn"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -141,17 +139,19 @@
                       "end": 408,
                       "name": "_15_4_4_17_5_25"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "VariableDeclaration",
             "start": 416,
             "end": 430,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -178,8 +178,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -205,15 +204,14 @@
                   "end": 444,
                   "name": "retVal"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "UnaryExpression",
                 "start": 447,
                 "end": 468,
                 "operator": "!",
-                "prefix": true,
                 "argument": {
                   "type": "CallExpression",
                   "start": 448,
@@ -234,8 +232,8 @@
                       "end": 456,
                       "name": "some"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -246,12 +244,14 @@
                     }
                   ],
                   "optional": false
-                }
+                },
+                "prefix": true
               }
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -290,8 +290,8 @@
               "end": 501,
               "name": "retVal"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

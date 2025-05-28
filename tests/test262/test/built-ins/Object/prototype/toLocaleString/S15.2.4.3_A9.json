@@ -23,13 +23,11 @@
             "start": 386,
             "end": 444,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "UnaryExpression",
               "start": 387,
               "end": 444,
               "operator": "!",
-              "prefix": true,
               "argument": {
                 "type": "CallExpression",
                 "start": 388,
@@ -58,8 +56,8 @@
                         "end": 404,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -67,8 +65,8 @@
                       "end": 419,
                       "name": "toLocaleString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -76,8 +74,8 @@
                     "end": 434,
                     "name": "hasOwnProperty"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -89,8 +87,10 @@
                   }
                 ],
                 "optional": false
-              }
-            }
+              },
+              "prefix": true
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -123,19 +123,16 @@
             "start": 559,
             "end": 606,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "UnaryExpression",
               "start": 560,
               "end": 606,
               "operator": "!",
-              "prefix": true,
               "argument": {
                 "type": "UnaryExpression",
                 "start": 561,
                 "end": 606,
                 "operator": "delete",
-                "prefix": true,
                 "argument": {
                   "type": "MemberExpression",
                   "start": 568,
@@ -160,8 +157,8 @@
                         "end": 584,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -169,8 +166,8 @@
                       "end": 599,
                       "name": "toLocaleString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -178,11 +175,14 @@
                     "end": 606,
                     "name": "length"
                   },
-                  "computed": false,
-                  "optional": false
-                }
-              }
-            }
+                  "optional": false,
+                  "computed": false
+                },
+                "prefix": true
+              },
+              "prefix": true
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -215,7 +215,6 @@
             "start": 710,
             "end": 767,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 711,
@@ -244,8 +243,8 @@
                       "end": 727,
                       "name": "prototype"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -253,8 +252,8 @@
                     "end": 742,
                     "name": "toLocaleString"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -262,8 +261,8 @@
                   "end": 757,
                   "name": "hasOwnProperty"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -275,7 +274,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 314,
       "end": 344,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -60,13 +61,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 345,
       "end": 367,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -98,15 +99,14 @@
                 "end": 364,
                 "name": "shift"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -206,8 +206,8 @@
             "end": 495,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -277,8 +277,8 @@
             "value": 0,
             "raw": "0"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "operator": "!==",
         "right": {
@@ -348,8 +348,8 @@
             "value": 1,
             "raw": "1"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "operator": "!==",
         "right": {
@@ -443,8 +443,8 @@
             "value": 0,
             "raw": "0"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -481,8 +481,8 @@
             "value": 3,
             "raw": "3"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -497,6 +497,7 @@
       "type": "VariableDeclaration",
       "start": 816,
       "end": 838,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -528,15 +529,14 @@
                 "end": 835,
                 "name": "shift"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -636,8 +636,8 @@
             "end": 970,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -707,8 +707,8 @@
             "value": 0,
             "raw": "0"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "operator": "!==",
         "right": {
@@ -777,8 +777,8 @@
             "value": 12,
             "raw": "12"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "operator": "!==",
         "right": {
@@ -847,8 +847,8 @@
             "end": 1316,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -863,6 +863,7 @@
       "type": "VariableDeclaration",
       "start": 1322,
       "end": 1344,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -894,15 +895,14 @@
                 "end": 1341,
                 "name": "shift"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -1001,8 +1001,8 @@
             "end": 1517,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -1065,8 +1065,8 @@
                         "end": 1659,
                         "name": "length"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 }

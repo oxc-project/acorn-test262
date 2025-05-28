@@ -16,6 +16,7 @@
             "type": "VariableDeclaration",
             "start": 906,
             "end": 930,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -47,8 +48,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           }
         ]
       },
@@ -133,8 +133,8 @@
             "end": 1025,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -153,8 +153,8 @@
               "end": 1039,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",
@@ -197,8 +197,8 @@
             "end": 1141,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -235,6 +235,7 @@
       "type": "VariableDeclaration",
       "start": 1185,
       "end": 1191,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -248,8 +249,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     }
   ],
   "sourceType": "script",

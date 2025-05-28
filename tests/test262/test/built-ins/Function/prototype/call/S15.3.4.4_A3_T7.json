@@ -25,7 +25,6 @@
               "end": 401,
               "name": "FACTORY"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -73,8 +72,8 @@
                         "end": 449,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -82,21 +81,22 @@
                         "start": 450,
                         "end": 456,
                         "operator": "void",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 455,
                           "end": 456,
                           "value": 0,
                           "raw": "0"
-                        }
+                        },
+                        "prefix": true
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         },
         "arguments": [],
@@ -127,8 +127,8 @@
             "end": 483,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -147,8 +147,8 @@
               "value": "feat",
               "raw": "\"feat\""
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",

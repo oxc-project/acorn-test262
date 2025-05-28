@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 677,
       "end": 766,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -60,8 +61,8 @@
                         "end": 758,
                         "name": "BYTES_PER_ELEMENT"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "operator": "*",
                     "right": {
@@ -77,13 +78,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 767,
       "end": 877,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -104,9 +105,7 @@
                 "type": "Property",
                 "start": 788,
                 "end": 874,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 788,
@@ -118,7 +117,6 @@
                   "start": 797,
                   "end": 874,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -153,15 +151,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "TryStatement",
@@ -203,8 +203,8 @@
                     "end": 912,
                     "name": "buffer"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               ],
               "optional": false
@@ -246,27 +246,6 @@
                     "type": "TemplateLiteral",
                     "start": 1039,
                     "end": 1114,
-                    "expressions": [
-                      {
-                        "type": "MemberExpression",
-                        "start": 1099,
-                        "end": 1112,
-                        "object": {
-                          "type": "Identifier",
-                          "start": 1099,
-                          "end": 1104,
-                          "name": "error"
-                        },
-                        "property": {
-                          "type": "Identifier",
-                          "start": 1105,
-                          "end": 1112,
-                          "name": "message"
-                        },
-                        "computed": false,
-                        "optional": false
-                      }
-                    ],
                     "quasis": [
                       {
                         "type": "TemplateElement",
@@ -287,6 +266,27 @@
                           "cooked": ""
                         },
                         "tail": true
+                      }
+                    ],
+                    "expressions": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 1099,
+                        "end": 1112,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1099,
+                          "end": 1104,
+                          "name": "error"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1105,
+                          "end": 1112,
+                          "name": "message"
+                        },
+                        "optional": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -322,8 +322,8 @@
             "end": 1133,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -337,7 +337,6 @@
             "start": 1145,
             "end": 1211,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -370,8 +369,8 @@
                         "end": 1172,
                         "name": "wait"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -403,7 +402,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

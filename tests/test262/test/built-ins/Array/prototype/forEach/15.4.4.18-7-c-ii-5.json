@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 323,
       "end": 341,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "true"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 342,
       "end": 358,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -51,8 +52,7 @@
             "elements": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -64,7 +64,6 @@
         "end": 509,
         "name": "callbackfn"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -105,7 +104,6 @@
                 "start": 633,
                 "end": 651,
                 "operator": "typeof",
-                "prefix": true,
                 "argument": {
                   "type": "MemberExpression",
                   "start": 640,
@@ -122,9 +120,10 @@
                     "end": 650,
                     "name": "idx"
                   },
-                  "computed": true,
-                  "optional": false
-                }
+                  "optional": false,
+                  "computed": true
+                },
+                "prefix": true
               },
               "operator": "===",
               "right": {
@@ -177,7 +176,6 @@
                         "start": 776,
                         "end": 798,
                         "operator": "typeof",
-                        "prefix": true,
                         "argument": {
                           "type": "MemberExpression",
                           "start": 783,
@@ -207,9 +205,10 @@
                               "raw": "1"
                             }
                           },
-                          "computed": true,
-                          "optional": false
-                        }
+                          "optional": false,
+                          "computed": true
+                        },
+                        "prefix": true
                       },
                       "operator": "===",
                       "right": {
@@ -279,8 +278,8 @@
                         "end": 860,
                         "name": "idx"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "right": {
                       "type": "Literal",
@@ -326,7 +325,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -381,8 +381,8 @@
             "end": 929,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

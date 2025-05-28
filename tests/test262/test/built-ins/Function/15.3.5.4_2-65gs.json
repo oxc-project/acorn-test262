@@ -13,7 +13,6 @@
         "end": 374,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -54,7 +53,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -85,8 +85,8 @@
             "end": 428,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -100,7 +100,6 @@
             "start": 440,
             "end": 466,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -133,15 +132,16 @@
                         "end": 461,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -157,7 +157,6 @@
         "end": 489,
         "name": "gNonStrict"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -190,8 +189,8 @@
                   "end": 520,
                   "name": "caller"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "operator": "||",
               "right": {
@@ -214,8 +213,8 @@
                     "end": 541,
                     "name": "caller"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -223,13 +222,14 @@
                   "end": 556,
                   "name": "throwTypeError"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             }
           }
         ]
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

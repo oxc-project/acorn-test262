@@ -16,6 +16,7 @@
             "type": "VariableDeclaration",
             "start": 439,
             "end": 463,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -36,9 +37,7 @@
                       "type": "Property",
                       "start": 454,
                       "end": 458,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 454,
@@ -52,13 +51,14 @@
                         "value": 1,
                         "raw": "1"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -85,8 +85,8 @@
                   "end": 477,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "MemberExpression",
@@ -108,8 +108,8 @@
                     "end": 496,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -117,8 +117,8 @@
                   "end": 505,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             }
           },
@@ -126,6 +126,7 @@
             "type": "VariableDeclaration",
             "start": 509,
             "end": 532,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -157,15 +158,14 @@
                       "end": 529,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",
@@ -271,6 +271,7 @@
             "type": "VariableDeclaration",
             "start": 773,
             "end": 797,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -291,9 +292,7 @@
                       "type": "Property",
                       "start": 788,
                       "end": 792,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 788,
@@ -307,13 +306,14 @@
                         "value": 1,
                         "raw": "1"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -340,8 +340,8 @@
                   "end": 813,
                   "name": "myToString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "MemberExpression",
@@ -363,8 +363,8 @@
                     "end": 832,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -372,8 +372,8 @@
                   "end": 841,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             }
           },
@@ -381,6 +381,7 @@
             "type": "VariableDeclaration",
             "start": 845,
             "end": 870,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -412,15 +413,14 @@
                       "end": 867,
                       "name": "myToString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",

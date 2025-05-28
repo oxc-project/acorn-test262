@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 365,
       "end": 414,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -81,8 +82,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -108,8 +108,8 @@
             "end": 432,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -140,8 +140,8 @@
                     "end": 452,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -149,8 +149,8 @@
                   "end": 461,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -158,8 +158,8 @@
                 "end": 466,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -193,6 +193,7 @@
       "type": "VariableDeclaration",
       "start": 599,
       "end": 642,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -267,8 +268,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -294,8 +294,8 @@
             "end": 660,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -326,8 +326,8 @@
                     "end": 680,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -335,8 +335,8 @@
                   "end": 689,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -344,8 +344,8 @@
                 "end": 694,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -379,6 +379,7 @@
       "type": "VariableDeclaration",
       "start": 821,
       "end": 863,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -453,8 +454,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -480,8 +480,8 @@
             "end": 881,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -512,8 +512,8 @@
                     "end": 901,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -521,8 +521,8 @@
                   "end": 910,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -530,8 +530,8 @@
                 "end": 915,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -565,6 +565,7 @@
       "type": "VariableDeclaration",
       "start": 1041,
       "end": 1090,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -639,8 +640,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -666,8 +666,8 @@
             "end": 1108,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -698,8 +698,8 @@
                     "end": 1128,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -707,8 +707,8 @@
                   "end": 1137,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -716,8 +716,8 @@
                 "end": 1142,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -751,6 +751,7 @@
       "type": "VariableDeclaration",
       "start": 1275,
       "end": 1318,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -825,8 +826,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -852,8 +852,8 @@
             "end": 1336,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -884,8 +884,8 @@
                     "end": 1356,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -893,8 +893,8 @@
                   "end": 1365,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -902,8 +902,8 @@
                 "end": 1370,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -937,6 +937,7 @@
       "type": "VariableDeclaration",
       "start": 1497,
       "end": 1539,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1011,8 +1012,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1038,8 +1038,8 @@
             "end": 1557,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1070,8 +1070,8 @@
                     "end": 1577,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -1079,8 +1079,8 @@
                   "end": 1586,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -1088,8 +1088,8 @@
                 "end": 1591,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1123,6 +1123,7 @@
       "type": "VariableDeclaration",
       "start": 1717,
       "end": 1766,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1197,8 +1198,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1224,8 +1224,8 @@
             "end": 1784,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1256,8 +1256,8 @@
                     "end": 1804,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -1265,8 +1265,8 @@
                   "end": 1813,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -1274,8 +1274,8 @@
                 "end": 1818,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1309,6 +1309,7 @@
       "type": "VariableDeclaration",
       "start": 1951,
       "end": 1994,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1383,8 +1384,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1410,8 +1410,8 @@
             "end": 2012,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1442,8 +1442,8 @@
                     "end": 2032,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -1451,8 +1451,8 @@
                   "end": 2041,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -1460,8 +1460,8 @@
                 "end": 2046,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1495,6 +1495,7 @@
       "type": "VariableDeclaration",
       "start": 2173,
       "end": 2215,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1569,8 +1570,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1596,8 +1596,8 @@
             "end": 2233,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1628,8 +1628,8 @@
                     "end": 2253,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -1637,8 +1637,8 @@
                   "end": 2262,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -1646,8 +1646,8 @@
                 "end": 2267,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1681,6 +1681,7 @@
       "type": "VariableDeclaration",
       "start": 2393,
       "end": 2443,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1755,8 +1756,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1782,8 +1782,8 @@
             "end": 2461,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1814,8 +1814,8 @@
                     "end": 2481,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -1823,8 +1823,8 @@
                   "end": 2490,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -1832,8 +1832,8 @@
                 "end": 2495,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1867,6 +1867,7 @@
       "type": "VariableDeclaration",
       "start": 2629,
       "end": 2673,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1941,8 +1942,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1968,8 +1968,8 @@
             "end": 2691,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2000,8 +2000,8 @@
                     "end": 2711,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -2009,8 +2009,8 @@
                   "end": 2720,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -2018,8 +2018,8 @@
                 "end": 2725,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2053,6 +2053,7 @@
       "type": "VariableDeclaration",
       "start": 2853,
       "end": 2896,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2127,8 +2128,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -2154,8 +2154,8 @@
             "end": 2914,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2186,8 +2186,8 @@
                     "end": 2934,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -2195,8 +2195,8 @@
                   "end": 2943,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -2204,8 +2204,8 @@
                 "end": 2948,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

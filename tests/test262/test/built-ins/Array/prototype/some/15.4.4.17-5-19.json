@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 260,
       "end": 268,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -33,7 +33,6 @@
         "end": 289,
         "name": "callbackfn"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -84,7 +83,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -108,7 +108,6 @@
               "end": 346,
               "name": "fun"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -141,7 +140,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           "arguments": [
             {
@@ -213,8 +213,8 @@
                 "end": 400,
                 "name": "some"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

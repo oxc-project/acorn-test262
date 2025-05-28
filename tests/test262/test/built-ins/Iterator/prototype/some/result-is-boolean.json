@@ -13,7 +13,6 @@
         "end": 275,
         "name": "g"
       },
-      "expression": false,
       "generator": true,
       "async": false,
       "params": [],
@@ -22,12 +21,14 @@
         "start": 278,
         "end": 280,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 281,
       "end": 296,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -53,8 +54,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -80,8 +80,8 @@
             "end": 313,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -89,7 +89,6 @@
             "start": 314,
             "end": 340,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 321,
@@ -110,17 +109,15 @@
                   "end": 330,
                   "name": "some"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
                   "type": "ArrowFunctionExpression",
                   "start": 331,
                   "end": 339,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -128,11 +125,14 @@
                     "start": 337,
                     "end": 339,
                     "body": []
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

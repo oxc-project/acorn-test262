@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 559,
       "end": 598,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 588,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -47,17 +48,17 @@
               "end": 597,
               "name": "getMonth"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 599,
       "end": 649,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -82,7 +83,6 @@
                 "start": 611,
                 "end": 645,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -103,15 +103,15 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               },
               "arguments": [],
               "optional": false
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -137,8 +137,8 @@
             "end": 667,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -146,13 +146,13 @@
             "start": 668,
             "end": 683,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 675,
               "end": 683,
               "name": "getMonth"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -189,8 +189,8 @@
             "end": 712,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -204,7 +204,6 @@
             "start": 724,
             "end": 759,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -237,8 +236,8 @@
                         "end": 752,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -252,7 +251,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -289,8 +289,8 @@
             "end": 795,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -304,7 +304,6 @@
             "start": 807,
             "end": 842,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -337,8 +336,8 @@
                         "end": 835,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -352,7 +351,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -389,8 +389,8 @@
             "end": 882,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -404,7 +404,6 @@
             "start": 894,
             "end": 931,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -437,8 +436,8 @@
                         "end": 922,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -452,7 +451,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

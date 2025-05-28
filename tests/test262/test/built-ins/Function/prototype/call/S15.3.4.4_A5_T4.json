@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 359,
       "end": 420,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,7 +24,6 @@
             "start": 367,
             "end": 419,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -56,8 +56,8 @@
                         "end": 394,
                         "name": "touched"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "Literal",
@@ -79,16 +79,17 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 422,
       "end": 447,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -120,8 +121,8 @@
                 "end": 441,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -134,8 +135,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -161,8 +161,8 @@
             "end": 465,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -170,13 +170,13 @@
             "start": 466,
             "end": 476,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 473,
               "end": 476,
               "name": "obj"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -228,8 +228,8 @@
               "value": "touched",
               "raw": "\"touched\""
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",
@@ -246,6 +246,7 @@
       "type": "VariableDeclaration",
       "start": 636,
       "end": 644,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -259,8 +260,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     }
   ],
   "sourceType": "script",

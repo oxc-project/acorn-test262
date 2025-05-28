@@ -27,8 +27,8 @@
             "end": 266,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -51,8 +51,8 @@
                 "end": 283,
                 "name": "isInteger"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -107,8 +107,8 @@
             "end": 323,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -131,8 +131,8 @@
                 "end": 340,
                 "name": "isInteger"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -187,8 +187,8 @@
             "end": 388,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -211,8 +211,8 @@
                 "end": 405,
                 "name": "isInteger"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -220,14 +220,14 @@
                 "start": 406,
                 "end": 415,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 407,
                   "end": 415,
                   "value": 0.000001,
                   "raw": "0.000001"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -274,8 +274,8 @@
             "end": 455,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -298,8 +298,8 @@
                 "end": 472,
                 "name": "isInteger"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

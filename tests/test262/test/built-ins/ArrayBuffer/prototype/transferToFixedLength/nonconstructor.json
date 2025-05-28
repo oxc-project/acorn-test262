@@ -23,7 +23,6 @@
             "start": 702,
             "end": 761,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 703,
@@ -55,8 +54,8 @@
                       "end": 738,
                       "name": "prototype"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -64,12 +63,13 @@
                     "end": 760,
                     "name": "transferToFixedLength"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -86,6 +86,7 @@
       "type": "VariableDeclaration",
       "start": 833,
       "end": 870,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -118,8 +119,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -145,8 +145,8 @@
             "end": 884,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -160,7 +160,6 @@
             "start": 896,
             "end": 940,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -193,14 +192,15 @@
                         "end": 935,
                         "name": "transfer"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": []
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

@@ -27,8 +27,8 @@
             "end": 321,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 325,
             "end": 360,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 332,
@@ -57,8 +56,8 @@
                   "end": 353,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -66,9 +65,10 @@
                 "end": 360,
                 "name": "resize"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -92,6 +92,7 @@
       "type": "VariableDeclaration",
       "start": 424,
       "end": 478,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -130,9 +131,7 @@
                     "type": "Property",
                     "start": 458,
                     "end": 475,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 458,
@@ -146,20 +145,22 @@
                       "value": 32,
                       "raw": "32"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 479,
       "end": 520,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -205,8 +206,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -241,8 +241,8 @@
                   "end": 543,
                   "name": "resize"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -301,8 +301,8 @@
             "end": 581,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -325,8 +325,8 @@
                 "end": 597,
                 "name": "getUint8"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -390,8 +390,8 @@
                   "end": 646,
                   "name": "resize"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -450,8 +450,8 @@
             "end": 684,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -474,8 +474,8 @@
                 "end": 700,
                 "name": "getUint8"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -510,6 +510,7 @@
       "type": "VariableDeclaration",
       "start": 746,
       "end": 764,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -523,8 +524,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -559,8 +559,8 @@
                   "end": 786,
                   "name": "resize"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -666,8 +666,8 @@
             "end": 882,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -681,7 +681,6 @@
             "start": 898,
             "end": 1000,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -714,8 +713,8 @@
                         "end": 928,
                         "name": "getUint8"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -755,7 +754,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

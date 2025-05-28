@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 495,
       "end": 514,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -53,8 +53,8 @@
             "end": 532,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "BinaryExpression",
@@ -115,8 +115,8 @@
             "end": 561,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -130,7 +130,6 @@
             "start": 573,
             "end": 636,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -171,8 +170,8 @@
                             "end": 603,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -180,8 +179,8 @@
                           "end": 611,
                           "name": "unshift"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -189,8 +188,8 @@
                         "end": 616,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -211,7 +210,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -249,8 +249,8 @@
             "end": 679,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "BinaryExpression",
@@ -298,8 +298,8 @@
             "end": 704,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -313,7 +313,6 @@
             "start": 716,
             "end": 779,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -354,8 +353,8 @@
                             "end": 746,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -363,8 +362,8 @@
                           "end": 754,
                           "name": "unshift"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -372,8 +371,8 @@
                         "end": 759,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -394,7 +393,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -432,8 +432,8 @@
             "end": 818,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "BinaryExpression",
@@ -494,8 +494,8 @@
             "end": 847,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -509,7 +509,6 @@
             "start": 859,
             "end": 922,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -550,8 +549,8 @@
                             "end": 889,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -559,8 +558,8 @@
                           "end": 897,
                           "name": "unshift"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -568,8 +567,8 @@
                         "end": 902,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -590,7 +589,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -628,8 +628,8 @@
             "end": 965,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Identifier",
@@ -663,8 +663,8 @@
             "end": 991,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -678,7 +678,6 @@
             "start": 1003,
             "end": 1066,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -719,8 +718,8 @@
                             "end": 1033,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -728,8 +727,8 @@
                           "end": 1041,
                           "name": "unshift"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -737,8 +736,8 @@
                         "end": 1046,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -759,7 +758,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

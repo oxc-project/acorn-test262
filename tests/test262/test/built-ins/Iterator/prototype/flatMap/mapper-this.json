@@ -13,7 +13,6 @@
         "end": 441,
         "name": "g"
       },
-      "expression": false,
       "generator": true,
       "async": false,
       "params": [],
@@ -41,12 +40,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 460,
       "end": 475,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -72,13 +73,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 477,
       "end": 543,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -103,7 +104,6 @@
                 "start": 496,
                 "end": 526,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -123,7 +123,8 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               },
               "property": {
                 "type": "Identifier",
@@ -131,8 +132,8 @@
                 "end": 531,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -145,13 +146,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 545,
       "end": 568,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -171,8 +172,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -209,8 +209,8 @@
               "end": 588,
               "name": "flatMap"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -218,7 +218,6 @@
               "start": 589,
               "end": 686,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -264,8 +263,8 @@
                           "end": 629,
                           "name": "sameValue"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -320,7 +319,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           ],
           "optional": false
@@ -351,8 +351,8 @@
             "end": 699,
             "name": "next"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -382,8 +382,8 @@
             "end": 719,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

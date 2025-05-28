@@ -28,21 +28,17 @@
             "type": "MethodDefinition",
             "start": 418,
             "end": 531,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 418,
               "end": 422,
               "name": "next"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 422,
               "end": 531,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -64,9 +60,7 @@
                           "type": "Property",
                           "start": 446,
                           "end": 456,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 446,
@@ -80,15 +74,15 @@
                             "value": true,
                             "raw": "true"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         },
                         {
                           "type": "Property",
                           "start": 464,
                           "end": 519,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "get",
                           "key": {
                             "type": "Identifier",
                             "start": 468,
@@ -100,7 +94,6 @@
                             "start": 473,
                             "end": 519,
                             "id": null,
-                            "expression": false,
                             "generator": false,
                             "async": false,
                             "params": [],
@@ -127,36 +120,39 @@
                                   }
                                 }
                               ]
-                            }
+                            },
+                            "expression": false
                           },
-                          "kind": "get"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 534,
             "end": 571,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 534,
               "end": 540,
               "name": "return"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 540,
               "end": 571,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -183,8 +179,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -193,6 +193,7 @@
       "type": "VariableDeclaration",
       "start": 575,
       "end": 631,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -230,17 +231,15 @@
                 "end": 620,
                 "name": "flatMap"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
                 "type": "ArrowFunctionExpression",
                 "start": 621,
                 "end": 629,
-                "id": null,
                 "expression": true,
-                "generator": false,
                 "async": false,
                 "params": [
                   {
@@ -262,14 +261,15 @@
                       "name": "x"
                     }
                   ]
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ],
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -295,8 +295,8 @@
             "end": 645,
             "name": "next"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false

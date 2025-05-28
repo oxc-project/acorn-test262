@@ -27,8 +27,8 @@
             "end": 388,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 389,
             "end": 409,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "NewExpression",
               "start": 396,
@@ -48,7 +47,8 @@
                 "name": "Boolean"
               },
               "arguments": []
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -92,8 +92,8 @@
             "end": 507,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -129,6 +129,7 @@
       "type": "VariableDeclaration",
       "start": 592,
       "end": 615,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -153,8 +154,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -180,8 +180,8 @@
             "end": 632,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -189,13 +189,13 @@
             "start": 633,
             "end": 642,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 640,
               "end": 642,
               "name": "x3"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -219,6 +219,7 @@
       "type": "VariableDeclaration",
       "start": 711,
       "end": 734,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -243,8 +244,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -270,8 +270,8 @@
             "end": 754,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -321,8 +321,8 @@
             "end": 845,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -330,7 +330,6 @@
             "start": 846,
             "end": 867,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "NewExpression",
               "start": 853,
@@ -350,7 +349,8 @@
                   "raw": "1"
                 }
               ]
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -394,8 +394,8 @@
             "end": 966,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -439,6 +439,7 @@
       "type": "VariableDeclaration",
       "start": 1053,
       "end": 1077,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -471,8 +472,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -498,8 +498,8 @@
             "end": 1094,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -507,13 +507,13 @@
             "start": 1095,
             "end": 1104,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 1102,
               "end": 1104,
               "name": "x7"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -537,6 +537,7 @@
       "type": "VariableDeclaration",
       "start": 1173,
       "end": 1197,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -569,8 +570,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -596,8 +596,8 @@
             "end": 1217,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

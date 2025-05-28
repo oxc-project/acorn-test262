@@ -46,8 +46,8 @@
                     "end": 367,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -55,8 +55,8 @@
                   "end": 372,
                   "name": "call"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -64,8 +64,8 @@
                 "end": 387,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -109,7 +109,6 @@
             "start": 485,
             "end": 540,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 486,
@@ -138,8 +137,8 @@
                       "end": 504,
                       "name": "prototype"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -147,8 +146,8 @@
                     "end": 509,
                     "name": "call"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -156,8 +155,8 @@
                   "end": 530,
                   "name": "propertyIsEnumerable"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -169,7 +168,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -190,6 +190,7 @@
         "type": "VariableDeclaration",
         "start": 660,
         "end": 665,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -203,8 +204,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "MemberExpression",
@@ -226,8 +226,8 @@
             "end": 687,
             "name": "prototype"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "property": {
           "type": "Identifier",
@@ -235,8 +235,8 @@
           "end": 692,
           "name": "call"
         },
-        "computed": false,
-        "optional": false
+        "optional": false,
+        "computed": false
       },
       "body": {
         "type": "BlockStatement",
@@ -267,8 +267,8 @@
                   "end": 717,
                   "name": "notSameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {

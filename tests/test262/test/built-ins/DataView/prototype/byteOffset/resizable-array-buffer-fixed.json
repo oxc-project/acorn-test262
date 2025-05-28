@@ -27,8 +27,8 @@
             "end": 677,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 678,
             "end": 713,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 685,
@@ -57,8 +56,8 @@
                   "end": 706,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -66,9 +65,10 @@
                 "end": 713,
                 "name": "resize"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -85,6 +85,7 @@
       "type": "VariableDeclaration",
       "start": 729,
       "end": 777,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -123,9 +124,7 @@
                     "type": "Property",
                     "start": 758,
                     "end": 774,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 758,
@@ -139,20 +138,22 @@
                       "value": 5,
                       "raw": "5"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 778,
       "end": 816,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -198,8 +199,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -225,8 +225,8 @@
             "end": 834,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -245,8 +245,8 @@
               "end": 854,
               "name": "byteOffset"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -292,8 +292,8 @@
                   "end": 878,
                   "name": "resize"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -352,8 +352,8 @@
             "end": 915,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -372,8 +372,8 @@
               "end": 935,
               "name": "byteOffset"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -426,8 +426,8 @@
                   "end": 977,
                   "name": "resize"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -498,8 +498,8 @@
             "end": 1020,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -518,8 +518,8 @@
               "end": 1040,
               "name": "byteOffset"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -543,6 +543,7 @@
       "type": "VariableDeclaration",
       "start": 1083,
       "end": 1101,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -556,8 +557,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -592,8 +592,8 @@
                   "end": 1119,
                   "name": "resize"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -699,8 +699,8 @@
             "end": 1215,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -714,7 +714,6 @@
             "start": 1231,
             "end": 1334,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -743,8 +742,8 @@
                       "end": 1265,
                       "name": "byteOffset"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 },
                 {
@@ -773,7 +772,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

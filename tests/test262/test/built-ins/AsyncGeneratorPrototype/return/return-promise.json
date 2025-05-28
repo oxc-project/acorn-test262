@@ -13,7 +13,6 @@
         "end": 689,
         "name": "g"
       },
-      "expression": false,
       "generator": true,
       "async": true,
       "params": [],
@@ -22,12 +21,14 @@
         "start": 692,
         "end": 694,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 695,
       "end": 720,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -66,15 +67,14 @@
                 "end": 718,
                 "name": "return"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",

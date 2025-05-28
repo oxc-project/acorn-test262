@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1001,
       "end": 1020,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1021,
       "end": 1044,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -46,8 +47,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -59,7 +59,6 @@
         "end": 1067,
         "name": "resolveLater"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -87,9 +86,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1093,
                   "end": 1143,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [
                     {
@@ -128,13 +125,16 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ]
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -146,7 +146,6 @@
         "end": 1166,
         "name": "g"
       },
-      "expression": false,
       "generator": true,
       "async": true,
       "params": [],
@@ -204,12 +203,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 1220,
       "end": 1235,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -235,13 +236,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1237,
       "end": 1261,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -273,20 +274,20 @@
                 "end": 1258,
                 "name": "next"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1262,
       "end": 1286,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -318,20 +319,20 @@
                 "end": 1283,
                 "name": "next"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1287,
       "end": 1311,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -363,20 +364,20 @@
                 "end": 1308,
                 "name": "next"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1313,
       "end": 1335,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -396,8 +397,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -431,8 +431,8 @@
                 "end": 1348,
                 "name": "all"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -460,8 +460,8 @@
                         "end": 1364,
                         "name": "then"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -469,7 +469,6 @@
                         "start": 1365,
                         "end": 1536,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [
@@ -527,8 +526,8 @@
                                     "end": 1425,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -572,8 +571,8 @@
                                     "end": 1465,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -592,8 +591,8 @@
                                       "end": 1478,
                                       "name": "value"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Identifier",
@@ -629,8 +628,8 @@
                                     "end": 1512,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -649,8 +648,8 @@
                                       "end": 1524,
                                       "name": "done"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -664,7 +663,8 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
@@ -689,8 +689,8 @@
                         "end": 1552,
                         "name": "then"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -698,7 +698,6 @@
                         "start": 1553,
                         "end": 1717,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [
@@ -756,8 +755,8 @@
                                     "end": 1613,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -801,8 +800,8 @@
                                     "end": 1653,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -821,8 +820,8 @@
                                       "end": 1666,
                                       "name": "value"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -859,8 +858,8 @@
                                     "end": 1692,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -879,8 +878,8 @@
                                       "end": 1704,
                                       "name": "done"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -894,7 +893,8 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
@@ -919,8 +919,8 @@
                         "end": 1733,
                         "name": "then"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -928,7 +928,6 @@
                         "start": 1734,
                         "end": 1898,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [
@@ -986,8 +985,8 @@
                                     "end": 1794,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -1031,8 +1030,8 @@
                                     "end": 1834,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -1051,8 +1050,8 @@
                                       "end": 1847,
                                       "name": "value"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -1089,8 +1088,8 @@
                                     "end": 1873,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -1109,8 +1108,8 @@
                                       "end": 1885,
                                       "name": "done"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Literal",
@@ -1124,7 +1123,8 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
@@ -1140,8 +1140,8 @@
             "end": 1908,
             "name": "then"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1149,7 +1149,6 @@
             "start": 1909,
             "end": 1932,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1177,7 +1176,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Identifier",

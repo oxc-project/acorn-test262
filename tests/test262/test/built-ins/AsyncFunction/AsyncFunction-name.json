@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 334,
       "end": 390,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -32,7 +33,6 @@
                 "end": 372,
                 "name": "foo"
               },
-              "expression": false,
               "generator": false,
               "async": true,
               "params": [],
@@ -41,7 +41,8 @@
                 "start": 375,
                 "end": 377,
                 "body": []
-              }
+              },
+              "expression": false
             },
             "property": {
               "type": "Identifier",
@@ -49,12 +50,11 @@
               "end": 389,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -93,9 +93,7 @@
                 "type": "Property",
                 "start": 433,
                 "end": 455,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 433,
@@ -109,15 +107,15 @@
                   "value": "AsyncFunction",
                   "raw": "\"AsyncFunction\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 459,
                 "end": 474,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 459,
@@ -131,15 +129,15 @@
                   "value": false,
                   "raw": "false"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 478,
                 "end": 495,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 478,
@@ -153,15 +151,15 @@
                   "value": false,
                   "raw": "false"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 499,
                 "end": 517,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 499,
@@ -175,7 +173,9 @@
                   "value": true,
                   "raw": "true"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }

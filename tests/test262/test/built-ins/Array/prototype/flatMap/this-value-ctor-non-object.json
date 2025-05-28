@@ -27,8 +27,8 @@
             "end": 1307,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 1311,
             "end": 1341,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 1318,
@@ -57,8 +56,8 @@
                   "end": 1333,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -66,9 +65,10 @@
                 "end": 1341,
                 "name": "flatMap"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -92,6 +92,7 @@
       "type": "VariableDeclaration",
       "start": 1440,
       "end": 1451,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -110,13 +111,13 @@
             "elements": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1452,
       "end": 1481,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -133,7 +134,6 @@
             "start": 1467,
             "end": 1480,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -142,11 +142,11 @@
               "start": 1478,
               "end": 1480,
               "body": []
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -173,8 +173,8 @@
             "end": 1496,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -209,8 +209,8 @@
             "end": 1518,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -224,7 +224,6 @@
             "start": 1530,
             "end": 1567,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -257,8 +256,8 @@
                         "end": 1554,
                         "name": "flatMap"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -272,7 +271,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -333,8 +333,8 @@
             "end": 1644,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -369,8 +369,8 @@
             "end": 1663,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -384,7 +384,6 @@
             "start": 1675,
             "end": 1712,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -417,8 +416,8 @@
                         "end": 1699,
                         "name": "flatMap"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -432,7 +431,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -493,8 +493,8 @@
             "end": 1789,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -529,8 +529,8 @@
             "end": 1815,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -544,7 +544,6 @@
             "start": 1827,
             "end": 1864,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -577,8 +576,8 @@
                         "end": 1851,
                         "name": "flatMap"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -592,7 +591,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -653,8 +653,8 @@
             "end": 1941,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -689,8 +689,8 @@
             "end": 1963,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -704,7 +704,6 @@
             "start": 1975,
             "end": 2012,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -737,8 +736,8 @@
                         "end": 1999,
                         "name": "flatMap"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -752,7 +751,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -813,8 +813,8 @@
             "end": 2089,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "CallExpression",
@@ -855,8 +855,8 @@
             "end": 2115,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -870,7 +870,6 @@
             "start": 2127,
             "end": 2164,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -903,8 +902,8 @@
                         "end": 2151,
                         "name": "flatMap"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -918,7 +917,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -979,8 +979,8 @@
             "end": 2241,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Identifier",
@@ -994,6 +994,7 @@
       "type": "VariableDeclaration",
       "start": 2255,
       "end": 2288,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1025,8 +1026,8 @@
                 "end": 2277,
                 "name": "flatMap"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1039,8 +1040,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1066,8 +1066,8 @@
             "end": 2308,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1117,8 +1117,8 @@
             "end": 2382,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1141,8 +1141,8 @@
                 "end": 2407,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1170,8 +1170,8 @@
               "end": 2434,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1208,8 +1208,8 @@
             "end": 2529,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

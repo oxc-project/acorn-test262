@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 808,
       "end": 837,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -46,13 +47,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 838,
       "end": 864,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -78,8 +79,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -116,8 +116,8 @@
               "end": 893,
               "name": "setHours"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -244,8 +244,8 @@
               "end": 963,
               "name": "getTime"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [],
           "optional": false
@@ -276,8 +276,8 @@
             "end": 983,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -327,8 +327,8 @@
             "end": 1079,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -351,8 +351,8 @@
                 "end": 1095,
                 "name": "getTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -409,8 +409,8 @@
               "end": 1200,
               "name": "setHours"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -439,14 +439,14 @@
               "start": 1210,
               "end": 1212,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1211,
                 "end": 1212,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -544,8 +544,8 @@
               "end": 1273,
               "name": "getTime"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [],
           "optional": false
@@ -576,8 +576,8 @@
             "end": 1293,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -627,8 +627,8 @@
             "end": 1394,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -651,8 +651,8 @@
                 "end": 1410,
                 "name": "getTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -709,8 +709,8 @@
               "end": 1520,
               "name": "setHours"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -830,8 +830,8 @@
               "end": 1587,
               "name": "getTime"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [],
           "optional": false
@@ -862,8 +862,8 @@
             "end": 1607,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -913,8 +913,8 @@
             "end": 1707,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -937,8 +937,8 @@
                 "end": 1723,
                 "name": "getTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

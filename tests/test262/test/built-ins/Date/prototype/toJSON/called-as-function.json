@@ -36,8 +36,8 @@
                   "end": 544,
                   "name": "toPrimitive"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               {
                 "type": "Literal",
@@ -68,8 +68,8 @@
             "end": 591,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -77,7 +77,6 @@
             "start": 592,
             "end": 778,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -117,8 +116,8 @@
                         "end": 633,
                         "name": "defineProperty"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -141,9 +140,7 @@
                             "type": "Property",
                             "start": 655,
                             "end": 767,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 655,
@@ -155,7 +152,6 @@
                               "start": 660,
                               "end": 767,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [],
@@ -216,9 +212,12 @@
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -227,7 +226,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "ThisExpression",
@@ -242,6 +242,7 @@
       "type": "VariableDeclaration",
       "start": 788,
       "end": 823,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -273,8 +274,8 @@
                 "end": 815,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -282,12 +283,11 @@
               "end": 822,
               "name": "toJSON"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -313,8 +313,8 @@
             "end": 837,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -328,7 +328,6 @@
             "start": 849,
             "end": 877,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -356,7 +355,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

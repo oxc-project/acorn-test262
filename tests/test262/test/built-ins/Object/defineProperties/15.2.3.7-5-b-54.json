@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 307,
       "end": 320,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,13 +26,13 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 321,
       "end": 342,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -51,13 +52,13 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 343,
       "end": 351,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -71,8 +72,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -96,7 +96,6 @@
               "end": 366,
               "name": "fun"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -129,7 +128,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           "arguments": [
             {
@@ -182,8 +182,8 @@
             "end": 427,
             "name": "defineProperties"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -201,9 +201,7 @@
                 "type": "Property",
                 "start": 437,
                 "end": 468,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 437,
@@ -219,9 +217,7 @@
                       "type": "Property",
                       "start": 449,
                       "end": 464,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 449,
@@ -234,11 +230,15 @@
                         "end": 464,
                         "name": "arg"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -254,6 +254,7 @@
         "type": "VariableDeclaration",
         "start": 478,
         "end": 490,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -267,8 +268,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "Identifier",

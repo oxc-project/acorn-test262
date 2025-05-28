@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1309,
       "end": 1343,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -31,13 +32,13 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1344,
       "end": 1379,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -58,9 +59,7 @@
                 "type": "Property",
                 "start": 1361,
                 "end": 1376,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1361,
@@ -74,13 +73,14 @@
                   "value": false,
                   "raw": "false"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -106,8 +106,8 @@
             "end": 1391,
             "name": "adopt"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -120,9 +120,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1402,
             "end": 1428,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -162,8 +160,8 @@
                         "end": 1419,
                         "name": "disposed"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "Literal",
@@ -175,7 +173,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -205,8 +205,8 @@
             "end": 1444,
             "name": "dispose"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -236,8 +236,8 @@
             "end": 1464,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -256,8 +256,8 @@
               "end": 1482,
               "name": "disposed"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

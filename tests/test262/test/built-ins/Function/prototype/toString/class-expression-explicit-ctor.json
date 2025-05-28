@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 325,
       "end": 538,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -43,21 +44,17 @@
                   "type": "MethodDefinition",
                   "start": 405,
                   "end": 466,
-                  "static": false,
-                  "computed": false,
                   "key": {
                     "type": "Identifier",
                     "start": 405,
                     "end": 416,
                     "name": "constructor"
                   },
-                  "kind": "constructor",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 425,
                     "end": 466,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -72,28 +69,28 @@
                           "end": 456
                         }
                       ]
-                    }
-                  }
+                    },
+                    "expression": false
+                  },
+                  "kind": "constructor",
+                  "computed": false,
+                  "static": false
                 },
                 {
                   "type": "MethodDefinition",
                   "start": 475,
                   "end": 516,
-                  "static": false,
-                  "computed": false,
                   "key": {
                     "type": "Identifier",
                     "start": 475,
                     "end": 476,
                     "name": "m"
                   },
-                  "kind": "method",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 485,
                     "end": 516,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -102,15 +99,18 @@
                       "start": 505,
                       "end": 516,
                       "body": []
-                    }
-                  }
+                    },
+                    "expression": false
+                  },
+                  "kind": "method",
+                  "computed": false,
+                  "static": false
                 }
               ]
             }
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -154,7 +154,6 @@
         "end": 771,
         "name": "B"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -163,7 +162,8 @@
         "start": 773,
         "end": 775,
         "body": []
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 349,
       "end": 370,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 371,
       "end": 388,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -51,8 +52,7 @@
             "elements": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -79,8 +79,8 @@
             "end": 408,
             "name": "enumerable"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -95,6 +95,7 @@
       "type": "VariableDeclaration",
       "start": 418,
       "end": 470,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -126,8 +127,8 @@
                 "end": 444,
                 "name": "create"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -145,9 +146,7 @@
                     "type": "Property",
                     "start": 453,
                     "end": 466,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 453,
@@ -160,7 +159,9 @@
                       "end": 466,
                       "name": "descObj"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -168,8 +169,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForInStatement",
@@ -179,6 +179,7 @@
         "type": "VariableDeclaration",
         "start": 476,
         "end": 488,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -192,8 +193,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "Identifier",

@@ -13,7 +13,6 @@
         "end": 302,
         "name": "callbackfn"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -56,7 +55,6 @@
               "start": 334,
               "end": 347,
               "operator": "delete",
-              "prefix": true,
               "argument": {
                 "type": "MemberExpression",
                 "start": 341,
@@ -74,9 +72,10 @@
                   "value": 3,
                   "raw": "3"
                 },
-                "computed": true,
-                "optional": false
-              }
+                "optional": false,
+                "computed": true
+              },
+              "prefix": true
             }
           },
           {
@@ -88,7 +87,6 @@
               "start": 351,
               "end": 364,
               "operator": "delete",
-              "prefix": true,
               "argument": {
                 "type": "MemberExpression",
                 "start": 358,
@@ -106,9 +104,10 @@
                   "value": 4,
                   "raw": "4"
                 },
-                "computed": true,
-                "optional": false
-              }
+                "optional": false,
+                "computed": true
+              },
+              "prefix": true
             }
           },
           {
@@ -135,12 +134,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 396,
       "end": 424,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -195,8 +196,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -222,8 +222,8 @@
             "end": 466,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -246,8 +246,8 @@
                 "end": 477,
                 "name": "reduce"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

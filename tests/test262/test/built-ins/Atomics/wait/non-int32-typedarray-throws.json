@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 600,
       "end": 710,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 621,
                 "end": 707,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 621,
@@ -41,7 +40,6 @@
                   "start": 630,
                   "end": 707,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -76,15 +74,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -110,8 +110,8 @@
             "end": 725,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -125,7 +125,6 @@
             "start": 737,
             "end": 903,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -138,6 +137,7 @@
                   "type": "VariableDeclaration",
                   "start": 752,
                   "end": 849,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -191,8 +191,8 @@
                                     "end": 839,
                                     "name": "BYTES_PER_ELEMENT"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "operator": "*",
                                 "right": {
@@ -208,8 +208,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -235,8 +234,8 @@
                         "end": 864,
                         "name": "wait"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -268,7 +267,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -298,8 +298,8 @@
             "end": 920,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -313,7 +313,6 @@
             "start": 932,
             "end": 1098,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -326,6 +325,7 @@
                   "type": "VariableDeclaration",
                   "start": 947,
                   "end": 1044,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -379,8 +379,8 @@
                                     "end": 1034,
                                     "name": "BYTES_PER_ELEMENT"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "operator": "*",
                                 "right": {
@@ -396,8 +396,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -423,8 +422,8 @@
                         "end": 1059,
                         "name": "wait"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -456,7 +455,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -475,13 +475,13 @@
           "start": 1106,
           "end": 1125,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 1113,
             "end": 1125,
             "name": "Float16Array"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -521,8 +521,8 @@
                   "end": 1160,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -536,7 +536,6 @@
                   "start": 1172,
                   "end": 1348,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -549,6 +548,7 @@
                         "type": "VariableDeclaration",
                         "start": 1189,
                         "end": 1290,
+                        "kind": "const",
                         "declarations": [
                           {
                             "type": "VariableDeclarator",
@@ -602,8 +602,8 @@
                                           "end": 1278,
                                           "name": "BYTES_PER_ELEMENT"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "operator": "*",
                                       "right": {
@@ -619,8 +619,7 @@
                               ]
                             }
                           }
-                        ],
-                        "kind": "const"
+                        ]
                       },
                       {
                         "type": "ExpressionStatement",
@@ -646,8 +645,8 @@
                               "end": 1307,
                               "name": "wait"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -679,7 +678,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               ],
               "optional": false
@@ -713,8 +713,8 @@
             "end": 1367,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -728,7 +728,6 @@
             "start": 1379,
             "end": 1541,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -741,6 +740,7 @@
                   "type": "VariableDeclaration",
                   "start": 1394,
                   "end": 1487,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -794,8 +794,8 @@
                                     "end": 1477,
                                     "name": "BYTES_PER_ELEMENT"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "operator": "*",
                                 "right": {
@@ -811,8 +811,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -838,8 +837,8 @@
                         "end": 1502,
                         "name": "wait"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -871,7 +870,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -901,8 +901,8 @@
             "end": 1558,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -916,7 +916,6 @@
             "start": 1570,
             "end": 1726,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -929,6 +928,7 @@
                   "type": "VariableDeclaration",
                   "start": 1585,
                   "end": 1672,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -978,16 +978,15 @@
                                   "end": 1666,
                                   "name": "BYTES_PER_ELEMENT"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               }
                             ]
                           }
                         ]
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -1013,8 +1012,8 @@
                         "end": 1687,
                         "name": "wait"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1046,7 +1045,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -1076,8 +1076,8 @@
             "end": 1743,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1091,7 +1091,6 @@
             "start": 1755,
             "end": 1919,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1104,6 +1103,7 @@
                   "type": "VariableDeclaration",
                   "start": 1770,
                   "end": 1865,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -1157,8 +1157,8 @@
                                     "end": 1855,
                                     "name": "BYTES_PER_ELEMENT"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "operator": "*",
                                 "right": {
@@ -1174,8 +1174,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -1201,8 +1200,8 @@
                         "end": 1880,
                         "name": "wait"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1234,7 +1233,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -1264,8 +1264,8 @@
             "end": 1936,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1279,7 +1279,6 @@
             "start": 1948,
             "end": 2112,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1292,6 +1291,7 @@
                   "type": "VariableDeclaration",
                   "start": 1963,
                   "end": 2058,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -1345,8 +1345,8 @@
                                     "end": 2048,
                                     "name": "BYTES_PER_ELEMENT"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "operator": "*",
                                 "right": {
@@ -1362,8 +1362,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -1389,8 +1388,8 @@
                         "end": 2073,
                         "name": "wait"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1422,7 +1421,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -1452,8 +1452,8 @@
             "end": 2129,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1467,7 +1467,6 @@
             "start": 2141,
             "end": 2299,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1480,6 +1479,7 @@
                   "type": "VariableDeclaration",
                   "start": 2156,
                   "end": 2245,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -1529,16 +1529,15 @@
                                   "end": 2239,
                                   "name": "BYTES_PER_ELEMENT"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               }
                             ]
                           }
                         ]
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -1564,8 +1563,8 @@
                         "end": 2260,
                         "name": "wait"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1597,7 +1596,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -1627,8 +1627,8 @@
             "end": 2316,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1642,7 +1642,6 @@
             "start": 2328,
             "end": 2500,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1655,6 +1654,7 @@
                   "type": "VariableDeclaration",
                   "start": 2343,
                   "end": 2446,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -1704,16 +1704,15 @@
                                   "end": 2440,
                                   "name": "BYTES_PER_ELEMENT"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               }
                             ]
                           }
                         ]
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -1739,8 +1738,8 @@
                         "end": 2461,
                         "name": "wait"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1772,7 +1771,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

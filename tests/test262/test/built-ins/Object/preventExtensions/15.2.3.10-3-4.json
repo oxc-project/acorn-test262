@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 306,
       "end": 319,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             "elements": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -63,8 +63,8 @@
                 "end": 347,
                 "name": "isExtensible"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -104,8 +104,8 @@
             "end": 379,
             "name": "preventExtensions"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -138,7 +138,6 @@
             "start": 393,
             "end": 418,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 394,
@@ -159,8 +158,8 @@
                   "end": 413,
                   "name": "isExtensible"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -171,7 +170,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -236,7 +236,6 @@
             "start": 470,
             "end": 494,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 471,
@@ -257,8 +256,8 @@
                   "end": 489,
                   "name": "hasOwnProperty"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -270,7 +269,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false

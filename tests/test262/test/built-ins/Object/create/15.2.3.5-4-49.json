@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 311,
       "end": 332,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 334,
       "end": 369,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -53,9 +54,7 @@
                 "type": "Property",
                 "start": 350,
                 "end": 366,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 350,
@@ -69,18 +68,20 @@
                   "value": true,
                   "raw": "true"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 370,
       "end": 403,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -97,7 +98,6 @@
             "start": 389,
             "end": 402,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -106,11 +106,11 @@
               "start": 400,
               "end": 402,
               "body": []
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -137,8 +137,8 @@
             "end": 426,
             "name": "prototype"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Identifier",
@@ -152,6 +152,7 @@
       "type": "VariableDeclaration",
       "start": 436,
       "end": 469,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -176,13 +177,13 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 471,
       "end": 523,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -214,8 +215,8 @@
                 "end": 497,
                 "name": "create"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -233,9 +234,7 @@
                     "type": "Property",
                     "start": 506,
                     "end": 519,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 506,
@@ -248,7 +247,9 @@
                       "end": 519,
                       "name": "descObj"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -256,8 +257,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForInStatement",
@@ -267,6 +267,7 @@
         "type": "VariableDeclaration",
         "start": 530,
         "end": 542,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -280,8 +281,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "Identifier",

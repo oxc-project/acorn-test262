@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 924,
       "end": 956,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,13 +40,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 957,
       "end": 994,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -84,8 +85,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -111,8 +111,8 @@
             "end": 1011,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -157,8 +157,8 @@
             "end": 1034,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -203,8 +203,8 @@
             "end": 1057,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -249,8 +249,8 @@
             "end": 1080,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -295,8 +295,8 @@
             "end": 1103,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -341,8 +341,8 @@
             "end": 1128,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -387,8 +387,8 @@
             "end": 1152,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -433,8 +433,8 @@
             "end": 1177,
             "name": "setUint8"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -522,8 +522,8 @@
             "end": 1238,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -546,8 +546,8 @@
                 "end": 1254,
                 "name": "getInt16"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -572,14 +572,14 @@
             "start": 1266,
             "end": 1272,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1267,
               "end": 1272,
               "value": 32726,
               "raw": "32726"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -616,8 +616,8 @@
             "end": 1303,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -640,8 +640,8 @@
                 "end": 1319,
                 "name": "getInt16"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -703,8 +703,8 @@
             "end": 1367,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -727,8 +727,8 @@
                 "end": 1383,
                 "name": "getInt16"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -753,14 +753,14 @@
             "start": 1395,
             "end": 1401,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1396,
               "end": 1401,
               "value": 32729,
               "raw": "32729"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -797,8 +797,8 @@
             "end": 1433,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -821,8 +821,8 @@
                 "end": 1449,
                 "name": "getInt16"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -884,8 +884,8 @@
             "end": 1495,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -908,8 +908,8 @@
                 "end": 1511,
                 "name": "getInt16"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -934,14 +934,14 @@
             "start": 1522,
             "end": 1528,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1523,
               "end": 1528,
               "value": 32726,
               "raw": "32726"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -978,8 +978,8 @@
             "end": 1558,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1002,8 +1002,8 @@
                 "end": 1574,
                 "name": "getInt16"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

@@ -27,8 +27,8 @@
             "end": 751,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -62,8 +62,8 @@
                     "end": 799,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -71,8 +71,8 @@
                   "end": 810,
                   "name": "unregister"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             ],
             "optional": false
@@ -119,8 +119,8 @@
             "end": 918,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -133,9 +133,7 @@
             "type": "ArrowFunctionExpression",
             "start": 930,
             "end": 1048,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -147,6 +145,7 @@
                   "type": "VariableDeclaration",
                   "start": 940,
                   "end": 984,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -173,9 +172,7 @@
                             "type": "ArrowFunctionExpression",
                             "start": 974,
                             "end": 982,
-                            "id": null,
                             "expression": false,
-                            "generator": false,
                             "async": false,
                             "params": [],
                             "body": {
@@ -183,18 +180,20 @@
                               "start": 980,
                               "end": 982,
                               "body": []
-                            }
+                            },
+                            "id": null,
+                            "generator": false
                           }
                         ]
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 985,
                   "end": 1000,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -213,8 +212,7 @@
                         "properties": []
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -240,8 +238,8 @@
                         "end": 1012,
                         "name": "register"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -278,8 +276,8 @@
                         "end": 1038,
                         "name": "unregister"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -292,7 +290,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

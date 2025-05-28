@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 383,
       "end": 404,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 450,
       "end": 470,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,13 +53,13 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 521,
       "end": 539,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -78,13 +79,13 @@
             "raw": "2"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 584,
       "end": 607,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -104,13 +105,13 @@
             "raw": "3"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 657,
       "end": 676,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -130,13 +131,13 @@
             "raw": "3"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 677,
       "end": 710,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -156,13 +157,13 @@
             "raw": "2"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 755,
       "end": 777,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -182,13 +183,13 @@
             "raw": "4"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 880,
       "end": 921,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -224,8 +225,8 @@
                   "end": 906,
                   "name": "agent"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -233,8 +234,8 @@
                 "end": 915,
                 "name": "timeouts"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -242,12 +243,11 @@
               "end": 920,
               "name": "long"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForStatement",
@@ -257,6 +257,7 @@
         "type": "VariableDeclaration",
         "start": 928,
         "end": 937,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -276,8 +277,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -343,8 +343,8 @@
                     "end": 972,
                     "name": "agent"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -352,28 +352,14 @@
                   "end": 978,
                   "name": "start"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
                   "type": "TemplateLiteral",
                   "start": 979,
                   "end": 1219,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1095,
-                      "end": 1102,
-                      "name": "RUNNING"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 1162,
-                      "end": 1172,
-                      "name": "WAIT_INDEX"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -404,6 +390,20 @@
                         "cooked": ", 0));\n      $262.agent.leaving();\n    });\n  "
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1095,
+                      "end": 1102,
+                      "name": "RUNNING"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 1162,
+                      "end": 1172,
+                      "name": "WAIT_INDEX"
                     }
                   ]
                 }
@@ -442,8 +442,8 @@
               "end": 1235,
               "name": "agent"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -451,40 +451,14 @@
             "end": 1241,
             "name": "start"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
             "start": 1242,
             "end": 1826,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 1352,
-                "end": 1359,
-                "name": "RUNNING"
-              },
-              {
-                "type": "Identifier",
-                "start": 1451,
-                "end": 1460,
-                "name": "WAIT_FAKE"
-              },
-              {
-                "type": "Identifier",
-                "start": 1468,
-                "end": 1475,
-                "name": "TIMEOUT"
-              },
-              {
-                "type": "Identifier",
-                "start": 1627,
-                "end": 1639,
-                "name": "NOTIFY_INDEX"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -536,6 +510,32 @@
                 },
                 "tail": true
               }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 1352,
+                "end": 1359,
+                "name": "RUNNING"
+              },
+              {
+                "type": "Identifier",
+                "start": 1451,
+                "end": 1460,
+                "name": "WAIT_FAKE"
+              },
+              {
+                "type": "Identifier",
+                "start": 1468,
+                "end": 1475,
+                "name": "TIMEOUT"
+              },
+              {
+                "type": "Identifier",
+                "start": 1627,
+                "end": 1639,
+                "name": "NOTIFY_INDEX"
+              }
             ]
           }
         ],
@@ -546,6 +546,7 @@
       "type": "VariableDeclaration",
       "start": 1830,
       "end": 1929,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -599,8 +600,8 @@
                         "end": 1911,
                         "name": "BYTES_PER_ELEMENT"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "operator": "*",
                     "right": {
@@ -615,8 +616,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -646,8 +646,8 @@
               "end": 1941,
               "name": "agent"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -655,8 +655,8 @@
             "end": 1955,
             "name": "safeBroadcast"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -697,8 +697,8 @@
               "end": 2008,
               "name": "agent"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -706,8 +706,8 @@
             "end": 2018,
             "name": "waitUntil"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -773,8 +773,8 @@
               "end": 2220,
               "name": "agent"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -782,8 +782,8 @@
             "end": 2229,
             "name": "tryYield"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -813,8 +813,8 @@
             "end": 2328,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -837,8 +837,8 @@
                 "end": 2346,
                 "name": "notify"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -897,8 +897,8 @@
             "end": 2464,
             "name": "store"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -928,6 +928,7 @@
       "type": "VariableDeclaration",
       "start": 2490,
       "end": 2509,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -946,8 +947,7 @@
             "elements": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForStatement",
@@ -957,6 +957,7 @@
         "type": "VariableDeclaration",
         "start": 2515,
         "end": 2524,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -976,8 +977,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -1051,8 +1051,8 @@
                   "end": 2586,
                   "name": "push"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1079,8 +1079,8 @@
                         "end": 2597,
                         "name": "agent"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1088,8 +1088,8 @@
                       "end": 2607,
                       "name": "getReport"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -1125,8 +1125,8 @@
             "end": 2626,
             "name": "sort"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -1140,6 +1140,7 @@
         "type": "VariableDeclaration",
         "start": 2636,
         "end": 2645,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -1159,8 +1160,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -1222,8 +1222,8 @@
                   "end": 2686,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1242,8 +1242,8 @@
                     "end": 2696,
                     "name": "i"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 {
                   "type": "Literal",
@@ -1290,8 +1290,8 @@
             "end": 2763,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1310,8 +1310,8 @@
               "end": 2780,
               "name": "NUMAGENT"
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",
@@ -1355,8 +1355,8 @@
             "end": 2866,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1388,8 +1388,8 @@
                 "raw": "1"
               }
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",

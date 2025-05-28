@@ -12,6 +12,7 @@
         "type": "VariableDeclaration",
         "start": 455,
         "end": 463,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -43,6 +43,7 @@
             "type": "VariableDeclaration",
             "start": 478,
             "end": 573,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -93,8 +94,8 @@
                           "end": 543,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     },
                     {
@@ -125,21 +126,21 @@
                           "end": 571,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   ],
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 576,
             "end": 616,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -185,13 +186,13 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 619,
             "end": 728,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -212,9 +213,7 @@
                       "type": "Property",
                       "start": 638,
                       "end": 723,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 638,
@@ -225,9 +224,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 648,
                         "end": 723,
-                        "id": null,
                         "expression": false,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -259,8 +256,8 @@
                                     "end": 672,
                                     "name": "resize"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -291,8 +288,8 @@
                                         "end": 699,
                                         "name": "BYTES_PER_ELEMENT"
                                       },
-                                      "computed": false,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": false
                                     }
                                   }
                                 ],
@@ -312,15 +309,18 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -346,8 +346,8 @@
                   "end": 744,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -360,9 +360,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 756,
                   "end": 855,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -394,8 +392,8 @@
                               "end": 789,
                               "name": "defineProperty"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -419,9 +417,7 @@
                                   "type": "Property",
                                   "start": 811,
                                   "end": 847,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 811,
@@ -455,7 +451,9 @@
                                     ],
                                     "optional": false
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 }
                               ]
                             }
@@ -464,7 +462,9 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
@@ -482,6 +482,7 @@
         "type": "VariableDeclaration",
         "start": 886,
         "end": 894,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -495,8 +496,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -513,6 +513,7 @@
             "type": "VariableDeclaration",
             "start": 909,
             "end": 1004,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -563,8 +564,8 @@
                           "end": 974,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     },
                     {
@@ -595,21 +596,21 @@
                           "end": 1002,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   ],
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 1007,
             "end": 1047,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -648,13 +649,13 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 1050,
             "end": 1193,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -675,9 +676,7 @@
                       "type": "Property",
                       "start": 1069,
                       "end": 1188,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1069,
@@ -688,9 +687,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 1079,
                         "end": 1188,
-                        "id": null,
                         "expression": false,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -722,8 +719,8 @@
                                     "end": 1103,
                                     "name": "resize"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -754,8 +751,8 @@
                                         "end": 1130,
                                         "name": "BYTES_PER_ELEMENT"
                                       },
-                                      "computed": false,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": false
                                     }
                                   }
                                 ],
@@ -775,15 +772,18 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -809,8 +809,8 @@
                   "end": 1209,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -823,9 +823,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1221,
                   "end": 1326,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -857,8 +855,8 @@
                               "end": 1254,
                               "name": "defineProperty"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -882,9 +880,7 @@
                                   "type": "Property",
                                   "start": 1279,
                                   "end": 1318,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 1279,
@@ -918,7 +914,9 @@
                                     ],
                                     "optional": false
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 }
                               ]
                             }
@@ -927,7 +925,9 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false

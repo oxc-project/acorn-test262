@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 585,
       "end": 617,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,8 +40,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -66,8 +66,8 @@
             "end": 632,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -81,7 +81,6 @@
             "start": 645,
             "end": 687,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -116,20 +115,21 @@
                         "start": 681,
                         "end": 683,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 682,
                           "end": 683,
                           "value": 1,
                           "raw": "1"
-                        }
+                        },
+                        "prefix": true
                       }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -166,8 +166,8 @@
             "end": 733,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -181,7 +181,6 @@
             "start": 746,
             "end": 795,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -216,19 +215,20 @@
                         "start": 782,
                         "end": 791,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Identifier",
                           "start": 783,
                           "end": 791,
                           "name": "Infinity"
-                        }
+                        },
+                        "prefix": true
                       }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

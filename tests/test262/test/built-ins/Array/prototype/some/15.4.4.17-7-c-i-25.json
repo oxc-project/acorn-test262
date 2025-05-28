@@ -13,7 +13,6 @@
         "end": 386,
         "name": "callbackfn"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -110,12 +109,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 469,
       "end": 558,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -132,7 +133,6 @@
             "start": 480,
             "end": 557,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -186,8 +186,8 @@
                             "end": 521,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -195,8 +195,8 @@
                           "end": 526,
                           "name": "some"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -204,8 +204,8 @@
                         "end": 531,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -225,11 +225,11 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",

@@ -13,7 +13,6 @@
         "end": 320,
         "name": "foo"
       },
-      "expression": false,
       "generator": false,
       "async": true,
       "params": [],
@@ -22,7 +21,8 @@
         "start": 323,
         "end": 325,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -53,8 +53,8 @@
             "end": 343,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -73,8 +73,8 @@
               "end": 357,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",
@@ -113,7 +113,6 @@
             "start": 415,
             "end": 447,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 416,
@@ -134,8 +133,8 @@
                   "end": 434,
                   "name": "hasOwnProperty"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -147,7 +146,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

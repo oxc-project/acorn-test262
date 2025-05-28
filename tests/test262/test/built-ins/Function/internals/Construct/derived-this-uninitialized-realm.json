@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 589,
       "end": 696,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -50,8 +51,8 @@
                       "end": 613,
                       "name": "createRealm"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -62,8 +63,8 @@
                   "end": 622,
                   "name": "global"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -71,8 +72,8 @@
                 "end": 627,
                 "name": "eval"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -112,8 +113,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -139,8 +139,8 @@
             "end": 711,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -154,7 +154,6 @@
             "start": 728,
             "end": 753,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -181,7 +180,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

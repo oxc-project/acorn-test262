@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 307,
       "end": 404,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -54,8 +55,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",

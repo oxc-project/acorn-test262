@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 398,
       "end": 448,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -68,8 +69,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -80,6 +80,7 @@
         "type": "VariableDeclaration",
         "start": 454,
         "end": 465,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -93,8 +94,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -127,7 +127,6 @@
                   "start": 488,
                   "end": 510,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 489,
@@ -148,8 +147,8 @@
                         "end": 503,
                         "name": "isRawJSON"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -160,7 +159,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -201,8 +201,8 @@
                       "end": 536,
                       "name": "isRawJSON"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -225,8 +225,8 @@
                           "end": 549,
                           "name": "rawJSON"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -268,7 +268,6 @@
             "start": 569,
             "end": 595,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 570,
@@ -289,8 +288,8 @@
                   "end": 584,
                   "name": "isRawJSON"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -301,7 +300,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -327,7 +327,6 @@
             "start": 605,
             "end": 635,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 606,
@@ -348,8 +347,8 @@
                   "end": 620,
                   "name": "isRawJSON"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -375,7 +374,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -401,7 +401,6 @@
             "start": 645,
             "end": 664,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 646,
@@ -422,8 +421,8 @@
                   "end": 660,
                   "name": "isRawJSON"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -434,7 +433,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -460,7 +460,6 @@
             "start": 674,
             "end": 693,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 675,
@@ -481,8 +480,8 @@
                   "end": 689,
                   "name": "isRawJSON"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -493,7 +492,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -519,7 +519,6 @@
             "start": 703,
             "end": 738,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 704,
@@ -540,8 +539,8 @@
                   "end": 718,
                   "name": "isRawJSON"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -553,9 +552,7 @@
                       "type": "Property",
                       "start": 721,
                       "end": 735,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 721,
@@ -569,13 +566,16 @@
                         "value": "123",
                         "raw": "'123'"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false

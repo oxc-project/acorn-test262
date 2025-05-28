@@ -27,8 +27,8 @@
             "end": 278,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -55,8 +55,8 @@
                   "end": 295,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -64,8 +64,8 @@
                 "end": 303,
                 "name": "valueOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -120,8 +120,8 @@
             "end": 391,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -155,8 +155,8 @@
                 "end": 414,
                 "name": "valueOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -211,8 +211,8 @@
             "end": 500,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -254,8 +254,8 @@
                 "end": 524,
                 "name": "valueOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -310,8 +310,8 @@
             "end": 611,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -342,14 +342,14 @@
                       "start": 624,
                       "end": 626,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 625,
                         "end": 626,
                         "value": 1,
                         "raw": "1"
-                      }
+                      },
+                      "prefix": true
                     }
                   ]
                 }
@@ -360,8 +360,8 @@
                 "end": 636,
                 "name": "valueOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -379,14 +379,14 @@
             "start": 650,
             "end": 652,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 651,
               "end": 652,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -423,8 +423,8 @@
             "end": 726,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -466,8 +466,8 @@
                 "end": 750,
                 "name": "valueOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -522,8 +522,8 @@
             "end": 838,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -559,8 +559,8 @@
                 "end": 865,
                 "name": "valueOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -614,8 +614,8 @@
             "end": 958,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -657,8 +657,8 @@
                         "end": 998,
                         "name": "POSITIVE_INFINITY"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -669,8 +669,8 @@
                 "end": 1008,
                 "name": "valueOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -699,8 +699,8 @@
               "end": 1048,
               "name": "POSITIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -737,8 +737,8 @@
             "end": 1166,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -780,8 +780,8 @@
                         "end": 1206,
                         "name": "NEGATIVE_INFINITY"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -792,8 +792,8 @@
                 "end": 1216,
                 "name": "valueOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -822,8 +822,8 @@
               "end": 1256,
               "name": "NEGATIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

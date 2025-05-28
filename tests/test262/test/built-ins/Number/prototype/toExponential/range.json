@@ -27,8 +27,8 @@
             "end": 431,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -57,8 +57,8 @@
                 "end": 449,
                 "name": "toExponential"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -106,8 +106,8 @@
             "end": 476,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -120,9 +120,7 @@
             "type": "ArrowFunctionExpression",
             "start": 489,
             "end": 516,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -151,8 +149,8 @@
                   "end": 512,
                   "name": "toExponential"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -160,18 +158,20 @@
                   "start": 513,
                   "end": 515,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 514,
                     "end": 515,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -201,8 +201,8 @@
             "end": 536,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -231,8 +231,8 @@
                 "end": 554,
                 "name": "toExponential"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -280,8 +280,8 @@
             "end": 684,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -294,9 +294,7 @@
             "type": "ArrowFunctionExpression",
             "start": 697,
             "end": 725,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -325,8 +323,8 @@
                   "end": 720,
                   "name": "toExponential"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -338,7 +336,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

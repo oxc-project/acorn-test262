@@ -27,8 +27,8 @@
             "end": 523,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 524,
             "end": 574,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 531,
@@ -57,8 +56,8 @@
                   "end": 552,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -66,9 +65,10 @@
                 "end": 574,
                 "name": "transferToFixedLength"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -105,8 +105,8 @@
             "end": 603,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -120,7 +120,6 @@
             "start": 615,
             "end": 678,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -157,8 +156,8 @@
                           "end": 651,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -166,15 +165,16 @@
                         "end": 673,
                         "name": "transferToFixedLength"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -211,8 +211,8 @@
             "end": 740,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -226,7 +226,6 @@
             "start": 752,
             "end": 822,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -267,8 +266,8 @@
                             "end": 788,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -276,8 +275,8 @@
                           "end": 810,
                           "name": "transferToFixedLength"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -285,8 +284,8 @@
                         "end": 815,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -300,7 +299,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -337,8 +337,8 @@
             "end": 868,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -352,7 +352,6 @@
             "start": 880,
             "end": 950,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -393,8 +392,8 @@
                             "end": 916,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -402,8 +401,8 @@
                           "end": 938,
                           "name": "transferToFixedLength"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -411,8 +410,8 @@
                         "end": 943,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -426,7 +425,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

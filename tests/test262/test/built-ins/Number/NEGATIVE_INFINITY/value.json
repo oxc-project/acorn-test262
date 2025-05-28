@@ -27,8 +27,8 @@
             "end": 354,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -47,21 +47,21 @@
               "end": 379,
               "name": "NEGATIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "UnaryExpression",
             "start": 381,
             "end": 390,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 382,
               "end": 390,
               "name": "Infinity"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false

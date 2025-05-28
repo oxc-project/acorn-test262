@@ -27,8 +27,8 @@
             "end": 219,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -51,8 +51,8 @@
                 "end": 230,
                 "name": "atanh"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -60,14 +60,14 @@
                 "start": 231,
                 "end": 235,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 232,
                   "end": 235,
                   "value": 1.9,
                   "raw": "1.9"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -88,8 +88,8 @@
               "end": 248,
               "name": "NaN"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -126,8 +126,8 @@
             "end": 318,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -150,8 +150,8 @@
                 "end": 329,
                 "name": "atanh"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -179,8 +179,8 @@
               "end": 346,
               "name": "NaN"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -217,8 +217,8 @@
             "end": 415,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -241,8 +241,8 @@
                 "end": 426,
                 "name": "atanh"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -250,14 +250,14 @@
                 "start": 427,
                 "end": 430,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 428,
                   "end": 430,
                   "value": 10,
                   "raw": "10"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -278,8 +278,8 @@
               "end": 443,
               "name": "NaN"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -316,8 +316,8 @@
             "end": 512,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -340,8 +340,8 @@
                 "end": 523,
                 "name": "atanh"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -349,13 +349,13 @@
                 "start": 524,
                 "end": 533,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 525,
                   "end": 533,
                   "name": "Infinity"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -376,8 +376,8 @@
               "end": 546,
               "name": "NaN"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -414,8 +414,8 @@
             "end": 621,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -438,8 +438,8 @@
                 "end": 632,
                 "name": "atanh"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -468,8 +468,8 @@
               "end": 649,
               "name": "NaN"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -506,8 +506,8 @@
             "end": 718,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -530,8 +530,8 @@
                 "end": 729,
                 "name": "atanh"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -560,8 +560,8 @@
               "end": 745,
               "name": "NaN"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -598,8 +598,8 @@
             "end": 813,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -622,8 +622,8 @@
                 "end": 824,
                 "name": "atanh"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -642,8 +642,8 @@
                   "end": 849,
                   "name": "POSITIVE_INFINITY"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             ],
             "optional": false
@@ -664,8 +664,8 @@
               "end": 862,
               "name": "NaN"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -702,8 +702,8 @@
             "end": 953,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -726,8 +726,8 @@
                 "end": 964,
                 "name": "atanh"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -735,14 +735,14 @@
                 "start": 965,
                 "end": 967,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 966,
                   "end": 967,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -763,8 +763,8 @@
               "end": 994,
               "name": "NEGATIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -801,8 +801,8 @@
             "end": 1069,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -825,8 +825,8 @@
                 "end": 1080,
                 "name": "atanh"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -834,14 +834,14 @@
                 "start": 1081,
                 "end": 1083,
                 "operator": "+",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1082,
                   "end": 1083,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -862,8 +862,8 @@
               "end": 1110,
               "name": "POSITIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -900,8 +900,8 @@
             "end": 1185,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -936,8 +936,8 @@
                   "end": 1200,
                   "name": "atanh"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -945,14 +945,14 @@
                   "start": 1201,
                   "end": 1203,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1202,
                     "end": 1203,
                     "value": 0,
                     "raw": "0"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -974,8 +974,8 @@
               "end": 1230,
               "name": "NEGATIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1012,8 +1012,8 @@
             "end": 1290,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1048,8 +1048,8 @@
                   "end": 1305,
                   "name": "atanh"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1079,8 +1079,8 @@
               "end": 1334,
               "name": "POSITIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

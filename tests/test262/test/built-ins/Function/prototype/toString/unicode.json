@@ -13,7 +13,6 @@
         "end": 468,
         "name": "a"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -70,7 +69,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

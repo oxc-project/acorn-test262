@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 515,
       "end": 608,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -42,8 +43,8 @@
                   "end": 559,
                   "name": "getOwnPropertyDescriptor"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -62,8 +63,8 @@
                     "end": 584,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -81,12 +82,11 @@
               "end": 607,
               "name": "get"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -112,8 +112,8 @@
             "end": 626,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -121,13 +121,13 @@
             "start": 627,
             "end": 640,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 634,
               "end": 640,
               "name": "getter"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -164,8 +164,8 @@
             "end": 669,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -179,7 +179,6 @@
             "start": 681,
             "end": 714,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -212,8 +211,8 @@
                         "end": 707,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -227,7 +226,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -257,8 +257,8 @@
             "end": 731,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -272,7 +272,6 @@
             "start": 743,
             "end": 776,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -305,8 +304,8 @@
                         "end": 769,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -320,7 +319,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -330,6 +330,7 @@
       "type": "VariableDeclaration",
       "start": 780,
       "end": 806,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -362,8 +363,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -389,8 +389,8 @@
             "end": 820,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -404,7 +404,6 @@
             "start": 832,
             "end": 865,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -437,8 +436,8 @@
                         "end": 858,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -452,7 +451,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -462,6 +462,7 @@
       "type": "VariableDeclaration",
       "start": 869,
       "end": 914,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -514,8 +515,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -541,8 +541,8 @@
             "end": 928,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -556,7 +556,6 @@
             "start": 940,
             "end": 973,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -589,8 +588,8 @@
                         "end": 966,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -604,7 +603,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

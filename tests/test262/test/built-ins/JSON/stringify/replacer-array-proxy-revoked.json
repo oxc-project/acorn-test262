@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 771,
       "end": 808,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 799,
                 "name": "revocable"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -58,8 +59,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -85,8 +85,8 @@
             "end": 823,
             "name": "revoke"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -116,8 +116,8 @@
             "end": 841,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -131,7 +131,6 @@
             "start": 853,
             "end": 903,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -164,8 +163,8 @@
                         "end": 882,
                         "name": "stringify"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -190,15 +189,16 @@
                           "end": 899,
                           "name": "proxy"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

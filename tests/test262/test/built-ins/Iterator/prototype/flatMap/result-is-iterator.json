@@ -43,7 +43,6 @@
                       "start": 385,
                       "end": 400,
                       "id": null,
-                      "expression": false,
                       "generator": true,
                       "async": false,
                       "params": [],
@@ -52,7 +51,8 @@
                         "start": 398,
                         "end": 400,
                         "body": []
-                      }
+                      },
+                      "expression": false
                     }
                   },
                   "arguments": [],
@@ -64,17 +64,15 @@
                   "end": 411,
                   "name": "flatMap"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
                   "type": "ArrowFunctionExpression",
                   "start": 412,
                   "end": 420,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -82,7 +80,9 @@
                     "start": 418,
                     "end": 420,
                     "elements": []
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false

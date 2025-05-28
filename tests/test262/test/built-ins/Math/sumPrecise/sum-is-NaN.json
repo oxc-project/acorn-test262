@@ -27,8 +27,8 @@
             "end": 299,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -51,8 +51,8 @@
                 "end": 315,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -105,8 +105,8 @@
             "end": 346,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -129,8 +129,8 @@
                 "end": 362,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -149,13 +149,13 @@
                     "start": 374,
                     "end": 383,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 375,
                       "end": 383,
                       "name": "Infinity"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               }
@@ -196,8 +196,8 @@
             "end": 409,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -220,8 +220,8 @@
                 "end": 425,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -234,13 +234,13 @@
                     "start": 427,
                     "end": 436,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 428,
                       "end": 436,
                       "name": "Infinity"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Identifier",

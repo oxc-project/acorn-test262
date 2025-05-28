@@ -46,8 +46,8 @@
                     "end": 401,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -55,8 +55,8 @@
                   "end": 410,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -64,8 +64,8 @@
                 "end": 425,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -93,6 +93,7 @@
       "type": "VariableDeclaration",
       "start": 517,
       "end": 562,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -128,8 +129,8 @@
                   "end": 545,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -137,8 +138,8 @@
                 "end": 554,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -146,12 +147,11 @@
               "end": 561,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -188,8 +188,8 @@
                 "end": 600,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -197,8 +197,8 @@
               "end": 609,
               "name": "toString"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -219,7 +219,6 @@
             "start": 627,
             "end": 656,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -241,7 +240,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -271,8 +271,8 @@
             "end": 676,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -299,8 +299,8 @@
                   "end": 698,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -308,8 +308,8 @@
                 "end": 707,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -317,8 +317,8 @@
               "end": 714,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",

@@ -27,8 +27,8 @@
             "end": 579,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 580,
             "end": 626,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 587,
@@ -57,8 +56,8 @@
                   "end": 617,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -66,9 +65,10 @@
                 "end": 626,
                 "name": "register"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -85,6 +85,7 @@
       "type": "VariableDeclaration",
       "start": 642,
       "end": 709,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -112,7 +113,6 @@
                 "start": 694,
                 "end": 707,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -121,18 +121,19 @@
                   "start": 705,
                   "end": 707,
                   "body": []
-                }
+                },
+                "expression": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 710,
       "end": 726,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -151,8 +152,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -178,8 +178,8 @@
             "end": 741,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -193,7 +193,6 @@
             "start": 753,
             "end": 825,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -226,8 +225,8 @@
                         "end": 797,
                         "name": "register"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -254,7 +253,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -291,8 +291,8 @@
             "end": 850,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -306,7 +306,6 @@
             "start": 862,
             "end": 934,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -339,8 +338,8 @@
                         "end": 906,
                         "name": "register"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -367,7 +366,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -404,8 +404,8 @@
             "end": 959,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -419,7 +419,6 @@
             "start": 971,
             "end": 1044,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -452,8 +451,8 @@
                         "end": 1015,
                         "name": "register"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -480,7 +479,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -517,8 +517,8 @@
             "end": 1070,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -532,7 +532,6 @@
             "start": 1082,
             "end": 1151,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -565,8 +564,8 @@
                         "end": 1126,
                         "name": "register"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -593,7 +592,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -630,8 +630,8 @@
             "end": 1178,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -645,7 +645,6 @@
             "start": 1190,
             "end": 1266,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -678,8 +677,8 @@
                         "end": 1234,
                         "name": "register"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -706,7 +705,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -723,6 +723,7 @@
       "type": "VariableDeclaration",
       "start": 1280,
       "end": 1320,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -754,8 +755,8 @@
                 "end": 1298,
                 "name": "for"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -769,8 +770,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -796,8 +796,8 @@
             "end": 1334,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -811,7 +811,6 @@
             "start": 1346,
             "end": 1415,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -844,8 +843,8 @@
                         "end": 1390,
                         "name": "register"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -871,7 +870,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

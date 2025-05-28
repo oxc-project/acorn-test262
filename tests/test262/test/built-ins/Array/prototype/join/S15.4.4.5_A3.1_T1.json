@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 318,
       "end": 348,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -60,8 +61,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -91,8 +91,8 @@
               "end": 359,
               "name": "join"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -170,8 +170,8 @@
                           "end": 474,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -279,8 +279,8 @@
               "end": 522,
               "name": "join"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -358,8 +358,8 @@
                           "end": 653,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -409,8 +409,8 @@
               "end": 676,
               "name": "join"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -488,8 +488,8 @@
                           "end": 799,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -539,8 +539,8 @@
               "end": 821,
               "name": "join"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -618,8 +618,8 @@
                           "end": 964,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -669,8 +669,8 @@
               "end": 987,
               "name": "join"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -747,8 +747,8 @@
                           "end": 1162,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -797,8 +797,8 @@
               "end": 1189,
               "name": "join"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -876,8 +876,8 @@
                           "end": 1332,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -927,8 +927,8 @@
               "end": 1355,
               "name": "join"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1005,8 +1005,8 @@
                           "end": 1490,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1055,8 +1055,8 @@
               "end": 1518,
               "name": "join"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1133,8 +1133,8 @@
                           "end": 1653,
                           "name": "join"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {

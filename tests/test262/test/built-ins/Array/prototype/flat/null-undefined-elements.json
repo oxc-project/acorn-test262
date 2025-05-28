@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 303,
       "end": 320,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -28,20 +29,19 @@
                 "start": 312,
                 "end": 318,
                 "operator": "void",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 317,
                   "end": 318,
                   "value": 0,
                   "raw": "0"
-                }
+                },
+                "prefix": true
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -67,8 +67,8 @@
             "end": 341,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -103,14 +103,14 @@
                     "start": 355,
                     "end": 361,
                     "operator": "void",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 360,
                       "end": 361,
                       "value": 0,
                       "raw": "0"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               },
@@ -120,8 +120,8 @@
                 "end": 367,
                 "name": "flat"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -188,8 +188,8 @@
             "end": 479,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -229,14 +229,14 @@
                         "start": 494,
                         "end": 500,
                         "operator": "void",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 499,
                           "end": 500,
                           "value": 0,
                           "raw": "0"
-                        }
+                        },
+                        "prefix": true
                       }
                     ]
                   }
@@ -248,8 +248,8 @@
                 "end": 507,
                 "name": "flat"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -316,8 +316,8 @@
             "end": 621,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -350,14 +350,14 @@
                         "start": 633,
                         "end": 639,
                         "operator": "void",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 638,
                           "end": 639,
                           "value": 0,
                           "raw": "0"
-                        }
+                        },
+                        "prefix": true
                       }
                     ]
                   },
@@ -378,14 +378,14 @@
                         "start": 651,
                         "end": 657,
                         "operator": "void",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 656,
                           "end": 657,
                           "value": 0,
                           "raw": "0"
-                        }
+                        },
+                        "prefix": true
                       }
                     ]
                   }
@@ -397,8 +397,8 @@
                 "end": 665,
                 "name": "flat"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -471,8 +471,8 @@
             "end": 817,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -523,8 +523,8 @@
                 "end": 837,
                 "name": "flat"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -599,8 +599,8 @@
             "end": 927,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -651,8 +651,8 @@
                 "end": 950,
                 "name": "flat"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

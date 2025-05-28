@@ -13,7 +13,6 @@
         "end": 464,
         "name": "FACTORY"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -68,8 +67,8 @@
                   "end": 523,
                   "name": "apply"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -90,12 +89,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 545,
       "end": 577,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -142,8 +143,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -169,8 +169,8 @@
             "end": 595,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -189,8 +189,8 @@
               "value": "shifted",
               "raw": "\"shifted\""
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",
@@ -234,8 +234,8 @@
             "end": 691,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -243,7 +243,6 @@
             "start": 692,
             "end": 710,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 699,
@@ -260,9 +259,10 @@
                 "end": 710,
                 "name": "shifted"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

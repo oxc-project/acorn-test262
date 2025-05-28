@@ -13,7 +13,6 @@
         "end": 330,
         "name": "fakeObject"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -48,7 +47,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -75,8 +75,8 @@
             "end": 428,
             "name": "entries"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "MemberExpression",
@@ -94,8 +94,8 @@
             "end": 445,
             "name": "entries"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       }
     },
@@ -103,6 +103,7 @@
       "type": "VariableDeclaration",
       "start": 448,
       "end": 488,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -143,8 +144,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -171,8 +171,8 @@
             "end": 502,
             "name": "Object"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Identifier",
@@ -206,8 +206,8 @@
             "end": 534,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -257,8 +257,8 @@
             "end": 631,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -285,8 +285,8 @@
                   "end": 646,
                   "name": "entries"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -305,8 +305,8 @@
               "end": 656,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

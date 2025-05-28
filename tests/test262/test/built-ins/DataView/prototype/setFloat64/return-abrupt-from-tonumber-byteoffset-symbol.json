@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 676,
       "end": 708,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,13 +40,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 709,
       "end": 746,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -84,13 +85,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 748,
       "end": 768,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -124,8 +125,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -151,8 +151,8 @@
             "end": 783,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -166,7 +166,6 @@
             "start": 795,
             "end": 836,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -199,8 +198,8 @@
                         "end": 827,
                         "name": "setFloat64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -221,7 +220,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

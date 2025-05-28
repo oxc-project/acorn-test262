@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 430,
       "end": 451,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,8 +40,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -66,8 +66,8 @@
             "end": 473,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -92,9 +92,7 @@
                 "type": "Property",
                 "start": 491,
                 "end": 523,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 491,
@@ -121,8 +119,8 @@
                       "end": 514,
                       "name": "prototype"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -130,10 +128,12 @@
                     "end": 523,
                     "name": "toString"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -154,6 +154,7 @@
             "type": "VariableDeclaration",
             "start": 535,
             "end": 558,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -185,15 +186,14 @@
                       "end": 555,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",
@@ -290,6 +290,7 @@
       "type": "VariableDeclaration",
       "start": 791,
       "end": 812,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -322,8 +323,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -350,8 +350,8 @@
             "end": 826,
             "name": "myToString"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "MemberExpression",
@@ -373,8 +373,8 @@
               "end": 845,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -382,8 +382,8 @@
             "end": 854,
             "name": "toString"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       }
     },
@@ -400,6 +400,7 @@
             "type": "VariableDeclaration",
             "start": 864,
             "end": 889,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -431,15 +432,14 @@
                       "end": 886,
                       "name": "myToString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",

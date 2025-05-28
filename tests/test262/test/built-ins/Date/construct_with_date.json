@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 439,
       "end": 469,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "1438560000000"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 471,
       "end": 505,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -64,8 +65,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -92,15 +92,14 @@
             "end": 522,
             "name": "toString"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 525,
           "end": 593,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -135,7 +134,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -164,15 +164,14 @@
             "end": 610,
             "name": "valueOf"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 613,
           "end": 680,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -207,7 +206,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -215,6 +215,7 @@
       "type": "VariableDeclaration",
       "start": 683,
       "end": 715,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -246,8 +247,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -273,8 +273,8 @@
             "end": 733,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -297,8 +297,8 @@
                 "end": 749,
                 "name": "getTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

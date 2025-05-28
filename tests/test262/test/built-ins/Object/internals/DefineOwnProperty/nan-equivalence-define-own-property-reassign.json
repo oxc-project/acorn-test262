@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1691,
       "end": 1713,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -34,12 +35,11 @@
               "end": 1712,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -49,6 +49,7 @@
         "type": "VariableDeclaration",
         "start": 1720,
         "end": 1731,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -68,8 +69,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -115,6 +115,7 @@
               "type": "VariableDeclaration",
               "start": 1760,
               "end": 1771,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -134,8 +135,7 @@
                     "raw": "0"
                   }
                 }
-              ],
-              "kind": "var"
+              ]
             },
             "test": {
               "type": "BinaryExpression",
@@ -177,6 +177,7 @@
                   "type": "VariableDeclaration",
                   "start": 1797,
                   "end": 1808,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -195,8 +196,7 @@
                         "properties": []
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -223,8 +223,8 @@
                         "end": 1820,
                         "name": "prop"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "MemberExpression",
@@ -242,8 +242,8 @@
                         "end": 1831,
                         "name": "idx"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     }
                   }
                 },
@@ -272,8 +272,8 @@
                         "end": 1844,
                         "name": "prop"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "MemberExpression",
@@ -291,8 +291,8 @@
                         "end": 1855,
                         "name": "jdx"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     }
                   }
                 },
@@ -331,8 +331,8 @@
                             "end": 1883,
                             "name": "prop"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "operator": "!==",
                         "right": {
@@ -351,22 +351,14 @@
                             "end": 1894,
                             "name": "prop"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         }
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 1902,
                         "end": 1993,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1964,
-                            "end": 1967,
-                            "name": "idx"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -387,6 +379,14 @@
                               "cooked": ") results in a valid NaN"
                             },
                             "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1964,
+                            "end": 1967,
+                            "name": "idx"
                           }
                         ]
                       }

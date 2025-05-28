@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 510,
       "end": 605,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -60,8 +61,8 @@
                         "end": 597,
                         "name": "BYTES_PER_ELEMENT"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "operator": "*",
                     "right": {
@@ -77,8 +78,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -100,7 +100,6 @@
             "start": 641,
             "end": 751,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -140,8 +139,8 @@
                         "end": 675,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -155,7 +154,6 @@
                         "start": 688,
                         "end": 747,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -188,8 +186,8 @@
                                     "end": 719,
                                     "name": "notify"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -230,14 +228,16 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

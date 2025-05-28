@@ -27,8 +27,8 @@
             "end": 460,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -69,8 +69,8 @@
                   "end": 493,
                   "name": "toTemporalInstant"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
@@ -81,8 +81,8 @@
               "end": 512,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -127,8 +127,8 @@
             "end": 561,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -169,8 +169,8 @@
                   "end": 604,
                   "name": "toTemporalInstant"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
@@ -181,8 +181,8 @@
               "end": 623,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -227,8 +227,8 @@
             "end": 701,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -259,14 +259,14 @@
                       "start": 714,
                       "end": 726,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 715,
                         "end": 726,
                         "value": 123456789,
                         "raw": "123_456_789"
-                      }
+                      },
+                      "prefix": true
                     }
                   ]
                 },
@@ -276,8 +276,8 @@
                   "end": 745,
                   "name": "toTemporalInstant"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
@@ -288,15 +288,14 @@
               "end": 764,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "UnaryExpression",
             "start": 768,
             "end": 789,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 769,
@@ -304,7 +303,8 @@
               "value": null,
               "raw": "123_456_789_000_000n",
               "bigint": "123456789000000"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -341,8 +341,8 @@
             "end": 844,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -373,14 +373,14 @@
                       "start": 857,
                       "end": 865,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 858,
                         "end": 865,
                         "value": 8640000000000000,
                         "raw": "8.64e15"
-                      }
+                      },
+                      "prefix": true
                     }
                   ]
                 },
@@ -390,8 +390,8 @@
                   "end": 884,
                   "name": "toTemporalInstant"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
@@ -402,15 +402,14 @@
               "end": 903,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "UnaryExpression",
             "start": 907,
             "end": 937,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 908,
@@ -418,7 +417,8 @@
               "value": null,
               "raw": "8640_000_000_000_000_000_000n",
               "bigint": "8640000000000000000000"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -455,8 +455,8 @@
             "end": 977,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -497,8 +497,8 @@
                   "end": 1016,
                   "name": "toTemporalInstant"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
@@ -509,8 +509,8 @@
               "end": 1035,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

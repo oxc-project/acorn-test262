@@ -43,7 +43,6 @@
                       "start": 374,
                       "end": 389,
                       "id": null,
-                      "expression": false,
                       "generator": true,
                       "async": false,
                       "params": [],
@@ -52,7 +51,8 @@
                         "start": 387,
                         "end": 389,
                         "body": []
-                      }
+                      },
+                      "expression": false
                     }
                   },
                   "arguments": [],
@@ -64,17 +64,15 @@
                   "end": 396,
                   "name": "map"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
                   "type": "ArrowFunctionExpression",
                   "start": 397,
                   "end": 404,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -83,7 +81,9 @@
                     "end": 404,
                     "value": 0,
                     "raw": "0"
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 684,
       "end": 717,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,13 +40,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 718,
       "end": 755,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -84,8 +85,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -111,8 +111,8 @@
             "end": 770,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -126,7 +126,6 @@
             "start": 783,
             "end": 826,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -159,8 +158,8 @@
                         "end": 815,
                         "name": "setFloat64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -168,14 +167,14 @@
                         "start": 816,
                         "end": 818,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 817,
                           "end": 818,
                           "value": 1,
                           "raw": "1"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "Literal",
@@ -189,7 +188,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -226,8 +226,8 @@
             "end": 851,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -250,8 +250,8 @@
                 "end": 869,
                 "name": "getFloat64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -306,8 +306,8 @@
             "end": 917,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -321,7 +321,6 @@
             "start": 930,
             "end": 980,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -354,8 +353,8 @@
                         "end": 962,
                         "name": "setFloat64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -363,13 +362,13 @@
                         "start": 963,
                         "end": 972,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Identifier",
                           "start": 964,
                           "end": 972,
                           "name": "Infinity"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "Literal",
@@ -383,7 +382,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -420,8 +420,8 @@
             "end": 1012,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -444,8 +444,8 @@
                 "end": 1030,
                 "name": "getFloat64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

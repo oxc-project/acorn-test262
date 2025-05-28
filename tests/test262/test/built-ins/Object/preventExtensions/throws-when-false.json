@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 425,
       "end": 501,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -44,9 +45,7 @@
                     "type": "Property",
                     "start": 453,
                     "end": 496,
-                    "method": true,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 453,
@@ -58,7 +57,6 @@
                       "start": 470,
                       "end": 496,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -80,17 +78,19 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -116,8 +116,8 @@
             "end": 516,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -130,9 +130,7 @@
             "type": "ArrowFunctionExpression",
             "start": 528,
             "end": 568,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -164,8 +162,8 @@
                         "end": 562,
                         "name": "preventExtensions"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -179,7 +177,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

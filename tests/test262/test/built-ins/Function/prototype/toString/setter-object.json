@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 320,
       "end": 332,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "\"h\""
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 333,
       "end": 474,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -68,8 +69,8 @@
                   "end": 372,
                   "name": "getOwnPropertyDescriptor"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -81,9 +82,7 @@
                       "type": "Property",
                       "start": 387,
                       "end": 450,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "set",
                       "key": {
                         "type": "Identifier",
                         "start": 399,
@@ -95,7 +94,6 @@
                         "start": 409,
                         "end": 450,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [
@@ -111,9 +109,12 @@
                           "start": 439,
                           "end": 450,
                           "body": []
-                        }
+                        },
+                        "expression": false
                       },
-                      "kind": "set"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 },
@@ -133,17 +134,17 @@
               "end": 473,
               "name": "set"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 475,
       "end": 638,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -179,8 +180,8 @@
                   "end": 514,
                   "name": "getOwnPropertyDescriptor"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -192,9 +193,7 @@
                       "type": "Property",
                       "start": 529,
                       "end": 614,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": true,
+                      "kind": "set",
                       "key": {
                         "type": "Literal",
                         "start": 551,
@@ -207,7 +206,6 @@
                         "start": 573,
                         "end": 614,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [
@@ -223,9 +221,12 @@
                           "start": 603,
                           "end": 614,
                           "body": []
-                        }
+                        },
+                        "expression": false
                       },
-                      "kind": "set"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": true
                     }
                   ]
                 },
@@ -245,17 +246,17 @@
               "end": 637,
               "name": "set"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 639,
       "end": 800,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -291,8 +292,8 @@
                   "end": 678,
                   "name": "getOwnPropertyDescriptor"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -304,9 +305,7 @@
                       "type": "Property",
                       "start": 693,
                       "end": 776,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": true,
+                      "kind": "set",
                       "key": {
                         "type": "Identifier",
                         "start": 715,
@@ -318,7 +317,6 @@
                         "start": 735,
                         "end": 776,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [
@@ -334,9 +332,12 @@
                           "start": 765,
                           "end": 776,
                           "body": []
-                        }
+                        },
+                        "expression": false
                       },
-                      "kind": "set"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": true
                     }
                   ]
                 },
@@ -356,12 +357,11 @@
               "end": 799,
               "name": "set"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",

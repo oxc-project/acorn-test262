@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 843,
       "end": 875,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,13 +40,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 876,
       "end": 913,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -84,8 +85,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -136,8 +136,8 @@
             "end": 952,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -150,9 +150,7 @@
             "type": "ArrowFunctionExpression",
             "start": 965,
             "end": 999,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -175,8 +173,8 @@
                   "end": 989,
                   "name": "getBigInt64"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -187,7 +185,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -224,8 +224,8 @@
             "end": 1068,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -238,9 +238,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1081,
             "end": 1109,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -263,8 +261,8 @@
                   "end": 1105,
                   "name": "getBigInt64"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -272,18 +270,20 @@
                   "start": 1106,
                   "end": 1108,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1107,
                     "end": 1108,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",

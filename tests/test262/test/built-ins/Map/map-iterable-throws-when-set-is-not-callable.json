@@ -32,8 +32,8 @@
               "end": 698,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -41,8 +41,8 @@
             "end": 702,
             "name": "set"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -77,8 +77,8 @@
             "end": 725,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -92,7 +92,6 @@
             "start": 737,
             "end": 792,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -169,7 +168,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

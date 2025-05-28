@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1428,
       "end": 1447,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -32,13 +33,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1448,
       "end": 1475,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -59,9 +60,7 @@
                 "type": "Property",
                 "start": 1464,
                 "end": 1472,
-                "method": false,
-                "shorthand": false,
-                "computed": true,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1465,
@@ -75,13 +74,14 @@
                   "value": 1,
                   "raw": "1"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": true
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -107,8 +107,8 @@
             "end": 1490,
             "name": "freeze"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -145,8 +145,8 @@
             "end": 1514,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -160,7 +160,6 @@
             "start": 1526,
             "end": 1580,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -193,8 +192,8 @@
                         "end": 1554,
                         "name": "assign"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -212,9 +211,7 @@
                             "type": "Property",
                             "start": 1566,
                             "end": 1574,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": true,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1567,
@@ -228,7 +225,9 @@
                               "value": 1,
                               "raw": "1"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": true
                           }
                         ]
                       }
@@ -237,7 +236,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -247,6 +247,7 @@
       "type": "VariableDeclaration",
       "start": 1585,
       "end": 1625,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -278,8 +279,8 @@
                 "end": 1612,
                 "name": "freeze"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -291,9 +292,7 @@
                     "type": "Property",
                     "start": 1615,
                     "end": 1621,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1615,
@@ -307,7 +306,9 @@
                       "value": 1,
                       "raw": "1"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -315,8 +316,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -342,8 +342,8 @@
             "end": 1640,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -357,7 +357,6 @@
             "start": 1652,
             "end": 1704,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -390,8 +389,8 @@
                         "end": 1680,
                         "name": "assign"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -409,9 +408,7 @@
                             "type": "Property",
                             "start": 1692,
                             "end": 1698,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1692,
@@ -425,7 +422,9 @@
                               "value": 1,
                               "raw": "1"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -434,7 +433,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

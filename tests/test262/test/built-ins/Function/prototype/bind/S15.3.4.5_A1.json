@@ -13,7 +13,6 @@
         "end": 299,
         "name": "foo"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -42,17 +41,19 @@
                 "end": 323,
                 "name": "caller"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 327,
       "end": 350,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -84,8 +85,8 @@
                 "end": 345,
                 "name": "bind"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -98,8 +99,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -111,7 +111,6 @@
         "end": 364,
         "name": "baz"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -139,7 +138,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -165,8 +165,8 @@
             "end": 401,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -180,7 +180,6 @@
             "start": 413,
             "end": 436,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -208,7 +207,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

@@ -28,21 +28,17 @@
             "type": "MethodDefinition",
             "start": 423,
             "end": 469,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 427,
               "end": 431,
               "name": "next"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 431,
               "end": 469,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -69,8 +65,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -79,6 +79,7 @@
       "type": "VariableDeclaration",
       "start": 473,
       "end": 511,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -103,8 +104,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -130,8 +130,8 @@
             "end": 526,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -145,7 +145,6 @@
             "start": 541,
             "end": 576,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -178,8 +177,8 @@
                         "end": 570,
                         "name": "take"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -194,7 +193,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

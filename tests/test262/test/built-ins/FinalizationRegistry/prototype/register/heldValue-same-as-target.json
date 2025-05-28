@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 665,
       "end": 732,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -34,7 +35,6 @@
                 "start": 717,
                 "end": 730,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -43,18 +43,19 @@
                   "start": 728,
                   "end": 730,
                   "body": []
-                }
+                },
+                "expression": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 734,
       "end": 750,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -73,8 +74,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -100,8 +100,8 @@
             "end": 764,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -114,9 +114,7 @@
             "type": "ArrowFunctionExpression",
             "start": 776,
             "end": 827,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -139,8 +137,8 @@
                   "end": 811,
                   "name": "register"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -157,7 +155,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -167,6 +167,7 @@
       "type": "VariableDeclaration",
       "start": 966,
       "end": 1009,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -200,8 +201,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -227,8 +227,8 @@
             "end": 1023,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -241,9 +241,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1040,
             "end": 1103,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -266,8 +264,8 @@
                   "end": 1075,
                   "name": "register"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -284,7 +282,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -321,8 +321,8 @@
             "end": 1175,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -335,9 +335,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1192,
             "end": 1267,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -360,8 +358,8 @@
                   "end": 1227,
                   "name": "register"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -380,8 +378,8 @@
                     "end": 1246,
                     "name": "hasInstance"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "MemberExpression",
@@ -399,12 +397,14 @@
                     "end": 1266,
                     "name": "hasInstance"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",

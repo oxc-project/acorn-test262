@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 355,
       "end": 389,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -31,8 +32,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -58,8 +58,8 @@
             "end": 406,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -82,17 +82,15 @@
                 "end": 418,
                 "name": "defer"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
                 "type": "ArrowFunctionExpression",
                 "start": 419,
                 "end": 426,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": false,
                 "params": [
                   {
@@ -107,7 +105,9 @@
                   "start": 424,
                   "end": 426,
                   "body": []
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ],
             "optional": false

@@ -23,13 +23,11 @@
             "start": 395,
             "end": 459,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "UnaryExpression",
               "start": 396,
               "end": 459,
               "operator": "!",
-              "prefix": true,
               "argument": {
                 "type": "CallExpression",
                 "start": 397,
@@ -58,8 +56,8 @@
                         "end": 413,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -67,8 +65,8 @@
                       "end": 434,
                       "name": "propertyIsEnumerable"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -76,8 +74,8 @@
                     "end": 449,
                     "name": "hasOwnProperty"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -89,8 +87,10 @@
                   }
                 ],
                 "optional": false
-              }
-            }
+              },
+              "prefix": true
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -123,19 +123,16 @@
             "start": 580,
             "end": 633,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "UnaryExpression",
               "start": 581,
               "end": 633,
               "operator": "!",
-              "prefix": true,
               "argument": {
                 "type": "UnaryExpression",
                 "start": 582,
                 "end": 633,
                 "operator": "delete",
-                "prefix": true,
                 "argument": {
                   "type": "MemberExpression",
                   "start": 589,
@@ -160,8 +157,8 @@
                         "end": 605,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -169,8 +166,8 @@
                       "end": 626,
                       "name": "propertyIsEnumerable"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -178,11 +175,14 @@
                     "end": 633,
                     "name": "length"
                   },
-                  "computed": false,
-                  "optional": false
-                }
-              }
-            }
+                  "optional": false,
+                  "computed": false
+                },
+                "prefix": true
+              },
+              "prefix": true
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

@@ -13,7 +13,6 @@
         "end": 1321,
         "name": "g"
       },
-      "expression": false,
       "generator": true,
       "async": true,
       "params": [],
@@ -22,7 +21,8 @@
         "start": 1324,
         "end": 1326,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -71,8 +71,8 @@
                     "end": 1338,
                     "name": "return"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -83,8 +83,8 @@
                 "end": 1345,
                 "name": "then"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -92,7 +92,6 @@
                 "start": 1346,
                 "end": 1640,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [
@@ -151,8 +150,8 @@
                                     "end": 1396,
                                     "name": "prototype"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "property": {
                                   "type": "Identifier",
@@ -160,8 +159,8 @@
                                   "end": 1411,
                                   "name": "hasOwnProperty"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "property": {
                                 "type": "Identifier",
@@ -169,8 +168,8 @@
                                 "end": 1416,
                                 "name": "call"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -243,8 +242,8 @@
                                     "end": 1499,
                                     "name": "prototype"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "property": {
                                   "type": "Identifier",
@@ -252,8 +251,8 @@
                                   "end": 1514,
                                   "name": "hasOwnProperty"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "property": {
                                 "type": "Identifier",
@@ -261,8 +260,8 @@
                                 "end": 1519,
                                 "name": "call"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -316,8 +315,8 @@
                             "end": 1588,
                             "name": "sameValue"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -340,8 +339,8 @@
                                 "end": 1610,
                                 "name": "getPrototypeOf"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -369,15 +368,16 @@
                               "end": 1636,
                               "name": "prototype"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           }
                         ],
                         "optional": false
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             ],
             "optional": false
@@ -388,8 +388,8 @@
             "end": 1646,
             "name": "then"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

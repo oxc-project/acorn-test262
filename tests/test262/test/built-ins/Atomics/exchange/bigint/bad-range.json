@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 405,
       "end": 477,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -49,8 +50,8 @@
                     "end": 471,
                     "name": "BYTES_PER_ELEMENT"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "operator": "*",
                 "right": {
@@ -64,8 +65,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -87,7 +87,6 @@
             "start": 516,
             "end": 727,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -107,6 +106,7 @@
                   "type": "VariableDeclaration",
                   "start": 533,
                   "end": 559,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -138,8 +138,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -161,7 +160,6 @@
                         "start": 597,
                         "end": 723,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [
@@ -201,8 +199,8 @@
                                     "end": 633,
                                     "name": "throws"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -216,7 +214,6 @@
                                     "start": 646,
                                     "end": 717,
                                     "id": null,
-                                    "expression": false,
                                     "generator": false,
                                     "async": false,
                                     "params": [],
@@ -249,8 +246,8 @@
                                                 "end": 681,
                                                 "name": "exchange"
                                               },
-                                              "computed": false,
-                                              "optional": false
+                                              "optional": false,
+                                              "computed": false
                                             },
                                             "arguments": [
                                               {
@@ -300,21 +297,24 @@
                                           }
                                         }
                                       ]
-                                    }
+                                    },
+                                    "expression": false
                                   }
                                 ],
                                 "optional": false
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

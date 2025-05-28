@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 285,
       "end": 300,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,13 +26,13 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 302,
       "end": 335,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -48,7 +49,6 @@
             "start": 321,
             "end": 334,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -57,11 +57,11 @@
               "start": 332,
               "end": 334,
               "body": []
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -88,8 +88,8 @@
             "end": 358,
             "name": "prototype"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Identifier",
@@ -103,6 +103,7 @@
       "type": "VariableDeclaration",
       "start": 369,
       "end": 398,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -127,8 +128,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -165,8 +165,8 @@
                 "end": 426,
                 "name": "isExtensible"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

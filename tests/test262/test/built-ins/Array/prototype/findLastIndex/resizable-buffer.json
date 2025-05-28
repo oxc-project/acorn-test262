@@ -12,6 +12,7 @@
         "type": "VariableDeclaration",
         "start": 371,
         "end": 379,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -43,6 +43,7 @@
             "type": "VariableDeclaration",
             "start": 394,
             "end": 489,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -93,8 +94,8 @@
                           "end": 459,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     },
                     {
@@ -125,21 +126,21 @@
                           "end": 487,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   ],
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 492,
             "end": 532,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -185,13 +186,13 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 535,
             "end": 610,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -248,8 +249,8 @@
                           "end": 605,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     },
                     {
@@ -262,13 +263,13 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 613,
             "end": 653,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -307,13 +308,13 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 656,
             "end": 731,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -370,20 +371,20 @@
                           "end": 729,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 772,
             "end": 802,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -415,8 +416,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ForStatement",
@@ -426,6 +426,7 @@
               "type": "VariableDeclaration",
               "start": 810,
               "end": 819,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -445,8 +446,7 @@
                     "raw": "0"
                   }
                 }
-              ],
-              "kind": "let"
+              ]
             },
             "test": {
               "type": "BinaryExpression",
@@ -510,8 +510,8 @@
                         "end": 848,
                         "name": "i"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "right": {
                       "type": "CallExpression",
@@ -567,7 +567,6 @@
               "end": 1162,
               "name": "isTwoOrFour"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -633,7 +632,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "ExpressionStatement",
@@ -659,8 +659,8 @@
                   "end": 1219,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -691,8 +691,8 @@
                           "end": 1235,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -700,8 +700,8 @@
                         "end": 1249,
                         "name": "findLastIndex"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -709,8 +709,8 @@
                       "end": 1254,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -763,8 +763,8 @@
                   "end": 1304,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -795,8 +795,8 @@
                           "end": 1320,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -804,8 +804,8 @@
                         "end": 1334,
                         "name": "findLastIndex"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -813,8 +813,8 @@
                       "end": 1339,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -867,8 +867,8 @@
                   "end": 1399,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -899,8 +899,8 @@
                           "end": 1415,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -908,8 +908,8 @@
                         "end": 1429,
                         "name": "findLastIndex"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -917,8 +917,8 @@
                       "end": 1434,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -971,8 +971,8 @@
                   "end": 1487,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1003,8 +1003,8 @@
                           "end": 1503,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1012,8 +1012,8 @@
                         "end": 1517,
                         "name": "findLastIndex"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1021,8 +1021,8 @@
                       "end": 1522,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1075,8 +1075,8 @@
                   "end": 1635,
                   "name": "resize"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1107,8 +1107,8 @@
                       "end": 1662,
                       "name": "BYTES_PER_ELEMENT"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ],
@@ -1139,8 +1139,8 @@
                   "end": 1825,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1171,8 +1171,8 @@
                           "end": 1841,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1180,8 +1180,8 @@
                         "end": 1855,
                         "name": "findLastIndex"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1189,8 +1189,8 @@
                       "end": 1860,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1213,14 +1213,14 @@
                   "start": 1888,
                   "end": 1890,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1889,
                     "end": 1890,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -1250,8 +1250,8 @@
                   "end": 1911,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1282,8 +1282,8 @@
                           "end": 1927,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1291,8 +1291,8 @@
                         "end": 1941,
                         "name": "findLastIndex"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1300,8 +1300,8 @@
                       "end": 1946,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1324,14 +1324,14 @@
                   "start": 1984,
                   "end": 1986,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1985,
                     "end": 1986,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -1361,8 +1361,8 @@
                   "end": 2008,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1393,8 +1393,8 @@
                           "end": 2024,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1402,8 +1402,8 @@
                         "end": 2038,
                         "name": "findLastIndex"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1411,8 +1411,8 @@
                       "end": 2043,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1465,8 +1465,8 @@
                   "end": 2096,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1497,8 +1497,8 @@
                           "end": 2112,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1506,8 +1506,8 @@
                         "end": 2126,
                         "name": "findLastIndex"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1515,8 +1515,8 @@
                       "end": 2131,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1569,8 +1569,8 @@
                   "end": 2247,
                   "name": "resize"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1601,8 +1601,8 @@
                       "end": 2274,
                       "name": "BYTES_PER_ELEMENT"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ],
@@ -1633,8 +1633,8 @@
                   "end": 2295,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1665,8 +1665,8 @@
                           "end": 2311,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1674,8 +1674,8 @@
                         "end": 2325,
                         "name": "findLastIndex"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1683,8 +1683,8 @@
                       "end": 2330,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1707,14 +1707,14 @@
                   "start": 2358,
                   "end": 2360,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 2359,
                     "end": 2360,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -1744,8 +1744,8 @@
                   "end": 2381,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1776,8 +1776,8 @@
                           "end": 2397,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1785,8 +1785,8 @@
                         "end": 2411,
                         "name": "findLastIndex"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1794,8 +1794,8 @@
                       "end": 2416,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1818,14 +1818,14 @@
                   "start": 2454,
                   "end": 2456,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 2455,
                     "end": 2456,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -1855,8 +1855,8 @@
                   "end": 2477,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1887,8 +1887,8 @@
                           "end": 2493,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1896,8 +1896,8 @@
                         "end": 2507,
                         "name": "findLastIndex"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1905,8 +1905,8 @@
                       "end": 2512,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1929,14 +1929,14 @@
                   "start": 2553,
                   "end": 2555,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 2554,
                     "end": 2555,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -1966,8 +1966,8 @@
                   "end": 2577,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1998,8 +1998,8 @@
                           "end": 2593,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -2007,8 +2007,8 @@
                         "end": 2607,
                         "name": "findLastIndex"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -2016,8 +2016,8 @@
                       "end": 2612,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -2040,14 +2040,14 @@
                   "start": 2643,
                   "end": 2645,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 2644,
                     "end": 2645,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -2077,8 +2077,8 @@
                   "end": 2682,
                   "name": "resize"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -2116,8 +2116,8 @@
                   "end": 2705,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -2148,8 +2148,8 @@
                           "end": 2721,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -2157,8 +2157,8 @@
                         "end": 2735,
                         "name": "findLastIndex"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -2166,8 +2166,8 @@
                       "end": 2740,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -2190,14 +2190,14 @@
                   "start": 2768,
                   "end": 2770,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 2769,
                     "end": 2770,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -2227,8 +2227,8 @@
                   "end": 2791,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -2259,8 +2259,8 @@
                           "end": 2807,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -2268,8 +2268,8 @@
                         "end": 2821,
                         "name": "findLastIndex"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -2277,8 +2277,8 @@
                       "end": 2826,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -2301,14 +2301,14 @@
                   "start": 2864,
                   "end": 2866,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 2865,
                     "end": 2866,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -2338,8 +2338,8 @@
                   "end": 2887,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -2370,8 +2370,8 @@
                           "end": 2903,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -2379,8 +2379,8 @@
                         "end": 2917,
                         "name": "findLastIndex"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -2388,8 +2388,8 @@
                       "end": 2922,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -2412,14 +2412,14 @@
                   "start": 2963,
                   "end": 2965,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 2964,
                     "end": 2965,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -2449,8 +2449,8 @@
                   "end": 2987,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -2481,8 +2481,8 @@
                           "end": 3003,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -2490,8 +2490,8 @@
                         "end": 3017,
                         "name": "findLastIndex"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -2499,8 +2499,8 @@
                       "end": 3022,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -2523,14 +2523,14 @@
                   "start": 3053,
                   "end": 3055,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 3054,
                     "end": 3055,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -2560,8 +2560,8 @@
                   "end": 3117,
                   "name": "resize"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -2592,8 +2592,8 @@
                       "end": 3144,
                       "name": "BYTES_PER_ELEMENT"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ],
@@ -2608,6 +2608,7 @@
               "type": "VariableDeclaration",
               "start": 3154,
               "end": 3163,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -2627,8 +2628,7 @@
                     "raw": "0"
                   }
                 }
-              ],
-              "kind": "let"
+              ]
             },
             "test": {
               "type": "BinaryExpression",
@@ -2692,8 +2692,8 @@
                         "end": 3192,
                         "name": "i"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "right": {
                       "type": "CallExpression",
@@ -2753,8 +2753,8 @@
                   "value": 4,
                   "raw": "4"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
@@ -2811,8 +2811,8 @@
                   "value": 5,
                   "raw": "5"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
@@ -2867,8 +2867,8 @@
                   "end": 3600,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -2899,8 +2899,8 @@
                           "end": 3616,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -2908,8 +2908,8 @@
                         "end": 3630,
                         "name": "findLastIndex"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -2917,8 +2917,8 @@
                       "end": 3635,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -2941,14 +2941,14 @@
                   "start": 3663,
                   "end": 3665,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 3664,
                     "end": 3665,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -2978,8 +2978,8 @@
                   "end": 3686,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -3010,8 +3010,8 @@
                           "end": 3702,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -3019,8 +3019,8 @@
                         "end": 3716,
                         "name": "findLastIndex"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -3028,8 +3028,8 @@
                       "end": 3721,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -3052,14 +3052,14 @@
                   "start": 3759,
                   "end": 3761,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 3760,
                     "end": 3761,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -3089,8 +3089,8 @@
                   "end": 3782,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -3121,8 +3121,8 @@
                           "end": 3798,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -3130,8 +3130,8 @@
                         "end": 3812,
                         "name": "findLastIndex"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -3139,8 +3139,8 @@
                       "end": 3817,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -3193,8 +3193,8 @@
                   "end": 3870,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -3225,8 +3225,8 @@
                           "end": 3886,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -3234,8 +3234,8 @@
                         "end": 3900,
                         "name": "findLastIndex"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -3243,8 +3243,8 @@
                       "end": 3905,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {

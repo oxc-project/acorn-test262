@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 738,
       "end": 760,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -32,13 +33,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 761,
       "end": 850,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -76,9 +77,7 @@
                     "type": "Property",
                     "start": 791,
                     "end": 845,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 791,
@@ -90,7 +89,6 @@
                       "start": 800,
                       "end": 845,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -124,17 +122,19 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -160,8 +160,8 @@
             "end": 865,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -175,7 +175,6 @@
             "start": 877,
             "end": 928,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -208,8 +207,8 @@
                         "end": 918,
                         "name": "getOwnPropertyNames"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -223,7 +222,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

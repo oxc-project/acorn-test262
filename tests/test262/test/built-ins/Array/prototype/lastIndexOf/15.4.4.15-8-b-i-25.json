@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 371,
       "end": 547,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,7 +24,6 @@
             "start": 382,
             "end": 546,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -93,8 +93,8 @@
                                 "end": 429,
                                 "name": "prototype"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -102,8 +102,8 @@
                               "end": 441,
                               "name": "lastIndexOf"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "property": {
                             "type": "Identifier",
@@ -111,8 +111,8 @@
                             "end": 446,
                             "name": "call"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -138,8 +138,8 @@
                               "value": 0,
                               "raw": "0"
                             },
-                            "computed": true,
-                            "optional": false
+                            "optional": false,
+                            "computed": true
                           }
                         ],
                         "optional": false
@@ -155,14 +155,14 @@
                         "start": 479,
                         "end": 481,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 480,
                           "end": 481,
                           "value": 1,
                           "raw": "1"
-                        }
+                        },
+                        "prefix": true
                       },
                       "operator": "===",
                       "right": {
@@ -193,8 +193,8 @@
                                 "end": 501,
                                 "name": "prototype"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -202,8 +202,8 @@
                               "end": 513,
                               "name": "lastIndexOf"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "property": {
                             "type": "Identifier",
@@ -211,8 +211,8 @@
                             "end": 518,
                             "name": "call"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -238,8 +238,8 @@
                               "value": 1,
                               "raw": "1"
                             },
-                            "computed": true,
-                            "optional": false
+                            "optional": false,
+                            "computed": true
                           }
                         ],
                         "optional": false
@@ -248,11 +248,11 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",

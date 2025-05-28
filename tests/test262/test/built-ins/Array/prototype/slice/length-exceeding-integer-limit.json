@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 767,
       "end": 978,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 787,
                 "end": 825,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 787,
@@ -44,15 +43,15 @@
                   "value": "9007199254740988",
                   "raw": "\"9007199254740988\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 829,
                 "end": 867,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 829,
@@ -67,15 +66,15 @@
                   "value": "9007199254740989",
                   "raw": "\"9007199254740989\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 871,
                 "end": 909,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 871,
@@ -90,15 +89,15 @@
                   "value": "9007199254740990",
                   "raw": "\"9007199254740990\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 913,
                 "end": 951,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 913,
@@ -113,15 +112,15 @@
                   "value": "9007199254740991",
                   "raw": "\"9007199254740991\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 955,
                 "end": 974,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 955,
@@ -161,18 +160,20 @@
                     "raw": "2"
                   }
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 980,
       "end": 1049,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -212,8 +213,8 @@
                     "end": 1008,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -221,8 +222,8 @@
                   "end": 1014,
                   "name": "slice"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -230,8 +231,8 @@
                 "end": 1019,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -251,8 +252,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -278,8 +278,8 @@
             "end": 1069,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -324,6 +324,7 @@
       "type": "VariableDeclaration",
       "start": 1206,
       "end": 1293,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -363,8 +364,8 @@
                     "end": 1234,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -372,8 +373,8 @@
                   "end": 1240,
                   "name": "slice"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -381,8 +382,8 @@
                 "end": 1245,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -409,8 +410,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -436,8 +436,8 @@
             "end": 1313,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -475,6 +475,7 @@
       "type": "VariableDeclaration",
       "start": 1410,
       "end": 1497,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -514,8 +515,8 @@
                     "end": 1438,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -523,8 +524,8 @@
                   "end": 1444,
                   "name": "slice"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -532,8 +533,8 @@
                 "end": 1449,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -560,8 +561,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -587,8 +587,8 @@
             "end": 1517,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -633,6 +633,7 @@
       "type": "VariableDeclaration",
       "start": 1654,
       "end": 1709,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -672,8 +673,8 @@
                     "end": 1682,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -681,8 +682,8 @@
                   "end": 1688,
                   "name": "slice"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -690,8 +691,8 @@
                 "end": 1693,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -705,21 +706,20 @@
                 "start": 1705,
                 "end": 1707,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1706,
                   "end": 1707,
                   "value": 2,
                   "raw": "2"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -745,8 +745,8 @@
             "end": 1729,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -791,6 +791,7 @@
       "type": "VariableDeclaration",
       "start": 1866,
       "end": 1925,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -830,8 +831,8 @@
                     "end": 1894,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -839,8 +840,8 @@
                   "end": 1900,
                   "name": "slice"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -848,8 +849,8 @@
                 "end": 1905,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -863,35 +864,34 @@
                 "start": 1917,
                 "end": 1919,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1918,
                   "end": 1919,
                   "value": 2,
                   "raw": "2"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 1921,
                 "end": 1923,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1922,
                   "end": 1923,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -917,8 +917,8 @@
             "end": 1945,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

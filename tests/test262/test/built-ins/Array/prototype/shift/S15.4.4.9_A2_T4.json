@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 391,
       "end": 404,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -54,8 +54,8 @@
             "value": "0",
             "raw": "\"0\""
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -92,8 +92,8 @@
             "value": "3",
             "raw": "\"3\""
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -129,8 +129,8 @@
             "end": 442,
             "name": "shift"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "MemberExpression",
@@ -152,8 +152,8 @@
               "end": 460,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -161,8 +161,8 @@
             "end": 466,
             "name": "shift"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       }
     },
@@ -191,8 +191,8 @@
             "end": 479,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -207,6 +207,7 @@
       "type": "VariableDeclaration",
       "start": 485,
       "end": 509,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -238,15 +239,14 @@
                 "end": 506,
                 "name": "shift"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -346,8 +346,8 @@
             "end": 710,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -410,8 +410,8 @@
                         "end": 897,
                         "name": "length"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 }
@@ -426,6 +426,7 @@
       "type": "VariableDeclaration",
       "start": 904,
       "end": 928,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -457,15 +458,14 @@
                 "end": 925,
                 "name": "shift"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -564,8 +564,8 @@
             "end": 1158,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -628,8 +628,8 @@
                         "end": 1358,
                         "name": "length"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 }
@@ -665,8 +665,8 @@
             "end": 1375,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -681,6 +681,7 @@
       "type": "VariableDeclaration",
       "start": 1381,
       "end": 1405,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -712,15 +713,14 @@
                 "end": 1402,
                 "name": "shift"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -819,8 +819,8 @@
             "end": 1664,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -883,8 +883,8 @@
                         "end": 1893,
                         "name": "length"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 }

@@ -27,8 +27,8 @@
             "end": 640,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 641,
             "end": 665,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 648,
@@ -53,9 +52,10 @@
                 "end": 665,
                 "name": "waitAsync"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -79,6 +79,7 @@
       "type": "VariableDeclaration",
       "start": 738,
       "end": 756,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -98,8 +99,7 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -129,8 +129,8 @@
               "end": 768,
               "name": "agent"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -138,22 +138,14 @@
             "end": 774,
             "name": "start"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
             "start": 775,
             "end": 1518,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 1037,
-                "end": 1044,
-                "name": "RUNNING"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -175,6 +167,14 @@
                 },
                 "tail": true
               }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 1037,
+                "end": 1044,
+                "name": "RUNNING"
+              }
             ]
           }
         ],
@@ -185,6 +185,7 @@
       "type": "VariableDeclaration",
       "start": 1522,
       "end": 1611,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -238,8 +239,8 @@
                         "end": 1603,
                         "name": "BYTES_PER_ELEMENT"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "operator": "*",
                     "right": {
@@ -255,8 +256,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -302,8 +302,8 @@
                       "end": 1623,
                       "name": "agent"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -311,8 +311,8 @@
                     "end": 1642,
                     "name": "safeBroadcastAsync"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -343,17 +343,15 @@
                 "end": 1665,
                 "name": "then"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
                 "type": "ArrowFunctionExpression",
                 "start": 1666,
                 "end": 2861,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": true,
                 "params": [
                   {
@@ -392,8 +390,8 @@
                             "end": 1708,
                             "name": "sameValue"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -444,8 +442,8 @@
                             "end": 1778,
                             "name": "sameValue"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -476,8 +474,8 @@
                                     "end": 1800,
                                     "name": "agent"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "property": {
                                   "type": "Identifier",
@@ -485,8 +483,8 @@
                                   "end": 1815,
                                   "name": "getReportAsync"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [],
                               "optional": false
@@ -534,8 +532,8 @@
                             "end": 1935,
                             "name": "sameValue"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -566,8 +564,8 @@
                                     "end": 1957,
                                     "name": "agent"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "property": {
                                   "type": "Identifier",
@@ -575,8 +573,8 @@
                                   "end": 1972,
                                   "name": "getReportAsync"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [],
                               "optional": false
@@ -624,8 +622,8 @@
                             "end": 2092,
                             "name": "sameValue"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -656,8 +654,8 @@
                                     "end": 2114,
                                     "name": "agent"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "property": {
                                   "type": "Identifier",
@@ -665,8 +663,8 @@
                                   "end": 2129,
                                   "name": "getReportAsync"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [],
                               "optional": false
@@ -714,8 +712,8 @@
                             "end": 2249,
                             "name": "sameValue"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -746,8 +744,8 @@
                                     "end": 2271,
                                     "name": "agent"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "property": {
                                   "type": "Identifier",
@@ -755,8 +753,8 @@
                                   "end": 2286,
                                   "name": "getReportAsync"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [],
                               "optional": false
@@ -804,8 +802,8 @@
                             "end": 2406,
                             "name": "sameValue"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -836,8 +834,8 @@
                                     "end": 2428,
                                     "name": "agent"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "property": {
                                   "type": "Identifier",
@@ -845,8 +843,8 @@
                                   "end": 2443,
                                   "name": "getReportAsync"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [],
                               "optional": false
@@ -894,8 +892,8 @@
                             "end": 2563,
                             "name": "sameValue"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -926,8 +924,8 @@
                                     "end": 2585,
                                     "name": "agent"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "property": {
                                   "type": "Identifier",
@@ -935,8 +933,8 @@
                                   "end": 2600,
                                   "name": "getReportAsync"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [],
                               "optional": false
@@ -984,8 +982,8 @@
                             "end": 2721,
                             "name": "sameValue"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1008,8 +1006,8 @@
                                 "end": 2736,
                                 "name": "notify"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -1047,7 +1045,9 @@
                       }
                     }
                   ]
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ],
             "optional": false
@@ -1058,8 +1058,8 @@
             "end": 2867,
             "name": "then"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

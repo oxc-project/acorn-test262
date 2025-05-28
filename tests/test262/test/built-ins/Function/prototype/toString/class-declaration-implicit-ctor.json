@@ -69,21 +69,17 @@
             "type": "MethodDefinition",
             "start": 547,
             "end": 588,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 547,
               "end": 548,
               "name": "m"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 557,
               "end": 588,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -92,8 +88,12 @@
                 "start": 577,
                 "end": 588,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }

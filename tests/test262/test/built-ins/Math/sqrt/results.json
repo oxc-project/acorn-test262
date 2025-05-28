@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 442,
       "end": 50924,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -21026,8 +21027,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForStatement",
@@ -21037,6 +21037,7 @@
         "type": "VariableDeclaration",
         "start": 50931,
         "end": 50940,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -21056,8 +21057,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "let"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -21086,8 +21086,8 @@
             "end": 50961,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "update": {
@@ -21112,6 +21112,7 @@
             "type": "VariableDeclaration",
             "start": 50972,
             "end": 51000,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -21139,12 +21140,11 @@
                     "end": 50998,
                     "name": "i"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -21170,8 +21170,8 @@
                   "end": 51019,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -21194,8 +21194,8 @@
                       "end": 51029,
                       "name": "sqrt"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -21215,8 +21215,8 @@
                         "value": 0,
                         "raw": "0"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     }
                   ],
                   "optional": false
@@ -21238,8 +21238,8 @@
                     "value": 1,
                     "raw": "1"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 {
                   "type": "BinaryExpression",
@@ -21278,8 +21278,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       }
                     },
                     "operator": "+",
@@ -21309,8 +21309,8 @@
                       "value": 1,
                       "raw": "1"
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   }
                 }
               ],

@@ -28,8 +28,8 @@
             "end": 343,
             "name": "prototype"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "NewExpression",
@@ -77,7 +77,6 @@
         "end": 379,
         "name": "foo"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -86,12 +85,14 @@
         "start": 382,
         "end": 384,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 385,
       "end": 403,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -116,8 +117,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -144,8 +144,8 @@
             "end": 413,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ArrayExpression",
@@ -165,7 +165,6 @@
         "end": 1266,
         "name": "cb"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -174,7 +173,8 @@
         "start": 1269,
         "end": 1271,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -200,8 +200,8 @@
             "end": 1285,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -215,7 +215,6 @@
             "start": 1297,
             "end": 1332,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -248,8 +247,8 @@
                         "end": 1325,
                         "name": "reduceRight"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -263,7 +262,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

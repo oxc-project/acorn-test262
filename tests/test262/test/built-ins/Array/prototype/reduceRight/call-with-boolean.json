@@ -27,8 +27,8 @@
             "end": 267,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -59,8 +59,8 @@
                     "end": 286,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -68,8 +68,8 @@
                   "end": 298,
                   "name": "reduceRight"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -77,8 +77,8 @@
                 "end": 303,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -92,9 +92,7 @@
                 "type": "ArrowFunctionExpression",
                 "start": 310,
                 "end": 318,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
@@ -102,21 +100,23 @@
                   "start": 316,
                   "end": 318,
                   "body": []
-                }
+                },
+                "id": null,
+                "generator": false
               },
               {
                 "type": "UnaryExpression",
                 "start": 320,
                 "end": 322,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 321,
                   "end": 322,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -126,14 +126,14 @@
             "start": 327,
             "end": 329,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 328,
               "end": 329,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -170,8 +170,8 @@
             "end": 422,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -202,8 +202,8 @@
                     "end": 441,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -211,8 +211,8 @@
                   "end": 453,
                   "name": "reduceRight"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -220,8 +220,8 @@
                 "end": 458,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -235,9 +235,7 @@
                 "type": "ArrowFunctionExpression",
                 "start": 466,
                 "end": 474,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
@@ -245,21 +243,23 @@
                   "start": 472,
                   "end": 474,
                   "body": []
-                }
+                },
+                "id": null,
+                "generator": false
               },
               {
                 "type": "UnaryExpression",
                 "start": 476,
                 "end": 478,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 477,
                   "end": 478,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -269,14 +269,14 @@
             "start": 483,
             "end": 485,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 484,
               "end": 485,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

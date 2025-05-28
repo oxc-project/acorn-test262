@@ -27,8 +27,8 @@
             "end": 263,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -51,8 +51,8 @@
                 "end": 277,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -99,8 +99,8 @@
             "end": 307,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -123,8 +123,8 @@
                 "end": 321,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -171,8 +171,8 @@
             "end": 351,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -195,8 +195,8 @@
                 "end": 365,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -204,7 +204,6 @@
                 "start": 366,
                 "end": 380,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -213,7 +212,8 @@
                   "start": 378,
                   "end": 380,
                   "body": []
-                }
+                },
+                "expression": false
               }
             ],
             "optional": false
@@ -253,8 +253,8 @@
             "end": 407,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -277,8 +277,8 @@
                 "end": 421,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -330,8 +330,8 @@
             "end": 454,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -354,8 +354,8 @@
                 "end": 468,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -402,8 +402,8 @@
             "end": 501,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -426,8 +426,8 @@
                 "end": 515,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -474,8 +474,8 @@
             "end": 552,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -498,8 +498,8 @@
                 "end": 566,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -546,8 +546,8 @@
             "end": 604,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -570,8 +570,8 @@
                 "end": 618,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -618,8 +618,8 @@
             "end": 660,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -642,8 +642,8 @@
                 "end": 674,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -690,8 +690,8 @@
             "end": 713,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -714,8 +714,8 @@
                 "end": 727,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -762,8 +762,8 @@
             "end": 764,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -786,8 +786,8 @@
                 "end": 778,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -823,13 +823,13 @@
           "start": 803,
           "end": 824,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 810,
             "end": 824,
             "name": "AggregateError"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -869,8 +869,8 @@
                   "end": 862,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -893,8 +893,8 @@
                       "end": 876,
                       "name": "isError"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -934,13 +934,13 @@
           "start": 908,
           "end": 930,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 915,
             "end": 930,
             "name": "SuppressedError"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -980,8 +980,8 @@
                   "end": 968,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1004,8 +1004,8 @@
                       "end": 982,
                       "name": "isError"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {

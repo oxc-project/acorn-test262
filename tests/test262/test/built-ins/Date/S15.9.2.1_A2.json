@@ -13,7 +13,6 @@
         "end": 505,
         "name": "isEqual"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -104,8 +103,8 @@
                       "end": 573,
                       "name": "abs"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -132,8 +131,8 @@
                             "end": 584,
                             "name": "parse"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -166,8 +165,8 @@
                             "end": 601,
                             "name": "parse"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -233,7 +232,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -305,8 +305,8 @@
                     "end": 718,
                     "name": "toString"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -403,8 +403,8 @@
                     "end": 837,
                     "name": "toString"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -508,8 +508,8 @@
                     "end": 963,
                     "name": "toString"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -620,8 +620,8 @@
                     "end": 1098,
                     "name": "toString"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -739,8 +739,8 @@
                     "end": 1239,
                     "name": "toString"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -858,8 +858,8 @@
                     "end": 1383,
                     "name": "toString"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -984,8 +984,8 @@
                     "end": 1530,
                     "name": "toString"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -1117,8 +1117,8 @@
                     "end": 1683,
                     "name": "toString"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -1257,8 +1257,8 @@
                     "end": 1842,
                     "name": "toString"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -1330,8 +1330,8 @@
                       "end": 1968,
                       "name": "NaN"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 ],
                 "optional": false
@@ -1367,8 +1367,8 @@
                     "end": 1992,
                     "name": "toString"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -1440,8 +1440,8 @@
                       "end": 2120,
                       "name": "POSITIVE_INFINITY"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 ],
                 "optional": false
@@ -1477,8 +1477,8 @@
                     "end": 2144,
                     "name": "toString"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -1550,8 +1550,8 @@
                       "end": 2286,
                       "name": "NEGATIVE_INFINITY"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 ],
                 "optional": false
@@ -1587,8 +1587,8 @@
                     "end": 2310,
                     "name": "toString"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -1684,8 +1684,8 @@
                     "end": 2461,
                     "name": "toString"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -1782,8 +1782,8 @@
                     "end": 2592,
                     "name": "toString"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false

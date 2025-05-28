@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 875,
       "end": 924,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "\"-271821-04-20T00:00:00.000Z\""
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 925,
       "end": 969,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -60,20 +61,19 @@
                 "start": 950,
                 "end": 967,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 951,
                   "end": 967,
                   "value": 8640000000000000,
                   "raw": "8640000000000000"
-                }
+                },
+                "prefix": true
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -99,8 +99,8 @@
             "end": 987,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -123,8 +123,8 @@
                 "end": 1007,
                 "name": "toISOString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -170,8 +170,8 @@
             "end": 1054,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -194,8 +194,8 @@
                 "end": 1065,
                 "name": "parse"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -227,8 +227,8 @@
                 "end": 1094,
                 "name": "valueOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -248,6 +248,7 @@
       "type": "VariableDeclaration",
       "start": 1120,
       "end": 1169,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -267,13 +268,13 @@
             "raw": "\"+275760-09-13T00:00:00.000Z\""
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1170,
       "end": 1213,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -306,8 +307,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -333,8 +333,8 @@
             "end": 1231,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -357,8 +357,8 @@
                 "end": 1251,
                 "name": "toISOString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -404,8 +404,8 @@
             "end": 1298,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -428,8 +428,8 @@
                 "end": 1309,
                 "name": "parse"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -461,8 +461,8 @@
                 "end": 1338,
                 "name": "valueOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -482,6 +482,7 @@
       "type": "VariableDeclaration",
       "start": 1364,
       "end": 1413,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -501,13 +502,13 @@
             "raw": "\"-271821-04-19T23:59:59.999Z\""
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1414,
       "end": 1463,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -527,8 +528,7 @@
             "raw": "\"+275760-09-13T00:00:00.001Z\""
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -554,8 +554,8 @@
             "end": 1481,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -578,8 +578,8 @@
                 "end": 1492,
                 "name": "parse"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -632,8 +632,8 @@
             "end": 1562,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -656,8 +656,8 @@
                 "end": 1573,
                 "name": "parse"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

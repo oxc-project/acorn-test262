@@ -27,8 +27,8 @@
             "end": 417,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,13 +36,13 @@
             "start": 421,
             "end": 448,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 428,
               "end": 448,
               "name": "FinalizationRegistry"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1158,
       "end": 1183,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -58,8 +58,8 @@
               "end": 1225,
               "name": "construct"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -78,7 +78,6 @@
                   "start": 1249,
                   "end": 1262,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -87,7 +86,8 @@
                     "start": 1260,
                     "end": 1262,
                     "body": []
-                  }
+                  },
+                  "expression": false
                 }
               ]
             },
@@ -126,8 +126,8 @@
             "end": 1290,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -150,8 +150,8 @@
                 "end": 1312,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -179,8 +179,8 @@
               "end": 1352,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -197,6 +197,7 @@
       "type": "VariableDeclaration",
       "start": 1400,
       "end": 1441,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -221,7 +222,6 @@
                 "start": 1416,
                 "end": 1429,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -230,7 +230,8 @@
                   "start": 1427,
                   "end": 1429,
                   "body": []
-                }
+                },
+                "expression": false
               },
               "property": {
                 "type": "Identifier",
@@ -238,8 +239,8 @@
                 "end": 1434,
                 "name": "bind"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -253,8 +254,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -280,8 +280,8 @@
             "end": 1463,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -306,9 +306,7 @@
                 "type": "Property",
                 "start": 1492,
                 "end": 1541,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1492,
@@ -320,7 +318,6 @@
                   "start": 1497,
                   "end": 1541,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -349,14 +346,17 @@
                             "end": 1536,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -399,8 +399,8 @@
               "end": 1586,
               "name": "construct"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -419,7 +419,6 @@
                   "start": 1610,
                   "end": 1623,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -428,7 +427,8 @@
                     "start": 1621,
                     "end": 1623,
                     "body": []
-                  }
+                  },
+                  "expression": false
                 }
               ]
             },
@@ -467,8 +467,8 @@
             "end": 1654,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -491,8 +491,8 @@
                 "end": 1676,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -520,8 +520,8 @@
               "end": 1715,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

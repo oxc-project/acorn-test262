@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 611,
       "end": 639,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -63,18 +63,17 @@
               "end": 673,
               "name": "species"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "FunctionExpression",
           "start": 677,
           "end": 719,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [
@@ -102,7 +101,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -110,6 +110,7 @@
       "type": "VariableDeclaration",
       "start": 722,
       "end": 759,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -142,8 +143,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -170,8 +170,8 @@
             "end": 783,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Identifier",
@@ -205,8 +205,8 @@
             "end": 820,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -220,7 +220,6 @@
             "start": 832,
             "end": 869,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -253,15 +252,16 @@
                         "end": 864,
                         "name": "slice"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

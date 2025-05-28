@@ -27,8 +27,8 @@
             "end": 413,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -57,8 +57,8 @@
                 "end": 425,
                 "name": "toFixed"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -66,14 +66,14 @@
                 "start": 426,
                 "end": 428,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 427,
                   "end": 428,
                   "value": 0,
                   "raw": "0"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -113,8 +113,8 @@
             "end": 450,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -127,9 +127,7 @@
             "type": "ArrowFunctionExpression",
             "start": 463,
             "end": 484,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -158,8 +156,8 @@
                   "end": 480,
                   "name": "toFixed"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -167,18 +165,20 @@
                   "start": 481,
                   "end": 483,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 482,
                     "end": 483,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -208,8 +208,8 @@
             "end": 504,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -238,8 +238,8 @@
                 "end": 516,
                 "name": "toFixed"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -287,8 +287,8 @@
             "end": 643,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -301,9 +301,7 @@
             "type": "ArrowFunctionExpression",
             "start": 656,
             "end": 678,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -332,8 +330,8 @@
                   "end": 673,
                   "name": "toFixed"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -345,7 +343,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

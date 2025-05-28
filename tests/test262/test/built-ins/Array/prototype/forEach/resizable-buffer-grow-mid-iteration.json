@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 399,
       "end": 410,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,13 +21,13 @@
           },
           "init": null
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 411,
       "end": 419,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -40,13 +41,13 @@
           },
           "init": null
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 420,
       "end": 436,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -60,13 +61,13 @@
           },
           "init": null
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 437,
       "end": 450,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -80,8 +81,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -93,7 +93,6 @@
         "end": 795,
         "name": "ResizeMidIteration"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -171,7 +170,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ForOfStatement",
@@ -182,6 +182,7 @@
         "type": "VariableDeclaration",
         "start": 1155,
         "end": 1163,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -195,8 +196,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -273,6 +273,7 @@
             "type": "VariableDeclaration",
             "start": 1225,
             "end": 1265,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -318,8 +319,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -388,8 +388,8 @@
                     "end": 1324,
                     "name": "BYTES_PER_ELEMENT"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               }
             }
@@ -426,8 +426,8 @@
                       "end": 1343,
                       "name": "prototype"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -435,8 +435,8 @@
                     "end": 1351,
                     "name": "forEach"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -444,8 +444,8 @@
                   "end": 1356,
                   "name": "call"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -488,8 +488,8 @@
                   "end": 1412,
                   "name": "compareArray"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -549,6 +549,7 @@
         "type": "VariableDeclaration",
         "start": 1463,
         "end": 1471,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -562,8 +563,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -640,6 +640,7 @@
             "type": "VariableDeclaration",
             "start": 1533,
             "end": 1608,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -696,8 +697,8 @@
                           "end": 1603,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     },
                     {
@@ -710,8 +711,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -780,8 +780,8 @@
                     "end": 1667,
                     "name": "BYTES_PER_ELEMENT"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               }
             }
@@ -818,8 +818,8 @@
                       "end": 1686,
                       "name": "prototype"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -827,8 +827,8 @@
                     "end": 1694,
                     "name": "forEach"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -836,8 +836,8 @@
                   "end": 1699,
                   "name": "call"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -880,8 +880,8 @@
                   "end": 1765,
                   "name": "compareArray"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -927,6 +927,7 @@
         "type": "VariableDeclaration",
         "start": 1802,
         "end": 1810,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -940,8 +941,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -1018,6 +1018,7 @@
             "type": "VariableDeclaration",
             "start": 1872,
             "end": 1912,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1056,8 +1057,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -1126,8 +1126,8 @@
                     "end": 1971,
                     "name": "BYTES_PER_ELEMENT"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               }
             }
@@ -1164,8 +1164,8 @@
                       "end": 1990,
                       "name": "prototype"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -1173,8 +1173,8 @@
                     "end": 1998,
                     "name": "forEach"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -1182,8 +1182,8 @@
                   "end": 2003,
                   "name": "call"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1226,8 +1226,8 @@
                   "end": 2062,
                   "name": "compareArray"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1287,6 +1287,7 @@
         "type": "VariableDeclaration",
         "start": 2113,
         "end": 2121,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -1300,8 +1301,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -1378,6 +1378,7 @@
             "type": "VariableDeclaration",
             "start": 2183,
             "end": 2258,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1434,15 +1435,14 @@
                           "end": 2256,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -1511,8 +1511,8 @@
                     "end": 2317,
                     "name": "BYTES_PER_ELEMENT"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               }
             }
@@ -1549,8 +1549,8 @@
                       "end": 2336,
                       "name": "prototype"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -1558,8 +1558,8 @@
                     "end": 2344,
                     "name": "forEach"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -1567,8 +1567,8 @@
                   "end": 2349,
                   "name": "call"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1611,8 +1611,8 @@
                   "end": 2418,
                   "name": "compareArray"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {

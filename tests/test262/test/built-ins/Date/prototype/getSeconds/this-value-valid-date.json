@@ -27,8 +27,8 @@
             "end": 365,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -100,8 +100,8 @@
                 "end": 412,
                 "name": "getSeconds"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -148,8 +148,8 @@
             "end": 463,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -218,14 +218,14 @@
                     "start": 500,
                     "end": 502,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 501,
                       "end": 502,
                       "value": 1,
                       "raw": "1"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               },
@@ -235,8 +235,8 @@
                 "end": 514,
                 "name": "getSeconds"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -283,8 +283,8 @@
             "end": 564,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -363,8 +363,8 @@
                 "end": 616,
                 "name": "getSeconds"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -411,8 +411,8 @@
             "end": 663,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -491,8 +491,8 @@
                 "end": 716,
                 "name": "getSeconds"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -539,8 +539,8 @@
             "end": 773,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -612,8 +612,8 @@
                 "end": 820,
                 "name": "getSeconds"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -660,8 +660,8 @@
             "end": 889,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -730,14 +730,14 @@
                     "start": 926,
                     "end": 928,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 927,
                       "end": 928,
                       "value": 1,
                       "raw": "1"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               },
@@ -747,8 +747,8 @@
                 "end": 940,
                 "name": "getSeconds"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -795,8 +795,8 @@
             "end": 1012,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -875,8 +875,8 @@
                 "end": 1064,
                 "name": "getSeconds"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -923,8 +923,8 @@
             "end": 1133,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1003,8 +1003,8 @@
                 "end": 1186,
                 "name": "getSeconds"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

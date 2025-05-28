@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 301,
       "end": 312,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,18 +24,17 @@
             "start": 309,
             "end": 311,
             "operator": "+",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 310,
               "end": 311,
               "value": 0,
               "raw": "0"
-            }
+            },
+            "prefix": true
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -60,8 +60,8 @@
             "end": 329,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -84,8 +84,8 @@
                 "end": 338,
                 "name": "log"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -102,13 +102,13 @@
             "start": 343,
             "end": 352,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 344,
               "end": 352,
               "name": "Infinity"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -125,6 +125,7 @@
       "type": "VariableDeclaration",
       "start": 405,
       "end": 416,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -141,18 +142,17 @@
             "start": 413,
             "end": 415,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 414,
               "end": 415,
               "value": 0,
               "raw": "0"
-            }
+            },
+            "prefix": true
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -178,8 +178,8 @@
             "end": 433,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -202,8 +202,8 @@
                 "end": 442,
                 "name": "log"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -220,13 +220,13 @@
             "start": 447,
             "end": 456,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 448,
               "end": 456,
               "name": "Infinity"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

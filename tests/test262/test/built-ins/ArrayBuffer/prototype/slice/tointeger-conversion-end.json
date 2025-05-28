@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 458,
       "end": 495,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,13 +40,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 497,
       "end": 524,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -83,13 +84,13 @@
             "raw": "4.5"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 525,
       "end": 568,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -121,8 +122,8 @@
                 "end": 555,
                 "name": "slice"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -141,8 +142,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -168,8 +168,8 @@
             "end": 585,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -188,8 +188,8 @@
               "end": 603,
               "name": "byteLength"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -213,6 +213,7 @@
       "type": "VariableDeclaration",
       "start": 627,
       "end": 654,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -249,13 +250,13 @@
             "name": "NaN"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 655,
       "end": 698,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -287,8 +288,8 @@
                 "end": 685,
                 "name": "slice"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -307,8 +308,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -334,8 +334,8 @@
             "end": 715,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -354,8 +354,8 @@
               "end": 733,
               "name": "byteLength"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

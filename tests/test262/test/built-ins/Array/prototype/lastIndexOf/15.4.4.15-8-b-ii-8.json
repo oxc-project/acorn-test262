@@ -27,8 +27,8 @@
             "end": 332,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -49,14 +49,14 @@
                     "start": 334,
                     "end": 336,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 335,
                       "end": 336,
                       "value": 1,
                       "raw": "1"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -80,8 +80,8 @@
                 "end": 355,
                 "name": "lastIndexOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -89,14 +89,14 @@
                 "start": 356,
                 "end": 358,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 357,
                   "end": 358,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false

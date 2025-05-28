@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1003,
       "end": 1035,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,13 +40,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1036,
       "end": 1073,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -84,13 +85,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1075,
       "end": 1086,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -104,8 +105,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -142,8 +142,8 @@
               "end": 1113,
               "name": "setUint16"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -158,14 +158,14 @@
               "start": 1117,
               "end": 1128,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1118,
                 "end": 1128,
                 "value": 1870724872,
                 "raw": "1870724872"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "Literal",
@@ -203,8 +203,8 @@
             "end": 1153,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -254,8 +254,8 @@
             "end": 1214,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -278,8 +278,8 @@
                 "end": 1231,
                 "name": "getUint16"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -338,8 +338,8 @@
               "end": 1270,
               "name": "setUint16"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -354,14 +354,14 @@
               "start": 1274,
               "end": 1284,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1275,
                 "end": 1284,
                 "value": 134185072,
                 "raw": "134185072"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "Literal",
@@ -399,8 +399,8 @@
             "end": 1309,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -450,8 +450,8 @@
             "end": 1370,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -474,8 +474,8 @@
                 "end": 1387,
                 "name": "getUint16"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -534,8 +534,8 @@
               "end": 1426,
               "name": "setUint16"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -588,8 +588,8 @@
             "end": 1465,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -639,8 +639,8 @@
             "end": 1526,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -663,8 +663,8 @@
                 "end": 1543,
                 "name": "getUint16"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -723,8 +723,8 @@
               "end": 1581,
               "name": "setUint16"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -777,8 +777,8 @@
             "end": 1619,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -828,8 +828,8 @@
             "end": 1680,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -852,8 +852,8 @@
                 "end": 1697,
                 "name": "getUint16"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -912,8 +912,8 @@
               "end": 1736,
               "name": "setUint16"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -966,8 +966,8 @@
             "end": 1775,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1017,8 +1017,8 @@
             "end": 1836,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1041,8 +1041,8 @@
                 "end": 1853,
                 "name": "getUint16"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1101,8 +1101,8 @@
               "end": 1892,
               "name": "setUint16"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1155,8 +1155,8 @@
             "end": 1931,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1206,8 +1206,8 @@
             "end": 1992,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1230,8 +1230,8 @@
                 "end": 2009,
                 "name": "getUint16"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

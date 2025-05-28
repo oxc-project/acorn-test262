@@ -27,8 +27,8 @@
             "end": 485,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,13 +36,13 @@
             "start": 489,
             "end": 516,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 496,
               "end": 516,
               "name": "FinalizationRegistry"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -86,8 +86,8 @@
             "end": 591,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -101,7 +101,6 @@
             "start": 603,
             "end": 643,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -129,7 +128,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -159,8 +159,8 @@
             "end": 660,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -174,7 +174,6 @@
             "start": 672,
             "end": 725,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -203,7 +202,6 @@
                         "start": 708,
                         "end": 721,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -212,14 +210,16 @@
                           "start": 719,
                           "end": 721,
                           "body": []
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

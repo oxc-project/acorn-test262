@@ -13,7 +13,6 @@
         "end": 472,
         "name": "g"
       },
-      "expression": false,
       "generator": true,
       "async": false,
       "params": [],
@@ -22,12 +21,14 @@
         "start": 475,
         "end": 477,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 478,
       "end": 493,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -53,8 +54,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -80,8 +80,8 @@
             "end": 508,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -94,9 +94,7 @@
             "type": "ArrowFunctionExpression",
             "start": 520,
             "end": 550,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -128,14 +126,16 @@
                         "end": 545,
                         "name": "reduce"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": []
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -165,8 +165,8 @@
             "end": 567,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -179,9 +179,7 @@
             "type": "ArrowFunctionExpression",
             "start": 579,
             "end": 617,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -213,17 +211,15 @@
                         "end": 604,
                         "name": "reduce"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
                         "type": "ArrowFunctionExpression",
                         "start": 605,
                         "end": 613,
-                        "id": null,
                         "expression": false,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -231,13 +227,17 @@
                           "start": 611,
                           "end": 613,
                           "body": []
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -267,8 +267,8 @@
             "end": 634,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -281,9 +281,7 @@
             "type": "ArrowFunctionExpression",
             "start": 646,
             "end": 687,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -315,17 +313,15 @@
                         "end": 671,
                         "name": "reduce"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
                         "type": "ArrowFunctionExpression",
                         "start": 672,
                         "end": 680,
-                        "id": null,
                         "expression": false,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -333,7 +329,9 @@
                           "start": 678,
                           "end": 680,
                           "body": []
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "Literal",
@@ -346,7 +344,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -376,8 +376,8 @@
             "end": 704,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -390,9 +390,7 @@
             "type": "ArrowFunctionExpression",
             "start": 716,
             "end": 771,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -428,8 +426,8 @@
                           "end": 748,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -437,17 +435,15 @@
                         "end": 755,
                         "name": "reduce"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
                         "type": "ArrowFunctionExpression",
                         "start": 756,
                         "end": 764,
-                        "id": null,
                         "expression": false,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -455,7 +451,9 @@
                           "start": 762,
                           "end": 764,
                           "body": []
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "Literal",
@@ -468,7 +466,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -498,8 +498,8 @@
             "end": 788,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -512,9 +512,7 @@
             "type": "ArrowFunctionExpression",
             "start": 800,
             "end": 862,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -558,17 +556,15 @@
                         "end": 846,
                         "name": "reduce"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
                         "type": "ArrowFunctionExpression",
                         "start": 847,
                         "end": 855,
-                        "id": null,
                         "expression": false,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -576,7 +572,9 @@
                           "start": 853,
                           "end": 855,
                           "body": []
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "Literal",
@@ -589,7 +587,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

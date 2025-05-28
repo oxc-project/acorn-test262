@@ -13,7 +13,6 @@
         "end": 395,
         "name": "fakeObjectGetOwnPropertyDescriptor"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -48,7 +47,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -75,8 +75,8 @@
             "end": 531,
             "name": "getOwnPropertyDescriptor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Identifier",
@@ -110,8 +110,8 @@
             "end": 587,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -130,8 +130,8 @@
               "end": 622,
               "name": "getOwnPropertyDescriptor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",
@@ -174,8 +174,8 @@
             "end": 767,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -202,8 +202,8 @@
                   "end": 779,
                   "name": "keys"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -226,8 +226,8 @@
                       "end": 812,
                       "name": "getOwnPropertyDescriptors"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -239,9 +239,7 @@
                           "type": "Property",
                           "start": 817,
                           "end": 821,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 817,
@@ -255,7 +253,9 @@
                             "value": 1,
                             "raw": "1"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }
@@ -271,8 +271,8 @@
               "end": 832,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 305,
       "end": 448,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 325,
                 "end": 331,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 325,
@@ -43,15 +42,15 @@
                   "value": "A",
                   "raw": "'A'"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 335,
                 "end": 435,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "get",
                 "key": {
                   "type": "Identifier",
                   "start": 339,
@@ -63,7 +62,6 @@
                   "start": 340,
                   "end": 435,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -96,8 +94,8 @@
                               "end": 370,
                               "name": "defineProperty"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -121,9 +119,7 @@
                                   "type": "Property",
                                   "start": 390,
                                   "end": 407,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 390,
@@ -137,7 +133,9 @@
                                     "value": false,
                                     "raw": "false"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 }
                               ]
                             }
@@ -158,17 +156,18 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "get"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 439,
                 "end": 445,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 439,
@@ -182,18 +181,20 @@
                   "value": "C",
                   "raw": "'C'"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 450,
       "end": 489,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -225,8 +226,8 @@
                 "end": 477,
                 "name": "entries"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -239,8 +240,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -266,8 +266,8 @@
             "end": 507,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -290,8 +290,8 @@
                 "end": 521,
                 "name": "isArray"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -345,8 +345,8 @@
             "end": 576,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -365,8 +365,8 @@
               "end": 590,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -410,8 +410,8 @@
             "end": 635,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -434,8 +434,8 @@
                 "end": 649,
                 "name": "isArray"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -455,8 +455,8 @@
                   "value": 0,
                   "raw": "0"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               }
             ],
             "optional": false
@@ -503,8 +503,8 @@
             "end": 712,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -527,8 +527,8 @@
                 "end": 726,
                 "name": "isArray"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -548,8 +548,8 @@
                   "value": 1,
                   "raw": "1"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               }
             ],
             "optional": false
@@ -596,8 +596,8 @@
             "end": 791,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -621,8 +621,8 @@
                 "value": 0,
                 "raw": "0"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "property": {
               "type": "Literal",
@@ -631,8 +631,8 @@
               "value": 0,
               "raw": "0"
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",
@@ -676,8 +676,8 @@
             "end": 855,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -701,8 +701,8 @@
                 "value": 0,
                 "raw": "0"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "property": {
               "type": "Literal",
@@ -711,8 +711,8 @@
               "value": 1,
               "raw": "1"
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",
@@ -756,8 +756,8 @@
             "end": 921,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -781,8 +781,8 @@
                 "value": 1,
                 "raw": "1"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "property": {
               "type": "Literal",
@@ -791,8 +791,8 @@
               "value": 0,
               "raw": "0"
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",
@@ -836,8 +836,8 @@
             "end": 986,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -861,8 +861,8 @@
                 "value": 1,
                 "raw": "1"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "property": {
               "type": "Literal",
@@ -871,8 +871,8 @@
               "value": 1,
               "raw": "1"
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",

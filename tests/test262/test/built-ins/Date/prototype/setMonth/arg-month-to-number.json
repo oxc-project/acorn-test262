@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 772,
       "end": 819,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -81,13 +82,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 820,
       "end": 838,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -107,13 +108,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 839,
       "end": 959,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -134,9 +135,7 @@
                 "type": "Property",
                 "start": 853,
                 "end": 956,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 853,
@@ -148,7 +147,6 @@
                   "start": 862,
                   "end": 956,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -239,20 +237,23 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 960,
       "end": 993,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -290,8 +291,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -328,8 +328,8 @@
               "end": 1022,
               "name": "setMonth"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -367,8 +367,8 @@
             "end": 1046,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -419,8 +419,8 @@
             "end": 1102,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -439,8 +439,8 @@
               "end": 1114,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -484,8 +484,8 @@
             "end": 1165,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -535,8 +535,8 @@
             "end": 1215,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -621,8 +621,8 @@
                 "end": 1277,
                 "name": "getTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -673,8 +673,8 @@
               "end": 1347,
               "name": "setMonth"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -713,8 +713,8 @@
             "end": 1372,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -799,8 +799,8 @@
                 "end": 1434,
                 "name": "getTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -851,8 +851,8 @@
               "end": 1478,
               "name": "setMonth"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -891,8 +891,8 @@
             "end": 1503,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -977,8 +977,8 @@
                 "end": 1565,
                 "name": "getTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1029,8 +1029,8 @@
               "end": 1609,
               "name": "setMonth"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1069,8 +1069,8 @@
             "end": 1635,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1155,8 +1155,8 @@
                 "end": 1697,
                 "name": "getTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1207,8 +1207,8 @@
               "end": 1742,
               "name": "setMonth"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1247,8 +1247,8 @@
             "end": 1785,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1333,8 +1333,8 @@
                 "end": 1847,
                 "name": "getTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1385,8 +1385,8 @@
               "end": 1893,
               "name": "setMonth"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1424,8 +1424,8 @@
             "end": 1923,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

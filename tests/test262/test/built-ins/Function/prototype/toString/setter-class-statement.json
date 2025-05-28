@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 319,
       "end": 331,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "\"h\""
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -49,21 +49,17 @@
             "type": "MethodDefinition",
             "start": 354,
             "end": 417,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 366,
               "end": 367,
               "name": "f"
             },
-            "kind": "set",
             "value": {
               "type": "FunctionExpression",
               "start": 376,
               "end": 417,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -79,8 +75,12 @@
                 "start": 406,
                 "end": 417,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "set",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -105,8 +105,6 @@
             "type": "MethodDefinition",
             "start": 453,
             "end": 538,
-            "static": false,
-            "computed": true,
             "key": {
               "type": "Literal",
               "start": 475,
@@ -114,13 +112,11 @@
               "value": "g",
               "raw": "\"g\""
             },
-            "kind": "set",
             "value": {
               "type": "FunctionExpression",
               "start": 497,
               "end": 538,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -136,8 +132,12 @@
                 "start": 527,
                 "end": 538,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "set",
+            "computed": true,
+            "static": false
           }
         ]
       }
@@ -162,21 +162,17 @@
             "type": "MethodDefinition",
             "start": 574,
             "end": 657,
-            "static": false,
-            "computed": true,
             "key": {
               "type": "Identifier",
               "start": 596,
               "end": 597,
               "name": "x"
             },
-            "kind": "set",
             "value": {
               "type": "FunctionExpression",
               "start": 616,
               "end": 657,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -192,8 +188,12 @@
                 "start": 646,
                 "end": 657,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "set",
+            "computed": true,
+            "static": false
           }
         ]
       }
@@ -202,6 +202,7 @@
       "type": "VariableDeclaration",
       "start": 672,
       "end": 734,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -237,8 +238,8 @@
                   "end": 711,
                   "name": "getOwnPropertyDescriptor"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -257,8 +258,8 @@
                     "end": 723,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -276,17 +277,17 @@
               "end": 733,
               "name": "set"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 735,
       "end": 797,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -322,8 +323,8 @@
                   "end": 774,
                   "name": "getOwnPropertyDescriptor"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -342,8 +343,8 @@
                     "end": 786,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -361,17 +362,17 @@
               "end": 796,
               "name": "set"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 798,
       "end": 860,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -407,8 +408,8 @@
                   "end": 837,
                   "name": "getOwnPropertyDescriptor"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -427,8 +428,8 @@
                     "end": 849,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -446,12 +447,11 @@
               "end": 859,
               "name": "set"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",

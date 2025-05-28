@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 321,
       "end": 339,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "true"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 340,
       "end": 356,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -51,13 +52,13 @@
             "elements": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 357,
       "end": 372,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -77,8 +78,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -90,7 +90,6 @@
         "end": 523,
         "name": "callbackfn"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -155,7 +154,6 @@
                 "start": 671,
                 "end": 689,
                 "operator": "typeof",
-                "prefix": true,
                 "argument": {
                   "type": "MemberExpression",
                   "start": 678,
@@ -172,9 +170,10 @@
                     "end": 688,
                     "name": "idx"
                   },
-                  "computed": true,
-                  "optional": false
-                }
+                  "optional": false,
+                  "computed": true
+                },
+                "prefix": true
               },
               "operator": "===",
               "right": {
@@ -227,7 +226,6 @@
                         "start": 814,
                         "end": 836,
                         "operator": "typeof",
-                        "prefix": true,
                         "argument": {
                           "type": "MemberExpression",
                           "start": 821,
@@ -257,9 +255,10 @@
                               "raw": "1"
                             }
                           },
-                          "computed": true,
-                          "optional": false
-                        }
+                          "optional": false,
+                          "computed": true
+                        },
+                        "prefix": true
                       },
                       "operator": "===",
                       "right": {
@@ -329,8 +328,8 @@
                         "end": 898,
                         "name": "idx"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "right": {
                       "type": "Literal",
@@ -376,7 +375,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -431,8 +431,8 @@
             "end": 966,
             "name": "reduce"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -508,8 +508,8 @@
             "end": 1035,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

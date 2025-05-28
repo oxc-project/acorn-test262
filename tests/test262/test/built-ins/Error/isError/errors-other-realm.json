@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 299,
       "end": 337,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -42,8 +43,8 @@
                   "end": 327,
                   "name": "createRealm"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
@@ -54,12 +55,11 @@
               "end": 336,
               "name": "global"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -85,8 +85,8 @@
             "end": 355,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -109,8 +109,8 @@
                 "end": 369,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -133,8 +133,8 @@
                     "end": 385,
                     "name": "Error"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": []
               }
@@ -176,8 +176,8 @@
             "end": 413,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -200,8 +200,8 @@
                 "end": 427,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -224,8 +224,8 @@
                     "end": 447,
                     "name": "EvalError"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": []
               }
@@ -267,8 +267,8 @@
             "end": 475,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -291,8 +291,8 @@
                 "end": 489,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -315,8 +315,8 @@
                     "end": 510,
                     "name": "RangeError"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": []
               }
@@ -358,8 +358,8 @@
             "end": 538,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -382,8 +382,8 @@
                 "end": 552,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -406,8 +406,8 @@
                     "end": 577,
                     "name": "ReferenceError"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": []
               }
@@ -449,8 +449,8 @@
             "end": 605,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -473,8 +473,8 @@
                 "end": 619,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -497,8 +497,8 @@
                     "end": 641,
                     "name": "SyntaxError"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": []
               }
@@ -540,8 +540,8 @@
             "end": 669,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -564,8 +564,8 @@
                 "end": 683,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -588,8 +588,8 @@
                     "end": 703,
                     "name": "TypeError"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": []
               }
@@ -631,8 +631,8 @@
             "end": 731,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -655,8 +655,8 @@
                 "end": 745,
                 "name": "isError"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -679,8 +679,8 @@
                     "end": 764,
                     "name": "URIError"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": []
               }
@@ -711,13 +711,13 @@
           "start": 781,
           "end": 802,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 788,
             "end": 802,
             "name": "AggregateError"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -757,8 +757,8 @@
                   "end": 840,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -781,8 +781,8 @@
                       "end": 854,
                       "name": "isError"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -805,8 +805,8 @@
                           "end": 879,
                           "name": "AggregateError"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -848,13 +848,13 @@
           "start": 899,
           "end": 921,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 906,
             "end": 921,
             "name": "SuppressedError"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -894,8 +894,8 @@
                   "end": 959,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -918,8 +918,8 @@
                       "end": 973,
                       "name": "isError"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -942,8 +942,8 @@
                           "end": 999,
                           "name": "SuppressedError"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": []
                     }

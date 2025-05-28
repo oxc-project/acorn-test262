@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 2130,
       "end": 2164,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -31,13 +32,13 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2165,
       "end": 2183,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -56,13 +57,13 @@
             "elements": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2184,
       "end": 2253,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -83,9 +84,7 @@
                 "type": "Property",
                 "start": 2202,
                 "end": 2250,
-                "method": true,
-                "shorthand": false,
-                "computed": true,
+                "kind": "init",
                 "key": {
                   "type": "MemberExpression",
                   "start": 2203,
@@ -102,15 +101,14 @@
                     "end": 2217,
                     "name": "dispose"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "value": {
                   "type": "FunctionExpression",
                   "start": 2218,
                   "end": 2250,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -143,8 +141,8 @@
                               "end": 2236,
                               "name": "push"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -158,20 +156,23 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": true,
+                "shorthand": false,
+                "computed": true
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2254,
       "end": 2273,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -190,8 +191,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -203,7 +203,6 @@
         "end": 2291,
         "name": "dispose2"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -243,8 +242,8 @@
                   "end": 2312,
                   "name": "push"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -258,7 +257,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -270,7 +270,6 @@
         "end": 2338,
         "name": "dispose3"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -303,8 +302,8 @@
                   "end": 2356,
                   "name": "push"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -318,7 +317,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -344,8 +344,8 @@
             "end": 2379,
             "name": "use"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -382,8 +382,8 @@
             "end": 2403,
             "name": "adopt"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -426,8 +426,8 @@
             "end": 2437,
             "name": "defer"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -464,8 +464,8 @@
             "end": 2462,
             "name": "dispose"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -495,8 +495,8 @@
             "end": 2482,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -516,8 +516,8 @@
               "value": 0,
               "raw": "0"
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Identifier",
@@ -553,8 +553,8 @@
             "end": 2523,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -574,8 +574,8 @@
               "value": 1,
               "raw": "1"
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Identifier",
@@ -611,8 +611,8 @@
             "end": 2565,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -632,8 +632,8 @@
               "value": 2,
               "raw": "2"
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Identifier",

@@ -16,6 +16,7 @@
             "type": "VariableDeclaration",
             "start": 317,
             "end": 358,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -58,17 +59,17 @@
                     "end": 357,
                     "name": "call"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 361,
             "end": 385,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -93,8 +94,7 @@
                   "arguments": []
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",

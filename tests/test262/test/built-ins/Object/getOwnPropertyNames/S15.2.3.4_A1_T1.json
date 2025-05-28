@@ -13,7 +13,6 @@
         "end": 475,
         "name": "foo"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,12 +21,14 @@
         "start": 478,
         "end": 480,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 482,
       "end": 526,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -59,8 +60,8 @@
                 "end": 520,
                 "name": "getOwnPropertyNames"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -73,8 +74,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -84,6 +84,7 @@
         "type": "VariableDeclaration",
         "start": 532,
         "end": 561,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -129,12 +130,11 @@
                 "end": 561,
                 "name": "length"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -192,13 +192,11 @@
                   "start": 588,
                   "end": 618,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "UnaryExpression",
                     "start": 589,
                     "end": 618,
                     "operator": "!",
-                    "prefix": true,
                     "argument": {
                       "type": "CallExpression",
                       "start": 590,
@@ -219,8 +217,8 @@
                           "end": 608,
                           "name": "hasOwnProperty"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -239,13 +237,15 @@
                             "end": 616,
                             "name": "i"
                           },
-                          "computed": true,
-                          "optional": false
+                          "optional": false,
+                          "computed": true
                         }
                       ],
                       "optional": false
-                    }
-                  }
+                    },
+                    "prefix": true
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "Literal",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 817,
       "end": 850,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,13 +40,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 851,
       "end": 888,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -84,8 +85,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -136,8 +136,8 @@
             "end": 927,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -151,7 +151,6 @@
             "start": 940,
             "end": 986,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -184,8 +183,8 @@
                         "end": 970,
                         "name": "setInt16"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -206,7 +205,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -243,8 +243,8 @@
             "end": 1015,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -258,7 +258,6 @@
             "start": 1028,
             "end": 1068,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -291,8 +290,8 @@
                         "end": 1058,
                         "name": "setInt16"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -300,14 +299,14 @@
                         "start": 1059,
                         "end": 1061,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1060,
                           "end": 1061,
                           "value": 1,
                           "raw": "1"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "Literal",
@@ -321,7 +320,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

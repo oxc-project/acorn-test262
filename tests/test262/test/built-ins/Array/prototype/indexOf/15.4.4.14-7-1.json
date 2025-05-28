@@ -27,8 +27,8 @@
             "end": 297,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -73,8 +73,8 @@
                 "end": 315,
                 "name": "indexOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -99,14 +99,14 @@
             "start": 323,
             "end": 325,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 324,
               "end": 325,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

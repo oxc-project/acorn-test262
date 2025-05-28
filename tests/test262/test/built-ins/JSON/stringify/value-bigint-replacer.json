@@ -13,7 +13,6 @@
         "end": 462,
         "name": "replacer"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -48,13 +47,13 @@
                 "start": 479,
                 "end": 487,
                 "operator": "typeof",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 486,
                   "end": 487,
                   "name": "v"
-                }
+                },
+                "prefix": true
               },
               "operator": "===",
               "right": {
@@ -90,7 +89,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -116,8 +116,8 @@
             "end": 573,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -140,8 +140,8 @@
                 "end": 588,
                 "name": "stringify"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -196,8 +196,8 @@
             "end": 633,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -220,8 +220,8 @@
                 "end": 648,
                 "name": "stringify"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -233,9 +233,7 @@
                     "type": "Property",
                     "start": 650,
                     "end": 655,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 650,
@@ -250,7 +248,9 @@
                       "raw": "0n",
                       "bigint": "0"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               },

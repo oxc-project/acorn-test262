@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 250,
       "end": 298,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 289,
                 "name": "getOwnPropertyNames"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -52,8 +53,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -94,8 +94,8 @@
                   "end": 321,
                   "name": "indexOf"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -114,14 +114,14 @@
               "start": 342,
               "end": 344,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 343,
                 "end": 344,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -174,8 +174,8 @@
                   "end": 386,
                   "name": "indexOf"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -194,14 +194,14 @@
               "start": 417,
               "end": 419,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 418,
                 "end": 419,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -254,8 +254,8 @@
                   "end": 471,
                   "name": "indexOf"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -274,14 +274,14 @@
               "start": 497,
               "end": 499,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 498,
                 "end": 499,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -334,8 +334,8 @@
                   "end": 546,
                   "name": "indexOf"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -354,14 +354,14 @@
               "start": 559,
               "end": 561,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 560,
                 "end": 561,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -414,8 +414,8 @@
                   "end": 595,
                   "name": "indexOf"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -434,14 +434,14 @@
               "start": 616,
               "end": 618,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 617,
                 "end": 618,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -494,8 +494,8 @@
                   "end": 660,
                   "name": "indexOf"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -514,14 +514,14 @@
               "start": 683,
               "end": 685,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 684,
                 "end": 685,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -574,8 +574,8 @@
                   "end": 729,
                   "name": "indexOf"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -594,14 +594,14 @@
               "start": 740,
               "end": 742,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 741,
                 "end": 742,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -654,8 +654,8 @@
                   "end": 774,
                   "name": "indexOf"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -674,14 +674,14 @@
               "start": 787,
               "end": 789,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 788,
                 "end": 789,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -734,8 +734,8 @@
                   "end": 823,
                   "name": "indexOf"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -754,14 +754,14 @@
               "start": 847,
               "end": 849,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 848,
                 "end": 849,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -814,8 +814,8 @@
                   "end": 894,
                   "name": "indexOf"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -834,14 +834,14 @@
               "start": 909,
               "end": 911,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 910,
                 "end": 911,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -894,8 +894,8 @@
                   "end": 947,
                   "name": "indexOf"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -914,14 +914,14 @@
               "start": 962,
               "end": 964,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 963,
                 "end": 964,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -974,8 +974,8 @@
                   "end": 1000,
                   "name": "indexOf"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -994,14 +994,14 @@
               "start": 1019,
               "end": 1021,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1020,
                 "end": 1021,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -1054,8 +1054,8 @@
                   "end": 1061,
                   "name": "indexOf"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1074,14 +1074,14 @@
               "start": 1072,
               "end": 1074,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1073,
                 "end": 1074,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -1134,8 +1134,8 @@
                   "end": 1106,
                   "name": "indexOf"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1154,14 +1154,14 @@
               "start": 1122,
               "end": 1124,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1123,
                 "end": 1124,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -1214,8 +1214,8 @@
                   "end": 1161,
                   "name": "indexOf"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1234,14 +1234,14 @@
               "start": 1174,
               "end": 1176,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1175,
                 "end": 1176,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             }
           },
           {

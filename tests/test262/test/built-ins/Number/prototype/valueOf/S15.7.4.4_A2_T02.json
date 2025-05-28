@@ -16,6 +16,7 @@
             "type": "VariableDeclaration",
             "start": 440,
             "end": 463,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -40,8 +41,7 @@
                   "arguments": []
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -68,8 +68,8 @@
                   "end": 476,
                   "name": "valueOf"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "MemberExpression",
@@ -91,8 +91,8 @@
                     "end": 495,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -100,8 +100,8 @@
                   "end": 503,
                   "name": "valueOf"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             }
           },
@@ -109,6 +109,7 @@
             "type": "VariableDeclaration",
             "start": 507,
             "end": 529,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -140,15 +141,14 @@
                       "end": 526,
                       "name": "valueOf"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",
@@ -254,6 +254,7 @@
             "type": "VariableDeclaration",
             "start": 769,
             "end": 792,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -278,8 +279,7 @@
                   "arguments": []
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -306,8 +306,8 @@
                   "end": 807,
                   "name": "myValueOf"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "MemberExpression",
@@ -329,8 +329,8 @@
                     "end": 826,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -338,8 +338,8 @@
                   "end": 834,
                   "name": "valueOf"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             }
           },
@@ -347,6 +347,7 @@
             "type": "VariableDeclaration",
             "start": 838,
             "end": 862,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -378,15 +379,14 @@
                       "end": 859,
                       "name": "myValueOf"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",

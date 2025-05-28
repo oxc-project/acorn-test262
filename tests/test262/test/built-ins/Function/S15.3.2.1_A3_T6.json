@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 942,
       "end": 968,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "\"return true;\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -42,6 +42,7 @@
             "type": "VariableDeclaration",
             "start": 978,
             "end": 1011,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -80,8 +81,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",

@@ -27,8 +27,8 @@
             "end": 576,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -94,8 +94,8 @@
                 "end": 608,
                 "name": "toSpliced"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -110,14 +110,14 @@
                 "start": 612,
                 "end": 614,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 613,
                   "end": 614,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -199,8 +199,8 @@
             "end": 661,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -266,8 +266,8 @@
                 "end": 693,
                 "name": "toSpliced"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -275,28 +275,28 @@
                 "start": 694,
                 "end": 696,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 695,
                   "end": 696,
                   "value": 4,
                   "raw": "4"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 698,
                 "end": 700,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 699,
                   "end": 700,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -378,8 +378,8 @@
             "end": 747,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -445,8 +445,8 @@
                 "end": 779,
                 "name": "toSpliced"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -515,8 +515,8 @@
             "end": 819,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -582,8 +582,8 @@
                 "end": 851,
                 "name": "toSpliced"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -591,14 +591,14 @@
                 "start": 852,
                 "end": 854,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 853,
                   "end": 854,
                   "value": 4,
                   "raw": "4"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",

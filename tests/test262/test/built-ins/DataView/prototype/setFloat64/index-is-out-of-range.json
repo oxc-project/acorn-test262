@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 994,
       "end": 1005,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,13 +21,13 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1006,
       "end": 1039,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -59,8 +60,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -129,8 +129,8 @@
             "end": 1089,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -144,7 +144,6 @@
             "start": 1102,
             "end": 1151,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -177,8 +176,8 @@
                         "end": 1134,
                         "name": "setFloat64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -199,7 +198,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -236,8 +236,8 @@
             "end": 1192,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -251,7 +251,6 @@
             "start": 1205,
             "end": 1248,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -284,8 +283,8 @@
                         "end": 1237,
                         "name": "setFloat64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -307,7 +306,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -344,8 +344,8 @@
             "end": 1280,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -359,7 +359,6 @@
             "start": 1293,
             "end": 1336,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -392,8 +391,8 @@
                         "end": 1325,
                         "name": "setFloat64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -415,7 +414,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -452,8 +452,8 @@
             "end": 1368,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -467,7 +467,6 @@
             "start": 1381,
             "end": 1424,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -500,8 +499,8 @@
                         "end": 1413,
                         "name": "setFloat64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -523,7 +522,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -560,8 +560,8 @@
             "end": 1456,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -575,7 +575,6 @@
             "start": 1469,
             "end": 1512,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -608,8 +607,8 @@
                         "end": 1501,
                         "name": "setFloat64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -631,7 +630,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -668,8 +668,8 @@
             "end": 1544,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -683,7 +683,6 @@
             "start": 1557,
             "end": 1599,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -716,8 +715,8 @@
                         "end": 1589,
                         "name": "setFloat64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -739,7 +738,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -776,8 +776,8 @@
             "end": 1630,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -791,7 +791,6 @@
             "start": 1643,
             "end": 1685,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -824,8 +823,8 @@
                         "end": 1675,
                         "name": "setFloat64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -847,7 +846,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -884,8 +884,8 @@
             "end": 1716,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -899,7 +899,6 @@
             "start": 1729,
             "end": 1771,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -932,8 +931,8 @@
                         "end": 1761,
                         "name": "setFloat64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -955,7 +954,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -992,8 +992,8 @@
             "end": 1802,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1007,7 +1007,6 @@
             "start": 1815,
             "end": 1857,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1040,8 +1039,8 @@
                         "end": 1847,
                         "name": "setFloat64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1063,7 +1062,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1100,8 +1100,8 @@
             "end": 1888,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1115,7 +1115,6 @@
             "start": 1901,
             "end": 1943,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1148,8 +1147,8 @@
                         "end": 1933,
                         "name": "setFloat64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1171,7 +1170,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1251,8 +1251,8 @@
             "end": 2008,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1266,7 +1266,6 @@
             "start": 2021,
             "end": 2063,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1299,8 +1298,8 @@
                         "end": 2053,
                         "name": "setFloat64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1322,7 +1321,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1402,8 +1402,8 @@
             "end": 2136,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1417,7 +1417,6 @@
             "start": 2149,
             "end": 2191,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1450,8 +1449,8 @@
                         "end": 2181,
                         "name": "setFloat64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1473,7 +1472,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1560,8 +1560,8 @@
             "end": 2267,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1575,7 +1575,6 @@
             "start": 2280,
             "end": 2322,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1608,8 +1607,8 @@
                         "end": 2312,
                         "name": "setFloat64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1631,7 +1630,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1718,8 +1718,8 @@
             "end": 2398,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1733,7 +1733,6 @@
             "start": 2411,
             "end": 2453,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1766,8 +1765,8 @@
                         "end": 2443,
                         "name": "setFloat64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1789,7 +1788,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1876,8 +1876,8 @@
             "end": 2529,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1891,7 +1891,6 @@
             "start": 2542,
             "end": 2584,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1924,8 +1923,8 @@
                         "end": 2574,
                         "name": "setFloat64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1947,7 +1946,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -2034,8 +2034,8 @@
             "end": 2667,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2049,7 +2049,6 @@
             "start": 2680,
             "end": 2722,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -2082,8 +2081,8 @@
                         "end": 2712,
                         "name": "setFloat64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2105,7 +2104,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -2185,8 +2185,8 @@
             "end": 2805,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2209,8 +2209,8 @@
                 "end": 2823,
                 "name": "getFloat64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2265,8 +2265,8 @@
             "end": 2872,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2289,8 +2289,8 @@
                 "end": 2890,
                 "name": "getFloat64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

@@ -35,8 +35,8 @@
             "end": 316,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -44,7 +44,6 @@
             "start": 317,
             "end": 373,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -77,8 +76,8 @@
                         "end": 345,
                         "name": "freeze"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -101,8 +100,8 @@
                             "end": 361,
                             "name": "prototype"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -110,15 +109,16 @@
                           "end": 369,
                           "name": "forEach"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

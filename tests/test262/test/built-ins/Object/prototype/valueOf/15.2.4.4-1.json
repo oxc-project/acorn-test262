@@ -27,8 +27,8 @@
             "end": 287,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 288,
             "end": 330,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 295,
@@ -65,8 +64,8 @@
                       "end": 311,
                       "name": "prototype"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -74,8 +73,8 @@
                     "end": 319,
                     "name": "valueOf"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -83,8 +82,8 @@
                   "end": 324,
                   "name": "call"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -96,7 +95,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

@@ -13,7 +13,6 @@
         "end": 272,
         "name": "g"
       },
-      "expression": false,
       "generator": true,
       "async": false,
       "params": [],
@@ -22,7 +21,8 @@
         "start": 275,
         "end": 277,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -56,8 +56,8 @@
                 "end": 296,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -65,8 +65,8 @@
               "end": 304,
               "name": "flatMap"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -74,8 +74,8 @@
             "end": 309,
             "name": "call"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -95,9 +95,7 @@
             "type": "ArrowFunctionExpression",
             "start": 315,
             "end": 323,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -105,7 +103,9 @@
               "start": 321,
               "end": 323,
               "elements": []
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -115,6 +115,7 @@
       "type": "VariableDeclaration",
       "start": 327,
       "end": 342,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -140,8 +141,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -167,17 +167,15 @@
             "end": 355,
             "name": "flatMap"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 356,
             "end": 364,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -185,7 +183,9 @@
               "start": 362,
               "end": 364,
               "elements": []
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

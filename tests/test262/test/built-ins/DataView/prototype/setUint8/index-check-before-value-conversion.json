@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 516,
       "end": 567,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -59,13 +60,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 569,
       "end": 662,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -86,9 +87,7 @@
                 "type": "Property",
                 "start": 588,
                 "end": 659,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 588,
@@ -100,7 +99,6 @@
                   "start": 597,
                   "end": 659,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -135,15 +133,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -169,8 +169,8 @@
             "end": 677,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -184,7 +184,6 @@
             "start": 690,
             "end": 741,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -217,8 +216,8 @@
                         "end": 722,
                         "name": "setUint8"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -226,14 +225,14 @@
                         "start": 723,
                         "end": 727,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 724,
                           "end": 727,
                           "value": 1.5,
                           "raw": "1.5"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "Identifier",
@@ -246,7 +245,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -283,8 +283,8 @@
             "end": 786,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -298,7 +298,6 @@
             "start": 799,
             "end": 848,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -331,8 +330,8 @@
                         "end": 831,
                         "name": "setUint8"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -340,14 +339,14 @@
                         "start": 832,
                         "end": 834,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 833,
                           "end": 834,
                           "value": 1,
                           "raw": "1"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "Identifier",
@@ -360,7 +359,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -397,8 +397,8 @@
             "end": 891,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -412,7 +412,6 @@
             "start": 904,
             "end": 960,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -445,8 +444,8 @@
                         "end": 936,
                         "name": "setUint8"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -454,13 +453,13 @@
                         "start": 937,
                         "end": 946,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Identifier",
                           "start": 938,
                           "end": 946,
                           "name": "Infinity"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "Identifier",
@@ -473,7 +472,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -510,8 +510,8 @@
             "end": 1010,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -525,7 +525,6 @@
             "start": 1023,
             "end": 1078,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -558,8 +557,8 @@
                         "end": 1055,
                         "name": "setUint8"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -579,7 +578,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

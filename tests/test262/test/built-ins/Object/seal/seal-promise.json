@@ -27,8 +27,8 @@
             "end": 1172,
             "name": "seal"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -46,9 +46,7 @@
                 "type": "ArrowFunctionExpression",
                 "start": 1185,
                 "end": 1193,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
@@ -56,7 +54,9 @@
                   "start": 1191,
                   "end": 1193,
                   "body": []
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ]
           }

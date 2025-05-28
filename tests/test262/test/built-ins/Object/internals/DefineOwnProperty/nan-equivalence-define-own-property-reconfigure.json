@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1693,
       "end": 1715,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -34,12 +35,11 @@
               "end": 1714,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -49,6 +49,7 @@
         "type": "VariableDeclaration",
         "start": 1722,
         "end": 1733,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -68,8 +69,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -115,6 +115,7 @@
               "type": "VariableDeclaration",
               "start": 1762,
               "end": 1773,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -134,8 +135,7 @@
                     "raw": "0"
                   }
                 }
-              ],
-              "kind": "var"
+              ]
             },
             "test": {
               "type": "BinaryExpression",
@@ -177,6 +177,7 @@
                   "type": "VariableDeclaration",
                   "start": 1799,
                   "end": 1810,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -195,13 +196,13 @@
                         "properties": []
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 1815,
                   "end": 1826,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -220,8 +221,7 @@
                         "properties": []
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -247,8 +247,8 @@
                         "end": 1853,
                         "name": "defineProperty"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -273,9 +273,7 @@
                             "type": "Property",
                             "start": 1873,
                             "end": 1889,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1873,
@@ -298,18 +296,18 @@
                                 "end": 1888,
                                 "name": "idx"
                               },
-                              "computed": true,
-                              "optional": false
+                              "optional": false,
+                              "computed": true
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 1897,
                             "end": 1915,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1897,
@@ -323,7 +321,9 @@
                               "value": true,
                               "raw": "true"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -355,8 +355,8 @@
                         "end": 1951,
                         "name": "defineProperty"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -381,9 +381,7 @@
                             "type": "Property",
                             "start": 1971,
                             "end": 1987,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1971,
@@ -406,10 +404,12 @@
                                 "end": 1986,
                                 "name": "jdx"
                               },
-                              "computed": true,
-                              "optional": false
+                              "optional": false,
+                              "computed": true
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -452,8 +452,8 @@
                             "end": 2022,
                             "name": "prop"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "operator": "!==",
                         "right": {
@@ -472,22 +472,14 @@
                             "end": 2033,
                             "name": "prop"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         }
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 2041,
                         "end": 2134,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 2105,
-                            "end": 2108,
-                            "name": "idx"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -508,6 +500,14 @@
                               "cooked": ") results in a valid NaN"
                             },
                             "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 2105,
+                            "end": 2108,
+                            "name": "idx"
                           }
                         ]
                       }

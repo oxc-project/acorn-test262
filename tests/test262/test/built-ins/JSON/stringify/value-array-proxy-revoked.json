@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 708,
       "end": 745,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 736,
                 "name": "revocable"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -58,8 +59,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -85,8 +85,8 @@
             "end": 760,
             "name": "revoke"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -116,8 +116,8 @@
             "end": 778,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -131,7 +131,6 @@
             "start": 790,
             "end": 836,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -164,8 +163,8 @@
                         "end": 819,
                         "name": "stringify"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -184,15 +183,16 @@
                           "end": 832,
                           "name": "proxy"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -229,8 +229,8 @@
             "end": 872,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -244,7 +244,6 @@
             "start": 884,
             "end": 936,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -277,8 +276,8 @@
                         "end": 913,
                         "name": "stringify"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -312,8 +311,8 @@
                                       "end": 929,
                                       "name": "proxy"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   }
                                 ]
                               }
@@ -326,7 +325,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 572,
       "end": 592,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -47,8 +48,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -74,8 +74,8 @@
             "end": 613,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -98,8 +98,8 @@
                 "end": 622,
                 "name": "with"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -107,14 +107,14 @@
                 "start": 623,
                 "end": 625,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 624,
                   "end": 625,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -182,8 +182,8 @@
             "end": 662,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -206,8 +206,8 @@
                 "end": 671,
                 "name": "with"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -215,14 +215,14 @@
                 "start": 672,
                 "end": 674,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 673,
                   "end": 674,
                   "value": 3,
                   "raw": "3"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -290,8 +290,8 @@
             "end": 729,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -314,8 +314,8 @@
                 "end": 738,
                 "name": "with"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -323,14 +323,14 @@
                 "start": 739,
                 "end": 741,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 740,
                   "end": 741,
                   "value": 0,
                   "raw": "0"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",

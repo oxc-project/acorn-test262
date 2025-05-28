@@ -13,7 +13,6 @@
         "end": 877,
         "name": "g"
       },
-      "expression": false,
       "generator": true,
       "async": true,
       "params": [],
@@ -22,12 +21,14 @@
         "start": 880,
         "end": 882,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 883,
       "end": 948,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -63,8 +64,8 @@
                   "end": 934,
                   "name": "getPrototypeOf"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -82,17 +83,17 @@
               "end": 947,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 950,
       "end": 972,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -118,13 +119,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 974,
       "end": 3239,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -173,8 +174,8 @@
                           "end": 1025,
                           "name": "next"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -182,8 +183,8 @@
                         "end": 1030,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -201,8 +202,8 @@
                     "end": 1046,
                     "name": "then"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -210,7 +211,6 @@
                     "start": 1052,
                     "end": 1219,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -258,14 +258,14 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   },
                   {
                     "type": "FunctionExpression",
                     "start": 1225,
                     "end": 1370,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [
@@ -290,7 +290,6 @@
                             "start": 1250,
                             "end": 1275,
                             "operator": "!",
-                            "prefix": true,
                             "argument": {
                               "type": "ParenthesizedExpression",
                               "start": 1251,
@@ -313,7 +312,8 @@
                                   "name": "TypeError"
                                 }
                               }
-                            }
+                            },
+                            "prefix": true
                           },
                           "consequent": {
                             "type": "BlockStatement",
@@ -362,7 +362,8 @@
                           "alternate": null
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   }
                 ],
                 "optional": false
@@ -399,8 +400,8 @@
                           "end": 1406,
                           "name": "next"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -408,8 +409,8 @@
                         "end": 1411,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -428,8 +429,8 @@
                     "end": 1419,
                     "name": "then"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -437,7 +438,6 @@
                     "start": 1425,
                     "end": 1592,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -485,14 +485,14 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   },
                   {
                     "type": "FunctionExpression",
                     "start": 1598,
                     "end": 1740,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [
@@ -517,7 +517,6 @@
                             "start": 1623,
                             "end": 1648,
                             "operator": "!",
-                            "prefix": true,
                             "argument": {
                               "type": "ParenthesizedExpression",
                               "start": 1624,
@@ -540,7 +539,8 @@
                                   "name": "TypeError"
                                 }
                               }
-                            }
+                            },
+                            "prefix": true
                           },
                           "consequent": {
                             "type": "BlockStatement",
@@ -589,7 +589,8 @@
                           "alternate": null
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   }
                 ],
                 "optional": false
@@ -626,8 +627,8 @@
                           "end": 1776,
                           "name": "next"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -635,8 +636,8 @@
                         "end": 1781,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -655,8 +656,8 @@
                     "end": 1796,
                     "name": "then"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -664,7 +665,6 @@
                     "start": 1802,
                     "end": 1969,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -712,14 +712,14 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   },
                   {
                     "type": "FunctionExpression",
                     "start": 1975,
                     "end": 2117,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [
@@ -744,7 +744,6 @@
                             "start": 2000,
                             "end": 2025,
                             "operator": "!",
-                            "prefix": true,
                             "argument": {
                               "type": "ParenthesizedExpression",
                               "start": 2001,
@@ -767,7 +766,8 @@
                                   "name": "TypeError"
                                 }
                               }
-                            }
+                            },
+                            "prefix": true
                           },
                           "consequent": {
                             "type": "BlockStatement",
@@ -816,7 +816,8 @@
                           "alternate": null
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   }
                 ],
                 "optional": false
@@ -853,8 +854,8 @@
                           "end": 2153,
                           "name": "next"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -862,8 +863,8 @@
                         "end": 2158,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -882,8 +883,8 @@
                     "end": 2169,
                     "name": "then"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -891,7 +892,6 @@
                     "start": 2175,
                     "end": 2337,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -939,14 +939,14 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   },
                   {
                     "type": "FunctionExpression",
                     "start": 2343,
                     "end": 2483,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [
@@ -971,7 +971,6 @@
                             "start": 2368,
                             "end": 2393,
                             "operator": "!",
-                            "prefix": true,
                             "argument": {
                               "type": "ParenthesizedExpression",
                               "start": 2369,
@@ -994,7 +993,8 @@
                                   "name": "TypeError"
                                 }
                               }
-                            }
+                            },
+                            "prefix": true
                           },
                           "consequent": {
                             "type": "BlockStatement",
@@ -1043,7 +1043,8 @@
                           "alternate": null
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   }
                 ],
                 "optional": false
@@ -1080,8 +1081,8 @@
                           "end": 2519,
                           "name": "next"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1089,8 +1090,8 @@
                         "end": 2524,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1109,8 +1110,8 @@
                     "end": 2535,
                     "name": "then"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1118,7 +1119,6 @@
                     "start": 2541,
                     "end": 2709,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -1166,14 +1166,14 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   },
                   {
                     "type": "FunctionExpression",
                     "start": 2715,
                     "end": 2858,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [
@@ -1198,7 +1198,6 @@
                             "start": 2740,
                             "end": 2765,
                             "operator": "!",
-                            "prefix": true,
                             "argument": {
                               "type": "ParenthesizedExpression",
                               "start": 2741,
@@ -1221,7 +1220,8 @@
                                   "name": "TypeError"
                                 }
                               }
-                            }
+                            },
+                            "prefix": true
                           },
                           "consequent": {
                             "type": "BlockStatement",
@@ -1270,7 +1270,8 @@
                           "alternate": null
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   }
                 ],
                 "optional": false
@@ -1307,8 +1308,8 @@
                           "end": 2894,
                           "name": "next"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -1316,8 +1317,8 @@
                         "end": 2899,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1335,8 +1336,8 @@
                     "end": 2912,
                     "name": "then"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1344,7 +1345,6 @@
                     "start": 2918,
                     "end": 3085,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -1392,14 +1392,14 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   },
                   {
                     "type": "FunctionExpression",
                     "start": 3091,
                     "end": 3233,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [
@@ -1424,7 +1424,6 @@
                             "start": 3116,
                             "end": 3141,
                             "operator": "!",
-                            "prefix": true,
                             "argument": {
                               "type": "ParenthesizedExpression",
                               "start": 3117,
@@ -1447,7 +1446,8 @@
                                   "name": "TypeError"
                                 }
                               }
-                            }
+                            },
+                            "prefix": true
                           },
                           "consequent": {
                             "type": "BlockStatement",
@@ -1496,7 +1496,8 @@
                           "alternate": null
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   }
                 ],
                 "optional": false
@@ -1504,8 +1505,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1547,8 +1547,8 @@
                     "end": 3252,
                     "name": "all"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1566,17 +1566,15 @@
                 "end": 3271,
                 "name": "then"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
                 "type": "ArrowFunctionExpression",
                 "start": 3272,
                 "end": 3280,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
@@ -1584,7 +1582,9 @@
                   "start": 3278,
                   "end": 3280,
                   "body": []
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ],
             "optional": false
@@ -1595,8 +1595,8 @@
             "end": 3286,
             "name": "then"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -27,8 +27,8 @@
             "end": 879,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -57,8 +57,8 @@
                 "end": 898,
                 "name": "toPrecision"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -113,8 +113,8 @@
             "end": 955,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -143,8 +143,8 @@
                 "end": 974,
                 "name": "toPrecision"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -199,8 +199,8 @@
             "end": 1036,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -229,8 +229,8 @@
                 "end": 1055,
                 "name": "toPrecision"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -285,8 +285,8 @@
             "end": 1133,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -306,14 +306,14 @@
                   "start": 1138,
                   "end": 1140,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1139,
                     "end": 1140,
                     "value": 0,
                     "raw": "0"
-                  }
+                  },
+                  "prefix": true
                 }
               },
               "property": {
@@ -322,8 +322,8 @@
                 "end": 1153,
                 "name": "toPrecision"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -378,8 +378,8 @@
             "end": 1211,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -399,14 +399,14 @@
                   "start": 1216,
                   "end": 1218,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1217,
                     "end": 1218,
                     "value": 0,
                     "raw": "0"
-                  }
+                  },
+                  "prefix": true
                 }
               },
               "property": {
@@ -415,8 +415,8 @@
                 "end": 1231,
                 "name": "toPrecision"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -471,8 +471,8 @@
             "end": 1294,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -492,14 +492,14 @@
                   "start": 1299,
                   "end": 1301,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1300,
                     "end": 1301,
                     "value": 0,
                     "raw": "0"
-                  }
+                  },
+                  "prefix": true
                 }
               },
               "property": {
@@ -508,8 +508,8 @@
                 "end": 1314,
                 "name": "toPrecision"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

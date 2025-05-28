@@ -13,7 +13,6 @@
         "end": 321,
         "name": "callbackfn1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -66,7 +65,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -78,7 +78,6 @@
         "end": 381,
         "name": "callbackfn2"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -131,12 +130,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 421,
       "end": 590,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -153,7 +154,6 @@
             "start": 432,
             "end": 589,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -201,8 +201,8 @@
                         "value": 2,
                         "raw": "2"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "right": {
                       "type": "Literal",
@@ -249,8 +249,8 @@
                               "end": 494,
                               "name": "prototype"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "property": {
                             "type": "Identifier",
@@ -258,8 +258,8 @@
                             "end": 499,
                             "name": "some"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -267,8 +267,8 @@
                           "end": 504,
                           "name": "call"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -292,7 +292,6 @@
                       "start": 536,
                       "end": 586,
                       "operator": "!",
-                      "prefix": true,
                       "argument": {
                         "type": "CallExpression",
                         "start": 537,
@@ -321,8 +320,8 @@
                                 "end": 552,
                                 "name": "prototype"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -330,8 +329,8 @@
                               "end": 557,
                               "name": "some"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "property": {
                             "type": "Identifier",
@@ -339,8 +338,8 @@
                             "end": 562,
                             "name": "call"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -357,16 +356,17 @@
                           }
                         ],
                         "optional": false
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1995,
       "end": 2016,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2017,
       "end": 2036,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,8 +53,7 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -65,7 +65,6 @@
         "end": 2056,
         "name": "iterator"
       },
-      "expression": false,
       "generator": true,
       "async": false,
       "params": [],
@@ -112,8 +111,8 @@
                           "end": 2093,
                           "name": "reject"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -164,7 +163,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -185,9 +185,7 @@
             "type": "ArrowFunctionExpression",
             "start": 2159,
             "end": 2351,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": true,
             "params": [],
             "body": {
@@ -213,6 +211,7 @@
                           "type": "VariableDeclaration",
                           "start": 2196,
                           "end": 2203,
+                          "kind": "const",
                           "declarations": [
                             {
                               "type": "VariableDeclarator",
@@ -226,8 +225,7 @@
                               },
                               "init": null
                             }
-                          ],
-                          "kind": "const"
+                          ]
                         },
                         "right": {
                           "type": "CallExpression",
@@ -313,8 +311,8 @@
                                 "end": 2275,
                                 "name": "sameValue"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -363,8 +361,8 @@
                         "end": 2313,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -410,7 +408,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

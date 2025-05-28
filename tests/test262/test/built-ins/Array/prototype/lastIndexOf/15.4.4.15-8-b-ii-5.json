@@ -27,8 +27,8 @@
             "end": 269,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -49,13 +49,13 @@
                     "start": 271,
                     "end": 275,
                     "operator": "+",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 272,
                       "end": 275,
                       "name": "NaN"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Identifier",
@@ -68,13 +68,13 @@
                     "start": 282,
                     "end": 286,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 283,
                       "end": 286,
                       "name": "NaN"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               },
@@ -84,8 +84,8 @@
                 "end": 299,
                 "name": "lastIndexOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -93,13 +93,13 @@
                 "start": 300,
                 "end": 304,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 301,
                   "end": 304,
                   "name": "NaN"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -109,14 +109,14 @@
             "start": 307,
             "end": 309,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 308,
               "end": 309,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

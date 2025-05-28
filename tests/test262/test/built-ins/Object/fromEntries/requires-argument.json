@@ -27,8 +27,8 @@
             "end": 371,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 372,
             "end": 397,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 379,
@@ -53,9 +52,10 @@
                 "end": 397,
                 "name": "fromEntries"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -92,8 +92,8 @@
             "end": 425,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -107,7 +107,6 @@
             "start": 437,
             "end": 475,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -140,15 +139,16 @@
                         "end": 470,
                         "name": "fromEntries"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

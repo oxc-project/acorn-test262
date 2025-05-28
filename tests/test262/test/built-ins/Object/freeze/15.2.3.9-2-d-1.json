@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 225,
       "end": 252,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,7 +24,6 @@
             "start": 238,
             "end": 251,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -32,11 +32,11 @@
               "start": 249,
               "end": 251,
               "body": []
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -62,8 +62,8 @@
             "end": 267,
             "name": "freeze"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -111,8 +111,8 @@
                 "end": 300,
                 "name": "isFrozen"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

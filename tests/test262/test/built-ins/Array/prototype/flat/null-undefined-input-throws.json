@@ -27,8 +27,8 @@
             "end": 310,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 311,
             "end": 338,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 318,
@@ -57,8 +56,8 @@
                   "end": 333,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -66,9 +65,10 @@
                 "end": 338,
                 "name": "flat"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -105,8 +105,8 @@
             "end": 367,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -120,7 +120,6 @@
             "start": 379,
             "end": 415,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -157,8 +156,8 @@
                           "end": 401,
                           "name": "flat"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -166,8 +165,8 @@
                         "end": 406,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -182,7 +181,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -219,8 +219,8 @@
             "end": 446,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -234,7 +234,6 @@
             "start": 458,
             "end": 490,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -271,8 +270,8 @@
                           "end": 480,
                           "name": "flat"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -280,15 +279,16 @@
                         "end": 485,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -325,8 +325,8 @@
             "end": 518,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -340,7 +340,6 @@
             "start": 530,
             "end": 568,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -377,8 +376,8 @@
                           "end": 552,
                           "name": "flat"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -386,8 +385,8 @@
                         "end": 557,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -395,21 +394,22 @@
                         "start": 558,
                         "end": 564,
                         "operator": "void",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 563,
                           "end": 564,
                           "value": 0,
                           "raw": "0"
-                        }
+                        },
+                        "prefix": true
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

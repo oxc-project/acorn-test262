@@ -27,8 +27,8 @@
             "end": 416,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -57,14 +57,14 @@
             "start": 431,
             "end": 433,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 432,
               "end": 433,
               "value": 0,
               "raw": "0"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -94,8 +94,8 @@
             "end": 452,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -124,13 +124,13 @@
             "start": 474,
             "end": 483,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 475,
               "end": 483,
               "name": "Infinity"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -160,8 +160,8 @@
             "end": 503,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -190,14 +190,14 @@
             "start": 532,
             "end": 543,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 533,
               "end": 543,
               "value": 1234567890,
               "raw": "1234567890"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -227,8 +227,8 @@
             "end": 564,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -257,14 +257,14 @@
             "start": 587,
             "end": 597,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 588,
               "end": 597,
               "value": 1234.5678,
               "raw": "1234.5678"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -294,8 +294,8 @@
             "end": 617,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -324,14 +324,14 @@
             "start": 648,
             "end": 661,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 649,
               "end": 661,
               "value": 1.2345678e+93,
               "raw": "1234.5678e90"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -361,8 +361,8 @@
             "end": 682,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -391,14 +391,14 @@
             "start": 713,
             "end": 726,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 714,
               "end": 726,
               "value": 1.2345678e+93,
               "raw": "1234.5678E90"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -428,8 +428,8 @@
             "end": 747,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -458,14 +458,14 @@
             "start": 779,
             "end": 793,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 780,
               "end": 793,
               "value": 1.2345678e-87,
               "raw": "1234.5678e-90"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -495,8 +495,8 @@
             "end": 814,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -525,14 +525,14 @@
             "start": 846,
             "end": 860,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 847,
               "end": 860,
               "value": 1.2345678e-87,
               "raw": "1234.5678E-90"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -562,8 +562,8 @@
             "end": 881,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -603,8 +603,8 @@
               "end": 932,
               "name": "NEGATIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         ],
         "optional": false

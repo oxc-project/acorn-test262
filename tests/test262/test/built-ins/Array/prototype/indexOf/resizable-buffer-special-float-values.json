@@ -12,6 +12,7 @@
         "type": "VariableDeclaration",
         "start": 412,
         "end": 420,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -43,6 +43,7 @@
             "type": "VariableDeclaration",
             "start": 440,
             "end": 535,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -93,8 +94,8 @@
                           "end": 505,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     },
                     {
@@ -125,21 +126,21 @@
                           "end": 533,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   ],
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 538,
             "end": 575,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -171,8 +172,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -200,21 +200,21 @@
                   "value": 0,
                   "raw": "0"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "UnaryExpression",
                 "start": 598,
                 "end": 607,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 599,
                   "end": 607,
                   "name": "Infinity"
-                }
+                },
+                "prefix": true
               }
             }
           },
@@ -244,21 +244,21 @@
                   "value": 1,
                   "raw": "1"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "UnaryExpression",
                 "start": 631,
                 "end": 640,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 632,
                   "end": 640,
                   "name": "Infinity"
-                }
+                },
+                "prefix": true
               }
             }
           },
@@ -288,8 +288,8 @@
                   "value": 2,
                   "raw": "2"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "Identifier",
@@ -325,8 +325,8 @@
                   "value": 3,
                   "raw": "3"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "Identifier",
@@ -362,8 +362,8 @@
                   "value": 4,
                   "raw": "4"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "Identifier",
@@ -399,8 +399,8 @@
                   "value": 5,
                   "raw": "5"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "Identifier",
@@ -434,8 +434,8 @@
                   "end": 778,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -466,8 +466,8 @@
                           "end": 794,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -475,8 +475,8 @@
                         "end": 802,
                         "name": "indexOf"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -484,8 +484,8 @@
                       "end": 807,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -499,13 +499,13 @@
                       "start": 824,
                       "end": 833,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Identifier",
                         "start": 825,
                         "end": 833,
                         "name": "Infinity"
-                      }
+                      },
+                      "prefix": true
                     }
                   ],
                   "optional": false
@@ -545,8 +545,8 @@
                   "end": 858,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -577,8 +577,8 @@
                           "end": 874,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -586,8 +586,8 @@
                         "end": 882,
                         "name": "indexOf"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -595,8 +595,8 @@
                       "end": 887,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -649,8 +649,8 @@
                   "end": 962,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -681,8 +681,8 @@
                           "end": 978,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -690,8 +690,8 @@
                         "end": 986,
                         "name": "indexOf"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -699,8 +699,8 @@
                       "end": 991,
                       "name": "call"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -723,14 +723,14 @@
                   "start": 1014,
                   "end": 1016,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1015,
                     "end": 1016,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false

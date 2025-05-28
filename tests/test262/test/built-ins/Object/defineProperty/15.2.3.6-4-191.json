@@ -36,8 +36,8 @@
                   "end": 425,
                   "name": "defineProperty"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -56,8 +56,8 @@
                     "end": 441,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -75,9 +75,7 @@
                       "type": "Property",
                       "start": 454,
                       "end": 463,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 454,
@@ -91,15 +89,15 @@
                         "value": 11,
                         "raw": "11"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 469,
                       "end": 487,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 469,
@@ -113,7 +111,9 @@
                         "value": true,
                         "raw": "true"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -125,6 +125,7 @@
             "type": "VariableDeclaration",
             "start": 497,
             "end": 513,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -143,8 +144,7 @@
                   "elements": []
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -170,8 +170,8 @@
                   "end": 538,
                   "name": "defineProperty"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -196,9 +196,7 @@
                       "type": "Property",
                       "start": 558,
                       "end": 577,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 558,
@@ -212,7 +210,9 @@
                         "value": false,
                         "raw": "false"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -229,7 +229,6 @@
               "start": 591,
               "end": 618,
               "operator": "!",
-              "prefix": true,
               "argument": {
                 "type": "CallExpression",
                 "start": 592,
@@ -250,8 +249,8 @@
                     "end": 613,
                     "name": "hasOwnProperty"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -263,7 +262,8 @@
                   }
                 ],
                 "optional": false
-              }
+              },
+              "prefix": true
             },
             "consequent": {
               "type": "BlockStatement",
@@ -317,8 +317,8 @@
                               "end": 730,
                               "name": "hasOwnProperty"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -367,8 +367,8 @@
                     "end": 763,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Literal",
@@ -377,8 +377,8 @@
                   "value": 0,
                   "raw": "0"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "operator": "!==",
               "right": {
@@ -441,8 +441,8 @@
                               "end": 870,
                               "name": "prototype"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "property": {
                             "type": "Literal",
@@ -451,8 +451,8 @@
                             "value": 0,
                             "raw": "0"
                           },
-                          "computed": true,
-                          "optional": false
+                          "optional": false,
+                          "computed": true
                         }
                       }
                     ]
@@ -475,7 +475,6 @@
                 "start": 886,
                 "end": 902,
                 "operator": "typeof",
-                "prefix": true,
                 "argument": {
                   "type": "MemberExpression",
                   "start": 893,
@@ -493,9 +492,10 @@
                     "value": 0,
                     "raw": "0"
                   },
-                  "computed": true,
-                  "optional": false
-                }
+                  "optional": false,
+                  "computed": true
+                },
+                "prefix": true
               },
               "operator": "!==",
               "right": {
@@ -543,7 +543,6 @@
                           "start": 1007,
                           "end": 1023,
                           "operator": "typeof",
-                          "prefix": true,
                           "argument": {
                             "type": "MemberExpression",
                             "start": 1014,
@@ -561,9 +560,10 @@
                               "value": 0,
                               "raw": "0"
                             },
-                            "computed": true,
-                            "optional": false
-                          }
+                            "optional": false,
+                            "computed": true
+                          },
+                          "prefix": true
                         }
                       }
                     ]
@@ -590,7 +590,6 @@
               "start": 1045,
               "end": 1070,
               "operator": "delete",
-              "prefix": true,
               "argument": {
                 "type": "MemberExpression",
                 "start": 1052,
@@ -611,8 +610,8 @@
                     "end": 1067,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Literal",
@@ -621,9 +620,10 @@
                   "value": 0,
                   "raw": "0"
                 },
-                "computed": true,
-                "optional": false
-              }
+                "optional": false,
+                "computed": true
+              },
+              "prefix": true
             }
           }
         ]

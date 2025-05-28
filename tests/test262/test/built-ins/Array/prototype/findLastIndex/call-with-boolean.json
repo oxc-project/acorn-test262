@@ -27,8 +27,8 @@
             "end": 301,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -59,8 +59,8 @@
                     "end": 320,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -68,8 +68,8 @@
                   "end": 334,
                   "name": "findLastIndex"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -77,8 +77,8 @@
                 "end": 339,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -92,9 +92,7 @@
                 "type": "ArrowFunctionExpression",
                 "start": 346,
                 "end": 354,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
@@ -102,7 +100,9 @@
                   "start": 352,
                   "end": 354,
                   "body": []
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ],
             "optional": false
@@ -112,14 +112,14 @@
             "start": 359,
             "end": 361,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 360,
               "end": 361,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -156,8 +156,8 @@
             "end": 452,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -188,8 +188,8 @@
                     "end": 471,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -197,8 +197,8 @@
                   "end": 485,
                   "name": "findLastIndex"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -206,8 +206,8 @@
                 "end": 490,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -221,9 +221,7 @@
                 "type": "ArrowFunctionExpression",
                 "start": 498,
                 "end": 506,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
@@ -231,7 +229,9 @@
                   "start": 504,
                   "end": 506,
                   "body": []
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ],
             "optional": false
@@ -241,14 +241,14 @@
             "start": 511,
             "end": 513,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 512,
               "end": 513,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

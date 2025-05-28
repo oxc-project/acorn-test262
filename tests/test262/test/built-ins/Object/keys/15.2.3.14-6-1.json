@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 309,
       "end": 336,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -47,13 +48,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 338,
       "end": 357,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -72,8 +73,7 @@
             "elements": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForInStatement",
@@ -83,6 +83,7 @@
         "type": "VariableDeclaration",
         "start": 363,
         "end": 368,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -96,8 +97,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -134,8 +134,8 @@
                   "end": 417,
                   "name": "hasOwnProperty"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -176,8 +176,8 @@
                         "end": 442,
                         "name": "push"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -201,6 +201,7 @@
       "type": "VariableDeclaration",
       "start": 454,
       "end": 498,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -232,8 +233,8 @@
                 "end": 485,
                 "name": "keys"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -246,8 +247,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForInStatement",
@@ -257,6 +257,7 @@
         "type": "VariableDeclaration",
         "start": 505,
         "end": 514,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -270,8 +271,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -308,8 +308,8 @@
                   "end": 553,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -328,8 +328,8 @@
                     "end": 569,
                     "name": "index"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 {
                   "type": "MemberExpression",
@@ -347,8 +347,8 @@
                     "end": 591,
                     "name": "index"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 {
                   "type": "Literal",

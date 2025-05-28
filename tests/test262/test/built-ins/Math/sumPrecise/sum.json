@@ -27,8 +27,8 @@
             "end": 296,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -51,8 +51,8 @@
                 "end": 312,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -121,8 +121,8 @@
             "end": 345,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -145,8 +145,8 @@
                 "end": 361,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -201,8 +201,8 @@
             "end": 396,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -225,8 +225,8 @@
                 "end": 412,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -246,14 +246,14 @@
                     "start": 421,
                     "end": 427,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 422,
                       "end": 427,
                       "value": 1e+308,
                       "raw": "1e308"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               }
@@ -295,8 +295,8 @@
             "end": 451,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -319,8 +319,8 @@
                 "end": 467,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -375,8 +375,8 @@
             "end": 498,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -399,8 +399,8 @@
                 "end": 514,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -462,8 +462,8 @@
             "end": 550,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -486,8 +486,8 @@
                 "end": 566,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -507,14 +507,14 @@
                     "start": 573,
                     "end": 577,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 574,
                       "end": 577,
                       "value": 0.1,
                       "raw": "0.1"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               }
@@ -556,8 +556,8 @@
             "end": 601,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -580,8 +580,8 @@
                 "end": 617,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -636,42 +636,42 @@
                     "start": 654,
                     "end": 659,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 655,
                       "end": 659,
                       "value": 1e+30,
                       "raw": "1e30"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "UnaryExpression",
                     "start": 661,
                     "end": 667,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 662,
                       "end": 667,
                       "value": 1e+308,
                       "raw": "1e308"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "UnaryExpression",
                     "start": 669,
                     "end": 675,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 670,
                       "end": 675,
                       "value": 1e+308,
                       "raw": "1e308"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               }
@@ -713,8 +713,8 @@
             "end": 717,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -737,8 +737,8 @@
                 "end": 733,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -765,14 +765,14 @@
                     "start": 746,
                     "end": 751,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 747,
                       "end": 751,
                       "value": 1e+30,
                       "raw": "1e30"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               }
@@ -814,8 +814,8 @@
             "end": 910,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -838,8 +838,8 @@
                 "end": 926,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -866,14 +866,14 @@
                     "start": 975,
                     "end": 999,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 976,
                       "end": 999,
                       "value": 1.7976931348623157e+308,
                       "raw": "1.7976931348623157e+308"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               }
@@ -915,8 +915,8 @@
             "end": 1042,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -939,8 +939,8 @@
                 "end": 1058,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -953,14 +953,14 @@
                     "start": 1060,
                     "end": 1083,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1061,
                       "end": 1083,
                       "value": 5.630637621603525e+255,
                       "raw": "5.630637621603525e+255"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -1016,8 +1016,8 @@
             "end": 1177,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1040,8 +1040,8 @@
                 "end": 1193,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1068,14 +1068,14 @@
                     "start": 1221,
                     "end": 1245,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1222,
                       "end": 1245,
                       "value": 1.2689709186578243e-116,
                       "raw": "1.2689709186578243e-116"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -1089,14 +1089,14 @@
                     "start": 1272,
                     "end": 1295,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1273,
                       "end": 1295,
                       "value": 9.979201547673601e+291,
                       "raw": "9.979201547673601e+291"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -1110,42 +1110,42 @@
                     "start": 1321,
                     "end": 1344,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1322,
                       "end": 1344,
                       "value": 3.179557053031852e+234,
                       "raw": "3.179557053031852e+234"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "UnaryExpression",
                     "start": 1346,
                     "end": 1369,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1347,
                       "end": 1369,
                       "value": 7.027282978772846e+307,
                       "raw": "7.027282978772846e+307"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "UnaryExpression",
                     "start": 1371,
                     "end": 1390,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1372,
                       "end": 1390,
                       "value": 0.7500000000000001,
                       "raw": "0.7500000000000001"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               }
@@ -1187,8 +1187,8 @@
             "end": 1434,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1211,8 +1211,8 @@
                 "end": 1450,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1232,14 +1232,14 @@
                     "start": 1473,
                     "end": 1496,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1474,
                       "end": 1496,
                       "value": 8.988465674311582e+307,
                       "raw": "8.988465674311582e+307"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -1253,14 +1253,14 @@
                     "start": 1523,
                     "end": 1542,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1524,
                       "end": 1542,
                       "value": 15.999999999999996,
                       "raw": "15.999999999999996"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -1281,42 +1281,42 @@
                     "start": 1588,
                     "end": 1606,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1589,
                       "end": 1606,
                       "value": 2.033582473639399,
                       "raw": "2.033582473639399"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "UnaryExpression",
                     "start": 1608,
                     "end": 1630,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1609,
                       "end": 1630,
                       "value": 8.98846567431158e+307,
                       "raw": "8.98846567431158e+307"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "UnaryExpression",
                     "start": 1632,
                     "end": 1656,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1633,
                       "end": 1656,
                       "value": 3.5737295155405993e+292,
                       "raw": "3.5737295155405993e+292"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -1330,14 +1330,14 @@
                     "start": 1681,
                     "end": 1704,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1682,
                       "end": 1704,
                       "value": 3.6111186457260667e-35,
                       "raw": "3.6111186457260667e-35"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -1365,14 +1365,14 @@
                     "start": 1778,
                     "end": 1802,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1779,
                       "end": 1802,
                       "value": 2.6331611115768973e-149,
                       "raw": "2.6331611115768973e-149"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               }
@@ -1384,13 +1384,13 @@
             "start": 1806,
             "end": 1815,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 1807,
               "end": 1815,
               "name": "Infinity"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -1420,8 +1420,8 @@
             "end": 1834,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1444,8 +1444,8 @@
                 "end": 1850,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1458,14 +1458,14 @@
                     "start": 1852,
                     "end": 1876,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1853,
                       "end": 1876,
                       "value": 1.1442589134409902e+308,
                       "raw": "1.1442589134409902e+308"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -1486,14 +1486,14 @@
                     "start": 1926,
                     "end": 1950,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1927,
                       "end": 1950,
                       "value": 1.3482698511467367e+308,
                       "raw": "1.3482698511467367e+308"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -1512,14 +1512,14 @@
             "start": 1978,
             "end": 2002,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1979,
               "end": 2002,
               "value": 1.5936821971565685e+308,
               "raw": "1.5936821971565685e+308"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -1549,8 +1549,8 @@
             "end": 2021,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1573,8 +1573,8 @@
                 "end": 2037,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1587,14 +1587,14 @@
                     "start": 2039,
                     "end": 2063,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 2040,
                       "end": 2063,
                       "value": 1.1442589134409902e+308,
                       "raw": "1.1442589134409902e+308"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -1608,14 +1608,14 @@
                     "start": 2089,
                     "end": 2113,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 2090,
                       "end": 2113,
                       "value": 1.3482698511467367e+308,
                       "raw": "1.3482698511467367e+308"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -1634,14 +1634,14 @@
             "start": 2141,
             "end": 2165,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2142,
               "end": 2165,
               "value": 1.5936821971565687e+308,
               "raw": "1.5936821971565687e+308"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -1671,8 +1671,8 @@
             "end": 2184,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1695,8 +1695,8 @@
                 "end": 2200,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1716,28 +1716,28 @@
                     "start": 2226,
                     "end": 2249,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 2227,
                       "end": 2249,
                       "value": 6.948356297254111e+307,
                       "raw": "6.948356297254111e+307"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "UnaryExpression",
                     "start": 2251,
                     "end": 2275,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 2252,
                       "end": 2275,
                       "value": 1.3482698511467367e+308,
                       "raw": "1.3482698511467367e+308"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -1756,14 +1756,14 @@
             "start": 2303,
             "end": 2327,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2304,
               "end": 2327,
               "value": 1.5936821971565685e+308,
               "raw": "1.5936821971565685e+308"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -1793,8 +1793,8 @@
             "end": 2346,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1817,8 +1817,8 @@
                 "end": 2362,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1831,14 +1831,14 @@
                     "start": 2364,
                     "end": 2387,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 2365,
                       "end": 2387,
                       "value": 2.534858246857893e+115,
                       "raw": "2.534858246857893e+115"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -1894,8 +1894,8 @@
             "end": 2480,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1918,8 +1918,8 @@
                 "end": 2496,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1987,8 +1987,8 @@
             "end": 2601,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2011,8 +2011,8 @@
                 "end": 2617,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2039,14 +2039,14 @@
                     "start": 2668,
                     "end": 2690,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 2669,
                       "end": 2690,
                       "value": 7.388327292663961e+41,
                       "raw": "7.388327292663961e+41"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               }
@@ -2087,8 +2087,8 @@
             "end": 2721,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2111,8 +2111,8 @@
                 "end": 2737,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2125,14 +2125,14 @@
                     "start": 2739,
                     "end": 2762,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 2740,
                       "end": 2762,
                       "value": 1.9807040628566093e+28,
                       "raw": "1.9807040628566093e+28"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -2188,8 +2188,8 @@
             "end": 2855,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2212,8 +2212,8 @@
                 "end": 2871,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2226,14 +2226,14 @@
                     "start": 2873,
                     "end": 2896,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 2874,
                       "end": 2896,
                       "value": 1.0214557991173964e+61,
                       "raw": "1.0214557991173964e+61"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -2254,14 +2254,14 @@
                     "start": 2946,
                     "end": 2969,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 2947,
                       "end": 2969,
                       "value": 8.988465674311579e+307,
                       "raw": "8.988465674311579e+307"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               }
@@ -2303,8 +2303,8 @@
             "end": 3015,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2327,8 +2327,8 @@
                 "end": 3031,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2355,14 +2355,14 @@
                     "start": 3077,
                     "end": 3100,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 3078,
                       "end": 3100,
                       "value": 1.908963895403937e-230,
                       "raw": "1.908963895403937e-230"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -2417,8 +2417,8 @@
             "end": 3181,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2441,8 +2441,8 @@
                 "end": 3197,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2462,28 +2462,28 @@
                     "start": 3223,
                     "end": 3246,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 3224,
                       "end": 3246,
                       "value": 9.979201547673601e+291,
                       "raw": "9.979201547673601e+291"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "UnaryExpression",
                     "start": 3248,
                     "end": 3272,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 3249,
                       "end": 3272,
                       "value": 1.7976931348623157e+308,
                       "raw": "1.7976931348623157e+308"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               }
@@ -2495,13 +2495,13 @@
             "start": 3276,
             "end": 3285,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 3277,
               "end": 3285,
               "name": "Infinity"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -2531,8 +2531,8 @@
             "end": 3304,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2555,8 +2555,8 @@
                 "end": 3320,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2583,14 +2583,14 @@
                     "start": 3369,
                     "end": 3391,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 3370,
                       "end": 3391,
                       "value": 0.0002441406250000001,
                       "raw": "0.0002441406250000001"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -2611,14 +2611,14 @@
                     "start": 3442,
                     "end": 3466,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 3443,
                       "end": 3466,
                       "value": 1.6836699406454528e+308,
                       "raw": "1.6836699406454528e+308"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               }
@@ -2660,8 +2660,8 @@
             "end": 3511,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2684,8 +2684,8 @@
                 "end": 3527,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2719,42 +2719,42 @@
                     "start": 3596,
                     "end": 3620,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 3597,
                       "end": 3620,
                       "value": 2.2303483759420562e-172,
                       "raw": "2.2303483759420562e-172"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "UnaryExpression",
                     "start": 3622,
                     "end": 3646,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 3623,
                       "end": 3646,
                       "value": 1.7976931348623157e+308,
                       "raw": "1.7976931348623157e+308"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "UnaryExpression",
                     "start": 3648,
                     "end": 3670,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 3649,
                       "end": 3670,
                       "value": 8.98846567431158e+307,
                       "raw": "8.98846567431158e+307"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               }
@@ -2766,14 +2766,14 @@
             "start": 3674,
             "end": 3698,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 3675,
               "end": 3698,
               "value": 1.7976931348623157e+308,
               "raw": "1.7976931348623157e+308"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -2803,8 +2803,8 @@
             "end": 3717,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2827,8 +2827,8 @@
                 "end": 3733,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

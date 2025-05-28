@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 669,
       "end": 682,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             "elements": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -52,8 +52,8 @@
             "end": 695,
             "name": "keys"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -99,9 +99,7 @@
                         "type": "Property",
                         "start": 729,
                         "end": 772,
-                        "method": true,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 729,
@@ -113,7 +111,6 @@
                           "start": 732,
                           "end": 772,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [
@@ -165,8 +162,8 @@
                                       "end": 761,
                                       "name": "push"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "arguments": [
                                     {
@@ -180,9 +177,12 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         },
-                        "kind": "init"
+                        "method": true,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -218,8 +218,8 @@
             "end": 799,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

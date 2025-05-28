@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 618,
       "end": 643,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,8 +40,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -67,15 +67,14 @@
             "end": 656,
             "name": "toString"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 659,
           "end": 692,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -97,7 +96,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -126,15 +126,14 @@
             "end": 705,
             "name": "valueOf"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 708,
           "end": 770,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -169,7 +168,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -177,6 +177,7 @@
       "type": "VariableDeclaration",
       "start": 773,
       "end": 827,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -197,9 +198,7 @@
                 "type": "Property",
                 "start": 789,
                 "end": 794,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 789,
@@ -214,15 +213,15 @@
                   "value": 1,
                   "raw": "1"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 798,
                 "end": 809,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 798,
@@ -236,15 +235,15 @@
                   "value": 2,
                   "raw": "2"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 813,
                 "end": 823,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 813,
@@ -258,13 +257,14 @@
                   "value": 3,
                   "raw": "3"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -290,8 +290,8 @@
             "end": 845,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -314,8 +314,8 @@
                 "end": 860,
                 "name": "stringify"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

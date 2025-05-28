@@ -27,8 +27,8 @@
             "end": 1182,
             "name": "seal"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -63,8 +63,8 @@
                       "end": 1209,
                       "name": "getPrototypeOf"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -72,7 +72,6 @@
                       "start": 1210,
                       "end": 1226,
                       "id": null,
-                      "expression": false,
                       "generator": true,
                       "async": false,
                       "params": [],
@@ -81,7 +80,8 @@
                         "start": 1224,
                         "end": 1226,
                         "body": []
-                      }
+                      },
+                      "expression": false
                     }
                   ],
                   "optional": false
@@ -92,8 +92,8 @@
                   "end": 1239,
                   "name": "constructor"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             },
             "arguments": []

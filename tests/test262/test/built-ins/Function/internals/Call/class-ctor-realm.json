@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 370,
       "end": 403,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,20 +39,20 @@
                 "end": 400,
                 "name": "createRealm"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 404,
       "end": 446,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -87,8 +88,8 @@
                   "end": 426,
                   "name": "global"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -96,8 +97,8 @@
                 "end": 431,
                 "name": "eval"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -111,13 +112,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 447,
       "end": 481,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -149,8 +150,8 @@
                 "end": 470,
                 "name": "global"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -158,12 +159,11 @@
               "end": 480,
               "name": "TypeError"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -189,8 +189,8 @@
             "end": 496,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -204,7 +204,6 @@
             "start": 501,
             "end": 522,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -232,7 +231,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

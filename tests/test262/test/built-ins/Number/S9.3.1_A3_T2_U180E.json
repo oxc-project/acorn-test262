@@ -13,7 +13,6 @@
         "end": 837,
         "name": "dynaString"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -87,7 +86,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -113,8 +113,8 @@
             "end": 912,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -200,8 +200,8 @@
             "end": 1025,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -209,7 +209,6 @@
             "start": 1026,
             "end": 1063,
             "operator": "+",
-            "prefix": true,
             "argument": {
               "type": "ParenthesizedExpression",
               "start": 1027,
@@ -242,7 +241,8 @@
                 ],
                 "optional": false
               }
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Identifier",
@@ -285,8 +285,8 @@
             "end": 1148,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -372,8 +372,8 @@
             "end": 1277,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

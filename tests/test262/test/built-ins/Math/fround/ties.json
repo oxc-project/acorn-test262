@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1120,
       "end": 1133,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "1.0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1134,
       "end": 1162,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,13 +53,13 @@
             "raw": "1.0000000596046448"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1163,
       "end": 1191,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -78,13 +79,13 @@
             "raw": "1.0000001192092896"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1192,
       "end": 1220,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -104,13 +105,13 @@
             "raw": "1.0000001788139343"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1221,
       "end": 1248,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -130,13 +131,13 @@
             "raw": "1.000000238418579"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1249,
       "end": 1277,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -156,13 +157,13 @@
             "raw": "1.0000002980232239"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1278,
       "end": 1306,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -182,8 +183,7 @@
             "raw": "1.0000003576278687"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -209,8 +209,8 @@
             "end": 1324,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -233,8 +233,8 @@
                 "end": 1336,
                 "name": "fround"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -287,8 +287,8 @@
             "end": 1382,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -311,8 +311,8 @@
                 "end": 1394,
                 "name": "fround"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -365,8 +365,8 @@
             "end": 1440,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -389,8 +389,8 @@
                 "end": 1452,
                 "name": "fround"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -443,8 +443,8 @@
             "end": 1498,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -467,8 +467,8 @@
                 "end": 1510,
                 "name": "fround"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -521,8 +521,8 @@
             "end": 1556,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -545,8 +545,8 @@
                 "end": 1568,
                 "name": "fround"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -599,8 +599,8 @@
             "end": 1614,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -623,8 +623,8 @@
                 "end": 1626,
                 "name": "fround"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -677,8 +677,8 @@
             "end": 1672,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -701,8 +701,8 @@
                 "end": 1684,
                 "name": "fround"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -755,8 +755,8 @@
             "end": 1731,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -779,8 +779,8 @@
                 "end": 1743,
                 "name": "fround"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -788,13 +788,13 @@
                 "start": 1744,
                 "end": 1747,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 1745,
                   "end": 1747,
                   "name": "a0"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -804,13 +804,13 @@
             "start": 1750,
             "end": 1753,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 1751,
               "end": 1753,
               "name": "a0"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -847,8 +847,8 @@
             "end": 1792,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -871,8 +871,8 @@
                 "end": 1804,
                 "name": "fround"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -880,13 +880,13 @@
                 "start": 1805,
                 "end": 1808,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 1806,
                   "end": 1808,
                   "name": "a1"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -896,13 +896,13 @@
             "start": 1811,
             "end": 1814,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 1812,
               "end": 1814,
               "name": "a0"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -939,8 +939,8 @@
             "end": 1853,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -963,8 +963,8 @@
                 "end": 1865,
                 "name": "fround"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -972,13 +972,13 @@
                 "start": 1866,
                 "end": 1869,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 1867,
                   "end": 1869,
                   "name": "a2"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -988,13 +988,13 @@
             "start": 1872,
             "end": 1875,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 1873,
               "end": 1875,
               "name": "a2"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1031,8 +1031,8 @@
             "end": 1914,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1055,8 +1055,8 @@
                 "end": 1926,
                 "name": "fround"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1064,13 +1064,13 @@
                 "start": 1927,
                 "end": 1930,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 1928,
                   "end": 1930,
                   "name": "a3"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -1080,13 +1080,13 @@
             "start": 1933,
             "end": 1936,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 1934,
               "end": 1936,
               "name": "a4"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1123,8 +1123,8 @@
             "end": 1975,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1147,8 +1147,8 @@
                 "end": 1987,
                 "name": "fround"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1156,13 +1156,13 @@
                 "start": 1988,
                 "end": 1991,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 1989,
                   "end": 1991,
                   "name": "a4"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -1172,13 +1172,13 @@
             "start": 1994,
             "end": 1997,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 1995,
               "end": 1997,
               "name": "a4"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1215,8 +1215,8 @@
             "end": 2036,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1239,8 +1239,8 @@
                 "end": 2048,
                 "name": "fround"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1248,13 +1248,13 @@
                 "start": 2049,
                 "end": 2052,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 2050,
                   "end": 2052,
                   "name": "a5"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -1264,13 +1264,13 @@
             "start": 2055,
             "end": 2058,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 2056,
               "end": 2058,
               "name": "a4"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1307,8 +1307,8 @@
             "end": 2097,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1331,8 +1331,8 @@
                 "end": 2109,
                 "name": "fround"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1340,13 +1340,13 @@
                 "start": 2110,
                 "end": 2113,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 2111,
                   "end": 2113,
                   "name": "a6"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -1356,13 +1356,13 @@
             "start": 2116,
             "end": 2119,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 2117,
               "end": 2119,
               "name": "a6"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

@@ -27,8 +27,8 @@
             "end": 523,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 527,
             "end": 565,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 534,
@@ -57,8 +56,8 @@
                   "end": 550,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -66,9 +65,10 @@
                 "end": 565,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -92,6 +92,7 @@
       "type": "VariableDeclaration",
       "start": 672,
       "end": 707,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -112,9 +113,7 @@
                 "type": "Property",
                 "start": 686,
                 "end": 704,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 686,
@@ -128,13 +127,14 @@
                   "value": true,
                   "raw": "true"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -160,8 +160,8 @@
             "end": 725,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -169,7 +169,6 @@
             "start": 729,
             "end": 754,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 736,
@@ -186,9 +185,10 @@
                 "end": 754,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -228,7 +228,6 @@
             "start": 858,
             "end": 895,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 859,
@@ -249,8 +248,8 @@
                   "end": 877,
                   "name": "hasOwnProperty"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -262,7 +261,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -295,13 +295,11 @@
             "start": 989,
             "end": 1025,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "UnaryExpression",
               "start": 990,
               "end": 1025,
               "operator": "!",
-              "prefix": true,
               "argument": {
                 "type": "CallExpression",
                 "start": 991,
@@ -322,8 +320,8 @@
                     "end": 1009,
                     "name": "hasOwnProperty"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -335,8 +333,10 @@
                   }
                 ],
                 "optional": false
-              }
-            }
+              },
+              "prefix": true
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

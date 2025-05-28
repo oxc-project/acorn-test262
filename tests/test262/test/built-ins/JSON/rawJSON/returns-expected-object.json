@@ -13,7 +13,6 @@
         "end": 538,
         "name": "assertIsRawJSON"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -59,8 +58,8 @@
                   "end": 590,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -83,8 +82,8 @@
                       "end": 612,
                       "name": "getPrototypeOf"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -149,8 +148,8 @@
                       "end": 697,
                       "name": "hasOwn"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -204,8 +203,8 @@
                   "end": 792,
                   "name": "compareArray"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -228,8 +227,8 @@
                       "end": 819,
                       "name": "getOwnPropertyNames"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -290,8 +289,8 @@
                   "end": 921,
                   "name": "compareArray"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -314,8 +313,8 @@
                       "end": 950,
                       "name": "getOwnPropertySymbols"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -368,8 +367,8 @@
                   "end": 1038,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -388,8 +387,8 @@
                     "end": 1054,
                     "name": "rawJSON"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Identifier",
@@ -409,7 +408,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -446,8 +446,8 @@
                 "end": 1127,
                 "name": "rawJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -506,8 +506,8 @@
                 "end": 1166,
                 "name": "rawJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -566,8 +566,8 @@
                 "end": 1211,
                 "name": "rawJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -626,8 +626,8 @@
                 "end": 1256,
                 "name": "rawJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -686,8 +686,8 @@
                 "end": 1303,
                 "name": "rawJSON"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

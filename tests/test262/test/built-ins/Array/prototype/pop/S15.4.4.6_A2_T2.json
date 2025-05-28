@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 440,
       "end": 453,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -53,8 +53,8 @@
             "end": 461,
             "name": "pop"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "MemberExpression",
@@ -76,8 +76,8 @@
               "end": 479,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -85,8 +85,8 @@
             "end": 483,
             "name": "pop"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       }
     },
@@ -115,8 +115,8 @@
             "end": 496,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Identifier",
@@ -130,6 +130,7 @@
       "type": "VariableDeclaration",
       "start": 504,
       "end": 524,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -161,15 +162,14 @@
                 "end": 521,
                 "name": "pop"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -268,8 +268,8 @@
             "end": 705,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -332,8 +332,8 @@
                         "end": 860,
                         "name": "length"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 }
@@ -369,8 +369,8 @@
             "end": 877,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "MemberExpression",
@@ -388,8 +388,8 @@
             "end": 904,
             "name": "POSITIVE_INFINITY"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       }
     },
@@ -397,6 +397,7 @@
       "type": "VariableDeclaration",
       "start": 906,
       "end": 926,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -428,15 +429,14 @@
                 "end": 923,
                 "name": "pop"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -535,8 +535,8 @@
             "end": 1128,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -599,8 +599,8 @@
                         "end": 1334,
                         "name": "length"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 }
@@ -636,8 +636,8 @@
             "end": 1351,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "MemberExpression",
@@ -655,8 +655,8 @@
             "end": 1378,
             "name": "NEGATIVE_INFINITY"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       }
     },
@@ -664,6 +664,7 @@
       "type": "VariableDeclaration",
       "start": 1380,
       "end": 1400,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -695,15 +696,14 @@
                 "end": 1397,
                 "name": "pop"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -802,8 +802,8 @@
             "end": 1602,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -866,8 +866,8 @@
                         "end": 1778,
                         "name": "length"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 }
@@ -903,22 +903,22 @@
             "end": 1795,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "UnaryExpression",
           "start": 1798,
           "end": 1800,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 1799,
             "end": 1800,
             "value": 0,
             "raw": "0"
-          }
+          },
+          "prefix": true
         }
       }
     },
@@ -926,6 +926,7 @@
       "type": "VariableDeclaration",
       "start": 1802,
       "end": 1822,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -957,15 +958,14 @@
                 "end": 1819,
                 "name": "pop"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -1064,8 +1064,8 @@
             "end": 2002,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -1128,8 +1128,8 @@
                         "end": 2156,
                         "name": "length"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 }
@@ -1179,8 +1179,8 @@
                     "end": 2189,
                     "name": "length"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               },
               "operator": "!==",
@@ -1200,8 +1200,8 @@
                   "end": 2218,
                   "name": "POSITIVE_INFINITY"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             },
             "consequent": {
@@ -1256,8 +1256,8 @@
                               "end": 2369,
                               "name": "length"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           }
                         }
                       }
@@ -1296,8 +1296,8 @@
             "end": 2390,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -1312,6 +1312,7 @@
       "type": "VariableDeclaration",
       "start": 2398,
       "end": 2418,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1343,15 +1344,14 @@
                 "end": 2415,
                 "name": "pop"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -1450,8 +1450,8 @@
             "end": 2599,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -1514,8 +1514,8 @@
                         "end": 2755,
                         "name": "length"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 }
@@ -1551,8 +1551,8 @@
             "end": 2772,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "NewExpression",
@@ -1580,6 +1580,7 @@
       "type": "VariableDeclaration",
       "start": 2790,
       "end": 2810,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1611,15 +1612,14 @@
                 "end": 2807,
                 "name": "pop"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -1718,8 +1718,8 @@
             "end": 3002,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -1782,8 +1782,8 @@
                         "end": 3168,
                         "name": "length"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 }

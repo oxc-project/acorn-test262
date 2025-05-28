@@ -27,8 +27,8 @@
             "end": 350,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -51,8 +51,8 @@
                 "end": 365,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -67,7 +67,6 @@
                 "start": 369,
                 "end": 372,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 370,
@@ -75,7 +74,8 @@
                   "value": null,
                   "raw": "2n",
                   "bigint": "2"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -116,8 +116,8 @@
             "end": 396,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -140,8 +140,8 @@
                 "end": 411,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -156,7 +156,6 @@
                 "start": 415,
                 "end": 418,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 416,
@@ -164,7 +163,8 @@
                   "value": null,
                   "raw": "1n",
                   "bigint": "1"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -205,8 +205,8 @@
             "end": 442,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -229,8 +229,8 @@
                 "end": 457,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -287,8 +287,8 @@
             "end": 487,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -311,8 +311,8 @@
                 "end": 502,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -369,8 +369,8 @@
             "end": 532,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -393,8 +393,8 @@
                 "end": 547,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -451,8 +451,8 @@
             "end": 578,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -475,8 +475,8 @@
                 "end": 593,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -491,7 +491,6 @@
                 "start": 597,
                 "end": 600,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 598,
@@ -499,7 +498,8 @@
                   "value": null,
                   "raw": "3n",
                   "bigint": "3"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -540,8 +540,8 @@
             "end": 624,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -564,8 +564,8 @@
                 "end": 639,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -580,7 +580,6 @@
                 "start": 643,
                 "end": 646,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 644,
@@ -588,7 +587,8 @@
                   "value": null,
                   "raw": "2n",
                   "bigint": "2"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -629,8 +629,8 @@
             "end": 670,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -653,8 +653,8 @@
                 "end": 685,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -669,7 +669,6 @@
                 "start": 689,
                 "end": 692,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 690,
@@ -677,7 +676,8 @@
                   "value": null,
                   "raw": "1n",
                   "bigint": "1"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -718,8 +718,8 @@
             "end": 716,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -742,8 +742,8 @@
                 "end": 731,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -800,8 +800,8 @@
             "end": 761,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -824,8 +824,8 @@
                 "end": 776,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -882,8 +882,8 @@
             "end": 806,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -906,8 +906,8 @@
                 "end": 821,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -964,8 +964,8 @@
             "end": 851,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -988,8 +988,8 @@
                 "end": 866,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1046,8 +1046,8 @@
             "end": 896,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1070,8 +1070,8 @@
                 "end": 911,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1086,7 +1086,6 @@
                 "start": 915,
                 "end": 938,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 916,
@@ -1094,7 +1093,8 @@
                   "value": null,
                   "raw": "123456789012345678901n",
                   "bigint": "123456789012345678901"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -1135,8 +1135,8 @@
             "end": 962,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1159,8 +1159,8 @@
                 "end": 977,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1175,7 +1175,6 @@
                 "start": 981,
                 "end": 1004,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 982,
@@ -1183,7 +1182,8 @@
                   "value": null,
                   "raw": "123456789012345678900n",
                   "bigint": "123456789012345678900"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -1224,8 +1224,8 @@
             "end": 1028,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1248,8 +1248,8 @@
                 "end": 1043,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1306,8 +1306,8 @@
             "end": 1093,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1330,8 +1330,8 @@
                 "end": 1108,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1388,8 +1388,8 @@
             "end": 1159,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1412,8 +1412,8 @@
                 "end": 1174,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1428,7 +1428,6 @@
                 "start": 1178,
                 "end": 1181,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1179,
@@ -1436,7 +1435,8 @@
                   "value": null,
                   "raw": "3n",
                   "bigint": "3"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -1477,8 +1477,8 @@
             "end": 1205,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1501,8 +1501,8 @@
                 "end": 1220,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1517,7 +1517,6 @@
                 "start": 1224,
                 "end": 1227,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1225,
@@ -1525,7 +1524,8 @@
                   "value": null,
                   "raw": "2n",
                   "bigint": "2"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -1566,8 +1566,8 @@
             "end": 1251,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1590,8 +1590,8 @@
                 "end": 1266,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1606,7 +1606,6 @@
                 "start": 1270,
                 "end": 1273,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1271,
@@ -1614,7 +1613,8 @@
                   "value": null,
                   "raw": "1n",
                   "bigint": "1"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -1655,8 +1655,8 @@
             "end": 1297,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1679,8 +1679,8 @@
                 "end": 1312,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1737,8 +1737,8 @@
             "end": 1342,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1761,8 +1761,8 @@
                 "end": 1357,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1819,8 +1819,8 @@
             "end": 1387,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1843,8 +1843,8 @@
                 "end": 1402,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1901,8 +1901,8 @@
             "end": 1432,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1925,8 +1925,8 @@
                 "end": 1447,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1983,8 +1983,8 @@
             "end": 1477,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2007,8 +2007,8 @@
                 "end": 1492,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2023,7 +2023,6 @@
                 "start": 1496,
                 "end": 1519,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1497,
@@ -2031,7 +2030,8 @@
                   "value": null,
                   "raw": "123456789012345678901n",
                   "bigint": "123456789012345678901"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -2072,8 +2072,8 @@
             "end": 1543,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2096,8 +2096,8 @@
                 "end": 1558,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2112,7 +2112,6 @@
                 "start": 1562,
                 "end": 1585,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1563,
@@ -2120,7 +2119,8 @@
                   "value": null,
                   "raw": "123456789012345678900n",
                   "bigint": "123456789012345678900"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -2161,8 +2161,8 @@
             "end": 1609,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2185,8 +2185,8 @@
                 "end": 1624,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2243,8 +2243,8 @@
             "end": 1674,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2267,8 +2267,8 @@
                 "end": 1689,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2325,8 +2325,8 @@
             "end": 1740,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2349,8 +2349,8 @@
                 "end": 1755,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2407,8 +2407,8 @@
             "end": 1791,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2431,8 +2431,8 @@
                 "end": 1806,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2489,8 +2489,8 @@
             "end": 1844,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2513,8 +2513,8 @@
                 "end": 1859,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2571,8 +2571,8 @@
             "end": 1901,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2595,8 +2595,8 @@
                 "end": 1916,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2653,8 +2653,8 @@
             "end": 1976,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2677,8 +2677,8 @@
                 "end": 1991,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2735,8 +2735,8 @@
             "end": 2052,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2759,8 +2759,8 @@
                 "end": 2067,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2817,8 +2817,8 @@
             "end": 2138,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2841,8 +2841,8 @@
                 "end": 2153,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2899,8 +2899,8 @@
             "end": 2226,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2923,8 +2923,8 @@
                 "end": 2241,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2981,8 +2981,8 @@
             "end": 2384,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3005,8 +3005,8 @@
                 "end": 2399,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -3063,8 +3063,8 @@
             "end": 2543,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3087,8 +3087,8 @@
                 "end": 2558,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -3145,8 +3145,8 @@
             "end": 2701,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3169,8 +3169,8 @@
                 "end": 2716,
                 "name": "asUintN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
